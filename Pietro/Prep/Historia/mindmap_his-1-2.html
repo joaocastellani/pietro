@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Mapa Mental — Brasil: do Império à República</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Inter',sans-serif;background:#F4F2EE;color:#1a1a1a;font-size:14px}
+  .header{background:#3D1A24;color:#fff;padding:32px 24px 24px;text-align:center}
+  .header .sub{font-size:13px;opacity:.75;margin-bottom:6px;letter-spacing:.05em;text-transform:uppercase}
+  .header h1{font-size:32px;font-weight:800;line-height:1.2;margin-bottom:8px}
+  .header .tag{font-size:13px;opacity:.65;margin-bottom:16px}
+  .legend{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-top:8px}
+  .legend span{display:flex;align-items:center;gap:6px;font-size:12px;opacity:.85}
+  .legend .dot{width:12px;height:12px;border-radius:50%}
+  .dot-dom{background:#2d6a4f}
+  .dot-re{background:#c0392b}
+  .dot-nt{background:#1a3d2b}
+
+  .central{background:#3D1A24;color:#fff;text-align:center;padding:14px 32px;border-radius:999px;font-size:18px;font-weight:700;width:fit-content;margin:28px auto 24px}
+
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:0 24px 24px}
+  @media(max-width:860px){.grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:560px){.grid{grid-template-columns:1fr}}
+
+  .card{background:#fff;border-radius:14px;box-shadow:0 2px 8px rgba(0,0,0,.07);overflow:hidden;display:flex;flex-direction:column}
+  .card-stripe{width:4px;min-height:100%;background:#3D1A24;position:absolute;left:0;top:0;bottom:0;border-radius:4px 0 0 4px}
+  .card-inner{padding:16px 16px 16px 20px;position:relative}
+  .card-num{width:24px;height:24px;border-radius:50%;background:#3D1A24;color:#fff;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-bottom:10px}
+  .card h2{font-size:13px;font-weight:700;margin-bottom:10px;color:#3D1A24;line-height:1.3}
+  .card ul{padding-left:14px;list-style:disc;color:#333}
+  .card ul li{font-size:13px;margin-bottom:5px;line-height:1.4}
+  .badge{display:inline-block;font-size:10px;font-weight:700;padding:2px 8px;border-radius:999px;margin-top:12px;color:#fff;background:#1a3d2b}
+  .badge.dom{background:#2d6a4f}
+  .badge.re{background:#c0392b}
+
+  /* timeline incard */
+  .tl{display:flex;flex-direction:column;gap:6px;margin-top:6px}
+  .tl-item{display:flex;gap:8px;align-items:flex-start}
+  .tl-dot{width:10px;height:10px;border-radius:50%;background:#3D1A24;flex-shrink:0;margin-top:3px}
+  .tl-text{font-size:12px;line-height:1.4;color:#333}
+  .tl-date{font-weight:700;color:#3D1A24}
+
+  /* arrow visual */
+  .arrow-row{display:flex;align-items:center;gap:6px;margin:4px 0;font-size:12px;flex-wrap:wrap}
+  .arrow-row .arr{color:#3D1A24;font-weight:700}
+
+  /* tips section */
+  .tips{background:#FFF0F3;border:2px solid #3D1A24;border-radius:14px;margin:0 24px 32px;padding:20px 24px}
+  .tips h2{color:#3D1A24;font-size:16px;font-weight:800;margin-bottom:16px}
+  .tip-item{display:flex;gap:12px;margin-bottom:14px;align-items:flex-start}
+  .tip-badge{background:#3D1A24;color:#fff;font-size:11px;font-weight:700;padding:3px 10px;border-radius:999px;white-space:nowrap;flex-shrink:0}
+  .tip-text{font-size:13px;color:#333;line-height:1.5}
+
+  /* card wrapper with relative for stripe */
+  .card{position:relative;padding-left:4px}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="sub">História · Unidade 1 · Capítulo 2 · 9º ano</div>
+  <h1>Brasil: do Império à República</h1>
+  <div class="tag">Mapa Mental — gerado na preparação</div>
+  <div class="legend">
+    <span><span class="dot dot-dom"></span>Dominado</span>
+    <span><span class="dot dot-re"></span>Reforçar</span>
+    <span><span class="dot dot-nt"></span>Não testado</span>
+  </div>
+</div>
+
+<div class="central">Segundo Reinado (c. 1850–1889)</div>
+
+<div class="grid">
+
+  <!-- Card 1: Economia do café -->
+  <div class="card">
+    <div class="card-stripe"></div>
+    <div class="card-inner">
+      <div class="card-num">1</div>
+      <h2>Economia do Café</h2>
+      <ul>
+        <li>Brasil = maior produtor mundial de café no séc. XIX</li>
+        <li>Vale do Paraíba (SP–RJ) → Oeste Paulista (interior de SP)</li>
+        <li><strong>Terra roxa:</strong> solo vulcânico avermelhado, ideal para o café</li>
+        <li>Escoamento: porto de Santos</li>
+        <li>Lucros → ferrovias, infraestrutura, urbanização de SP e RJ</li>
+        <li>Coexistia com escravidão e latifúndio (modernização parcial)</li>
+      </ul>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 2: Barão de Mauá -->
+  <div class="card">
+    <div class="card-stripe"></div>
+    <div class="card-inner">
+      <div class="card-num">2</div>
+      <h2>Barão de Mauá e a Industrialização</h2>
+      <ul>
+        <li><strong>Irineu Evangelista de Sousa</strong> = Barão de Mauá</li>
+        <li>Pioneiro da industrialização brasileira</li>
+        <li>Atuou em: indústria naval, férrea, comunicação, eletricidade, bancos</li>
+        <li>Capital do café financiou pequena burguesia industrial emergente</li>
+      </ul>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 3: Leis abolicionistas -->
+  <div class="card">
+    <div class="card-stripe"></div>
+    <div class="card-inner">
+      <div class="card-num">3</div>
+      <h2>Leis Abolicionistas (1850–1888)</h2>
+      <div class="tl">
+        <div class="tl-item"><div class="tl-dot"></div><div class="tl-text"><span class="tl-date">1850</span> Lei Eusébio de Queirós — proíbe tráfico externo</div></div>
+        <div class="tl-item"><div class="tl-dot"></div><div class="tl-text"><span class="tl-date">1871</span> Lei do Ventre Livre — filhos livres a partir dessa data</div></div>
+        <div class="tl-item"><div class="tl-dot"></div><div class="tl-text"><span class="tl-date">1885</span> Lei dos Sexagenários — liberdade com +60 anos</div></div>
+        <div class="tl-item"><div class="tl-dot"></div><div class="tl-text"><span class="tl-date">1888</span> <strong>Lei Áurea</strong> — abolição total</div></div>
+      </div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 4: Guerra do Paraguai -->
+  <div class="card">
+    <div class="card-stripe"></div>
+    <div class="card-inner">
+      <div class="card-num">4</div>
+      <h2>Guerra do Paraguai (1864–1870)</h2>
+      <ul>
+        <li>Maior guerra da América do Sul</li>
+        <li>Envolveu: Brasil, Argentina, Uruguai e Paraguai</li>
+        <li>Causa: disputas territoriais na Bacia do Prata + ascensão de Solano López</li>
+        <li>Paraguai foi devastado pelo conflito</li>
+        <li>D. Pedro II: popularidade enfraquecida</li>
+        <li>Exército: saiu maior, mais profissional e com ambições políticas</li>
+        <li>Soldados negros alforriados → militares adeptos do abolicionismo</li>
+      </ul>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 5: Crise do Império -->
+  <div class="card">
+    <div class="card-stripe"></div>
+    <div class="card-inner">
+      <div class="card-num">5</div>
+      <h2>Crise do Império — 4 Frentes</h2>
+      <ul>
+        <li><strong>Militar:</strong> Exército reivindica valorização; adere ao republicanismo positivista</li>
+        <li><strong>Religiosa:</strong> Bula Syllabus (1864) → bispos presos → Igreja se afasta do Império</li>
+        <li><strong>Abolicionista:</strong> Lei Áurea (1888) → aristocracia abandona D. Pedro II</li>
+        <li><strong>Federalista:</strong> Cafeicultores paulistas querem autonomia; fundam PRP (1873)</li>
+      </ul>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 6: Positivismo e República -->
+  <div class="card">
+    <div class="card-stripe"></div>
+    <div class="card-inner">
+      <div class="card-num">6</div>
+      <h2>Positivismo e Movimento Republicano</h2>
+      <ul>
+        <li><strong>Auguste Comte</strong> (francês) — criador do positivismo</li>
+        <li>Lema: "Amor, ordem e progresso"</li>
+        <li>Sociedades evoluem em estágios; modelo europeu = referência</li>
+        <li>Contra revoluções e participação política das massas</li>
+        <li>1870: Manifesto Republicano — defende república federalista (modelo EUA)</li>
+        <li>1873: Convenção de Itu → Partido Republicano Paulista (PRP)</li>
+      </ul>
+      <div class="arrow-row">
+        <span>Militares + elites</span>
+        <span class="arr">→</span>
+        <span>Positivismo</span>
+        <span class="arr">→</span>
+        <span>República 1889</span>
+      </div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 7: Imigração e branqueamento -->
+  <div class="card">
+    <div class="card-stripe"></div>
+    <div class="card-inner">
+      <div class="card-num">7</div>
+      <h2>Imigração e "Branqueamento"</h2>
+      <ul>
+        <li>Imigrantes: justificativa oficial = mão de obra mais qualificada</li>
+        <li>Objetivo implícito: branqueamento da população</li>
+        <li>Base teórica: <strong>darwinismo social</strong></li>
+        <li>Teorias raciais europeias chegaram tarde ao Brasil, mas foram entusiasticamente adotadas pela elite pensante</li>
+        <li>Obra "Redenção de Cam" (Modesto Brocos, 1895) ilustra a tese do branqueamento</li>
+      </ul>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 8: Personagens-chave -->
+  <div class="card">
+    <div class="card-stripe"></div>
+    <div class="card-inner">
+      <div class="card-num">8</div>
+      <h2>Personagens Principais</h2>
+      <div class="tl">
+        <div class="tl-item"><div class="tl-dot"></div><div class="tl-text"><span class="tl-date">D. Pedro II</span> → Imperador; popularidade cai após Guerra do Paraguai</div></div>
+        <div class="tl-item"><div class="tl-dot"></div><div class="tl-text"><span class="tl-date">Barão de Mauá</span> → Empresário; pioneiro da industrialização brasileira</div></div>
+        <div class="tl-item"><div class="tl-dot"></div><div class="tl-text"><span class="tl-date">Solano López</span> → Presidente do Paraguai; precipitou a guerra</div></div>
+        <div class="tl-item"><div class="tl-dot"></div><div class="tl-text"><span class="tl-date">Auguste Comte</span> → Filósofo francês; criador do positivismo</div></div>
+        <div class="tl-item"><div class="tl-dot"></div><div class="tl-text"><span class="tl-date">Papa Pio IX</span> → Bula Syllabus (1864); questão religiosa no Brasil</div></div>
+      </div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 9: Cronologia final -->
+  <div class="card">
+    <div class="card-stripe"></div>
+    <div class="card-inner">
+      <div class="card-num">9</div>
+      <h2>Linha do Tempo — Do Império à República</h2>
+      <div class="tl">
+        <div class="tl-item"><div class="tl-dot"></div><div class="tl-text"><span class="tl-date">1850</span> Lei Eusébio de Queirós</div></div>
+        <div class="tl-item"><div class="tl-dot"></div><div class="tl-text"><span class="tl-date">1864</span> Bula Syllabus / início da Guerra do Paraguai</div></div>
+        <div class="tl-item"><div class="tl-dot"></div><div class="tl-text"><span class="tl-date">1870</span> Fim da guerra / Manifesto Republicano</div></div>
+        <div class="tl-item"><div class="tl-dot"></div><div class="tl-text"><span class="tl-date">1871</span> Lei do Ventre Livre</div></div>
+        <div class="tl-item"><div class="tl-dot"></div><div class="tl-text"><span class="tl-date">1873</span> Convenção de Itu / PRP</div></div>
+        <div class="tl-item"><div class="tl-dot"></div><div class="tl-text"><span class="tl-date">1885</span> Lei dos Sexagenários</div></div>
+        <div class="tl-item"><div class="tl-dot"></div><div class="tl-text"><span class="tl-date">1888</span> Lei Áurea</div></div>
+        <div class="tl-item"><div class="tl-dot"></div><div class="tl-text"><span class="tl-date">1889</span> Proclamação da República</div></div>
+      </div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+</div>
+
+<!-- Dicas de Ouro -->
+<div class="tips">
+  <h2>⭐ Dicas de Ouro</h2>
+
+  <div class="tip-item">
+    <span class="tip-badge">Dica 1</span>
+    <span class="tip-text"><strong>As leis anteriores à Lei Áurea NÃO aboliram a escravidão.</strong> Eusébio de Queirós (1850) proibiu o tráfico externo; o Ventre Livre (1871) só se aplicava a nascituros; os Sexagenários (1885) excluíam a maioria dos escravizados. Só a Lei Áurea (1888) aboliu definitivamente.</span>
+  </div>
+
+  <div class="tip-item">
+    <span class="tip-badge">Dica 2</span>
+    <span class="tip-text"><strong>D. Pedro I ≠ D. Pedro II.</strong> Este capítulo é sobre o Segundo Reinado — D. Pedro II. D. Pedro I abdicou em 1831.</span>
+  </div>
+
+  <div class="tip-item">
+    <span class="tip-badge">Dica 3</span>
+    <span class="tip-text"><strong>A Guerra do Paraguai enfraqueceu o Brasil internamente.</strong> Apesar da vitória militar, D. Pedro II ficou desgastado e o Exército ganhou poder e ambições políticas — elementos que contribuíram para a queda do Império.</span>
+  </div>
+
+  <div class="tip-item">
+    <span class="tip-badge">Dica 4</span>
+    <span class="tip-text"><strong>Positivismo era contra revoluções — mas justificou um golpe.</strong> Comte defendia ordem, não revolução. Ainda assim, militares brasileiros usaram o positivismo para justificar a Proclamação da República (1889), que foi um golpe militar.</span>
+  </div>
+
+  <div class="tip-item">
+    <span class="tip-badge">Dica 5</span>
+    <span class="tip-text"><strong>A Lei Áurea derrubou a base política da monarquia.</strong> Ao abolir a escravidão, D. Pedro II afastou os grandes proprietários escravocratas que eram seus principais apoiadores. Isso acelerou a queda do Império.</span>
+  </div>
+
+  <div class="tip-item">
+    <span class="tip-badge">Dica 6</span>
+    <span class="tip-text"><strong>Vale do Paraíba ≠ Oeste Paulista.</strong> São regiões distintas. Vale do Paraíba = entre SP e RJ. Oeste Paulista = interior de SP, com terra roxa. A produção cafeeira migrou progressivamente do primeiro para o segundo.</span>
+  </div>
+</div>
+
+</body>
+</html>
