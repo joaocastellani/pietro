@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mapa Mental — História 1.1 — O mundo em transformação</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #F4F2EE;
+    color: #1a1a1a;
+    min-height: 100vh;
+  }
+
+  /* HEADER */
+  .header {
+    background: #3D1A24;
+    color: #fff;
+    padding: 32px 40px 28px;
+    text-align: center;
+  }
+  .header .eyebrow {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #e8b4bc;
+    margin-bottom: 8px;
+  }
+  .header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: 1.2;
+  }
+  .header .subtitle {
+    font-size: 14px;
+    color: #d4929c;
+    margin-bottom: 20px;
+  }
+  .legend {
+    display: inline-flex;
+    gap: 24px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-size: 12px;
+  }
+  .legend span { display: flex; align-items: center; gap: 6px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+  .dot-green { background: #1B5E35; }
+  .dot-red { background: #C62828; }
+  .dot-dark { background: #3D1A24; }
+
+  /* PÍLULA CENTRAL */
+  .pill-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 28px 20px 12px;
+  }
+  .pill {
+    background: #3D1A24;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 36px;
+    border-radius: 50px;
+    letter-spacing: 0.02em;
+  }
+
+  /* GRID */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 16px 32px 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* CARD */
+  .card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 18px 12px;
+    border-left: 4px solid #3D1A24;
+  }
+  .card-num {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #3D1A24;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .card-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #3D1A24;
+    line-height: 1.3;
+  }
+  .card-body {
+    padding: 0 18px 16px;
+    flex: 1;
+  }
+  .card-body ul {
+    list-style: none;
+    padding: 0;
+  }
+  .card-body ul li {
+    font-size: 13px;
+    color: #3a3a3a;
+    padding: 5px 0 5px 14px;
+    position: relative;
+    border-bottom: 1px solid #f0eeea;
+    line-height: 1.5;
+  }
+  .card-body ul li:last-child { border-bottom: none; }
+  .card-body ul li::before {
+    content: "›";
+    position: absolute;
+    left: 0;
+    color: #3D1A24;
+    font-weight: 700;
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin: 10px 18px 14px;
+  }
+  .badge-dark {
+    background: #f0e8ea;
+    color: #3D1A24;
+  }
+
+  /* ALERTA no card */
+  .alert-box {
+    margin: 8px 18px 14px;
+    background: #fff8f8;
+    border: 1px solid #f5c2c2;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 12px;
+    color: #7a2020;
+    line-height: 1.5;
+  }
+  .alert-box strong { display: block; margin-bottom: 3px; color: #5a1515; }
+
+  /* DICAS DE OURO */
+  .tips-section {
+    max-width: 1200px;
+    margin: 0 auto 40px;
+    padding: 0 32px;
+  }
+  .tips-header {
+    font-size: 16px;
+    font-weight: 700;
+    color: #3D1A24;
+    margin-bottom: 16px;
+    padding-left: 4px;
+  }
+  .tips-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  .tip-card {
+    background: #FFF0F3;
+    border: 1.5px solid #3D1A24;
+    border-radius: 12px;
+    padding: 16px;
+  }
+  .tip-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #3D1A24;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .tip-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #3D1A24;
+    margin-bottom: 6px;
+  }
+  .tip-text {
+    font-size: 12px;
+    color: #5a2a30;
+    line-height: 1.6;
+  }
+
+  /* tabela compacta dentro do card */
+  .mini-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    margin-top: 6px;
+  }
+  .mini-table th {
+    background: #f0e8ea;
+    color: #3D1A24;
+    font-weight: 600;
+    padding: 4px 8px;
+    text-align: left;
+  }
+  .mini-table td {
+    padding: 4px 8px;
+    border-bottom: 1px solid #f0eeea;
+    color: #3a3a3a;
+  }
+  .mini-table tr:last-child td { border-bottom: none; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="eyebrow">História · Unidade 1 · Capítulo 1 · 9º ano</div>
+  <h1>O mundo em transformação</h1>
+  <div class="subtitle">Mapa Mental — gerado na preparação</div>
+  <div class="legend">
+    <span><span class="dot dot-green"></span> Dominado</span>
+    <span><span class="dot dot-red"></span> Reforçar</span>
+    <span><span class="dot dot-dark"></span> Não testado</span>
+  </div>
+</div>
+
+<div class="pill-wrap">
+  <div class="pill">Industrialização e imperialismo</div>
+</div>
+
+<div class="grid">
+
+  <!-- Card 1 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">1</div>
+      <div class="card-title">Segunda Revolução Industrial</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Expansão da industrialização além da Inglaterra</li>
+        <li>Novas energias: eletricidade e petróleo</li>
+        <li>Aço: de 551 mil ton. (1870) → 14,9 mi ton. (1895)</li>
+        <li>Condições precárias de trabalho → sindicatos</li>
+        <li>Novas potências: Alemanha, EUA, Japão</li>
+      </ul>
+    </div>
+    <div class="badge badge-dark">● Não testado</div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">2</div>
+      <div class="card-title">Belle Époque e Feiras Universais</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Belle Époque = entusiasmo da burguesia com o progresso</li>
+        <li>Feiras universais: vitrine da tecnologia mundial</li>
+        <li>1851 — Londres: primeira Exposição Universal</li>
+        <li>1889 — Paris: inauguração da Torre Eiffel</li>
+        <li>1900 — Paris: cinematógrafo dos irmãos Lumière</li>
+      </ul>
+    </div>
+    <div class="badge badge-dark">● Não testado</div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">3</div>
+      <div class="card-title">Unificação da Alemanha e Itália</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Motor: nacionalismos do séc. XIX</li>
+        <li>Itália: 1859–1870 (etapas); Piemonte-Sardenha como núcleo</li>
+        <li>Alemanha: 1866–1871; liderada pela Prússia</li>
+        <li>Vittorio Emanuele II: primeiro rei da Itália unificada</li>
+        <li>Trentino, Ístria, Fiume: só anexados em 1919</li>
+      </ul>
+    </div>
+    <div class="badge badge-dark">● Não testado</div>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">4</div>
+      <div class="card-title">Neocolonialismo / Imperialismo</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Motivação: matérias-primas + mercados consumidores</li>
+        <li>Conferência de Berlim: 1884–1885 (partilha da África)</li>
+        <li>1875: 40,4 mi km² / 273,8 mi hab. colonizados</li>
+        <li>1914: 65 mi km² / 523,4 mi hab. colonizados</li>
+        <li>Inglaterra: maior potência colonial (33,5 mi km²)</li>
+      </ul>
+      <div class="alert-box">
+        <strong>⚠️ Atenção — data correta</strong>
+        O material registrou "1888–1885" por erro. A data correta da Conferência de Berlim é <strong>1884–1885</strong>.
+      </div>
+    </div>
+    <div class="badge badge-dark">● Não testado</div>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">5</div>
+      <div class="card-title">Etnocentrismo e Racismo</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Visão eurocêntrica: construída entre séc. XVI e XIX</li>
+        <li>Contexto: tráfico de escravos + colonialismo + Rev. Industrial</li>
+        <li>Afirmava supremacia racial, geográfica e técnica europeia</li>
+        <li>"O fardo do homem branco": ideologia colonialista</li>
+        <li>Darwinismo social: distorção da teoria da evolução</li>
+      </ul>
+    </div>
+    <div class="badge badge-dark">● Não testado</div>
+  </div>
+
+  <!-- Card 6 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">6</div>
+      <div class="card-title">Expansão dos Estados Unidos</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Doutrina Monroe (1820): "América para os americanos"</li>
+        <li>Preferência: controle econômico, não político direto</li>
+        <li>1846–48: Guerra contra o México → Texas, N. México, Califórnia</li>
+        <li>1898: G. Hispano-Americana → Porto Rico, Cuba, Filipinas</li>
+        <li>1903: Panamá (ex-Colômbia) → controle do canal</li>
+      </ul>
+    </div>
+    <div class="badge badge-dark">● Não testado</div>
+  </div>
+
+  <!-- Card 7 — Dados comparativos -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">7</div>
+      <div class="card-title">Dados — Potências e colônias</div>
+    </div>
+    <div class="card-body">
+      <table class="mini-table">
+        <tr><th>Potência</th><th>km² 1875</th><th>km² 1914</th></tr>
+        <tr><td>Inglaterra</td><td>22,5 mi</td><td>33,5 mi</td></tr>
+        <tr><td>França</td><td>0,9 mi</td><td>10,6 mi</td></tr>
+        <tr><td>Alemanha</td><td>—</td><td>2,9 mi</td></tr>
+        <tr><td><strong>Total</strong></td><td><strong>40,4 mi</strong></td><td><strong>65 mi</strong></td></tr>
+      </table>
+    </div>
+    <div class="badge badge-dark">● Não testado</div>
+  </div>
+
+  <!-- Card 8 — Cronologia rápida -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">8</div>
+      <div class="card-title">Cronologia — datas-chave</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>1820</strong> — Doutrina Monroe</li>
+        <li><strong>1846–48</strong> — Guerra contra o México</li>
+        <li><strong>1859–71</strong> — Unificações italiana e alemã</li>
+        <li><strong>1884–85</strong> — Conferência de Berlim</li>
+        <li><strong>1898</strong> — Guerra Hispano-Americana</li>
+        <li><strong>1903</strong> — Canal do Panamá</li>
+      </ul>
+    </div>
+    <div class="badge badge-dark">● Não testado</div>
+  </div>
+
+  <!-- Card 9 — Conceitos-chave -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">9</div>
+      <div class="card-title">Conceitos-chave</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>Belle Époque:</strong> otimismo burguês com progresso tecnológico</li>
+        <li><strong>Doutrina Monroe:</strong> "América para os americanos"</li>
+        <li><strong>Intervenção indireta:</strong> controle econômico sem colônia formal</li>
+        <li><strong>Neocolonialismo:</strong> imperialismo industrial do séc. XIX</li>
+        <li><strong>Darwinismo social:</strong> distorção para justificar dominação</li>
+        <li><strong>Sindicatos:</strong> organização operária por direitos</li>
+      </ul>
+    </div>
+    <div class="badge badge-dark">● Não testado</div>
+  </div>
+
+</div>
+
+<!-- DICAS DE OURO -->
+<div class="tips-section">
+  <div class="tips-header">💡 Dicas de Ouro</div>
+  <div class="tips-grid">
+
+    <div class="tip-card">
+      <div class="tip-badge">Dica 1</div>
+      <div class="tip-title">Conferência de Berlim: 1884–1885</div>
+      <div class="tip-text">O material tem erro de digitação ("1888–1885"). A data correta é <strong>1884–1885</strong>. Memorize: a partilha da África aconteceu antes de 1886.</div>
+    </div>
+
+    <div class="tip-card">
+      <div class="tip-badge">Dica 2</div>
+      <div class="tip-title">Doutrina Monroe ≠ isolacionismo</div>
+      <div class="tip-text">"América para os americanos" significa <em>controle dos EUA</em> sobre a América — não afastamento. Os EUA interviram constantemente, só preferiam o controle econômico ao político formal.</div>
+    </div>
+
+    <div class="tip-card">
+      <div class="tip-badge">Dica 3</div>
+      <div class="tip-title">Belle Époque: só para a burguesia</div>
+      <div class="tip-text">O mesmo período de entusiasmo burguês era de miséria para os operários. Engels descreveu uma "guerra social" — não uma bela época para todos.</div>
+    </div>
+
+    <div class="tip-card">
+      <div class="tip-badge">Dica 4</div>
+      <div class="tip-title">Neocolonialismo ≠ colonialismo antigo</div>
+      <div class="tip-text">O colonialismo antigo (séc. XV–XIX) usava escravidão e buscava metais preciosos. O neocolonialismo do séc. XIX buscava matérias-primas industriais e mercados — a lógica mudou com a Revolução Industrial.</div>
+    </div>
+
+    <div class="tip-card">
+      <div class="tip-badge">Dica 5</div>
+      <div class="tip-title">Unificações: processos distintos</div>
+      <div class="tip-text">Itália: processo longo (1859–1919), várias etapas, núcleo no Piemonte-Sardenha. Alemanha: mais rápida (1866–1871), liderada pela Prússia. Não confunda datas nem líderes.</div>
+    </div>
+
+    <div class="tip-card">
+      <div class="tip-badge">Dica 6</div>
+      <div class="tip-title">Panamá: era território colombiano</div>
+      <div class="tip-text">O Panamá pertencia à Colômbia. Os EUA apoiaram a independência panamenha para obter o canal — exemplo clássico de intervenção indireta com objetivo econômico-estratégico.</div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
