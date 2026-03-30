@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mapa Mental — Física U1 C3 — Formação do Sistema Solar</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', sans-serif; background: #F4F2EE; color: #1a1a2e; font-size: 14px; }
+
+  .header { background: #4a2080; color: white; padding: 28px 40px 20px; text-align: center; }
+  .header .discipline { font-size: 13px; letter-spacing: 1.5px; opacity: 0.8; text-transform: uppercase; }
+  .header h1 { font-size: 32px; font-weight: 700; margin: 8px 0 6px; }
+  .header .sub { font-size: 13px; opacity: 0.75; }
+
+  .legend { display: flex; justify-content: center; gap: 24px; padding: 10px 0 4px; background: #4a2080; }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: rgba(255,255,255,0.85); }
+  .legend-dot { width: 12px; height: 12px; border-radius: 50%; }
+  .dot-green { background: #2ecc71; }
+  .dot-red { background: #e74c3c; }
+  .dot-purple { background: #9b59b6; }
+
+  .central-pill { background: #4a2080; color: white; border-radius: 40px; padding: 14px 40px; font-size: 18px; font-weight: 700; text-align: center; max-width: 400px; margin: 32px auto 28px; }
+
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; padding: 0 28px 28px; max-width: 1100px; margin: 0 auto; }
+
+  .card { background: #fff; border-radius: 14px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); overflow: hidden; transition: transform 0.15s; }
+  .card:hover { transform: translateY(-2px); }
+  .card-inner { display: flex; }
+  .card-stripe { width: 3px; background: #9b59b6; flex-shrink: 0; }
+  .card-body { padding: 16px 16px 14px; flex: 1; }
+  .card-header { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .card-num { width: 26px; height: 26px; border-radius: 50%; background: #4a2080; color: white; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .card-title { font-size: 14px; font-weight: 700; color: #1a1a2e; }
+  .card ul { list-style: none; padding: 0; margin: 0 0 12px; }
+  .card ul li { font-size: 13px; color: #444; padding: 3px 0 3px 14px; position: relative; line-height: 1.45; }
+  .card ul li::before { content: '•'; position: absolute; left: 0; color: #9b59b6; }
+
+  .badge { display: inline-block; font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 20px; background: #9b59b6; color: white; cursor: pointer; user-select: none; }
+  .badge.dominado { background: #2ecc71; }
+  .badge.reforcar { background: #e74c3c; }
+  .card.dominado .card-stripe { background: #2ecc71; }
+  .card.reforcar .card-stripe { background: #e74c3c; }
+
+  .dicas-section { background: #F5F0FF; border: 1.5px solid #9070C0; border-radius: 14px; padding: 22px 28px; max-width: 1100px; margin: 0 auto 32px; width: calc(100% - 56px); }
+  .dicas-title { font-size: 15px; font-weight: 700; color: #4a2080; margin-bottom: 14px; }
+  .dica { display: flex; gap: 12px; margin-bottom: 12px; align-items: flex-start; }
+  .dica-badge { background: #9b59b6; color: white; font-size: 11px; font-weight: 700; padding: 3px 9px; border-radius: 20px; flex-shrink: 0; margin-top: 2px; }
+  .dica-text { font-size: 13px; color: #333; line-height: 1.5; }
+
+  footer { text-align: center; padding: 16px; font-size: 12px; color: #888; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="discipline">Física · Unidade 1 · Capítulo 3 · 9º ano</div>
+  <h1>Formação do Sistema Solar</h1>
+  <div class="sub">Mapa Mental — gerado na preparação</div>
+</div>
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot dot-green"></div> Dominado</div>
+  <div class="legend-item"><div class="legend-dot dot-red"></div> Reforçar</div>
+  <div class="legend-item"><div class="legend-dot dot-purple"></div> Não testado</div>
+</div>
+
+<div class="central-pill">Formação do Sistema Solar</div>
+
+<div class="grid">
+
+  <div class="card" id="card-1">
+    <div class="card-inner"><div class="card-stripe"></div>
+    <div class="card-body">
+      <div class="card-header"><div class="card-num">1</div><div class="card-title">Astronomia — origens</div></div>
+      <ul>
+        <li>Estudo dos corpos celestes e do Universo</li>
+        <li>Registros arqueológicos: ~50 000 anos</li>
+        <li>Plêiades, Ursa Maior, Ursa Menor — conhecidas na Antiguidade</li>
+        <li>Linhas das constelações são imaginárias</li>
+      </ul>
+      <span class="badge" onclick="ciclo('card-1')">Não testado</span>
+    </div></div>
+  </div>
+
+  <div class="card" id="card-2">
+    <div class="card-inner"><div class="card-stripe"></div>
+    <div class="card-body">
+      <div class="card-header"><div class="card-num">2</div><div class="card-title">Modelos do Sistema Solar</div></div>
+      <ul>
+        <li><strong>Geocêntrico (Ptolomeu):</strong> Terra no centro</li>
+        <li><strong>Heliocêntrico (Copérnico):</strong> Sol no centro</li>
+        <li>Galileu defendeu o heliocentrismo de Copérnico</li>
+      </ul>
+      <span class="badge" onclick="ciclo('card-2')">Não testado</span>
+    </div></div>
+  </div>
+
+  <div class="card" id="card-3">
+    <div class="card-inner"><div class="card-stripe"></div>
+    <div class="card-body">
+      <div class="card-header"><div class="card-num">3</div><div class="card-title">Big Bang e expansão</div></div>
+      <ul>
+        <li>Universo surgiu de uma grande explosão: 10–20 bilhões de anos atrás</li>
+        <li>Hubble (1920s): galáxias se afastam → Universo em expansão</li>
+        <li>Evidência central para o Big Bang</li>
+      </ul>
+      <span class="badge" onclick="ciclo('card-3')">Não testado</span>
+    </div></div>
+  </div>
+
+  <div class="card" id="card-4">
+    <div class="card-inner"><div class="card-stripe"></div>
+    <div class="card-body">
+      <div class="card-header"><div class="card-num">4</div><div class="card-title">Ano-luz e distâncias</div></div>
+      <ul>
+        <li>Ano-luz = medida de <strong>distância</strong> (não tempo!)</li>
+        <li>= distância percorrida pela luz em 1 ano</li>
+        <li>Sistema Solar: Braço de Órion, ~30 000 a.l. do centro da Via Láctea</li>
+        <li>Ao olhar o céu → vemos o passado</li>
+      </ul>
+      <span class="badge" onclick="ciclo('card-4')">Não testado</span>
+    </div></div>
+  </div>
+
+  <div class="card" id="card-5">
+    <div class="card-inner"><div class="card-stripe"></div>
+    <div class="card-body">
+      <div class="card-header"><div class="card-num">5</div><div class="card-title">Estrelas e Nebulosas</div></div>
+      <ul>
+        <li><strong>Estrelas:</strong> esferas de H e He em plasma; energia por reações termonucleares</li>
+        <li><strong>Nebulosas:</strong> nuvens de poeira cósmica formadas pela explosão de estrelas</li>
+        <li>Nebulosas = "cemitério" + "berçário" de estrelas</li>
+        <li>Carl Sagan: "Somos todos poeira de estrelas"</li>
+      </ul>
+      <span class="badge" onclick="ciclo('card-5')">Não testado</span>
+    </div></div>
+  </div>
+
+  <div class="card" id="card-6">
+    <div class="card-inner"><div class="card-stripe"></div>
+    <div class="card-body">
+      <div class="card-header"><div class="card-num">6</div><div class="card-title">Planetas Telúricos</div></div>
+      <ul>
+        <li>Compostos de rochas e minerais; podem ter atmosfera</li>
+        <li><strong>Mercúrio:</strong> mais próximo do Sol, mas não o mais quente · sem satélites</li>
+        <li><strong>Vênus:</strong> o mais quente · CO₂ · rotação contrária · "Estrela D'alva"</li>
+        <li><strong>Terra:</strong> habitada · N₂ · 1 satélite</li>
+        <li><strong>Marte:</strong> óxido de ferro · evidências de água · 2 satélites</li>
+      </ul>
+      <span class="badge" onclick="ciclo('card-6')">Não testado</span>
+    </div></div>
+  </div>
+
+  <div class="card" id="card-7">
+    <div class="card-inner"><div class="card-stripe"></div>
+    <div class="card-body">
+      <div class="card-header"><div class="card-num">7</div><div class="card-title">Planetas Jovianos</div></div>
+      <ul>
+        <li>Compostos principalmente de gases</li>
+        <li><strong>Júpiter:</strong> o maior · Grande Mancha Vermelha (tempestade) · +60 satélites</li>
+        <li><strong>Saturno:</strong> maior sistema de anéis · ~60 satélites</li>
+        <li><strong>Urano:</strong> eixo perpendicular · rotação contrária · 1º descoberto na era moderna · 27 satélites</li>
+        <li><strong>Netuno:</strong> previsto por cálculo · 13 satélites</li>
+      </ul>
+      <span class="badge" onclick="ciclo('card-7')">Não testado</span>
+    </div></div>
+  </div>
+
+  <div class="card" id="card-8">
+    <div class="card-inner"><div class="card-stripe"></div>
+    <div class="card-body">
+      <div class="card-header"><div class="card-num">8</div><div class="card-title">Outros corpos celestes</div></div>
+      <ul>
+        <li><strong>Cometas:</strong> gás/rocha/gelo → cauda brilhante perto do Sol (luminoso)</li>
+        <li><strong>Asteroides:</strong> rocha e metais</li>
+        <li><strong>Meteoro:</strong> rastro luminoso na atmosfera</li>
+        <li><strong>Meteorito:</strong> fragmento que cai na superfície</li>
+      </ul>
+      <span class="badge" onclick="ciclo('card-8')">Não testado</span>
+    </div></div>
+  </div>
+
+  <div class="card" id="card-9">
+    <div class="card-inner"><div class="card-stripe"></div>
+    <div class="card-body">
+      <div class="card-header"><div class="card-num">9</div><div class="card-title">Luminoso vs. Iluminado · Galáxias · Plutão</div></div>
+      <ul>
+        <li><strong>Luminoso:</strong> estrela, galáxia, cometa</li>
+        <li><strong>Iluminado:</strong> planeta, Lua</li>
+        <li><strong>Galáxias:</strong> espiral · espiral barrada · elíptica · irregular</li>
+        <li><strong>Plutão:</strong> rebaixado em 2006 (UAI) → planeta-anão</li>
+      </ul>
+      <span class="badge" onclick="ciclo('card-9')">Não testado</span>
+    </div></div>
+  </div>
+
+</div>
+
+<div class="dicas-section">
+  <div class="dicas-title">✨ Dicas de Ouro</div>
+
+  <div class="dica">
+    <div class="dica-badge">1</div>
+    <div class="dica-text"><strong>Ano-luz é distância, não tempo!</strong> Contém "ano" (tempo) e "luz" (velocidade), mas o resultado é distância. A pergunta sobre grandeza associada ao ano-luz cai muito em provas.</div>
+  </div>
+
+  <div class="dica">
+    <div class="dica-badge">2</div>
+    <div class="dica-text"><strong>Mercúrio ≠ planeta mais quente.</strong> Está mais perto do Sol, mas sem atmosfera espessa não retém calor. Vênus é o mais quente por ter CO₂ em abundância (efeito estufa).</div>
+  </div>
+
+  <div class="dica">
+    <div class="dica-badge">3</div>
+    <div class="dica-text"><strong>Cometa é LUMINOSO</strong> (não iluminado). Brilha pela ionização do gás ao se aproximar do Sol. Pegadinha clássica da QC-6.</div>
+  </div>
+
+  <div class="dica">
+    <div class="dica-badge">4</div>
+    <div class="dica-text"><strong>Urano e Vênus giram ao contrário dos demais planetas.</strong> Urano tem ainda o eixo "deitado" (quase perpendicular ao plano orbital).</div>
+  </div>
+
+  <div class="dica">
+    <div class="dica-badge">5</div>
+    <div class="dica-text"><strong>Netuno foi previsto por cálculo antes de ser visto.</strong> Isso é apresentado no livro como um "grande feito para a ciência" — questão de provas sobre o método científico aplicado à Astronomia.</div>
+  </div>
+
+  <div class="dica">
+    <div class="dica-badge">6</div>
+    <div class="dica-text"><strong>QC-5 somatório — itens 04 e 08 são falsos.</strong> 04: planetas internos são TELÚRICOS (rochosos), não gasosos. 08: os maiores planetas (Júpiter, Saturno) são os mais distantes. Soma correta = 01 + 02 = 03.</div>
+  </div>
+</div>
+
+<footer>Mapa Mental gerado automaticamente · Física · fis-1-3 · 9º ano</footer>
+
+<script>
+  const estados = ['', 'dominado', 'reforcar'];
+  const labels = ['Não testado', 'Dominado', 'Reforçar'];
+  function ciclo(id) {
+    const card = document.getElementById(id);
+    const badge = card.querySelector('.badge');
+    let atual = estados.indexOf(card.dataset.estado || '');
+    let prox = (atual + 1) % 3;
+    card.dataset.estado = estados[prox];
+    card.className = 'card ' + estados[prox];
+    badge.className = 'badge ' + estados[prox];
+    badge.textContent = labels[prox];
+  }
+</script>
+</body>
+</html>

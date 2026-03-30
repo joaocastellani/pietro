@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mapa Mental — Geografia · U1 · C1 · Conhecendo a Europa</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --primary: #8B0000;
+    --primary-light: #b22222;
+    --primary-pale: #fdf0f0;
+    --primary-border: #c0392b;
+    --accent: #d4a017;
+    --accent-light: #f9f3e0;
+    --not-tested: #8B0000;
+    --mastered: #1a7a3c;
+    --reinforce: #c0392b;
+    --bg: #f5f0eb;
+    --card-bg: #ffffff;
+    --text: #1a1a1a;
+    --text-muted: #555;
+    --shadow: 0 2px 10px rgba(139,0,0,0.10);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Source Sans 3', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    background: var(--primary);
+    color: white;
+    padding: 28px 40px 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .header::before {
+    content: '';
+    position: absolute;
+    top: -40px; right: -40px;
+    width: 220px; height: 220px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.06);
+  }
+  .header::after {
+    content: '';
+    position: absolute;
+    bottom: -60px; left: 30%;
+    width: 160px; height: 160px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.04);
+  }
+  .header-meta {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    opacity: 0.75;
+    margin-bottom: 8px;
+  }
+  .header-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 6px;
+  }
+  .header-sub {
+    font-size: 13px;
+    opacity: 0.65;
+    margin-bottom: 20px;
+  }
+  .legend {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .dot {
+    width: 12px; height: 12px;
+    border-radius: 50%;
+  }
+  .dot-nt  { background: #8B0000; }
+  .dot-ok  { background: #1a7a3c; }
+  .dot-rev { background: #c0392b; }
+
+  /* ── PÍLULA CENTRAL ── */
+  .central-pill-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 28px 40px 12px;
+  }
+  .central-pill {
+    background: var(--primary);
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 14px 48px;
+    border-radius: 50px;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 18px rgba(139,0,0,0.30);
+  }
+
+  /* ── GRID DE CARDS ── */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 16px 40px 32px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 1000px) {
+    .grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 650px) {
+    .grid { grid-template-columns: 1fr; padding: 12px 16px; }
+    .header { padding: 20px 16px; }
+    .central-pill-wrap { padding: 20px 16px 8px; }
+    .dicas-section { padding: 24px 16px; }
+  }
+
+  .card {
+    background: var(--card-bg);
+    border-radius: 14px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+    border-left: 4px solid var(--primary);
+  }
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(139,0,0,0.16);
+  }
+
+  .card-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px 16px 10px;
+  }
+  .card-num {
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    background: var(--primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .card-title {
+    font-size: 14.5px;
+    font-weight: 700;
+    color: var(--primary);
+    line-height: 1.3;
+  }
+
+  .card-body {
+    padding: 0 16px 12px;
+    flex: 1;
+  }
+  .card-body ul {
+    list-style: none;
+    padding: 0;
+  }
+  .card-body ul li {
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.55;
+    padding: 3px 0 3px 14px;
+    position: relative;
+  }
+  .card-body ul li::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: var(--primary-light);
+    font-size: 11px;
+    top: 5px;
+  }
+  .card-body p {
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.55;
+    margin-bottom: 6px;
+  }
+
+  /* tabela interna do card */
+  .card-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    margin-top: 6px;
+  }
+  .card-table th {
+    background: var(--primary-pale);
+    color: var(--primary);
+    font-weight: 700;
+    padding: 5px 8px;
+    text-align: left;
+    border-bottom: 1px solid #e8d0d0;
+  }
+  .card-table td {
+    padding: 4px 8px;
+    border-bottom: 1px solid #f0e8e8;
+    color: var(--text-muted);
+    vertical-align: top;
+  }
+  .card-table tr:last-child td { border-bottom: none; }
+
+  .highlight-box {
+    background: var(--primary-pale);
+    border-left: 3px solid var(--primary);
+    border-radius: 4px;
+    padding: 7px 10px;
+    margin: 8px 0;
+    font-size: 12.5px;
+    color: var(--primary);
+    font-weight: 600;
+  }
+
+  .card-footer {
+    padding: 8px 16px 12px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .badge {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 20px;
+    background: var(--primary);
+    color: white;
+  }
+
+  /* ── DICAS DE OURO ── */
+  .dicas-section {
+    background: var(--primary-pale);
+    border-top: 3px solid var(--primary);
+    padding: 28px 40px 36px;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .dicas-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .dicas-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+  @media (max-width: 800px) {
+    .dicas-grid { grid-template-columns: 1fr; }
+  }
+  .dica-item {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    background: white;
+    border-radius: 10px;
+    padding: 12px 14px;
+    box-shadow: 0 1px 6px rgba(139,0,0,0.08);
+  }
+  .dica-num {
+    background: var(--primary);
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    width: 24px; height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .dica-text {
+    font-size: 13px;
+    color: var(--text);
+    line-height: 1.5;
+  }
+  .dica-text strong { color: var(--primary); }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-meta">Geografia · Unidade 1 · Capítulo 1 · 9º ano</div>
+  <div class="header-title">Conhecendo a Europa</div>
+  <div class="header-sub">Mapa Mental — gerado na preparação</div>
+  <div class="legend">
+    <div class="legend-item"><div class="dot dot-ok"></div> Dominado</div>
+    <div class="legend-item"><div class="dot dot-rev"></div> Reforçar</div>
+    <div class="legend-item"><div class="dot dot-nt"></div> Não testado</div>
+  </div>
+</div>
+
+<!-- PÍLULA CENTRAL -->
+<div class="central-pill-wrap">
+  <div class="central-pill">🌍 Europa</div>
+</div>
+
+<!-- GRID DE CARDS -->
+<div class="grid">
+
+  <!-- CARD 1 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">1</div>
+      <div class="card-title">Localização e Dimensão</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Fisicamente integra a <strong>Eurásia</strong> com a Ásia</li>
+        <li>Separação histórica/sociocultural, não física</li>
+        <li>Área: <strong>pouco mais de 10 milhões de km²</strong> (similar ao Brasil)</li>
+        <li>2º menor continente — à frente só da Oceania</li>
+        <li>Totalmente no hemisfério norte; predominantemente oriental (leste de Greenwich)</li>
+        <li>Fora da Zona intertropical → climas mais amenos</li>
+      </ul>
+    </div>
+    <div class="card-footer"><span class="badge">Não testado</span></div>
+  </div>
+
+  <!-- CARD 2 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">2</div>
+      <div class="card-title">Limites e Montes Urais</div>
+    </div>
+    <div class="card-body">
+      <div class="highlight-box">N: Ártico · S: Mediterrâneo/Negro/Cáspio · L: Urais · O: Atlântico</div>
+      <ul>
+        <li>Montes Urais: cadeia que atravessa a Rússia de <strong>norte a sul</strong></li>
+        <li>Do oceano Ártico ao mar Cáspio</li>
+        <li>Usado como critério físico para separar Europa e Ásia</li>
+      </ul>
+      <p style="margin-top:8px; font-size:12px; color:#888;">⚠️ Atenção: direção norte-sul, não leste-oeste</p>
+    </div>
+    <div class="card-footer"><span class="badge">Não testado</span></div>
+  </div>
+
+  <!-- CARD 3 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">3</div>
+      <div class="card-title">Litoral — Penínsulas e Reentrâncias</div>
+    </div>
+    <div class="card-body">
+      <p><strong>4 Penínsulas:</strong></p>
+      <ul>
+        <li>Escandinava (norte)</li>
+        <li>Ibérica (Portugal + Espanha)</li>
+        <li>Itálica (Itália)</li>
+        <li>Balcânica (sudeste)</li>
+      </ul>
+      <p style="margin-top:8px;"><strong>Reentrâncias notáveis:</strong></p>
+      <ul>
+        <li>Mares: Branco, Báltico, do Norte, da Irlanda, Adriático, Tirreno, Jônico, Egeu, Negro, Cáspio, de Mármara, de Azov</li>
+        <li>Golfos de Bótnia e da Finlândia; Baía de Biscaia</li>
+        <li>Canal da Mancha (UK ↔ França)</li>
+      </ul>
+    </div>
+    <div class="card-footer"><span class="badge">Não testado</span></div>
+  </div>
+
+  <!-- CARD 4 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">4</div>
+      <div class="card-title">Eurocentrismo</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Visão que cria imaginário de "mundo perfeito" sobre a Europa</li>
+        <li>Consolidada no período colonial</li>
+        <li>Supervaloriza história e cultura europeias</li>
+        <li>Desconsidera contribuições de outros povos</li>
+        <li>Precisa ser <strong>desmistificada</strong>: Europa tem desigualdades, tensões, extremismos e conflitos internos</li>
+      </ul>
+    </div>
+    <div class="card-footer"><span class="badge">Não testado</span></div>
+  </div>
+
+  <!-- CARD 5 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">5</div>
+      <div class="card-title">Colonialismo e 1ª Revolução Industrial</div>
+    </div>
+    <div class="card-body">
+      <p><strong>Grandes Navegações (séc. XV→):</strong></p>
+      <ul>
+        <li>Colonização de todos os outros continentes</li>
+        <li>Exportação de línguas, religiões, costumes</li>
+        <li>Ex. Brasil: catolicismo, festa junina, Carnaval (colonização portuguesa)</li>
+      </ul>
+      <p style="margin-top:8px;"><strong>1ª Revolução Industrial:</strong></p>
+      <ul>
+        <li>Europa = berço da Revolução Industrial</li>
+        <li>Divisão internacional do trabalho</li>
+        <li>Acumulação de poder político e econômico</li>
+        <li>Alimentou imperialismo → Guerras Mundiais</li>
+      </ul>
+    </div>
+    <div class="card-footer"><span class="badge">Não testado</span></div>
+  </div>
+
+  <!-- CARD 6 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">6</div>
+      <div class="card-title">Guerra Fria e Regionalização</div>
+    </div>
+    <div class="card-body">
+      <table class="card-table">
+        <thead><tr><th>Bloco</th><th>Influência</th><th>Designação</th></tr></thead>
+        <tbody>
+          <tr><td>Capitalista</td><td>EUA</td><td>Europa "Ocidental"</td></tr>
+          <tr><td>Socialista</td><td>URSS</td><td>Europa "Oriental"</td></tr>
+        </tbody>
+      </table>
+      <div class="highlight-box" style="margin-top:10px;">Divisão política, não geográfica. A Grécia (capitalista) ficava mais a leste do que a Alemanha Oriental (socialista).</div>
+      <p style="margin-top:8px; font-size:13px;"><strong>Muro de Berlim:</strong> 155 km total (43 km muro interno + 112 km barreira externa). Queda: 10–11/11/1989. Reunificação: 1990.</p>
+    </div>
+    <div class="card-footer"><span class="badge">Não testado</span></div>
+  </div>
+
+  <!-- CARD 7 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">7</div>
+      <div class="card-title">Regionalização Territorial e Cultural (4 regiões)</div>
+    </div>
+    <div class="card-body">
+      <table class="card-table">
+        <thead><tr><th>Região</th><th>Nome alternativo</th></tr></thead>
+        <tbody>
+          <tr><td>Europa do Sul</td><td>Mediterrânea</td></tr>
+          <tr><td>Europa Ocidental Central</td><td>—</td></tr>
+          <tr><td>Europa Oriental</td><td>do Leste</td></tr>
+          <tr><td>Europa do Norte</td><td>Nórdica</td></tr>
+        </tbody>
+      </table>
+      <p style="margin-top:8px; font-size:12.5px; color:#666;">Critérios: territoriais + culturais (étnico-religiosos)</p>
+    </div>
+    <div class="card-footer"><span class="badge">Não testado</span></div>
+  </div>
+
+  <!-- CARD 8 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">8</div>
+      <div class="card-title">Diferenças Leste × Oeste</div>
+    </div>
+    <div class="card-body">
+      <table class="card-table">
+        <thead><tr><th></th><th>Ocidental</th><th>Oriental</th></tr></thead>
+        <tbody>
+          <tr><td>Étnico</td><td>Latins + Anglo-sax.</td><td>Eslavos</td></tr>
+          <tr><td>Religião</td><td>Cat. romano + Prot.</td><td>Cat. ortodoxo</td></tr>
+          <tr><td>Economia</td><td>Alto IDH</td><td>Em transição</td></tr>
+        </tbody>
+      </table>
+      <div class="highlight-box" style="margin-top:10px;">Cisma de 1054: criou o ortodoxo (Oriente/Constantinopla) e o romano (Ocidente/Roma). Reforma Protestante (séc. XVI): criou luteranismo, calvinismo, anglicanismo.</div>
+    </div>
+    <div class="card-footer"><span class="badge">Não testado</span></div>
+  </div>
+
+  <!-- CARD 9 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">9</div>
+      <div class="card-title">Fluxos Migratórios e Pedidos de Asilo</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Causa: diferença de desenvolvimento Leste → Oeste + conflitos</li>
+        <li>Destinos: Alemanha, França, Reino Unido, Itália</li>
+        <li>Também chegam imigrantes africanos e asiáticos</li>
+      </ul>
+      <p style="margin-top:8px;"><strong>Mapa 2022 (pedidos de asilo):</strong></p>
+      <ul>
+        <li>Alemanha: >1 milhão (cor mais escura)</li>
+        <li>França, Espanha: 500k–1M</li>
+        <li>Europa Oriental: faixas muito menores</li>
+        <li>Explicação: melhores índices econômicos + ausência de conflitos no Oeste</li>
+      </ul>
+    </div>
+    <div class="card-footer"><span class="badge">Não testado</span></div>
+  </div>
+
+  <!-- CARD 10 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">10</div>
+      <div class="card-title">Turismo de Massa e Protestos (2024)</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Europa = maior destino turístico do mundo</li>
+        <li>Pós-pandemia: explosão do turismo de massa</li>
+        <li>Efeitos: superlotação, pressão sobre serviços públicos, alta de aluguéis</li>
+        <li>Protestos intensificados em 2024</li>
+        <li>Exemplo: Barcelona — pichação "Tourists go home"</li>
+      </ul>
+      <p style="margin-top:8px; font-size:12px; color:#888;">Paradoxo: turismo gera renda mas afeta qualidade de vida dos moradores</p>
+    </div>
+    <div class="card-footer"><span class="badge">Não testado</span></div>
+  </div>
+
+  <!-- CARD 11 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">11</div>
+      <div class="card-title">Macedônia do Norte (caso contemporâneo)</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Ex-república da Iugoslávia; independente em 1991 (processo pacífico)</li>
+        <li>Grécia bloqueou adesão à UE e OTAN: conflito de nome (Macedônia = também nome de região grega)</li>
+        <li>Fevereiro de 2019: nome alterado para <strong>Macedônia do Norte</strong></li>
+        <li>2020: tornou-se o <strong>30º membro da OTAN</strong></li>
+      </ul>
+    </div>
+    <div class="card-footer"><span class="badge">Não testado</span></div>
+  </div>
+
+  <!-- CARD 12 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">12</div>
+      <div class="card-title">Mapas do Capítulo — Resumo</div>
+    </div>
+    <div class="card-body">
+      <table class="card-table">
+        <thead><tr><th>Mapa</th><th>Escala</th><th>Destaque</th></tr></thead>
+        <tbody>
+          <tr><td>Mundo: cont. europeu</td><td>2355 km</td><td>Posição relativa da Europa</td></tr>
+          <tr><td>Europa: Guerra Fria</td><td>370 km</td><td>Blocos capitalista/socialista</td></tr>
+          <tr><td>Divisão territorial/cultural</td><td>~320 km</td><td>4 regiões europeias</td></tr>
+          <tr><td>Pedidos de asilo 2022</td><td>560 km</td><td>Fluxos migratórios — 9 faixas</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card-footer"><span class="badge">Não testado</span></div>
+  </div>
+
+</div>
+
+<!-- DICAS DE OURO -->
+<div class="dicas-section">
+  <div class="dicas-title">💡 Dicas de Ouro — pegadinhas de prova</div>
+  <div class="dicas-grid">
+
+    <div class="dica-item">
+      <div class="dica-num">1</div>
+      <div class="dica-text"><strong>Eurásia vs. separação:</strong> Europa e Ásia formam fisicamente um só bloco. A separação em dois continentes é histórica e sociocultural — não física.</div>
+    </div>
+
+    <div class="dica-item">
+      <div class="dica-num">2</div>
+      <div class="dica-text"><strong>Montes Urais — direção correta:</strong> vão de <strong>norte a sul</strong> (do Ártico ao Cáspio). Erro clássico: dizer que separam Eu/Ásia no sentido leste-oeste.</div>
+    </div>
+
+    <div class="dica-item">
+      <div class="dica-num">3</div>
+      <div class="dica-text"><strong>Limite sul = três mares:</strong> Mediterrâneo, Negro <em>e Cáspio</em>. Muitos esquecem o mar Cáspio.</div>
+    </div>
+
+    <div class="dica-item">
+      <div class="dica-num">4</div>
+      <div class="dica-text"><strong>2º menor, não o menor:</strong> Europa é o segundo menor continente, à frente apenas da Oceania. A Antártica é maior que a Europa.</div>
+    </div>
+
+    <div class="dica-item">
+      <div class="dica-num">5</div>
+      <div class="dica-text"><strong>Guerra Fria: político, não geográfico:</strong> A Grécia ficava mais a leste geograficamente, mas era capitalista (Ocidental). A Alemanha era dividida: Oriental (socialista) e Ocidental (capitalista).</div>
+    </div>
+
+    <div class="dica-item">
+      <div class="dica-num">6</div>
+      <div class="dica-text"><strong>Muro de Berlim — os números:</strong> 155 km total = 43 km de muro interno + 112 km de barreira externa. Queda: noite de 10 para 11/11/1989.</div>
+    </div>
+
+    <div class="dica-item">
+      <div class="dica-num">7</div>
+      <div class="dica-text"><strong>Ortodoxos ≠ protestantes:</strong> Ortodoxo = legado do cisma de 1054 (Europa Oriental/Eslava). Protestante = Reforma séc. XVI (centro-norte europeu).</div>
+    </div>
+
+    <div class="dica-item">
+      <div class="dica-num">8</div>
+      <div class="dica-text"><strong>Eurocentrismo = crítica:</strong> não é elogio. O livro pede que se <em>desmistifique</em> essa visão, expondo desigualdades e contradições internas da Europa.</div>
+    </div>
+
+    <div class="dica-item">
+      <div class="dica-num">9</div>
+      <div class="dica-text"><strong>4 penínsulas — ordem N→S:</strong> Escandinava (norte) · Ibérica (SO) · Itálica (sul) · Balcânica (SE).</div>
+    </div>
+
+    <div class="dica-item">
+      <div class="dica-num">10</div>
+      <div class="dica-text"><strong>Macedônia do Norte:</strong> nome mudou em 2019 após impasse com a Grécia; 30º membro da OTAN em 2020. Pode aparecer em questões de atualidade.</div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
