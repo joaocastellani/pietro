@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mapa Mental — Geografia U1 C2</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', sans-serif; background: #F4F2EE; color: #1a1a1a; min-height: 100vh; }
+
+  /* HEADER */
+  .header {
+    background: #2D6A4F;
+    color: #fff;
+    padding: 32px 40px 28px;
+    text-align: center;
+  }
+  .header .meta { font-size: 14px; opacity: 0.8; letter-spacing: 0.5px; margin-bottom: 8px; }
+  .header h1 { font-size: 32px; font-weight: 800; margin-bottom: 6px; }
+  .header .sub { font-size: 14px; opacity: 0.75; margin-bottom: 18px; }
+  .legend { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; margin-top: 12px; }
+  .legend-item { display: flex; align-items: center; gap: 7px; font-size: 13px; }
+  .dot { width: 12px; height: 12px; border-radius: 50%; }
+  .dot-dom  { background: #52B788; }
+  .dot-ref  { background: #E05252; }
+  .dot-new  { background: #1B4332; }
+
+  /* PÍLULA CENTRAL */
+  .pill-wrap { display: flex; justify-content: center; padding: 32px 20px 16px; }
+  .pill {
+    background: #2D6A4F; color: #fff;
+    font-size: 18px; font-weight: 700;
+    padding: 14px 40px; border-radius: 100px;
+    letter-spacing: 0.3px;
+  }
+
+  /* GRID */
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 0 32px 32px; max-width: 1200px; margin: 0 auto; }
+
+  /* CARD */
+  .card {
+    background: #fff; border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    overflow: hidden; display: flex; flex-direction: column;
+    cursor: pointer; transition: box-shadow 0.2s;
+  }
+  .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.13); }
+  .card-stripe { width: 4px; flex-shrink: 0; background: #2D6A4F; }
+  .card-inner { display: flex; gap: 0; }
+  .card-body { padding: 18px 18px 14px; flex: 1; }
+  .card-header { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+  .card-num {
+    width: 28px; height: 28px; border-radius: 50%;
+    background: #2D6A4F; color: #fff;
+    font-size: 13px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .card-title { font-size: 14px; font-weight: 700; color: #1a1a1a; }
+  .card-bullets { list-style: none; padding: 0; }
+  .card-bullets li {
+    font-size: 13px; color: #444;
+    padding: 4px 0 4px 14px;
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+  }
+  .card-bullets li:last-child { border-bottom: none; }
+  .card-bullets li::before { content: "•"; position: absolute; left: 0; color: #2D6A4F; }
+  .card-bullets li strong { color: #1a1a1a; }
+  .badge {
+    display: inline-block; font-size: 11px; font-weight: 600;
+    padding: 3px 10px; border-radius: 20px; margin-top: 12px;
+    background: #1B4332; color: #fff;
+  }
+  .badge.dom { background: #52B788; color: #fff; }
+  .badge.ref { background: #E05252; color: #fff; }
+
+  /* TABLE dentro do card */
+  .mini-table { width: 100%; border-collapse: collapse; font-size: 12px; margin: 8px 0; }
+  .mini-table th { background: #2D6A4F; color: #fff; padding: 4px 6px; text-align: left; font-weight: 600; }
+  .mini-table td { padding: 4px 6px; border-bottom: 1px solid #eee; color: #444; }
+  .mini-table tr:last-child td { border-bottom: none; }
+
+  /* DICAS DE OURO */
+  .dicas { background: #F0FAF4; border: 2px solid #2D6A4F; border-radius: 14px; padding: 24px 28px; margin: 0 32px 40px; max-width: 1200px; margin-left: auto; margin-right: auto; }
+  .dicas h2 { font-size: 18px; font-weight: 800; color: #2D6A4F; margin-bottom: 18px; }
+  .dica-item { display: flex; gap: 12px; margin-bottom: 14px; align-items: flex-start; }
+  .dica-badge {
+    background: #2D6A4F; color: #fff;
+    font-size: 12px; font-weight: 700;
+    padding: 3px 10px; border-radius: 20px;
+    flex-shrink: 0; margin-top: 1px;
+  }
+  .dica-text { font-size: 13px; color: #333; line-height: 1.55; }
+  .dica-text strong { color: #2D6A4F; }
+
+  @media (max-width: 900px) {
+    .grid { grid-template-columns: repeat(2,1fr); padding: 0 16px 24px; }
+  }
+  @media (max-width: 600px) {
+    .grid { grid-template-columns: 1fr; }
+    .header h1 { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="meta">Geografia · Unidade 1 · Capítulo 2 · 9º ano</div>
+  <h1>Conhecendo a Ásia e a Oceania</h1>
+  <div class="sub">Mapa Mental — gerado na preparação</div>
+  <div class="legend">
+    <div class="legend-item"><div class="dot dot-dom"></div>Dominado</div>
+    <div class="legend-item"><div class="dot dot-ref"></div>Reforçar</div>
+    <div class="legend-item"><div class="dot dot-new"></div>Não testado</div>
+  </div>
+</div>
+
+<!-- PÍLULA CENTRAL -->
+<div class="pill-wrap">
+  <div class="pill">Ásia &amp; Oceania — Regionalização e Dinâmicas Geográficas</div>
+</div>
+
+<!-- GRID DE CARDS -->
+<div class="grid">
+
+  <!-- Card 1: A Ásia em resumo -->
+  <div class="card" onclick="cycleStatus(this)">
+    <div class="card-inner">
+      <div class="card-stripe"></div>
+      <div class="card-body">
+        <div class="card-header">
+          <div class="card-num">1</div>
+          <div class="card-title">A Ásia em Resumo</div>
+        </div>
+        <ul class="card-bullets">
+          <li><strong>Tamanho:</strong> maior e mais populoso continente do mundo</li>
+          <li><strong>História:</strong> sede das civilizações mais antigas do planeta</li>
+          <li><strong>Cultura:</strong> rica e diversa</li>
+          <li><strong>Regiões:</strong> 6 — Setentrional, Extremo Oriente, Sudeste Asiático, Meridional, Oriente Médio, Central</li>
+        </ul>
+        <span class="badge">Não testado</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 2: Regiões da Ásia -->
+  <div class="card" onclick="cycleStatus(this)">
+    <div class="card-inner">
+      <div class="card-stripe"></div>
+      <div class="card-body">
+        <div class="card-header">
+          <div class="card-num">2</div>
+          <div class="card-title">As 6 Regiões da Ásia</div>
+        </div>
+        <table class="mini-table">
+          <tr><th>Região</th><th>Destaque</th></tr>
+          <tr><td>Setentrional</td><td>Sibéria; clima polar; baixíssima densidade</td></tr>
+          <tr><td>Extremo Oriente</td><td>China, Japão, Coreia; Yangtzé, Huang He</td></tr>
+          <tr><td>Sudeste Asiático</td><td>Ilhas/penínsulas; clima tropical; turismo</td></tr>
+          <tr><td>Meridional</td><td>Subcontinente indiano; Indo, Ganges</td></tr>
+          <tr><td>Oriente Médio</td><td>3 religiões monoteístas; Tigre, Eufrates; Jerusalém</td></tr>
+          <tr><td>Central</td><td>Ex-repúblicas soviéticas; climas secos</td></tr>
+        </table>
+        <span class="badge">Não testado</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 3: A Oceania -->
+  <div class="card" onclick="cycleStatus(this)">
+    <div class="card-inner">
+      <div class="card-stripe"></div>
+      <div class="card-body">
+        <div class="card-header">
+          <div class="card-num">3</div>
+          <div class="card-title">A Oceania — Visão Geral</div>
+        </div>
+        <ul class="card-bullets">
+          <li><strong>Tamanho:</strong> menor continente do mundo</li>
+          <li><strong>Apelido:</strong> "Novíssimo Mundo" (último descoberto pelos europeus)</li>
+          <li><strong>Estrutura:</strong> 1 porção continental + 3 regiões insulares</li>
+          <li><strong>Continental:</strong> Austrália (&gt;90% do território)</li>
+          <li><strong>Insulares:</strong> Melanésia, Micronésia, Polinésia</li>
+          <li><strong>Contraste:</strong> Austrália e NZ (muito desenvolvidas) vs. demais ilhas (pouco conhecidas)</li>
+        </ul>
+        <span class="badge">Não testado</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 4: Melanésia -->
+  <div class="card" onclick="cycleStatus(this)">
+    <div class="card-inner">
+      <div class="card-stripe"></div>
+      <div class="card-body">
+        <div class="card-header">
+          <div class="card-num">4</div>
+          <div class="card-title">Melanésia</div>
+        </div>
+        <ul class="card-bullets">
+          <li><strong>Localização:</strong> nordeste da Austrália</li>
+          <li><strong>Países independentes (3):</strong> Papua-Nova Guiné, Ilhas Salomão, Fiji, Vanuatu</li>
+          <li><strong>Protetorado:</strong> Nova Caledônia (França)</li>
+          <li><strong>Vida nativa:</strong> caça, coleta, pesca e domesticação em muitas ilhas</li>
+          <li><strong>Turismo:</strong> Ilhas Fiji — praias e hotéis de luxo</li>
+        </ul>
+        <span class="badge">Não testado</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 5: Micronésia -->
+  <div class="card" onclick="cycleStatus(this)">
+    <div class="card-inner">
+      <div class="card-stripe"></div>
+      <div class="card-body">
+        <div class="card-header">
+          <div class="card-num">5</div>
+          <div class="card-title">Micronésia</div>
+        </div>
+        <ul class="card-bullets">
+          <li><strong>Localização:</strong> norte da Melanésia, leste das Filipinas; quase inteiramente no hemisfério norte</li>
+          <li><strong>Países independentes (5):</strong> Fed. Micronésia, Palau, Ilhas Marshall, Kiribati, Nauru</li>
+          <li><strong>Protetorados EUA (2):</strong> Guam + Ilhas Marianas do Norte = Ilhas Marianas</li>
+          <li><strong>Total:</strong> 7 territórios distintos</li>
+          <li><strong>Destaque físico:</strong> próxima à Fossa das Marianas (maior profundidade oceânica)</li>
+        </ul>
+        <span class="badge">Não testado</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 6: Polinésia -->
+  <div class="card" onclick="cycleStatus(this)">
+    <div class="card-inner">
+      <div class="card-stripe"></div>
+      <div class="card-body">
+        <div class="card-header">
+          <div class="card-num">6</div>
+          <div class="card-title">Polinésia</div>
+        </div>
+        <ul class="card-bullets">
+          <li><strong>Extensão:</strong> maior área insular da Oceania — da NZ ao Havaí e Ilha de Páscoa</li>
+          <li><strong>Países independentes:</strong> Samoa, Tonga, Tuvalu</li>
+          <li><strong>Associados EUA:</strong> Havaí, Samoa Americana</li>
+          <li><strong>França:</strong> Polinésia Francesa, Wallis e Futuna</li>
+          <li><strong>Reino Unido:</strong> Pitcairn</li>
+          <li><strong>NZ (independência parcial):</strong> Ilhas Cook, Niue</li>
+          <li><strong>Turismo:</strong> bangalôs sobre a água; espaços paradisíacos</li>
+        </ul>
+        <span class="badge">Não testado</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 7: Tuvalu -->
+  <div class="card" onclick="cycleStatus(this)">
+    <div class="card-inner">
+      <div class="card-stripe"></div>
+      <div class="card-body">
+        <div class="card-header">
+          <div class="card-num">7</div>
+          <div class="card-title">Tuvalu — Caso Climático</div>
+        </div>
+        <ul class="card-bullets">
+          <li><strong>Localização:</strong> sul da Oceania — Polinésia</li>
+          <li><strong>População:</strong> ~11 mil habitantes</li>
+          <li><strong>Altitude máxima:</strong> 5 metros acima do nível do mar</li>
+          <li><strong>Ameaça:</strong> subida do nível do mar (mudanças climáticas)</li>
+          <li><strong>Resposta (2022):</strong> anunciou-se como "1ª nação digital do mundo"</li>
+          <li><strong>Estratégia:</strong> digitalizar ilhas, cultura, danças, eleições — mover tudo para a nuvem</li>
+          <li><strong>Frase-chave:</strong> "O mundo não agiu, e por isso nós, no Pacífico, tivemos de agir." — ministro Kofe</li>
+        </ul>
+        <span class="badge">Não testado</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 8: Fusos Horários -->
+  <div class="card" onclick="cycleStatus(this)">
+    <div class="card-inner">
+      <div class="card-stripe"></div>
+      <div class="card-body">
+        <div class="card-header">
+          <div class="card-num">8</div>
+          <div class="card-title">Fusos Horários e Linha de Data</div>
+        </div>
+        <ul class="card-bullets">
+          <li><strong>Referência zero:</strong> Meridiano de Greenwich (GMT 0°)</li>
+          <li><strong>Total:</strong> 24 fusos horários</li>
+          <li><strong>Linha de Mudança de Data:</strong> próxima ao meridiano 180°</li>
+          <li><strong>Leste → Oeste:</strong> subtrai-se 1 dia</li>
+          <li><strong>Oeste → Leste:</strong> acrescenta-se 1 dia</li>
+          <li><strong>Desafio (p.38):</strong> Auckland (NZ) → Santiago (Chile), voo ~11h, cruzando a linha</li>
+          <li><strong>Por que a Oceania recebe o Ano-Novo primeiro:</strong> fusos mais avançados (próximos ao meridiano 180°)</li>
+        </ul>
+        <span class="badge">Não testado</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 9: Mapas do Capítulo -->
+  <div class="card" onclick="cycleStatus(this)">
+    <div class="card-inner">
+      <div class="card-stripe"></div>
+      <div class="card-body">
+        <div class="card-header">
+          <div class="card-num">9</div>
+          <div class="card-title">Mapas do Capítulo</div>
+        </div>
+        <ul class="card-bullets">
+          <li><strong>Mundo: fusos horários</strong> — base do Desafio de Auckland→Santiago</li>
+          <li><strong>Oceania: regiões</strong> — Melanésia (verde), Micronésia (amarelo), Polinésia (rosa)</li>
+          <li><strong>Oceania: político</strong> — capitais e países</li>
+          <li><strong>Ásia: regiões</strong> — 6 cores diferentes</li>
+          <li><strong>Ásia: político</strong> — países e cidades</li>
+          <li><strong>Península da Anatólia</strong> — Turquia; Istambul ≠ capital (Ankara)</li>
+          <li><strong>Península do Decã</strong> — deriva continental; Índia há 71 Ma→hoje</li>
+        </ul>
+        <span class="badge">Não testado</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- DICAS DE OURO -->
+<div class="dicas" style="margin: 0 32px 40px; max-width: 1200px; margin-left: auto; margin-right: auto; margin-bottom: 40px;">
+  <h2>⭐ Dicas de Ouro</h2>
+
+  <div class="dica-item">
+    <span class="dica-badge">1</span>
+    <div class="dica-text"><strong>Oceania tem 4, não 3 regiões:</strong> Melanésia, Micronésia, Polinésia <em>e a porção continental (Austrália)</em>. A Austrália representa mais de 90% do continente — nunca a esqueça!</div>
+  </div>
+
+  <div class="dica-item">
+    <span class="dica-badge">2</span>
+    <div class="dica-text"><strong>Ásia Central ≠ Ásia Setentrional:</strong> Central = ex-repúblicas soviéticas + climas secos. Setentrional = Sibéria + clima polar/subpolar + baixíssima densidade demográfica. São regiões adjacentes mas completamente diferentes.</div>
+  </div>
+
+  <div class="dica-item">
+    <span class="dica-badge">3</span>
+    <div class="dica-text"><strong>Meridiano de Greenwich ≠ Linha Internacional de Mudança de Data:</strong> Greenwich é o fuso 0° (Europa). A Linha de Mudança de Data fica no lado oposto do globo (~180°, Oceano Pacífico). Países da Oceania recebem o Ano-Novo primeiro por estarem próximos dessa linha.</div>
+  </div>
+
+  <div class="dica-item">
+    <span class="dica-badge">4</span>
+    <div class="dica-text"><strong>Austrália = mais de 90% da Oceania:</strong> Quando perguntarem qual país representa quase todo o território da Oceania, responda Austrália. A Nova Zelândia pertence à sub-região Polinésia, não à porção continental.</div>
+  </div>
+
+  <div class="dica-item">
+    <span class="dica-badge">5</span>
+    <div class="dica-text"><strong>Sudeste Asiático — reconheça pela descrição:</strong> "ilhas e penínsulas + clima tropical + grande potencial turístico" = Sudeste Asiático. Essa é a resposta exata da Q-6 do capítulo.</div>
+  </div>
+
+  <div class="dica-item">
+    <span class="dica-badge">6</span>
+    <div class="dica-text"><strong>Tuvalu — dados de prova:</strong> altitude máxima <strong>5 metros</strong>, população <strong>~11 mil habitantes</strong>. Resposta ao risco climático: tornar-se a <strong>1ª nação digital do mundo</strong> (anúncio em 2022).</div>
+  </div>
+</div>
+
+<script>
+function cycleStatus(card) {
+  const badge = card.querySelector('.badge');
+  if (!badge) return;
+  if (badge.classList.contains('dom')) {
+    badge.classList.remove('dom');
+    badge.classList.add('ref');
+    badge.textContent = 'Reforçar';
+  } else if (badge.classList.contains('ref')) {
+    badge.classList.remove('ref');
+    badge.textContent = 'Não testado';
+  } else {
+    badge.classList.add('dom');
+    badge.textContent = 'Dominado';
+  }
+}
+</script>
+</body>
+</html>
