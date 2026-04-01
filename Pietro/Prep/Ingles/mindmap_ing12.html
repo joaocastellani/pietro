@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mind Map — Inglês Unidade 1 Capítulo 2</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', sans-serif; background: #F4F2EE; color: #222; }
+
+  /* HEADER */
+  .header {
+    background: #004080;
+    color: #fff;
+    padding: 28px 40px 22px;
+  }
+  .header-meta { font-size: 13px; font-weight: 500; letter-spacing: 0.5px; opacity: 0.8; margin-bottom: 6px; }
+  .header-title { font-size: 32px; font-weight: 800; margin-bottom: 4px; }
+  .header-sub { font-size: 13px; font-weight: 400; opacity: 0.7; margin-bottom: 14px; }
+  .legend { display: flex; gap: 20px; align-items: center; }
+  .legend-dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; margin-right: 6px; }
+  .legend-item { display: flex; align-items: center; font-size: 12px; opacity: 0.9; }
+
+  /* PILL */
+  .pill-wrap { display: flex; justify-content: center; margin: 28px 0 8px; }
+  .pill {
+    background: #004080; color: #fff;
+    font-size: 16px; font-weight: 700;
+    padding: 12px 32px; border-radius: 50px;
+    letter-spacing: 0.5px;
+  }
+
+  /* GRID */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto 32px;
+    padding: 0 32px;
+  }
+
+  /* CARD */
+  .card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    border-left: 4px solid #D4880A;
+    overflow: hidden;
+  }
+  .card-header {
+    display: flex; align-items: center; gap: 10px;
+    padding: 14px 16px 10px;
+    border-bottom: 1px solid #f0ece4;
+  }
+  .card-num {
+    width: 26px; height: 26px; border-radius: 50%;
+    background: #D4880A; color: #fff;
+    font-size: 12px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .card-title { font-size: 14px; font-weight: 700; color: #D4880A; }
+  .card-body { padding: 12px 16px; }
+  .card-body ul { list-style: none; padding: 0; }
+  .card-body ul li {
+    font-size: 13px; color: #444;
+    padding: 4px 0; border-bottom: 1px solid #f5f3ef;
+    display: flex; gap: 6px; align-items: flex-start;
+  }
+  .card-body ul li:last-child { border-bottom: none; }
+  .bullet { color: #D4880A; font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+  .gotcha {
+    margin-top: 10px;
+    background: #FFF8EC;
+    border: 1px solid #F0D080;
+    border-radius: 8px;
+    padding: 8px 10px;
+    font-size: 12px; color: #7a5c00;
+  }
+  .gotcha strong { color: #c06000; }
+  .card-footer {
+    padding: 8px 16px;
+    background: #FFF8EC;
+    font-size: 11px; font-weight: 600;
+    color: #D4880A; letter-spacing: 0.5px;
+    border-top: 1px solid #f0ece4;
+  }
+
+  /* GOLDEN TIPS */
+  .tips-section {
+    background: #FFF8EC;
+    border: 2px solid #F0D080;
+    border-radius: 14px;
+    max-width: 1100px;
+    margin: 0 auto 40px;
+    padding: 24px 32px;
+  }
+  .tips-title {
+    font-size: 16px; font-weight: 800; color: #7a5c00;
+    margin-bottom: 18px; letter-spacing: 0.5px;
+  }
+  .tips-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+  .tip-item {
+    display: flex; gap: 10px; align-items: flex-start;
+  }
+  .tip-badge {
+    background: #D4880A; color: #fff;
+    font-size: 11px; font-weight: 700;
+    padding: 2px 8px; border-radius: 20px;
+    flex-shrink: 0; margin-top: 2px;
+  }
+  .tip-text { font-size: 12.5px; color: #555; line-height: 1.5; }
+
+  @media (max-width: 800px) {
+    .grid, .tips-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 540px) {
+    .grid, .tips-grid { grid-template-columns: 1fr; }
+    .header { padding: 20px; }
+    .header-title { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-meta">Inglês · Unidade 1 · Capítulo 2 · 9º ano</div>
+  <div class="header-title">Urban Accessibility</div>
+  <div class="header-sub">Mind Map — generated at preparation</div>
+  <div class="legend">
+    <div class="legend-item"><span class="legend-dot" style="background:#2ecc71"></span> Mastered</div>
+    <div class="legend-item"><span class="legend-dot" style="background:#e74c3c"></span> Review</div>
+    <div class="legend-item"><span class="legend-dot" style="background:#D4880A"></span> Not tested</div>
+  </div>
+</div>
+
+<!-- CENTRAL PILL -->
+<div class="pill-wrap">
+  <div class="pill">Urban Accessibility &amp; Linking Words</div>
+</div>
+
+<!-- CARDS GRID -->
+<div class="grid">
+
+  <!-- 1 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">1</div>
+      <div class="card-title">Linking Words — Overview</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="bullet">›</span>Palavras que conectam ideias em um texto</li>
+        <li><span class="bullet">›</span>Expressam relações lógicas: contraste, adição, causa, condição, consequência</li>
+        <li><span class="bullet">›</span>Fundamentais para coesão e coerência textual</li>
+        <li><span class="bullet">›</span>Presentes em todos os gêneros textuais</li>
+      </ul>
+    </div>
+    <div class="card-footer">NOT TESTED</div>
+  </div>
+
+  <!-- 2 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">2</div>
+      <div class="card-title">Contrast (Contraste)</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="bullet">›</span><strong>but</strong> → liga orações na mesma frase</li>
+        <li><span class="bullet">›</span><strong>however</strong> → formal, inicia nova oração com vírgula</li>
+        <li><span class="bullet">›</span><strong>though / even so / nonetheless</strong> → variações formais</li>
+        <li><span class="bullet">›</span>Ex: <em>"It's accessible; however, ramps are missing."</em></li>
+      </ul>
+      <div class="gotcha"><strong>⚠️ Pegadinha:</strong> <em>but</em> e <em>however</em> não são intercambiáveis sem ajustar a pontuação. <em>But</em> fica dentro da frase; <em>however</em> inicia nova oração.</div>
+    </div>
+    <div class="card-footer">NOT TESTED</div>
+  </div>
+
+  <!-- 3 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">3</div>
+      <div class="card-title">Addition (Adição)</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="bullet">›</span><strong>also</strong> → neutro, qualquer contexto</li>
+        <li><span class="bullet">›</span><strong>in addition</strong> → formal, início de oração</li>
+        <li><span class="bullet">›</span><strong>furthermore</strong> → muito formal</li>
+        <li><span class="bullet">›</span><strong>as well as</strong> → equivale a "e também"</li>
+        <li><span class="bullet">›</span>Ex: <em>"In addition, the city offers bike lanes."</em></li>
+      </ul>
+    </div>
+    <div class="card-footer">NOT TESTED</div>
+  </div>
+
+  <!-- 4 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">4</div>
+      <div class="card-title">Cause / Reason (Causa/Razão)</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="bullet">›</span><strong>because</strong> → seguido de sujeito + verbo</li>
+        <li><span class="bullet">›</span><strong>due to</strong> → seguido de substantivo ou gerúndio</li>
+        <li><span class="bullet">›</span><strong>as / since</strong> → mais formais, início de oração</li>
+        <li><span class="bullet">›</span>Ex: <em>"Due to bad weather, trains were delayed."</em></li>
+      </ul>
+      <div class="gotcha"><strong>⚠️ Pegadinha:</strong> ❌ <em>"Due to it rained"</em> → ✅ <em>"Due to the rain"</em> ou <em>"Because it rained"</em></div>
+    </div>
+    <div class="card-footer">NOT TESTED</div>
+  </div>
+
+  <!-- 5 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">5</div>
+      <div class="card-title">Condition (Condição)</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="bullet">›</span><strong>if</strong> → condição neutra</li>
+        <li><span class="bullet">›</span><strong>unless</strong> → condição negativa (= if … not)</li>
+        <li><span class="bullet">›</span><strong>even if</strong> → condição hipotética enfática</li>
+        <li><span class="bullet">›</span><strong>in case</strong> → precaução / prevenção</li>
+        <li><span class="bullet">›</span>Ex: <em>"Unless ramps are installed, access will be limited."</em></li>
+      </ul>
+      <div class="gotcha"><strong>⚠️ Pegadinha:</strong> <em>Unless</em> já inclui negação. ❌ <em>"Unless you don't hurry"</em> → ✅ <em>"Unless you hurry"</em></div>
+    </div>
+    <div class="card-footer">NOT TESTED</div>
+  </div>
+
+  <!-- 6 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">6</div>
+      <div class="card-title">Consequence / Result (Consequência)</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="bullet">›</span><strong>so</strong> → informal, liga orações diretamente</li>
+        <li><span class="bullet">›</span><strong>therefore / consequently</strong> → formais</li>
+        <li><span class="bullet">›</span><strong>as a result</strong> → formal, inicia nova oração</li>
+        <li><span class="bullet">›</span>Ex: <em>"Roads were blocked; as a result, traffic worsened."</em></li>
+      </ul>
+    </div>
+    <div class="card-footer">NOT TESTED</div>
+  </div>
+
+  <!-- 7 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">7</div>
+      <div class="card-title">Urban Accessibility (Vocabulário)</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="bullet">›</span><strong>ramp</strong> → rampa</li>
+        <li><span class="bullet">›</span><strong>sidewalk</strong> → calçada</li>
+        <li><span class="bullet">›</span><strong>crosswalk</strong> → faixa de pedestres</li>
+        <li><span class="bullet">›</span><strong>yield</strong> → dar preferência</li>
+        <li><span class="bullet">›</span><strong>cane</strong> → bengala</li>
+        <li><span class="bullet">›</span><strong>tactile paving</strong> → piso tátil</li>
+        <li><span class="bullet">›</span><strong>congestion</strong> → congestionamento</li>
+      </ul>
+    </div>
+    <div class="card-footer">NOT TESTED</div>
+  </div>
+
+  <!-- 8 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">8</div>
+      <div class="card-title">Listicle — Gênero Textual</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="bullet">›</span>Artigo em formato de lista (numerada ou com bullets)</li>
+        <li><span class="bullet">›</span>Conciso, direto e de fácil leitura</li>
+        <li><span class="bullet">›</span>Possui introdução, lista de itens e conclusão</li>
+        <li><span class="bullet">›</span>Todos os itens tratam do MESMO tema</li>
+        <li><span class="bullet">›</span>Usa linking words para articular os pontos</li>
+      </ul>
+      <div class="gotcha"><strong>⚠️ Pegadinha:</strong> Um listicle TEM introdução e conclusão — não é apenas uma lista solta. Os itens NÃO são sobre tópicos diferentes.</div>
+    </div>
+    <div class="card-footer">NOT TESTED</div>
+  </div>
+
+  <!-- 9 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">9</div>
+      <div class="card-title">Smart Cities (Texto-base)</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="bullet">›</span>Coletam dados via sensores, câmeras e dispositivos integrados</li>
+        <li><span class="bullet">›</span>Analisam dados com IA para gestão urbana</li>
+        <li><span class="bullet">›</span><strong>Smart pavement</strong> → monitora clima e condições da via</li>
+        <li><span class="bullet">›</span><strong>Smart parking</strong> → indica vagas disponíveis</li>
+        <li><span class="bullet">›</span><strong>Smart traffic signals</strong> → ajustam-se ao fluxo de trânsito</li>
+      </ul>
+    </div>
+    <div class="card-footer">NOT TESTED</div>
+  </div>
+
+</div>
+
+<!-- GOLDEN TIPS -->
+<div class="tips-section" style="max-width:1100px; margin: 0 auto 40px; padding: 24px 32px;">
+  <div class="tips-title">💡 Golden Tips — Dicas de Ouro</div>
+  <div class="tips-grid">
+    <div class="tip-item">
+      <div class="tip-badge">1</div>
+      <div class="tip-text"><strong>However ≠ But (posição):</strong> <em>But</em> fica dentro da frase; <em>however</em> inicia nova oração. Não use os dois juntos.</div>
+    </div>
+    <div class="tip-item">
+      <div class="tip-badge">2</div>
+      <div class="tip-text"><strong>Due to + substantivo:</strong> ❌ <em>"Due to it rained"</em> → ✅ <em>"Due to the rain"</em>. Para sujeito + verbo, use <em>because</em>.</div>
+    </div>
+    <div class="tip-item">
+      <div class="tip-badge">3</div>
+      <div class="tip-text"><strong>Unless já é negativo:</strong> ❌ <em>"Unless you don't hurry"</em> → ✅ <em>"Unless you hurry"</em>. Não adicione <em>not</em>.</div>
+    </div>
+    <div class="tip-item">
+      <div class="tip-badge">4</div>
+      <div class="tip-text"><strong>In addition vs. Also:</strong> <em>In addition</em> é mais formal (textos escritos); <em>also</em> é neutro. <em>Furthermore</em> é o mais formal dos três.</div>
+    </div>
+    <div class="tip-item">
+      <div class="tip-badge">5</div>
+      <div class="tip-text"><strong>So vs. As a result:</strong> <em>So</em> é informal e liga orações diretamente. <em>As a result / Therefore</em> são formais e iniciam nova oração.</div>
+    </div>
+    <div class="tip-item">
+      <div class="tip-badge">6</div>
+      <div class="tip-text"><strong>Listicle tem estrutura:</strong> Introdução + lista (mesmo tema) + conclusão. Em prova: os itens NÃO são sobre tópicos diferentes.</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
