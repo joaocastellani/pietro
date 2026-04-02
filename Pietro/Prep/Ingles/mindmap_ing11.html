@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mind Map — Inglês · Unidade 1 · Capítulo 1</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', sans-serif; background: #F4F2EE; color: #1a1a2e; }
+
+  /* HEADER */
+  .header {
+    background: #004080;
+    color: #fff;
+    padding: 28px 40px 22px;
+    text-align: center;
+  }
+  .header .line { font-size: 13px; font-weight: 500; letter-spacing: 0.08em; opacity: 0.8; margin-bottom: 8px; }
+  .header h1 { font-size: 32px; font-weight: 800; margin-bottom: 6px; }
+  .header .subtitle { font-size: 13px; opacity: 0.7; margin-bottom: 16px; }
+  .legend { display: inline-flex; gap: 20px; background: rgba(255,255,255,0.12); border-radius: 20px; padding: 8px 20px; }
+  .legend-item { display: flex; align-items: center; gap: 7px; font-size: 12px; }
+  .dot { width: 11px; height: 11px; border-radius: 50%; flex-shrink: 0; }
+  .dot-green  { background: #2ECC71; }
+  .dot-red    { background: #E74C3C; }
+  .dot-orange { background: #D4880A; }
+
+  /* PÍLULA CENTRAL */
+  .central-pill {
+    display: flex; justify-content: center; padding: 24px 40px 0;
+  }
+  .pill {
+    background: #004080; color: #fff;
+    padding: 12px 36px; border-radius: 40px;
+    font-size: 16px; font-weight: 700; letter-spacing: 0.04em;
+  }
+
+  /* GRID DE CARDS */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 28px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    border-left: 3px solid #D4880A;
+    padding: 18px 18px 14px;
+    display: flex; flex-direction: column;
+    position: relative;
+  }
+  .card-header { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 14px; }
+  .card-num {
+    background: #D4880A; color: #fff;
+    width: 28px; height: 28px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px; font-weight: 700; flex-shrink: 0;
+  }
+  .card-title { font-size: 14px; font-weight: 700; color: #D4880A; line-height: 1.3; }
+  .card-body { font-size: 13px; line-height: 1.6; flex: 1; }
+  .card-body ul { list-style: none; padding: 0; }
+  .card-body li { padding: 3px 0; border-bottom: 1px solid #f0ede8; }
+  .card-body li:last-child { border-bottom: none; }
+  .card-body .en { font-weight: 600; color: #1a1a2e; }
+  .card-body .pt { color: #555; font-size: 12px; }
+  .card-body .arrow { color: #D4880A; margin: 0 4px; }
+  .card-body .trap {
+    background: #FFF3E0; border-left: 3px solid #D4880A;
+    border-radius: 6px; padding: 8px 10px; margin-top: 10px;
+    font-size: 12px; color: #7a4000;
+  }
+  .card-body .trap strong { display: block; margin-bottom: 3px; }
+  .badge {
+    display: inline-block; margin-top: 12px;
+    background: #FFF3E0; color: #D4880A;
+    font-size: 11px; font-weight: 700;
+    padding: 4px 10px; border-radius: 20px;
+    border: 1px solid #D4880A;
+    align-self: flex-start;
+  }
+
+  /* GOLDEN TIPS */
+  .golden-tips {
+    background: #FFF8EC;
+    border: 2px solid #F0D080;
+    border-radius: 14px;
+    margin: 0 40px 40px;
+    padding: 24px 28px;
+    max-width: 1120px;
+    margin-left: auto; margin-right: auto;
+  }
+  .golden-tips h2 {
+    font-size: 15px; font-weight: 800; color: #7a4000;
+    margin-bottom: 18px; letter-spacing: 0.04em;
+  }
+  .tips-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+  .tip-item { display: flex; align-items: flex-start; gap: 10px; }
+  .tip-badge {
+    background: #D4880A; color: #fff;
+    width: 24px; height: 24px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px; font-weight: 700; flex-shrink: 0;
+  }
+  .tip-text { font-size: 13px; line-height: 1.5; color: #4a2c00; }
+  .tip-text strong { color: #7a4000; }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="line">Inglês · Unidade 1 · Capítulo 1 · 9º ano</div>
+  <h1>The Power of Art</h1>
+  <div class="subtitle">Mind Map — generated at preparation</div>
+  <div class="legend">
+    <div class="legend-item"><div class="dot dot-green"></div> Mastered</div>
+    <div class="legend-item"><div class="dot dot-red"></div> Review</div>
+    <div class="legend-item"><div class="dot dot-orange"></div> Not tested</div>
+  </div>
+</div>
+
+<!-- PÍLULA CENTRAL -->
+<div class="central-pill">
+  <div class="pill">The Power of Art — Language &amp; Culture</div>
+</div>
+
+<!-- GRID DE CARDS -->
+<div class="grid">
+
+  <!-- Card 1 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">1</div>
+      <div class="card-title">The Power of Art<br><span style="font-weight:400;font-size:12px;color:#888">(O Poder da Arte)</span></div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="en">powerful force</span><span class="arrow">→</span><span class="pt">força poderosa</span></li>
+        <li><span class="en">evoke emotions</span><span class="arrow">→</span><span class="pt">evocar emoções</span></li>
+        <li><span class="en">inspire</span><span class="arrow">→</span><span class="pt">inspirar</span></li>
+        <li><span class="en">unite people and communities</span><span class="arrow">→</span><span class="pt">unir pessoas e comunidades</span></li>
+        <li><span class="en">transcend boundaries</span><span class="arrow">→</span><span class="pt">transcender barreiras</span></li>
+        <li><span class="en">peaceful and inclusive community</span><span class="arrow">→</span><span class="pt">comunidade pacífica e inclusiva</span></li>
+      </ul>
+    </div>
+    <span class="badge">Not tested</span>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">2</div>
+      <div class="card-title">Art Techniques &amp; Vocabulary<br><span style="font-weight:400;font-size:12px;color:#888">(Técnicas e Vocabulário)</span></div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="en">oil on canvas</span><span class="arrow">→</span><span class="pt">óleo sobre tela (técnica)</span></li>
+        <li><span class="en">mural</span><span class="arrow">→</span><span class="pt">mural (tipo de arte)</span></li>
+        <li><span class="en">artwork</span><span class="arrow">→</span><span class="pt">obra de arte</span></li>
+        <li><span class="en">caption</span><span class="arrow">→</span><span class="pt">legenda</span></li>
+        <li><span class="en">on display</span><span class="arrow">→</span><span class="pt">em exibição</span></li>
+        <li><span class="en">depth</span><span class="arrow">→</span><span class="pt">profundidade</span></li>
+        <li><span class="en">geometric shapes</span><span class="arrow">→</span><span class="pt">formas geométricas</span></li>
+        <li><span class="en">organic shapes</span><span class="arrow">→</span><span class="pt">formas orgânicas</span></li>
+      </ul>
+    </div>
+    <span class="badge">Not tested</span>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">3</div>
+      <div class="card-title">Art Appreciation &amp; Museums<br><span style="font-weight:400;font-size:12px;color:#888">(Apreciação e Museus)</span></div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="en">visitor</span><span class="arrow">→</span><span class="pt">visitante</span></li>
+        <li><span class="en">museum</span><span class="arrow">→</span><span class="pt">museu</span></li>
+        <li><span class="en">access to art</span><span class="arrow">→</span><span class="pt">acesso à arte</span></li>
+        <li><span class="en">future generations</span><span class="arrow">→</span><span class="pt">gerações futuras</span></li>
+        <li><span class="en">socioeconomic background</span><span class="arrow">→</span><span class="pt">origem/posição socioeconômica</span></li>
+        <li><span class="en">cultivate</span><span class="arrow">→</span><span class="pt">cultivar</span></li>
+        <li><span class="en">benefit from</span><span class="arrow">→</span><span class="pt">se beneficiar de</span></li>
+      </ul>
+    </div>
+    <span class="badge">Not tested</span>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">4</div>
+      <div class="card-title">Modal Verb: Should<br><span style="font-weight:400;font-size:12px;color:#888">(Conselho / Recomendação)</span></div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="en">Uso:</span><span class="pt"> conselho, recomendação</span></li>
+        <li><span class="en">Afirm.:</span><span class="pt"> Subject + <strong>should</strong> + base verb</span></li>
+        <li><span class="en">Negat.:</span><span class="pt"> Subject + <strong>shouldn't</strong> + base verb</span></li>
+        <li><span class="en">Interr.:</span><span class="pt"> <strong>Should</strong> + subject + base verb?</span></li>
+        <li><span class="en">Ex:</span><span class="pt"> "You <strong>should</strong> visit MASP."</span></li>
+      </ul>
+      <div class="trap"><strong>⚠️ Pegadinha</strong>Should ≠ have to. Should = aconselhável. Have to = obrigatório.</div>
+    </div>
+    <span class="badge">Not tested</span>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">5</div>
+      <div class="card-title">Modal Verb: Have to<br><span style="font-weight:400;font-size:12px;color:#888">(Necessidade / Obrigação)</span></div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="en">Uso:</span><span class="pt"> necessidade, obrigação</span></li>
+        <li><span class="en">Afirm.:</span><span class="pt"> Subject + <strong>have to</strong>/<strong>has to</strong> + base verb</span></li>
+        <li><span class="en">Negat.:</span><span class="pt"> Subject + <strong>don't/doesn't have to</strong> + base verb</span></li>
+        <li><span class="en">Interr.:</span><span class="pt"> <strong>Do/Does</strong> + subject + have to?</span></li>
+        <li><span class="en">Ex:</span><span class="pt"> "Students <strong>have to</strong> finish the report."</span></li>
+      </ul>
+      <div class="trap"><strong>⚠️ Pegadinha</strong>Don't have to ≠ proibição. "Don't have to" = não é necessário. "Mustn't" = é proibido.</div>
+    </div>
+    <span class="badge">Not tested</span>
+  </div>
+
+  <!-- Card 6 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">6</div>
+      <div class="card-title">First Conditional<br><span style="font-weight:400;font-size:12px;color:#888">(Primeira Condicional)</span></div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="en">Uso:</span><span class="pt"> previsões / promessas sobre o futuro</span></li>
+        <li><span class="en">Forma:</span><span class="pt"> <strong>If + Simple Present</strong>, <strong>will + base verb</strong></span></li>
+        <li><span class="en">if-clause:</span><span class="pt"> NUNCA usa will → usa Simple Present</span></li>
+        <li><span class="en">Ex:</span><span class="pt"> "If museums charge fees, access <strong>will be</strong> harder."</span></li>
+        <li><span class="en">Sem vírgula se if vier depois:</span><span class="pt"> "You will pass if you study."</span></li>
+      </ul>
+      <div class="trap"><strong>⚠️ Pegadinha</strong>NUNCA "If it will rain..." → CORRETO: "If it rains..."</div>
+    </div>
+    <span class="badge">Not tested</span>
+  </div>
+
+  <!-- Card 7 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">7</div>
+      <div class="card-title">Artists of Reference<br><span style="font-weight:400;font-size:12px;color:#888">(Artistas de Referência)</span></div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="en">Claude Monet</span><span class="pt"> — Impressionismo (França) · pintura ao ar livre · ricas paletas de cores</span></li>
+        <li><span class="en">Pablo Picasso</span><span class="pt"> — Cubismo (Espanha) · formas geométricas · cubos, cilindros, cones</span></li>
+        <li><span class="en">The Artist's Garden at Giverny (1900)</span><span class="pt"> → Monet · óleo sobre tela · Musée d'Orsay, Paris</span></li>
+        <li><span class="en">Three Musicians</span><span class="pt"> → Picasso · cubismo</span></li>
+        <li><span class="en">MASP</span><span class="pt"> → Museu de Arte de São Paulo</span></li>
+      </ul>
+    </div>
+    <span class="badge">Not tested</span>
+  </div>
+
+  <!-- Card 8 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">8</div>
+      <div class="card-title">Survey Report<br><span style="font-weight:400;font-size:12px;color:#888">(Relatório de Pesquisa)</span></div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="en">Definição:</span><span class="pt"> texto formal com resultados de pesquisa</span></li>
+        <li><span class="en">Linguagem:</span><span class="pt"> formal e impessoal</span></li>
+        <li><span class="en">Estrutura:</span><span class="pt"> introdução → desenvolvimento → conclusão</span></li>
+        <li><span class="en">Frases-chave:</span><span class="pt"> "According to the survey..." / "The results show that..." / "In conclusion..."</span></li>
+        <li><span class="en">Tema do cap.:</span><span class="pt"> tempo de apreciação de obras em museus</span></li>
+      </ul>
+    </div>
+    <span class="badge">Not tested</span>
+  </div>
+
+  <!-- Card 9 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">9</div>
+      <div class="card-title">Grammar Vocabulary<br><span style="font-weight:400;font-size:12px;color:#888">(Vocabulário Gramatical)</span></div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="en">modal verbs</span><span class="arrow">→</span><span class="pt">verbos modais</span></li>
+        <li><span class="en">auxiliary verbs</span><span class="arrow">→</span><span class="pt">verbos auxiliares</span></li>
+        <li><span class="en">advice</span><span class="arrow">→</span><span class="pt">conselho</span></li>
+        <li><span class="en">obligation</span><span class="arrow">→</span><span class="pt">obrigação</span></li>
+        <li><span class="en">necessity</span><span class="arrow">→</span><span class="pt">necessidade</span></li>
+        <li><span class="en">if-clause</span><span class="arrow">→</span><span class="pt">oração com "if"</span></li>
+        <li><span class="en">prediction</span><span class="arrow">→</span><span class="pt">previsão</span></li>
+        <li><span class="en">contracted form</span><span class="arrow">→</span><span class="pt">forma contraída (shouldn't)</span></li>
+      </ul>
+    </div>
+    <span class="badge">Not tested</span>
+  </div>
+
+</div>
+
+<!-- GOLDEN TIPS -->
+<div class="golden-tips" style="margin: 0 40px 40px; padding: 24px 28px;">
+  <h2>💡 GOLDEN TIPS — Dicas de Ouro</h2>
+  <div class="tips-grid">
+    <div class="tip-item">
+      <div class="tip-badge">1</div>
+      <div class="tip-text"><strong>Should ≠ Have to:</strong> <strong>should</strong> = aconselhável (pode ou não seguir). <strong>Have to</strong> = obrigatório (não há escolha). "You <strong>should</strong> eat vegetables" vs "You <strong>have to</strong> wear a seatbelt."</div>
+    </div>
+    <div class="tip-item">
+      <div class="tip-badge">2</div>
+      <div class="tip-text"><strong>Nunca will na if-clause:</strong> Após <strong>If</strong>, sempre Simple Present. NUNCA "If it <strong>will</strong> rain..." → CORRETO: "If it <strong>rains</strong>, we will cancel."</div>
+    </div>
+    <div class="tip-item">
+      <div class="tip-badge">3</div>
+      <div class="tip-text"><strong>Don't have to ≠ proibição:</strong> <strong>Don't have to</strong> = não é necessário (mas pode). <strong>Mustn't</strong> = proibido. O primeiro libera; o segundo proíbe.</div>
+    </div>
+    <div class="tip-item">
+      <div class="tip-badge">4</div>
+      <div class="tip-text"><strong>Ordem da Condicional:</strong> If-clause antes → use vírgula: "If you study<strong>,</strong> you will pass." If-clause depois → sem vírgula: "You will pass if you study."</div>
+    </div>
+    <div class="tip-item">
+      <div class="tip-badge">5</div>
+      <div class="tip-text"><strong>Oil on canvas é técnica, não tipo:</strong> <strong>oil on canvas</strong> = técnica de pintura. <strong>Mural</strong> = tipo de arte aplicada em parede. Questões testam essa distinção.</div>
+    </div>
+    <div class="tip-item">
+      <div class="tip-badge">6</div>
+      <div class="tip-text"><strong>Interrogativa: should vs have to:</strong> Com <strong>should</strong>, sem auxiliar: "Should I go?" Com <strong>have to</strong>, com auxiliar: "Do I have to go?" / "Does she have to study?"</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

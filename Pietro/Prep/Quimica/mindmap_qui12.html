@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mapa Mental — Química · Capítulo 2</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', sans-serif; background: #F4F2EE; color: #1a1a1a; }
+
+  .header {
+    background: #006080;
+    color: white;
+    padding: 32px 40px 28px;
+    text-align: center;
+  }
+  .header .subtitle { font-size: 14px; letter-spacing: 1px; opacity: 0.85; margin-bottom: 8px; }
+  .header h1 { font-size: 32px; font-weight: 800; margin-bottom: 6px; }
+  .header .gen-note { font-size: 13px; opacity: 0.75; margin-bottom: 16px; }
+  .legend { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; }
+  .legend-item { display: flex; align-items: center; gap: 8px; font-size: 13px; }
+  .legend-dot { width: 14px; height: 14px; border-radius: 50%; }
+  .dot-dom { background: #2e7d32; }
+  .dot-ref { background: #c62828; }
+  .dot-nt  { background: #006080; }
+
+  .central-pill {
+    background: #006080;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 50px;
+    padding: 14px 36px;
+    text-align: center;
+    width: fit-content;
+    margin: 32px auto 28px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0 32px 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .card {
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    overflow: hidden;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+  }
+  .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.13); }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px 10px;
+    border-left: 4px solid #006080;
+  }
+  .card-num {
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    background: #006080;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .card-title { font-weight: 700; font-size: 15px; color: #006080; }
+
+  .card-body { padding: 8px 16px 14px; }
+  .card-body ul { list-style: none; padding: 0; }
+  .card-body ul li {
+    font-size: 13px;
+    padding: 4px 0;
+    border-bottom: 1px solid #f0eeea;
+    color: #333;
+    line-height: 1.45;
+  }
+  .card-body ul li:last-child { border-bottom: none; }
+  .card-body ul li::before { content: "• "; color: #006080; font-weight: 700; }
+
+  .formula-box {
+    background: #e8f4f7;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    font-weight: 700;
+    color: #004d66;
+    margin: 8px 0 6px;
+    text-align: center;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 10px;
+    float: right;
+  }
+  .badge-nt  { background: #006080; color: white; }
+  .badge-dom { background: #2e7d32; color: white; }
+  .badge-ref { background: #c62828; color: white; }
+
+  .status-btn {
+    display: block;
+    width: 100%;
+    border: none;
+    background: none;
+    padding: 8px 16px 12px;
+    text-align: right;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* Dicas de Ouro */
+  .dicas-section {
+    background: #F0F8FF;
+    border: 2px solid #006080;
+    border-radius: 16px;
+    margin: 0 32px 40px;
+    padding: 24px 28px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .dicas-section h2 {
+    color: #006080;
+    font-size: 20px;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .dica-item {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 14px;
+    align-items: flex-start;
+  }
+  .dica-badge {
+    background: #006080;
+    color: white;
+    border-radius: 20px;
+    padding: 3px 12px;
+    font-size: 12px;
+    font-weight: 700;
+    white-space: nowrap;
+    margin-top: 2px;
+  }
+  .dica-text { font-size: 13px; color: #222; line-height: 1.55; }
+
+  @media (max-width: 900px) {
+    .grid { grid-template-columns: repeat(2, 1fr); padding: 0 16px 24px; }
+    .dicas-section { margin: 0 16px 32px; }
+  }
+  @media (max-width: 600px) {
+    .grid { grid-template-columns: 1fr; }
+    .header h1 { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="subtitle">QUÍMICA · UNIDADE 1 · CAPÍTULO 2 · 9º ANO</div>
+  <h1>Átomos e Elementos Químicos</h1>
+  <div class="gen-note">Mapa Mental — gerado na preparação</div>
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot dot-dom"></div> Dominado</div>
+    <div class="legend-item"><div class="legend-dot dot-ref"></div> Reforçar</div>
+    <div class="legend-item"><div class="legend-dot dot-nt"></div> Não testado</div>
+  </div>
+</div>
+
+<div class="central-pill">⚛ Átomos e Elementos Químicos</div>
+
+<div class="grid" id="grid">
+
+  <!-- Card 1 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">1</div>
+      <div class="card-title">Modelos Atômicos — Visão Geral</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Dalton (1808): esfera maciça, indivisível — "bola de bilhar"</li>
+        <li>Thomson (1897): esfera positiva com elétrons — "pudim de passas"</li>
+        <li>Rutherford (1911): núcleo + eletrosfera + espaço vazio</li>
+        <li>Rutherford-Bohr (1913/1932): órbitas com nível de energia definido</li>
+        <li>Cada modelo foi superado por um novo experimento</li>
+      </ul>
+    </div>
+    <button class="status-btn" onclick="cycleStatus(this)">
+      <span class="badge badge-nt">Não testado</span>
+    </button>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">2</div>
+      <div class="card-title">Modelo de Dalton</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Proposto em 1808 por John Dalton</li>
+        <li>Retomou Leucipo e Demócrito</li>
+        <li>Átomo = esfera maciça, sólida, indivisível e indestrutível</li>
+        <li>Elementos distintos: massas e tamanhos diferentes</li>
+        <li>Combinação em proporções fixas e definidas</li>
+        <li>Limitação: ignorava partículas internas</li>
+      </ul>
+    </div>
+    <button class="status-btn" onclick="cycleStatus(this)">
+      <span class="badge badge-nt">Não testado</span>
+    </button>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">3</div>
+      <div class="card-title">Modelo de Thomson</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Proposto por J. J. Thomson após experimentos com raios catódicos</li>
+        <li>Descoberta: elétrons (partículas de carga negativa)</li>
+        <li>Modelo "pudim de passas": esfera positiva + elétrons distribuídos</li>
+        <li>Átomo neutro: cargas positivas = negativas</li>
+        <li>Limitação: não havia núcleo no modelo</li>
+      </ul>
+    </div>
+    <button class="status-btn" onclick="cycleStatus(this)">
+      <span class="badge badge-nt">Não testado</span>
+    </button>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">4</div>
+      <div class="card-title">Modelo de Rutherford e Rutherford-Bohr</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Rutherford: experimento com partículas alfa + lâmina de ouro</li>
+        <li>Resultado: maioria atravessa, poucas desviam, menos ainda voltam</li>
+        <li>Conclusão: núcleo denso + eletrosfera + muito espaço vazio</li>
+        <li>Bohr (1913): elétrons em órbitas com energia definida</li>
+        <li>Chadwick (1932): descobriu os nêutrons no núcleo</li>
+      </ul>
+    </div>
+    <button class="status-btn" onclick="cycleStatus(this)">
+      <span class="badge badge-nt">Não testado</span>
+    </button>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">5</div>
+      <div class="card-title">Constituição do Átomo</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Prótons (p): carga positiva → núcleo</li>
+        <li>Nêutrons (n): sem carga → núcleo</li>
+        <li>Elétrons (e): carga negativa → eletrosfera</li>
+        <li>Átomo neutro: p = e</li>
+        <li>Massa concentrada no núcleo</li>
+        <li>Prótons e nêutrons são formados por quarks</li>
+      </ul>
+    </div>
+    <button class="status-btn" onclick="cycleStatus(this)">
+      <span class="badge badge-nt">Não testado</span>
+    </button>
+  </div>
+
+  <!-- Card 6 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">6</div>
+      <div class="card-title">Elemento Químico e Número Atômico</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Elemento químico = conjunto de átomos com mesmo Z</li>
+        <li>Z (número atômico) = quantidade de prótons no núcleo</li>
+        <li>Z identifica o elemento — nunca muda com íons</li>
+        <li>Símbolo: uma ou duas letras (inicial maiúscula)</li>
+      </ul>
+    </div>
+    <button class="status-btn" onclick="cycleStatus(this)">
+      <span class="badge badge-nt">Não testado</span>
+    </button>
+  </div>
+
+  <!-- Card 7 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">7</div>
+      <div class="card-title">Número de Massa e Notação Atômica</div>
+    </div>
+    <div class="card-body">
+      <div class="formula-box">A = Z + n</div>
+      <div class="formula-box">n = A − Z</div>
+      <ul>
+        <li>A: número de massa (prótons + nêutrons)</li>
+        <li>Z: número atômico (prótons)</li>
+        <li>Notação: ᴬ꜀X — A acima, Z abaixo, X = símbolo</li>
+        <li>⚠ Inversão de A e Z é o erro mais comum em provas</li>
+      </ul>
+    </div>
+    <button class="status-btn" onclick="cycleStatus(this)">
+      <span class="badge badge-nt">Não testado</span>
+    </button>
+  </div>
+
+  <!-- Card 8 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">8</div>
+      <div class="card-title">Íons: Cátions e Ânions</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Átomos podem ganhar ou perder elétrons → íons</li>
+        <li>Cátion: perde e⁻ → carga positiva (ex: Na⁺: 11p, 10e)</li>
+        <li>Ânion: ganha e⁻ → carga negativa (ex: Cl⁻: 17p, 18e)</li>
+        <li>Íon NÃO muda Z nem A — só muda o nº de elétrons</li>
+        <li>O elemento continua sendo o mesmo</li>
+      </ul>
+    </div>
+    <button class="status-btn" onclick="cycleStatus(this)">
+      <span class="badge badge-nt">Não testado</span>
+    </button>
+  </div>
+
+  <!-- Card 9 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">9</div>
+      <div class="card-title">Isótopos</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Mesmo Z (mesmo elemento) · diferente A e n</li>
+        <li>Mesmas propriedades químicas (reações dependem de e⁻)</li>
+        <li>Identificados: nome + número de massa (ex: carbono-14)</li>
+        <li>Exemplos: ¹²C, ¹³C, ¹⁴C — todos Z = 6</li>
+        <li>Descobertos por Frederick Soddy (Nobel 1921)</li>
+        <li>Aplicações: datação de fósseis (C-14), medicina (Tl-201, Co-60)</li>
+      </ul>
+    </div>
+    <button class="status-btn" onclick="cycleStatus(this)">
+      <span class="badge badge-nt">Não testado</span>
+    </button>
+  </div>
+
+  <!-- Card 10 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">10</div>
+      <div class="card-title">Isóbaros e Isótonos</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Isóbaros: mesmo A · Z diferente · elementos diferentes</li>
+        <li>Isótonos: mesmo n · Z e A diferentes · elementos diferentes</li>
+        <li>Macete isótono: isó-TONO → mesmo nêu-TRON (T de T)</li>
+        <li>Macete isótopo: isó-TOPO → mesmo TIPO de elemento (mesmo Z)</li>
+        <li>⚠ As três categorias envolvem elementos diferentes, exceto isótopos</li>
+      </ul>
+    </div>
+    <button class="status-btn" onclick="cycleStatus(this)">
+      <span class="badge badge-nt">Não testado</span>
+    </button>
+  </div>
+
+  <!-- Card 11 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">11</div>
+      <div class="card-title">Aplicações dos Isótopos</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Carbono-14: datação de fósseis e rochas</li>
+        <li>Tálio-201: diagnóstico de doenças (medicina nuclear)</li>
+        <li>Cobalto-60: tratamento de doenças · esterilização · conservação de alimentos · agricultura</li>
+        <li>Deutério (²H) e Trítio (³H): fusão nuclear (estrelas, reatores)</li>
+      </ul>
+    </div>
+    <button class="status-btn" onclick="cycleStatus(this)">
+      <span class="badge badge-nt">Não testado</span>
+    </button>
+  </div>
+
+  <!-- Card 12 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">12</div>
+      <div class="card-title">Fusão e Fissão Nuclear</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Fusão: dois núcleos leves se unem → elemento mais pesado + energia</li>
+        <li>Fusão: ocorre em estrelas; não gera resíduos em ambiente controlado</li>
+        <li>Fissão: núcleo pesado instável se divide em dois menores + energia</li>
+        <li>Fissão: usinas nucleares (urânio)</li>
+        <li>Fusão libera mais energia que a fissão</li>
+        <li>⚠ Não confundir: fusão = junção; fissão = divisão</li>
+      </ul>
+    </div>
+    <button class="status-btn" onclick="cycleStatus(this)">
+      <span class="badge badge-nt">Não testado</span>
+    </button>
+  </div>
+
+</div>
+
+<!-- Dicas de Ouro -->
+<div class="dicas-section">
+  <h2>💡 Dicas de Ouro</h2>
+
+  <div class="dica-item">
+    <div class="dica-badge">Dica 1</div>
+    <div class="dica-text"><strong>A e Z: quem fica em cima?</strong> Na notação ᴬ꜀X, o número de MASSA (A) fica ACIMA e o número ATÔMICO (Z) fica ABAIXO. Macete: "A de cima, Z de baixo — A de Alto, Z de Zebra". Inverter é o erro mais comum em provas.</div>
+  </div>
+
+  <div class="dica-item">
+    <div class="dica-badge">Dica 2</div>
+    <div class="dica-text"><strong>Isótopo ≠ Isóbaro ≠ Isótono.</strong> Isótopo: mesmo Z (mesmo elemento). Isóbaro: mesmo A (elementos diferentes). Isótono: mesmo n (elementos diferentes). Macete: Isó-TONO → mesmo nêu-TRON.</div>
+  </div>
+
+  <div class="dica-item">
+    <div class="dica-badge">Dica 3</div>
+    <div class="dica-text"><strong>Átomo neutro vs. íon.</strong> Em átomo neutro, p = e. Se a questão mudar a quantidade de elétrons sem mudar os prótons, o átomo virou íon — mas NÃO mudou de elemento. O elemento é sempre definido pelo Z.</div>
+  </div>
+
+  <div class="dica-item">
+    <div class="dica-badge">Dica 4</div>
+    <div class="dica-text"><strong>Nêutrons do hidrogênio comum = zero.</strong> O hidrogênio mais abundante tem Z = 1 e A = 1, logo n = 0. É o único átomo mais comum sem nêutrons. Questões frequentemente cobram esse cálculo em tabelas dos elementos biológicos.</div>
+  </div>
+
+  <div class="dica-item">
+    <div class="dica-badge">Dica 5</div>
+    <div class="dica-text"><strong>Isótopos têm as mesmas propriedades químicas.</strong> As reações químicas dependem dos elétrons, não dos nêutrons. Carbono-12, -13 e -14 reagem da mesma forma. A diferença entre eles é a instabilidade nuclear (radioatividade do C-14).</div>
+  </div>
+
+  <div class="dica-item">
+    <div class="dica-badge">Dica 6</div>
+    <div class="dica-text"><strong>Fissão ≠ Fusão.</strong> Fissão = divisão (núcleo pesado → dois menores; usinas). Fusão = junção (dois leves → um pesado; estrelas). Fusão libera mais energia e não gera resíduos radioativos em ambiente controlado.</div>
+  </div>
+</div>
+
+<script>
+const statuses = ['Não testado', 'Dominado', 'Reforçar'];
+const classes  = ['badge-nt',   'badge-dom', 'badge-ref'];
+
+function cycleStatus(btn) {
+  const badge = btn.querySelector('.badge');
+  const current = statuses.indexOf(badge.textContent.trim());
+  const next = (current + 1) % statuses.length;
+  badge.textContent = statuses[next];
+  badge.className = 'badge ' + classes[next];
+}
+</script>
+
+</body>
+</html>
