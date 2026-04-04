@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mapa Mental — Números Reais</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', sans-serif; background: #F4F2EE; color: #1F2937; }
+
+  .header {
+    background: #1a3a5c;
+    color: #fff;
+    padding: 28px 32px 20px;
+    text-align: center;
+  }
+  .header .subject { font-size: 13px; opacity: 0.75; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px; }
+  .header h1 { font-size: 32px; font-weight: 700; margin-bottom: 6px; }
+  .header .subtitle { font-size: 13px; opacity: 0.65; margin-bottom: 16px; }
+  .legend { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; }
+  .dot { width: 12px; height: 12px; border-radius: 50%; }
+  .dot-blue { background: #1a3a5c; }
+  .dot-green { background: #15803D; }
+  .dot-red { background: #DC2626; }
+
+  .pill-wrap { display: flex; justify-content: center; padding: 24px 16px 8px; }
+  .pill {
+    background: #1a3a5c; color: #fff;
+    padding: 10px 32px; border-radius: 999px;
+    font-size: 16px; font-weight: 700; letter-spacing: 0.5px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 16px 24px 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    overflow: hidden;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+  }
+  .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.12); }
+
+  .card-stripe { height: 4px; background: #1a3a5c; }
+  .card-stripe.green { background: #15803D; }
+  .card-stripe.red { background: #DC2626; }
+
+  .card-body { padding: 14px 16px; }
+  .card-num {
+    width: 26px; height: 26px; border-radius: 50%;
+    background: #1a3a5c; color: #fff;
+    font-size: 12px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 8px;
+  }
+  .card-num.green { background: #15803D; }
+  .card-num.red { background: #DC2626; }
+
+  .card-title { font-size: 14px; font-weight: 700; color: #111827; margin-bottom: 8px; }
+  .card-content { font-size: 13px; color: #374151; line-height: 1.5; }
+  .card-content ul { padding-left: 16px; }
+  .card-content li { margin-bottom: 3px; }
+  .card-expr {
+    background: #EFF4FB; border-radius: 6px;
+    padding: 6px 10px; font-size: 13px; font-weight: 600;
+    color: #1a3a5c; margin: 8px 0; text-align: center;
+    font-family: monospace;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 2px 10px; border-radius: 999px;
+    font-size: 11px; font-weight: 600;
+    background: #1a3a5c; color: #fff;
+    margin-top: 10px;
+  }
+  .badge.green { background: #15803D; }
+  .badge.red { background: #DC2626; }
+
+  .dicas {
+    background: #EFF4FB;
+    border: 2px solid #1a3a5c;
+    border-radius: 14px;
+    padding: 20px 24px;
+    margin: 0 24px 32px;
+    max-width: 1152px;
+    margin-left: auto; margin-right: auto;
+  }
+  .dicas h2 { font-size: 16px; font-weight: 700; color: #1a3a5c; margin-bottom: 14px; }
+  .dica-item { display: flex; gap: 12px; margin-bottom: 12px; align-items: flex-start; }
+  .dica-badge {
+    background: #1a3a5c; color: #fff;
+    border-radius: 999px; padding: 2px 10px;
+    font-size: 11px; font-weight: 700; white-space: nowrap;
+    margin-top: 2px;
+  }
+  .dica-text { font-size: 13px; color: #374151; line-height: 1.5; }
+
+  @media (max-width: 768px) {
+    .grid { grid-template-columns: 1fr 1fr; }
+    .header h1 { font-size: 22px; }
+  }
+  @media (max-width: 480px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="subject">Matemática · Unidade 1 · Capítulo 1 · 9º ano</div>
+  <h1>Números Reais</h1>
+  <div class="subtitle">Mapa Mental — gerado na preparação</div>
+  <div class="legend">
+    <div class="legend-item"><div class="dot dot-blue"></div> Não testado</div>
+    <div class="legend-item"><div class="dot dot-green"></div> Dominado</div>
+    <div class="legend-item"><div class="dot dot-red"></div> Reforçar</div>
+  </div>
+</div>
+
+<div class="pill-wrap">
+  <div class="pill">Conjuntos Numéricos</div>
+</div>
+
+<div class="grid">
+
+  <!-- Card 1: Números Naturais -->
+  <div class="card" onclick="cycleStatus(this)">
+    <div class="card-stripe"></div>
+    <div class="card-body">
+      <div class="card-num">1</div>
+      <div class="card-title">Números Naturais (N)</div>
+      <div class="card-content">
+        <div class="card-expr">N = {0, 1, 2, 3, 4, ...}</div>
+        <ul>
+          <li>Usados para contar e o zero</li>
+          <li>Sempre inteiros e não negativos</li>
+          <li>Ex: 0; 2; 10; 294; √100</li>
+        </ul>
+      </div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 2: Números Inteiros -->
+  <div class="card" onclick="cycleStatus(this)">
+    <div class="card-stripe"></div>
+    <div class="card-body">
+      <div class="card-num">2</div>
+      <div class="card-title">Números Inteiros (Z)</div>
+      <div class="card-content">
+        <div class="card-expr">Z = {..., −2, −1, 0, 1, 2, ...}</div>
+        <ul>
+          <li>Naturais e seus opostos</li>
+          <li>Todo natural é inteiro (N ⊂ Z)</li>
+          <li>Ex: −326; −12; 0; 294</li>
+        </ul>
+      </div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 3: Números Racionais -->
+  <div class="card" onclick="cycleStatus(this)">
+    <div class="card-stripe"></div>
+    <div class="card-body">
+      <div class="card-num">3</div>
+      <div class="card-title">Números Racionais (Q)</div>
+      <div class="card-content">
+        <div class="card-expr">Q = {a/b | a,b ∈ Z, b ≠ 0}</div>
+        <ul>
+          <li>Decimal exato: 3/4 = 0,75</li>
+          <li>Dízima periódica: 4/3 = 1,3̄</li>
+          <li>N ⊂ Z ⊂ Q</li>
+        </ul>
+      </div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 4: Números Irracionais -->
+  <div class="card" onclick="cycleStatus(this)">
+    <div class="card-stripe"></div>
+    <div class="card-body">
+      <div class="card-num">4</div>
+      <div class="card-title">Números Irracionais (I)</div>
+      <div class="card-content">
+        <ul>
+          <li>Decimal infinito e não periódico</li>
+          <li>Não podem ser escritos como fração</li>
+          <li>π ≈ 3,14159... · √7 · √12</li>
+          <li>Q ∩ I = ∅ (disjuntos)</li>
+        </ul>
+      </div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 5: Números Reais -->
+  <div class="card" onclick="cycleStatus(this)">
+    <div class="card-stripe"></div>
+    <div class="card-body">
+      <div class="card-num">5</div>
+      <div class="card-title">Números Reais (R)</div>
+      <div class="card-content">
+        <div class="card-expr">R = Q ∪ I</div>
+        <ul>
+          <li>União de racionais e irracionais</li>
+          <li>Todo real tem ponto na reta numérica</li>
+          <li>N ⊂ Z ⊂ Q ⊂ R e I ⊂ R</li>
+        </ul>
+      </div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 6: Relações de Inclusão -->
+  <div class="card" onclick="cycleStatus(this)">
+    <div class="card-stripe"></div>
+    <div class="card-body">
+      <div class="card-num">6</div>
+      <div class="card-title">Relações de Inclusão</div>
+      <div class="card-content">
+        <div class="card-expr">N ⊂ Z ⊂ Q ⊂ R</div>
+        <ul>
+          <li>I ⊂ R (mas I ∩ Q = ∅)</li>
+          <li>Todo natural é inteiro, racional e real</li>
+          <li>Nem todo inteiro é natural (ex: −5)</li>
+        </ul>
+      </div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 7: Reta Real -->
+  <div class="card" onclick="cycleStatus(this)">
+    <div class="card-stripe"></div>
+    <div class="card-body">
+      <div class="card-num">7</div>
+      <div class="card-title">Reta Real</div>
+      <div class="card-content">
+        <ul>
+          <li>Todo número real = um ponto na reta</li>
+          <li>Irracionais localizados por aproximação</li>
+          <li>√2 ≅ 1,4 (entre 1 e 2)</li>
+          <li>−√3 ≅ −1,7 (entre −2 e −1)</li>
+          <li>π ≅ 3,14... (após o 3)</li>
+        </ul>
+      </div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 8: Representação Decimal -->
+  <div class="card" onclick="cycleStatus(this)">
+    <div class="card-stripe"></div>
+    <div class="card-body">
+      <div class="card-num">8</div>
+      <div class="card-title">Representação Decimal</div>
+      <div class="card-content">
+        <ul>
+          <li><strong>Racional:</strong> exata ou periódica</li>
+          <li>Ex: 0,75 (exata) · 1,3̄ (periódica)</li>
+          <li><strong>Irracional:</strong> infinita e não periódica</li>
+          <li>Ex: 3,14159265... (π)</li>
+        </ul>
+      </div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 9: Código de Barras -->
+  <div class="card" onclick="cycleStatus(this)">
+    <div class="card-stripe"></div>
+    <div class="card-body">
+      <div class="card-num">9</div>
+      <div class="card-title">Aplicação: Código de Barras</div>
+      <div class="card-content">
+        <ul>
+          <li>Usa sistema binário (0 e 1)</li>
+          <li>95 partes: branco=0, preto=1</li>
+          <li>15 seções; 12 com 7 dígitos cada</li>
+          <li>Dígito verificador valida o scan</li>
+        </ul>
+      </div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+</div>
+
+<div class="dicas">
+  <h2>💡 Dicas de Ouro</h2>
+
+  <div class="dica-item">
+    <div class="dica-badge">Dica 1</div>
+    <div class="dica-text"><strong>Raiz nem sempre é irracional:</strong> √4=2, √9=3, √100=10 são naturais! Só é irracional se não resultar em inteiro.</div>
+  </div>
+  <div class="dica-item">
+    <div class="dica-badge">Dica 2</div>
+    <div class="dica-text"><strong>Dízima periódica = racional:</strong> 0,333...=1/3 e 0,142857...=1/7 são racionais. A periodicidade garante fração equivalente.</div>
+  </div>
+  <div class="dica-item">
+    <div class="dica-badge">Dica 3</div>
+    <div class="dica-text"><strong>Inteiro negativo ≠ natural:</strong> −5 ∈ Z mas −5 ∉ N. Naturais são só não-negativos. Diferença de naturais pode ser inteiro negativo!</div>
+  </div>
+  <div class="dica-item">
+    <div class="dica-badge">Dica 4</div>
+    <div class="dica-text"><strong>Q e I são disjuntos:</strong> nenhum número é simultaneamente racional e irracional. R = Q ∪ I e Q ∩ I = ∅.</div>
+  </div>
+  <div class="dica-item">
+    <div class="dica-badge">Dica 5</div>
+    <div class="dica-text"><strong>√2 ≅ 1,4, não 1,5:</strong> use √1=1 e √4=2 como âncoras. √2 está mais perto de 1; √3 está mais perto de 2.</div>
+  </div>
+  <div class="dica-item">
+    <div class="dica-badge">Dica 6</div>
+    <div class="dica-text"><strong>Massa e preço são racionais:</strong> medidas cotidianas usam decimais finitos ou aproximações racionais — nunca irracionais puros.</div>
+  </div>
+</div>
+
+<script>
+function cycleStatus(card) {
+  const stripe = card.querySelector('.card-stripe');
+  const num = card.querySelector('.card-num');
+  const badge = card.querySelector('.badge');
+  const states = [
+    { label: 'Não testado', cls: '' },
+    { label: 'Dominado', cls: 'green' },
+    { label: 'Reforçar', cls: 'red' }
+  ];
+  let current = parseInt(card.dataset.state || '0');
+  current = (current + 1) % 3;
+  card.dataset.state = current;
+  const s = states[current];
+  stripe.className = 'card-stripe' + (s.cls ? ' ' + s.cls : '');
+  num.className = 'card-num' + (s.cls ? ' ' + s.cls : '');
+  badge.className = 'badge' + (s.cls ? ' ' + s.cls : '');
+  badge.textContent = s.label;
+}
+</script>
+</body>
+</html>
