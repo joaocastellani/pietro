@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Mapa Mental — Semelhança de Triângulos</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Inter',sans-serif;background:#F4F2EE;color:#1e293b;}
+
+  /* HEADER */
+  .header{
+    background:#1a3a5c;color:#fff;
+    padding:28px 32px 20px;text-align:center;
+  }
+  .header .subject{font-size:13px;letter-spacing:1px;
+    text-transform:uppercase;opacity:.75;margin-bottom:6px;}
+  .header h1{font-size:32px;font-weight:700;margin-bottom:6px;}
+  .header .subtitle{font-size:13px;opacity:.7;margin-bottom:14px;}
+  .legend{display:inline-flex;gap:20px;
+    background:rgba(255,255,255,.1);
+    border-radius:8px;padding:8px 18px;font-size:12px;}
+  .legend span{display:flex;align-items:center;gap:6px;}
+  .leg-dot{width:12px;height:12px;border-radius:50%;display:inline-block;}
+  .leg-green{background:#16A34A;}
+  .leg-red{background:#EF4444;}
+  .leg-blue{background:#1a3a5c;border:2px solid #fff;}
+
+  /* PÍLULA CENTRAL */
+  .pill-wrap{display:flex;justify-content:center;
+    padding:28px 0 20px;}
+  .pill{background:#1a3a5c;color:#fff;
+    font-size:20px;font-weight:700;
+    padding:14px 44px;border-radius:40px;
+    box-shadow:0 4px 16px rgba(26,58,92,.35);}
+
+  /* GRID */
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    padding:0 28px 28px;
+    max-width:1140px;margin:0 auto;
+  }
+  @media(max-width:800px){.grid{grid-template-columns:1fr 1fr;}}
+  @media(max-width:520px){.grid{grid-template-columns:1fr;}}
+
+  .card{
+    background:#fff;border-radius:14px;
+    box-shadow:0 2px 8px rgba(0,0,0,.07);
+    overflow:hidden;
+  }
+  .card-header{
+    background:#1a3a5c;
+    color:#fff;padding:12px 16px;
+    display:flex;align-items:center;gap:10px;
+  }
+  .card-num{
+    background:rgba(255,255,255,.2);
+    width:28px;height:28px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    font-size:13px;font-weight:700;flex-shrink:0;
+  }
+  .card-title{font-size:14px;font-weight:700;}
+  .card-body{padding:14px 16px;}
+  .card-body ul{list-style:none;display:flex;flex-direction:column;gap:7px;}
+  .card-body li{font-size:13px;line-height:1.5;
+    padding-left:14px;position:relative;}
+  .card-body li::before{content:"•";position:absolute;
+    left:0;color:#1a3a5c;font-weight:700;}
+  .formula-box{
+    background:#EFF4FB;border-left:3px solid #1a3a5c;
+    border-radius:6px;padding:8px 12px;
+    font-size:13px;font-family:monospace;
+    margin:8px 0;color:#1a3a5c;font-weight:600;
+  }
+  .badge{
+    display:inline-block;
+    background:#1a3a5c;color:#fff;
+    font-size:11px;padding:3px 10px;
+    border-radius:20px;margin-top:10px;
+  }
+
+  /* DICAS */
+  .tips-wrap{
+    max-width:1140px;margin:0 auto;
+    padding:0 28px 40px;
+  }
+  .tips-box{
+    background:#EFF4FB;border:1.5px solid #1a3a5c;
+    border-radius:14px;padding:22px 26px;
+  }
+  .tips-box h2{
+    font-size:17px;font-weight:700;
+    color:#1a3a5c;margin-bottom:16px;
+    border-bottom:2px solid #1a3a5c;
+    padding-bottom:8px;
+  }
+  .tip-item{
+    display:flex;gap:12px;align-items:flex-start;
+    margin-bottom:14px;
+  }
+  .tip-badge{
+    background:#1a3a5c;color:#fff;
+    font-size:12px;font-weight:700;
+    width:26px;height:26px;border-radius:50%;
+    display:flex;align-items:center;
+    justify-content:center;flex-shrink:0;
+  }
+  .tip-text{font-size:13px;line-height:1.6;color:#1e293b;}
+  .tip-text strong{color:#1a3a5c;}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="subject">Matemática · Unidade 1 · Capítulo 4 · 9º ano</div>
+  <h1>Semelhança de Triângulos</h1>
+  <div class="subtitle">Mapa Mental — gerado na preparação</div>
+  <div class="legend">
+    <span><span class="leg-dot leg-green"></span>Dominado</span>
+    <span><span class="leg-dot leg-red"></span>Reforçar</span>
+    <span><span class="leg-dot leg-blue"></span>Não testado</span>
+  </div>
+</div>
+
+<!-- PÍLULA CENTRAL -->
+<div class="pill-wrap">
+  <div class="pill">Semelhança de Triângulos</div>
+</div>
+
+<!-- GRID DE CARDS -->
+<div class="grid">
+
+  <!-- Card 1 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">1</div>
+      <div class="card-title">Figuras Semelhantes</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Lados correspondentes <strong>proporcionais</strong></li>
+        <li>Ângulos correspondentes <strong>congruentes</strong></li>
+        <li>Símbolo: <strong>~</strong> (ex: ABCD ~ A'B'C'D')</li>
+        <li>Homólogo = de mesma posição / correspondente</li>
+      </ul>
+      <div class="formula-box">ABCD ~ A'B'C'D'</div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">2</div>
+      <div class="card-title">Razão de Semelhança</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Razão constante entre lados homólogos</li>
+        <li>k = 3 → cada lado original é o <strong>triplo</strong> do homólogo</li>
+        <li>Razão de perímetros = <strong>k</strong></li>
+        <li>Razão de áreas = <strong>k²</strong></li>
+      </ul>
+      <div class="formula-box">k = AB/A'B' = BC/B'C' = …</div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">3</div>
+      <div class="card-title">Semelhança de Triângulos</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Â≅D̂, B̂≅Ê, Ĉ≅F̂ (ângulos congruentes)</li>
+        <li>a/d = b/e = c/f = k (lados proporcionais)</li>
+        <li><strong>Ordem das letras</strong> define correspondência</li>
+        <li>△ABC ~ △DEF: A↔D, B↔E, C↔F</li>
+      </ul>
+      <div class="formula-box">a/d = b/e = c/f = k</div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">4</div>
+      <div class="card-title">Teorema Fundamental</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>DE ∥ BC, com D em AB e E em AC</li>
+        <li>⇒ △ADE ~ △ABC</li>
+        <li>Proporcionalidade: AD/BD = AE/CE</li>
+        <li>Também: AD/AB = AE/AC = DE/BC</li>
+      </ul>
+      <div class="formula-box">DE ∥ BC ⇒ △ADE ~ △ABC</div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">5</div>
+      <div class="card-title">Caso AA</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Condição: <strong>dois ângulos congruentes</strong></li>
+        <li>O 3º ângulo é automaticamente igual (soma 180°)</li>
+        <li>Mais fácil de aplicar em problemas práticos</li>
+        <li>Ex: ângulo reto + um agudo comum → AA garantido</li>
+      </ul>
+      <div class="formula-box">Â≅Â' e B̂≅B̂' ⇒ ~ </div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 6 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">6</div>
+      <div class="card-title">Caso LAL</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>2 lados <strong>proporcionais</strong></li>
+        <li>Ângulo <strong>compreendido</strong> entre eles congruente</li>
+        <li>AB/A'B' = BC/B'C' e B̂≅B̂'</li>
+        <li>Ex. livro: BC/EF = 7/10,5 e AC/DF = 6/9 = 1/1,5 → LAL</li>
+      </ul>
+      <div class="formula-box">AB/A'B' = BC/B'C' e B̂≅B̂'</div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 7 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">7</div>
+      <div class="card-title">Caso LLL</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>Todos</strong> os lados correspondentes proporcionais</li>
+        <li>AC/A'C' = AB/A'B' = BC/B'C'</li>
+        <li>Não exige verificação de ângulos</li>
+        <li>Ex. Q-1a: 9/4,5 = 12/6 = 13/6,5 = 2 → LLL ✓</li>
+      </ul>
+      <div class="formula-box">AC/A'C' = AB/A'B' = BC/B'C'</div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 8 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">8</div>
+      <div class="card-title">Aplicações Práticas</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>Sombras/alturas:</strong> raios solares paralelos → triângulos semelhantes</li>
+        <li><strong>Balestilha:</strong> mede ângulos entre astros por semelhança</li>
+        <li><strong>Lupa:</strong> triângulos da luz semelhantes → imagem ampliada</li>
+        <li><strong>Arte:</strong> proporção preservada em representações em escala</li>
+      </ul>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 9 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">9</div>
+      <div class="card-title">Congruência vs. Semelhança</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Congruentes: mesma forma <strong>e</strong> mesmo tamanho (k=1)</li>
+        <li>Semelhantes: mesma forma, tamanhos proporcionais (k qualquer)</li>
+        <li>Congruentes ⊂ Semelhantes (todo congruente é semelhante)</li>
+        <li>Semelhantes <strong>não</strong> são necessariamente congruentes</li>
+      </ul>
+      <div class="formula-box">congruência ⇒ semelhança (k=1)</div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+</div><!-- fim grid -->
+
+<!-- DICAS DE OURO -->
+<div class="tips-wrap">
+  <div class="tips-box">
+    <h2>💡 Dicas de Ouro</h2>
+
+    <div class="tip-item">
+      <div class="tip-badge">1</div>
+      <div class="tip-text">
+        <strong>A ordem na semelhança não é decorativa:</strong>
+        △ABC ~ △DEF indica A↔D, B↔E, C↔F. Trocar a ordem
+        muda quais lados são homólogos e gera proporções erradas.
+      </div>
+    </div>
+
+    <div class="tip-item">
+      <div class="tip-badge">2</div>
+      <div class="tip-text">
+        <strong>Perímetro × k, Área × k²:</strong>
+        Se k=3, o perímetro cresce 3× mas a área cresce 9×.
+        Nunca confundir as duas razões em prova.
+      </div>
+    </div>
+
+    <div class="tip-item">
+      <div class="tip-badge">3</div>
+      <div class="tip-text">
+        <strong>Teorema Fundamental — segmento parcial vs. total:</strong>
+        AD/BD = AE/CE (parcial/parcial) é correto.
+        Não confundir com AD/AB = BD/AC (errado).
+      </div>
+    </div>
+
+    <div class="tip-item">
+      <div class="tip-badge">4</div>
+      <div class="tip-text">
+        <strong>Dois ângulos bastam (AA):</strong>
+        Em concursos, ângulo reto + um ângulo agudo comum
+        já garantem AA — não precisa calcular lados.
+      </div>
+    </div>
+
+    <div class="tip-item">
+      <div class="tip-badge">5</div>
+      <div class="tip-text">
+        <strong>Congruência ≠ Semelhança:</strong>
+        Triângulos congruentes são sempre semelhantes (k=1),
+        mas semelhantes não são necessariamente congruentes.
+        Pegadinha clássica de concurso (QC-2 UEM-PR 2016).
+      </div>
+    </div>
+
+    <div class="tip-item">
+      <div class="tip-badge">6</div>
+      <div class="tip-text">
+        <strong>Sombras — atenção às unidades:</strong>
+        Converter TUDO para a mesma unidade antes de montar
+        a proporção. 50 cm de sombra ≠ 50 m. (QC-3)
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Mapa Mental — Semelhança de Triângulos</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Inter',sans-serif;background:#F4F2EE;color:#1e293b;}
+
+  /* HEADER */
+  .header{
+    background:#1a3a5c;color:#fff;
+    padding:28px 32px 20px;text-align:center;
+  }
+  .header .subject{font-size:13px;letter-spacing:1px;
+    text-transform:uppercase;opacity:.75;margin-bottom:6px;}
+  .header h1{font-size:32px;font-weight:700;margin-bottom:6px;}
+  .header .subtitle{font-size:13px;opacity:.7;margin-bottom:14px;}
+  .legend{display:inline-flex;gap:20px;
+    background:rgba(255,255,255,.1);
+    border-radius:8px;padding:8px 18px;font-size:12px;}
+  .legend span{display:flex;align-items:center;gap:6px;}
+  .leg-dot{width:12px;height:12px;border-radius:50%;display:inline-block;}
+  .leg-green{background:#16A34A;}
+  .leg-red{background:#EF4444;}
+  .leg-blue{background:#1a3a5c;border:2px solid #fff;}
+
+  /* PÍLULA CENTRAL */
+  .pill-wrap{display:flex;justify-content:center;
+    padding:28px 0 20px;}
+  .pill{background:#1a3a5c;color:#fff;
+    font-size:20px;font-weight:700;
+    padding:14px 44px;border-radius:40px;
+    box-shadow:0 4px 16px rgba(26,58,92,.35);}
+
+  /* GRID */
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    padding:0 28px 28px;
+    max-width:1140px;margin:0 auto;
+  }
+  @media(max-width:800px){.grid{grid-template-columns:1fr 1fr;}}
+  @media(max-width:520px){.grid{grid-template-columns:1fr;}}
+
+  .card{
+    background:#fff;border-radius:14px;
+    box-shadow:0 2px 8px rgba(0,0,0,.07);
+    overflow:hidden;
+  }
+  .card-header{
+    background:#1a3a5c;
+    color:#fff;padding:12px 16px;
+    display:flex;align-items:center;gap:10px;
+  }
+  .card-num{
+    background:rgba(255,255,255,.2);
+    width:28px;height:28px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    font-size:13px;font-weight:700;flex-shrink:0;
+  }
+  .card-title{font-size:14px;font-weight:700;}
+  .card-body{padding:14px 16px;}
+  .card-body ul{list-style:none;display:flex;flex-direction:column;gap:7px;}
+  .card-body li{font-size:13px;line-height:1.5;
+    padding-left:14px;position:relative;}
+  .card-body li::before{content:"•";position:absolute;
+    left:0;color:#1a3a5c;font-weight:700;}
+  .formula-box{
+    background:#EFF4FB;border-left:3px solid #1a3a5c;
+    border-radius:6px;padding:8px 12px;
+    font-size:13px;font-family:monospace;
+    margin:8px 0;color:#1a3a5c;font-weight:600;
+  }
+  .badge{
+    display:inline-block;
+    background:#1a3a5c;color:#fff;
+    font-size:11px;padding:3px 10px;
+    border-radius:20px;margin-top:10px;
+  }
+
+  /* DICAS */
+  .tips-wrap{
+    max-width:1140px;margin:0 auto;
+    padding:0 28px 40px;
+  }
+  .tips-box{
+    background:#EFF4FB;border:1.5px solid #1a3a5c;
+    border-radius:14px;padding:22px 26px;
+  }
+  .tips-box h2{
+    font-size:17px;font-weight:700;
+    color:#1a3a5c;margin-bottom:16px;
+    border-bottom:2px solid #1a3a5c;
+    padding-bottom:8px;
+  }
+  .tip-item{
+    display:flex;gap:12px;align-items:flex-start;
+    margin-bottom:14px;
+  }
+  .tip-badge{
+    background:#1a3a5c;color:#fff;
+    font-size:12px;font-weight:700;
+    width:26px;height:26px;border-radius:50%;
+    display:flex;align-items:center;
+    justify-content:center;flex-shrink:0;
+  }
+  .tip-text{font-size:13px;line-height:1.6;color:#1e293b;}
+  .tip-text strong{color:#1a3a5c;}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="subject">Matemática · Unidade 1 · Capítulo 4 · 9º ano</div>
+  <h1>Semelhança de Triângulos</h1>
+  <div class="subtitle">Mapa Mental — gerado na preparação</div>
+  <div class="legend">
+    <span><span class="leg-dot leg-green"></span>Dominado</span>
+    <span><span class="leg-dot leg-red"></span>Reforçar</span>
+    <span><span class="leg-dot leg-blue"></span>Não testado</span>
+  </div>
+</div>
+
+<!-- PÍLULA CENTRAL -->
+<div class="pill-wrap">
+  <div class="pill">Semelhança de Triângulos</div>
+</div>
+
+<!-- GRID DE CARDS -->
+<div class="grid">
+
+  <!-- Card 1 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">1</div>
+      <div class="card-title">Figuras Semelhantes</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Lados correspondentes <strong>proporcionais</strong></li>
+        <li>Ângulos correspondentes <strong>congruentes</strong></li>
+        <li>Símbolo: <strong>~</strong> (ex: ABCD ~ A'B'C'D')</li>
+        <li>Homólogo = de mesma posição / correspondente</li>
+      </ul>
+      <div class="formula-box">ABCD ~ A'B'C'D'</div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">2</div>
+      <div class="card-title">Razão de Semelhança</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Razão constante entre lados homólogos</li>
+        <li>k = 3 → cada lado original é o <strong>triplo</strong> do homólogo</li>
+        <li>Razão de perímetros = <strong>k</strong></li>
+        <li>Razão de áreas = <strong>k²</strong></li>
+      </ul>
+      <div class="formula-box">k = AB/A'B' = BC/B'C' = …</div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">3</div>
+      <div class="card-title">Semelhança de Triângulos</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Â≅D̂, B̂≅Ê, Ĉ≅F̂ (ângulos congruentes)</li>
+        <li>a/d = b/e = c/f = k (lados proporcionais)</li>
+        <li><strong>Ordem das letras</strong> define correspondência</li>
+        <li>△ABC ~ △DEF: A↔D, B↔E, C↔F</li>
+      </ul>
+      <div class="formula-box">a/d = b/e = c/f = k</div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">4</div>
+      <div class="card-title">Teorema Fundamental</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>DE ∥ BC, com D em AB e E em AC</li>
+        <li>⇒ △ADE ~ △ABC</li>
+        <li>Proporcionalidade: AD/BD = AE/CE</li>
+        <li>Também: AD/AB = AE/AC = DE/BC</li>
+      </ul>
+      <div class="formula-box">DE ∥ BC ⇒ △ADE ~ △ABC</div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">5</div>
+      <div class="card-title">Caso AA</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Condição: <strong>dois ângulos congruentes</strong></li>
+        <li>O 3º ângulo é automaticamente igual (soma 180°)</li>
+        <li>Mais fácil de aplicar em problemas práticos</li>
+        <li>Ex: ângulo reto + um agudo comum → AA garantido</li>
+      </ul>
+      <div class="formula-box">Â≅Â' e B̂≅B̂' ⇒ ~ </div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 6 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">6</div>
+      <div class="card-title">Caso LAL</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>2 lados <strong>proporcionais</strong></li>
+        <li>Ângulo <strong>compreendido</strong> entre eles congruente</li>
+        <li>AB/A'B' = BC/B'C' e B̂≅B̂'</li>
+        <li>Ex. livro: BC/EF = 7/10,5 e AC/DF = 6/9 = 1/1,5 → LAL</li>
+      </ul>
+      <div class="formula-box">AB/A'B' = BC/B'C' e B̂≅B̂'</div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 7 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">7</div>
+      <div class="card-title">Caso LLL</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>Todos</strong> os lados correspondentes proporcionais</li>
+        <li>AC/A'C' = AB/A'B' = BC/B'C'</li>
+        <li>Não exige verificação de ângulos</li>
+        <li>Ex. Q-1a: 9/4,5 = 12/6 = 13/6,5 = 2 → LLL ✓</li>
+      </ul>
+      <div class="formula-box">AC/A'C' = AB/A'B' = BC/B'C'</div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 8 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">8</div>
+      <div class="card-title">Aplicações Práticas</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>Sombras/alturas:</strong> raios solares paralelos → triângulos semelhantes</li>
+        <li><strong>Balestilha:</strong> mede ângulos entre astros por semelhança</li>
+        <li><strong>Lupa:</strong> triângulos da luz semelhantes → imagem ampliada</li>
+        <li><strong>Arte:</strong> proporção preservada em representações em escala</li>
+      </ul>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 9 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">9</div>
+      <div class="card-title">Congruência vs. Semelhança</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Congruentes: mesma forma <strong>e</strong> mesmo tamanho (k=1)</li>
+        <li>Semelhantes: mesma forma, tamanhos proporcionais (k qualquer)</li>
+        <li>Congruentes ⊂ Semelhantes (todo congruente é semelhante)</li>
+        <li>Semelhantes <strong>não</strong> são necessariamente congruentes</li>
+      </ul>
+      <div class="formula-box">congruência ⇒ semelhança (k=1)</div>
+      <span class="badge">Não testado</span>
+    </div>
+  </div>
+
+</div><!-- fim grid -->
+
+<!-- DICAS DE OURO -->
+<div class="tips-wrap">
+  <div class="tips-box">
+    <h2>💡 Dicas de Ouro</h2>
+
+    <div class="tip-item">
+      <div class="tip-badge">1</div>
+      <div class="tip-text">
+        <strong>A ordem na semelhança não é decorativa:</strong>
+        △ABC ~ △DEF indica A↔D, B↔E, C↔F. Trocar a ordem
+        muda quais lados são homólogos e gera proporções erradas.
+      </div>
+    </div>
+
+    <div class="tip-item">
+      <div class="tip-badge">2</div>
+      <div class="tip-text">
+        <strong>Perímetro × k, Área × k²:</strong>
+        Se k=3, o perímetro cresce 3× mas a área cresce 9×.
+        Nunca confundir as duas razões em prova.
+      </div>
+    </div>
+
+    <div class="tip-item">
+      <div class="tip-badge">3</div>
+      <div class="tip-text">
+        <strong>Teorema Fundamental — segmento parcial vs. total:</strong>
+        AD/BD = AE/CE (parcial/parcial) é correto.
+        Não confundir com AD/AB = BD/AC (errado).
+      </div>
+    </div>
+
+    <div class="tip-item">
+      <div class="tip-badge">4</div>
+      <div class="tip-text">
+        <strong>Dois ângulos bastam (AA):</strong>
+        Em concursos, ângulo reto + um ângulo agudo comum
+        já garantem AA — não precisa calcular lados.
+      </div>
+    </div>
+
+    <div class="tip-item">
+      <div class="tip-badge">5</div>
+      <div class="tip-text">
+        <strong>Congruência ≠ Semelhança:</strong>
+        Triângulos congruentes são sempre semelhantes (k=1),
+        mas semelhantes não são necessariamente congruentes.
+        Pegadinha clássica de concurso (QC-2 UEM-PR 2016).
+      </div>
+    </div>
+
+    <div class="tip-item">
+      <div class="tip-badge">6</div>
+      <div class="tip-text">
+        <strong>Sombras — atenção às unidades:</strong>
+        Converter TUDO para a mesma unidade antes de montar
+        a proporção. 50 cm de sombra ≠ 50 m. (QC-3)
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
