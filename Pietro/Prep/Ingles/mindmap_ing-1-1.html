@@ -1,347 +1,526 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mind Map — Inglês · Unidade 1 · Capítulo 1</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: 'Inter', sans-serif; background: #F4F2EE; color: #1a1a2e; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', sans-serif; background: #F4F2EE; min-height: 100vh; }
 
   /* HEADER */
   .header {
     background: #004080;
-    color: #fff;
-    padding: 28px 40px 22px;
+    color: white;
+    padding: 32px 40px 28px;
     text-align: center;
   }
-  .header .line { font-size: 13px; font-weight: 500; letter-spacing: 0.08em; opacity: 0.8; margin-bottom: 8px; }
+  .header .subtitle { font-size: 14px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; opacity: 0.8; margin-bottom: 8px; }
   .header h1 { font-size: 32px; font-weight: 800; margin-bottom: 6px; }
-  .header .subtitle { font-size: 13px; opacity: 0.7; margin-bottom: 16px; }
-  .legend { display: inline-flex; gap: 20px; background: rgba(255,255,255,0.12); border-radius: 20px; padding: 8px 20px; }
-  .legend-item { display: flex; align-items: center; gap: 7px; font-size: 12px; }
-  .dot { width: 11px; height: 11px; border-radius: 50%; flex-shrink: 0; }
-  .dot-green  { background: #2ECC71; }
-  .dot-red    { background: #E74C3C; }
-  .dot-orange { background: #D4880A; }
+  .header .tagline { font-size: 13px; opacity: 0.7; margin-bottom: 16px; }
+  .legend { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 12px; }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; }
+  .legend-dot { width: 12px; height: 12px; border-radius: 50%; }
+  .dot-mastered { background: #2e7d32; }
+  .dot-review { background: #c62828; }
+  .dot-nottested { background: #D4880A; }
 
-  /* PÍLULA CENTRAL */
+  /* CENTRAL PILL */
+  .central-pill-wrap { display: flex; justify-content: center; padding: 36px 40px 8px; }
   .central-pill {
-    display: flex; justify-content: center; padding: 24px 40px 0;
+    background: #004080;
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+    padding: 16px 48px;
+    border-radius: 50px;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 20px rgba(0,64,128,0.25);
+    text-align: center;
   }
-  .pill {
-    background: #004080; color: #fff;
-    padding: 12px 36px; border-radius: 40px;
-    font-size: 16px; font-weight: 700; letter-spacing: 0.04em;
-  }
+  .central-pill span { display: block; font-size: 13px; font-weight: 400; opacity: 0.75; margin-top: 4px; }
 
-  /* GRID DE CARDS */
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 28px 40px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+  /* GRID */
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 24px 40px 40px; }
+
+  /* CARD */
   .card {
-    background: #fff;
+    background: #ffffff;
     border-radius: 14px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-    border-left: 3px solid #D4880A;
-    padding: 18px 18px 14px;
-    display: flex; flex-direction: column;
-    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s;
   }
-  .card-header { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 14px; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,0.11); }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 18px 12px;
+    border-left: 4px solid #004080;
+  }
   .card-num {
-    background: #D4880A; color: #fff;
-    width: 28px; height: 28px; border-radius: 50%;
+    background: #004080;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    width: 28px; height: 28px;
+    border-radius: 50%;
     display: flex; align-items: center; justify-content: center;
-    font-size: 13px; font-weight: 700; flex-shrink: 0;
+    flex-shrink: 0;
   }
-  .card-title { font-size: 14px; font-weight: 700; color: #D4880A; line-height: 1.3; }
-  .card-body { font-size: 13px; line-height: 1.6; flex: 1; }
+  .card-title { font-size: 14px; font-weight: 700; color: #1a1a2e; line-height: 1.3; }
+
+  .card-body { padding: 4px 18px 14px; }
   .card-body ul { list-style: none; padding: 0; }
-  .card-body li { padding: 3px 0; border-bottom: 1px solid #f0ede8; }
-  .card-body li:last-child { border-bottom: none; }
-  .card-body .en { font-weight: 600; color: #1a1a2e; }
-  .card-body .pt { color: #555; font-size: 12px; }
-  .card-body .arrow { color: #D4880A; margin: 0 4px; }
-  .card-body .trap {
-    background: #FFF3E0; border-left: 3px solid #D4880A;
-    border-radius: 6px; padding: 8px 10px; margin-top: 10px;
-    font-size: 12px; color: #7a4000;
+  .card-body ul li {
+    font-size: 13px;
+    color: #333;
+    padding: 5px 0;
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 1.45;
   }
-  .card-body .trap strong { display: block; margin-bottom: 3px; }
+  .card-body ul li:last-child { border-bottom: none; }
+  .card-body ul li strong { color: #004080; }
+
+  .grammar-box {
+    background: #EEF4FF;
+    border-radius: 8px;
+    padding: 10px 12px;
+    margin: 8px 0;
+    font-size: 12.5px;
+    color: #1a1a2e;
+    line-height: 1.5;
+  }
+  .grammar-box .structure { font-weight: 700; color: #004080; font-size: 13px; display: block; margin-bottom: 4px; }
+  .grammar-box .example { font-style: italic; color: #333; display: block; margin-top: 2px; }
+  .grammar-box .translation { font-size: 11.5px; color: #666; display: block; }
+
+  .trap-box {
+    background: #FFF3E0;
+    border-left: 3px solid #D4880A;
+    border-radius: 6px;
+    padding: 8px 10px;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #5D3A00;
+    line-height: 1.4;
+  }
+  .trap-box strong { color: #D4880A; }
+
+  /* BADGE */
+  .card-footer { padding: 10px 18px 14px; display: flex; justify-content: flex-end; }
   .badge {
-    display: inline-block; margin-top: 12px;
-    background: #FFF3E0; color: #D4880A;
-    font-size: 11px; font-weight: 700;
-    padding: 4px 10px; border-radius: 20px;
-    border: 1px solid #D4880A;
-    align-self: flex-start;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 20px;
+    color: white;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    user-select: none;
   }
+  .badge-nottested { background: #D4880A; }
+  .badge-mastered { background: #2e7d32; }
+  .badge-review { background: #c62828; }
 
   /* GOLDEN TIPS */
-  .golden-tips {
+  .tips-section { padding: 0 40px 48px; }
+  .tips-title {
+    font-size: 18px;
+    font-weight: 800;
+    color: #004080;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .tips-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .tip-card {
     background: #FFF8EC;
     border: 2px solid #F0D080;
-    border-radius: 14px;
-    margin: 0 40px 40px;
-    padding: 24px 28px;
-    max-width: 1120px;
-    margin-left: auto; margin-right: auto;
+    border-radius: 12px;
+    padding: 16px 18px;
   }
-  .golden-tips h2 {
-    font-size: 15px; font-weight: 800; color: #7a4000;
-    margin-bottom: 18px; letter-spacing: 0.04em;
-  }
-  .tips-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 14px;
-  }
-  .tip-item { display: flex; align-items: flex-start; gap: 10px; }
   .tip-badge {
-    background: #D4880A; color: #fff;
-    width: 24px; height: 24px; border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
-    font-size: 12px; font-weight: 700; flex-shrink: 0;
+    display: inline-block;
+    background: #D4880A;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 10px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
   }
-  .tip-text { font-size: 13px; line-height: 1.5; color: #4a2c00; }
-  .tip-text strong { color: #7a4000; }
+  .tip-title { font-size: 13px; font-weight: 700; color: #1a1a2e; margin-bottom: 6px; }
+  .tip-body { font-size: 12.5px; color: #444; line-height: 1.5; }
+  .tip-body em { color: #004080; font-style: italic; }
+
+  /* RESPONSIVE */
+  @media (max-width: 900px) {
+    .grid, .tips-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 600px) {
+    .grid, .tips-grid { grid-template-columns: 1fr; }
+    .header h1 { font-size: 22px; }
+    .central-pill { font-size: 17px; padding: 14px 28px; }
+  }
 </style>
 </head>
 <body>
 
 <!-- HEADER -->
 <div class="header">
-  <div class="line">Inglês · Unidade 1 · Capítulo 1 · 9º ano</div>
+  <div class="subtitle">Inglês · Unidade 1 · Capítulo 1 · 9º ano</div>
   <h1>The Power of Art</h1>
-  <div class="subtitle">Mind Map — generated at preparation</div>
+  <div class="tagline">Mind Map — generated at preparation</div>
   <div class="legend">
-    <div class="legend-item"><div class="dot dot-green"></div> Mastered</div>
-    <div class="legend-item"><div class="dot dot-red"></div> Review</div>
-    <div class="legend-item"><div class="dot dot-orange"></div> Not tested</div>
+    <div class="legend-item"><div class="legend-dot dot-mastered"></div> Mastered</div>
+    <div class="legend-item"><div class="legend-dot dot-review"></div> Review</div>
+    <div class="legend-item"><div class="legend-dot dot-nottested"></div> Not tested</div>
   </div>
 </div>
 
-<!-- PÍLULA CENTRAL -->
-<div class="central-pill">
-  <div class="pill">The Power of Art — Language &amp; Culture</div>
+<!-- CENTRAL PILL -->
+<div class="central-pill-wrap">
+  <div class="central-pill">
+    The Power of Art
+    <span>Modal Verbs · First Conditional · Survey Report</span>
+  </div>
 </div>
 
-<!-- GRID DE CARDS -->
+<!-- GRID -->
 <div class="grid">
 
-  <!-- Card 1 -->
-  <div class="card">
+  <!-- CARD 1 — Should -->
+  <div class="card" onclick="cyclebadge(this)">
     <div class="card-header">
       <div class="card-num">1</div>
-      <div class="card-title">The Power of Art<br><span style="font-weight:400;font-size:12px;color:#888">(O Poder da Arte)</span></div>
+      <div class="card-title">Modal Verb — <em>Should</em></div>
     </div>
     <div class="card-body">
       <ul>
-        <li><span class="en">powerful force</span><span class="arrow">→</span><span class="pt">força poderosa</span></li>
-        <li><span class="en">evoke emotions</span><span class="arrow">→</span><span class="pt">evocar emoções</span></li>
-        <li><span class="en">inspire</span><span class="arrow">→</span><span class="pt">inspirar</span></li>
-        <li><span class="en">unite people and communities</span><span class="arrow">→</span><span class="pt">unir pessoas e comunidades</span></li>
-        <li><span class="en">transcend boundaries</span><span class="arrow">→</span><span class="pt">transcender barreiras</span></li>
-        <li><span class="en">peaceful and inclusive community</span><span class="arrow">→</span><span class="pt">comunidade pacífica e inclusiva</span></li>
+        <li><strong>Use:</strong> advice / recommendation (conselho / recomendação)</li>
+        <li><strong>Never changes form</strong> — he/she/it <em>should</em> (nunca <em>shoulds</em>)</li>
       </ul>
+      <div class="grammar-box">
+        <span class="structure">✅ Affirmative: subject + should + base verb</span>
+        <span class="example">"You should wear a coat."</span>
+        <span class="translation">→ Você deveria usar um casaco.</span>
+        <span class="structure" style="margin-top:8px">❌ Negative: subject + shouldn't + base verb</span>
+        <span class="example">"You shouldn't call them now."</span>
+        <span class="translation">→ Você não deveria ligar para eles agora.</span>
+        <span class="structure" style="margin-top:8px">❓ Interrogative: Should + subject + base verb?</span>
+        <span class="example">"Should they go on foot?"</span>
+        <span class="translation">→ Eles deveriam ir a pé?</span>
+      </div>
+      <div class="trap-box">
+        <strong>⚠️ Trap:</strong> <em>shouldn't</em> ≠ <em>mustn't</em>. <em>Shouldn't</em> = not recommended. <em>Mustn't</em> = prohibited.
+      </div>
     </div>
-    <span class="badge">Not tested</span>
+    <div class="card-footer"><span class="badge badge-nottested">Not tested</span></div>
   </div>
 
-  <!-- Card 2 -->
-  <div class="card">
+  <!-- CARD 2 — Have to -->
+  <div class="card" onclick="cyclebadge(this)">
     <div class="card-header">
       <div class="card-num">2</div>
-      <div class="card-title">Art Techniques &amp; Vocabulary<br><span style="font-weight:400;font-size:12px;color:#888">(Técnicas e Vocabulário)</span></div>
+      <div class="card-title">Modal Verb — <em>Have to</em></div>
     </div>
     <div class="card-body">
       <ul>
-        <li><span class="en">oil on canvas</span><span class="arrow">→</span><span class="pt">óleo sobre tela (técnica)</span></li>
-        <li><span class="en">mural</span><span class="arrow">→</span><span class="pt">mural (tipo de arte)</span></li>
-        <li><span class="en">artwork</span><span class="arrow">→</span><span class="pt">obra de arte</span></li>
-        <li><span class="en">caption</span><span class="arrow">→</span><span class="pt">legenda</span></li>
-        <li><span class="en">on display</span><span class="arrow">→</span><span class="pt">em exibição</span></li>
-        <li><span class="en">depth</span><span class="arrow">→</span><span class="pt">profundidade</span></li>
-        <li><span class="en">geometric shapes</span><span class="arrow">→</span><span class="pt">formas geométricas</span></li>
-        <li><span class="en">organic shapes</span><span class="arrow">→</span><span class="pt">formas orgânicas</span></li>
+        <li><strong>Use:</strong> necessity / obligation (necessidade / obrigação)</li>
+        <li><strong>3rd person:</strong> she/he/it <em>has to</em> (conjuga!)</li>
+        <li><strong>Don't have to</strong> = not necessary ≠ prohibited</li>
       </ul>
+      <div class="grammar-box">
+        <span class="structure">✅ Affirmative: subject + have to/has to + base verb</span>
+        <span class="example">"You have to drive on the left in the UK."</span>
+        <span class="translation">→ Você é obrigado a dirigir pela esquerda no RU.</span>
+        <span class="structure" style="margin-top:8px">❌ Negative: don't/doesn't have to + base verb</span>
+        <span class="example">"Students don't have to finish today."</span>
+        <span class="translation">→ Os alunos não precisam terminar hoje.</span>
+        <span class="structure" style="margin-top:8px">❓ Interrogative: Do/Does + subject + have to?</span>
+        <span class="example">"Does she have to wear a uniform?"</span>
+        <span class="translation">→ Ela é obrigada a usar uniforme?</span>
+      </div>
+      <div class="trap-box">
+        <strong>⚠️ Trap:</strong> <em>don't have to</em> ≠ prohibition. "You don't have to come" = not necessary, not forbidden.
+      </div>
     </div>
-    <span class="badge">Not tested</span>
+    <div class="card-footer"><span class="badge badge-nottested">Not tested</span></div>
   </div>
 
-  <!-- Card 3 -->
-  <div class="card">
+  <!-- CARD 3 — First Conditional -->
+  <div class="card" onclick="cyclebadge(this)">
     <div class="card-header">
       <div class="card-num">3</div>
-      <div class="card-title">Art Appreciation &amp; Museums<br><span style="font-weight:400;font-size:12px;color:#888">(Apreciação e Museus)</span></div>
+      <div class="card-title">First Conditional</div>
     </div>
     <div class="card-body">
       <ul>
-        <li><span class="en">visitor</span><span class="arrow">→</span><span class="pt">visitante</span></li>
-        <li><span class="en">museum</span><span class="arrow">→</span><span class="pt">museu</span></li>
-        <li><span class="en">access to art</span><span class="arrow">→</span><span class="pt">acesso à arte</span></li>
-        <li><span class="en">future generations</span><span class="arrow">→</span><span class="pt">gerações futuras</span></li>
-        <li><span class="en">socioeconomic background</span><span class="arrow">→</span><span class="pt">origem/posição socioeconômica</span></li>
-        <li><span class="en">cultivate</span><span class="arrow">→</span><span class="pt">cultivar</span></li>
-        <li><span class="en">benefit from</span><span class="arrow">→</span><span class="pt">se beneficiar de</span></li>
+        <li><strong>Use:</strong> prediction or promise — real future condition</li>
+        <li><strong>If-clause:</strong> Simple Present (NEVER will)</li>
+        <li><strong>Result clause:</strong> will + base form</li>
       </ul>
+      <div class="grammar-box">
+        <span class="structure">Structure: If + Simple Present + , + will + base verb</span>
+        <span class="example">"If museums charge expensive fees, access to art will be more difficult."</span>
+        <span class="translation">→ Se os museus cobrarem taxas caras, o acesso à arte será mais difícil.</span>
+        <span class="example" style="margin-top:6px">"If you don't water the plant, it will die."</span>
+        <span class="translation">→ Se você não regar a planta, ela vai morrer.</span>
+      </div>
+      <div class="trap-box">
+        <strong>⚠️ Trap:</strong> NEVER "If it <u>will rain</u>…" ❌ → Always "If it <u>rains</u>…" ✅
+        The if-clause uses Simple Present only.
+      </div>
     </div>
-    <span class="badge">Not tested</span>
+    <div class="card-footer"><span class="badge badge-nottested">Not tested</span></div>
   </div>
 
-  <!-- Card 4 -->
-  <div class="card">
+  <!-- CARD 4 — Should vs Have to -->
+  <div class="card" onclick="cyclebadge(this)">
     <div class="card-header">
       <div class="card-num">4</div>
-      <div class="card-title">Modal Verb: Should<br><span style="font-weight:400;font-size:12px;color:#888">(Conselho / Recomendação)</span></div>
+      <div class="card-title">Should vs. Have to — Key Differences</div>
     </div>
     <div class="card-body">
       <ul>
-        <li><span class="en">Uso:</span><span class="pt"> conselho, recomendação</span></li>
-        <li><span class="en">Afirm.:</span><span class="pt"> Subject + <strong>should</strong> + base verb</span></li>
-        <li><span class="en">Negat.:</span><span class="pt"> Subject + <strong>shouldn't</strong> + base verb</span></li>
-        <li><span class="en">Interr.:</span><span class="pt"> <strong>Should</strong> + subject + base verb?</span></li>
-        <li><span class="en">Ex:</span><span class="pt"> "You <strong>should</strong> visit MASP."</span></li>
+        <li><strong>Should</strong> = advice — person may or may not follow</li>
+        <li><strong>Have to</strong> = external obligation — must comply</li>
+        <li><strong>Shouldn't</strong> = not recommended (não recomendado)</li>
+        <li><strong>Don't have to</strong> = not necessary (não é necessário)</li>
+        <li><strong>Mustn't</strong> = prohibited (proibido) — different from both!</li>
       </ul>
-      <div class="trap"><strong>⚠️ Pegadinha</strong>Should ≠ have to. Should = aconselhável. Have to = obrigatório.</div>
+      <div class="grammar-box">
+        <span class="example">"You <strong>should</strong> eat vegetables." → advice</span>
+        <span class="translation">→ Você deveria comer legumes. (conselho)</span>
+        <span class="example" style="margin-top:6px">"You <strong>have to</strong> wear a seatbelt." → obligation</span>
+        <span class="translation">→ Você é obrigado a usar cinto. (obrigação legal)</span>
+        <span class="example" style="margin-top:6px">"You <strong>don't have to</strong> wear a tie." → not necessary</span>
+        <span class="translation">→ Não é necessário usar gravata.</span>
+      </div>
     </div>
-    <span class="badge">Not tested</span>
+    <div class="card-footer"><span class="badge badge-nottested">Not tested</span></div>
   </div>
 
-  <!-- Card 5 -->
-  <div class="card">
+  <!-- CARD 5 — Survey Report -->
+  <div class="card" onclick="cyclebadge(this)">
     <div class="card-header">
       <div class="card-num">5</div>
-      <div class="card-title">Modal Verb: Have to<br><span style="font-weight:400;font-size:12px;color:#888">(Necessidade / Obrigação)</span></div>
+      <div class="card-title">Genre: Survey Report</div>
     </div>
     <div class="card-body">
       <ul>
-        <li><span class="en">Uso:</span><span class="pt"> necessidade, obrigação</span></li>
-        <li><span class="en">Afirm.:</span><span class="pt"> Subject + <strong>have to</strong>/<strong>has to</strong> + base verb</span></li>
-        <li><span class="en">Negat.:</span><span class="pt"> Subject + <strong>don't/doesn't have to</strong> + base verb</span></li>
-        <li><span class="en">Interr.:</span><span class="pt"> <strong>Do/Does</strong> + subject + have to?</span></li>
-        <li><span class="en">Ex:</span><span class="pt"> "Students <strong>have to</strong> finish the report."</span></li>
+        <li><strong>Language:</strong> formal and impersonal (no I / we for opinions)</li>
+        <li><strong>Purpose:</strong> present factual data collected via questionnaire</li>
+        <li><strong>Features:</strong> numbers, statistics, direct quotes</li>
       </ul>
-      <div class="trap"><strong>⚠️ Pegadinha</strong>Don't have to ≠ proibição. "Don't have to" = não é necessário. "Mustn't" = é proibido.</div>
+      <div class="grammar-box">
+        <span class="structure">Typical structure:</span>
+        <span class="example">1. Introduction / Summary</span>
+        <span class="example">2. Methodology</span>
+        <span class="example">3. Findings / Results (data + stats)</span>
+        <span class="example">4. Conclusion</span>
+        <span class="translation">→ Model text: <em>Bilbao BBK Spain</em> (European Festival Report, 2022)</span>
+      </div>
+      <div class="trap-box">
+        <strong>⚠️ Writing tip:</strong> Replace "I think it was great" with "The data shows that…" or "According to the report…"
+      </div>
     </div>
-    <span class="badge">Not tested</span>
+    <div class="card-footer"><span class="badge badge-nottested">Not tested</span></div>
   </div>
 
-  <!-- Card 6 -->
-  <div class="card">
+  <!-- CARD 6 — Art Vocabulary -->
+  <div class="card" onclick="cyclebadge(this)">
     <div class="card-header">
       <div class="card-num">6</div>
-      <div class="card-title">First Conditional<br><span style="font-weight:400;font-size:12px;color:#888">(Primeira Condicional)</span></div>
+      <div class="card-title">Vocabulary — Art & Painting</div>
     </div>
     <div class="card-body">
       <ul>
-        <li><span class="en">Uso:</span><span class="pt"> previsões / promessas sobre o futuro</span></li>
-        <li><span class="en">Forma:</span><span class="pt"> <strong>If + Simple Present</strong>, <strong>will + base verb</strong></span></li>
-        <li><span class="en">if-clause:</span><span class="pt"> NUNCA usa will → usa Simple Present</span></li>
-        <li><span class="en">Ex:</span><span class="pt"> "If museums charge fees, access <strong>will be</strong> harder."</span></li>
-        <li><span class="en">Sem vírgula se if vier depois:</span><span class="pt"> "You will pass if you study."</span></li>
+        <li><strong>oil on canvas</strong> → óleo sobre tela</li>
+        <li><strong>setting</strong> → cenário / ambiente</li>
+        <li><strong>on display</strong> → em exposição</li>
+        <li><strong>Impressionist</strong> → impressionista</li>
+        <li><strong>pictogram</strong> → pictograma (minimalist symbol)</li>
+        <li><strong>barrier</strong> → barreira</li>
+        <li><strong>build</strong> → construir</li>
+        <li><strong>transcend</strong> → transcender</li>
       </ul>
-      <div class="trap"><strong>⚠️ Pegadinha</strong>NUNCA "If it will rain..." → CORRETO: "If it rains..."</div>
+      <div class="grammar-box">
+        <span class="structure">Key sentence from text:</span>
+        <span class="example">"Art transcends linguistic barriers."</span>
+        <span class="translation">→ A arte transcende barreiras linguísticas.</span>
+      </div>
     </div>
-    <span class="badge">Not tested</span>
+    <div class="card-footer"><span class="badge badge-nottested">Not tested</span></div>
   </div>
 
-  <!-- Card 7 -->
-  <div class="card">
+  <!-- CARD 7 — Event Vocabulary -->
+  <div class="card" onclick="cyclebadge(this)">
     <div class="card-header">
       <div class="card-num">7</div>
-      <div class="card-title">Artists of Reference<br><span style="font-weight:400;font-size:12px;color:#888">(Artistas de Referência)</span></div>
+      <div class="card-title">Vocabulary — Events & Economy</div>
     </div>
     <div class="card-body">
       <ul>
-        <li><span class="en">Claude Monet</span><span class="pt"> — Impressionismo (França) · pintura ao ar livre · ricas paletas de cores</span></li>
-        <li><span class="en">Pablo Picasso</span><span class="pt"> — Cubismo (Espanha) · formas geométricas · cubos, cilindros, cones</span></li>
-        <li><span class="en">The Artist's Garden at Giverny (1900)</span><span class="pt"> → Monet · óleo sobre tela · Musée d'Orsay, Paris</span></li>
-        <li><span class="en">Three Musicians</span><span class="pt"> → Picasso · cubismo</span></li>
-        <li><span class="en">MASP</span><span class="pt"> → Museu de Arte de São Paulo</span></li>
+        <li><strong>City Council</strong> → prefeitura</li>
+        <li><strong>praise</strong> → elogiar, enaltecer</li>
+        <li><strong>supplies</strong> → suprimentos</li>
+        <li><strong>catering</strong> → alimentação / serviço de buffet</li>
+        <li><strong>get fired</strong> → ser demitido(a)</li>
+        <li><strong>go bankrupt</strong> → ir à falência</li>
+        <li><strong>kilometer-zero policy</strong> → política de fornecedores locais</li>
       </ul>
+      <div class="grammar-box">
+        <span class="example">"BBK employed 3,500 professionals in logistics, <strong>supplies</strong>, services, lighting, sound, audio-visual, or <strong>catering</strong>."</span>
+        <span class="translation">→ Contexto: impacto econômico do Bilbao BBK.</span>
+      </div>
     </div>
-    <span class="badge">Not tested</span>
+    <div class="card-footer"><span class="badge badge-nottested">Not tested</span></div>
   </div>
 
-  <!-- Card 8 -->
-  <div class="card">
+  <!-- CARD 8 — Cultural References -->
+  <div class="card" onclick="cyclebadge(this)">
     <div class="card-header">
       <div class="card-num">8</div>
-      <div class="card-title">Survey Report<br><span style="font-weight:400;font-size:12px;color:#888">(Relatório de Pesquisa)</span></div>
+      <div class="card-title">Cultural References</div>
     </div>
     <div class="card-body">
       <ul>
-        <li><span class="en">Definição:</span><span class="pt"> texto formal com resultados de pesquisa</span></li>
-        <li><span class="en">Linguagem:</span><span class="pt"> formal e impessoal</span></li>
-        <li><span class="en">Estrutura:</span><span class="pt"> introdução → desenvolvimento → conclusão</span></li>
-        <li><span class="en">Frases-chave:</span><span class="pt"> "According to the survey..." / "The results show that..." / "In conclusion..."</span></li>
-        <li><span class="en">Tema do cap.:</span><span class="pt"> tempo de apreciação de obras em museus</span></li>
+        <li><strong>Bilbao BBK</strong> — music festival, Spain · 115,000 people · €25m</li>
+        <li><strong>Monet</strong> — <em>The Artist's Garden at Giverny</em> (1900) · Impressionism · Musée D'Orsay, Paris</li>
+        <li><strong>Picasso</strong> — <em>Three Musicians</em> (1921) · geometric shapes · MoMA, New York</li>
+        <li><strong>Velázquez</strong> — <em>Las Meninas</em> (1656) · Museo del Prado, Madrid</li>
+        <li><strong>Van Gogh</strong> — <em>The Starry Night</em> (1889) · MoMA, New York</li>
+        <li><strong>Vermeer</strong> — <em>Girl With a Pearl Earring</em> (1665) · Mauritshuis, The Hague</li>
+        <li><strong>Kobra</strong> — mural 15m×170m · Rio 2016 Olympics</li>
+        <li><strong>Da Vinci</strong> — <em>Mona Lisa</em> · Louvre, Paris</li>
       </ul>
     </div>
-    <span class="badge">Not tested</span>
+    <div class="card-footer"><span class="badge badge-nottested">Not tested</span></div>
   </div>
 
-  <!-- Card 9 -->
-  <div class="card">
+  <!-- CARD 9 — Summary Map -->
+  <div class="card" onclick="cyclebadge(this)">
     <div class="card-header">
       <div class="card-num">9</div>
-      <div class="card-title">Grammar Vocabulary<br><span style="font-weight:400;font-size:12px;color:#888">(Vocabulário Gramatical)</span></div>
+      <div class="card-title">Summary — Book Mind Map Answers</div>
     </div>
     <div class="card-body">
       <ul>
-        <li><span class="en">modal verbs</span><span class="arrow">→</span><span class="pt">verbos modais</span></li>
-        <li><span class="en">auxiliary verbs</span><span class="arrow">→</span><span class="pt">verbos auxiliares</span></li>
-        <li><span class="en">advice</span><span class="arrow">→</span><span class="pt">conselho</span></li>
-        <li><span class="en">obligation</span><span class="arrow">→</span><span class="pt">obrigação</span></li>
-        <li><span class="en">necessity</span><span class="arrow">→</span><span class="pt">necessidade</span></li>
-        <li><span class="en">if-clause</span><span class="arrow">→</span><span class="pt">oração com "if"</span></li>
-        <li><span class="en">prediction</span><span class="arrow">→</span><span class="pt">previsão</span></li>
-        <li><span class="en">contracted form</span><span class="arrow">→</span><span class="pt">forma contraída (shouldn't)</span></li>
+        <li><strong>Types of art:</strong> painting, sculpture, photography, music, dance…</li>
+        <li><strong>Oil on canvas is a:</strong> traditional painting technique</li>
+        <li><strong>Pictogram is a:</strong> minimalist symbol that represents an idea or concept</li>
+        <li><strong>1st Conditional form:</strong> If + Simple Present + will + base verb</li>
+        <li><strong>We use 1st Conditional to:</strong> make a prediction or promise for the future</li>
+        <li><strong>Should expresses:</strong> advice / recommendation</li>
+        <li><strong>Have to expresses:</strong> necessity and obligation</li>
+        <li><strong>Don't have to =</strong> absence of obligation (not necessary)</li>
       </ul>
     </div>
-    <span class="badge">Not tested</span>
+    <div class="card-footer"><span class="badge badge-nottested">Not tested</span></div>
   </div>
 
 </div>
 
 <!-- GOLDEN TIPS -->
-<div class="golden-tips" style="margin: 0 40px 40px; padding: 24px 28px;">
-  <h2>💡 GOLDEN TIPS — Dicas de Ouro</h2>
+<div class="tips-section">
+  <div class="tips-title">💡 Golden Tips</div>
   <div class="tips-grid">
-    <div class="tip-item">
-      <div class="tip-badge">1</div>
-      <div class="tip-text"><strong>Should ≠ Have to:</strong> <strong>should</strong> = aconselhável (pode ou não seguir). <strong>Have to</strong> = obrigatório (não há escolha). "You <strong>should</strong> eat vegetables" vs "You <strong>have to</strong> wear a seatbelt."</div>
+
+    <div class="tip-card">
+      <div class="tip-badge">Tip 1</div>
+      <div class="tip-title">Don't have to ≠ Mustn't</div>
+      <div class="tip-body">
+        <em>Don't have to</em> = não é necessário (sem obrigação).<br>
+        <em>Mustn't</em> = não pode (proibido).<br><br>
+        "You <em>don't have to</em> wear a uniform." (opcional)<br>
+        "You <em>mustn't</em> enter without a badge." (proibido)
+      </div>
     </div>
-    <div class="tip-item">
-      <div class="tip-badge">2</div>
-      <div class="tip-text"><strong>Nunca will na if-clause:</strong> Após <strong>If</strong>, sempre Simple Present. NUNCA "If it <strong>will</strong> rain..." → CORRETO: "If it <strong>rains</strong>, we will cancel."</div>
+
+    <div class="tip-card">
+      <div class="tip-badge">Tip 2</div>
+      <div class="tip-title">Never "will" inside the if-clause</div>
+      <div class="tip-body">
+        A cláusula com <em>if</em> usa <strong>sempre o Simple Present</strong>.<br><br>
+        ❌ "If it <u>will rain</u>…"<br>
+        ✅ "If it <u>rains</u>…"<br><br>
+        Dica: <em>if</em> = condição presente → <em>will</em> = resultado futuro.
+      </div>
     </div>
-    <div class="tip-item">
-      <div class="tip-badge">3</div>
-      <div class="tip-text"><strong>Don't have to ≠ proibição:</strong> <strong>Don't have to</strong> = não é necessário (mas pode). <strong>Mustn't</strong> = proibido. O primeiro libera; o segundo proíbe.</div>
+
+    <div class="tip-card">
+      <div class="tip-badge">Tip 3</div>
+      <div class="tip-title">Should never changes form</div>
+      <div class="tip-body">
+        Ao contrário de <em>have to</em> (→ <em>has to</em> na 3ª pessoa),<br>
+        <em>should</em> nunca muda:<br><br>
+        ✅ "She <em>should</em> go." ✅ "They <em>should</em> go."<br>
+        ❌ "She <em>shoulds</em> go."
+      </div>
     </div>
-    <div class="tip-item">
-      <div class="tip-badge">4</div>
-      <div class="tip-text"><strong>Ordem da Condicional:</strong> If-clause antes → use vírgula: "If you study<strong>,</strong> you will pass." If-clause depois → sem vírgula: "You will pass if you study."</div>
+
+    <div class="tip-card">
+      <div class="tip-badge">Tip 4</div>
+      <div class="tip-title">Comma in First Conditional</div>
+      <div class="tip-body">
+        If-clause no início → <strong>use vírgula</strong>:<br>
+        "If it rains<strong>,</strong> we will stay."<br><br>
+        If-clause no final → <strong>sem vírgula</strong>:<br>
+        "We will stay if it rains."
+      </div>
     </div>
-    <div class="tip-item">
-      <div class="tip-badge">5</div>
-      <div class="tip-text"><strong>Oil on canvas é técnica, não tipo:</strong> <strong>oil on canvas</strong> = técnica de pintura. <strong>Mural</strong> = tipo de arte aplicada em parede. Questões testam essa distinção.</div>
+
+    <div class="tip-card">
+      <div class="tip-badge">Tip 5</div>
+      <div class="tip-title">Survey Report: stay impersonal</div>
+      <div class="tip-body">
+        Nunca use <em>I think</em> ou <em>I believe</em> em survey reports.<br><br>
+        ❌ "I think the festival was great."<br>
+        ✅ "The data shows that the festival attracted 115,000 people."<br><br>
+        Use: <em>according to</em>, <em>the report says</em>, <em>the data shows</em>.
+      </div>
     </div>
-    <div class="tip-item">
-      <div class="tip-badge">6</div>
-      <div class="tip-text"><strong>Interrogativa: should vs have to:</strong> Com <strong>should</strong>, sem auxiliar: "Should I go?" Com <strong>have to</strong>, com auxiliar: "Do I have to go?" / "Does she have to study?"</div>
+
+    <div class="tip-card">
+      <div class="tip-badge">Tip 6</div>
+      <div class="tip-title">Pictogram = minimalist, not detailed</div>
+      <div class="tip-body">
+        A questão QI-10 pergunta pela alternativa FALSA.<br><br>
+        Pictogramas são <strong>simples e minimalistas</strong> — transcendem barreiras linguísticas.<br><br>
+        ❌ "Pictogram designers use complex elements full of details." → FALSA ✅
+      </div>
     </div>
+
   </div>
 </div>
+
+<script>
+  function cyclebadge(card) {
+    const badge = card.querySelector('.badge');
+    if (badge.classList.contains('badge-nottested')) {
+      badge.classList.remove('badge-nottested');
+      badge.classList.add('badge-mastered');
+      badge.textContent = 'Mastered';
+    } else if (badge.classList.contains('badge-mastered')) {
+      badge.classList.remove('badge-mastered');
+      badge.classList.add('badge-review');
+      badge.textContent = 'Review';
+    } else {
+      badge.classList.remove('badge-review');
+      badge.classList.add('badge-nottested');
+      badge.textContent = 'Not tested';
+    }
+  }
+</script>
 
 </body>
 </html>
