@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mapa Mental — As Línguas Viajam · Por. U1 C1</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Inter', sans-serif; background: #F4F2EE; min-height: 100vh; }
+
+.header {
+  background: #800020; color: white; padding: 28px 40px 24px; text-align: center;
+}
+.header .subtitle { font-size: 14px; opacity: .85; margin-bottom: 6px; letter-spacing: 1px; text-transform: uppercase; }
+.header h1 { font-size: 32px; font-weight: 700; margin-bottom: 6px; }
+.header .tagline { font-size: 13px; opacity: .75; margin-bottom: 16px; }
+.legend { display: flex; justify-content: center; gap: 24px; flex-wrap: wrap; }
+.legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; }
+.legend-dot { width: 12px; height: 12px; border-radius: 50%; }
+.dot-green  { background: #2e7d32; }
+.dot-red    { background: #c62828; }
+.dot-purple { background: #800020; }
+
+.pill-wrap { display: flex; justify-content: center; padding: 32px 20px 8px; }
+.pill { background: #800020; color: white; padding: 12px 40px; border-radius: 999px; font-size: 18px; font-weight: 700; }
+
+.grid {
+  display: grid; grid-template-columns: repeat(3,1fr);
+  gap: 20px; padding: 24px 32px; max-width: 1200px; margin: 0 auto;
+}
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:600px){.grid{grid-template-columns:1fr;}}
+
+.card {
+  background: #fff; border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.07);
+  overflow: hidden; cursor: pointer; transition: box-shadow .2s;
+}
+.card:hover { box-shadow: 0 4px 16px rgba(0,0,0,.12); }
+.card-header {
+  display: flex; align-items: center; gap: 12px;
+  padding: 14px 16px 10px; border-left: 4px solid #800020;
+}
+.card-num {
+  width: 28px; height: 28px; border-radius: 50%;
+  background: #800020; color: white;
+  font-size: 13px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.card-title { font-size: 14px; font-weight: 700; color: #1a1a1a; flex: 1; }
+.badge { font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 999px; white-space: nowrap; }
+.badge-purple { background: #800020; color: white; }
+.badge-green  { background: #2e7d32; color: white; }
+.badge-red    { background: #c62828; color: white; }
+
+.card-body { padding: 4px 16px 14px; }
+.card-body ul { list-style: none; }
+.card-body ul li {
+  font-size: 13px; color: #333; padding: 4px 0;
+  border-bottom: 1px solid #f0ede8; display: flex; gap: 6px;
+}
+.card-body ul li:last-child { border-bottom: none; }
+.card-body ul li::before { content: "•"; color: #800020; font-weight: 700; flex-shrink: 0; }
+.rule-box {
+  background: #fff8f8; border-left: 3px solid #800020;
+  padding: 8px 10px; border-radius: 4px; font-size: 12px;
+  color: #333; margin: 6px 0 4px; font-style: italic;
+}
+
+.dicas-wrap { padding: 8px 32px 40px; max-width: 1200px; margin: 0 auto; }
+.dicas-box { background: #FFF0F0; border: 2px solid #800020; border-radius: 14px; padding: 20px 24px; }
+.dicas-title { font-size: 16px; font-weight: 700; color: #800020; margin-bottom: 16px; }
+.dica-item { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 14px; }
+.dica-item:last-child { margin-bottom: 0; }
+.dica-badge { background: #800020; color: white; font-size: 11px; font-weight: 700; padding: 3px 9px; border-radius: 999px; white-space: nowrap; margin-top: 2px; }
+.dica-text { font-size: 13px; color: #333; line-height: 1.55; }
+.dica-text strong { color: #800020; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="subtitle">Português · Unidade 1 · Capítulo 1 · 9º ano</div>
+  <h1>As Línguas Viajam</h1>
+  <div class="tagline">Mapa Mental — gerado na preparação</div>
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot dot-green"></div> Dominado</div>
+    <div class="legend-item"><div class="legend-dot dot-red"></div> Reforçar</div>
+    <div class="legend-item"><div class="legend-dot dot-purple"></div> Não testado</div>
+  </div>
+</div>
+
+<div class="pill-wrap">
+  <div class="pill">Língua, Comunicação e Identidade</div>
+</div>
+
+<div class="grid">
+
+  <div class="card" onclick="toggleBadge(this)">
+    <div class="card-header">
+      <div class="card-num">1</div>
+      <div class="card-title">Elementos da Comunicação</div>
+      <div class="badge badge-purple">Não testado</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>Emissor:</strong> codifica e envia a mensagem</li>
+        <li><strong>Receptor:</strong> decodifica a mensagem</li>
+        <li><strong>Mensagem:</strong> conteúdo emitido</li>
+        <li><strong>Referente:</strong> assunto da comunicação</li>
+        <li><strong>Código:</strong> conjunto de sinais (língua, gestos…)</li>
+        <li><strong>Canal:</strong> meio físico pelo qual circula</li>
+        <li>Emissor + receptor = <strong>interlocutores</strong></li>
+      </ul>
+      <div class="rule-box">Carta do Achamento: emissor=escrivão · receptor=rei · código=língua escrita · canal=a carta</div>
+    </div>
+  </div>
+
+  <div class="card" onclick="toggleBadge(this)">
+    <div class="card-header">
+      <div class="card-num">2</div>
+      <div class="card-title">Coerência</div>
+      <div class="badge badge-purple">Não testado</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>Externa:</strong> relação com o conhecimento de mundo</li>
+        <li><strong>Interna:</strong> harmonia lógica dentro do texto</li>
+        <li><strong>Semântica:</strong> não contradição</li>
+        <li><strong>Sintática:</strong> organização + conectivos</li>
+        <li><strong>Estilística:</strong> adequação à situação</li>
+        <li><strong>Pragmática:</strong> alinhamento comunicativo</li>
+      </ul>
+      <div class="rule-box">Fotógrafos em 1500 = incoerência externa (anacronismo factual)</div>
+    </div>
+  </div>
+
+  <div class="card" onclick="toggleBadge(this)">
+    <div class="card-header">
+      <div class="card-num">3</div>
+      <div class="card-title">Metáfora</div>
+      <div class="badge badge-purple">Não testado</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Substitui uma palavra por outra por semelhança</li>
+        <li>Sem conectivo explícito (sem "como")</li>
+        <li>Diferente da comparação/símile</li>
+      </ul>
+      <div class="rule-box">"Última flor do Lácio, inculta e bela" — a língua portuguesa como flor (Bilac)</div>
+    </div>
+  </div>
+
+  <div class="card" onclick="toggleBadge(this)">
+    <div class="card-header">
+      <div class="card-num">4</div>
+      <div class="card-title">Texto Informativo</div>
+      <div class="badge badge-purple">Não testado</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Transmite dados ou conceitos sobre um tema</li>
+        <li>Objetivo — sem opiniões do autor</li>
+        <li>Norma-padrão; dados pesquisados e confirmados</li>
+        <li>Estrutura: Introdução → Desenvolvimento → Conclusão</li>
+        <li>Circula em livros, revistas, internet</li>
+      </ul>
+      <div class="rule-box">Carta de Caminha: intenção informativa + subjetividade = não é texto informativo puro</div>
+    </div>
+  </div>
+
+  <div class="card" onclick="toggleBadge(this)">
+    <div class="card-header">
+      <div class="card-num">5</div>
+      <div class="card-title">"Erro de português" — Oswald de Andrade</div>
+      <div class="badge badge-purple">Não testado</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Gênero: poema · Modernismo brasileiro</li>
+        <li>Ironiza a imposição cultural da colonização</li>
+        <li>Chuva → índio vestido (europeizado)</li>
+        <li>Sol (hipótese) → índio teria despido o português</li>
+        <li>Recurso: ironia + hipótese contrafactual</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card" onclick="toggleBadge(this)">
+    <div class="card-header">
+      <div class="card-num">6</div>
+      <div class="card-title">"Língua Portuguesa" — Olavo Bilac</div>
+      <div class="badge badge-purple">Não testado</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Gênero: soneto · Parnasianismo</li>
+        <li>Bilac: 1865–1918</li>
+        <li>Exalta a beleza da língua portuguesa</li>
+        <li>Metáfora central: "Última flor do Lácio"</li>
+        <li>Apóstrofe: dirige-se diretamente à língua</li>
+        <li>"Inculta" = selvagem/natural, não pejorativo</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card" onclick="toggleBadge(this)">
+    <div class="card-header">
+      <div class="card-num">7</div>
+      <div class="card-title">Carta de Pero Vaz de Caminha</div>
+      <div class="badge badge-purple">Não testado</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Gênero: carta histórica · 1500</li>
+        <li>"Certidão de nascimento do Brasil"</li>
+        <li>Destinatário: rei D. Manuel I de Portugal</li>
+        <li>Emissor: escrivão Pero Vaz de Caminha</li>
+        <li>Mistura informação com subjetividade</li>
+        <li>Inspirou a tela de Oscar Pereira da Silva (1900)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card" onclick="toggleBadge(this)">
+    <div class="card-header">
+      <div class="card-num">8</div>
+      <div class="card-title">Diversidade Linguística do Brasil</div>
+      <div class="badge badge-purple">Não testado</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>274 línguas indígenas faladas no país</li>
+        <li>800 mil indígenas de 305 etnias</li>
+        <li>77% dos indígenas falam português</li>
+        <li>33% comunicam-se em idioma nativo</li>
+        <li>Atabaque: origem tupi-guarani + África</li>
+        <li>Língua = elemento de identidade do povo</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card" onclick="toggleBadge(this)">
+    <div class="card-header">
+      <div class="card-num">9</div>
+      <div class="card-title">Origem do Português · Latim Vulgar</div>
+      <div class="badge badge-purple">Não testado</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Lácio: região central da Itália, origem de Roma</li>
+        <li>Séc. IX a.C.: latinos trouxeram o latim a Portugal</li>
+        <li>Latim vulgar: variante popular, chamada "inculta"</li>
+        <li>Origem: português, espanhol, francês, italiano</li>
+        <li>Imposição linguística: dominador impõe sua língua</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<div class="dicas-wrap">
+  <div class="dicas-box">
+    <div class="dicas-title">💡 Dicas de Ouro</div>
+    <div class="dica-item">
+      <div class="dica-badge">1</div>
+      <div class="dica-text"><strong>Mensagem ≠ Referente:</strong> Mensagem = o enunciado concreto (o texto da carta). Referente = o assunto (a descoberta do Brasil). Distinção mais cobrada em provas.</div>
+    </div>
+    <div class="dica-item">
+      <div class="dica-badge">2</div>
+      <div class="dica-text"><strong>Canal ≠ Código:</strong> Canal = suporte físico (a carta, o ar). Código = sistema de sinais (língua escrita, gestos). "A língua portuguesa" não é canal — é código.</div>
+    </div>
+    <div class="dica-item">
+      <div class="dica-badge">3</div>
+      <div class="dica-text"><strong>Coerência é factual, não só gramatical:</strong> "Fotógrafos em 1500" é gramaticalmente perfeita — erro histórico (coerência externa). Sempre verificar o contexto.</div>
+    </div>
+    <div class="dica-item">
+      <div class="dica-badge">4</div>
+      <div class="dica-text"><strong>Metáfora vs. Comparação:</strong> Com "como"/"assim como" → comparação. Sem conectivo, substituição direta → metáfora.</div>
+    </div>
+    <div class="dica-item">
+      <div class="dica-badge">5</div>
+      <div class="dica-text"><strong>"Inculta" não é ofensa:</strong> No poema de Bilac, "inculta" = selvagem/natural. Mesmo sentido do latim vulgar no boxe histórico.</div>
+    </div>
+    <div class="dica-item">
+      <div class="dica-badge">6</div>
+      <div class="dica-text"><strong>Carta de Caminha ≠ texto informativo puro:</strong> Tem intenção informativa, mas contém marcas de subjetividade do escrivão. Hibridiza informação e relato pessoal.</div>
+    </div>
+  </div>
+</div>
+
+<script>
+function toggleBadge(card) {
+  const b = card.querySelector('.badge');
+  if (b.classList.contains('badge-purple')) {
+    b.classList.replace('badge-purple','badge-green'); b.textContent='Dominado';
+  } else if (b.classList.contains('badge-green')) {
+    b.classList.replace('badge-green','badge-red'); b.textContent='Reforçar';
+  } else {
+    b.classList.replace('badge-red','badge-purple'); b.textContent='Não testado';
+  }
+}
+</script>
+</body>
+</html>
