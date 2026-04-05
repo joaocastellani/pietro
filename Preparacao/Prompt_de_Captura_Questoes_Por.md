@@ -8,12 +8,27 @@
 Tarefa: Extraia APENAS as questões da seção Atividades desta
 página de Português. Siga rigorosamente as regras abaixo.
 
+CAPTURAR:
+- Questões da seção Atividades ao final do capítulo
+- Propostas de produção textual presentes na seção Atividades
+- Questões de concurso (ENEM, vestibulares, olimpíadas)
+  identificadas por banca e ano
+
 NÃO CAPTURAR:
+- Questões intercaladas ao conteúdo (exercícios numerados
+  dentro das seções "Interpretação de texto", "Gramática",
+  "Produção textual" e "Reflexão") — essas vão no arquivo
+  de conteúdo por-[u]-[c].md, no Bloco G
 - Perguntas retóricas do texto expositivo
-- Questões intercaladas ao conteúdo (número em caixa colorida
-  no meio do texto, antes da seção Atividades)
+- Instruções de leitura ("Leia o texto abaixo", "Observe o poema")
+  quando não acompanhadas de pergunta ao aluno
 - "Questão invertida" (aluno cria a pergunta a partir de
   uma resposta fornecida)
+- Textos-base soltos sem pergunta associada
+- Seções de atividade aberta sem enunciado formal, como
+  "Alternando o gênero" (elabore perguntas para entrevistar)
+  e "Desafio" (faça uma pesquisa, monte um mural) — não são
+  questões, são propostas criativas sem resposta esperada
 
 NUMERAÇÃO — CRÍTICO:
 Use sequência própria do arquivo — NUNCA a numeração do livro.
@@ -26,8 +41,7 @@ Se na mesma página o livro apresenta uma questão sem banca
 e a mesma questão aparece com banca (mesmo texto + mesmo
 enunciado): capture APENAS a versão de banca (QC-N).
 NUNCA inferir que uma questão já foi capturada em execução
-anterior — você não tem acesso ao arquivo gerado. Capture
-tudo que estiver no material enviado agora.
+anterior. Capture tudo que estiver no material enviado agora.
 
 ANTI-PARTIÇÃO — CRÍTICO:
 Enunciado com itens a) b) c) = UMA questão.
@@ -35,60 +49,61 @@ Nunca gere Q-N e Q-N+1 para itens do mesmo enunciado.
 Todos os itens vão dentro do mesmo campo Enunciado:.
 
 TEXTO vs ENUNCIADO — CRÍTICO:
-> Texto: → APENAS a fonte primária: texto literário, jornalístico,
-  publicitário ou outro gênero textual sobre o qual recai a questão.
-  Capturar integralmente — NUNCA resumir, cortar ou parafrasear.
-  Incluir autoria e fonte quando indicadas no livro.
+> Texto: → APENAS a fonte primária lida pelo aluno:
+  poema, crônica, conto, notícia, trecho literário,
+  letra de música, anúncio, tirinha transcrita.
   Nunca coloque a pergunta aqui.
-  Se não há texto-base: OMITA o campo.
+  Se não há fonte primária: OMITA o campo.
+  Se o texto-base já foi apresentado no início do capítulo
+  e a questão apenas o referencia: escreva
+  > Texto: [mesmo texto-base do início do capítulo]
 Enunciado: → APENAS a pergunta ou instrução ao aluno.
   Nunca deixe este campo vazio.
   Se o livro mistura os dois: separe manualmente.
   Itens a) b) que são perguntas ao aluno → vão no Enunciado:
   Contexto introdutório do livro NÃO é parte do enunciado.
 
-GRAMÁTICA vs INTERPRETAÇÃO — CRÍTICO:
-Distinguir o tipo pela natureza da tarefa pedida:
-  Pede identificar/classificar elementos linguísticos
-  (classe gramatical, função sintática, processo de formação,
-  concordância, regência, pontuação) → identificação
-  Pede analisar sentido, intenção, efeitos de linguagem,
-  relações entre partes do texto ou contexto → análise de texto
-  Pede reescrever trecho mantendo ou alterando sentido → reescrita
-  Pede interpretação de passagem específica com
-  alternativas → múltipla escolha
-
-TEXTOS LONGOS — CRÍTICO:
-Textos-base para interpretação podem ser extensos.
-Capturar integralmente no campo > Texto: — nunca truncar.
-Se o mesmo texto-base serve a múltiplas questões seguidas,
-registre-o apenas na primeira questão; nas subsequentes,
-indique: > Texto: [mesmo texto da Q-N anterior].
+PROPOSTAS DE PRODUÇÃO TEXTUAL — CRÍTICO:
+Tratar como questão com tipo "produção textual".
+Capture APENAS o enunciado da proposta: tema, gênero-alvo,
+extensão solicitada e instrução central ao aluno.
+NÃO capture aqui: grade de avaliação, sites de pesquisa
+indicados, etapas de planejamento/rascunho/revisão —
+esses elementos ficam no Bloco C do arquivo de conteúdo.
+Nunca resuma ou parafraseie o enunciado da proposta.
 
 MÍDIA — CRÍTICO:
 Blocos SEPARADOS antes do Enunciado:. Nunca embutir.
 Campos sem conteúdo real: OMITIR.
 
-> Texto: — texto-base completo (literário, jornalístico, etc.)
-  com autoria e fonte se indicados. Nunca resumir.
-[IMAGEM] — bloco único entre parênteses, campos separados
-  por ponto-e-vírgula, TODOS obrigatórios:
-  [IMAGEM] (tipo; contexto/origem; período/ano se aplicável;
-  conteúdo representado; por que é necessária para responder)
-  Usar para: charge, tirinha, cartaz, anúncio publicitário
-  com elemento visual indispensável à questão.
+> Tirinha: — descreva: personagens · sequência de falas
+  (numere os balões) · elemento visual relevante para
+  responder. NUNCA [TIRINHA]. Se complexa: adicione
+  "(reconstrução parcial — anexar printscreen para uso na aula)"
+> Charge: — descreva: contexto visual · legenda ou fala
+  presente · data/contexto histórico (se visível).
+  NUNCA [CHARGE].
+> Gráfico: — título · Eixo X · Eixo Y · valores ·
+  tendência. NUNCA [GRÁFICO]. Se complexo: adicione
+  "(reconstrução parcial — anexar printscreen para uso na aula)"
+[IMAGEM] — use quando irreconstruível por texto.
+  Formato obrigatório — bloco único entre parênteses:
+  [IMAGEM] (tipo; contexto; o que representa;
+  por que é necessária para responder)
 
 TIPO — um único valor, nunca combine com "/":
-  Tem alternativas?                              → múltipla escolha
-  Texto-base + pede dissertar sobre sentido?     → análise de texto
-  Pede identificar/classificar elemento?         → identificação
-  Pede reescrever trecho?                        → reescrita
-  Pede interpretar trecho com resposta aberta?   → interpretação
-  Associar colunas ou completar tabela?          → associação
-  V ou F?                                        → V-F
-  Nenhuma das anteriores?                        → dissertativa
-  Texto introdutório do livro                    → dissertativa
-  "análise de texto" já implica dissertativa — não combine.
+  Tem alternativas?                             → múltipla escolha
+  Texto-base + pede interpretar/dissertar?      → interpretação
+  Pede identificar classe ou função gramatical? → identificação
+  Pede classificar período, oração ou frase?    → classificação
+  Pede reescrever ou transformar o texto?       → reescrita
+  Pede produzir texto / redigir / criar?        → produção textual
+  Associar colunas ou completar tabela?         → associação
+  V ou F?                                       → V-F
+  Pede corrigir ou justificar erro?             → correção gramatical
+  Nenhuma das anteriores?                       → dissertativa
+  Tirinha ou charge + alternativas → múltipla escolha
+  Texto literário + alternativas → múltipla escolha
 
 GABARITO: sempre vazio. NUNCA invente ou infira.
 
@@ -100,17 +115,17 @@ PROIBIDO encerrar com perguntas, opções ou sugestões.
 FORMATO — inclua APENAS campos com conteúdo real:
 
 **Q-[N]** · pág. [X]
-[> Texto: APENAS se houver texto-base]
-[[IMAGEM] APENAS se houver]
+[> Texto: APENAS se houver fonte primária textual]
+[[IMAGEM] APENAS se houver tirinha, charge ou imagem irreconstruível]
 Enunciado: [pergunta com todos os itens a) b) c)]
-Alternativas: (dissertativa) ou lista
+[Alternativas: lista — APENAS se a questão tiver alternativas]
 Gabarito:
 Tipo: [valor único]
 Classificação: [fácil / médio / difícil]
 
 **QC-[N]** · [Banca] · [Ano] · pág. [X]
-[> Texto: APENAS se houver texto-base]
-[[IMAGEM] APENAS se houver]
+[> Texto: APENAS se houver fonte primária textual]
+[[IMAGEM] APENAS se houver imagem irreconstruível]
 Enunciado: [pergunta com todos os itens a) b) c)]
 Alternativas: lista
 Gabarito:
@@ -121,58 +136,39 @@ Classificação: [fácil / médio / difícil]
 
 EXEMPLOS:
 
-**Q-1** · pág. 34
-> Texto: "A Revolução de 1930 foi um movimento político-militar
-> que pôs fim à Primeira República no Brasil. Liderada por
-> Getúlio Vargas, chegou ao poder após uma série de crises
-> que envolviam as oligarquias regionais."
-> (Adaptado. Livro didático, 9º ano.)
-Enunciado: Releia o trecho acima e responda:
-a) Que recurso coesivo conecta as duas últimas orações?
-b) Qual é a função sintática do termo "Liderada por Getúlio
-   Vargas" na segunda frase?
-Alternativas: (dissertativa)
+**Q-1** · pág. 22
+Enunciado: Redija uma crônica de 15 a 20 linhas sobre um episódio cotidiano que te marcou. Use linguagem coloquial e inclua reflexão pessoal ao final.
 Gabarito:
-Tipo: identificação
-Classificação: médio
+Tipo: produção textual
+Classificação: difícil
 
-**QC-1** · ENEM · 2021 · pág. 41
-> Texto: "Toda palavra tem uma história. Quando dizemos 'janela',
-> evocamos o latim 'ianua', porta. Quando dizemos 'livro',
-> voltamos ao latim 'liber', a parte interna da casca de árvore
-> onde se escrevia. A língua é uma arqueologia viva."
-> (BAGNO, Marcos. Preconceito linguístico. São Paulo: Loyola, 2015.)
-Enunciado: O texto de Marcos Bagno defende que:
+**QC-1** · ENEM · 2022 · pág. 23
+> Texto: A língua portuguesa, com seus falares e sotaques, é um retrato vivo da diversidade do povo brasileiro. [trecho]
+Enunciado: O texto apresenta uma visão sobre a língua portuguesa no Brasil. Assinale a alternativa que melhor sintetiza a perspectiva do autor.
 Alternativas:
-  a) as palavras modernas perderam seu sentido original.
-  b) o latim é a única origem válida do português.
-  c) a língua preserva registros históricos em seu próprio léxico.
-  d) a escrita surgiu a partir de materiais vegetais.
-  e) os falantes desconhecem a etimologia das palavras que usam.
+a) A língua portuguesa no Brasil é uniforme e não admite variações regionais.
+b) A diversidade linguística brasileira é um reflexo da pluralidade cultural do país.
+c) O sotaque nordestino é considerado pelo autor como o mais puro do Brasil.
+d) A língua escrita é superior à falada por ser mais padronizada.
+e) O autor defende a eliminação de regionalismos em favor da norma culta.
 Gabarito:
 Tipo: múltipla escolha
 Classificação: médio
 
-**QC-2** · FUVEST · 2020 · pág. 48
-> Texto: "Não serei o poema de uma única vez — sou
-> muitos. Plural como o universo, contraditório
-> como o tempo que me fez."
-> (Trecho fictício para fins didáticos.)
-Enunciado: Reescreva o trecho acima, substituindo o eu lírico
-pela terceira pessoa do plural, fazendo todos os ajustes
-necessários de concordância verbal e nominal.
-Alternativas: (dissertativa)
-Gabarito:
-Tipo: reescrita
-Classificação: difícil
-
 ---
 
-Na ÚLTIMA execução do capítulo, acrescente ao final:
+PADRÃO DAS QUESTÕES
+[Preencher APENAS na última execução do capítulo]
 
-## PADRÃO DAS QUESTÕES
-- Estilo predominante: [múltipla escolha / dissertativa / análise de texto / misto]
-- Foco: [interpretação / gramática / reescrita / análise de texto / identificação]
-- Nível de dificuldade médio: [fácil / médio / difícil]
-- Tópicos mais cobrados: [lista]
-- Total: [N] questões do capítulo + [N] questões de concurso
+Total de questões: Q-[N] | QC-[N]
+Distribuição por tipo:
+  interpretação: [N]
+  identificação: [N]
+  classificação: [N]
+  reescrita: [N]
+  produção textual: [N]
+  múltipla escolha: [N]
+  dissertativa: [N]
+  outros: [N]
+Distribuição por dificuldade:
+  fácil: [N] | médio: [N] | difícil: [N]
