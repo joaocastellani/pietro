@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mind Map — Inglês · Unidade 1 · Capítulo 2</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', sans-serif; background: #F4F2EE; min-height: 100vh; }
+
+  .header {
+    background: #004080;
+    color: white;
+    padding: 32px 40px 28px;
+    text-align: center;
+  }
+  .header .subtitle { font-size: 14px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; opacity: 0.8; margin-bottom: 8px; }
+  .header h1 { font-size: 32px; font-weight: 800; margin-bottom: 6px; }
+  .header .tagline { font-size: 13px; opacity: 0.7; margin-bottom: 16px; }
+  .legend { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 12px; }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; }
+  .legend-dot { width: 12px; height: 12px; border-radius: 50%; }
+  .dot-mastered { background: #2e7d32; }
+  .dot-review { background: #c62828; }
+  .dot-nottested { background: #D4880A; }
+
+  .central-pill-wrap { display: flex; justify-content: center; padding: 36px 40px 8px; }
+  .central-pill {
+    background: #004080;
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+    padding: 16px 48px;
+    border-radius: 50px;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 20px rgba(0,64,128,0.25);
+    text-align: center;
+  }
+  .central-pill span { display: block; font-size: 13px; font-weight: 400; opacity: 0.75; margin-top: 4px; }
+
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 24px 40px 40px; }
+
+  .card {
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,0.11); }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 18px 12px;
+    border-left: 4px solid #004080;
+  }
+  .card-num {
+    background: #004080;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .card-title { font-size: 14px; font-weight: 700; color: #1a1a2e; line-height: 1.3; }
+
+  .card-body { padding: 4px 18px 14px; }
+  .card-body ul { list-style: none; padding: 0; }
+  .card-body ul li {
+    font-size: 13px;
+    color: #333;
+    padding: 5px 0;
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 1.45;
+  }
+  .card-body ul li:last-child { border-bottom: none; }
+  .card-body ul li strong { color: #004080; }
+
+  .grammar-box {
+    background: #EEF4FF;
+    border-radius: 8px;
+    padding: 10px 12px;
+    margin: 8px 0;
+    font-size: 12.5px;
+    color: #1a1a2e;
+    line-height: 1.5;
+  }
+  .grammar-box .structure { font-weight: 700; color: #004080; font-size: 12px; display: block; margin-bottom: 3px; }
+  .grammar-box .example { font-style: italic; color: #333; display: block; margin-top: 2px; font-size: 12px; }
+  .grammar-box .translation { font-size: 11px; color: #666; display: block; }
+
+  .trap-box {
+    background: #FFF3E0;
+    border-left: 3px solid #D4880A;
+    border-radius: 6px;
+    padding: 8px 10px;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #5D3A00;
+    line-height: 1.4;
+  }
+  .trap-box strong { color: #D4880A; }
+
+  .card-footer { padding: 10px 18px 14px; display: flex; justify-content: flex-end; }
+  .badge {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 20px;
+    color: white;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    user-select: none;
+  }
+  .badge-nottested { background: #D4880A; }
+  .badge-mastered { background: #2e7d32; }
+  .badge-review { background: #c62828; }
+
+  .tips-section { padding: 0 40px 48px; }
+  .tips-title {
+    font-size: 18px;
+    font-weight: 800;
+    color: #004080;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .tips-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .tip-card {
+    background: #FFF8EC;
+    border: 2px solid #F0D080;
+    border-radius: 12px;
+    padding: 16px 18px;
+  }
+  .tip-badge {
+    display: inline-block;
+    background: #D4880A;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 10px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .tip-title { font-size: 13px; font-weight: 700; color: #1a1a2e; margin-bottom: 6px; }
+  .tip-body { font-size: 12.5px; color: #444; line-height: 1.5; }
+  .tip-body em { color: #004080; font-style: italic; }
+
+  @media (max-width: 900px) {
+    .grid, .tips-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 600px) {
+    .grid, .tips-grid { grid-template-columns: 1fr; }
+    .header h1 { font-size: 22px; }
+    .central-pill { font-size: 17px; padding: 14px 28px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="subtitle">Inglês · Unidade 1 · Capítulo 2 · 9º ano</div>
+  <h1>Urban Accessibility</h1>
+  <div class="tagline">Mind Map — generated at preparation</div>
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot dot-mastered"></div> Mastered</div>
+    <div class="legend-item"><div class="legend-dot dot-review"></div> Review</div>
+    <div class="legend-item"><div class="legend-dot dot-nottested"></div> Not tested</div>
+  </div>
+</div>
+
+<!-- CENTRAL PILL -->
+<div class="central-pill-wrap">
+  <div class="central-pill">
+    Urban Accessibility
+    <span>Linking Words · Listicle · Urban Mobility Vocabulary</span>
+  </div>
+</div>
+
+<!-- GRID -->
+<div class="grid">
+
+  <!-- CARD 1 — Contrast -->
+  <div class="card" onclick="cyclebadge(this)">
+    <div class="card-header">
+      <div class="card-num">1</div>
+      <div class="card-title">Linking Words — Contrast</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>Words:</strong> however · but · though · even though · even so · nonetheless</li>
+        <li><strong>Use:</strong> to show opposing ideas (mostrar ideias opostas)</li>
+      </ul>
+      <div class="grammar-box">
+        <span class="structure">however → after ; or . (formal)</span>
+        <span class="example">"Conditions vary; however, everyone can have sensory needs."</span>
+        <span class="structure" style="margin-top:6px">even though → subordinate clause</span>
+        <span class="example">"Even though braille evolved, the 1829 system is still used."</span>
+      </div>
+      <div class="trap-box">
+        <strong>⚠️ Trap:</strong> <em>However</em> needs ; or . before it — never just a comma.<br>
+        ❌ "It rained, however the event continued."<br>
+        ✅ "It rained; however, the event continued."
+      </div>
+    </div>
+    <div class="card-footer"><span class="badge badge-nottested">Not tested</span></div>
+  </div>
+
+  <!-- CARD 2 — Consequence -->
+  <div class="card" onclick="cyclebadge(this)">
+    <div class="card-header">
+      <div class="card-num">2</div>
+      <div class="card-title">Linking Words — Consequence</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>Words:</strong> so · as a result · consequently · therefore</li>
+        <li><strong>Use:</strong> to show a result or effect (mostrar resultado ou efeito)</li>
+        <li><strong>so</strong> → informal, mid-sentence</li>
+        <li><strong>therefore</strong> → formal, new sentence</li>
+      </ul>
+      <div class="grammar-box">
+        <span class="example">"Bike lanes were added. As a result, fewer people use cars."</span>
+        <span class="translation">→ Como resultado, menos pessoas usam carros.</span>
+        <span class="example" style="margin-top:5px">"It rained, so we stayed home."</span>
+        <span class="translation">→ Choveu, então ficamos em casa.</span>
+      </div>
+      <div class="trap-box">
+        <strong>⚠️ Trap:</strong> <em>So</em> never starts a sentence alone. <em>Therefore</em> and <em>as a result</em> do.
+      </div>
+    </div>
+    <div class="card-footer"><span class="badge badge-nottested">Not tested</span></div>
+  </div>
+
+  <!-- CARD 3 — Addition -->
+  <div class="card" onclick="cyclebadge(this)">
+    <div class="card-header">
+      <div class="card-num">3</div>
+      <div class="card-title">Linking Words — Addition</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>Words:</strong> and · as well as · in addition · furthermore · also</li>
+        <li><strong>Use:</strong> to add information (adicionar informação)</li>
+      </ul>
+      <div class="grammar-box">
+        <span class="example">"Philadelphia trained workers and created sensory stations."</span>
+        <span class="translation">→ E também / Além disso</span>
+        <span class="example" style="margin-top:5px">"In addition, the city provided sensory bags."</span>
+        <span class="translation">→ Além disso, a cidade forneceu kits sensoriais.</span>
+      </div>
+      <div class="trap-box">
+        <strong>⚠️ Trap:</strong> <em>As well as</em> ≠ <em>and</em> always. Verb agrees with the main subject, not the second element: "The mayor, as well as the council, <u>was</u> present."
+      </div>
+    </div>
+    <div class="card-footer"><span class="badge badge-nottested">Not tested</span></div>
+  </div>
+
+  <!-- CARD 4 — Cause/Reason -->
+  <div class="card" onclick="cyclebadge(this)">
+    <div class="card-header">
+      <div class="card-num">4</div>
+      <div class="card-title">Linking Words — Cause / Reason</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>Words:</strong> because · since · as · due to</li>
+        <li><strong>Use:</strong> to explain why something happens (explicar a razão)</li>
+        <li><strong>due to</strong> → always + noun/gerund, NOT + clause</li>
+      </ul>
+      <div class="grammar-box">
+        <span class="example">"The trains were delayed due to bad weather."</span>
+        <span class="translation">→ devido a (+ substantivo)</span>
+        <span class="example" style="margin-top:5px">"Since the road was closed, we took a detour."</span>
+        <span class="translation">→ Como / Visto que (causa óbvia)</span>
+      </div>
+      <div class="trap-box">
+        <strong>⚠️ Trap:</strong> ❌ "delayed due to it rained" → <em>due to</em> + noun only.<br>✅ "delayed due to <u>rain</u>" / ✅ "delayed because it rained"
+      </div>
+    </div>
+    <div class="card-footer"><span class="badge badge-nottested">Not tested</span></div>
+  </div>
+
+  <!-- CARD 5 — Condition -->
+  <div class="card" onclick="cyclebadge(this)">
+    <div class="card-header">
+      <div class="card-num">5</div>
+      <div class="card-title">Linking Words — Condition</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>Words:</strong> if · unless · even if · in case</li>
+        <li><strong>Use:</strong> to express a condition (expressar condição)</li>
+        <li><strong>unless</strong> = if + not (nunca use "unless + not")</li>
+      </ul>
+      <div class="grammar-box">
+        <span class="example">"Buildings will remain inaccessible unless ramps are installed."</span>
+        <span class="translation">→ a menos que (= if ramps are NOT installed)</span>
+        <span class="example" style="margin-top:5px">"Even if it rains, the event will continue."</span>
+        <span class="translation">→ mesmo se / mesmo que</span>
+      </div>
+      <div class="trap-box">
+        <strong>⚠️ Trap:</strong> ❌ "Unless you don't install ramps…" — <em>unless</em> already means "if not". Never double the negative!
+      </div>
+    </div>
+    <div class="card-footer"><span class="badge badge-nottested">Not tested</span></div>
+  </div>
+
+  <!-- CARD 6 — Listicle -->
+  <div class="card" onclick="cyclebadge(this)">
+    <div class="card-header">
+      <div class="card-num">6</div>
+      <div class="card-title">Genre: Listicle</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>Definition:</strong> list + article — presents info as a numbered or bulleted list</li>
+        <li><strong>Language:</strong> concise, direct, objective</li>
+        <li><strong>Key feature:</strong> all items must relate to the SAME topic</li>
+      </ul>
+      <div class="grammar-box">
+        <span class="structure">Typical structure:</span>
+        <span class="example">1. Introduction (context)</span>
+        <span class="example">2. Numbered / bulleted list (key points)</span>
+        <span class="example">3. Conclusion (synthesis)</span>
+        <span class="translation">→ Model text: Smart City Technologies (pág. 36)</span>
+      </div>
+      <div class="trap-box">
+        <strong>⚠️ Writing tip:</strong> Use linking words to connect introduction and conclusion to the list items. Items must NOT cover different topics.
+      </div>
+    </div>
+    <div class="card-footer"><span class="badge badge-nottested">Not tested</span></div>
+  </div>
+
+  <!-- CARD 7 — Accessibility Vocabulary -->
+  <div class="card" onclick="cyclebadge(this)">
+    <div class="card-header">
+      <div class="card-num">7</div>
+      <div class="card-title">Vocabulary — Accessibility</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>disability</strong> → deficiência</li>
+        <li><strong>disability rate</strong> → taxa de deficiência</li>
+        <li><strong>equitable</strong> → igualitário / justo</li>
+        <li><strong>follow suit</strong> → seguir o exemplo</li>
+        <li><strong>set the standard</strong> → estabelecer um padrão</li>
+        <li><strong>yield</strong> → dar preferência</li>
+        <li><strong>cane</strong> → bengala</li>
+        <li><strong>approach</strong> → aproximar-se de</li>
+      </ul>
+      <div class="grammar-box">
+        <span class="example">"Philadelphia hopes to inspire other cities to <strong>follow suit</strong>."</span>
+        <span class="translation">→ seguir o exemplo → origin: card suits in playing cards</span>
+      </div>
+    </div>
+    <div class="card-footer"><span class="badge badge-nottested">Not tested</span></div>
+  </div>
+
+  <!-- CARD 8 — Urban Mobility Vocabulary -->
+  <div class="card" onclick="cyclebadge(this)">
+    <div class="card-header">
+      <div class="card-num">8</div>
+      <div class="card-title">Vocabulary — Urban Mobility</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>mobility</strong> → mobilidade (ability to move)</li>
+        <li><strong>right-of-way</strong> → direito de passagem</li>
+        <li><strong>bus lane</strong> → faixa exclusiva de ônibus</li>
+        <li><strong>busway</strong> → corredor exclusivo de ônibus</li>
+        <li><strong>sidewalk</strong> → calçada (U.S.)</li>
+        <li><strong>pedestrian crossing</strong> → faixa de pedestres</li>
+        <li><strong>traffic signals</strong> → semáforos / sinais de trânsito</li>
+        <li><strong>path</strong> → caminho, via</li>
+      </ul>
+      <div class="grammar-box">
+        <span class="example">"Drivers must <strong>yield</strong> the <strong>right-of-way</strong> to pedestrians."</span>
+        <span class="translation">→ dar preferência / direito de passagem</span>
+      </div>
+    </div>
+    <div class="card-footer"><span class="badge badge-nottested">Not tested</span></div>
+  </div>
+
+  <!-- CARD 9 — Summary Answers -->
+  <div class="card" onclick="cyclebadge(this)">
+    <div class="card-header">
+      <div class="card-num">9</div>
+      <div class="card-title">Summary — Book Mind Map Answers</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>Inclusive infrastructure:</strong> Tactile sidewalk · Elevator · Pedestrian <em>crossing</em> · Pedestrian <em>bridge</em></li>
+        <li><strong>More infrastructure:</strong> <em>Wheelchair</em> ramp · <em>Audible traffic</em> signals · Busway · <em>Braille</em> system</li>
+        <li><strong>Condition:</strong> if + <em>unless / even if / in case</em></li>
+        <li><strong>Contrast:</strong> <em>however / but / even though</em> + though</li>
+        <li><strong>Consequence:</strong> <em>as a result / consequently</em> + so + <em>therefore</em></li>
+        <li><strong>Addition:</strong> <em>and / as well as / furthermore</em> + in addition</li>
+        <li><strong>Cause/Reason:</strong> because + <em>since / as / due to</em></li>
+      </ul>
+    </div>
+    <div class="card-footer"><span class="badge badge-nottested">Not tested</span></div>
+  </div>
+
+</div>
+
+<!-- GOLDEN TIPS -->
+<div class="tips-section">
+  <div class="tips-title">💡 Golden Tips</div>
+  <div class="tips-grid">
+
+    <div class="tip-card">
+      <div class="tip-badge">Tip 1</div>
+      <div class="tip-title">However needs ; or .</div>
+      <div class="tip-body">
+        <em>However</em> conecta orações independentes. Exige ponto e vírgula ou ponto antes — nunca só uma vírgula.<br><br>
+        ❌ "It rained, however the show continued."<br>
+        ✅ "It rained; <em>however</em>, the show continued."
+      </div>
+    </div>
+
+    <div class="tip-card">
+      <div class="tip-badge">Tip 2</div>
+      <div class="tip-title">Due to + noun only</div>
+      <div class="tip-body">
+        <em>Due to</em> é sempre seguido de <strong>substantivo</strong> — nunca de oração com sujeito + verbo.<br><br>
+        ❌ "Canceled due to it rained."<br>
+        ✅ "Canceled <em>due to</em> <u>rain</u>."<br>
+        ✅ "Canceled <em>because</em> it rained."
+      </div>
+    </div>
+
+    <div class="tip-card">
+      <div class="tip-badge">Tip 3</div>
+      <div class="tip-title">Unless = if not (never "unless + not")</div>
+      <div class="tip-body">
+        <em>Unless</em> já carrega a negação — nunca duplique.<br><br>
+        ❌ "Unless you <u>don't</u> install ramps…"<br>
+        ✅ "<em>Unless</em> you install ramps…"<br>
+        = "If you do <u>not</u> install ramps…"
+      </div>
+    </div>
+
+    <div class="tip-card">
+      <div class="tip-badge">Tip 4</div>
+      <div class="tip-title">Listicle: same topic for all items</div>
+      <div class="tip-body">
+        Em provas, a alternativa FALSA sobre listicle é sempre que "os itens são sobre tópicos diferentes".<br><br>
+        Um listicle exige que <strong>todos os itens compartilhem o mesmo tema</strong> — essa é sua característica central.
+      </div>
+    </div>
+
+    <div class="tip-card">
+      <div class="tip-badge">Tip 5</div>
+      <div class="tip-title">Equitable ≠ Equal</div>
+      <div class="tip-body">
+        <em>Equal</em> = igual para todos (mesma quantidade).<br>
+        <em>Equitable</em> = justo / proporcional às necessidades.<br><br>
+        No contexto de acessibilidade: dar <em>mais</em> recursos a quem tem <em>mais</em> necessidades é equitable, não apenas equal.
+      </div>
+    </div>
+
+    <div class="tip-card">
+      <div class="tip-badge">Tip 6</div>
+      <div class="tip-title">So vs. Therefore vs. As a result</div>
+      <div class="tip-body">
+        Todos expressam consequência — mas diferem em registro e posição:<br><br>
+        <em>So</em> → informal, meio da frase<br>
+        <em>As a result</em> → neutro, início de frase<br>
+        <em>Therefore</em> → formal, início de frase<br><br>
+        <em>So</em> nunca inicia uma frase sozinho.
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  function cyclebadge(card) {
+    const badge = card.querySelector('.badge');
+    if (badge.classList.contains('badge-nottested')) {
+      badge.classList.remove('badge-nottested');
+      badge.classList.add('badge-mastered');
+      badge.textContent = 'Mastered';
+    } else if (badge.classList.contains('badge-mastered')) {
+      badge.classList.remove('badge-mastered');
+      badge.classList.add('badge-review');
+      badge.textContent = 'Review';
+    } else {
+      badge.classList.remove('badge-review');
+      badge.classList.add('badge-nottested');
+      badge.textContent = 'Not tested';
+    }
+  }
+</script>
+
+</body>
+</html>
