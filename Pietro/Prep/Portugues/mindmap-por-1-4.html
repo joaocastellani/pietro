@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mapa Mental — Português · Unidade 1 · Capítulo 4</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #F4F2EE;
+    color: #1a1a1a;
+    min-height: 100vh;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    background: #800020;
+    color: #fff;
+    padding: 32px 40px 28px;
+    text-align: center;
+  }
+  .header .sub {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    opacity: .85;
+    margin-bottom: 10px;
+  }
+  .header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: 1.2;
+  }
+  .header .label {
+    font-size: 13px;
+    opacity: .8;
+    margin-bottom: 20px;
+  }
+  .legend {
+    display: inline-flex;
+    gap: 20px;
+    background: rgba(255,255,255,.12);
+    border-radius: 30px;
+    padding: 8px 22px;
+    font-size: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .legend span { display: flex; align-items: center; gap: 6px; }
+  .dot {
+    width: 11px; height: 11px; border-radius: 50%; flex-shrink: 0;
+  }
+  .dot-g { background: #2e7d32; }
+  .dot-r { background: #c62828; }
+  .dot-p { background: #800020; }
+
+  /* ── PÍLULA CENTRAL ── */
+  .pill-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 32px 20px 8px;
+  }
+  .pill {
+    background: #800020;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 36px;
+    border-radius: 50px;
+    letter-spacing: .03em;
+    text-align: center;
+  }
+
+  /* ── GRID ── */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 24px 32px 8px;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 900px) {
+    .grid { grid-template-columns: repeat(2,1fr); }
+  }
+  @media (max-width: 560px) {
+    .grid { grid-template-columns: 1fr; padding: 16px; }
+    .header h1 { font-size: 22px; }
+  }
+
+  /* ── CARD ── */
+  .card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.07);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: box-shadow .2s;
+  }
+  .card:hover { box-shadow: 0 6px 20px rgba(0,0,0,.13); }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 18px 12px;
+    border-left: 4px solid #800020;
+  }
+  .card-num {
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    background: #800020;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .card-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #800020;
+    line-height: 1.3;
+  }
+
+  .card-body {
+    padding: 0 18px 14px;
+    flex: 1;
+  }
+  .card-body ul {
+    list-style: none;
+    padding: 0;
+  }
+  .card-body ul li {
+    font-size: 13px;
+    color: #333;
+    padding: 5px 0;
+    border-bottom: 1px solid #f0eeeb;
+    line-height: 1.45;
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+  }
+  .card-body ul li:last-child { border-bottom: none; }
+  .card-body ul li::before {
+    content: "•";
+    color: #800020;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .rule-box {
+    background: #fff8f8;
+    border-left: 3px solid #800020;
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin: 8px 0 6px;
+    font-size: 12px;
+    color: #5a0015;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  .example {
+    font-size: 12px;
+    color: #555;
+    font-style: italic;
+    margin-top: 2px;
+  }
+
+  .card-footer {
+    padding: 10px 18px 14px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  /* ── BADGES ── */
+  .badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 20px;
+    letter-spacing: .03em;
+    transition: background .25s, color .25s;
+    user-select: none;
+  }
+  .badge-nao   { background: #800020; color: #fff; }
+  .badge-dom   { background: #2e7d32; color: #fff; }
+  .badge-ref   { background: #c62828; color: #fff; }
+
+  /* ── DICAS DE OURO ── */
+  .dicas-section {
+    max-width: 1280px;
+    margin: 24px auto 0;
+    padding: 0 32px 40px;
+  }
+  .dicas-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #800020;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .dicas-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 16px;
+  }
+  @media (max-width: 900px) { .dicas-grid { grid-template-columns: repeat(2,1fr); } }
+  @media (max-width: 560px) { .dicas-grid { grid-template-columns: 1fr; } .dicas-section { padding: 0 16px 32px; } }
+
+  .dica-card {
+    background: #FFF0F0;
+    border: 1.5px solid #800020;
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .dica-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .dica-num {
+    width: 26px; height: 26px;
+    border-radius: 50%;
+    background: #800020;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .dica-titulo {
+    font-size: 13px;
+    font-weight: 700;
+    color: #800020;
+  }
+  .dica-texto {
+    font-size: 12.5px;
+    color: #4a0010;
+    line-height: 1.5;
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="sub">Português · Unidade 1 · Capítulo 4 · 9º ano</div>
+  <h1>Um Pedacinho Nosso na Ásia</h1>
+  <div class="label">Mapa Mental — gerado na preparação</div>
+  <div class="legend">
+    <span><span class="dot dot-g"></span> Dominado</span>
+    <span><span class="dot dot-r"></span> Reforçar</span>
+    <span><span class="dot dot-p"></span> Não testado</span>
+  </div>
+</div>
+
+<!-- PÍLULA CENTRAL -->
+<div class="pill-wrap">
+  <div class="pill">Lusofonia · Estrutura Verbal · Editorial · Coerência Sintática</div>
+</div>
+
+<!-- GRID DE CARDS -->
+<div class="grid">
+
+  <!-- CARD 1 — Texto-base: A Ilha do Crocodilo -->
+  <div class="card" onclick="toggleBadge(this)">
+    <div class="card-header">
+      <div class="card-num">1</div>
+      <div class="card-title">Texto-base: A Ilha do Crocodilo</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>Autor:</strong> Geraldo Costa</li>
+        <li><strong>Gênero:</strong> Conto de tradição oral (narrativa etiológica)</li>
+        <li><strong>Tema central:</strong> Lenda de origem da ilha de Timor-Leste — o Avô Crocodilo se transforma em pedra e terra</li>
+        <li><strong>Timor Lorosae:</strong> "o oriente para onde nasce o sol"</li>
+        <li><strong>Valores:</strong> gratidão, generosidade, reciprocidade</li>
+        <li><strong>Recurso:</strong> Personificação — crocodilo fala e raciocina moralmente</li>
+        <li><strong>Vocabulário:</strong> <em>abocanhando</em> = agarrar com a boca; devorar</li>
+      </ul>
+    </div>
+    <div class="card-footer">
+      <span class="badge badge-nao">Não testado</span>
+    </div>
+  </div>
+
+  <!-- CARD 2 — Timor-Leste: contexto histórico e linguístico -->
+  <div class="card" onclick="toggleBadge(this)">
+    <div class="card-header">
+      <div class="card-num">2</div>
+      <div class="card-title">Timor-Leste: Contexto Histórico e Linguístico</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Localização: costa oriental da ilha de Timor, Ásia</li>
+        <li>Independência de Portugal: <strong>1975</strong>; invadido pela Indonésia 3 dias depois</li>
+        <li>Independência definitiva: <strong>2002</strong> — 1º país do séc. XXI</li>
+        <li>Português: língua oficial, mas falado por apenas <strong>5%</strong> da população</li>
+        <li>Língua predominante: <strong>tétum</strong> (influência do português e malaio)</li>
+        <li>Também falada: <strong>bahasa</strong> (indonésio) + ~15 outros idiomas</li>
+        <li>Tebedai: dança tradicional dividida em <em>bisu</em> (mulheres) e <em>tore</em> (homens)</li>
+      </ul>
+    </div>
+    <div class="card-footer">
+      <span class="badge badge-nao">Não testado</span>
+    </div>
+  </div>
+
+  <!-- CARD 3 — Morfema -->
+  <div class="card" onclick="toggleBadge(this)">
+    <div class="card-header">
+      <div class="card-num">3</div>
+      <div class="card-title">Morfema</div>
+    </div>
+    <div class="card-body">
+      <div class="rule-box">Cada elemento significativo de uma palavra = morfema</div>
+      <ul>
+        <li>Morfemas de <strong>nomes</strong>: incluem flexão de gênero</li>
+        <li>Morfemas de <strong>verbos</strong>: NÃO incluem flexão de gênero</li>
+        <li>Ao analisar: identificar primeiro se é nome ou verbo</li>
+        <li>Prefixo é opcional: Visitar → <strong>re</strong>+visitar</li>
+      </ul>
+      <div class="example">⚠ Morfema ≠ sílaba — é unidade de sentido, não de som</div>
+    </div>
+    <div class="card-footer">
+      <span class="badge badge-nao">Não testado</span>
+    </div>
+  </div>
+
+  <!-- CARD 4 — Estrutura dos Verbos -->
+  <div class="card" onclick="toggleBadge(this)">
+    <div class="card-header">
+      <div class="card-num">4</div>
+      <div class="card-title">Estrutura dos Verbos: 4 Morfemas</div>
+    </div>
+    <div class="card-body">
+      <div class="rule-box">Radical + Vogal Temática + DMT + DNP (ordem NUNCA alterada)</div>
+      <ul>
+        <li><strong>Radical:</strong> significado básico — retirar terminação do infinitivo. Ex.: começ-ar → <em>começ</em></li>
+        <li><strong>Vogal Temática:</strong> -A- (1ª conj.) · -E- (2ª conj.) · -I- (3ª conj.)</li>
+        <li><strong>DMT:</strong> indica modo + tempo simultaneamente</li>
+        <li><strong>DNP:</strong> indica pessoa + número simultaneamente</li>
+        <li>Análise: Começ + a + Ø + mos = <em>Começamos</em></li>
+        <li>Viaj + a + ra + m = <em>Viajaram</em></li>
+      </ul>
+    </div>
+    <div class="card-footer">
+      <span class="badge badge-nao">Não testado</span>
+    </div>
+  </div>
+
+  <!-- CARD 5 — Desinências Modatemporais -->
+  <div class="card" onclick="toggleBadge(this)">
+    <div class="card-header">
+      <div class="card-num">5</div>
+      <div class="card-title">Desinências Modatemporais (DMT)</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Presente do indicativo: <strong>Ø</strong> (mantém VT)</li>
+        <li>Pret. imperfeito indicativo: <strong>-VA/-VE</strong> (1ª) · <strong>-IA/-IE</strong> (2ª/3ª)</li>
+        <li>Pret. mais-que-perfeito: <strong>-RA/-RE</strong></li>
+        <li>Futuro do presente: <strong>-RE/-RA</strong></li>
+        <li>Futuro do pretérito: <strong>-RIA/-RIE</strong></li>
+        <li>Presente do subjuntivo: <strong>Ø</strong> (troca a VT)</li>
+        <li>Pret. imperfeito subjuntivo: <strong>-SSE</strong></li>
+        <li>Futuro do subjuntivo: <strong>-R/-RE</strong></li>
+      </ul>
+      <div class="example">⚠ Pres. indicativo e pres. subjuntivo: ambos DMT Ø — distinção pelo contexto + DNP</div>
+    </div>
+    <div class="card-footer">
+      <span class="badge badge-nao">Não testado</span>
+    </div>
+  </div>
+
+  <!-- CARD 6 — Desinências Numeropessoais -->
+  <div class="card" onclick="toggleBadge(this)">
+    <div class="card-header">
+      <div class="card-num">6</div>
+      <div class="card-title">Desinências Numeropessoais (DNP)</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Eu: <strong>-o · -i · Ø</strong></li>
+        <li>Tu: <strong>-s · -ste</strong></li>
+        <li>Ele/Ela/Você: <strong>-u · Ø</strong></li>
+        <li>Nós: <strong>-mos</strong></li>
+        <li>Vós: <strong>-is · -stes · -des</strong></li>
+        <li>Eles/Elas/Vocês: <strong>-m · -ram</strong></li>
+      </ul>
+      <div class="rule-box">"Eu viajava" = "Ele viajava" — mesma forma no pret. imperfeito 1ª conj. → usar contexto para distinguir</div>
+    </div>
+    <div class="card-footer">
+      <span class="badge badge-nao">Não testado</span>
+    </div>
+  </div>
+
+  <!-- CARD 7 — Verbos Irregulares -->
+  <div class="card" onclick="toggleBadge(this)">
+    <div class="card-header">
+      <div class="card-num">7</div>
+      <div class="card-title">Verbos Irregulares</div>
+    </div>
+    <div class="card-body">
+      <div class="rule-box">Alteram o radical ao longo da conjugação — sem padrão fixo</div>
+      <ul>
+        <li>Fazer → <em>faço</em> / <em>fiz</em> / <em>farei</em> (3 radicais diferentes)</li>
+        <li>Haver → <em>houve</em> / <em>hei</em> / <em>há</em> / <em>haverei</em></li>
+        <li>Poder → <em>posso</em> (pres. ind. irregular)</li>
+        <li>Saber → <em>sei</em> (pres. ind. irregular)</li>
+        <li>Pôr (poer) → 2ª conjugação — VT -E-</li>
+      </ul>
+      <div class="example">⚠ "Pôr" e derivados (compor, repor, dispor) = 2ª conjugação — NÃO "4ª conjugação"</div>
+    </div>
+    <div class="card-footer">
+      <span class="badge badge-nao">Não testado</span>
+    </div>
+  </div>
+
+  <!-- CARD 8 — Editorial / Carta ao Leitor -->
+  <div class="card" onclick="toggleBadge(this)">
+    <div class="card-header">
+      <div class="card-num">8</div>
+      <div class="card-title">Editorial / Carta ao Leitor</div>
+    </div>
+    <div class="card-body">
+      <div class="rule-box">Texto jornalístico de abertura que apresenta o posicionamento ideológico da publicação</div>
+      <ul>
+        <li><strong>Caráter:</strong> subjetivo (≠ impessoalidade jornalística típica)</li>
+        <li><strong>Estrutura:</strong> dissertativa — introdução, desenvolvimento, conclusão</li>
+        <li><strong>Pessoa:</strong> 1ª do singular ou do plural</li>
+        <li><strong>Título e assinatura:</strong> facultativos</li>
+        <li><strong>Registro:</strong> norma-padrão</li>
+        <li><strong>Expressões típicas:</strong> "Boa leitura" · "Esperamos que vocês apreciem"</li>
+        <li>Exemplo: Luiz Costa Pereira Jr. · Rev. Língua Portuguesa · n. 8 · abr. 2006</li>
+      </ul>
+    </div>
+    <div class="card-footer">
+      <span class="badge badge-nao">Não testado</span>
+    </div>
+  </div>
+
+  <!-- CARD 9 — Coerência Sintática e Ambiguidade -->
+  <div class="card" onclick="toggleBadge(this)">
+    <div class="card-header">
+      <div class="card-num">9</div>
+      <div class="card-title">Coerência Sintática e Ambiguidade</div>
+    </div>
+    <div class="card-body">
+      <div class="rule-box">Organização harmoniosa dos elementos da frase para construir o sentido pretendido</div>
+      <ul>
+        <li><strong>"Onde"</strong> = lugar físico apenas</li>
+        <li><strong>"Quando"</strong> = tempo · <strong>"mas"</strong> = adversidade</li>
+        <li><strong>"Cuja/Cujo"</strong> = posse — NUNCA introduz verbo diretamente</li>
+        <li>Ambiguidade: adjunto adnominal com referente duplo — "O médico examinou o paciente preocupado."</li>
+        <li>Frases sem estrutura padrão podem ter sentido pelo contexto: "Calor, você… que dia!"</li>
+      </ul>
+      <div class="example">⚠ "Onde" com referente de tempo = erro clássico de prova</div>
+    </div>
+    <div class="card-footer">
+      <span class="badge badge-nao">Não testado</span>
+    </div>
+  </div>
+
+  <!-- CARD 10 — Lusofonia e Identidade Linguística -->
+  <div class="card" onclick="toggleBadge(this)">
+    <div class="card-header">
+      <div class="card-num">10</div>
+      <div class="card-title">Lusofonia e Identidade Linguística</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>CPLP:</strong> Comunidade dos Países de Língua Portuguesa</li>
+        <li>Timor-Leste: reintegração ao "mundo lusófono" após 24 anos de extermínio cultural</li>
+        <li>Língua portuguesa = elemento de identidade histórica e cultural</li>
+        <li><strong>Macau:</strong> domínio português 1557–1999 · 5% falam português · Zona Administrativa Especial</li>
+        <li>Influência portuguesa em Macau: placas, arquitetura, igrejas, gastronomia (pastel de Belém)</li>
+        <li>Reflexão: Brasil e Timor-Leste compartilham resiliência e alegria popular</li>
+      </ul>
+    </div>
+    <div class="card-footer">
+      <span class="badge badge-nao">Não testado</span>
+    </div>
+  </div>
+
+  <!-- CARD 11 — Prefixos: in- / i- / re- -->
+  <div class="card" onclick="toggleBadge(this)">
+    <div class="card-header">
+      <div class="card-num">11</div>
+      <div class="card-title">Prefixos: in- / i- / re-</div>
+    </div>
+    <div class="card-body">
+      <div class="rule-box">Prefixo "in-" / "i-" = negação ou privação</div>
+      <ul>
+        <li><em>incomum</em> = algo que NÃO é comum</li>
+        <li>Diante de "r" ou "l": <strong>i-</strong> → irromper, irradiar</li>
+        <li>Verbos com "in-" de negação: inutilizar, incomodar</li>
+        <li>Atenção: "imaginar" e "imigrar" — o "im-" NÃO indica negação</li>
+        <li><strong>Prefixo "re-"</strong> = repetição/retorno: rever, reler, relembrar, reconhecer</li>
+        <li>Transformar nomes em verbos: prefixo + radical + sufixo verbal (-ar, -ecer, -izar)</li>
+      </ul>
+    </div>
+    <div class="card-footer">
+      <span class="badge badge-nao">Não testado</span>
+    </div>
+  </div>
+
+  <!-- CARD 12 — Gênero Textual: Conto de Tradição Oral -->
+  <div class="card" onclick="toggleBadge(this)">
+    <div class="card-header">
+      <div class="card-num">12</div>
+      <div class="card-title">Gênero: Conto de Tradição Oral</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>Função social:</strong> preservar e transmitir memória cultural de um povo</li>
+        <li><strong>Narrativa etiológica:</strong> explica a origem de fenômenos naturais ou geográficos por elementos sobrenaturais</li>
+        <li><strong>Características:</strong> linguagem acessível, personagens simbólicos, moral implícita</li>
+        <li><strong>Personificação:</strong> animais com qualidades humanas</li>
+        <li>Geraldo Costa registrou contos de Timor-Leste para preservar a cultura local</li>
+        <li>Diferença do editorial: conto = narração ficcional · editorial = dissertação opinativa</li>
+      </ul>
+    </div>
+    <div class="card-footer">
+      <span class="badge badge-nao">Não testado</span>
+    </div>
+  </div>
+
+</div><!-- /grid -->
+
+<!-- DICAS DE OURO -->
+<div class="dicas-section">
+  <div class="dicas-title">💡 Dicas de Ouro</div>
+  <div class="dicas-grid">
+
+    <div class="dica-card">
+      <div class="dica-header">
+        <div class="dica-num">1</div>
+        <div class="dica-titulo">"Onde" só vale para lugar</div>
+      </div>
+      <div class="dica-texto">"Onde" exige referente de lugar físico. Para tempo, use "quando"; para adversidade, use "mas"; para consequência, use "o que". Erro clássico de prova: "Voltei em dezembro, onde tudo estava em festa." → correto: <em>quando</em>.</div>
+    </div>
+
+    <div class="dica-card">
+      <div class="dica-header">
+        <div class="dica-num">2</div>
+        <div class="dica-titulo">Desinência Ø não é ausência de morfema</div>
+      </div>
+      <div class="dica-texto">Quando a DMT ou DNP é Ø (zero), a ausência de marca É ela mesma a desinência. "Viajo" tem DMT Ø (presente ind.) e DNP -o (1ª sg.). Não existe "verbo sem desinência" — pode ter desinência zero.</div>
+    </div>
+
+    <div class="dica-card">
+      <div class="dica-header">
+        <div class="dica-num">3</div>
+        <div class="dica-titulo">"Pôr" é da 2ª conjugação</div>
+      </div>
+      <div class="dica-texto">O verbo "pôr" e derivados (compor, repor, dispor, impor) vêm da forma arcaica "poer" → VT -E- → 2ª conjugação. Nunca classifique como "4ª conjugação" — isso não existe na gramática normativa.</div>
+    </div>
+
+    <div class="dica-card">
+      <div class="dica-header">
+        <div class="dica-num">4</div>
+        <div class="dica-titulo">Editorial ≠ artigo de opinião pessoal</div>
+      </div>
+      <div class="dica-texto">O editorial representa a VOZ DA PUBLICAÇÃO (posicionamento institucional), não de um autor individual. O artigo de opinião tem assinatura individual e maior liberdade estilística. Ambos argumentam, mas têm situações comunicativas distintas.</div>
+    </div>
+
+    <div class="dica-card">
+      <div class="dica-header">
+        <div class="dica-num">5</div>
+        <div class="dica-titulo">"Viajava" = 1ª e 3ª pessoa</div>
+      </div>
+      <div class="dica-texto">No pretérito imperfeito do indicativo, "eu viajava" e "ele viajava" têm a mesma forma. Em análise morfológica sem contexto, indique as duas possibilidades. Em prova, use o pronome ou contexto para definir a pessoa.</div>
+    </div>
+
+    <div class="dica-card">
+      <div class="dica-header">
+        <div class="dica-num">6</div>
+        <div class="dica-titulo">Radical de verbo irregular: analise a forma, não o infinitivo</div>
+      </div>
+      <div class="dica-texto">Em verbos irregulares, o radical varia: fazer → faç- (faço) / fiz- (fiz) / far- (farei). Em prova, identifique o radical DA FORMA ESPECÍFICA pedida — nunca apenas do infinitivo.</div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  const STATES = ['badge-nao', 'badge-dom', 'badge-ref'];
+  const LABELS = ['Não testado', 'Dominado', 'Reforçar'];
+
+  function toggleBadge(card) {
+    const badge = card.querySelector('.badge');
+    let current = STATES.findIndex(s => badge.classList.contains(s));
+    const next = (current + 1) % STATES.length;
+    badge.classList.remove(STATES[current]);
+    badge.classList.add(STATES[next]);
+    badge.textContent = LABELS[next];
+  }
+</script>
+
+</body>
+</html>
