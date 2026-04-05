@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Mapa Mental — Relações Métricas no Triângulo Retângulo</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #F4F2EE;
+    color: #1a3a5c;
+    min-height: 100vh;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    background: #1a3a5c;
+    color: #fff;
+    padding: 32px 40px 28px;
+    text-align: center;
+  }
+  .header .sub {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: .75;
+    margin-bottom: 10px;
+  }
+  .header h1 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  .header .label {
+    font-size: 13px;
+    opacity: .65;
+    margin-bottom: 20px;
+  }
+  .legend {
+    display: inline-flex;
+    gap: 24px;
+    background: rgba(255,255,255,.1);
+    border-radius: 30px;
+    padding: 8px 24px;
+    font-size: 13px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .legend span { display: flex; align-items: center; gap: 7px; }
+  .dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+  .dot-green  { background: #16a34a; }
+  .dot-red    { background: #dc2626; }
+  .dot-blue   { background: #2563eb; }
+
+  /* ── PÍLULA CENTRAL ── */
+  .pill-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 36px 20px 16px;
+  }
+  .pill {
+    background: #1a3a5c;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 50px;
+    padding: 16px 48px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(26,58,92,.25);
+    letter-spacing: .3px;
+  }
+
+  /* ── GRID DE CARDS ── */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 16px 32px 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 900px) {
+    .grid { grid-template-columns: repeat(2,1fr); }
+  }
+  @media (max-width: 580px) {
+    .grid { grid-template-columns: 1fr; }
+    .header h1 { font-size: 22px; }
+  }
+
+  /* ── CARD ── */
+  .card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.07);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .card-top {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 18px 12px;
+    border-bottom: 1px solid #f0eff0;
+  }
+  .num {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #1a3a5c;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .card-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a3a5c;
+    line-height: 1.3;
+  }
+  .card-body {
+    padding: 14px 18px 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .bullet {
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    font-size: 13px;
+    color: #374151;
+    line-height: 1.5;
+  }
+  .bullet::before {
+    content: "•";
+    color: #1a3a5c;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  /* destaque de fórmula */
+  .formula-box {
+    background: #EFF4FB;
+    border-left: 3px solid #1a3a5c;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #1a3a5c;
+    margin: 4px 0;
+    font-family: 'Courier New', monospace;
+    line-height: 1.6;
+  }
+
+  /* badge status */
+  .badge-wrap {
+    padding: 10px 18px 14px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .badge {
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 4px 14px;
+    background: #1a3a5c;
+    color: #fff;
+    letter-spacing: .3px;
+  }
+
+  /* faixa lateral colorida */
+  .card { border-left: 4px solid #1a3a5c; }
+  .card.c1 { border-left-color: #7c3aed; }
+  .card.c2 { border-left-color: #0d9488; }
+  .card.c3 { border-left-color: #d97706; }
+  .card.c4 { border-left-color: #e11d48; }
+  .card.c5 { border-left-color: #16a34a; }
+  .card.c6 { border-left-color: #2563eb; }
+  .card.c7 { border-left-color: #7c3aed; }
+  .card.c8 { border-left-color: #0d9488; }
+  .card.c9 { border-left-color: #d97706; }
+
+  /* ── DICAS DE OURO ── */
+  .dicas-wrap {
+    max-width: 1200px;
+    margin: 0 auto 48px;
+    padding: 0 32px;
+  }
+  .dicas-title {
+    font-size: 18px;
+    font-weight: 800;
+    color: #1a3a5c;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .dicas-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 16px;
+  }
+  @media (max-width: 900px) { .dicas-grid { grid-template-columns: repeat(2,1fr); } }
+  @media (max-width: 580px) { .dicas-grid { grid-template-columns: 1fr; } }
+
+  .dica-card {
+    background: #EFF4FB;
+    border: 1.5px solid #1a3a5c;
+    border-radius: 12px;
+    padding: 16px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .dica-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .dica-num {
+    background: #1a3a5c;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 3px 12px;
+    flex-shrink: 0;
+  }
+  .dica-titulo {
+    font-size: 13px;
+    font-weight: 700;
+    color: #1a3a5c;
+  }
+  .dica-texto {
+    font-size: 13px;
+    color: #374151;
+    line-height: 1.55;
+  }
+  .dica-exemplo {
+    background: #fff;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 12px;
+    color: #1a3a5c;
+    font-family: 'Courier New', monospace;
+    border-left: 3px solid #d97706;
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <p class="sub">Matemática · Unidade 1 · Capítulo 5 · 9º ano</p>
+  <h1>Relações Métricas no Triângulo Retângulo</h1>
+  <p class="label">Mapa Mental — gerado na preparação</p>
+  <div class="legend">
+    <span><span class="dot dot-green"></span>Dominado</span>
+    <span><span class="dot dot-red"></span>Reforçar</span>
+    <span><span class="dot dot-blue"></span>Não testado</span>
+  </div>
+</header>
+
+<!-- PÍLULA CENTRAL -->
+<div class="pill-wrap">
+  <div class="pill">Triângulo Retângulo &amp; Relações Métricas</div>
+</div>
+
+<!-- GRID DE CARDS -->
+<div class="grid">
+
+  <!-- CARD 1 -->
+  <div class="card c1">
+    <div class="card-top">
+      <div class="num">1</div>
+      <div class="card-title">Triângulo Retângulo — Estrutura</div>
+    </div>
+    <div class="card-body">
+      <div class="bullet">Possui exatamente <strong>um ângulo de 90°</strong></div>
+      <div class="bullet"><strong>Catetos (b e c):</strong> lados que formam o ângulo reto</div>
+      <div class="bullet"><strong>Hipotenusa (a):</strong> lado oposto ao ângulo reto — sempre o maior</div>
+      <div class="bullet">Notação do livro: △ABC com ângulo reto em A</div>
+      <div class="formula-box">a = BC · b = AC · c = AB</div>
+    </div>
+    <div class="badge-wrap"><span class="badge">Não testado</span></div>
+  </div>
+
+  <!-- CARD 2 -->
+  <div class="card c2">
+    <div class="card-top">
+      <div class="num">2</div>
+      <div class="card-title">Altitude h — Elementos m, n e H</div>
+    </div>
+    <div class="card-body">
+      <div class="bullet"><strong>H</strong> = pé da altitude relativa à hipotenusa</div>
+      <div class="bullet"><strong>h</strong> = altitude do ângulo reto até H</div>
+      <div class="bullet"><strong>n</strong> = projeção do cateto c sobre a hipotenusa (BH)</div>
+      <div class="bullet"><strong>m</strong> = projeção do cateto b sobre a hipotenusa (HC)</div>
+      <div class="formula-box">a = m + n</div>
+      <div class="bullet">Macete: n vem antes de m → fica do lado de B (antes de C)</div>
+    </div>
+    <div class="badge-wrap"><span class="badge">Não testado</span></div>
+  </div>
+
+  <!-- CARD 3 -->
+  <div class="card c3">
+    <div class="card-top">
+      <div class="num">3</div>
+      <div class="card-title">Semelhança de Triângulos — Origem AA</div>
+    </div>
+    <div class="card-body">
+      <div class="bullet">A altitude cria <strong>3 triângulos semelhantes</strong> pelo caso AA</div>
+      <div class="formula-box">△ABC ~ △HBA ~ △HAC</div>
+      <div class="bullet">Ângulo α aparece em B nos três triângulos</div>
+      <div class="bullet">Ângulo β aparece em C nos três triângulos</div>
+      <div class="bullet">A proporcionalidade dos lados gera as 6 relações métricas</div>
+    </div>
+    <div class="badge-wrap"><span class="badge">Não testado</span></div>
+  </div>
+
+  <!-- CARD 4 -->
+  <div class="card c4">
+    <div class="card-top">
+      <div class="num">4</div>
+      <div class="card-title">Relações Métricas — Grupo △ABC ~ △HBA</div>
+    </div>
+    <div class="card-body">
+      <div class="formula-box">(1) a · h = b · c</div>
+      <div class="bullet">Hipotenusa × altura = produto dos catetos</div>
+      <div class="formula-box">(2) c² = a · n</div>
+      <div class="bullet">Quadrado do cateto c = hipotenusa × projeção de c</div>
+      <div class="formula-box">(3) c · h = b · n</div>
+      <div class="bullet">Relação cruzada entre lados</div>
+    </div>
+    <div class="badge-wrap"><span class="badge">Não testado</span></div>
+  </div>
+
+  <!-- CARD 5 -->
+  <div class="card c5">
+    <div class="card-top">
+      <div class="num">5</div>
+      <div class="card-title">Relações Métricas — Grupo △ABC ~ △HAC</div>
+    </div>
+    <div class="card-body">
+      <div class="formula-box">(4) b² = a · m</div>
+      <div class="bullet">Quadrado do cateto b = hipotenusa × projeção de b</div>
+      <div class="formula-box">(5) b · h = c · m</div>
+      <div class="bullet">Relação cruzada entre lados</div>
+      <div class="bullet">⚠️ m é projeção de b · n é projeção de c</div>
+      <div class="bullet">Nunca inverter m e n — erro mais comum em prova</div>
+    </div>
+    <div class="badge-wrap"><span class="badge">Não testado</span></div>
+  </div>
+
+  <!-- CARD 6 -->
+  <div class="card c6">
+    <div class="card-top">
+      <div class="num">6</div>
+      <div class="card-title">Relação (6) — △HBA ~ △HAC</div>
+    </div>
+    <div class="card-body">
+      <div class="formula-box">(6) h² = m · n</div>
+      <div class="bullet">Quadrado da altura = produto das duas projeções</div>
+      <div class="bullet">Válida <strong>apenas</strong> para a altura relativa à hipotenusa</div>
+      <div class="bullet">Não confundir com o Teorema de Pitágoras</div>
+      <div class="bullet">Exemplo: m=9, n=16 → h²=144 → h=12</div>
+    </div>
+    <div class="badge-wrap"><span class="badge">Não testado</span></div>
+  </div>
+
+  <!-- CARD 7 -->
+  <div class="card c7">
+    <div class="card-top">
+      <div class="num">7</div>
+      <div class="card-title">Teorema de Pitágoras</div>
+    </div>
+    <div class="card-body">
+      <div class="formula-box">a² = b² + c²</div>
+      <div class="bullet">Derivado de (2)+(4): c²+b² = a·n+a·m = a²</div>
+      <div class="bullet"><strong>a</strong> é sempre a hipotenusa (maior lado)</div>
+      <div class="bullet"><strong>Recíproca:</strong> se a²=b²+c² → triângulo é retângulo</div>
+      <div class="bullet">Terna clássica: 3-4-5 · 5-12-13 · 8-15-17 · 9-40-41</div>
+      <div class="formula-box">Exemplo: 6²+8²=100=10² ✔</div>
+    </div>
+    <div class="badge-wrap"><span class="badge">Não testado</span></div>
+  </div>
+
+  <!-- CARD 8 -->
+  <div class="card c8">
+    <div class="card-top">
+      <div class="num">8</div>
+      <div class="card-title">Aplicação — Forças Ortogonais</div>
+    </div>
+    <div class="card-body">
+      <div class="bullet">Duas forças perpendiculares formam um triângulo retângulo</div>
+      <div class="formula-box">F²R = F²₁ + F²₂</div>
+      <div class="bullet">F₁ e F₂ são os catetos · F_R é a hipotenusa</div>
+      <div class="bullet">Válida apenas quando ângulo entre forças = 90°</div>
+      <div class="bullet">Aplicação direta do Teorema de Pitágoras à Física</div>
+    </div>
+    <div class="badge-wrap"><span class="badge">Não testado</span></div>
+  </div>
+
+  <!-- CARD 9 -->
+  <div class="card c9">
+    <div class="card-top">
+      <div class="num">9</div>
+      <div class="card-title">Aplicação — Paralaxe Estelar Terra–Lua</div>
+    </div>
+    <div class="card-body">
+      <div class="bullet">Método: comparar observações de dois pontos distintos</div>
+      <div class="bullet">Ângulo 2P medido a partir de dois observadores na Terra</div>
+      <div class="formula-box">1,4 / 6400 = 80 / d</div>
+      <div class="bullet">Resultado: d ≈ 365.714 km</div>
+      <div class="bullet">Distância real: ≈ 384.400 km (diferença por aproximações)</div>
+      <div class="bullet">Usa semelhança de triângulos + razão de proporcionalidade</div>
+    </div>
+    <div class="badge-wrap"><span class="badge">Não testado</span></div>
+  </div>
+
+</div><!-- /grid -->
+
+<!-- DICAS DE OURO -->
+<div class="dicas-wrap">
+  <div class="dicas-title">💡 Dicas de Ouro</div>
+  <div class="dicas-grid">
+
+    <div class="dica-card">
+      <div class="dica-header">
+        <span class="dica-num">Dica 1</span>
+        <span class="dica-titulo">Identifique m e n pelo lado do ângulo</span>
+      </div>
+      <p class="dica-texto">m fica do lado de C (projeção de b) · n fica do lado de B (projeção de c).</p>
+      <div class="dica-exemplo">Macete: n antes de m no alfabeto → B antes de C</div>
+    </div>
+
+    <div class="dica-card">
+      <div class="dica-header">
+        <span class="dica-num">Dica 2</span>
+        <span class="dica-titulo">A hipotenusa é sempre o maior lado</span>
+      </div>
+      <p class="dica-texto">Antes de qualquer cálculo, identifique o ângulo reto e o lado oposto a ele. Nunca coloque um cateto no lugar de a.</p>
+      <div class="dica-exemplo">a² = b² + c² · nunca b² = a² + c²</div>
+    </div>
+
+    <div class="dica-card">
+      <div class="dica-header">
+        <span class="dica-num">Dica 3</span>
+        <span class="dica-titulo">h² = m·n não é Pitágoras</span>
+      </div>
+      <p class="dica-texto">São fórmulas completamente diferentes: h²=m·n envolve a altura e as projeções · a²=b²+c² envolve catetos e hipotenusa.</p>
+      <div class="dica-exemplo">m=4, n=9 → h=6 · não é "cateto ao quadrado"</div>
+    </div>
+
+    <div class="dica-card">
+      <div class="dica-header">
+        <span class="dica-num">Dica 4</span>
+        <span class="dica-titulo">Recíproca do Teorema de Pitágoras</span>
+      </div>
+      <p class="dica-texto">Para verificar se é retângulo: eleve o maior lado ao quadrado e compare com a soma dos quadrados dos outros dois.</p>
+      <div class="dica-exemplo">10²+40²=1700 ≠ 42²=1764 → não é retângulo</div>
+    </div>
+
+    <div class="dica-card">
+      <div class="dica-header">
+        <span class="dica-num">Dica 5</span>
+        <span class="dica-titulo">Relação (1) como atalho para h</span>
+      </div>
+      <p class="dica-texto">Quando conhecer os dois catetos e a hipotenusa, use a·h = b·c para encontrar h diretamente, sem calcular m e n.</p>
+      <div class="dica-exemplo">Catetos 6 e 8 · hip. 10 → h = 48/10 = 4,8 cm</div>
+    </div>
+
+    <div class="dica-card">
+      <div class="dica-header">
+        <span class="dica-num">Dica 6</span>
+        <span class="dica-titulo">Pitágoras em dois passos para 3D</span>
+      </div>
+      <p class="dica-texto">Em blocos retangulares, calcule primeiro a diagonal da base com Pitágoras e use o resultado como cateto para a diagonal espacial.</p>
+      <div class="dica-exemplo">diagonal base → novo cateto → diagonal espacial</div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
