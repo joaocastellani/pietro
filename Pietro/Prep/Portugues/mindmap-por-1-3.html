@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Mapa Mental — Português · Unidade 1 · Capítulo 3</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+  rel="stylesheet"/>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Inter',sans-serif;background:#F4F2EE;color:#1a1a1a;font-size:14px}
+  .header{background:#800020;color:#fff;padding:28px 32px 24px;text-align:center}
+  .header .sub{font-size:13px;letter-spacing:.5px;opacity:.85;margin-bottom:8px}
+  .header h1{font-size:32px;font-weight:700;margin-bottom:6px}
+  .header .desc{font-size:13px;opacity:.8;margin-bottom:16px}
+  .legend{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:10px}
+  .legend-item{display:flex;align-items:center;gap:6px;font-size:12px}
+  .legend-dot{width:12px;height:12px;border-radius:50%;display:inline-block}
+  .dot-green{background:#2e7d32}.dot-red{background:#c62828}.dot-purple{background:#800020}
+  .pill-wrap{display:flex;justify-content:center;padding:28px 16px 16px}
+  .pill{background:#800020;color:#fff;border-radius:50px;padding:12px 36px;
+        font-weight:700;font-size:15px}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;
+        padding:0 24px 32px;max-width:1200px;margin:0 auto}
+  .card{background:#fff;border-radius:14px;
+        box-shadow:0 2px 8px rgba(0,0,0,.07);
+        overflow:hidden;display:flex;flex-direction:column}
+  .card-header{padding:14px 16px;display:flex;align-items:center;gap:10px}
+  .card-num{width:28px;height:28px;border-radius:50%;background:#800020;
+            color:#fff;font-weight:700;font-size:13px;
+            display:flex;align-items:center;justify-content:center;flex-shrink:0}
+  .card-title{font-weight:700;font-size:14px;line-height:1.3}
+  .card-body{padding:0 16px 14px;flex:1}
+  .card-body ul{padding-left:16px;margin-top:4px}
+  .card-body li{margin-bottom:5px;font-size:13px;line-height:1.45}
+  .card-rule{background:#FFF8E1;border-left:3px solid #F59E0B;
+             padding:8px 10px;margin:8px 0;border-radius:4px;font-size:13px}
+  .card-footer{padding:10px 16px 14px;display:flex;justify-content:flex-end}
+  .badge{padding:4px 12px;border-radius:20px;font-size:11px;font-weight:700;
+         cursor:pointer;user-select:none;transition:background .2s,color .2s}
+  .badge-nao{background:#800020;color:#fff}
+  .badge-dom{background:#2e7d32;color:#fff}
+  .badge-ref{background:#c62828;color:#fff}
+  .tips-wrap{max-width:1200px;margin:0 auto;padding:0 24px 40px}
+  .tips-header{color:#800020;font-weight:700;font-size:16px;
+               margin-bottom:14px;padding-left:4px}
+  .tips-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .tip{background:#FFF0F0;border:1.5px solid #800020;border-radius:10px;
+       padding:14px;display:flex;flex-direction:column;gap:8px}
+  .tip-badge{width:24px;height:24px;border-radius:50%;background:#800020;
+             color:#fff;font-size:11px;font-weight:700;
+             display:flex;align-items:center;justify-content:center}
+  .tip-title{font-weight:700;font-size:13px;color:#800020}
+  .tip-text{font-size:13px;line-height:1.5}
+  @media(max-width:900px){.grid,.tips-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:600px){.grid,.tips-grid{grid-template-columns:1fr}
+    .header h1{font-size:22px}}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="sub">Português · Unidade 1 · Capítulo 3 · 9º ano</div>
+  <h1>Um pedacinho nosso na África</h1>
+  <div class="desc">Mapa Mental — gerado na preparação</div>
+  <div class="legend">
+    <div class="legend-item">
+      <span class="legend-dot dot-green"></span> Dominado
+    </div>
+    <div class="legend-item">
+      <span class="legend-dot dot-red"></span> Reforçar
+    </div>
+    <div class="legend-item">
+      <span class="legend-dot dot-purple"></span> Não testado
+    </div>
+  </div>
+</div>
+
+<div class="pill-wrap">
+  <div class="pill">Morfemas · Capa de revista · Variação lusófona · Coerência estilística</div>
+</div>
+
+<div class="grid">
+
+  <!-- Card 1 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">1</div>
+      <div class="card-title">Morfema — conceito central</div>
+    </div>
+    <div class="card-body">
+      <div class="card-rule">
+        Cada elemento formador de uma palavra.
+        Pode ser <strong>lexical</strong> (significado)
+        ou <strong>gramatical</strong> (informação de gênero, número etc.)
+      </div>
+      <ul>
+        <li>Morfema lexical = <strong>Lexema/Semema</strong> = radical</li>
+        <li>Morfema gramatical = <strong>Gramema</strong></li>
+        <li>Ex.: OUTRO → outr- (lexical) + -o (gênero) + -s (número)</li>
+        <li>Sílabas ≠ morfemas (fonética ≠ significado)</li>
+      </ul>
+    </div>
+    <div class="card-footer">
+      <span class="badge badge-nao" onclick="cycleBadge(this)">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">2</div>
+      <div class="card-title">Radical e Vogal temática</div>
+    </div>
+    <div class="card-body">
+      <div class="card-rule">
+        <strong>Radical:</strong> significado básico da palavra.<br/>
+        <strong>Vogal temática:</strong> átona final sem oposição de gênero.
+      </div>
+      <ul>
+        <li>Radical: <em>lingu-</em> em língua, linguagem, linguístico</li>
+        <li>Vogal temática: "língua" (-a final) — não existe "linguo"</li>
+        <li>Vogal temática ≠ desinência de gênero</li>
+        <li>Se existe a forma oposta → desinência. Se não → vogal temática.</li>
+      </ul>
+    </div>
+    <div class="card-footer">
+      <span class="badge badge-nao" onclick="cycleBadge(this)">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">3</div>
+      <div class="card-title">Desinências e Morfema zero</div>
+    </div>
+    <div class="card-body">
+      <div class="card-rule">
+        Desinências informam a flexão de gênero e número.
+        O <strong>morfema zero (Ø)</strong> indica ausência de desinência
+        quando existe a oposição possível.
+      </div>
+      <ul>
+        <li>Gênero: brasileiro → brasileir<strong>a</strong></li>
+        <li>Gênero zero: morador<strong>Ø</strong> → moradora</li>
+        <li>Número: nativa<strong>Ø</strong> → nativa<strong>s</strong></li>
+        <li>Número: particular<strong>Ø</strong> → particular<strong>es</strong></li>
+      </ul>
+    </div>
+    <div class="card-footer">
+      <span class="badge badge-nao" onclick="cycleBadge(this)">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">4</div>
+      <div class="card-title">Afixos e Vogal/Consoante de ligação</div>
+    </div>
+    <div class="card-body">
+      <div class="card-rule">
+        <strong>Afixos</strong> se unem ao radical.
+        <strong>Ligação</strong> adapta a palavra para receber sufixo.
+      </div>
+      <ul>
+        <li><strong>Prefixo</strong> (antes): <em>in</em>-fiel, <em>sur</em>-real, <em>a</em>-temporal</li>
+        <li><strong>Sufixo</strong> (depois): regional-<em>ismo</em>, vocabul-<em>ário</em></li>
+        <li><strong>Vogal de ligação:</strong> desenvolv-<em>i</em>-mento</li>
+        <li><strong>Consoante de ligação:</strong> son-<em>o</em>-lento</li>
+      </ul>
+    </div>
+    <div class="card-footer">
+      <span class="badge badge-nao" onclick="cycleBadge(this)">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">5</div>
+      <div class="card-title">Copo "Vida nova" — Pepetela</div>
+    </div>
+    <div class="card-body">
+      <div class="card-rule">
+        Conto angolano sobre a passagem da infância à vida adulta
+        de Ngunga — guerrilheiro que parte para a escola.
+      </div>
+      <ul>
+        <li>Autor: <strong>Pepetela</strong> (pseudônimo de Artur C. M. Pestana dos Santos)</li>
+        <li>País: <strong>Angola</strong></li>
+        <li>Gênero: <strong>conto</strong></li>
+        <li>Vocabulário angolano: <em>chinjangula</em> (dança) / <em>kimbos</em> (povoados)</li>
+        <li>Frase síntese: "Um homem tinha nascido dentro do pequeno Ngunga."</li>
+      </ul>
+    </div>
+    <div class="card-footer">
+      <span class="badge badge-nao" onclick="cycleBadge(this)">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 6 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">6</div>
+      <div class="card-title">Capa de revista — gênero</div>
+    </div>
+    <div class="card-body">
+      <div class="card-rule">
+        Gênero multimodal com função de atrair o público-alvo
+        e estimular a compra ou leitura da publicação.
+      </div>
+      <ul>
+        <li><strong>Logotipo/título:</strong> fixo — identidade visual</li>
+        <li><strong>Manchete:</strong> assunto principal — muda a cada edição</li>
+        <li><strong>Chamadas secundárias:</strong> outras matérias</li>
+        <li><strong>Imagens:</strong> relacionadas ao tema</li>
+        <li><strong>Diagramação:</strong> organização gráfica geral</li>
+      </ul>
+    </div>
+    <div class="card-footer">
+      <span class="badge badge-nao" onclick="cycleBadge(this)">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 7 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">7</div>
+      <div class="card-title">Variação linguística lusófona</div>
+    </div>
+    <div class="card-body">
+      <div class="card-rule">
+        O português é falado em países com línguas nativas diferentes
+        — cada variedade é legítima.
+      </div>
+      <ul>
+        <li><strong>Angola:</strong> 11 línguas; pronome "si" (3ª pessoa); 80% falam PT</li>
+        <li><strong>Moçambique:</strong> 20 línguas; 40% falam PT; emakhuwa é a mais usada</li>
+        <li><strong>Brasil:</strong> influências indígenas, africanas e europeias</li>
+        <li>PT-BR: "Estou fazendo" ↔ PT-PT/Angola: "Estou a fazer"</li>
+      </ul>
+    </div>
+    <div class="card-footer">
+      <span class="badge badge-nao" onclick="cycleBadge(this)">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 8 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">8</div>
+      <div class="card-title">Coerência estilística</div>
+    </div>
+    <div class="card-body">
+      <div class="card-rule">
+        A linguagem deve estar articulada em harmonia e adequada
+        ao contexto de comunicação ao longo de todo o texto.
+      </div>
+      <ul>
+        <li>Registro deve ser uniforme do início ao fim</li>
+        <li>Exemplo de ruptura: garçom formal → coloquial no mesmo atendimento</li>
+        <li>Não é sobre usar palavras "difíceis" — é sobre <strong>adequação</strong></li>
+        <li>Documentos jurídicos: registro formal obrigatório</li>
+      </ul>
+    </div>
+    <div class="card-footer">
+      <span class="badge badge-nao" onclick="cycleBadge(this)">Não testado</span>
+    </div>
+  </div>
+
+  <!-- Card 9 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">9</div>
+      <div class="card-title">Cognatas e falsos cognatos</div>
+    </div>
+    <div class="card-body">
+      <div class="card-rule">
+        <strong>Cognatas:</strong> mesma família, mesmo radical.<br/>
+        <strong>Falsos cognatos:</strong> parecidas, mas significados distintos.
+      </div>
+      <ul>
+        <li>Cognatas: terra, terráqueo, aterramento (radical: terr-)</li>
+        <li>Falso cognato (inglês): <em>pretend</em> = fingir (≠ "pretender")</li>
+        <li>Falso cognato (espanhol): <em>embarazarse</em> = engravidar (≠ "embaraçar")</li>
+        <li>Seção "Veja também em Língua Inglesa e Espanhola" (pág. 73)</li>
+      </ul>
+    </div>
+    <div class="card-footer">
+      <span class="badge badge-nao" onclick="cycleBadge(this)">Não testado</span>
+    </div>
+  </div>
+
+</div>
+
+<div class="tips-wrap">
+  <div class="tips-header">💡 Dicas de Ouro</div>
+  <div class="tips-grid">
+
+    <div class="tip">
+      <div class="tip-badge">1</div>
+      <div class="tip-title">Vogal temática ≠ Desinência de gênero</div>
+      <div class="tip-text">
+        Desinência de gênero → existe a forma oposta
+        (brasileiro/brasileira).<br/>
+        Vogal temática → NÃO existe a forma oposta
+        (língua/~~linguo~~).<br/>
+        Pergunte sempre: "existe a forma oposta?"
+      </div>
+    </div>
+
+    <div class="tip">
+      <div class="tip-badge">2</div>
+      <div class="tip-title">Morfema zero só existe com oposição</div>
+      <div class="tip-text">
+        "Particular-Ø" tem morfema zero porque existe "particulares".<br/>
+        "Lápis" é invariável — <strong>não</strong> tem morfema zero,
+        pois não há forma oposta padrão.
+      </div>
+    </div>
+
+    <div class="tip">
+      <div class="tip-badge">3</div>
+      <div class="tip-title">Separar sílabas ≠ separar morfemas</div>
+      <div class="tip-text">
+        "Linguagem" em sílabas: lin-gua-gem (3 sílabas).<br/>
+        "Linguagem" em morfemas: lingu- + -agem (2 morfemas).<br/>
+        Critério: significado, não pronúncia.
+      </div>
+    </div>
+
+    <div class="tip">
+      <div class="tip-badge">4</div>
+      <div class="tip-title">Manchete ≠ Título da revista</div>
+      <div class="tip-text">
+        Logotipo/título da revista = <strong>fixo</strong>
+        (identidade visual, sempre o mesmo).<br/>
+        Manchete = <strong>muda a cada edição</strong>
+        (indica o assunto principal da publicação).
+      </div>
+    </div>
+
+    <div class="tip">
+      <div class="tip-badge">5</div>
+      <div class="tip-title">Coerência estilística: adequação, não "nível"</div>
+      <div class="tip-text">
+        Um texto coloquial pode ter plena coerência estilística
+        se o contexto assim exige.<br/>
+        A incoerência ocorre quando há <strong>mistura inadequada</strong>
+        de registros num mesmo texto.
+      </div>
+    </div>
+
+    <div class="tip">
+      <div class="tip-badge">6</div>
+      <div class="tip-title">Variação lusófona: diferente ≠ errado</div>
+      <div class="tip-text">
+        "Meus tios nasceram minha prima" é correto em Angola.<br/>
+        "Estou a fazer" é correto em Portugal e Angola.<br/>
+        Variação linguística é enriquecimento cultural — não erro.
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+function cycleBadge(el){
+  const states=[
+    {cls:'badge-nao',text:'Não testado'},
+    {cls:'badge-dom',text:'Dominado'},
+    {cls:'badge-ref',text:'Reforçar'}
+  ];
+  let cur=states.findIndex(s=>el.classList.contains(s.cls));
+  let nxt=(cur+1)%states.length;
+  states.forEach(s=>el.classList.remove(s.cls));
+  el.classList.add(states[nxt].cls);
+  el.textContent=states[nxt].text;
+}
+</script>
+</body>
+</html>
