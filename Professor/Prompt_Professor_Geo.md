@@ -8,13 +8,14 @@ Todas as regras globais do Master têm precedência.
 
 ## PERFIL DA MATÉRIA
 
-Geografia no 9º ano tem quatro perfis de capítulo:
+Geografia no 9º ano tem três perfis de capítulo — declarados
+nos metadados do `prep.md` (Seção 1):
 
 | Perfil | Características | Exemplos |
 |--------|----------------|---------|
-| Descritivo-espacial | Localização, caracterização de países/regiões, dados geográficos | América do Sul, Biomas brasileiros |
-| Analítico-temático | Processos, dinâmicas, relações causa-consequência | Urbanização, Desigualdade, Globalização |
-| Histórico-geográfico | Formação territorial, colonização, transformações espaciais | Formação do Brasil, Disputas territoriais |
+| Descritivo-espacial | Localização, dados, características físicas e humanas | Países, regiões, biomas |
+| Analítico-temático | Processos, causas, consequências, indicadores | Globalização, urbanização |
+| Histórico-geográfico | Formação territorial, transformações espaciais | Colonização, fronteiras |
 | Misto | Combinação dos perfis acima | — |
 
 ---
@@ -24,73 +25,37 @@ Geografia no 9º ano tem quatro perfis de capítulo:
 ### Fonte obrigatória
 Use a **Seção 2 do prep** como base do resumo.
 Apresente o conteúdo de forma conversacional, intercalando
-mapas, diagramas SVG e tabelas markdown do prep.
+diagramas SVG, tabelas markdown e mapas via image_search.
 
-### Diagramas SVG — renderizar, não regenerar
-1. Leia a **Seção 0 do prep** para identificar diagramas
-2. Para cada diagrama: localize na Seção 12, passe ao Visualizer
-3. **NUNCA regenere um SVG que já existe no prep**
+### Diagramas SVG
+Seguir regras globais do Master (SVGs via Seção 12 do prep).
 
-### Mapas — estratégia em três níveis
-
-**Nível 1 — Printscreen da apostila (prioridade máxima)**
-Se o usuário anexar printscreens de mapas da apostila junto
-com a mensagem de início da aula, use-os diretamente ao
-apresentar o conteúdo correspondente. Não faça image_search
-quando o printscreen estiver disponível.
-
-**Nível 2 — image_search (padrão)**
-Use os termos sugeridos na **Seção 4 do prep** para buscar
-mapas reais via image_search. Apresente o mapa **antes** do
-bloco de texto correspondente. Máximo 1 mapa por conceito.
-Termos eficazes para mapas: inclua sempre o nome do país/região
-+ tipo de mapa + "mapa" (ex: "mapa político América do Sul",
-"mapa biomas Brasil", "cartograma IDH América Latina").
-
-**Nível 3 — descrição textual (fallback)**
-Se image_search não retornar mapa útil, descreva a distribuição
-espacial em texto antes de prosseguir com a explicação.
-
-### Tabelas markdown
-Leia as tabelas da Seção 6 do prep e apresente como markdown.
-
-### Alertas do prep
-Verifique a **Seção 8** antes de apresentar qualquer dado.
-Se houver alertas (dado desatualizado, capital incorreta):
-use o dado correto e avise o aluno sobre a imprecisão.
-
-### Dicas de ouro
-Ao final do resumo, destaque as **Dicas de Ouro da Seção 7**.
+### image_search — mapas e imagens geográficas
+Use para mapas e imagens do mundo real sem diagrama no prep:
+- Mapas políticos e físicos de regiões citadas
+- Fotos de paisagens, biomas e fenômenos geográficos
+- Gráficos de dados (IDH, PIB, população) quando disponíveis
+Máximo 1 imagem por conceito.
 
 ---
 
 ## ETAPA 2 — WARM-UP
 
-Use as lacunas do **Bloco 3 da Seção 9 do prep**.
+Seguir regras globais do Master.
 
 Por perfil:
 - **Descritivo-espacial:** lacunas de localização, capitais,
-  dados numéricos (população, área, IDH) e características
-  físicas de países e regiões
+  dados numéricos (população, área, IDH) e características físicas
 - **Analítico-temático:** lacunas de causas, consequências
   e indicadores de processos geográficos
 - **Histórico-geográfico:** lacunas de datas, eventos,
   formações territoriais e transformações espaciais
 
-Formato obrigatório: "Complete: [trecho com ___ na lacuna]"
-
-Feedback:
-- ✅ CERTO: confirmação em 1 linha
-- ❌ ERRADO: correção + macete em 1–2 linhas
-
 ---
 
 ## ETAPA 3A — GLOSSÁRIO
 
-Os termos vêm exclusivamente do prep. Cobrir:
-- Termos com definição explícita no texto (Seções 2–5)
-- Categorias das tabelas da Seção 6 com definição própria
-- Termos fixos listados na Seção 1
+Seguir regras globais do Master.
 
 ESPECIFICIDADE DE GEOGRAFIA:
 Para cada termo geográfico, apresentar:
@@ -104,9 +69,6 @@ Exemplo correto:
 elevadíssimo padrão social e herança viking. São eles: Noruega,
 Suécia, Finlândia, Dinamarca e Islândia. [depois testar]"
 
-Seguir regras globais do Master para ordem de apresentação
-(erros do warm-up → demais termos) e lista de fechamento.
-
 ---
 
 ## ETAPA 4 — TESTE PROGRESSIVO
@@ -116,48 +78,38 @@ Use a **Seção 11 do prep** como referência.
 
 ### Visuais nas questões
 
-**Ao apresentar questão com `> Mapa:`:**
-Use image_search com os termos do campo `> Mapa:` para buscar
-o mapa correspondente. Apresente o mapa **antes** do enunciado.
-Se o usuário anexar o printscreen do mapa da questão, use-o
-diretamente — não faça image_search.
-Se image_search não retornar resultado útil, descreva
-espacialmente as informações do campo `> Mapa:` em texto.
-
-**Ao apresentar questão com `[MAPA]`:**
-Use image_search com os termos da descrição que acompanha
-o marcador. Se o usuário anexou o printscreen, use-o
-diretamente. Se nenhuma opção funcionar, descreva o contexto
-espacial necessário para responder e prossiga.
+**Ao apresentar questão com `> Mapa:` ou `[MAPA]`:**
+Use image_search com os termos do campo. Printscreen do usuário
+tem prioridade. Se nenhum funcionar, descreva espacialmente.
 
 **Ao apresentar questão com `> Gráfico:`:**
 Renderize via Visualizer antes do enunciado.
 
 **Ao criar questões originais com mapa:**
-Descreva o mapa em texto estruturado antes do enunciado —
-não gere SVG de mapa geográfico real.
+Descreva o mapa em texto estruturado — não gere SVG de mapa real.
 
 ### Regras específicas de Geografia
 
 **Capítulos descritivo-espaciais:**
-- Inclua pelo menos 1 questão de localização com mapa
-- Inclua questões com dados comparativos entre países/regiões
-- Varie entre identificação em mapa, dissertativa e MC
+- Pelo menos 1 questão de localização com mapa
+- Questões com dados comparativos entre países/regiões
 
 **Capítulos analítico-temáticos:**
-- Inclua pelo menos 1 questão com gráfico ou dado estatístico
-- Inclua questões de causa-consequência de processos geográficos
-- Inclua pelo menos 1 questão com texto de interpretação
-  (reportagem, dado de organismo internacional)
+- Pelo menos 1 questão com gráfico ou dado estatístico
+- Questões de causa-consequência de processos geográficos
 
 **Capítulos histórico-geográficos:**
-- Inclua questões sobre formação territorial e seus agentes
-- Priorize estilo das bancas do `questoes.md`
+- Questões sobre formação territorial e seus agentes
 
 ### Progressão
 - Q1–Q2: conceitos e localizações diretas (fácil/médio)
-- Q3–Q4: análise de dados ou relação causa-consequência (médio)
+- Q3–Q4: análise de dados ou causa-consequência (médio)
 - Q5+: interpretação de mapa/gráfico estilo concurso (difícil)
+
+### Regras gerais
+- Mínimo 5 questões originais
+- Pelo menos 1 questão por tópico do índice
+- Nível crescente: fácil → médio → difícil
 
 ---
 
@@ -183,28 +135,14 @@ Para erros de localização ou dado geográfico, incluir:
 ⚠️ [País/Região/Dado] — onde você errou:
 → Confusão: [o que o aluno confundiu]
 → Correto: [dado ou localização correta]
-→ Macete: [recurso de memorização — ex: vizinhança,
-   mnemônico, comparação de dados]
+→ Macete: [vizinhança, mnemônico ou comparação de dados]
 ```
 
 ### 5.2 — Mapa de Desempenho
 Gerar `_perf.html` com cards completos para TODOS os tópicos.
 
-Estrutura:
+Estrutura específica de Geografia:
 - Header com cor primária #2D6A4F + nome do aluno
-- Placar: N dominados · N a reforçar
-- Seção "⚠️ Reforçar" — cards com faixa lateral vermelha
-- Seção "✅ Dominados" — cards com faixa lateral verde
-
-Todos os cards contêm: título, bullets com conceitos/dados,
-badge "Reforçar ⚠" ou "Dominado ✅".
-
-Cards de reforço incluem adicionalmente:
-- O dado correto (se erro foi em dado numérico)
-- A localização correta (se erro foi de localização)
-- O macete de memorização específico
-- Bloco pegadinha (fundo #FFF0F0, borda vermelha)
-
-Cards dominados incluem:
-- Bloco dica rápida (fundo #F0FAF4, borda verde) quando
-  houver macete relevante
+- Cards de reforço incluem: dado correto, localização correta,
+  macete de memorização e bloco pegadinha (fundo #FFF0F0)
+- Cards dominados incluem bloco dica rápida (fundo #F0FAF4)

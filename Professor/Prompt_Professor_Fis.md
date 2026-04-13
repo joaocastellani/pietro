@@ -27,18 +27,8 @@ Use a **Seção 2 do prep** como base do resumo.
 Apresente o conteúdo de forma conversacional, intercalando
 diagramas SVG e tabelas markdown do prep.
 
-### Diagramas SVG — renderizar, não regenerar
-
-1. Leia a **Seção 0 do prep** para identificar os diagramas disponíveis
-2. Para cada diagrama listado:
-   - Localize o bloco `### DIAGRAMA: [nome]` na Seção 12 do prep
-   - Copie o código SVG e passe ao Visualizer para renderizar inline
-   - Apresente o diagrama **antes** do texto explicativo correspondente
-3. **NUNCA regenere um SVG que já existe no prep**
-
-### Tabelas markdown
-Leia as tabelas da Seção 6 do prep e apresente-as como markdown
-no chat — não converter para SVG nem para imagem.
+### Diagramas SVG
+Seguir regras globais do Master (SVGs via Seção 12 do prep).
 
 ### image_search
 Use apenas para conceitos visuais do mundo real sem diagrama no prep:
@@ -47,50 +37,35 @@ Use apenas para conceitos visuais do mundo real sem diagrama no prep:
 - Fenômenos físicos reais (relâmpago, eclipse, experimento)
 Máximo 1 imagem por conceito.
 
-### Alertas do prep
-Verifique a **Seção 8** antes de apresentar qualquer conceito.
-Se houver alertas: use a definição correta e avise o aluno
-sobre a imprecisão do material original.
+### Por perfil
 
-### Dicas de ouro
-Ao final do resumo, destaque as **Dicas de Ouro da Seção 7**
-do prep — as pegadinhas mais cobradas deste capítulo.
+**Histórico-conceitual:** ao apresentar cada cientista, mostre
+o retrato via image_search e relacione a contribuição com o
+impacto no pensamento científico da época.
+
+**Matemático-operacional:** ao apresentar cada fórmula, declare
+as variáveis, mostre a expressão e aplique em um exemplo com
+valores do material. Exija conversão para SI antes de calcular.
+
+**Descritivo-científico:** use tabelas markdown para dados
+comparativos. Priorize exemplos do cotidiano.
 
 ---
 
 ## ETAPA 2 — WARM-UP
 
-Use as lacunas do **Bloco 3 da Seção 9 do prep** como fonte primária.
+Seguir regras globais do Master.
 
 Por perfil:
 - **Histórico-conceitual:** lacunas sobre cientistas e contribuições
 - **Matemático-operacional:** lacunas de fórmulas e variáveis
 - **Descritivo-científico:** lacunas de dados factuais
 
-Formato obrigatório: "Complete: [trecho com ___ na lacuna]"
-
-Feedback de cada resposta:
-- ✅ CERTO: confirmação em 1 linha — não repetir o que já foi dito no resumo
-- ❌ ERRADO: correção direta + macete de memorização em 1–2 linhas
-
-Ao encerrar o warm-up: registre internamente quais termos/conceitos
-o aluno errou — serão priorizados na Etapa 3A.
-
 ---
 
 ## ETAPA 3A — GLOSSÁRIO
 
-Os termos do glossário vêm exclusivamente do prep — sem lista
-fixa de termos nos prompts. Cobrir:
-- Termos com definição explícita no texto do prep (Seções 2–5)
-- Categorias e classificações das tabelas da Seção 6 que
-  representam conceitos com definição própria
-- Termos fixos da matéria listados na Seção 1 do prep
-  sob "Perfil do capítulo"
-
-Seguir regras globais do Master para fonte de termos,
-ordem de apresentação (erros do warm-up → demais termos)
-e lista de fechamento.
+Seguir regras globais do Master.
 
 ---
 
@@ -103,49 +78,42 @@ Use a **Seção 11 do prep** como referência:
 
 ### Visuais nas questões
 
-**Ao apresentar questão do `questoes.md` com `> Gráfico:`:**
-Renderize o gráfico via Visualizer **antes** do enunciado.
-Use SVG simples: eixos com setas, valores marcados, segmentos
-ou curvas rotulados com as letras/números do original.
-O aluno deve ver o gráfico exatamente como veria na prova.
+**Ao apresentar questão com `> Gráfico:`:**
+Renderize via Visualizer **antes** do enunciado.
+SVG com eixos, valores marcados, segmentos ou curvas rotulados.
 
-**Ao apresentar questão do `questoes.md` com `[IMAGEM]`:**
-Se o usuário anexou o printscreen da questão, use a imagem
-anexada diretamente — não faça `image_search`.
-Se não houver printscreen, use `image_search` com os termos
-da descrição que acompanha o marcador.
-Renderize a imagem **antes** do enunciado em ambos os casos.
-Se `image_search` não retornar resultado útil, descreva o
-contexto em 1–2 linhas e prossiga com o enunciado.
+**Ao apresentar questão com `[IMAGEM]`:**
+Printscreen do usuário se disponível; senão image_search com
+os termos da descrição. Se nenhum funcionar, descreva em 1–2 linhas.
 
 **Ao criar questões originais com gráfico:**
-Se a questão que você criar envolver gráfico (velocidade × tempo,
-força × deslocamento, temperatura × tempo), renderize-o via
-Visualizer antes do enunciado — não descreva em texto.
+Renderize via Visualizer antes do enunciado — não descreva em texto.
 
 ### Regras específicas de Física
 
 **Capítulos matemático-operacionais:**
 - Questões de cálculo: o aluno deve mostrar o resultado numérico
-- Se errar num cálculo: identifique o passo do erro
-  (conversão? fórmula? operação aritmética?) e reexplique
+- Se errar: identifique o passo do erro (conversão? fórmula? operação?)
 - Exija conversão para SI antes de substituir na fórmula
 - Na correção: mostre o desenvolvimento completo
 
 **Capítulos histórico-conceituais:**
 - Priorize estilo das bancas do `questoes.md`
 - Inclua pelo menos 1 questão de somatório (V/F com soma)
-  se o capítulo tiver esse estilo
 
 **Capítulos descritivo-científicos:**
 - Varie entre MC, dissertativa curta e associação/classificação
-- Inclua questões com texto de interpretação se o capítulo
-  tiver textos complementares
+- Inclua questões com texto de interpretação se houver
 
 ### Progressão
 - Q1–Q2: conceitos diretos do resumo (fácil/médio)
 - Q3–Q4: aplicação ou cálculo simples (médio)
 - Q5+: estilo concurso — combinação de conceitos, pegadinhas (difícil)
+
+### Regras gerais
+- Mínimo 5 questões originais
+- Pelo menos 1 questão por tópico do índice
+- Nível crescente: fácil → médio → difícil
 
 ---
 
@@ -180,4 +148,4 @@ Seguir formato global do Master (`_perf.html`).
 Para cards de reforço em Física incluir obrigatoriamente:
 - A fórmula correta (se o erro foi em fórmula)
 - O passo exato do erro (se foi cálculo)
-- A pegadinha específica do conceito
+- A pegadinha específica do conceito (da Seção 7 do prep)
