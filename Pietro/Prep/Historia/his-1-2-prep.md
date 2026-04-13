@@ -16,6 +16,8 @@ Se o usuário anexar printscreens dos mapas da apostila (expansão do café; dis
 
 ---
 
+## SEÇÃO 1 — METADADOS
+
 # PREPARAÇÃO DE AULA — HISTÓRIA
 - Unidade: 1
 - Capítulo: 2
@@ -307,6 +309,19 @@ Nenhuma inconsistência factual detectada no material capturado.
 6. Em 1873, a Convenção de `______` fundou o Partido Republicano Paulista. *(resposta: Itu)*
 7. A vinda de imigrantes europeus ao Brasil visava, entre outros objetivos, o `______` da população com base no darwinismo social. *(resposta: branqueamento)*
 8. Após a Lei Áurea, os antigos senhores de escravizados afastaram-se da monarquia e aderiram ao movimento `______`. *(resposta: republicano)*
+
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Terra roxa | Solo de origem `______`, avermelhado, ideal para o `______` → vulcânica; café |
+| Lei do Ventre Livre | Ano: `______`; declarou livres os `______` de escravizadas nascidos a partir dessa data → 1871; filhos |
+| Lei Eusébio de Queirós | Ano: `______`; proibiu o `______` transatlântico → 1850; tráfico negreiro |
+| Guerra do Paraguai | Período: `______` a `______`; fortaleceu o `______` Brasileiro → 1864; 1870; Exército |
+| Positivismo | Criado por `______`; lema: "`______`, ordem e progresso" → Auguste Comte; Amor |
+| Darwinismo social | Usado para justificar o `______` da população via imigração europeia → branqueamento |
+| Manifesto Republicano | Data: `______`; publicado no jornal `______` → 1870; A República |
+| Convenção de Itu | Ano: `______`; fundou o `______` Paulista → 1873; Partido Republicano |
 
 ---
 

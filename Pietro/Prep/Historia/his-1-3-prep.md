@@ -16,6 +16,8 @@ Se o usuário anexar printscreens de charges ou imagens da apostila (Oswaldo Cru
 
 ---
 
+## SEÇÃO 1 — METADADOS
+
 # PREPARAÇÃO DE AULA — HISTÓRIA
 - Unidade: 1
 - Capítulo: 3
@@ -291,6 +293,19 @@ Nenhuma inconsistência factual detectada no material capturado.
 6. A República do Café com `______` alternava o poder entre as elites de São Paulo e Minas Gerais. *(resposta: Leite)*
 7. A Constituição de `______` estabeleceu o federalismo na Primeira República, beneficiando as oligarquias estaduais. *(resposta: 1891)*
 8. Antônio Conselheiro liderou a comunidade de `______`, na Bahia, destruída após quatro expedições militares entre 1893 e 1897. *(resposta: Canudos / Belo Monte)*
+
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Coronelismo | Coronéis controlavam `______` locais em troca de apoio ao governo estadual → votos e recursos |
+| Voto de cabresto | Controle dos votos de trabalhadores rurais pelos `______` → coronéis |
+| Política dos governadores | Governo `______` (1898–1902); fortaleceu as `______` locais → Campos Sales; oligarquias |
+| "Bota-abaixo" | Demolição de `______` no Rio de Janeiro; acentuou a `______` → cortiços; favelização |
+| Revolta da Vacina | Ano: `______`; causa: vacinação `______` + demolições → 1904; obrigatória |
+| Revolta da Chibata | Ano: `______`; líder: `______` (Almirante Negro) → novembro de 1910; João Cândido |
+| Guerra do Contestado | Período: `______` a `______`; fronteira entre `______` e `______` → 1912; 1916; Paraná; Santa Catarina |
+| Canudos | Liderado por `______`; destruído após `______` expedições militares (1893–1897) → Antônio Conselheiro; quatro |
 
 ---
 

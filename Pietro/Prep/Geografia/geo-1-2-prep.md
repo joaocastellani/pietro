@@ -22,6 +22,8 @@ Tabelas da Seção 6 são apresentadas como markdown no chat.
 
 ---
 
+## SEÇÃO 1 — METADADOS
+
 # PREPARAÇÃO DE AULA — GEOGRAFIA
 - Unidade: 1
 - Capítulo: 2
@@ -307,6 +309,19 @@ Não foram detectadas inconsistências factuais no material capturado. Dados con
 
 8. A região asiática que foi berço das três maiores religiões monoteístas (judaísmo, islamismo e cristianismo) é o `______`.
 *(resposta: Oriente Médio)*
+
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Oceania — apelido | "`______`" — último continente a ser descoberto pelos europeus → Novíssimo Mundo |
+| Melanésia | Localizada a `______` da Austrália; destino turístico: `______` → nordeste; Ilhas Fiji |
+| Micronésia | Quase integralmente no hemisfério `______`; próxima à `______` → norte; Fossa das Marianas |
+| Polinésia | Maior `______` insular da Oceania; país mais desenvolvido do hemisfério sul: `______` → área; Nova Zelândia |
+| Tuvalu | Altitude máxima: `______` m; estratégia: tornar-se primeira `______` do mundo → 5; nação digital |
+| Austrália | Representa mais de `______`% do território da Oceania → 90 |
+| Linha Internacional de Mudança de Data | Ao cruzá-la leste → oeste: `______` um dia → subtrai-se |
+| Oriente Médio | Berço das três maiores religiões `______`: judaísmo, islamismo e cristianismo → monoteístas |
 
 ---
 
