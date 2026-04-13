@@ -366,6 +366,19 @@ Fusão: dois núcleos leves se unem formando um mais pesado (estrelas; deutério
 
 8. Na notação ᴬ꜀X, o número de `______` fica acima e o número `______` fica abaixo do símbolo. *(resposta: massa (A); atômico (Z))*
 
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Número atômico Z | Quantidade de `______` no núcleo; identifica o `______` → prótons; elemento |
+| Número de massa A | A = `______` + `______` → Z (prótons); n (nêutrons) |
+| Número de nêutrons | n = `______` → A − Z |
+| Cátion | Átomo que `______` elétrons → carga `______` → perdeu; positiva |
+| Ânion | Átomo que `______` elétrons → carga `______` → ganhou; negativa |
+| Isótopos | Mesmo `______`, diferente `______` → Z; A (mesmo elemento, propriedades químicas iguais) |
+| Isóbaros | Mesmo `______`, Z diferente → A |
+| Isótonos | Mesmo número de `______`, Z e A diferentes → nêutrons |
+
 ---
 
 ## SEÇÃO 10 — SÍNTESE DO LIVRO
