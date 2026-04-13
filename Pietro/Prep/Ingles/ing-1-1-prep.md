@@ -342,6 +342,19 @@ Um *survey report* nunca usa *I* ou *we* para expressar opinião. Em vez de *"I 
 8. According to the Summary, the First Conditional form is: *If + Simple Present + ______ + base form of the verb.*
 *(resposta: will)*
 
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| *Should* | Expressa `______` ou recomendação → *advice* |
+| *Have to* | Expressa necessidade e `______` → *obligation* |
+| *Have to* — 3ª pessoa | *She/he/it + `______` + base verb* → *has to* |
+| First Conditional — estrutura | *If + `______` + , + `______` + base form* → *Simple Present; will* |
+| First Conditional — if-clause | Usa `______`, nunca *will* → *Simple Present* |
+| *Shouldn't* | Forma negativa de `______` → *should* |
+| *Pictogram* | Símbolo `______` que representa uma ideia ou conceito → *minimalist* |
+| *Oil on canvas* | Técnica de `______` → pintura (óleo sobre tela) |
+
 ---
 
 ## SEÇÃO 10 — SUMMARY DO LIVRO

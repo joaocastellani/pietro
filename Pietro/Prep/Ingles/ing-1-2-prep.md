@@ -374,6 +374,19 @@ Em provas, os três são intercambiáveis em sentido — mas *so* nunca inicia u
 8. Complete com a linking word correta: *"Small cities are investing in sustainable practices ______ the quality of life for residents has improved."*
 *(resposta: as a result — consequência)*
 
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Linking word — contraste | *However, but, though, even though* → expressam `______` → contraste |
+| Linking word — consequência | *So, as a result, consequently, therefore* → expressam `______` → consequência |
+| Linking word — causa | *Because, since, due to* → expressam `______` → causa/razão |
+| *Due to* — estrutura | *Due to + `______`* (nunca + oração/clause) → substantivo ou gerúndio |
+| *Unless* | Equivale a `______` → *if + not* |
+| Linking word — condição | *If, unless, as long as* → expressam `______` → condição |
+| *Follow suit* | Significa `______` em português → seguir o exemplo |
+| *Listicle* | Artigo em formato de `______` → lista numerada ou com bullets |
+
 ---
 
 ## SEÇÃO 10 — SUMMARY DO LIVRO
