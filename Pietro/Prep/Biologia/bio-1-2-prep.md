@@ -19,6 +19,8 @@ Tabelas da Seção 6 são apresentadas como markdown no chat.
 
 ---
 
+## SEÇÃO 1 — METADADOS
+
 # PREPARAÇÃO DE AULA — BIOLOGIA
 - Unidade: 1
 - Capítulo: 2
@@ -373,6 +375,19 @@ O mtDNA é herdado exclusivamente da mãe. Questões de genética forense e rast
 
 8. Segundo a teoria `______`, mitocôndrias e cloroplastos teriam sido bactérias ancestrais incorporadas por outras células. O DNA mitocondrial é herdado exclusivamente da `______`.
 *(resposta: endossimbiótica; mãe)*
+
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Nucleotídeo | Composto por `______` + `______` + `______` → fosfato; pentose; base nitrogenada |
+| DNA — pentose e base exclusiva | Pentose: `______`; base exclusiva: `______` → desoxirribose; timina |
+| RNA — pentose e base exclusiva | Pentose: `______`; base exclusiva: `______` → ribose; uracila |
+| Pareamento DNA | A-`______` · G-`______` → T (timina); C (citosina) |
+| Transcrição | DNA molde → `______`; ocorre no `______` → RNAm; núcleo |
+| Tradução | RNAm (informação) + RNAt (`______`) + RNAr (`______`) → proteína → aminoácidos; ribossomo |
+| Cariótipo humano | `______` cromossomos em `______` pares; somáticas = diploides (2n); gametas = `______` (n) → 46; 23; haploides |
+| Teoria endossimbiótica | Mitocôndrias e cloroplastos teriam sido `______` ancestrais; DNA mitocondrial herdado da `______` → bactérias; mãe |
 
 ---
 
