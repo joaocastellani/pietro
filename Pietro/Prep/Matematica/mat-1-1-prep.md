@@ -17,6 +17,8 @@ Para image_search: use "código de barras sistema binário matemática" ao apres
 
 ---
 
+## SEÇÃO 1 — METADADOS
+
 # PREPARAÇÃO DE AULA — MATEMÁTICA
 - Unidade: 1
 - Capítulo: 1
@@ -248,6 +250,19 @@ Nenhuma inconsistência factual detectada no material. O capítulo apresenta def
 
 8. O código de barras usa o sistema `______`, que representa informações como sequências de `______` e `______`.
 *(resposta: binário / zeros / uns)*
+
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Conjunto N (naturais) | Números usados para contar e o zero: `______` → {0, 1, 2, 3, ...} |
+| Conjunto Z (inteiros) | Naturais e seus opostos: `______` → {..., −2, −1, 0, 1, 2, ...} |
+| Conjunto Q (racionais) | Escritos como fração a/b, b ≠ 0 — decimal `______` ou `______` → exata; dízima periódica |
+| Conjunto I (irracionais) | Decimal `______` e `______` → infinito; não periódico |
+| Conjunto R (reais) | União de Q e I: `______` → R = Q ∪ I |
+| Relação de inclusão | `______` ⊂ `______` ⊂ `______` ⊂ R → N ⊂ Z ⊂ Q ⊂ R |
+| Definição formal de Q | Q = {a/b \| a ∈ Z, b ∈ Z, b `______`} → b ≠ 0 |
+| Aproximação de √2 na reta real | √2 ≅ `______`, entre os inteiros `______` e `______` → 1,4; 1; 2 |
 
 ---
 

@@ -16,6 +16,8 @@ Tabelas da Seção 6 são apresentadas como markdown no chat.
 
 ---
 
+## SEÇÃO 1 — METADADOS
+
 # PREPARAÇÃO DE AULA — MATEMÁTICA
 - Unidade: 1
 - Capítulo: 4
@@ -352,6 +354,19 @@ Remover ⚠️ do catálogo.
 
 8. Se dois triângulos congruentes têm razão de semelhança k = `______`, pois congruência é um caso particular de semelhança.
 *(1)*
+
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Definição de semelhança | Lados correspondentes `______` e ângulos correspondentes `______` → proporcionais; congruentes |
+| Notação de semelhança | Símbolo `______` → ~ |
+| Razão de semelhança k | Constante igual à razão entre `______` → lados homólogos correspondentes |
+| Teorema Fundamental | Reta paralela a um lado cria triângulo `______` ao original → semelhante |
+| Caso AA | Dois ângulos `______` garantem semelhança → congruentes |
+| Caso LAL | Dois lados `______` e ângulo `______` entre eles congruente → proporcionais; compreendido |
+| Caso LLL | `______` os lados correspondentes proporcionais → todos |
+| Razão das áreas | Se k é a razão de semelhança, a razão das áreas é `______` → k² |
 
 ---
 

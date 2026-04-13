@@ -223,6 +223,25 @@ $$\sqrt[n]{a \cdot b} = \sqrt[n]{a} \cdot \sqrt[n]{b} \qquad \sqrt[n]{\frac{a}{b
 
 ---
 
+## SEÇÃO 5 — GLOSSÁRIO
+
+| Termo | Definição |
+|-------|-----------|
+| Radical | Símbolo $$\sqrt[n]{a}$$ que representa a operação de radiciação |
+| Índice | O número $$n$$ no radical — indica qual raiz está sendo extraída |
+| Radicando | O número $$a$$ dentro do radical — número do qual se extrai a raiz |
+| Raiz | O resultado $$b$$ da radiciação: $$\sqrt[n]{a} = b$$ |
+| Raiz quadrada | Radical de índice 2 ($$\sqrt{a}$$) — o mais comum; índice omitido por convenção |
+| Raiz cúbica | Radical de índice 3 ($$\sqrt[3]{a}$$) |
+| Radicais semelhantes | Radicais com o mesmo índice e o mesmo radicando |
+| Racionalização | Processo de eliminar o radical irracional do denominador de uma fração |
+| Expoente fracionário | Forma de escrever radicais como potências: $$\sqrt[n]{a^m} = a^{m/n}$$ |
+| Simplificação | Reescrever o radical de forma mais simples por fatoração do radicando |
+| Conjugado | Par $$(a + \sqrt{b})(a - \sqrt{b})$$ usado na racionalização de denominadores binomiais |
+| Fator racionalizante | Fração equivalente a 1 pela qual se multiplica para eliminar o radical do denominador |
+
+---
+
 ## SEÇÃO 6 — TABELAS DE REFERÊNCIA
 
 ### Tabela: Condições de Validade da Raiz Enésima
@@ -375,6 +394,19 @@ $$a^{\frac{2}{3}} = \sqrt[3]{a^2}$$, não $$\sqrt[2]{a^3}$$. O denominador do ex
 7. Uma pastagem quadrada de 150 hectares tem área de `______` m². Para calcular o lado, aplica-se a `______` desse valor. *(resposta: 1 500 000 m²; raiz quadrada)*
 
 8. Para racionalizar $$\dfrac{1}{\sqrt[3]{a}}$$, multiplica-se pelo fator $$\dfrac{\sqrt[3]{a^{\,\square}}}{\sqrt[3]{a^{\,\square}}}$$. O expoente é `______`. *(resposta: 2, pois $$n - m = 3 - 1 = 2$$)*
+
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Definição de radiciação | Operação inversa da `______` → potenciação |
+| Condição (índice par) | Se o índice for par, o radicando deve ser `______` → ≥ 0 |
+| Potência fracionária | $$\sqrt[n]{a^m} =\;$$ `______` → $$a^{m/n}$$ |
+| Produto de radicais | $$\sqrt[n]{a \cdot b} =\;$$ `______` → $$\sqrt[n]{a} \cdot \sqrt[n]{b}$$ |
+| Raiz de raiz | $$\sqrt[m]{\sqrt[n]{a}} =\;$$ `______` → $$\sqrt[mn]{a}$$ |
+| Radicais semelhantes | Mesmos `______` e `______` → índice; radicando |
+| Racionalização | Processo de eliminar o `______` irracional → denominador |
+| Fator racionalizante de $$1/\sqrt[3]{a}$$ | Multiplica-se por `______` → $$\sqrt[3]{a^2}/\sqrt[3]{a^2}$$ |
 
 ---
 
