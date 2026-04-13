@@ -20,6 +20,8 @@ Tabelas da Seção 6 são apresentadas como markdown no chat.
 
 ---
 
+## SEÇÃO 1 — METADADOS
+
 # PREPARAÇÃO DE AULA — FÍSICA
 - Unidade: 1
 - Capítulo: 3
@@ -323,6 +325,19 @@ Não aplicável — capítulo sem fórmulas matemáticas.
 
 8. Em 2006, a UAI rebaixou `______` à categoria de planeta-anão porque ele não atende ao critério de `______`.
    *(resposta: Plutão / limpar a vizinhança orbital)*
+
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Modelo Heliocêntrico | Sol no centro; proposto por `______` → Nicolau Copérnico |
+| Modelo Geocêntrico | Terra no centro; proposto por `______` → Cláudio Ptolomeu |
+| Teoria do Big Bang | Universo surgiu de uma `______`; evidência: galáxias `______` da Via Láctea → grande explosão; se afastando |
+| Ano-luz | Medida de `______` (não de tempo) → distância |
+| Planetas Telúricos | Compostos de `______` · exemplos: `______` → rochas e minerais; Mercúrio, Vênus, Terra, Marte |
+| Planetas Jovianos | Compostos de `______` · exemplos: `______` → gases; Júpiter, Saturno, Urano, Netuno |
+| Planeta mais quente | `______`, por conta do efeito estufa causado por `______` → Vênus; CO₂ |
+| Rebaixamento de Plutão | Em `______`, por não atender ao critério de `______` → 2006; limpar a vizinhança orbital |
 
 ---
 

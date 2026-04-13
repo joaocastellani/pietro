@@ -22,6 +22,8 @@ Tabelas da Seção 6 são apresentadas como markdown no chat.
 
 ---
 
+## SEÇÃO 1 — METADADOS
+
 # PREPARAÇÃO DE AULA — FÍSICA
 - Unidade: 1
 - Capítulo: 2
@@ -331,6 +333,19 @@ N (Newton), J (Joule), A (Ampere) — maiúsculos porque derivam de nomes. m (me
 
 8. Prefixo "mega" = `______` · prefixo "micro" = `______` · prefixo "mili" = `______`.
    *(resposta: 10⁶ / 10⁻⁶ / 10⁻³)*
+
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Grandeza física | Característica que pode ser `______`, expressa por número + `______` → medida; unidade |
+| Grandeza fundamental | `______` de outras grandezas; definida diretamente → independente |
+| Grandeza derivada | Definida a partir de `______` → grandezas fundamentais |
+| Grandeza escalar | Possui valor e unidade, sem `______` → direção |
+| Grandeza vetorial | Possui valor, unidade, `______` e `______` → direção; sentido |
+| Massa vs. peso | Massa em `______` · peso em `______` (é uma força) → kg; N |
+| Notação científica | Forma a × 10ⁿ, com a tal que `______` → 1 ≤ a < 10 |
+| Ordem de grandeza | Fronteira entre 10^p e 10^(p+1) é `______` → √10 ≈ 3,16 |
 
 ---
 

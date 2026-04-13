@@ -19,6 +19,8 @@ Tabelas da Seção 6 são apresentadas como markdown no chat.
 
 ---
 
+## SEÇÃO 1 — METADADOS
+
 # PREPARAÇÃO DE AULA — FÍSICA
 - Unidade: 1
 - Capítulo: 1
@@ -334,6 +336,19 @@ Não aplicável — capítulo sem fórmulas matemáticas.
 
 8. Isaac Newton disse: "Se enxerguei mais longe foi porque me apoiei sobre ombros de `______`." Ele se referia a `______`, `______` e `______`.
    *(resposta: gigantes / Copérnico / Galileu / Kepler)*
+
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Definição de Física | Ciência que descreve os `______` que regem os fenômenos naturais → princípios e leis |
+| Física Clássica | Conceitos desenvolvidos `______` de 1900 → antes |
+| Física Moderna | Marcos: `______` (Planck, 1900) e `______` (Einstein, 1905) → Teoria Quântica; Relatividade |
+| Método científico | Introduzido por `______`, baseado em experimentação sistemática → Galileu Galilei |
+| Mecânica | Estuda `______` e suas causas → movimentos |
+| Termologia | Estuda `______`, calor e seus efeitos → temperatura |
+| Ondulatória | Estuda ondas `______` e `______` → mecânicas; eletromagnéticas |
+| Confirmação da Relatividade | Ocorreu em `______`, durante eclipse em `______` / `______` → 1919; Sobral; Ceará |
 
 ---
 
