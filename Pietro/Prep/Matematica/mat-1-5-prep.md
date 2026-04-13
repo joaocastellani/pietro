@@ -507,6 +507,9 @@ Tabela visual das 6 relações métricas organizadas por grupo de semelhança.
       .wt{fill:#fff;font-size:12px;font-weight:700;text-anchor:middle;dominant-baseline:central}
       .ts{font-size:11px;fill:#6b7280;text-anchor:middle;dominant-baseline:central}
     </style>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 Z" fill="#555"/>
+    </marker>
   </defs>
   <rect x="10" y="10" width="660" height="36" rx="8" fill="#1a3a5c"/>
   <text x="340" y="28" class="wt" style="font-size:14px">Relações Métricas no Triângulo Retângulo</text>
@@ -550,6 +553,9 @@ Os três triângulos semelhantes com ângulos α e β identificados.
       .ts{font-size:11px;fill:#6b7280;text-anchor:middle;dominant-baseline:central}
       .wt{fill:#fff;font-size:11px;font-weight:700;text-anchor:middle;dominant-baseline:central}
     </style>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 Z" fill="#555"/>
+    </marker>
   </defs>
   <rect x="10" y="6" width="80" height="26" rx="13" fill="#7c3aed"/>
   <text x="50" y="19" class="wt">△ABC</text>

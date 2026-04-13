@@ -630,6 +630,9 @@ Três casos de semelhança de triângulos: AA, LAL e LLL.
       .ts{font-size:11px;fill:#64748b;dominant-baseline:central;}
       .th{font-size:13px;font-weight:700;fill:#ffffff;dominant-baseline:central;}
     </style>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 Z" fill="#555"/>
+    </marker>
   </defs>
 
   <!-- Título -->
