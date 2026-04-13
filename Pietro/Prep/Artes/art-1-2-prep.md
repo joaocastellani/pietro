@@ -28,6 +28,8 @@ das páginas do livro se disponíveis.
 
 ---
 
+## SEÇÃO 1 — METADADOS
+
 # PREPARAÇÃO DE AULA — ARTES
 - Unidade: 1
 - Capítulo: 2
@@ -363,6 +365,19 @@ Ação: não incluir datas inferidas na aula.
 
 8. A obra *Wall drawing, 1152* de Sol LeWitt exemplifica a Arte Conceitual porque foi executada por ______ e as paredes foram ______ ao final da Bienal de SP — demonstrando a efemeridade do movimento.
    *(artistas brasileiros / terceiros · pintadas e apagadas)*
+
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Concretismo | Arte `______` e racional, sem figuração e sem expressão de `______` → geométrica; emoções |
+| Fundador do Concretismo | `______`, arquiteto holandês, manifesto de `______` → Theo van Doesburg; 1930 |
+| Grupo Ruptura | Atuava em `______`; postura mais `______` → São Paulo; rígida/racionalista |
+| Grupo Frente | Atuava no Rio de Janeiro; mais `______` expressiva e materiais variados → liberdade |
+| Arte Conceitual | A `______` tem mais importância que a obra física — pode ser efêmera e executada por `______` → ideia; terceiros |
+| Poesia Concreta | Valoriza a disposição `______` das palavras; idealizada por Augusto e Haroldo de Campos e `______` → visual; Décio Pignatari |
+| Teatro Oficina — Te-ato | Inovação de `______` com a peça *Roda Viva*: participação do `______` na encenação → 1968; público |
+| Reforma do Teatro Oficina | Coordenada por `______` e Edson Elito; levou `______` anos → Lina Bo Bardi; treze |
 
 ---
 

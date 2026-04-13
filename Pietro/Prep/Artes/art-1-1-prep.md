@@ -32,6 +32,8 @@ das páginas do livro se disponíveis.
 
 ---
 
+## SEÇÃO 1 — METADADOS
+
 # PREPARAÇÃO DE AULA — ARTES
 - Unidade: 1
 - Capítulo: 1
@@ -463,6 +465,19 @@ Ação: reprocessar as páginas faltantes e fazer append no `art-1-1.md` antes d
 
 8. O projeto ______, de Rudolf von Laban, criava coreografias simples executadas de forma sincronizada e colaborativa por bailarinos e pessoas comuns.
    *(Dança coral)*
+
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Futurismo | Movimento `______`, início do séc. XX; buscava materializar `______` e desenvolvimento → italiano; velocidade |
+| Cubismo | Representa o mesmo elemento em vários `______` simultaneamente → ângulos |
+| Semana de Arte Moderna | Ocorreu em `______`, no `______` de São Paulo; rompeu com o academicismo → fevereiro de 1922; Teatro Municipal |
+| Guernica | Touro = `______`; cavalo = `______` → brutalidade do evento; dor e agonia do povo espanhol |
+| Bossa Nova | Fusão do `______` com o `______` → samba; jazz |
+| Dança moderna | Surgiu em oposição ao `______` e suas regras rígidas → balé clássico |
+| Rosana Paulino — Bastidores | Boca costurada simboliza o `______` imposto às vítimas → silêncio |
+| Dança Coral (Laban) | Coreografias executadas de forma `______` por bailarinos e pessoas comuns → sincronizada e colaborativa |
 
 ---
 
