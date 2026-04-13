@@ -471,6 +471,19 @@ Em verbos irregulares, o radical varia — não existe "um radical único". Para
 8. Timor-Leste tornou-se o `______` país a nascer no século `______`, após a independência em `______`.
 *(resposta: primeiro / XXI / 2002)*
 
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Radical verbal | Morfema que traz o `______` básico do verbo; obtido retirando a `______` do infinitivo → significado; terminação |
+| Vogal temática verbal | -A- = `______` conjugação · -E- = `______` · -I- = `______` → 1ª; 2ª; 3ª |
+| Desinência modotemporal (DMT) | Morfema `______` que indica modo e tempo simultaneamente → cumulativo |
+| DMT "-SSE" | Indica `______` do `______` → pretérito imperfeito; subjuntivo |
+| Verbo irregular | Aquele cujo `______` muda nas conjugações — ex: "fazer → faço, fiz" → radical |
+| Coerência sintática | Organização `______` dos elementos da frase para construir o sentido pretendido → harmoniosa |
+| Editorial | Texto jornalístico de `______` que apresenta o `______` ideológico da publicação → abertura; posicionamento |
+| Editorial — pessoa gramatical | Predomina a `______` pessoa do singular ou do plural → 1ª |
+
 ---
 
 ## SEÇÃO 10 — SÍNTESE DO LIVRO

@@ -465,6 +465,19 @@ Tem intenção informativa, mas contém marcas de subjetividade do escrivão. Hi
 8. Na Carta do Achamento, o `______` é o rei e a `______` é todo o texto escrito na carta.
 *(resposta: receptor · mensagem)*
 
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Canal | Meio `______` pelo qual circula a mensagem → físico |
+| Código | Conjunto de `______` empregado na comunicação → sinais |
+| Interlocutores | Emissor e `______` no ato comunicativo → receptor |
+| Coerência externa | Relação entre o texto e o `______` de mundo do produtor → conhecimento |
+| Coerência interna | Harmonia `______` entre os elementos do próprio texto → lógica |
+| Metáfora | Substitui uma palavra por outra com base em `______`, sem conectivo → semelhança |
+| Texto informativo | Estrutura: `______` → desenvolvimento → `______` → introdução; conclusão |
+| "Erro de português" | Autor: `______`; com sol, o índio teria `______` o português → Oswald de Andrade; despido |
+
 ---
 
 ## SEÇÃO 10 — SÍNTESE DO LIVRO

@@ -607,6 +607,19 @@ Ex: responder "Ontem choveu" a "Pode me emprestar sua borracha?"
    e deve pautar-se pela veracidade e precisão dos fatos.
    *(resposta: jornalismo, literatura e história)*
 
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Função emotiva | Centrada no `______`; revela emoções; verbos em `______` pessoa → emissor; 1ª |
+| Função apelativa | Centrada no `______`; visa persuadir; usa imperativo e `______` → receptor; vocativo |
+| Função metalinguística | Centrada no `______`; a linguagem fala sobre `______` → código; si mesma |
+| Função fática | Centrada no `______`; verifica se a comunicação está funcionando → canal |
+| Coerência pragmática | Coerência das palavras em uso, correspondendo ao `______` da situação → contexto |
+| Biografia vs. autobiografia | Biografia: `______` pessoa; autobiografia: `______` pessoa → 3ª; 1ª |
+| Variação vocabular PT/BR | "Montra" em Portugal = `______` no Brasil → vitrine |
+| Colocação pronominal | Portugal: pronome `______` do verbo ("Dá-me"); Brasil: pronome `______` do verbo ("Me dá") → depois; antes |
+
 ---
 
 ## SEÇÃO 10 — SÍNTESE DO LIVRO
