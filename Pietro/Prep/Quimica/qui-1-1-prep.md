@@ -344,6 +344,19 @@ Evaporação (lenta), Ebulição (rápida, aquecimento) e Calefação (instantâ
 8. Álcool é mais `______` que água, por isso evapora mais facilmente à temperatura ambiente.
 *(resposta: volátil)*
 
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Definição de matéria | Tudo que tem `______` e ocupa `______` → massa; lugar no espaço |
+| Propriedades gerais | Observadas em `______` os tipos de matéria: massa, extensão, impenetrabilidade, `______`, divisibilidade → todos; inércia |
+| Propriedades específicas | Servem para `______` os tipos de matéria → diferenciar |
+| Viscosidade | Resistência ao `______` — quanto maior, escoamento mais `______` → escoamento; lento |
+| Volatilidade | Facilidade de `______` à temperatura ambiente → evaporar |
+| Plasma | 4º estado da matéria; gás `______` que se torna eletricamente `______` → superaquecido; carregado |
+| Lei de Lavoisier | Massa dos `______` = massa dos `______` em sistema fechado → reagentes; produtos |
+| Mudança de estado direta: gás → sólido | Chama-se `______` → ressublimação |
+
 ---
 
 # SEÇÃO 10 — SÍNTESE DO LIVRO
