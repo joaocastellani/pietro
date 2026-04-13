@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Mapa Mental — Geografia U1C3</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #F4F2EE;
+    color: #1a1a1a;
+    min-height: 100vh;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    background: #2D6A4F;
+    color: #fff;
+    padding: 32px 40px 28px;
+    text-align: center;
+  }
+  .header .sub { font-size: 14px; font-weight: 600; opacity: .8; letter-spacing: .06em; margin-bottom: 8px; }
+  .header h1 { font-size: 32px; font-weight: 800; margin-bottom: 6px; }
+  .header .gen { font-size: 13px; opacity: .7; margin-bottom: 18px; }
+  .legend {
+    display: inline-flex; gap: 24px; background: rgba(255,255,255,.12);
+    border-radius: 40px; padding: 8px 24px; font-size: 12px; font-weight: 600;
+  }
+  .legend span { display: flex; align-items: center; gap: 6px; }
+  .dot { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }
+  .dot-dom { background: #52B788; }
+  .dot-ref { background: #E63946; }
+  .dot-new { background: #1B4332; }
+
+  /* ── PÍLULA CENTRAL ── */
+  .pill-wrap { display: flex; justify-content: center; padding: 36px 20px 20px; }
+  .pill {
+    background: #2D6A4F; color: #fff;
+    font-size: 20px; font-weight: 800;
+    padding: 16px 48px; border-radius: 60px;
+    box-shadow: 0 4px 20px rgba(45,106,79,.35);
+    text-align: center; letter-spacing: .02em;
+  }
+
+  /* ── GRID ── */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0 32px 32px;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  /* ── CARD ── */
+  .card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.07);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow .2s;
+  }
+  .card:hover { box-shadow: 0 6px 20px rgba(0,0,0,.13); }
+
+  .card-header {
+    display: flex; align-items: center; gap: 12px;
+    padding: 14px 16px 12px;
+    border-left: 4px solid #2D6A4F;
+  }
+  .card-num {
+    background: #2D6A4F; color: #fff;
+    font-size: 12px; font-weight: 800;
+    width: 26px; height: 26px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .card-title { font-size: 14px; font-weight: 700; color: #1B4332; line-height: 1.3; }
+
+  .card-body { padding: 0 16px 14px; flex: 1; }
+
+  .card-body ul { list-style: none; margin-top: 8px; }
+  .card-body ul li {
+    font-size: 13px; color: #374151;
+    padding: 4px 0 4px 14px;
+    border-bottom: 1px solid #F3F4F6;
+    position: relative; line-height: 1.45;
+  }
+  .card-body ul li:last-child { border-bottom: none; }
+  .card-body ul li::before {
+    content: "▸"; position: absolute; left: 0;
+    color: #2D6A4F; font-size: 11px; top: 5px;
+  }
+
+  /* tabela compacta */
+  .mini-table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 12px; }
+  .mini-table
