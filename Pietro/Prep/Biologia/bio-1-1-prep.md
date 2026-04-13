@@ -15,6 +15,8 @@ Tabelas da Seção 6 são apresentadas como markdown no chat.
 
 ---
 
+## SEÇÃO 1 — METADADOS
+
 # PREPARAÇÃO DE AULA — BIOLOGIA
 - Unidade: 1
 - Capítulo: 1
@@ -172,6 +174,24 @@ O processo hipotético que teria levado das moléculas simples aos primeiros ser
 
 ---
 
+## SEÇÃO 5 — GLOSSÁRIO
+
+| Termo | Definição |
+|-------|-----------|
+| Biologia | Ciência que estuda a vida, os seres vivos e suas relações com o ambiente |
+| Abiogênese | Hipótese (refutada) de que seres vivos surgem espontaneamente de matéria não viva |
+| Biogênese | Hipótese de que a vida só se origina de vida preexistente |
+| Evolução química | Hipótese que explica o surgimento das primeiras moléculas orgânicas no oceano primitivo |
+| Sopa primordial | Oceano primitivo rico em moléculas inorgânicas; cenário da evolução química (Oparin e Haldane) |
+| Protobiontes / Coacervados | Estruturas pré-celulares organizadas; etapa final da evolução química |
+| Espécie | Conjunto de organismos capazes de se reproduzir entre si e gerar descendentes férteis |
+| Fóssil | Vestígio preservado de um ser vivo do passado; a evidência mais antiga de vida data de ~3,5 bilhões de anos |
+| Célula | Unidade estrutural e funcional dos seres vivos |
+| Vitalismo / Força vital | Conceito ligado à abiogênese; ideia de que a vida possuiria uma força imaterial especial |
+| Pasteurização | Processo de aquecimento para eliminar micro-organismos; decorre dos experimentos de Pasteur que refutaram a abiogênese |
+
+---
+
 ## SEÇÃO 6 — DADOS FACTUAIS DENSOS
 
 ### Comparação: Abiogênese × Biogênese × Evolução Química
@@ -292,6 +312,19 @@ Protobiontes e coacervados são a *última* etapa da evolução química — est
 
 8. A Terra se formou há cerca de `______` bilhões de anos. A evidência mais antiga de vida data de `______` bilhões de anos.
 *(resposta: 4,6; 3,5)*
+
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Abiogênese | Hipótese de que a vida surge `______` de matéria não viva; status: `______` → espontaneamente; refutada |
+| Biogênese | Vida só se origina de `______`; não explica o surgimento da `______` forma de vida → vida; primeira |
+| Sopa primordial | Proposta por `______` e `______` nos anos 1920; local: oceano `______` → Oparin; Haldane; primitivo |
+| Evolução química — etapas | Moléculas inorgânicas → moléculas orgânicas → `______` → `______` → protobiontes → Macromoléculas; coacervados |
+| Condições da evolução química | `______` de tempestades e intensa radiação `______` → descargas elétricas; ultravioleta |
+| Espécie (conceito biológico) | Organismos que geram descendentes `______` entre si → férteis |
+| Pasteur — experimento | Frasco com gargalo em `______` manteve caldo estéril impedindo `______` → pescoço de cisne; micro-organismos |
+| Formação da Terra | Há ~`______` bilhões de anos; fósseis mais antigos: ~`______` bilhões de anos → 4,6; 3,5 |
 
 ---
 
