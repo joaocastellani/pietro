@@ -558,6 +558,19 @@ semântica (terra, terráqueo, aterramento). Falsos cognatos
    os que aparecem depois do radical são chamados de `______`.
    *(resposta: prefixos / sufixos)*
 
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Morfema | Cada elemento `______` de uma palavra; pode ser `______` (significado) ou gramatical → formador; lexical |
+| Radical | Morfema que informa o `______` básico da palavra; base para a família → significado |
+| Vogal temática (nome) | Morfema classificatório átono final em -a, -e ou -o, quando não existe `______` de gênero → oposição |
+| Morfema zero (Ø) | Representa a `______` de desinência quando existe a forma oposta → ausência |
+| Coerência estilística | Adequação da `______` ao contexto, mantendo registro `______` → linguagem; uniforme |
+| Manchete | Título principal da capa de revista; deve ser concisa e `______` → instigante |
+| Prefixo vs. sufixo | Afixos `______` do radical = prefixos; afixos `______` do radical = sufixos → antes; depois |
+| Conto "Vida nova" — autor | `______`, escritor de `______` → Pepetela; Angola |
+
 ---
 
 ## SEÇÃO 10 — SÍNTESE DO LIVRO
