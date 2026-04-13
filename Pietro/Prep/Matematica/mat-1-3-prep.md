@@ -781,6 +781,9 @@ Resumo visual das fórmulas principais do capítulo.
       .t  { font-family: Inter, sans-serif; font-size: 12px; fill: #fff; dominant-baseline: central; text-anchor: middle; }
       .ts { font-family: Inter, sans-serif; font-size: 11px; fill: #444; dominant-baseline: central; text-anchor: middle; }
     </style>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 Z" fill="#555"/>
+    </marker>
   </defs>
 
   <!-- Título -->
