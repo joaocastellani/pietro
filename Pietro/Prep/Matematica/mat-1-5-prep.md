@@ -329,6 +329,19 @@ Em blocos retangulares, calcule primeiro a diagonal da base e depois use esse re
 
 8. Quando $$\vec{F_1} \perp \vec{F_2}$$, a força resultante satisfaz `______`. *(F²R = F²₁ + F²₂)*
 
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Hipotenusa | Lado oposto ao ângulo reto; sempre o `______` dos três lados → maior |
+| Catetos | Os dois lados que formam o `______` → ângulo reto (90°) |
+| Triângulos semelhantes | Ao traçar a altitude h, formam-se `______` triângulos semelhantes → três |
+| Teorema de Pitágoras | $$a^2 =\;$$ `______` → $$b^2 + c^2$$ |
+| Relação da altitude | $$h^2 =\;$$ `______` → $$m \cdot n$$ |
+| Relação hipotenusa-catetos | $$a \cdot h =\;$$ `______` → $$b \cdot c$$ |
+| Cadeia de semelhança | △ABC ~ `______` ~ `______` → △HBA ~ △HAC |
+| Força resultante perpendicular | $$F_R^2 =\;$$ `______` → $$F_1^2 + F_2^2$$ |
+
 ---
 
 ## SEÇÃO 10 — SÍNTESE DO LIVRO

@@ -458,6 +458,19 @@ Nenhuma inconsistência pendente. Todas as inconsistências anteriores foram cor
 **8.** O produto $$(2 \times 10^5) \cdot (9 \times 10^6)$$ resulta em `______` em notação científica corretamente ajustada.
 *(resposta: $$1{,}8 \times 10^{12}$$)*
 
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Definição de potenciação | $$a^n$$ = produto de $$n$$ fatores iguais a `______` → $$a$$ (a base) |
+| Expoente zero | $$a^0 =\;$$ `______`, com condição `______` → 1; a ≠ 0 |
+| Expoente negativo | $$a^{-m} =\;$$ `______` → $$1/a^m$$ |
+| Produto de mesma base | $$a^m \cdot a^n =\;$$ `______` → $$a^{m+n}$$ |
+| Divisão de mesma base | $$a^m / a^n =\;$$ `______` → $$a^{m-n}$$ |
+| Potência de potência | $$(a^m)^n =\;$$ `______` → $$a^{m \cdot n}$$ |
+| Notação científica | Forma $$N \times 10^n$$, com $$N$$ tal que `______` → $$1 \leq N < 10$$ |
+| Base negativa, expoente par | Resultado sempre `______` → positivo |
+
 ---
 
 ## SEÇÃO 10 — SÍNTESE DO LIVRO
