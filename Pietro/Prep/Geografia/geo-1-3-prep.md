@@ -412,6 +412,19 @@ Ao contrário do que parece intuitivo, no clima mediterrâneo as chuvas se conce
 8. A península `______` é conhecida como berço dos vikings; já a península `______` foi o ponto de partida das Grandes Navegações no século XV.
 *(resposta: Escandinava · Ibérica)*
 
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Fiorde | Vale profundo escavado por `______`, por onde o mar avança para o interior do continente → glaciares |
+| Permafrost | Solo congelado que origina, no degelo, a vegetação rasteira chamada `______` → tundra |
+| Taiga | Floresta de `______` adaptada ao frio; não perde as folhas no `______` → coníferas; outono/inverno |
+| Maquis | Vegetação do clima `______`; folhas transformadas em espinhos para reduzir `______` → mediterrâneo; transpiração |
+| Monte Elbrus | Pico mais alto da Europa; cadeia `______`; `______` m → Cáucaso; 5.633 |
+| Rio Reno | Foz: `______`; maior porto europeu: `______` → Mar do Norte; Roterdã |
+| Rio Danúbio | Foz: `______`; capitais que atravessa: Viena, `______`, Budapeste, Belgrado → Mar Negro; Bratislava |
+| Penínsulas europeias | Berço dos vikings: `______`; partida das Grandes Navegações: `______` → Escandinava; Ibérica |
+
 ---
 
 ## SEÇÃO 10 — SÍNTESE DO LIVRO

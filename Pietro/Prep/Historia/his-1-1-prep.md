@@ -332,6 +332,19 @@ O Panamá pertencia à Colômbia. Os EUA apoiaram a independência panamenha esp
 8. Os EUA apoiaram a independência do Panamá em 1903 e, em troca, exigiram o controle do `______`, que ligaria o oceano Pacífico ao Atlântico.
 *(resposta: Canal do Panamá)*
 
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Segunda Revolução Industrial | Novas fontes de energia: `______` e `______`; pioneira da Primeira: `______` → eletricidade; petróleo; Inglaterra |
+| Belle Époque | Período de entusiasmo da `______` europeia com o progresso tecnológico e cultural → burguesia |
+| Doutrina Monroe | Lema: `______`; preferência dos EUA: intervenção `______` (econômica) → "América para os americanos"; indireta |
+| Conferência de Berlim | Ano: `______`; regulamentou a `______` da África → 1884–1885; partilha |
+| Neocolonialismo | Diferença do colonialismo: foco em `______` e mercados, não em escravidão → matérias-primas industriais |
+| Visão eurocêntrica | Construída entre os séculos `______` a `______` → XVI; XIX |
+| Produção de aço (1870 → 1895) | De 551 mil para `______` milhões de toneladas → 14,9 |
+| Independência do Panamá | Ano: `______`; EUA exigiram o controle do `______` → 1903; Canal do Panamá |
+
 ---
 
 ## SEÇÃO 10 — SÍNTESE DO LIVRO
