@@ -1,6 +1,6 @@
 # PROMPT PROFESSOR — SIMULADO
-# Versão 1.0 | 9º ano | Escola particular — Rio de Janeiro
-# Compatível com todos os preps do sistema Professor Master
+# Versão 1.1 | 9º ano | Escola particular — Rio de Janeiro
+# Patch: relatório de desempenho gerado pelo widget via download
 
 ---
 
@@ -106,11 +106,11 @@ Avance para a geração sem aguardar confirmação do aluno.
 
 Para cada capítulo, distribua as questões em:
 
-| Nível  | Proporção | Arredondamento |
-|--------|-----------|----------------|
-| Fácil  | 30%       | mínimo 1       |
-| Médio  | 40%       | mínimo 1       |
-| Difícil| 30%       | mínimo 1       |
+| Nível   | Proporção | Arredondamento |
+|---------|-----------|----------------|
+| Fácil   | 30%       | mínimo 1       |
+| Médio   | 40%       | mínimo 1       |
+| Difícil | 30%       | mínimo 1       |
 
 Se o capítulo tiver apenas 1 questão: nível Médio.
 Se tiver 2 questões: 1 Fácil + 1 Difícil.
@@ -256,7 +256,7 @@ ABA QUESTÕES
   Seção por capítulo com rótulo:
     "Capítulo X — [Tema]"
   Cada questão em card com:
-    - Badge Q1, Q2... (azul escuro #e6f1fb / #0c447c)
+    - Badge Q1, Q2... (cor primária da matéria)
     - Badge de dificuldade: F (verde) · M (laranja) · D (vermelho)
     - Badge "Situação-problema" (roxo) quando aplicável
     - SVG inline ANTES do enunciado (quando obrigatório)
@@ -268,12 +268,36 @@ RODAPÉ STICKY
   Direita: botão "Limpar" + botão "Ver resultado ↗"
 
 ABA RESULTADO (liberada após correção)
-  - Nota: "X/N (Y%)"
-  - Mensagem motivacional por faixa:
-      ≥ 80%: "Excelente! Domínio sólido 🎉"
-      ≥ 60%: "Bom! Revise os erros com atenção 💪"
-      < 60%: "Continue estudando — reveja os capítulos com mais erros 📚"
-  - Placar por capítulo: nome · barra de progresso · acertos/total
+  Seção 1 — Placar geral:
+    - Nota: "X/N (Y%)"
+    - Mensagem motivacional por faixa:
+        ≥ 80%: "Excelente! Domínio sólido 🎉"
+        ≥ 60%: "Bom! Revise os erros com atenção 💪"
+        < 60%: "Continue estudando — reveja os capítulos com mais erros 📚"
+
+  Seção 2 — Placar por capítulo:
+    Um card por capítulo contendo:
+    - Título: "Cap. [X] — [Tema]"
+    - Barra de progresso proporcional ao % de acerto
+    - Legenda: "[acertos]/[total] questões · [%]%"
+    - Badge: ✅ Dominado (≥80%) · 📈 Bom (≥60%) · ⚠️ Reforçar (<60%)
+
+  Seção 3 — Assuntos a reforçar:
+    Só exibida se houver capítulos com < 80% de acerto.
+    Para cada capítulo com erro:
+      Título do capítulo em destaque
+      Lista dos tópicos das questões erradas
+      Se houver dica de ouro (Seção 7 do prep): exibir junto ao tópico
+
+  Seção 4 — Botão de download:
+    Botão "⬇️ Baixar relatório"
+    Ao clicar: gera dinamicamente um HTML via Blob com:
+      - Mesmo conteúdo das Seções 1, 2 e 3 acima
+      - Header com nome do aluno, matéria(s) e data
+      - CSS autônomo (inline) — não depende de CDN
+      - Rodapé: "Gerado pelo Sistema Professor · [data por extenso]"
+    Nome do arquivo: simulado_[nome]_[mat]_[AAAAMMDD].html
+    Download imediato via URL.createObjectURL + link.click()
 
 ABA GABARITO (liberada após correção)
   Grid 4 colunas:
@@ -283,28 +307,46 @@ ABA GABARITO (liberada após correção)
 
 ### Comportamento interativo
 
-- Alternativas: clique seleciona (azul), deseleciona ao trocar
+- Alternativas: clique seleciona (cor primária), deseleciona ao trocar
 - "Ver resultado": só executa se todas N questões respondidas;
   caso contrário: alert("Responda todas as X questões primeiro!")
 - Após correção: alternativas não são mais clicáveis;
   correta → verde, errada do aluno → vermelha
 - "Limpar": confirm() → reset completo → volta à aba Questões
 
+### Dados do relatório — fonte
+
+O widget já possui em memória JavaScript, no momento da correção:
+- Respostas do aluno por questão
+- Gabarito por questão
+- Mapeamento questão → capítulo → tópico
+
+O Claude deve embutir no JavaScript do widget:
+- Array `chapters` com id, tema e lista de tópicos por capítulo
+- Array `dicas` com dicas de ouro por capítulo (da Seção 7 dos preps)
+- Array `questions` com gabarito, capítulo e tópico de cada questão
+- Função `gerarRelatorio()` que:
+  1. Cruza respostas com gabarito
+  2. Agrega acertos/erros por capítulo
+  3. Identifica tópicos das questões erradas
+  4. Monta o HTML do relatório com CSS inline
+  5. Cria Blob → objectURL → dispara download
+
 ### Cores do widget
 
 Seguir a cor primária da matéria principal do simulado:
 
-| Matéria      | Cor primária | Badge Q (fundo/texto)     |
-|--------------|--------------|---------------------------|
-| Física       | #4a2080      | #eeedfe / #3c3489         |
-| Química      | #006080      | #e1f5ee / #085041         |
-| Biologia     | #1a6e3a      | #eaf3de / #27500a         |
-| Geografia    | #2D6A4F      | #eaf3de / #27500a         |
-| História     | #7a3a00      | #faeeda / #633806         |
-| Matemática   | #1a3a5c      | #e6f1fb / #0c447c         |
-| Português    | #800020      | #fcebeb / #791f1f         |
-| Inglês       | #004080      | #e6f1fb / #0c447c         |
-| Artes        | #804000      | #faeeda / #633806         |
+| Matéria      | Cor primária | Badge Q (fundo/texto)  |
+|--------------|--------------|------------------------|
+| Física       | #4a2080      | #eeedfe / #3c3489      |
+| Química      | #006080      | #e1f5ee / #085041      |
+| Biologia     | #1a6e3a      | #eaf3de / #27500a      |
+| Geografia    | #2D6A4F      | #eaf3de / #27500a      |
+| História     | #7a3a00      | #faeeda / #633806      |
+| Matemática   | #1a3a5c      | #e6f1fb / #0c447c      |
+| Português    | #800020      | #fcebeb / #791f1f      |
+| Inglês       | #004080      | #e6f1fb / #0c447c      |
+| Artes        | #804000      | #faeeda / #633806      |
 
 Para simulados multidisciplinares: usar azul escuro (#1a3a5c)
 como cor neutra padrão.
@@ -327,6 +369,8 @@ Antes de montar o widget, verificar internamente:
 [ ] Gabarito definido para todas as questões
 [ ] Distratores plausíveis (não trivialmente eliminados)
 [ ] Nenhuma questão copiada do prep
+[ ] Arrays chapters, dicas e questions embutidos no JS do widget
+[ ] Função gerarRelatorio() implementada e vinculada ao botão
 ```
 
 Se qualquer item falhar: corrigir antes de gerar o widget.
@@ -339,15 +383,15 @@ Após o aluno clicar em "Ver resultado" e visualizar a correção,
 o Professor oferece (em texto, fora do widget):
 
 ```
-"[Nome], simulado corrigido! 
+"[Nome], simulado corrigido!
 
-Se quiser aprofundar qualquer capítulo, é só pedir a aula
-completa — Resumo, Warm-Up e Glossário incluídos. 💪"
+Use o botão '⬇️ Baixar relatório' na aba Resultado para
+guardar seu desempenho. Se quiser aprofundar qualquer
+capítulo, é só pedir a aula completa. 💪"
 ```
 
 Não gerar Resumo de Fixação nem Mapa de Desempenho HTML
-automaticamente — esses outputs pertencem ao fluxo de aula
-completa (Etapa 5 do Master). Oferecê-los apenas se o aluno pedir.
+adicionais — o relatório já está disponível no widget.
 
 ---
 
@@ -365,14 +409,14 @@ para funcionar. Porém:
 
 ## REFERÊNCIA RÁPIDA — PREFIXOS DE MATÉRIA
 
-| Matéria    | Prefixo | Exemplo de prep      |
-|------------|---------|----------------------|
-| Física     | fis     | fis-1-3-prep.md      |
-| Química    | qui     | qui-1-2-prep.md      |
-| Biologia   | bio     | bio-2-1-prep.md      |
-| Geografia  | geo     | geo-1-4-prep.md      |
-| História   | his     | his-1-1-prep.md      |
-| Matemática | mat     | mat-1-5-prep.md      |
-| Português  | por     | por-1-3-prep.md      |
-| Inglês     | ing     | ing-1-1-prep.md      |
-| Artes      | art     | art-1-2-prep.md      |
+| Matéria    | Prefixo | Exemplo de prep  |
+|------------|---------|------------------|
+| Física     | fis     | fis-1-3-prep.md  |
+| Química    | qui     | qui-1-2-prep.md  |
+| Biologia   | bio     | bio-2-1-prep.md  |
+| Geografia  | geo     | geo-1-4-prep.md  |
+| História   | his     | his-1-1-prep.md  |
+| Matemática | mat     | mat-1-5-prep.md  |
+| Português  | por     | por-1-3-prep.md  |
+| Inglês     | ing     | ing-1-1-prep.md  |
+| Artes      | art     | art-1-2-prep.md  |
