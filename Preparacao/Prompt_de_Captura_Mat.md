@@ -36,8 +36,8 @@ Campo sem dado concreto = campo ausente no bloco. Sem nenhuma linha.
 PROIBIDO escrever "não aplicável", "não especificado", "omisso",
 "não encontrado" ou qualquer variação. PROIBIDO comentar omissões.
 
-ATIVIDADES: NÃO capture questões da seção Atividades neste arquivo.
-Vão em mat-[u]-[c]-questoes.md.
+ATIVIDADES: NÃO capture questões da seção Atividades no corpo deste arquivo.
+Vão na SEÇÃO ATIVIDADES ao final deste arquivo.
 
 SEÇÃO FINAL OPCIONAL:
 ## IMAGENS RECOMENDADAS PARA CAPTURA
@@ -187,3 +187,102 @@ Se não houver imagem e texto ilegível: registre em IMAGENS RECOMENDADAS.
 - Texto da reflexão [preserve a formulação exata]
 - Conceito matemático central
 - Contexto geométrico ou algébrico [se mencionado]
+
+---
+
+## SEÇÃO ATIVIDADES
+[Capture TODAS as questões da seção Atividades (bloco final numerado).
+NÃO capturar questões intercaladas — essas vão no BLOCO E acima.]
+
+NÃO CAPTURAR:
+- Perguntas retóricas do texto expositivo
+- Exercícios intercalados ao conteúdo (→ BLOCO E)
+- Seção "Reflexão" (discussão em grupo, sem gabarito)
+- "Questão invertida" (aluno cria a pergunta)
+
+IDENTIFICAÇÃO DE QUESTÕES DE CONCURSO — CRÍTICO:
+Se o número vier com nome de banca — ex: 7 (Fatec-SP), 3 (ENEM) —
+capture como QC-N. Extraia banca e ano.
+Se apenas logotipo: capture como Q-N + [IMAGEM] (logotipo de banca).
+
+NUMERAÇÃO: sequência própria do arquivo — NUNCA a numeração do livro.
+Q-N e QC-N são independentes. Nunca salte: após Q-3 vem Q-4.
+
+ANTI-DUPLICATA: mesma questão com e sem banca → capture APENAS QC-N.
+ANTI-PARTIÇÃO: itens a) b) c) = UMA questão. Todos no mesmo Enunciado:.
+
+TEXTO vs ENUNCIADO — CRÍTICO:
+> Texto: → APENAS fonte primária (tabela de dados, trecho com autoria).
+  Se ausente: OMITA o campo.
+Enunciado: → APENAS a pergunta. Nunca vazio.
+
+MÍDIA — CRÍTICO: blocos SEPARADOS antes do Enunciado:. Omitir se vazio.
+
+> Figura: reconstrua em texto: tipo · medidas/cotas · ângulos ·
+  variáveis · relações visíveis.
+  Se complexa: "(reconstrução parcial — anexar printscreen)"
+> Gráfico: reconstrua SEMPRE: título · Eixo X · Eixo Y · valores ·
+  segmentos/pontos. NUNCA [GRÁFICO].
+[IMAGEM] irreconstruível: [IMAGEM] (tipo; contexto; o que mostra; por que necessária)
+
+TIPO — um único valor:
+  Tem alternativas?                             → múltipla escolha
+  Afirmações I II III + alternativas?          → múltipla escolha
+  V-F sem alternativas?                        → V-F
+  Pede cálculo numérico?                       → cálculo
+  Pede dissertar/justificar?                   → dissertativa
+  Associar colunas / completar tabela?         → associação
+  Construção geométrica?                       → construção
+  Figura + alternativas                        → múltipla escolha
+  Figura + cálculo                             → cálculo
+
+GABARITO: sempre vazio. NUNCA invente ou infira.
+
+FORMATO — inclua APENAS campos com conteúdo real:
+
+**Q-[N]** · pág. [X]
+[> Texto:] [> Figura:] [> Gráfico:] [se houver]
+Enunciado: [pergunta com todos os itens a) b) c)]
+Alternativas: (dissertativa/cálculo/construção) ou lista
+Gabarito:
+Tipo: [valor único]
+Classificação: [fácil / médio / difícil]
+
+**QC-[N]** · [Banca] · [Ano] · pág. [X]
+[> Texto:] [> Figura:] [> Gráfico:] [se houver]
+Enunciado: [pergunta com todos os itens a) b) c)]
+Alternativas: lista
+Gabarito:
+Tipo: [valor único]
+Classificação: [fácil / médio / difícil]
+
+---
+
+EXEMPLOS:
+
+**Q-1** · pág. 35
+Enunciado: Calcule o valor de cada potência:
+a) 3⁴   b) (−2)³   c) 5⁰   d) (1/2)²
+Alternativas: (cálculo)
+Gabarito:
+Tipo: cálculo
+Classificação: fácil
+
+**QC-1** · ENEM · 2018 · pág. 42
+> Texto: "Em uma cidade, o número de habitantes dobra a cada 10 anos."
+Enunciado: Considerando que em 2000 a cidade tinha 5.000 habitantes,
+qual será a população em 2030?
+Alternativas:
+  a) 15.000   b) 20.000   c) 30.000   d) 40.000   e) 50.000
+Gabarito:
+Tipo: múltipla escolha
+Classificação: médio
+
+---
+
+## PADRÃO DAS QUESTÕES
+- Estilo predominante: [múltipla escolha / cálculo / dissertativa / misto]
+- Foco: [memorização / cálculo algébrico / geometria / aplicação]
+- Nível de dificuldade médio: [fácil / médio / difícil]
+- Tópicos mais cobrados: [lista]
+- Total: [N] questões do capítulo + [N] questões de concurso

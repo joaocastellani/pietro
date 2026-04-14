@@ -66,10 +66,10 @@ e devem ser capturadas no BLOCO G deste arquivo,
 mantendo sua posição relativa ao conteúdo que as cerca.
 NÃO as mova para o arquivo de questões.
 
-SEÇÃO ATIVIDADES — NÃO capturar aqui:
+SEÇÃO ATIVIDADES — NÃO capturar no corpo do arquivo:
 A seção Atividades ao final do capítulo (conjunto avaliativo
 independente, frequentemente com questões de concurso) vai
-exclusivamente no arquivo por-[u]-[c]-questoes.md.
+exclusivamente na SEÇÃO ATIVIDADES ao final deste arquivo.
 
 TEXTOS-BASE SEM LEGENDA LEGÍVEL — CRÍTICO:
 Se um texto-base aparecer no screenshot mas título, autor ou
@@ -357,3 +357,110 @@ Organize em tabela fiel ao material:
 - Para tabelas de pronomes: preservar todos os casos (reto,
   oblíquo, possessivo — conforme o material)
 - Não omita nenhum item da tabela ou lista original
+
+---
+
+## SEÇÃO ATIVIDADES
+[Capture TODAS as questões da seção Atividades (bloco final
+numerado, avaliativo). NÃO capturar questões intercaladas —
+essas vão no BLOCO G acima.]
+
+NÃO CAPTURAR:
+- Perguntas retóricas do texto expositivo
+- Questões intercaladas ao conteúdo (→ BLOCO G)
+- "Questão invertida" (aluno cria a pergunta)
+- "Alternando o gênero" e "Desafio" sem pergunta objetiva
+- Propostas de produção textual → vão em PROPOSTAS DE PRODUÇÃO
+  TEXTUAL (seção separada após as questões, abaixo)
+
+IDENTIFICAÇÃO DE QUESTÕES DE CONCURSO — CRÍTICO:
+Se o número vier com nome de banca capture como QC-N. Extraia banca e ano.
+
+NUMERAÇÃO: sequência própria — NUNCA a do livro. Q-N e QC-N independentes.
+ANTI-DUPLICATA: mesma questão com e sem banca → apenas QC-N.
+ANTI-PARTIÇÃO: itens a) b) c) = UMA questão. Todos no Enunciado:.
+
+TEXTO vs ENUNCIADO — CRÍTICO:
+> Texto: → APENAS fonte primária (poema, crônica, notícia, trecho
+  com autoria). Se o texto-base já está na Seção 2: escreva
+  > Texto: [mesmo texto-base da Seção 2 — Texto N]
+  Se ausente: OMITA.
+> Tirinha: → descreva personagens · sequência de falas (numere
+  balões) · elemento visual relevante.
+  Se complexa: "(reconstrução parcial — anexar printscreen)"
+  Se já está na Seção 2: > Tirinha: [mesma tirinha — Texto N]
+Enunciado: → APENAS a pergunta. Nunca vazio.
+
+MÍDIA — CRÍTICO: blocos SEPARADOS antes do Enunciado:. Omitir se vazio.
+
+> Charge: descreva personagens · cenário · legenda ou fala visível
+  · elemento de caricatura ou crítica.
+  Se complexa: [IMAGEM] (charge; contexto; o que representa; por que necessária)
+> Gráfico: reconstrua SEMPRE: título · Eixo X · Eixo Y · valores ·
+  séries com comportamento. NUNCA [GRÁFICO].
+[IMAGEM] irreconstruível:
+  [IMAGEM] (tipo; contexto; o que mostra; por que necessária)
+
+TIPO — um único valor:
+  Tem alternativas?                             → múltipla escolha
+  Afirmações I II III + alternativas?          → múltipla escolha
+  V ou F?                                       → V-F
+  Texto-base + pede interpretar/dissertar?      → interpretação
+  Pede identificar classe ou função gramatical? → identificação
+  Pede classificar período, oração ou frase?    → classificação
+  Pede reescrever ou transformar o texto?       → reescrita
+  Associar colunas ou completar tabela?         → associação
+  Pede corrigir ou justificar erro?             → correção gramatical
+  Pede dissertar/justificar sem texto?          → dissertativa
+  Gráfico + alternativas                        → múltipla escolha
+  Tirinha/Charge + alternativas                 → múltipla escolha
+  Tirinha/Charge + interpretar                  → interpretação
+
+GABARITO: sempre vazio. NUNCA invente ou infira.
+
+FORMATO — inclua APENAS campos com conteúdo real:
+
+**Q-[N]** · pág. [X]
+[> Texto:] [> Tirinha:] [> Charge:] [> Gráfico:] [se houver]
+[[IMAGEM] se necessário]
+Enunciado: [pergunta com todos os itens a) b) c)]
+Alternativas: (dissertativa/interpretação/classificação) ou lista
+Gabarito:
+Tipo: [valor único]
+Classificação: [fácil / médio / difícil]
+
+**QC-[N]** · [Banca] · [Ano] · pág. [X]
+[> Texto:] [> Tirinha:] [> Charge:] [> Gráfico:] [se houver]
+[[IMAGEM] se necessário]
+Enunciado: [pergunta com todos os itens a) b) c)]
+Alternativas: lista
+Gabarito:
+Tipo: [valor único]
+Classificação: [fácil / médio / difícil]
+
+---
+
+## PROPOSTAS DE PRODUÇÃO TEXTUAL
+[Execute se a seção Atividades incluir propostas de escrita —
+redação, reescrita, criação de texto, carta, poema, etc.
+São propostas distintas das questões objetivas acima.]
+
+NÃO CAPTURAR como proposta: instruções de leitura, perguntas de
+interpretação, exercícios de classificação — esses são Q-N.
+
+Para cada proposta:
+- Identificação: [PP-N — sequência própria]
+- Gênero-alvo: [nome do gênero solicitado]
+- Enunciado completo: [instrução integral ao aluno]
+- Textos de apoio indicados: [se houver — título e autor]
+- Critérios ou orientações mencionados: [se houver]
+- Extensão indicada: [se mencionada]
+
+---
+
+## PADRÃO DAS QUESTÕES
+- Estilo predominante: [múltipla escolha / interpretação / gramática / misto]
+- Foco: [interpretação / gramática / produção textual / vocabulário]
+- Nível de dificuldade médio: [fácil / médio / difícil]
+- Tópicos mais cobrados: [lista]
+- Total: [N] questões do capítulo + [N] questões de concurso + [N] propostas de produção

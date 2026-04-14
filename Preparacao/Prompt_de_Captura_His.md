@@ -33,7 +33,7 @@ Se o mapa existe mas está ilegível → omita o Bloco E e registre
 na seção IMAGENS RECOMENDADAS PARA CAPTURA.
 
 BLOCOS DE ATIVIDADES E QUESTÕES: a seção Atividades (bloco final
-numerado) vai no arquivo separado his-[u]-[c]-questoes.md.
+numerado) vai na SEÇÃO ATIVIDADES ao final deste arquivo.
 EXCEÇÃO: questões intercaladas no corpo do capítulo (antes das
 Atividades) devem ser capturadas no BLOCO G deste arquivo com
 prefixo QI-N e tag [IC].
@@ -244,7 +244,7 @@ do fluxo expositivo — não no bloco final de Atividades.]
 
 DISTINÇÃO — CRÍTICO:
 Questão intercalada = aparece no corpo do capítulo, antes de Atividades.
-Seção Atividades (bloco final numerado) → NÃO capturar aqui → vai em questoes.md.
+Seção Atividades (bloco final numerado) → NÃO capturar aqui → vai na SEÇÃO ATIVIDADES abaixo.
 
 Use prefixo QI-N (sequência própria do arquivo) e tag [IC]:
 
@@ -252,3 +252,81 @@ Use prefixo QI-N (sequência própria do arquivo) e tag [IC]:
 Enunciado: [texto completo]
 Gabarito: [se fornecido pelo livro]
 Conceito testado: [conceito central avaliado]
+
+---
+
+## SEÇÃO ATIVIDADES
+[Capture TODAS as questões da seção Atividades (bloco final numerado).
+NÃO capturar questões intercaladas — essas vão no BLOCO G acima.]
+
+NÃO CAPTURAR:
+- Perguntas retóricas do texto expositivo
+- Questões intercaladas ao conteúdo (→ BLOCO G)
+- "Questão invertida" (aluno cria a pergunta)
+
+IDENTIFICAÇÃO DE QUESTÕES DE CONCURSO — CRÍTICO:
+Se o número vier com nome de banca capture como QC-N. Extraia banca e ano.
+
+NUMERAÇÃO: sequência própria — NUNCA a do livro. Q-N e QC-N independentes.
+ANTI-DUPLICATA: mesma questão com e sem banca → apenas QC-N.
+ANTI-PARTIÇÃO: itens a) b) c) = UMA questão. Todos no Enunciado:.
+
+TEXTO vs ENUNCIADO:
+> Texto: → APENAS fonte primária (discurso, documento histórico,
+  excerto de historiador). Se ausente: OMITA.
+Enunciado: → APENAS a pergunta. Nunca vazio.
+
+MÍDIA — CRÍTICO: blocos SEPARADOS antes do Enunciado:. Omitir se vazio.
+
+> Mapa: descreva: título · período histórico representado ·
+  legenda (todos os elementos) · territórios/rotas identificáveis.
+  Se ilegível: [IMAGEM].
+> Gráfico: reconstrua SEMPRE: título · Eixo X · Eixo Y · valores ·
+  séries com comportamento. NUNCA [GRÁFICO].
+> Imagem: para gravura, fotografia ou cartaz histórico, descreva:
+  tipo · contexto histórico · elementos visíveis.
+  Se irreconstruível: [IMAGEM].
+[IMAGEM] irreconstruível:
+  [IMAGEM] (tipo; contexto histórico; o que mostra; por que necessária)
+
+TIPO — um único valor:
+  Tem alternativas?                             → múltipla escolha
+  Afirmações I II III + alternativas?          → múltipla escolha
+  V ou F?                                       → V-F
+  Pede cronologia ou ordenação de eventos?     → cronologia
+  Texto primário + pede dissertar/analisar?    → análise de fonte
+  Imagem histórica + pede dissertar?           → análise de imagem
+  Mapa histórico + pede analisar?              → análise de mapa
+  Pede causa-consequência?                     → dissertativa
+  Associar colunas / completar tabela?         → associação
+  Mapa + alternativas                          → múltipla escolha
+  Gráfico + alternativas                       → múltipla escolha
+
+GABARITO: sempre vazio. NUNCA invente ou infira.
+
+FORMATO — inclua APENAS campos com conteúdo real:
+
+**Q-[N]** · pág. [X]
+[> Texto:] [> Mapa:] [> Gráfico:] [> Imagem:] [se houver]
+Enunciado: [pergunta com todos os itens]
+Alternativas: (dissertativa/cronologia/análise) ou lista
+Gabarito:
+Tipo: [valor único]
+Classificação: [fácil / médio / difícil]
+
+**QC-[N]** · [Banca] · [Ano] · pág. [X]
+[> Texto:] [> Mapa:] [> Gráfico:] [> Imagem:] [se houver]
+Enunciado: [pergunta com todos os itens]
+Alternativas: lista
+Gabarito:
+Tipo: [valor único]
+Classificação: [fácil / médio / difícil]
+
+---
+
+## PADRÃO DAS QUESTÕES
+- Estilo predominante: [múltipla escolha / dissertativa / análise de fonte / misto]
+- Foco: [memorização / cronologia / fonte primária / causa-consequência]
+- Nível de dificuldade médio: [fácil / médio / difícil]
+- Tópicos mais cobrados: [lista]
+- Total: [N] questões do capítulo + [N] questões de concurso

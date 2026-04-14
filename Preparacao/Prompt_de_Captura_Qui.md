@@ -84,8 +84,7 @@ Regras:
   selecione os mais importantes até o máximo de 20.
 - Cubra conceitos, cientistas, equações e dados factuais
 - Alterne sentidos: termo→definição, definição→termo, equação→leitura
-- NÃO crie flashcard de questão de exercício — questões vão no
-  arquivo separado de questões, não aqui
+- NÃO crie flashcard de questão de exercício
 - Se não souber a resposta do verso, omita o card inteiro
 - NÃO escreva "Frente:" duas vezes na mesma linha
 
@@ -227,7 +226,7 @@ do fluxo expositivo — não no bloco final de Atividades.]
 
 DISTINÇÃO — CRÍTICO:
 Questão intercalada = aparece no corpo do capítulo, antes de Atividades.
-Seção Atividades (bloco final numerado) → NÃO capturar aqui → vai em questoes.md.
+Seção Atividades (bloco final numerado) → NÃO capturar aqui → vai na SEÇÃO ATIVIDADES abaixo.
 
 Use prefixo QI-N (sequência própria do arquivo) e tag [IC]:
 
@@ -235,3 +234,86 @@ Use prefixo QI-N (sequência própria do arquivo) e tag [IC]:
 Enunciado: [texto completo]
 Gabarito: [se fornecido pelo livro]
 Conceito testado: [conceito central avaliado]
+
+---
+
+## SEÇÃO ATIVIDADES
+[Capture TODAS as questões da seção Atividades (bloco final numerado).
+NÃO capturar questões intercaladas — essas vão no BLOCO G acima.]
+
+NÃO CAPTURAR:
+- Perguntas retóricas do texto expositivo
+- Questões intercaladas ao conteúdo (→ BLOCO G)
+- "Questão invertida" (aluno cria a pergunta)
+
+IDENTIFICAÇÃO DE QUESTÕES DE CONCURSO:
+Se o número vier com nome de banca capture como QC-N. Extraia banca e ano.
+
+NUMERAÇÃO: sequência própria — NUNCA a do livro. Q-N e QC-N independentes.
+ANTI-DUPLICATA: mesma questão com e sem banca → apenas QC-N.
+ANTI-PARTIÇÃO: itens a) b) c) = UMA questão. Preserve fórmulas e equações.
+
+TEXTO vs ENUNCIADO:
+> Texto: → APENAS fonte primária. Se ausente: OMITA.
+Enunciado: → APENAS a pergunta. Preserve fórmulas, equações e unidades.
+
+MÍDIA — CRÍTICO: blocos SEPARADOS antes do Enunciado:.
+
+> Gráfico: reconstrua SEMPRE: título · Eixo X · Eixo Y · valores ·
+  segmentos. Ex: "B→C (temperatura constante em 0°C — fusão)". NUNCA [GRÁFICO].
+[IMAGEM] irreconstruível (modelo molecular, foto de experimento):
+  [IMAGEM] (tipo; contexto; o que mostra; por que necessária)
+
+TIPO — um único valor:
+  Tem alternativas?                              → múltipla escolha
+  Pede cálculo numérico?                         → cálculo
+  Pede escrever/balancear equação química?       → equação e balanceamento
+  Fonte primária + dissertar?                    → análise de fonte
+  Associar colunas / tabela?                     → associação
+  V ou F?                                        → V-F
+  Nenhuma das anteriores?                        → dissertativa
+
+GABARITO: sempre vazio. NUNCA invente ou infira.
+
+FORMATO:
+
+**Q-[N]** · pág. [X]
+[> Texto:] [> Gráfico:] [se houver]
+Enunciado: [pergunta; preserve fórmulas e equações]
+Alternativas: (dissertativa/cálculo) ou lista
+Gabarito:
+Tipo: [valor único]
+Classificação: [fácil / médio / difícil]
+
+**QC-[N]** · [Banca] · [Ano] · pág. [X]
+[> Texto:] [> Gráfico:] [se houver]
+Enunciado: [pergunta com todos os itens]
+Alternativas: lista
+Gabarito:
+Tipo: [valor único]
+Classificação: [fácil / médio / difícil]
+
+---
+
+EXEMPLOS:
+
+**Q-1** · pág. 22
+> Gráfico: Aquecimento da água
+> Eixo X: Tempo (min) · Eixo Y: Temperatura (°C)
+> A→B (−20°C a 0°C, sólido) · B→C (0°C, fusão) · C→D (0°C a 100°C, líquido) · D→E (100°C, ebulição)
+Enunciado:
+a) Quais são os estados físicos em A, C e E?
+b) Quais fenômenos ocorrem em B e D?
+Alternativas: (dissertativa)
+Gabarito:
+Tipo: dissertativa
+Classificação: médio
+
+---
+
+## PADRÃO DAS QUESTÕES
+- Estilo predominante: [múltipla escolha / dissertativa / cálculo / equação e balanceamento / misto]
+- Foco: [memorização / interpretação / cálculo / nomenclatura / balanceamento]
+- Nível de dificuldade médio: [fácil / médio / difícil]
+- Tópicos mais cobrados: [lista]
+- Total: [N] questões do capítulo + [N] questões de concurso

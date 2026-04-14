@@ -47,8 +47,8 @@ NÃO o inclua. Não escreva "Não aplicável", "Não especificado"
 nem variações. Bloco sem dado concreto = bloco ausente.
 
 BLOCOS DE ATIVIDADES E QUESTÕES: a seção Atividades (bloco final
-numerado, incluindo "Diário do artista") vai no arquivo separado
-art-[u]-[c]-questoes.md.
+numerado, incluindo "Diário do artista") vai na SEÇÃO ATIVIDADES
+ao final deste arquivo.
 EXCEÇÃO: questões intercaladas no corpo do capítulo (antes das
 Atividades) devem ser capturadas no BLOCO H deste arquivo com
 prefixo QI-N e tag [IC].
@@ -257,7 +257,7 @@ do fluxo expositivo — não no bloco final de Atividades.]
 
 DISTINÇÃO — CRÍTICO:
 Questão intercalada = aparece no corpo do capítulo, antes de Atividades.
-Seção Atividades (bloco final numerado) → NÃO capturar aqui → vai em questoes.md.
+Seção Atividades (bloco final numerado) → NÃO capturar aqui → vai na SEÇÃO ATIVIDADES abaixo.
 
 Use prefixo QI-N (sequência própria do arquivo) e tag [IC]:
 
@@ -265,3 +265,92 @@ Use prefixo QI-N (sequência própria do arquivo) e tag [IC]:
 Enunciado: [texto completo]
 Gabarito: [se fornecido pelo livro]
 Conceito testado: [conceito central avaliado]
+
+---
+
+## SEÇÃO ATIVIDADES
+[Capture TODAS as questões e propostas da seção Atividades
+(bloco final numerado), incluindo "Diário do artista".
+NÃO capturar questões intercaladas — essas vão no BLOCO H acima.]
+
+NÃO CAPTURAR:
+- Perguntas retóricas do texto expositivo
+- Questões intercaladas ao conteúdo (→ BLOCO H)
+- "Questão invertida" (aluno cria a pergunta)
+
+IDENTIFICAÇÃO DE QUESTÕES DE CONCURSO — CRÍTICO:
+Se o número vier com nome de banca capture como QC-N. Extraia banca e ano.
+
+NUMERAÇÃO: sequência própria — NUNCA a do livro. Q-N e QC-N independentes.
+ANTI-DUPLICATA: mesma questão com e sem banca → apenas QC-N.
+ANTI-PARTIÇÃO: itens a) b) c) = UMA questão. Todos no Enunciado:.
+
+TEXTO vs ENUNCIADO:
+> Texto: → APENAS fonte primária (manifesto, crítica de arte,
+  excerto de artista). Se ausente: OMITA.
+Enunciado: → APENAS a pergunta. Nunca vazio.
+
+OBRA REFERENCIADA — CRÍTICO:
+Quando o enunciado referenciar uma obra de arte visível na apostila,
+registre antes do Enunciado: em bloco separado:
+> Obra: [Título · Artista · Data · Técnica — como aparecem na legenda]
+Se a legenda estiver ilegível: [IMAGEM] (obra; contexto; por que necessária)
+
+MÍDIA — CRÍTICO: blocos SEPARADOS antes do Enunciado:. Omitir se vazio.
+
+[IMAGEM] irreconstruível (obra de arte, instalação, performance):
+  [IMAGEM] (tipo de obra; artista e título se legíveis; contexto;
+  o que se pede ao aluno; por que necessária)
+
+TIPO — um único valor:
+  Tem alternativas?                             → múltipla escolha
+  Afirmações I II III + alternativas?          → múltipla escolha
+  V ou F?                                       → V-F
+  Obra + pede identificar movimento/artista?   → identificação
+  Obra + pede analisar elementos formais?      → análise de obra
+  Pede relacionar obra a contexto histórico?   → contextualização
+  Pede criar / produzir / experimentar?        → proposta criativa
+  Pede dissertar/justificar?                   → dissertativa
+  Associar colunas / completar tabela?         → associação
+  Imagem + alternativas                        → múltipla escolha
+
+GABARITO: sempre vazio. NUNCA invente ou infira.
+
+FORMATO — inclua APENAS campos com conteúdo real:
+
+**Q-[N]** · pág. [X]
+[> Texto:] [> Obra:] [se houver]
+[[IMAGEM] se necessário]
+Enunciado: [pergunta com todos os itens]
+Alternativas: (dissertativa/análise/proposta) ou lista
+Gabarito:
+Tipo: [valor único]
+Classificação: [fácil / médio / difícil]
+
+**QC-[N]** · [Banca] · [Ano] · pág. [X]
+[> Texto:] [> Obra:] [se houver]
+[[IMAGEM] se necessário]
+Enunciado: [pergunta com todos os itens]
+Alternativas: lista
+Gabarito:
+Tipo: [valor único]
+Classificação: [fácil / médio / difícil]
+
+---
+
+## DIÁRIO DO ARTISTA
+[Execute se a seção Atividades incluir subseção "Diário do artista"
+ou equivalente — proposta reflexiva/criativa ao final do capítulo.]
+
+- Proposta completa conforme o material
+- Materiais indicados (se citados)
+- Objetivo descrito (se citado)
+
+---
+
+## PADRÃO DAS QUESTÕES
+- Estilo predominante: [múltipla escolha / dissertativa / análise de obra / misto]
+- Foco: [identificação / análise formal / contextualização / proposta criativa]
+- Nível de dificuldade médio: [fácil / médio / difícil]
+- Tópicos mais cobrados: [lista]
+- Total: [N] questões do capítulo + [N] questões de concurso

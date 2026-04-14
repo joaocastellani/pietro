@@ -84,8 +84,7 @@ Regras:
 - Cubra conceitos, cientistas, processos, classificações e dados
 - Alterne sentidos: termo→definição, definição→termo,
   processo→etapas, organismo→classificação
-- NÃO crie flashcard de questão de exercício — questões vão no
-  arquivo separado de questões, não aqui
+- NÃO crie flashcard de questão de exercício
 - Se não souber a resposta do verso, omita o card inteiro
 - NÃO escreva "Frente:" duas vezes na mesma linha
 
@@ -222,7 +221,7 @@ do fluxo expositivo — não no bloco final de Atividades.]
 
 DISTINÇÃO — CRÍTICO:
 Questão intercalada = aparece no corpo do capítulo, antes de Atividades.
-Seção Atividades (bloco final numerado) → NÃO capturar aqui → vai em questoes.md.
+Seção Atividades (bloco final numerado) → NÃO capturar aqui → vai na SEÇÃO ATIVIDADES abaixo.
 
 Use prefixo QI-N (sequência própria do arquivo) e tag [IC]:
 
@@ -230,3 +229,87 @@ Use prefixo QI-N (sequência própria do arquivo) e tag [IC]:
 Enunciado: [texto completo]
 Gabarito: [se fornecido pelo livro]
 Conceito testado: [conceito central avaliado]
+
+---
+
+## SEÇÃO ATIVIDADES
+[Capture TODAS as questões da seção Atividades (bloco final numerado).
+NÃO capturar questões intercaladas — essas vão no BLOCO G acima.]
+
+NÃO CAPTURAR:
+- Perguntas retóricas do texto expositivo
+- Questões intercaladas ao conteúdo (→ BLOCO G)
+- "Questão invertida" (aluno cria a pergunta)
+
+IDENTIFICAÇÃO DE QUESTÕES DE CONCURSO:
+Se o número vier com nome de banca capture como QC-N. Extraia banca e ano.
+
+NUMERAÇÃO: sequência própria — NUNCA a do livro. Q-N e QC-N independentes.
+ANTI-DUPLICATA: mesma questão com e sem banca → apenas QC-N.
+ANTI-PARTIÇÃO: itens a) b) c) = UMA questão. Todos no Enunciado:.
+
+TEXTO vs ENUNCIADO:
+> Texto: → APENAS fonte primária. Se ausente: OMITA.
+Enunciado: → APENAS a pergunta. Nunca vazio.
+
+MÍDIA — CRÍTICO: blocos SEPARADOS antes do Enunciado:.
+
+> Esquema: reconstrua em texto: partes com letras/números · setas · legenda.
+  NUNCA [ESQUEMA]. Se complexo: "(reconstrução parcial — anexar printscreen)"
+[IMAGEM] irreconstruível (foto de organismo, micrografia):
+  [IMAGEM] (tipo; contexto; o que mostra; por que necessária)
+
+TIPO — um único valor:
+  Tem alternativas?                      → múltipla escolha
+  Fonte primária + dissertar?            → análise de fonte
+  Identificar estruturas em figura?      → identificação
+  Classificar organismos/células?        → classificação
+  Associar colunas / tabela?             → associação
+  V ou F?                                → V-F
+  Nenhuma das anteriores?               → dissertativa
+  Esquema + alternativas                 → múltipla escolha
+
+GABARITO: sempre vazio. NUNCA invente ou infira.
+
+FORMATO:
+
+**Q-[N]** · pág. [X]
+[> Texto:] [> Esquema:] [se houver]
+Enunciado: [pergunta com todos os itens]
+Alternativas: (dissertativa) ou lista
+Gabarito:
+Tipo: [valor único]
+Classificação: [fácil / médio / difícil]
+
+**QC-[N]** · [Banca] · [Ano] · pág. [X]
+[> Texto:] [> Esquema:] [se houver]
+Enunciado: [pergunta com todos os itens]
+Alternativas: lista
+Gabarito:
+Tipo: [valor único]
+Classificação: [fácil / médio / difícil]
+
+---
+
+EXEMPLOS:
+
+**QC-1** · ENEM · 2019 · pág. 12
+Enunciado: A seleção natural é o mecanismo proposto por Darwin.
+Os indivíduos que sobrevivem são aqueles que:
+Alternativas:
+  a) adquirem características novas durante a vida.
+  b) possuem variações favoráveis ao ambiente.
+  c) se reproduzem mais rapidamente.
+  d) apresentam maior tamanho corporal.
+Gabarito:
+Tipo: múltipla escolha
+Classificação: médio
+
+---
+
+## PADRÃO DAS QUESTÕES
+- Estilo predominante: [múltipla escolha / dissertativa / identificação / classificação / misto]
+- Foco: [memorização / interpretação / classificação / identificação / aplicação]
+- Nível de dificuldade médio: [fácil / médio / difícil]
+- Tópicos mais cobrados: [lista]
+- Total: [N] questões do capítulo + [N] questões de concurso

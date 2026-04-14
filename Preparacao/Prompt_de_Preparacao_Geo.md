@@ -1,6 +1,6 @@
 # PROMPT DE PREPARAÇÃO — GEOGRAFIA (9º ano)
 
-Arquivos de entrada: `geo-[u]-[c].md` + `geo-[u]-[c]-questoes.md`
+Arquivo de entrada: `geo-[u]-[c].md`
 Arquivo gerado:      `geo-[u]-[c]-prep.md`
 Mapa mental gerado:  `mindmap_geo[u][c].html`
 
@@ -9,7 +9,7 @@ Mapa mental gerado:  `mindmap_geo[u][c].html`
 ## INSTRUÇÕES GERAIS
 
 1. Use `project_knowledge_search` para localizar e ler
-   `geo-[u]-[c].md` e `geo-[u]-[c]-questoes.md` inteiros
+   `geo-[u]-[c].md` inteiro
    antes de gerar qualquer conteúdo
 2. Todo o conteúdo é gerado de uma vez, sem interação com o aluno
 3. Preserve dados numéricos, nomes de países e regiões exatamente
@@ -305,11 +305,8 @@ Se não houver imagem: escreva
 ### SEÇÃO 11 — QUESTÕES DE REFERÊNCIA
 
 **Fontes:**
-- `geo-[u]-[c]-questoes.md` → Bloco Atividades (Origem: AT)
+- SEÇÃO ATIVIDADES do `geo-[u]-[c].md` → Questões de Atividades (Origem: AT)
 - BLOCO G (QI-N) do `geo-[u]-[c].md` → Questões Intercaladas (Origem: IC)
-
-Se `questoes.md` não disponível: "Seção 11 parcial — apenas questões intercaladas."
-Se não disponível: "Seção 11 não gerada — adicione o arquivo ao KB."
 
 #### Bloco A — Catálogo das questões
 
@@ -329,7 +326,7 @@ Regras:
 
 #### Bloco B — Questões modelo originais
 
-5 questões originais inspiradas no estilo do `questoes.md`.
+5 questões originais inspiradas no estilo da SEÇÃO ATIVIDADES.
 NÃO copiar nem parafrasear — criar contextos novos.
 
 Distribuição:
@@ -434,7 +431,7 @@ Eixo horizontal = tempo, nós coloridos por período/relevância.
 
 ## EXECUÇÃO
 
-1. Leia `geo-[u]-[c].md` e `geo-[u]-[c]-questoes.md` inteiros
+1. Leia `geo-[u]-[c].md` inteiro
 2. Verifique se imagem da Síntese foi anexada:
    - ✅ Sim: gere todas as seções incluindo a 10
    - ⬜ Não: gere seções 0–9, 11, 12; indique que Seção 10

@@ -1,6 +1,6 @@
 # PROMPT DE PREPARAÇÃO — MATEMÁTICA (9º ano)
 
-Arquivos de entrada: `mat-[u]-[c].md` + `mat-[u]-[c]-questoes.md`
+Arquivo de entrada: `mat-[u]-[c].md`
 Arquivo gerado:      `mat-[u]-[c]-prep.md`
 Mapa mental gerado:  `mindmap_mat[u][c].html`
 
@@ -9,8 +9,7 @@ Mapa mental gerado:  `mindmap_mat[u][c].html`
 ## INSTRUÇÕES GERAIS
 
 1. Use `project_knowledge_search` para localizar e ler
-   `mat-[u]-[c].md` e `mat-[u]-[c]-questoes.md` inteiros
-   antes de gerar qualquer conteúdo
+   `mat-[u]-[c].md` inteiro antes de gerar qualquer conteúdo
 2. Todo o conteúdo é gerado de uma vez, sem interação com o aluno
 3. Preserve expressões matemáticas, fórmulas e notações exatamente
 4. Você pode inferir dicas e pegadinhas — não precisa citar o livro
@@ -269,10 +268,8 @@ Se não houver imagem: escreva
 ### SEÇÃO 11 — QUESTÕES DE REFERÊNCIA
 
 **Fontes:**
-- `mat-[u]-[c]-questoes.md` → Bloco Atividades (Origem: AT)
+- SEÇÃO ATIVIDADES do `mat-[u]-[c].md` → Questões de Atividades (Origem: AT)
 - BLOCO E (QI-N) do `mat-[u]-[c].md` → Questões Intercaladas (Origem: IC)
-
-Se `questoes.md` não disponível: "Seção 11 parcial — apenas questões intercaladas."
 
 #### Bloco A — Catálogo das questões
 
@@ -293,7 +290,7 @@ Regras:
 
 #### Bloco B — Questões modelo originais
 
-5 questões originais inspiradas no estilo do `questoes.md`.
+5 questões originais inspiradas no estilo da SEÇÃO ATIVIDADES.
 NÃO copiar nem parafrasear — criar contextos e valores novos.
 
 Distribuição:
@@ -389,7 +386,7 @@ Setas duplas com rótulo k entre lados correspondentes.
 
 ## EXECUÇÃO
 
-1. Leia `mat-[u]-[c].md` e `mat-[u]-[c]-questoes.md` inteiros
+1. Leia `mat-[u]-[c].md` inteiro
 2. Verifique se imagem da Síntese foi anexada:
    - ✅ Sim: gere todas as seções incluindo a 10
    - ⬜ Não: gere seções 0–9, 11, 12; indique que Seção 10
