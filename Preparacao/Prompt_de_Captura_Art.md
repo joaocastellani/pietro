@@ -46,11 +46,12 @@ Se um bloco não tiver dados reais extraídos dos screenshots,
 NÃO o inclua. Não escreva "Não aplicável", "Não especificado"
 nem variações. Bloco sem dado concreto = bloco ausente.
 
-BLOCOS DE ATIVIDADES E QUESTÕES: se os screenshots incluírem
-seções de atividades, exercícios ou questões para o aluno —
-incluindo o "Diário do artista" e questões em caixas coloridas
-— NÃO os capture neste arquivo. Questões vão no arquivo
-separado art-[u]-[c]-questoes.md.
+BLOCOS DE ATIVIDADES E QUESTÕES: a seção Atividades (bloco final
+numerado, incluindo "Diário do artista") vai no arquivo separado
+art-[u]-[c]-questoes.md.
+EXCEÇÃO: questões intercaladas no corpo do capítulo (antes das
+Atividades) devem ser capturadas no BLOCO H deste arquivo com
+prefixo QI-N e tag [IC].
 
 "ARTE E VOCÊ" — CRÍTICO:
 A seção "Arte e você" contém atividades práticas (ex: "Sentir",
@@ -245,3 +246,22 @@ Para cada subseção (ex: "Sentir", "Criar", "Explorar"):
 - Materiais indicados (se citados)
 - Objetivo descrito no texto (se citado)
 - Orientações ao professor (se presentes)
+
+---
+
+## BLOCO H — QUESTÕES INTERCALADAS
+[Se houver questões autônomas inseridas no corpo do capítulo,
+antes da seção Atividades. Sinais: número ou caixa destacada
+com título "Pratique"/"Resolva"/"Observe e responda" dentro
+do fluxo expositivo — não no bloco final de Atividades.]
+
+DISTINÇÃO — CRÍTICO:
+Questão intercalada = aparece no corpo do capítulo, antes de Atividades.
+Seção Atividades (bloco final numerado) → NÃO capturar aqui → vai em questoes.md.
+
+Use prefixo QI-N (sequência própria do arquivo) e tag [IC]:
+
+**QI-[N]** · [IC]
+Enunciado: [texto completo]
+Gabarito: [se fornecido pelo livro]
+Conceito testado: [conceito central avaliado]

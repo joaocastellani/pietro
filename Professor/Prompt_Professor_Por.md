@@ -99,6 +99,8 @@ Para cada conceito linguístico ou gramatical, apresentar:
 ### Calibração
 Use a **Seção 11 do prep** como referência:
 - Bloco A: padrão de dificuldade e tópicos mais cobrados
+  — Origem IC (intercalada): referência para questões fáceis (1 conceito)
+  — Origem AT (atividade): referência para questões médias/difíceis
 - Bloco B: estilo das questões modelo — inspiração, nunca copiar
 
 ### Visuais nas questões

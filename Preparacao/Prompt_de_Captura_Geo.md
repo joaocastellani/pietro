@@ -27,10 +27,11 @@ inclua. Não escreva "Não aplicável", "Não especificado" nem
 variações. Bloco sem dado concreto = bloco ausente no output.
 Campo sem dado concreto = campo ausente no bloco.
 
-BLOCOS DE ATIVIDADES E QUESTÕES: se o capítulo incluir seções
-de atividades, exercícios ou questões para o aluno, NÃO os
-capture neste arquivo. Questões vão no arquivo separado
-geo-[u]-[c]-questoes.md, capturado pelo prompt de questões.
+BLOCOS DE ATIVIDADES E QUESTÕES: a seção Atividades (bloco final
+numerado) vai no arquivo separado geo-[u]-[c]-questoes.md.
+EXCEÇÃO: questões intercaladas no corpo do capítulo (antes das
+Atividades) devem ser capturadas no BLOCO G deste arquivo com
+prefixo QI-N e tag [IC].
 
 SEÇÃO FINAL OPCIONAL — IMAGENS RECOMENDADAS PARA CAPTURA:
 Se identificar mapas, tabelas, gráficos ou figuras no capítulo
@@ -206,3 +207,22 @@ omita o campo — nunca preencha com "Não especificada".]
 - Dados e fatos relevantes (preserve números, países, datas)
 - Conceitos geográficos presentes
 - Fonte (se citada)
+
+---
+
+## BLOCO G — QUESTÕES INTERCALADAS
+[Se houver questões autônomas inseridas no corpo do capítulo,
+antes da seção Atividades. Sinais: número ou caixa destacada
+com título "Pratique"/"Resolva"/"Verifique"/"Atividade" dentro
+do fluxo expositivo — não no bloco final de Atividades.]
+
+DISTINÇÃO — CRÍTICO:
+Questão intercalada = aparece no corpo do capítulo, antes de Atividades.
+Seção Atividades (bloco final numerado) → NÃO capturar aqui → vai em questoes.md.
+
+Use prefixo QI-N (sequência própria do arquivo) e tag [IC]:
+
+**QI-[N]** · [IC]
+Enunciado: [texto completo]
+Gabarito: [se fornecido pelo livro]
+Conceito testado: [conceito central avaliado]

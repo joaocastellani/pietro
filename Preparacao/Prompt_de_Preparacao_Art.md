@@ -358,13 +358,17 @@ Se não houver imagem: escreva
 
 ### SEÇÃO 11 — QUESTÕES DE REFERÊNCIA
 
-**Fonte exclusiva:** `art-[u]-[c]-questoes.md`
+**Fontes:**
+- `art-[u]-[c]-questoes.md` → Bloco Atividades (Origem: AT)
+- BLOCO H (QI-N) do `art-[u]-[c].md` → Questões Intercaladas (Origem: IC)
+
+Se `questoes.md` não disponível: "Seção 11 parcial — apenas questões intercaladas."
 Se não disponível: "Seção 11 não gerada — adicione o arquivo ao KB."
 
 #### Bloco A — Catálogo das questões
 
-| # | Enunciado resumido | Tipo | Dif. | Obs. |
-|---|---|---|---|---|
+| # | Enunciado resumido | Tipo | Dif. | Origem | Obs. |
+|---|---|---|---|---|---|
 | Q-N | [1 linha] | [MC/Dis/Obra/Ident/Assoc/VF] | [F/M/D] | [— ou ⚠️] |
 
 Legenda: MC = múltipla escolha · Dis = dissertativa ·
