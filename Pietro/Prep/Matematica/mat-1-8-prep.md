@@ -1,18 +1,19 @@
-## DIAGRAMAS DISPONÍVEIS — mat-1-8
+# DIAGRAMAS DISPONÍVEIS — mat-1-8
 
 | Nome | Identificador na Seção 12 | Quando usar na Etapa 1 |
 |------|--------------------------|------------------------|
-| Feixe de Paralelas | DIAGRAMA: feixe_paralelas | Ao explicar o enunciado do Teorema de Tales e a relação a/b = c/d |
-| Semelhança de Triângulos | DIAGRAMA: semelhanca | Ao explicar razão de semelhança k e lados homólogos |
-| Teorema da Bissetriz Interna | DIAGRAMA: bissetriz_interna | Ao apresentar a Síntese / consequência do Teorema de Tales |
-| Fórmulas do Capítulo | DIAGRAMA: formulas | Revisão rápida de todas as expressões do capítulo |
+| Feixe de paralelas e transversais | `DIAGRAMA: feixe_paralelas` | Ao apresentar o Teorema de Tales e a proporção a/b = c/d |
+| Semelhança de triângulos | `DIAGRAMA: semelhanca_triangulos` | Ao apresentar razão de semelhança e critério AA |
+| Bissetriz interna | `DIAGRAMA: bissetriz_interna` | Ao apresentar o teorema da bissetriz como consequência |
+| Hierarquia de aplicações | `DIAGRAMA: aplicacoes_tales` | Ao introduzir aplicações práticas (sombras, pontes, alturas) |
 
 ### Tabelas markdown (Seção 6):
-- Tabela de fórmulas e propriedades do capítulo
+- Tabela de fórmulas principais (Seção 4)
+- Tabela síntese do capítulo (Seção 9, Bloco 4)
+- Catálogo de questões (Seção 11, Bloco A)
 
 ### Nota ao Professor:
-Para cada diagrama: leia o SVG da Seção 12 e passe ao Visualizer.
-Tabelas da Seção 6 são apresentadas como markdown no chat.
+Para cada diagrama SVG: leia o bloco `DIAGRAMA:` da Seção 12 e passe ao Visualizer. As tabelas das Seções 6 e 9 são apresentadas como markdown no chat.
 
 ---
 
@@ -25,216 +26,219 @@ Tabelas da Seção 6 são apresentadas como markdown no chat.
 - Tema: Teorema de Tales
 - Perfil: geometria
 - Fórmulas principais:
-    · a/b = c/d  (se r∥s∥t — Teorema de Tales)
-    · (a+b)/b = (c+d)/d  (propriedade das proporções)
-    · c/x = b/y  (Teorema da bissetriz interna)
-    · a/d = b/e = c/f = k  (razão de semelhança)
-- Matemáticos citados: Tales de Mileto (626/625 a.C.–546 a.C.)
+    a/b = c/d  (proporção entre segmentos — Teorema de Tales)
+    a/b = (a+c)/(b+d)  (propriedade da soma dos termos)
+    △ABC ~ △DEF → A/D = B/E = C/F = k  (razão de semelhança)
+    c/x = b/y  (Teorema da Bissetriz Interna)
+- Matemáticos citados: Tales de Mileto (626 a.C.–546 a.C.)
 ```
 
 ---
 
 ## SEÇÃO 2 — RESUMO CONCEITUAL DO CAPÍTULO
 
-### 🔷 Bloco 1 — Teorema de Tales: o que é e o que garante
+### 🔵 Bloco 1 — Feixe de Retas Paralelas e o Teorema de Tales
 
-O **Teorema de Tales** afirma que um **feixe de retas paralelas**, ao ser cortado por duas retas transversais, determina segmentos proporcionais nessas transversais. Ou seja, a razão entre os segmentos de uma transversal é igual à razão entre os segmentos correspondentes na outra.
+O **Teorema de Tales** afirma que quando um conjunto de retas paralelas é cortado por duas retas transversais, os segmentos determinados em cada transversal são **proporcionais entre si**. Em outras palavras: a razão entre dois segmentos consecutivos de uma transversal é igual à razão entre os segmentos correspondentes da outra transversal.
 
-Formalmente, se $$r \parallel s \parallel t$$ e as transversais $$u$$ e $$v$$ as cortam determinando segmentos $$a, b$$ (em $$u$$) e $$c, d$$ (em $$v$$):
+**Expressão simbólica:**
 
 $$\frac{a}{b} = \frac{c}{d}$$
 
-**Aplicação real imediata:** raios solares são paralelos entre si. Quando incidem sobre um menino e um poste ao mesmo tempo, formam triângulos semelhantes com o chão. Assim, se o menino tem 1,60 m e projeta sombra de 1,30 m, e o poste projeta sombra de 3,25 m, sua altura é:
+onde $$a$$ e $$b$$ são segmentos consecutivos na primeira transversal, e $$c$$ e $$d$$ são os segmentos correspondentes na segunda.
 
-$$x = \frac{1{,}60 \times 3{,}25}{1{,}30} = 4 \text{ m}$$
+**Situação real:** Imagine que raios de sol (paralelos) incidem sobre o chão. Uma pessoa de 1,60 m projeta sombra de 1,30 m, enquanto um poste projeta sombra de 3,25 m. Pela proporção de Tales:
 
----
-
-### 🔷 Bloco 2 — Demonstração do Teorema de Tales (passos I a V)
-
-A demonstração parte de um feixe de paralelas $$r \parallel s \parallel t$$ cortado pelas transversais $$u$$ e $$v$$:
-
-- **I.** Considera-se o feixe cortado pelas duas transversais, com segmentos $$a, b$$ em $$u$$ e $$c, d$$ em $$v$$.
-- **II.** Traça-se uma paralela à transversal $$u$$, intersectando $$r$$ no ponto A e $$s$$ no ponto B, formando o triângulo ABC. Por construção, $$AB = a$$ e $$AC = c$$.
-- **III.** Traça-se outra paralela à transversal $$v$$, intersectando $$s$$ no ponto D e $$t$$ no ponto F, formando o triângulo DEF. Por construção, $$DF = d$$.
-- **IV.** Os triângulos ABC e DEF possuem os mesmos ângulos internos → são semelhantes.
-- **V.** Da semelhança: $$\frac{a}{b} = \frac{c}{d}$$, se $$r \parallel s \parallel t$$.
+$$\frac{1{,}60}{1{,}30} = \frac{x}{3{,}25} \Rightarrow x = 4 \text{ m}$$
 
 ---
 
-### 🔷 Bloco 3 — Propriedade das Proporções (derivada do Teorema de Tales)
+### 🔵 Bloco 2 — Propriedade da Soma dos Termos da Proporção
 
-Quando $$\frac{a}{b} = \frac{c}{d}$$, também é válido:
+Uma propriedade poderosa que acompanha o Teorema de Tales é a **propriedade da soma dos termos**: se dois pares de segmentos são proporcionais, a soma dos numeradores e a soma dos denominadores também formam uma proporção com o mesmo valor:
 
-$$\frac{a+b}{b} = \frac{c+d}{d}$$
+$$\frac{a}{b} = \frac{c}{d} \Rightarrow \frac{a}{b} = \frac{a+c}{b+d}$$
 
-Isso permite resolver problemas em que se conhece a **soma** dos segmentos de uma transversal, mas não cada segmento individualmente.
+**Aplicação direta:** Quando se conhece a soma $$x + y$$ e a proporção $$x/y = 4/6$$, pode-se calcular cada segmento sem montar um sistema. Por exemplo, com $$x + y = 9$$ cm:
 
-**Exemplo resolvido (livro):** Com $$r \parallel s \parallel t$$, $$x + y = 9$$ cm, e segmentos de 6 cm e 4 cm nas paralelas:
-
-$$\frac{x}{6} = \frac{y}{4} \Rightarrow \frac{x}{6} = \frac{y}{4} = \frac{x+y}{10} = \frac{9}{10}$$
-
-$$x = \frac{6 \times 9}{10} = 5{,}4 \text{ cm} \qquad y = \frac{4 \times 9}{10} = 3{,}6 \text{ cm}$$
+$$x = \frac{4 \times 9}{10} = 3{,}6 \text{ cm}, \quad y = \frac{6 \times 9}{10} = 5{,}4 \text{ cm}$$
 
 ---
 
-### 🔷 Bloco 4 — Semelhança de Triângulos e Razão de Semelhança
+### 🔵 Bloco 3 — Semelhança de Triângulos e Razão de Semelhança
 
-Dois triângulos são **semelhantes** ($$\triangle ABC \sim \triangle DEF$$) quando:
-- Possuem **ângulos correspondentes congruentes**: $$\hat{A} = \hat{D}$$, $$\hat{B} = \hat{E}$$, $$\hat{C} = \hat{F}$$
-- Possuem **lados homólogos proporcionais**
+Dois triângulos são **semelhantes** ($$\sim$$) quando têm ângulos correspondentes iguais e lados homólogos proporcionais. O critério mais simples é o **AA (ângulo-ângulo):** basta dois ângulos correspondentes iguais — o terceiro é automaticamente igual, pois a soma dos ângulos internos de qualquer triângulo é 180°.
 
-A **razão de semelhança** $$k$$ é o valor constante:
+A **razão de semelhança** $$k$$ é o valor constante entre cada par de lados correspondentes:
 
-$$k = \frac{a}{d} = \frac{b}{e} = \frac{c}{f}$$
+$$\triangle ABC \sim \triangle DEF \Rightarrow \frac{AB}{DE} = \frac{BC}{EF} = \frac{AC}{DF} = k$$
 
-Quanto maior o $$k$$, maior o triângulo em relação ao original.
+**Lados homólogos** são aqueles opostos a ângulos iguais nas duas figuras.
 
 ---
 
-### 🔷 Bloco 5 — Teorema da Bissetriz Interna (Síntese)
+### 🔵 Bloco 4 — Teorema da Bissetriz Interna (Síntese do Livro)
 
-Uma **consequência direta** do Teorema de Tales: a bissetriz de um ângulo interno de um triângulo divide o lado oposto em dois segmentos proporcionais aos lados adjacentes.
-
-No triângulo ABC, a bissetriz do ângulo $$\hat{A}$$ divide $$\overline{BC}$$ nos segmentos $$x$$ e $$y$$ (ponto D), de forma que:
+A imagem da Síntese revela um resultado importante apresentado como **consequência do Teorema de Tales**: a bissetriz de um ângulo interno de um triângulo divide o lado oposto em dois segmentos $$x$$ e $$y$$ tais que:
 
 $$\frac{c}{x} = \frac{b}{y}$$
 
-**Demonstração:** Seja E a interseção do prolongamento de $$\overline{AB}$$ com uma reta paralela a $$\overline{AD}$$ traçada por C. Pelo paralelismo de $$\overline{EC}$$ com $$\overline{AD}$$: $$\hat{BAD} = \hat{BEC}$$ e $$\hat{DAC} = \hat{ACE}$$; logo $$\triangle ACE$$ é isósceles com $$AE = AC = b$$. Pelo Teorema de Tales: $$\frac{c}{x} = \frac{b}{y}$$.
+onde $$c$$ e $$b$$ são os lados adjacentes ao ângulo bissectado. Isso significa que a bissetriz divide o lado oposto **proporcionalmente aos lados adjacentes**.
+
+---
+
+### 🔵 Bloco 5 — Aplicações Práticas
+
+O Teorema de Tales é uma ferramenta de **medição indireta**: sempre que objetos ou distâncias não podem ser medidos diretamente, monta-se uma configuração de paralelas e transversais (com sombras, retas auxiliares, plantas de terrenos, cabos de pontes) e resolve-se a proporção resultante.
+
+**Exemplos do material:**
+- Altura de postes/árvores via sombras
+- Comprimento de pontes via triângulos auxiliares
+- Comprimento de dentes via Fórmula de Bragman (radiografia)
+- Dimensionamento de antenas 5G
 
 ---
 
 ## SEÇÃO 3 — MATEMÁTICOS E HISTÓRIA DA MATEMÁTICA
 
-### Tales de Mileto (626/625 a.C. – 546 a.C.)
+### Tales de Mileto (626 a.C.–546 a.C.)
 
 **Área:** Geometria dedutiva, Filosofia Natural
 
-**Contribuição no capítulo:** Considerado o primeiro dos Sete Sábios da Grécia Antiga. Realizou as primeiras organizações dedutivas da Geometria, estabelecendo que o conhecimento necessário se apoia em bases sólidas e de encadeamento lógico. Demonstrou que os ângulos da base de um triângulo isósceles são iguais e que o diâmetro divide um círculo em duas partes iguais. Acredita-se que tenha realizado a medição da altura da Pirâmide de Quéops e previsto um eclipse solar em 585 a.C.
+**Contribuição no capítulo:** Considerado o primeiro dos Sete Sábios da Grécia Antiga. Realizou as primeiras organizações dedutivas da Geometria. Demonstrou que os ângulos da base de um triângulo isósceles são iguais e que o diâmetro divide o círculo em duas partes iguais. Previu a data de um eclipse solar em 585 a.C.
 
-**O que desenvolveu:** Teorema de Tales — proporcionalidade de segmentos em feixe de paralelas; bases da Geometria dedutiva grega.
+**O que desenvolveu:** O Teorema de Tales — relação de proporcionalidade entre segmentos determinados por retas paralelas sobre transversais.
 
-**Contexto histórico:** Grécia Antiga, século VI a.C. Tales foi a Egito buscar conhecimento matemático; o comércio de saberes entre egípcios e gregos em meados do século VII a.C. foi fundamental para o desenvolvimento da Geometria como disciplina formal.
-
-> *"Para Tales, a questão primordial não é o que sabemos, mas como sabemos."*
+**Contexto histórico:** Grécia Antiga, século VI a.C. Tales é considerado o primeiro filósofo ocidental e um dos fundadores do pensamento racional e matemático dedutivo, rompendo com explicações mitológicas da natureza.
 
 ---
 
 ## SEÇÃO 4 — FÓRMULAS, PROPRIEDADES E LEIS
 
-### Teorema de Tales — Proporcionalidade
+### Propriedade 1 — Proporção entre segmentos (Teorema de Tales)
 
-**Expressão:** $$\dfrac{a}{b} = \dfrac{c}{d} \quad \text{se } r \parallel s \parallel t$$
+**Expressão:**
 
-| Símbolo | Significado | Unidade/Tipo |
-|---------|-------------|--------------|
-| $$a$$ | 1º segmento na transversal $$u$$ | comprimento (real positivo) |
-| $$b$$ | 2º segmento na transversal $$u$$ | comprimento (real positivo) |
-| $$c$$ | 1º segmento na transversal $$v$$ | comprimento (real positivo) |
-| $$d$$ | 2º segmento na transversal $$v$$ | comprimento (real positivo) |
+$$\frac{a}{b} = \frac{c}{d}$$
 
-**Válida quando:** existe um feixe de pelo menos 3 retas paralelas cortadas por 2 transversais.
+| Símbolo | Significado | Tipo |
+|---------|-------------|------|
+| $$a$$ | Segmento na 1ª transversal (parte superior) | Real positivo |
+| $$b$$ | Segmento na 1ª transversal (parte inferior) | Real positivo |
+| $$c$$ | Segmento correspondente na 2ª transversal (parte superior) | Real positivo |
+| $$d$$ | Segmento correspondente na 2ª transversal (parte inferior) | Real positivo |
 
-💡 **Pegadinha:** Confundir os segmentos "correspondentes" entre transversais — a razão deve comparar segmentos **entre as mesmas paralelas**, não segmentos consecutivos de transversais diferentes.
+**Válida quando:** Feixe de retas paralelas cortado por duas transversais; os segmentos devem ser **correspondentes** (determinados pelas mesmas paralelas).
 
----
+**Caso especial:** A proporção vale mesmo quando as transversais se cruzam entre as paralelas — os segmentos continuam proporcionais.
 
-### Propriedade das Proporções (derivada)
-
-**Expressão:** $$\dfrac{a}{b} = \dfrac{c}{d} \Rightarrow \dfrac{a+b}{b} = \dfrac{c+d}{d}$$
-
-| Símbolo | Significado | Unidade/Tipo |
-|---------|-------------|--------------|
-| $$a+b$$ | comprimento total da transversal $$u$$ | comprimento (real positivo) |
-| $$c+d$$ | comprimento total da transversal $$v$$ | comprimento (real positivo) |
-
-**Válida quando:** decorre diretamente de $$\frac{a}{b} = \frac{c}{d}$$.
-
-💡 **Pegadinha:** Ao usar a soma dos segmentos no numerador, o denominador deve permanecer **apenas um** dos segmentos (não a soma). Alunos frequentemente escrevem $$\frac{a+b}{a+b}$$, o que é sempre 1.
+💡 **Pegadinha:** Confundir quais segmentos são "correspondentes". Sempre verifique se os segmentos comparados estão entre **as mesmas duas paralelas** nas duas transversais.
 
 ---
 
-### Razão de Semelhança
+### Propriedade 2 — Soma dos termos da proporção
 
-**Expressão:** $$k = \dfrac{a}{d} = \dfrac{b}{e} = \dfrac{c}{f}$$
+**Expressão:**
 
-| Símbolo | Significado | Unidade/Tipo |
-|---------|-------------|--------------|
-| $$a, b, c$$ | lados do triângulo ABC | comprimento (real positivo) |
-| $$d, e, f$$ | lados homólogos do triângulo DEF | comprimento (real positivo) |
-| $$k$$ | razão de semelhança | escalar adimensional positivo |
+$$\frac{a}{b} = \frac{c}{d} \Rightarrow \frac{a}{b} = \frac{a+c}{b+d}$$
 
-**Válida quando:** $$\triangle ABC \sim \triangle DEF$$ (ângulos correspondentes congruentes).
+| Símbolo | Significado | Tipo |
+|---------|-------------|------|
+| $$a+c$$ | Soma dos antecedentes (segmentos totais de uma transversal) | Real positivo |
+| $$b+d$$ | Soma dos consequentes (segmentos totais da outra transversal) | Real positivo |
 
-💡 **Pegadinha:** A razão de semelhança entre áreas é $$k^2$$, não $$k$$. Para o perímetro, a razão é $$k$$.
+**Válida quando:** A proporção $$a/b = c/d$$ já está estabelecida pelo Teorema de Tales.
 
----
-
-### Teorema da Bissetriz Interna
-
-**Expressão:** $$\dfrac{c}{x} = \dfrac{b}{y}$$
-
-| Símbolo | Significado | Unidade/Tipo |
-|---------|-------------|--------------|
-| $$c$$ | lado AB do triângulo ABC | comprimento (real positivo) |
-| $$b$$ | lado AC do triângulo ABC | comprimento (real positivo) |
-| $$x$$ | segmento BD (parte de BC próxima a B) | comprimento (real positivo) |
-| $$y$$ | segmento DC (parte de BC próxima a C) | comprimento (real positivo) |
-
-**Válida quando:** AD é a bissetriz interna do ângulo $$\hat{A}$$ no triângulo ABC.
-
-💡 **Pegadinha:** Associar corretamente cada segmento de BC ao lado adjacente correto — $$x$$ (próximo a B) relaciona-se com $$c = AB$$; $$y$$ (próximo a C) relaciona-se com $$b = AC$$.
+💡 **Pegadinha:** Esta propriedade só vale quando os segmentos são da **mesma configuração de paralelas**. Não se pode somar segmentos de transversais diferentes entre si.
 
 ---
 
-## SEÇÃO 5 — REPRESENTAÇÕES E SISTEMAS
+### Propriedade 3 — Razão de semelhança
 
-### Representação Geométrica do Feixe de Paralelas
+**Expressão:**
 
-- **Elementos:** três retas paralelas ($$r, s, t$$) e duas transversais ($$u, v$$)
-- **Segmentos gerados:** $$a$$ e $$b$$ em $$u$$; $$c$$ e $$d$$ em $$v$$
-- **Leitura:** os segmentos são delimitados pelos pontos de intersecção de cada transversal com as paralelas; a proporcionalidade vale para segmentos **entre as mesmas paralelas**
-- **Relação:** $$a/b = c/d$$ — a razão é preservada independentemente da inclinação das transversais
+$$k = \frac{\text{lado do triângulo imagem}}{\text{lado do triângulo original}}$$
 
-### Representação da Semelhança de Triângulos
+| Símbolo | Significado | Tipo |
+|---------|-------------|------|
+| $$k$$ | Razão de semelhança (constante) | Real positivo |
 
-- **Notação:** $$\triangle ABC \sim \triangle DEF$$ (a ordem das letras indica a correspondência de vértices)
-- **Lados homólogos:** $$AB \leftrightarrow DE$$, $$BC \leftrightarrow EF$$, $$AC \leftrightarrow DF$$
-- **Ângulos:** $$\hat{A} = \hat{D}$$, $$\hat{B} = \hat{E}$$, $$\hat{C} = \hat{F}$$
-- **Razão:** $$AB/DE = BC/EF = AC/DF = k$$
+**Válida quando:** Dois triângulos são semelhantes (ângulos correspondentes iguais).
+
+💡 **Pegadinha:** A ordem importa! $$k = AB/DE \neq DE/AB$$. Se o aluno inverter a razão, o resultado de qualquer medida calculada também fica invertido.
+
+---
+
+### Propriedade 4 — Teorema da Bissetriz Interna
+
+**Expressão:**
+
+$$\frac{c}{x} = \frac{b}{y}$$
+
+| Símbolo | Significado | Tipo |
+|---------|-------------|------|
+| $$c$$ | Lado do triângulo adjacente ao ângulo bissectado (esquerdo) | Real positivo |
+| $$b$$ | Lado do triângulo adjacente ao ângulo bissectado (direito) | Real positivo |
+| $$x$$ | Segmento do lado oposto à esquerda do pé da bissetriz | Real positivo |
+| $$y$$ | Segmento do lado oposto à direita do pé da bissetriz | Real positivo |
+
+**Válida quando:** A bissetriz de um ângulo interno de um triângulo divide o lado oposto nos pontos $$x$$ e $$y$$.
+
+💡 **Pegadinha:** Muitos alunos pensam que a bissetriz divide o lado oposto **ao meio**. Ela divide **proporcionalmente** aos lados adjacentes — só divide ao meio se os dois lados adjacentes forem iguais (triângulo isósceles).
+
+---
+
+## SEÇÃO 5 — GLOSSÁRIO
+
+| Termo | Definição simples (9º ano) |
+|---|---|
+| **Feixe de retas paralelas** | Conjunto de retas que são todas paralelas entre si — nunca se cruzam e mantêm a mesma distância. |
+| **Retas transversais** | Retas que cruzam o feixe de paralelas, sendo "cortadas" por elas em vários pontos. |
+| **Segmentos proporcionais** | Segmentos cujas razões são iguais: se $$a/b = c/d$$, os quatro segmentos são proporcionais. |
+| **Razão** | Divisão entre dois valores — indica quantas vezes um é maior que o outro. Ex: razão 2/5. |
+| **Proporção** | Igualdade entre duas razões. Ex: $$2/5 = 4/10$$ é uma proporção. |
+| **Semelhança de triângulos** | Dois triângulos são semelhantes quando têm ângulos correspondentes iguais e lados homólogos proporcionais. |
+| **Lados homólogos** | Lados que ficam em posições correspondentes (opostos aos mesmos ângulos) em dois triângulos semelhantes. |
+| **Razão de semelhança (k)** | O valor constante que relaciona os lados correspondentes de dois triângulos semelhantes: $$k = \text{lado}_{\text{imagem}} / \text{lado}_{\text{original}}$$. |
+| **Critério AA** | Critério de semelhança: basta dois ângulos correspondentes iguais para garantir que dois triângulos são semelhantes. |
+| **Bissetriz interna** | Reta que divide um ângulo interno de um triângulo ao meio. Ela também divide o lado oposto proporcionalmente aos lados adjacentes. |
+| **Medição indireta** | Técnica de calcular distâncias ou alturas inacessíveis usando proporções — ex: altura de um poste pela sombra. |
 
 ---
 
 ## SEÇÃO 6 — TABELAS DE REFERÊNCIA
 
-| Propriedade / Fórmula | Expressão | Condição |
+### Tabela 1 — Resumo das Fórmulas do Capítulo
+
+| Situação | Fórmula | Condição |
 |---|---|---|
-| Teorema de Tales | $$\frac{a}{b} = \frac{c}{d}$$ | $$r \parallel s \parallel t$$; transversais $$u, v$$ |
-| Propriedade das proporções | $$\frac{a+b}{b} = \frac{c+d}{d}$$ | Decorre de $$\frac{a}{b} = \frac{c}{d}$$ |
-| Semelhança de triângulos | $$\frac{a}{d} = \frac{b}{e} = \frac{c}{f} = k$$ | $$\triangle ABC \sim \triangle DEF$$ |
-| Bissetriz interna | $$\frac{c}{x} = \frac{b}{y}$$ | AD bissetriz do $$\hat{A}$$ em $$\triangle ABC$$ |
+| Feixe de paralelas / 2 transversais | $$\dfrac{a}{b} = \dfrac{c}{d}$$ | r // s // t |
+| Soma dos segmentos conhecida | $$\dfrac{a}{b} = \dfrac{a+c}{b+d}$$ | Mesma configuração de paralelas |
+| Triângulos semelhantes | $$\dfrac{AB}{DE} = \dfrac{BC}{EF} = k$$ | Critério AA (ou AAA) |
+| Bissetriz interna | $$\dfrac{c}{x} = \dfrac{b}{y}$$ | Bissetriz do ângulo A divide BC em x e y |
+| Medição indireta (sombras) | $$\dfrac{h_1}{s_1} = \dfrac{h_2}{s_2}$$ | Raios solares paralelos, mesmo instante |
 
 ---
 
 ## SEÇÃO 7 — DICAS DE OURO
 
-💡 **Dica 1 — Correspondência correta dos segmentos**
-Ao montar a proporção $$\frac{a}{b} = \frac{c}{d}$$, os segmentos $$a$$ e $$c$$ devem estar **entre as mesmas duas paralelas**. Erro clássico: comparar segmentos de transversais diferentes que não se referem ao mesmo "intervalo" entre paralelas.
+💡 **Dica 1 — Correspondência é tudo**
+Ao montar a proporção do Teorema de Tales, garanta que os segmentos estejam em posições **correspondentes**: o que está entre a 1ª e 2ª paralelas numa transversal deve ser comparado com o que está entre a 1ª e 2ª paralelas na outra. Erro clássico: comparar um segmento inteiro com um parcial.
 
-💡 **Dica 2 — Sinal da propriedade das proporções**
-Quando o problema fornece a **soma** dos segmentos (ex: $$x + y = 9$$), use $$\frac{x}{p} = \frac{y}{q} = \frac{x+y}{p+q}$$. Atenção: o denominador vira $$p + q$$, não $$p \cdot q$$.
+💡 **Dica 2 — Transversais cruzadas não mudam nada**
+Quando as transversais se cruzam **dentro** do feixe de paralelas (configuração "X"), o teorema continua valendo. O aluno não deve se deixar confundir pela aparência da figura — o que importa é quais segmentos estão entre as mesmas paralelas.
 
-💡 **Dica 3 — Semelhança não implica congruência**
-Triângulos semelhantes têm ângulos iguais, mas lados **proporcionais** (não necessariamente iguais). Só são congruentes quando $$k = 1$$.
+💡 **Dica 3 — Use a propriedade da soma quando der x + y**
+Sempre que o enunciado fornecer a **soma** de dois segmentos (ex: $$x + y = 9$$), aplique $$\frac{a}{b} = \frac{a+c}{b+d}$$ diretamente. Isso evita montar sistema de equações e economiza tempo de prova.
 
-💡 **Dica 4 — Bissetriz interna: não confundir com mediana**
-A mediana divide o lado oposto em **partes iguais**; a bissetriz divide em partes **proporcionais aos lados adjacentes**. Se $$AB = AC$$, então bissetriz = mediana (triângulo isósceles).
+💡 **Dica 4 — Bissetriz ≠ mediana**
+A bissetriz divide o lado oposto proporcionalmente aos lados adjacentes. A mediana divide ao meio. Confundi-las é um erro gravíssimo e frequente. Se o triângulo não for isósceles, a bissetriz **nunca** divide o lado oposto ao meio.
 
-💡 **Dica 5 — Razão de semelhança em sombras**
-Em problemas de sombra, os raios solares são as "paralelas". O ângulo de incidência é o mesmo para todos os objetos no mesmo instante, garantindo semelhança. Certifique-se de que as medidas estão na mesma unidade antes de montar a proporção.
+💡 **Dica 5 — Verifique as unidades antes de montar a proporção**
+Em problemas com sombras e alturas, as medidas podem aparecer em unidades diferentes (metros e centímetros, por exemplo). Converta tudo para a mesma unidade **antes** de escrever a proporção. Erro de unidade é a causa mais comum de resposta errada em questões fáceis.
 
-💡 **Dica 6 — Ordem das letras na semelhança**
-$$\triangle ABC \sim \triangle DEF$$ indica que A↔D, B↔E, C↔F. Trocar a ordem das letras leva a proporções erradas. Sempre identifique qual vértice de um triângulo corresponde a qual vértice do outro antes de escrever a razão.
+💡 **Dica 6 — Critério AA basta para semelhança**
+Nunca é preciso verificar os três ângulos. Se dois ângulos de um triângulo são iguais a dois ângulos do outro, o terceiro par automaticamente também é igual (pois a soma é sempre 180°). Em problemas com raios solares, o ângulo reto com o chão + o ângulo de inclinação solar já garantem a semelhança.
 
 ---
 
@@ -244,37 +248,54 @@ $$\triangle ABC \sim \triangle DEF$$ indica que A↔D, B↔E, C↔F. Trocar a or
 
 | Seção | Campo | Motivo da ausência | Ação recomendada |
 |-------|-------|-------------------|-----------------|
-| Bloco E — Exercício Resolvido 1 | Valores exatos dos itens a, b, c, d | As imagens das figuras a, b, c, d foram reconstruídas parcialmente; alguns valores diferem da resolução registrada | Confirmar com printscreen do livro — ver IMAGENS RECOMENDADAS |
-| Bloco E — Exercício Resolvido 2 | Valores corretos dos segmentos | Captura original apontou segmentos 4 cm e 4 cm, mas imagem agora confirma 6 cm e 4 cm | Registrado e corrigido — ver Bloco B abaixo |
-| Q-1 (questoes.md) | Valores numéricos exatos das figuras a, b, c | Figuras não capturadas integralmente | Anexar printscreen da pág. 208 |
-| Q-9 | Distâncias parciais do trajeto no mapa | Figura ilegível em miniatura | Anexar printscreen da pág. 213 |
+| Q-3 (pág. 199) | Medidas exatas dos segmentos | Questão pede medição com régua na figura impressa | Usar a imagem capturada em aula; não há valores numéricos fixos |
+| Q-6 (pág. 201) | Medidas dos terrenos B e C | Figura não capturada no `.md` | Capturar imagem da página 201 |
+| Q-7 (pág. 201) | Medidas completas do terreno B | Figura parcialmente descrita | Verificar figura da página 201 |
+| QC-3 (pág. 214) | Figura do mapa de terrenos I, II, III | Alternativas disponíveis, figura não detalhada | Capturar imagem da página 214 |
+
+---
 
 ### Bloco B — Inconsistências factuais
 
-```
-⚠️ ALERTA — Exercício Resolvido 2 (Bloco E, mat-1-8.md)
-- Dado no material capturado: "segmentos de 4 cm e 4 cm nas paralelas"
-- Problema: A imagem agora confirma 6 cm e 4 cm (não 4 cm e 4 cm)
-- Dado correto: r∥s∥t, x + y = 9 cm, segmentos 6 cm e 4 cm nas paralelas
-  Resolução correta:
-    x/6 = y/4 → (x+y)/10 = 9/10
-    x = 6×9/10 = 5,4 cm
-    y = 4×9/10 = 3,6 cm
-- Impacto na aula: Corrigir o FC-11 do mat-1-8.md e usar os valores
-  corretos (5,4 cm e 3,6 cm) na exposição. A captura anterior
-  estava errada ao registrar 4 cm e 4 cm.
-```
+⚠️ **ALERTA 1 — Exercício Resolvido 1a (valores e proporção)**
+- **Dado no material (.md):** `2/7 = M/14 → M = 2×14/7 = 2,8 m`
+- **Dado correto (imagem do livro):** A figura mostra segmentos `5 m`, `2 m` e `7 m`. A proporção correta é `2/5 = x/7 → x = 2×7/5 = 14/5 = 2,8 m`
+- **Problema:** Os valores no `.md` (numeradores 2 e 7, denominador 14) não coincidem com a figura. O resultado final (2,8 m) é correto por coincidência de cálculo, mas a proporção escrita estava errada.
+- **Impacto na aula:** Reescrever a proporção correta na lousa: $$\frac{2}{5} = \frac{x}{7}$$
 
-```
-⚠️ ALERTA — Exercício Resolvido 1 item a (Bloco E, mat-1-8.md)
-- Dado no material capturado: "Segmentos: 5 m, 7 m na transversal;
-  8 m e x na outra"
-- Dado correto (confirmado pela imagem): 5 m, 7 m e 2 m, x
-  (a figura mostra t com 5 m e 7 m; s e r com 2 m e x)
-- Resolução correta: 5/7 = 2/x → x = 2×7/5 = 2,8 m
-- Impacto na aula: A resolução registrada anteriormente (11,2 m)
-  estava incorreta. Verificar com o livro físico antes de usar.
-```
+⚠️ **ALERTA 2 — Exercício Resolvido 1b**
+- **Dado no material (.md):** `5/8 = M/10 → M = 6,25 cm`
+- **Dado correto (imagem do livro):** Segmentos são `3 cm`, `8 cm` e `14 cm`. Proporção: `3/8 = x/14 → x = 3×14/8 = 42/8 = 5,25 cm`
+- **Problema:** O `.md` tinha valores e resultado incorretos.
+- **Impacto na aula:** Usar $$\frac{3}{8} = \frac{x}{14} \Rightarrow x = 5{,}25$$ cm
+
+⚠️ **ALERTA 3 — Exercício Resolvido 1c**
+- **Dado no material (.md):** `p/0,5 = 34/p → p = 21,5 cm` (inconsistente matematicamente: p² = 17 → p ≈ 4,12)
+- **Dado correto (imagem do livro):** Segmentos são `5 m`, `6 m`, `x` e `9 m`. Proporção: `5/x = 6/9 → x = 5×9/6 = 45/6 = 7,5 m`
+- **Problema:** Os valores do `.md` eram completamente errados para este item.
+- **Impacto na aula:** Usar $$\frac{5}{x} = \frac{6}{9} \Rightarrow x = 7{,}5 \text{ m}$$
+
+⚠️ **ALERTA 4 — Exercício Resolvido 1d**
+- **Dado no material (.md):** `7/M = 42/34,5 → M = 21,5 cm`
+- **Dado correto (imagem do livro):** Segmentos são `10,5 cm`, `7 cm`, `9 cm` e `x`. Proporção: `10,5/x = 7/9 → x = 10,5×9/7 = 94,5/7 = 13,5 cm`
+- **Problema:** Valores e resultado do `.md` incorretos.
+- **Impacto na aula:** Usar $$\frac{10{,}5}{x} = \frac{7}{9} \Rightarrow x = 13{,}5 \text{ cm}$$
+
+⚠️ **ALERTA 5 — Q-11 (pág. 202): descrição da ponte**
+- **Dado no material (.md):** "BD ∥ AE; BO = 5 cm, AD = 15 cm"
+- **Dado correto (imagem do livro):** A ponte é identificada pelo segmento **BC** (não AE). Os pontos marcados são A, D, E, B, C com **BD // CE**. Medidas: AB = 55 m, AD = 11 m, AE = 20 m.
+- **Impacto na aula:** Usar a figura correta. Proporção: $$\frac{AD}{AB} = \frac{AE}{BC} \Rightarrow \frac{11}{55} = \frac{20}{BC} \Rightarrow BC = 100 \text{ m}$$
+
+⚠️ **ALERTA 6 — QC-4 (Vunesp 2015): medidas da figura**
+- **Dado no material (.md):** "medidas: 70 cm, 35 mm, 36 mm, 10 mm"
+- **Dado correto (imagem do livro):** A figura mostra: EF = 10 cm (entre retas r e s), AB = 15 cm (entre retas s e t), com alturas 15 cm e 15 cm nas transversais paralelas u e v, e FE = 10 cm no topo.
+- **Impacto na aula:** Verificar a resolução completa com os valores da imagem antes de apresentar em aula.
+
+⚠️ **ALERTA 7 — QC-5 (Unesp): distância entre pontos**
+- **Dado no material (.md):** "dois pontos luminosos a 5 mm de distância"
+- **Dado correto (imagem do livro):** A distância entre os dois pontos luminosos é **1 mm** (não 5 mm). O diâmetro do olho é 15 mm e a separação na retina é 0,005 mm.
+- **Resolução correta:** $$\frac{1}{x} = \frac{0{,}005}{15} \Rightarrow x = \frac{15}{0{,}005} = 3000 \text{ mm} = 3 \text{ m}$$ → **Alternativa c) 3**
+- **Impacto na aula:** Corrigir o valor no enunciado antes de apresentar a questão.
 
 ---
 
@@ -283,65 +304,82 @@ $$\triangle ABC \sim \triangle DEF$$ indica que A↔D, B↔E, C↔F. Trocar a or
 ### Bloco 1 — Conceitos e Definições
 
 - **Teorema de Tales**
-  - Definição: Um feixe de retas `______` determina, sobre duas retas transversais, segmentos de reta `______`. *(paralelas; proporcionais)*
-  - Notação: $$\frac{a}{b} =\ $$`______` *(c/d)*
+  - Definição: `______` *(Um feixe de retas paralelas determina, sobre duas retas transversais, segmentos de reta proporcionais)*
+  - Notação: `______` *( $$\frac{a}{b} = \frac{c}{d}$$ )*
 
 - **Semelhança de triângulos**
-  - Definição: Dois triângulos são semelhantes quando têm ângulos correspondentes `______` e lados homólogos `______`. *(congruentes; proporcionais)*
-  - Notação: $$\triangle ABC \sim \triangle DEF \Rightarrow k =\ $$`______` *(a/d = b/e = c/f)*
+  - Definição: `______` *(Dois triângulos são semelhantes quando possuem ângulos correspondentes congruentes e lados homólogos proporcionais)*
+  - Símbolo: `______` *( $$\sim$$ )*
+
+- **Lados homólogos**
+  - Definição: `______` *(Lados que ocupam posições correspondentes — opostos a ângulos iguais — em dois triângulos semelhantes)*
 
 - **Bissetriz interna**
-  - Definição: A bissetriz de um ângulo interno de um triângulo divide o lado oposto em segmentos `______` aos lados adjacentes. *(proporcionais)*
-  - Expressão: $$\frac{c}{x} =\ $$`______` *(b/y)*
+  - Propriedade: `______` *(Divide o lado oposto proporcionalmente aos lados adjacentes ao ângulo bissectado)*
 
-- **Feixe**
-  - Definição do livro: `______` de retas paralelas. *(conjunto)*
+---
 
 ### Bloco 2 — Fórmulas e Propriedades
 
-- **Teorema de Tales**
-  - Expressão: `______` *(a/b = c/d, se r∥s∥t)*
-  - Variável $$a$$: `______` *(segmento na transversal u entre r e s)*
-  - Condição: `______` *(retas r, s, t paralelas entre si)*
+- **Proporção de Tales**
+  - Expressão: `______` *( $$\frac{a}{b} = \frac{c}{d}$$ )*
+  - Condição: `______` *(Feixe de retas paralelas cortado por duas transversais)*
 
-- **Propriedade das proporções**
-  - Expressão: `______` *((a+b)/b = (c+d)/d)*
-  - Deriva de: `______` *(a/b = c/d)*
+- **Propriedade da soma dos termos**
+  - Expressão: `______` *( $$\frac{a}{b} = \frac{a+c}{b+d}$$ )*
+  - Uso principal: `______` *(Quando se conhece a soma dos dois segmentos de uma transversal)*
 
-- **Razão de semelhança**
-  - Expressão: `______` *(a/d = b/e = c/f = k)*
-  - $$k$$ representa: `______` *(a razão constante entre lados homólogos)*
+- **Razão de semelhança k**
+  - Expressão: `______` *( $$k = \dfrac{\text{lado imagem}}{\text{lado original}}$$ )*
+  - Característica: `______` *(É uma constante — o mesmo valor para todos os pares de lados correspondentes)*
+
+- **Bissetriz interna**
+  - Expressão: `______` *( $$\frac{c}{x} = \frac{b}{y}$$ )*
+
+---
 
 ### Bloco 3 — Lacunas para Warm-Up
 
-1. Se $$r \parallel s \parallel t$$ e os segmentos numa transversal medem 3 cm e 6 cm, qual é o segmento correspondente ao de 3 cm na outra transversal, sabendo que o outro mede 8 cm? Monta a proporção: `______`. *(3/6 = x/8 → x = 4 cm)*
+1. O Teorema de Tales afirma que um feixe de retas paralelas determina, sobre duas retas transversais, segmentos `______`.
+*(resposta: proporcionais)*
 
-2. Tales de Mileto viveu entre `______` e previu `______`. *(626/625 a.C.–546 a.C.; um eclipse solar em 585 a.C.)*
+2. A expressão simbólica do Teorema de Tales para duas transversais é `______`.
+*(resposta: $$\frac{a}{b} = \frac{c}{d}$$)*
 
-3. A propriedade $$\frac{a+b}{b} = \frac{c+d}{d}$$ é usada quando o problema fornece a `______` dos segmentos de uma transversal. *(soma)*
+3. Dois triângulos são semelhantes quando possuem `______` correspondentes congruentes e `______` proporcionais.
+*(resposta: ângulos; lados homólogos)*
 
-4. Se $$\triangle ABC \sim \triangle DEF$$ com $$k = 3$$, e $$AB = 6$$ cm, então $$DE =\ $$`______`. *(2 cm, pois k = AB/DE → DE = 6/3)*
+4. Tales de Mileto viveu aproximadamente entre `______` e `______` a.C., sendo considerado o primeiro dos `______` Sábios da Grécia Antiga.
+*(resposta: 626; 546; Sete)*
 
-5. Na aplicação de sombras, o que garante que os triângulos formados por menino/poste e suas sombras sejam semelhantes? `______`. *(os raios solares são paralelos, formando o feixe de paralelas do Teorema de Tales)*
+5. Se um menino de 1,60 m projeta sombra de 1,30 m e um poste projeta sombra de 3,25 m, a altura do poste é `______` metros.
+*(resposta: 4 m)*
 
-6. Na bissetriz interna do triângulo ABC pelo vértice A, o segmento BD relaciona-se com o lado `______` e DC com o lado `______`. *(AB (= c); AC (= b))*
+6. A propriedade da soma dos termos estabelece que se $$\frac{a}{b} = \frac{c}{d}$$, então também vale que `______`.
+*(resposta: $$\frac{a}{b} = \frac{a+c}{b+d}$$)*
 
-7. Se $$x + y = 9$$ cm e os segmentos nas paralelas medem 6 cm e 4 cm, então $$x =\ $$`______` e $$y =\ $$`______`. *(5,4 cm; 3,6 cm)*
+7. A bissetriz interna de um ângulo de um triângulo divide o lado oposto `______` aos lados adjacentes.
+*(resposta: proporcionalmente)*
 
-8. O Teorema da Bissetriz Interna é uma consequência do `______`. *(Teorema de Tales)*
+8. A instalação de antenas 5G no Brasil começou em julho de `______`, no estado de `______`, na frequência de `______` GHz.
+*(resposta: 2022; Brasília/DF; 3,5)*
 
-#### Bloco 4 — Tabela Síntese
+---
+
+### Bloco 4 — Tabela Síntese
 
 | Conceito | Lacuna — resposta esperada |
 |---|---|
-| Teorema de Tales | Um feixe de retas `______` determina segmentos `______` nas transversais → *paralelas; proporcionais* |
-| Expressão de Tales | $$\frac{a}{b} =$$ `______` → *c/d* |
-| Semelhança de triângulos | Ângulos correspondentes `______` e lados homólogos `______` → *congruentes; proporcionais* |
-| Razão de semelhança k | $$k = $$ `______` → *a/d = b/e = c/f* |
-| Propriedade das proporções | Se a/b = c/d, então `______` → *(a+b)/b = (c+d)/d* |
-| Bissetriz interna | Divide o lado oposto em segmentos `______` aos lados adjacentes → *proporcionais* |
-| Expressão da bissetriz | $$\frac{c}{x} =$$ `______` → *b/y* |
-| Bissetriz é consequência de | `______` → *Teorema de Tales* |
+| Teorema de Tales | Um feixe de paralelas determina segmentos `______` nas transversais → *proporcionais* |
+| Fórmula principal | $$\frac{a}{b} =$$ `______` → *$$\frac{c}{d}$$* |
+| Propriedade da soma | $$\frac{a}{b} = \frac{c}{d} \Rightarrow \frac{a}{b} =$$ `______` → *$$\frac{a+c}{b+d}$$* |
+| Semelhança (critério) | Basta `______` ângulos correspondentes iguais (critério AA) → *dois* |
+| Razão de semelhança | O valor $$k$$ é `______` para todos os pares de lados correspondentes → *constante* |
+| Bissetriz interna | Divide o lado oposto `______` aos lados adjacentes → *proporcionalmente* |
+| Tales de Mileto | Previu um eclipse solar em `______` a.C. → *585* |
+| Aplicação (sombras) | Menino 1,60 m, sombra 1,30 m; poste com sombra 3,25 m → altura do poste = `______` → *4 m* |
+| Pegadinha | A bissetriz interna divide o lado oposto ao meio? → *Não — só se o triângulo for isósceles* |
+| Unidades | Antes de montar a proporção, é preciso `______` as medidas → *converter para a mesma unidade* |
 
 ---
 
@@ -349,477 +387,352 @@ $$\triangle ABC \sim \triangle DEF$$ indica que A↔D, B↔E, C↔F. Trocar a or
 
 ### Síntese do Livro — TEOREMA DE TALES
 
+*(Baseada na imagem da página 218 capturada pelo usuário)*
+
 | Nó / Posição | Já dado | Lacuna — resposta esperada |
 |---|---|---|
-| Caixa esquerda — enunciado | "Dado um feixe de retas paralelas cortadas por duas transversais, é válida a relação:" | — |
-| Fórmula central esquerda | $$\frac{a}{b} = \frac{c}{d}$$ se r∥s∥t | — |
-| Pílula central | **Teorema de Tales** | — |
-| Caixa direita — título | **Teorema da bissetriz interna** | — |
-| Caixa direita — enunciado | "O teorema da bissetriz interna é uma consequência do teorema de Tales:" | — |
-| Caixa direita — texto | "A bissetriz de um ângulo interno de um triângulo determina sobre o lado oposto ao ângulo dois segmentos proporcionais aos lados adjacentes." | — |
-| Fórmula caixa direita | $$\frac{c}{x} = \frac{b}{y}$$ | — |
-| Caixa inferior — título | **Demonstração:** | — |
-| Caixa inferior — texto | "Seja E a interseção do prolongamento da reta $$\overline{AB}$$ com uma reta paralela a $$\overline{AD}$$, traçada por C." | — |
-| Conclusão da demonstração | "Pelo paralelismo de $$\overline{EC}$$ com $$\overline{AD}$$, temos que $$\hat{BAD} = \hat{BEC}$$ e $$\hat{DAC} = \hat{ACE}$$ e, portanto, $$\triangle ACE$$ é isósceles, com $$AE = AC = b$$. Assim, pelo teorema de Tales, temos: $$\frac{c}{x} = \frac{b}{y}$$" | — |
+| Pílula central | Teorema de Tales | — |
+| Bloco esquerdo — enunciado | Feixe de paralelas cortadas por 2 transversais | Relação: $$\frac{a}{b} = \frac{c}{d}$$ se r//s//t |
+| Bloco direito — consequência | Teorema da Bissetriz Interna | `______` → *A bissetriz de um ângulo interno divide o lado oposto proporcionalmente aos lados adjacentes* |
+| Fórmula da bissetriz | $$\frac{c}{x} = \frac{b}{y}$$ | Onde x e y são `______` → *os segmentos em que o lado oposto BC é dividido* |
+| Bloco inferior — demonstração | Ponto E = interseção do prolongamento de AB com paralela a AD por C | Conclusão: $$\triangle ACE$$ é `______` → *isósceles (AE = AC = b)* |
+| Resultado da demonstração | Pelo Teorema de Tales: $$\frac{c}{x} = \frac{b}{y}$$ | Condição usada: paralelismo de `______` com `______` → *EC com AD* |
 
 ---
 
 ## SEÇÃO 11 — QUESTÕES DE REFERÊNCIA
 
-### Bloco A — Catálogo das questões
+### Bloco A — Catálogo das Questões
 
-| # | Enunciado resumido | Tipo | Dif. | Gabarito | Obs. |
-|---|---|---|---|---|---|
-| Q-1 | Determinar x (cm) em três casos com r∥s∥t | Cal | M | Ver nota ⚠️ | ⚠️ figuras não capturadas integralmente |
-| Q-2 | Altura da árvore (sombra 5 m, flor 0,45 m / sombra 65 cm) | Cal | F | $$x = \frac{0{,}45 \times 5}{0{,}65} \approx 3{,}46$$ m | — |
-| Q-3 | Sombra da palmeira (4 m de altura, guarda-sol projeta 2,2 m) | Cal | F | $$x = \frac{4 \times 2{,}2}{4} = 2{,}2$$ m ⚠️ — sem altura do guarda-sol; dados insuficientes | ⚠️ enunciado ambíguo — falta altura do guarda-sol |
-| Q-4 | Comprimento de ponte sobre rio via Tales | Cal | M | Depende das medidas da figura ⚠️ | ⚠️ figura não capturada integralmente |
-| Q-5 | Segmento DE∥BC em △ABC; AD=9, BD=15, AE=x, AC=3x−2 | Cal | M | $$\frac{9}{15} = \frac{x}{3x-2-x} \Rightarrow \frac{9}{15} = \frac{x}{2x-2}$$; $$18x - 18 = 15x$$; $$x = 6$$ cm | — |
-| Q-6 | Feixe de 3 paralelas; segmentos 9, x+1, 12, 2x−6 | Cal | M | $$\frac{9}{x+1} = \frac{12}{2x-6}$$; $$18x-54 = 12x+12$$; $$6x=66$$; $$x=11$$ | — |
-| Q-7 | Perímetro de △ADE; △ABC retângulo em B | Cal | D | Depende das medidas exatas da figura ⚠️ | ⚠️ figura não capturada integralmente |
-| Q-8 | Distância do foco de luz ao ator (sombra = 3,55 m; ator = 1,70 m; dist. biombo = 1 m) | Cal | M | $$\frac{1{,}70}{3{,}55} = \frac{d}{d+1}$$; $$1{,}70d + 1{,}70 = 3{,}55d$$; $$1{,}85d = 1{,}70$$; $$d \approx 0{,}92$$ m | — |
-| QC-1 | Ponte estaiada; distância EC em metros | MC | D | Alternativa b) 10 m — $$\frac{6}{75} = \frac{EC}{100}$$; EC = 8 m ⚠️ verificar | CPS-SP 2015 ⚠️ conferir figura |
-| Q-9 | Distância total percorrida pelo motorista (GPS rota mais curta) | Cal | M | Depende das distâncias da figura ⚠️ | ⚠️ figura não capturada |
-| Q-10 | Três casos de feixes com paralelas s∥t∥u; valores desconhecidos | Cal | M | a) $$\frac{12}{18}=\frac{20}{x}$$; x=30 mm · b) e c) dependem das figuras ⚠️ | ⚠️ figuras parciais |
-| Q-11 | Três casos com Teorema de Tales; AB, BC, AC | Cal | D | a) $$\frac{AB}{BC}=\frac{DE}{EF}=\frac{18}{20}$$; $$AB=\frac{18 \times 10}{20}=9$$ cm · b) $$AC=30$$; $$\frac{AB}{BC}=\frac{8}{70}$$; $$AB=\frac{240}{78}\approx3{,}08$$ dm · c) BC=AB+3; $$\frac{AB}{AB+3}=\frac{12}{8}$$; sem solução positiva ⚠️ | ⚠️ rever dados item c |
-| QC-2 | Terrenos I, II, III em Y; comprimento do muro | MC | D | Alternativa a) 28 m (verificar com figura) | Saresp ⚠️ |
-| Q-12 | Determinar x e y com r∥s∥t; a) x+y=5; b) x+y=−2 | Cal | M | Dependem das medidas das figuras ⚠️ | ⚠️ figuras não capturadas |
-| Q-13 | Segmento DE em △ABC; BD=25, AD=x−5, AE=x+30, EC=x+10 | Cal | D | $$\frac{x-5}{25}=\frac{x+30}{x+10}$$; $$(x-5)(x+10)=25(x+30)$$; $$x^2+5x-50=25x+750$$; $$x^2-20x-800=0$$; $$x=40$$ | — |
-| QC-3 | Triângulo ABC e quadrilátero CDEF mesma área; valor de x | MC | D | Alternativa d) 22,5 cm (verificar com figura) | Vunesp 2015 ⚠️ |
-| QC-4 | Olho humano; distância x entre dois pontos a 5 m | MC | D | Alternativa a) 1 m — $$\frac{0{,}005}{15}=\frac{x}{5000}$$; $$x=\frac{0{,}005 \times 5000}{15}\approx1{,}67$$ mm ⚠️ unidade — revisar | Unesp ⚠️ |
+| # | Enunciado resumido | Tipo | Dif. | Origem | Gabarito | Obs. |
+|---|---|---|---|---|---|---|
+| Q-1 | Ponto de luz a 20 m do prédio; pessoa de 1,80 m a 5 m do ponto de luz — altura da sombra no prédio | Cal | M | AT | Triângulos semelhantes: $$\frac{1{,}80}{5} = \frac{h}{20} \Rightarrow h = 7{,}2 \text{ m}$$ | ⚠️ figura não capturada |
+| Q-2 | Escorregador de 6 m; bandeira a 2 m de altura indica 2,4 m restantes — distância do topo até a bandeira | Cal | M | AT | Tales no triângulo: $$\frac{(6-2)}{6} = \frac{d_{\text{bandeira}}}{d_{\text{total}}}$$; distância percorrida proporcional | ⚠️ figura não capturada |
+| Q-3 | Medir segmentos com régua em 3 configurações de paralelas e transversais | Dis | F | AT | Atividade de medição — razões devem ser iguais em cada par | ⚠️ depende de figura impressa |
+| Q-4 | Feixe de paralelas; segmentos 9 cm / (x+1) cm e 12 cm / (2x−6) cm — calcular x | Cal | M | AT | $$\frac{9}{x+1} = \frac{12}{2x-6} \Rightarrow 18x - 54 = 12x + 12 \Rightarrow x = 11$$ | — |
+| Q-5 | Triângulo ABC retângulo em B; DE ∥ base; AB=32, BC=28, hip=90 — perímetro de ADE | Cal | M | AT | Razão de semelhança + proporcionalidade dos lados | ⚠️ figura não capturada |
+| Q-6 | Frente dos terrenos B e C para Av. dos Flâmures | Cal | M | AT | Proporção entre segmentos de terrenos | ⚠️ figura não capturada |
+| Q-7 | Terreno A com 45 m na Rua Dois Melo; calcular frente do terreno B | Cal | M | AT | Tales aplicado a terrenos: $$\frac{20}{30} = \frac{x}{45} \Rightarrow x = 30 \text{ m}$$ | — |
+| Q-8 | Paralelas com segmentos 15 cm e 3 cm; outra transversal com x e 9 cm | Cal | F | AT | $$\frac{15}{3} = \frac{x}{9} \Rightarrow x = 45 \text{ cm}$$ | — |
+| Q-9 | DE ∥ AC no triângulo ABC; AD=9, BD=15, AE=x, AC=3x−2 — calcular x | Cal | M | AT | $$\frac{9}{15} = \frac{x}{3x-2} \Rightarrow 27x - 18 = 15x \Rightarrow x = 1{,}5$$ | — |
+| Q-10 | Guarda-sol projeta sombra 2,2 m; palmeira de 4 m — sombra da palmeira | Cal | M | AT | Altura do guarda-sol necessária ou proporção direta com dados faltantes | ⚠️ altura do guarda-sol não especificada no `.md` |
+| Q-11 | Ponte BC sobre rio; BD // CE; AB=55 m, AD=11 m, AE=20 m — comprimento da ponte | Cal | D | AT | $$\frac{11}{55} = \frac{20}{BC} \Rightarrow BC = 100 \text{ m}$$ | ⚠️ dados corrigidos pela imagem |
+| Q-12 | Sombra da árvore = 5 m; sombra da flor = 65 cm; flor = 0,45 m — altura da árvore | Cal | M | AT | $$\frac{0{,}45}{0{,}65} = \frac{h}{5} \Rightarrow h \approx 3{,}46 \text{ m}$$ | — |
+| Q-13 | Calcular x em 3 configurações com retas r//s//t | Cal | M | AT | Montar proporção e resolver equação de 1º grau em cada item | ⚠️ valores das figuras parciais no `.md` |
+| Q-14 | Retas l, s, t paralelas — calcular desconhecidos em 4 sub-itens | Cal | M | AT | a) $$\frac{4}{8}=\frac{9}{x} \Rightarrow x=18$$; demais dependem da figura | ⚠️ figura não capturada |
+| Q-15 | DE // BC; AD=25 m, AE=x, EC=x+10 — calcular x e perímetro | Cal | D | AT | $$\frac{25}{AD+BD} = \frac{x}{x+x+10}$$; requer BD para completar | ⚠️ BD=v não especificado |
+| Q-16 | Paralelas l, s, t; x+y=5 e x+y=−2 — calcular x e y | Cal | M | AT | Usar propriedade da soma + proporção fornecida | ⚠️ razão base não especificada |
+| Q-17 | Paralelas com 12 cm, x, y, 8 cm — calcular x e y | Cal | M | AT | Proporção com soma dos termos | — |
+| Q-18 | Triângulo com DE // BC; 4 cm indicado — calcular desconhecido | Cal | M | AT | Tales no triângulo | ⚠️ figura incompleta |
+| Q-19 | Feixe de paralelas; calcular AB em 3 sub-itens com diferentes medidas | Cal | M | AT | a) $$\frac{AB}{10}=\frac{18}{20} \Rightarrow AB=9$$ cm; b) e c) analogamente | — |
+| Q-20 | Triângulo retângulo catetos 28 e 21 cm; quadrado inscrito — perímetro do quadrado | Cal | D | AT | Sistema com Tales: $$l = \frac{28 \times 21}{28+21} = 12 \text{ cm}$$; perímetro = 48 cm | — |
+| Q-21 | Ator 1,70 m a 1 m do biombo; sombra projetada = 3,55 m — distância do ponto de luz | Cal | D | AT | Triângulos semelhantes: $$\frac{1{,}70}{3{,}55} = \frac{1}{d} \Rightarrow d \approx 2{,}09 \text{ m}$$ do biombo | — |
+| QC-1 | Teleférico entre picos A (500 m) e B (800 m), dist. horiz. 900 m — deslocamento e tempo | Cal | D | AT | a) $$\frac{x}{y}=\frac{900}{300} \Rightarrow x=60 \text{ m}$$ quando y=20 m; b) dist=$$\sqrt{900^2+300^2}$$; t=dist/1,5 | Fuvest-SP |
+| QC-2 | Ponte estaiada harpa; AB=75 m, BC=100 m, AD=6 m — distância EC | MC | D | AT | $$\frac{AD}{AB}=\frac{EC}{BC} \Rightarrow \frac{6}{75}=\frac{EC}{100} \Rightarrow EC=8 \text{ m}$$ → **a) 8** | CPS-SP 2015 |
+| QC-3 | Terrenos I, II, III — comprimento do muro do terreno II | MC | M | AT | Tales entre as ruas: gabarito **b) 30** | Saresp ⚠️ figura não capturada |
+| QC-4 | Retas r,s,t e u,v paralelas; △ABC e quadrilátero CDEF mesmas áreas — valor de x | MC | D | AT | Áreas iguais + Tales: analisar com valores corrigidos da imagem | Vunesp 2015 ⚠️ verificar valores |
+| QC-5 | Olho humano (diâm. 15 mm); pontos sep. 1 mm — maior dist. para perceber separados | MC | D | AT | $$\frac{1}{x}=\frac{0{,}005}{15} \Rightarrow x=3000 \text{ mm}=3 \text{ m}$$ → **c) 3** | Unesp ⚠️ corrigido pela imagem |
+| QC-6 | GPS mostra rota mais curta — calcular distância total do trajeto | Cal | M | AT | Tales aplicado ao mapa | ⚠️ figura não capturada |
 
 ---
 
 ### Bloco B — Questões Modelo Originais
 
-**QM-1** · múltipla escolha · médio · inspirada em: Q-6
+---
 
-Um feixe de três retas paralelas $$r \parallel s \parallel t$$ determina sobre uma transversal os segmentos de medidas $$2x + 1$$ cm e $$15$$ cm. Sobre outra transversal, os segmentos correspondentes medem $$10$$ cm e $$x + 4$$ cm. O valor de $$x$$ é:
+**QM-1** · Múltipla Escolha · Médio · inspirada em: Q-8
 
-a) 3 cm     b) 4 cm     c) 5 cm     d) 6 cm
+Uma faixa de três retas paralelas determina, sobre uma primeira transversal, segmentos de 18 cm e 6 cm. Sobre uma segunda transversal, o segmento correspondente ao de 18 cm mede $$x$$ cm. Sabendo que o segmento correspondente ao de 6 cm mede 4 cm, qual é o valor de $$x$$?
 
-✅ **Gabarito:** c) 5 cm
+a) 8 cm   b) 10 cm   c) 12 cm   d) 15 cm
+
+✅ **Gabarito: c) 12 cm**
 
 📝 **Resolução:**
-$$\frac{2x+1}{15} = \frac{10}{x+4}$$
-$$(2x+1)(x+4) = 150$$
-$$2x^2 + 8x + x + 4 = 150$$
-$$2x^2 + 9x - 146 = 0$$
-$$\Delta = 81 + 1168 = 1249 \approx 35{,}3 \quad \Rightarrow \quad x = \frac{-9 + 35{,}3}{4} \approx 6{,}6$$
+$$\frac{18}{6} = \frac{x}{4} \Rightarrow 6x = 72 \Rightarrow x = 12 \text{ cm}$$
 
-> ⚠️ Ajuste de valores para resultado limpo: usando $$\frac{2x+1}{15} = \frac{10}{x+4}$$, professor pode ajustar para $$3x$$ e $$x+2$$ para obter $$x = 5$$ exato. Recomenda-se verificar antes de aplicar.
-
-⚠️ **Professor:** referência de estilo — crie variações originais com valores que resultem em números inteiros.
+⚠️ **Professor:** variação direta — troque os valores mantendo a proporção inteira para facilitar ou dificult ar.
 
 ---
 
-**QM-2** · múltipla escolha · médio · inspirada em: Q-8
+**QM-2** · Múltipla Escolha · Médio · inspirada em: Q-12
 
-Um cinegrafista projeta a imagem de um boneco de 0,80 m de altura numa tela. O boneco está posicionado a 2 m da fonte de luz e a tela está a 6 m da fonte. Qual é a altura da sombra projetada na tela?
+Em um momento ensolarado, uma estátua de 3 m de altura projeta uma sombra de 2 m no chão. No mesmo instante, uma placa de sinalização projeta uma sombra de 80 cm. Qual é a altura da placa?
 
-a) 1,6 m     b) 2,0 m     c) 2,4 m     d) 3,2 m
+a) 100 cm   b) 110 cm   c) 120 cm   d) 130 cm
 
-✅ **Gabarito:** c) 2,4 m
+✅ **Gabarito: c) 120 cm**
 
 📝 **Resolução:**
-Os triângulos formados são semelhantes. A distância do boneco à tela é $$6 - 2 = 4$$ m. Pela semelhança:
-$$\frac{0{,}80}{2} = \frac{h}{6}$$
-$$h = \frac{0{,}80 \times 6}{2} = 2{,}4 \text{ m}$$
+$$\frac{3}{2} = \frac{h}{0{,}80} \Rightarrow h = \frac{3 \times 0{,}80}{2} = 1{,}20 \text{ m} = 120 \text{ cm}$$
 
-⚠️ **Professor:** referência de estilo — crie variações originais.
+⚠️ **Professor:** pegadinha de unidade — sombra da placa em cm, altura da estátua em m. Peça aos alunos que convertam antes.
 
 ---
 
-**QM-3** · cálculo · médio · inspirada em: Q-5
+**QM-3** · Cálculo · Médio · inspirada em: Exercício Resolvido 2
 
-No triângulo ABC, o segmento $$\overline{DE}$$ é paralelo a $$\overline{BC}$$, com $$D \in \overline{AB}$$ e $$E \in \overline{AC}$$. Sabe-se que $$AD = 8$$ cm, $$DB = 12$$ cm e $$AE = 2x - 3$$ cm, $$EC = 3x + 2$$ cm.
+Três retas paralelas determinam sobre uma transversal dois segmentos $$x$$ e $$y$$, com $$x + y = 20$$ cm. O mesmo feixe determina sobre outra transversal segmentos de 9 cm e 6 cm, respectivamente correspondentes a $$x$$ e $$y$$. Determine os valores de $$x$$ e de $$y$$.
 
-a) Determine o valor de $$x$$.
-b) Calcule os comprimentos de AE e EC.
-c) Qual é o comprimento total de AC?
+✅ **Gabarito: $$x = 12$$ cm e $$y = 8$$ cm**
+
+📝 **Resolução:**
+
+Do Teorema de Tales:
+$$\frac{x}{y} = \frac{9}{6}$$
+
+Pela propriedade da soma dos termos:
+$$\frac{x}{9} = \frac{x+y}{9+6} = \frac{20}{15}$$
+
+$$x = \frac{9 \times 20}{15} = \frac{180}{15} = 12 \text{ cm}$$
+
+$$y = 20 - 12 = 8 \text{ cm}$$
+
+⚠️ **Professor:** destaque o uso da propriedade da soma — evita montar sistema de duas equações.
+
+---
+
+**QM-4** · Estilo Concurso · Difícil · inspirada em: QC-2 e Q-11
+
+Para medir a largura de um canal, um topógrafo posicionou estacas nos pontos A, D e E, de modo que $$\overline{BD} \parallel \overline{CE}$$, conforme o esquema. As distâncias medidas foram: $$AB = 48 \text{ m}$$, $$AD = 16 \text{ m}$$ e $$AE = 25 \text{ m}$$. Qual é a largura $$BC$$ do canal?
+
+a) 60 m   b) 70 m   c) 72 m   d) 75 m   e) 80 m
+
+✅ **Gabarito: d) 75 m**
+
+📝 **Resolução:**
+
+Como $$BD \parallel CE$$, pelo Teorema de Tales aplicado ao triângulo:
+
+$$\frac{AD}{AB} = \frac{AE}{AC}$$
+
+$$\frac{16}{48} = \frac{25}{AC} \Rightarrow AC = \frac{25 \times 48}{16} = 75 \text{ m}$$
+
+Como $$AC = AE + EC$$... na configuração do problema, $$BC$$ é o segmento procurado:
+
+$$BC = \frac{AB \times AE}{AD} = \frac{48 \times 25}{16} = 75 \text{ m}$$
+
+⚠️ **Professor:** referência de estilo — crie variações originais com diferentes medidas e posições dos pontos.
+
+---
+
+**QM-5** · Dissertativa · Médio-Difícil · inspirada em: Q-21 e Bloco G
+
+Em um espetáculo de teatro de sombras, uma marionete de 45 cm de altura é posicionada a 60 cm de uma tela branca. O ponto de luz está a 2,10 m da tela (do mesmo lado da marionete).
+
+a) Faça um esboço representando a situação, indicando as medidas.
+
+b) Qual será a altura da sombra projetada na tela?
+
+c) Se o artista quiser que a sombra tenha 90 cm de altura, a que distância da tela deve posicionar a marionete?
 
 ✅ **Gabarito:**
 
-📝 **Resolução:**
-$$\frac{AD}{DB} = \frac{AE}{EC} \Rightarrow \frac{8}{12} = \frac{2x-3}{3x+2}$$
-$$8(3x+2) = 12(2x-3)$$
-$$24x + 16 = 24x - 36$$
+**b)** Ponto de luz → marionete: distância até a tela = 2,10 m; marionete a 0,60 m da tela, portanto a 2,10 − 0,60 = 1,50 m do ponto de luz.
 
-> ⚠️ Esta equação não tem solução — ajuste os dados: use AD=8, DB=12, AE=2x, EC=3x:
-$$\frac{8}{12} = \frac{2x}{3x} = \frac{2}{3}$$ ✅ — qualquer x > 0. Professor: use AE = x+2, EC = x+6 para obter resultado único.
+Triângulos semelhantes:
 
-⚠️ **Professor:** ajuste os valores para garantir solução única antes de aplicar.
+$$\frac{0{,}45}{1{,}50} = \frac{h}{2{,}10} \Rightarrow h = \frac{0{,}45 \times 2{,}10}{1{,}50} = 0{,}63 \text{ m} = 63 \text{ cm}$$
 
----
+**c)** Para sombra de 90 cm:
 
-**QM-4** · estilo concurso · difícil · inspirada em: QC-1
+$$\frac{0{,}45}{d_{\text{luz-marionete}}} = \frac{0{,}90}{2{,}10} \Rightarrow d = \frac{0{,}45 \times 2{,}10}{0{,}90} = 1{,}05 \text{ m}$$
 
-**(Estilo Fuvest)** Uma escada de 10 m de comprimento está apoiada contra uma parede vertical. O pé da escada está a 6 m da base da parede. A uma distância de 4 m do pé da escada, uma trave horizontal é instalada paralelamente ao chão, apoiada na escada e na parede. Usando o Teorema de Tales, determine o comprimento da trave.
+Distância da marionete à tela: $$2{,}10 - 1{,}05 = 1{,}05 \text{ m}$$
 
-a) 3,2 m     b) 3,6 m     c) 4,0 m     d) 4,8 m     e) 5,4 m
-
-✅ **Gabarito:** b) 3,6 m
-
-📝 **Resolução:**
-A parede é vertical, o chão é horizontal; a escada é a transversal. O pé da escada está a 6 m da parede; a trave está a 4 m do pé, logo a $$6 - 4 = 2$$ m do pé na projeção horizontal (ou pelo semelhante). Pela semelhança de triângulos:
-$$\frac{\text{trave}}{6} = \frac{10-4}{10} = \frac{6}{10}$$
-$$\text{trave} = \frac{6 \times 6}{10} = 3{,}6 \text{ m}$$
-
-⚠️ **Professor:** referência de estilo — crie variações originais.
-
----
-
-**QM-5** · dissertativa · médio-difícil · inspirada em: Q-11
-
-Considere três retas paralelas $$r \parallel s \parallel t$$ cortadas por duas transversais. Na primeira transversal, os segmentos entre as paralelas medem $$AC = 24$$ cm, sendo $$AB = 3x$$ e $$BC = x + 4$$. Na segunda transversal, os segmentos correspondentes medem $$DF = 30$$ cm, com $$DE = 4y$$ e $$EF = y + 1$$.
-
-a) Determine o valor de $$x$$ e as medidas de AB e BC.
-b) Determine o valor de $$y$$ e as medidas de DE e EF.
-c) Verifique se a proporção do Teorema de Tales é satisfeita com os valores encontrados.
-
-✅ **Gabarito:**
-
-📝 **Resolução:**
-
-**a)** $$AB + BC = 24 \Rightarrow 3x + x + 4 = 24 \Rightarrow 4x = 20 \Rightarrow x = 5$$
-$$AB = 15 \text{ cm}, \quad BC = 9 \text{ cm}$$
-
-**b)** $$DE + EF = 30 \Rightarrow 4y + y + 1 = 30 \Rightarrow 5y = 29 \Rightarrow y = 5{,}8$$
-$$DE = 23{,}2 \text{ cm}, \quad EF = 6{,}8 \text{ cm}$$
-
-**c)** Verificação: $$\frac{AB}{BC} = \frac{15}{9} = \frac{5}{3}$$ e $$\frac{DE}{EF} = \frac{23{,}2}{6{,}8} \approx 3{,}41$$ — proporções **diferentes**, o que indica que os dados foram escolhidos sem garantir a proporcionalidade do Tales. Professor: ajuste EF para que DE/EF = 5/3 (DE=25, EF=5 para DF=30, com y tal que 4y=25 → y=6,25 e EF=y+1=7,25 ≠ 5). Recomenda-se reformular usando segmentos que satisfaçam o teorema desde a construção.
-
-⚠️ **Professor:** referência de estilo — ajuste os valores para consistência antes de aplicar.
+⚠️ **Professor:** referência de estilo — crie variações originais com diferentes alturas e distâncias.
 
 ---
 
 ## SEÇÃO 12 — DIAGRAMAS SVG DO CAPÍTULO
 
 ### DIAGRAMA: feixe_paralelas
-Feixe de três retas paralelas r∥s∥t cortadas por duas transversais u e v, com segmentos a, b, c, d rotulados e proporção a/b = c/d.
+Feixe de três retas paralelas (r, s, t) cortado por duas transversais, com segmentos a, b, c, d e a proporção a/b = c/d.
 
 ```svg
-<svg width="100%" viewBox="0 0 680 320"
-     xmlns="http://www.w3.org/2000/svg"
-     style="font-family:'Inter',sans-serif;background:#fff">
+<svg width="100%" viewBox="0 0 680 320">
   <defs>
-    <marker id="arr" markerWidth="8" markerHeight="8"
-            refX="6" refY="3" orient="auto">
-      <path d="M0,0 L0,6 L8,3 z" fill="#1a3a5c"/>
-    </marker>
     <style>
-      @media(prefers-color-scheme:dark){
-        svg{background:#1e1e1e}
-        .c-dark{fill:#e0e0e0}
-        .l-dark{stroke:#e0e0e0}
-      }
-      .c-dark{fill:#1a1a1a}
-      .l-dark{stroke:#1a1a1a}
-      .t{font-size:15px;dominant-baseline:central}
-      .ts{font-size:12px;dominant-baseline:central}
-      .th{font-size:14px;font-weight:700;dominant-baseline:central}
+      .c-purple{fill:#6c3fc5;} .c-teal{fill:#1a8a7a;} .c-amber{fill:#b07d0a;}
+      .c-coral{fill:#c0392b;} .c-gray{fill:#555;} .c-green{fill:#1a7a3a;}
+      .t{font-family:sans-serif;font-size:15px;fill:#222;dominant-baseline:central;}
+      .ts{font-family:sans-serif;font-size:12px;fill:#555;dominant-baseline:central;}
+      .th{font-family:sans-serif;font-size:16px;font-weight:bold;fill:#1a3a5c;dominant-baseline:central;}
     </style>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 Z" fill="#555"/>
+    </marker>
   </defs>
-
-  <!-- Paralelas r, s, t -->
-  <line x1="60" y1="60" x2="620" y2="60" stroke="#1a3a5c" stroke-width="2.5" class="l-dark"/>
-  <line x1="60" y1="160" x2="620" y2="160" stroke="#1a3a5c" stroke-width="2.5" class="l-dark"/>
-  <line x1="60" y1="260" x2="620" y2="260" stroke="#1a3a5c" stroke-width="2.5" class="l-dark"/>
-
-  <!-- Rótulos das paralelas -->
-  <text x="630" y="60" class="th c-dark">r</text>
-  <text x="630" y="160" class="th c-dark">s</text>
-  <text x="630" y="260" class="th c-dark">t</text>
-
-  <!-- Transversal u (inclinada à esquerda) -->
-  <line x1="180" y1="30" x2="120" y2="290"
-        stroke="#c0392b" stroke-width="2" stroke-dasharray="0"/>
-  <text x="178" y="22" class="th" fill="#c0392b">u</text>
-
-  <!-- Transversal v (inclinada à direita) -->
-  <line x1="420" y1="30" x2="500" y2="290"
-        stroke="#27ae60" stroke-width="2"/>
-  <text x="418" y="22" class="th" fill="#27ae60">v</text>
-
-  <!-- Segmentos a e b em u (com chaves/setas) -->
-  <!-- a: entre r e s em u -->
-  <line x1="148" y1="60" x2="148" y2="160"
-        stroke="#c0392b" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <text x="130" y="110" class="t" fill="#c0392b" font-weight="700">a</text>
-
-  <!-- b: entre s e t em u -->
-  <line x1="136" y1="160" x2="136" y2="260"
-        stroke="#c0392b" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <text x="116" y="210" class="t" fill="#c0392b" font-weight="700">b</text>
-
-  <!-- Segmentos c e d em v -->
-  <!-- c: entre r e s em v -->
-  <line x1="452" y1="60" x2="452" y2="160"
-        stroke="#27ae60" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <text x="460" y="110" class="t" fill="#27ae60" font-weight="700">c</text>
-
-  <!-- d: entre s e t em v -->
-  <line x1="468" y1="160" x2="468" y2="260"
-        stroke="#27ae60" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <text x="476" y="210" class="t" fill="#27ae60" font-weight="700">d</text>
-
-  <!-- Pontos de interseção -->
-  <circle cx="168" cy="60" r="4" fill="#c0392b"/>
-  <circle cx="154" cy="160" r="4" fill="#c0392b"/>
-  <circle cx="140" cy="260" r="4" fill="#c0392b"/>
-  <circle cx="443" cy="60" r="4" fill="#27ae60"/>
-  <circle cx="458" cy="160" r="4" fill="#27ae60"/>
-  <circle cx="474" cy="260" r="4" fill="#27ae60"/>
-
-  <!-- Caixa com fórmula -->
-  <rect x="240" y="118" width="200" height="44"
-        rx="10" fill="#f0f7ff" stroke="#1a3a5c" stroke-width="2"/>
-  <text x="340" y="140" class="th c-dark"
-        text-anchor="middle">a / b = c / d</text>
-  <text x="340" y="155" class="ts c-dark"
-        text-anchor="middle">se r ∥ s ∥ t</text>
+  <!-- Retas paralelas horizontais -->
+  <line x1="60" y1="60" x2="560" y2="60" stroke="#1a3a5c" stroke-width="2"/>
+  <line x1="60" y1="160" x2="560" y2="160" stroke="#1a3a5c" stroke-width="2"/>
+  <line x1="60" y1="260" x2="560" y2="260" stroke="#1a3a5c" stroke-width="2"/>
+  <!-- Labels das retas -->
+  <text x="572" y="60" class="th">r</text>
+  <text x="572" y="160" class="th">s</text>
+  <text x="572" y="260" class="th">t</text>
+  <!-- Transversal 1 (esquerda) -->
+  <line x1="140" y1="30" x2="200" y2="290" stroke="#c0392b" stroke-width="2.5"/>
+  <!-- Transversal 2 (direita) -->
+  <line x1="400" y1="30" x2="480" y2="290" stroke="#1a8a7a" stroke-width="2.5"/>
+  <!-- Segmentos e labels transversal 1 -->
+  <text x="108" y="110" class="t" fill="#c0392b">a</text>
+  <text x="100" y="210" class="t" fill="#c0392b">b</text>
+  <!-- Segmentos e labels transversal 2 -->
+  <text x="448" y="110" class="t" fill="#1a8a7a">c</text>
+  <text x="456" y="210" class="t" fill="#1a8a7a">d</text>
+  <!-- Fórmula central -->
+  <rect x="220" y="120" width="220" height="56" rx="10" fill="#f0eeff" stroke="#6c3fc5" stroke-width="1.5"/>
+  <text x="330" y="148" class="th" text-anchor="middle">a/b = c/d</text>
+  <text x="330" y="168" class="ts" text-anchor="middle">se r // s // t</text>
+  <!-- Título -->
+  <text x="340" y="300" class="th" text-anchor="middle">Teorema de Tales — Feixe de Paralelas</text>
 </svg>
 ```
 
 ---
 
-### DIAGRAMA: semelhanca
-Dois triângulos semelhantes △ABC e △DEF lado a lado com razão k indicada entre lados homólogos.
+### DIAGRAMA: semelhanca_triangulos
+Dois triângulos semelhantes lado a lado com a razão de semelhança k indicada entre lados correspondentes.
 
 ```svg
-<svg width="100%" viewBox="0 0 680 300"
-     xmlns="http://www.w3.org/2000/svg"
-     style="font-family:'Inter',sans-serif;background:#fff">
+<svg width="100%" viewBox="0 0 680 300">
   <defs>
-    <marker id="arr2" markerWidth="8" markerHeight="8"
-            refX="6" refY="3" orient="auto">
-      <path d="M0,0 L0,6 L8,3 z" fill="#7c3aed"/>
-    </marker>
     <style>
-      @media(prefers-color-scheme:dark){
-        svg{background:#1e1e1e}
-        .cd{fill:#e0e0e0}
-      }
-      .cd{fill:#1a1a1a}
-      .t{font-size:14px;dominant-baseline:central}
-      .ts{font-size:12px;dominant-baseline:central}
-      .th{font-size:14px;font-weight:700;dominant-baseline:central}
+      .c-purple{fill:#6c3fc5;} .c-teal{fill:#1a8a7a;} .c-amber{fill:#b07d0a;}
+      .c-coral{fill:#c0392b;} .c-gray{fill:#555;} .c-green{fill:#1a7a3a;}
+      .t{font-family:sans-serif;font-size:15px;fill:#222;dominant-baseline:central;}
+      .ts{font-family:sans-serif;font-size:12px;fill:#555;dominant-baseline:central;}
+      .th{font-family:sans-serif;font-size:16px;font-weight:bold;fill:#1a3a5c;dominant-baseline:central;}
     </style>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 Z" fill="#555"/>
+    </marker>
   </defs>
-
-  <!-- Triângulo ABC (menor, esquerda) -->
-  <polygon points="80,240 200,60 320,240"
-           fill="#dbeafe" stroke="#1a3a5c" stroke-width="2.5"/>
-  <text x="72" y="258" class="th cd">B</text>
-  <text x="194" y="48" class="th cd">A</text>
-  <text x="322" y="258" class="th cd">C</text>
-
-  <!-- Lados do △ABC -->
-  <text x="118" y="148" class="t" fill="#1a3a5c">c</text>
-  <text x="265" y="148" class="t" fill="#1a3a5c">b</text>
-  <text x="192" y="258" class="t" fill="#1a3a5c">a</text>
-
-  <!-- Triângulo DEF (maior, direita) -->
-  <polygon points="380,240 540,40 680,240"
-           fill="#dcfce7" stroke="#166534" stroke-width="2.5"/>
-  <text x="368" y="258" class="th cd">E</text>
-  <text x="534" y="28" class="th cd">D</text>
-  <text x="678" y="258" class="th cd">F</text>
-
-  <!-- Lados do △DEF -->
-  <text x="444" y="148" class="t" fill="#166534">f</text>
-  <text x="618" y="148" class="t" fill="#166534">e</text>
-  <text x="522" y="258" class="t" fill="#166534">d</text>
-
-  <!-- Seta de semelhança com k -->
-  <line x1="330" y1="148" x2="370" y2="148"
-        stroke="#7c3aed" stroke-width="2"
-        marker-end="url(#arr2)"/>
-  <text x="338" y="138" class="ts" fill="#7c3aed">k</text>
-
-  <!-- Legenda -->
-  <rect x="180" y="270" width="320" height="22"
-        rx="6" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5"/>
-  <text x="340" y="281" class="ts" fill="#7c3aed"
-        text-anchor="middle">△ABC ∼ △DEF  →  c/f = b/e = a/d = k</text>
+  <!-- Triângulo ABC (menor) -->
+  <polygon points="80,220 180,220 130,80" fill="#e8f0ff" stroke="#1a3a5c" stroke-width="2"/>
+  <text x="72" y="235" class="t">B</text>
+  <text x="182" y="235" class="t">C</text>
+  <text x="122" y="68" class="t">A</text>
+  <!-- Triângulo DEF (maior) -->
+  <polygon points="360,240 560,240 460,60" fill="#e8fff4" stroke="#1a8a7a" stroke-width="2"/>
+  <text x="348" y="255" class="t" fill="#1a8a7a">D</text>
+  <text x="562" y="255" class="t" fill="#1a8a7a">F</text>
+  <text x="452" y="48" class="t" fill="#1a8a7a">E</text>
+  <!-- Sinal de semelhança -->
+  <text x="240" y="155" class="th" text-anchor="middle">~</text>
+  <!-- Razão k -->
+  <rect x="230" y="190" width="120" height="44" rx="8" fill="#fff8e0" stroke="#b07d0a" stroke-width="1.5"/>
+  <text x="290" y="208" class="ts" text-anchor="middle">razão de semelhança</text>
+  <text x="290" y="226" class="th" text-anchor="middle" font-size="14">k = AB/DE = BC/DF</text>
+  <!-- Título -->
+  <text x="340" y="280" class="th" text-anchor="middle">△ABC ~ △DEF</text>
 </svg>
 ```
 
 ---
 
 ### DIAGRAMA: bissetriz_interna
-Triângulo ABC com bissetriz AD do ângulo A, dividindo BC em segmentos x e y, com proporção c/x = b/y.
+Triângulo ABC com bissetriz interna do ângulo A dividindo BC em segmentos x e y, com a proporção c/x = b/y.
 
 ```svg
-<svg width="100%" viewBox="0 0 680 320"
-     xmlns="http://www.w3.org/2000/svg"
-     style="font-family:'Inter',sans-serif;background:#fff">
+<svg width="100%" viewBox="0 0 680 320">
   <defs>
     <style>
-      @media(prefers-color-scheme:dark){
-        svg{background:#1e1e1e}
-        .ce{fill:#e0e0e0}
-      }
-      .ce{fill:#1a1a1a}
-      .t{font-size:14px;dominant-baseline:central}
-      .ts{font-size:12px;dominant-baseline:central}
-      .th{font-size:15px;font-weight:700;dominant-baseline:central}
+      .c-purple{fill:#6c3fc5;} .c-teal{fill:#1a8a7a;} .c-amber{fill:#b07d0a;}
+      .c-coral{fill:#c0392b;} .c-gray{fill:#555;} .c-green{fill:#1a7a3a;}
+      .t{font-family:sans-serif;font-size:15px;fill:#222;dominant-baseline:central;}
+      .ts{font-family:sans-serif;font-size:12px;fill:#555;dominant-baseline:central;}
+      .th{font-family:sans-serif;font-size:16px;font-weight:bold;fill:#1a3a5c;dominant-baseline:central;}
     </style>
     <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
       <path d="M0,0 L0,6 L8,3 Z" fill="#555"/>
     </marker>
   </defs>
-
   <!-- Triângulo ABC -->
-  <polygon points="340,40 80,270 600,270"
-           fill="#fef9c3" stroke="#92400e" stroke-width="2.5"/>
-
-  <!-- Vértices -->
-  <text x="332" y="28" class="th ce">A</text>
-  <text x="62" y="280" class="th ce">B</text>
-  <text x="602" y="280" class="th ce">C</text>
-
-  <!-- Ponto D na base BC -->
-  <!-- D divide BC: x=BD do lado B, y=DC do lado C -->
-  <!-- Por proporção c/x = b/y; posicionar D em ~40% de BC -->
-  <circle cx="284" cy="270" r="4" fill="#c0392b"/>
-  <text x="278" y="288" class="t" fill="#c0392b">D</text>
-
-  <!-- Bissetriz AD -->
-  <line x1="340" y1="40" x2="284" y2="270"
-        stroke="#c0392b" stroke-width="2" stroke-dasharray="6,4"/>
-
-  <!-- Segmentos x e y em BC -->
-  <text x="174" y="258" class="th" fill="#1a3a5c">x</text>
-  <text x="430" y="258" class="th" fill="#166534">y</text>
-
-  <!-- Lados c e b -->
-  <text x="185" y="148" class="t" fill="#1a3a5c">c = AB</text>
-  <text x="485" y="148" class="t" fill="#166534">b = AC</text>
-
-  <!-- Arco do ângulo A bissetado -->
-  <path d="M 315,65 A 32,32 0 0 1 365,65"
-        fill="none" stroke="#c0392b" stroke-width="1.5"/>
-  <text x="330" y="82" class="ts" fill="#c0392b">bissetriz</text>
-
-  <!-- Caixa com fórmula -->
-  <rect x="220" y="290" width="240" height="24"
-        rx="8" fill="#fef3c7" stroke="#92400e" stroke-width="1.5"/>
-  <text x="340" y="302" class="ts ce"
-        text-anchor="middle" font-weight="700">c / x = b / y</text>
+  <polygon points="280,40 80,260 520,260" fill="#f0eeff" stroke="#1a3a5c" stroke-width="2.5"/>
+  <!-- Ponto A no topo -->
+  <text x="272" y="28" class="th">A</text>
+  <!-- Ponto B -->
+  <text x="60" y="272" class="th">B</text>
+  <!-- Ponto C -->
+  <text x="524" y="272" class="th">C</text>
+  <!-- Bissetriz AD (D na base BC) -->
+  <line x1="280" y1="40" x2="300" y2="260" stroke="#c0392b" stroke-width="2" stroke-dasharray="8,4"/>
+  <circle cx="300" cy="260" r="4" fill="#c0392b"/>
+  <text x="300" y="278" class="t" fill="#c0392b" text-anchor="middle">D</text>
+  <!-- Labels dos lados -->
+  <text x="156" y="142" class="t" fill="#1a8a7a">c</text>
+  <text x="408" y="142" class="t" fill="#6c3fc5">b</text>
+  <!-- Labels dos segmentos x e y -->
+  <text x="185" y="272" class="t" fill="#c0392b">x</text>
+  <text x="405" y="272" class="t" fill="#b07d0a">y</text>
+  <!-- Fórmula -->
+  <rect x="200" y="300" width="280" height="44" rx="10" fill="#fff0f0" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="340" y="318" class="th" text-anchor="middle">c/x = b/y</text>
+  <text x="340" y="336" class="ts" text-anchor="middle">Teorema da Bissetriz Interna</text>
+  <!-- Nota -->
+  <text x="340" y="20" class="ts" text-anchor="middle">AD é a bissetriz do ângulo A</text>
 </svg>
 ```
 
 ---
 
-### DIAGRAMA: formulas
-Resumo visual de todas as fórmulas do capítulo: nó nome → expressão → condição.
+### DIAGRAMA: aplicacoes_tales
+Hierarquia de aplicações práticas do Teorema de Tales em situações reais.
 
 ```svg
-<svg width="100%" viewBox="0 0 680 380"
-     xmlns="http://www.w3.org/2000/svg"
-     style="font-family:'Inter',sans-serif;background:#fff">
+<svg width="100%" viewBox="0 0 680 380">
   <defs>
-    <marker id="arr3" markerWidth="8" markerHeight="8"
-            refX="6" refY="3" orient="auto">
-      <path d="M0,0 L0,6 L8,3 z" fill="#1a3a5c"/>
-    </marker>
     <style>
-      @media(prefers-color-scheme:dark){
-        svg{background:#1e1e1e}
-        .cf{fill:#e0e0e0}
-      }
-      .cf{fill:#1a1a1a}
-      .t{font-size:13px;dominant-baseline:central}
-      .ts{font-size:11px;dominant-baseline:central}
-      .th{font-size:13px;font-weight:700;dominant-baseline:central}
+      .c-purple{fill:#6c3fc5;} .c-teal{fill:#1a8a7a;} .c-amber{fill:#b07d0a;}
+      .c-coral{fill:#c0392b;} .c-gray{fill:#555;} .c-green{fill:#1a7a3a;}
+      .t{font-family:sans-serif;font-size:15px;fill:#222;dominant-baseline:central;}
+      .ts{font-family:sans-serif;font-size:12px;fill:#555;dominant-baseline:central;}
+      .th{font-family:sans-serif;font-size:16px;font-weight:bold;fill:#fff;dominant-baseline:central;}
     </style>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 Z" fill="#555"/>
+    </marker>
   </defs>
-
-  <!-- Linha 1: Teorema de Tales -->
-  <rect x="10" y="20" width="180" height="44"
-        rx="8" fill="#dbeafe" stroke="#1a3a5c" stroke-width="2"/>
-  <text x="100" y="42" class="th cf" text-anchor="middle">Teorema de Tales</text>
-
-  <line x1="190" y1="42" x2="218" y2="42"
-        stroke="#1a3a5c" stroke-width="1.5" marker-end="url(#arr3)"/>
-
-  <rect x="220" y="20" width="160" height="44"
-        rx="8" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
-  <text x="300" y="42" class="th" fill="#7c3aed" text-anchor="middle">a/b = c/d</text>
-
-  <line x1="380" y1="42" x2="408" y2="42"
-        stroke="#1a3a5c" stroke-width="1.5" marker-end="url(#arr3)"/>
-
-  <rect x="410" y="20" width="260" height="44"
-        rx="8" fill="#f0fdf4" stroke="#166534" stroke-width="1.5"/>
-  <text x="540" y="36" class="ts cf" text-anchor="middle">r ∥ s ∥ t; transversais u, v</text>
-  <text x="540" y="52" class="ts" fill="#c0392b" text-anchor="middle">⚠ a↔c entre mesmas paralelas</text>
-
-  <!-- Linha 2: Propriedade das proporções -->
-  <rect x="10" y="100" width="180" height="44"
-        rx="8" fill="#dbeafe" stroke="#1a3a5c" stroke-width="2"/>
-  <text x="100" y="116" class="th cf" text-anchor="middle">Prop. das</text>
-  <text x="100" y="132" class="th cf" text-anchor="middle">Proporções</text>
-
-  <line x1="190" y1="122" x2="218" y2="122"
-        stroke="#1a3a5c" stroke-width="1.5" marker-end="url(#arr3)"/>
-
-  <rect x="220" y="100" width="200" height="44"
-        rx="8" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
-  <text x="320" y="116" class="t" fill="#7c3aed" text-anchor="middle">(a+b)/b = (c+d)/d</text>
-  <text x="320" y="132" class="ts cf" text-anchor="middle">decorre de a/b = c/d</text>
-
-  <line x1="420" y1="122" x2="448" y2="122"
-        stroke="#1a3a5c" stroke-width="1.5" marker-end="url(#arr3)"/>
-
-  <rect x="450" y="100" width="220" height="44"
-        rx="8" fill="#fef9c3" stroke="#92400e" stroke-width="1.5"/>
-  <text x="560" y="116" class="ts cf" text-anchor="middle">Use quando a soma dos</text>
-  <text x="560" y="132" class="ts cf" text-anchor="middle">segmentos é conhecida</text>
-
-  <!-- Linha 3: Semelhança -->
-  <rect x="10" y="180" width="180" height="44"
-        rx="8" fill="#dbeafe" stroke="#1a3a5c" stroke-width="2"/>
-  <text x="100" y="196" class="th cf" text-anchor="middle">Semelhança de</text>
-  <text x="100" y="212" class="th cf" text-anchor="middle">Triângulos</text>
-
-  <line x1="190" y1="202" x2="218" y2="202"
-        stroke="#1a3a5c" stroke-width="1.5" marker-end="url(#arr3)"/>
-
-  <rect x="220" y="180" width="200" height="44"
-        rx="8" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
-  <text x="320" y="196" class="t" fill="#7c3aed" text-anchor="middle">a/d = b/e = c/f = k</text>
-  <text x="320" y="212" class="ts cf" text-anchor="middle">△ABC ∼ △DEF</text>
-
-  <line x1="420" y1="202" x2="448" y2="202"
-        stroke="#1a3a5c" stroke-width="1.5" marker-end="url(#arr3)"/>
-
-  <rect x="450" y="180" width="220" height="44"
-        rx="8" fill="#fef3c7" stroke="#92400e" stroke-width="1.5"/>
-  <text x="560" y="196" class="ts cf" text-anchor="middle">Área: razão k²</text>
-  <text x="560" y="212" class="ts" fill="#c0392b" text-anchor="middle">⚠ não confundir k e k²</text>
-
-  <!-- Linha 4: Bissetriz interna -->
-  <rect x="10" y="260" width="180" height="44"
-        rx="8" fill="#dbeafe" stroke="#1a3a5c" stroke-width="2"/>
-  <text x="100" y="276" class="th cf" text-anchor="middle">Bissetriz</text>
-  <text x="100" y="292" class="th cf" text-anchor="middle">Interna</text>
-
-  <line x1="190" y1="282" x2="218" y2="282"
-        stroke="#1a3a5c" stroke-width="1.5" marker-end="url(#arr3)"/>
-
-  <rect x="220" y="260" width="160" height="44"
-        rx="8" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
-  <text x="300" y="282" class="th" fill="#7c3aed" text-anchor="middle">c/x = b/y</text>
-
-  <line x1="380" y1="282" x2="408" y2="282"
-        stroke="#1a3a5c" stroke-width="1.5" marker-end="url(#arr3)"/>
-
-  <rect x="410" y="260" width="260" height="44"
-        rx="8" fill="#f0fdf4" stroke="#166534" stroke-width="1.5"/>
-  <text x="540" y="276" class="ts cf" text-anchor="middle">AD bissetriz de  em △ABC</text>
-  <text x="540" y="292" class="ts cf" text-anchor="middle">Consequência do Teo. de Tales</text>
+  <!-- Nó central -->
+  <rect x="220" y="20" width="240" height="58" rx="14" fill="#1a3a5c"/>
+  <text x="340" y="49" class="th" text-anchor="middle">Teorema de Tales</text>
+  <!-- Linhas para filhos -->
+  <line x1="280" y1="78" x2="100" y2="150" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="340" y1="78" x2="340" y2="150" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="400" y1="78" x2="580" y2="150" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+  <!-- Aplicação 1: Sombras -->
+  <rect x="20" y="150" width="160" height="58" rx="10" fill="#1a8a7a"/>
+  <text x="100" y="170" class="th" text-anchor="middle" font-size="13">Medição por</text>
+  <text x="100" y="190" class="th" text-anchor="middle" font-size="13">Sombras</text>
+  <!-- Aplicação 2: Pontes/Distâncias -->
+  <rect x="250" y="150" width="180" height="58" rx="10" fill="#6c3fc5"/>
+  <text x="340" y="170" class="th" text-anchor="middle" font-size="13">Distâncias</text>
+  <text x="340" y="190" class="th" text-anchor="middle" font-size="13">Inacessíveis</text>
+  <!-- Aplicação 3: Terrenos -->
+  <rect x="500" y="150" width="160" height="58" rx="10" fill="#b07d0a"/>
+  <text x="580" y="170" class="th" text-anchor="middle" font-size="13">Divisão de</text>
+  <text x="580" y="190" class="th" text-anchor="middle" font-size="13">Terrenos</text>
+  <!-- Exemplos de cada aplicação -->
+  <rect x="20" y="240" width="160" height="72" rx="8" fill="#e8fff4" stroke="#1a8a7a" stroke-width="1"/>
+  <text x="100" y="260" class="ts" text-anchor="middle">Postes, árvores,</text>
+  <text x="100" y="276" class="ts" text-anchor="middle">palmeiras, estátuas</text>
+  <text x="100" y="292" class="ts" text-anchor="middle">Teatro de sombras</text>
+  <text x="100" y="308" class="ts" text-anchor="middle">Dentes (Bragman)</text>
+  <rect x="250" y="240" width="180" height="72" rx="8" fill="#f0eeff" stroke="#6c3fc5" stroke-width="1"/>
+  <text x="340" y="260" class="ts" text-anchor="middle">Pontes sobre rios</text>
+  <text x="340" y="276" class="ts" text-anchor="middle">Largura de canais</text>
+  <text x="340" y="292" class="ts" text-anchor="middle">Teleférico (morros)</text>
+  <text x="340" y="308" class="ts" text-anchor="middle">Antenas 5G</text>
+  <rect x="500" y="240" width="160" height="72" rx="8" fill="#fff8e0" stroke="#b07d0a" stroke-width="1"/>
+  <text x="580" y="260" class="ts" text-anchor="middle">Frente de terrenos</text>
+  <text x="580" y="276" class="ts" text-anchor="middle">para ruas paralelas</text>
+  <text x="580" y="292" class="ts" text-anchor="middle">Plantas urbanas</text>
+  <text x="580" y="308" class="ts" text-anchor="middle">Estais de pontes</text>
+  <!-- Fórmula base -->
+  <rect x="180" y="340" width="320" height="30" rx="8" fill="#f4f2ee" stroke="#1a3a5c" stroke-width="1.5"/>
+  <text x="340" y="355" class="t" text-anchor="middle" fill="#1a3a5c">Em todas: montar proporção a/b = c/d</text>
 </svg>
 ```
 
