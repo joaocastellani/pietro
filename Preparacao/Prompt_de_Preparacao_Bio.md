@@ -262,6 +262,22 @@ N. [enunciado com `______` marcando a lacuna]
 *(resposta: [resposta esperada])*
 ```
 
+#### Bloco 4 — Tabela Síntese
+
+Tabela markdown obrigatória (6–10 linhas). Cobre conceitos
+principais, fórmulas-chave, pelo menos 1 aplicação prática e
+1 pegadinha/alerta. Formato exato:
+
+```
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| [conceito 1] | `______` → *[resposta]* |
+| [conceito 2] | `______` → *[resposta]* |
+| [fórmula ou dado] | `______` → *[resposta]* |
+| [aplicação prática] | `______` → *[resposta]* |
+| [pegadinha ou alerta] | `______` → *[resposta]* |
+```
+
 ---
 
 ### SEÇÃO 10 — SÍNTESE DO LIVRO [CONDICIONAL]
@@ -362,6 +378,7 @@ Os SVGs ficam **embutidos no próprio prep.md** como blocos de código.
   stroke-width="1.5" stroke-linecap="round"
   stroke-linejoin="round"/></marker></defs>
   ```
+  ⚠️ OBRIGATÓRIO em todos os SVGs, mesmo nos que não usam setas.
 
 **Regras anti-sobreposição — verificar ANTES de posicionar cada elemento:**
 

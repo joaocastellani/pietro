@@ -231,6 +231,22 @@ N. [enunciado com `______` marcando a lacuna]
 *(resposta: [resposta esperada])*
 ```
 
+#### Bloco 4 — Tabela Síntese
+
+Tabela markdown obrigatória (6–10 linhas). Cobre conceitos
+principais, fórmulas-chave, pelo menos 1 aplicação prática e
+1 pegadinha/alerta. Formato exato:
+
+```
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| [conceito 1] | `______` → *[resposta]* |
+| [conceito 2] | `______` → *[resposta]* |
+| [fórmula ou dado] | `______` → *[resposta]* |
+| [aplicação prática] | `______` → *[resposta]* |
+| [pegadinha ou alerta] | `______` → *[resposta]* |
+```
+
 ---
 
 ### SEÇÃO 10 — SÍNTESE DO LIVRO [CONDICIONAL]
@@ -311,7 +327,18 @@ Os SVGs ficam embutidos no próprio prep.md.
 **Regras obrigatórias:** width="100%", viewBox="0 0 680 H",
 classes c-purple/c-teal/c-amber/c-coral/c-gray/c-green,
 text classes t/ts/th, sem gradientes, sem emojis,
-dark mode automático, incluir defs com marker de seta.
+dark mode automático. `<defs>` com marker de seta OBRIGATÓRIO
+em todos os SVGs, mesmo nos que não usam setas:
+
+```
+<defs>
+  <style>...</style>
+  <marker id="arr" markerWidth="8" markerHeight="8"
+    refX="6" refY="3" orient="auto">
+    <path d="M0,0 L0,6 L8,3 Z" fill="#555"/>
+  </marker>
+</defs>
+```
 
 **Regras anti-sobreposição — verificar ANTES de posicionar:**
 
