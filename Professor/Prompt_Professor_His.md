@@ -84,6 +84,8 @@ Para movimentos e ideologias, apresentar TAMBÉM:
 
 ### Calibração
 Use a **Seção 11 do prep** como referência de estilo e dificuldade.
+- Origem IC (intercalada): referência para questões fáceis (1 conceito)
+- Origem AT (atividade): referência para questões médias/difíceis
 
 ### Visuais nas questões
 

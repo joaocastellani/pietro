@@ -268,14 +268,17 @@ Se não houver imagem: escreva
 
 ### SEÇÃO 11 — QUESTÕES DE REFERÊNCIA
 
-**Fonte exclusiva:** `mat-[u]-[c]-questoes.md`
-Se não disponível: "Seção 11 não gerada — adicione o arquivo ao KB."
+**Fontes:**
+- `mat-[u]-[c]-questoes.md` → Bloco Atividades (Origem: AT)
+- BLOCO E (QI-N) do `mat-[u]-[c].md` → Questões Intercaladas (Origem: IC)
+
+Se `questoes.md` não disponível: "Seção 11 parcial — apenas questões intercaladas."
 
 #### Bloco A — Catálogo das questões
 
-| # | Enunciado resumido | Tipo | Dif. | Gabarito | Obs. |
-|---|---|---|---|---|---|
-| Q-N | [1 linha] | [MC/Cal/Dis/VF/Assoc/Const] | [F/M/D] | [resposta + resolução resumida] | [— ou ⚠️] |
+| # | Enunciado resumido | Tipo | Dif. | Origem | Gabarito | Obs. |
+|---|---|---|---|---|---|---|
+| Q-N | [1 linha] | [MC/Cal/Dis/VF/Assoc/Const] | [F/M/D] | [IC/AT] | [resposta + resolução resumida] | [— ou ⚠️] |
 
 Legenda: MC = múltipla escolha · Cal = cálculo · Dis = dissertativa
 VF = V-F · Assoc = associação · Const = construção

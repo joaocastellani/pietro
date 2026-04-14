@@ -279,13 +279,17 @@ Se não houver imagem: escreva
 
 ### SEÇÃO 11 — QUESTÕES DE REFERÊNCIA
 
-**Fonte exclusiva:** `fis-[u]-[c]-questoes.md`
+**Fontes:**
+- `fis-[u]-[c]-questoes.md` → Bloco Atividades (Origem: AT)
+- BLOCO G (QI-N) do `fis-[u]-[c].md` → Questões Intercaladas (Origem: IC)
+
+Se `questoes.md` não disponível: "Seção 11 parcial — apenas questões intercaladas."
 Se não disponível: "Seção 11 não gerada — adicione o arquivo ao KB."
 
 #### Bloco A — Catálogo das questões
 
-| # | Enunciado resumido | Tipo | Dif. | Gabarito | Obs. |
-|---|---|---|---|---|---|
+| # | Enunciado resumido | Tipo | Dif. | Origem | Gabarito | Obs. |
+|---|---|---|---|---|---|---|
 | Q-N | [1 linha] | [MC/Dis/Calc/Soma] | [F/M/D] | [resposta + justificativa] | [— ou ⚠️] |
 
 Regras:

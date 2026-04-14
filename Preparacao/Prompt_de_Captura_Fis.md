@@ -38,9 +38,11 @@ REGRAS GERAIS:
   nelas — legendas, textos sobrepostos, rótulos de esquemas,
   títulos de figuras, dados de tabelas — e incorpore nas seções
   correspondentes. Não ignore imagens.
-- BLOCOS DE ATIVIDADES E QUESTÕES: se o capítulo incluir seções
-  de atividades ou questões para o aluno, NÃO os capture neste
-  arquivo. Questões vão no arquivo separado fis-[u]-[c]-questoes.md.
+- BLOCOS DE ATIVIDADES E QUESTÕES: a seção Atividades (bloco final
+  numerado) vai no arquivo separado fis-[u]-[c]-questoes.md.
+  EXCEÇÃO: questões intercaladas no corpo do capítulo (antes das
+  Atividades) devem ser capturadas no BLOCO G deste arquivo com
+  prefixo QI-N e tag [IC].
 - SEÇÃO FINAL OPCIONAL — IMAGENS RECOMENDADAS PARA CAPTURA:
   Se identificar figuras, esquemas ou tabelas cujo conteúdo não
   foi possível extrair por texto, adicione ao final do arquivo:
@@ -226,6 +228,23 @@ com "Não especificada".]
   (preserve números, datas, nomes e unidades)
 - Conceitos físicos presentes ou exemplificados no texto
 - Fonte ou origem (se citada no material)
+
+### BLOCO G — QUESTÕES INTERCALADAS
+[Se houver questões autônomas inseridas no corpo do capítulo,
+antes da seção Atividades. Sinais: número ou caixa destacada
+com título "Pratique"/"Resolva"/"Verifique"/"Atividade" dentro
+do fluxo expositivo — não no bloco final de Atividades.]
+
+DISTINÇÃO — CRÍTICO:
+Questão intercalada = aparece no corpo do capítulo, antes de Atividades.
+Seção Atividades (bloco final numerado) → NÃO capturar aqui → vai em questoes.md.
+
+Use prefixo QI-N (sequência própria do arquivo) e tag [IC]:
+
+**QI-[N]** · [IC]
+Enunciado: [texto completo]
+Gabarito: [se fornecido pelo livro]
+Conceito testado: [conceito central avaliado]
 ```
 
 ---
@@ -263,5 +282,8 @@ com "Não especificada".]
 [se aplicável]
 
 ## BLOCO F — TEXTO COMPLEMENTAR
+[se aplicável]
+
+## BLOCO G — QUESTÕES INTERCALADAS
 [se aplicável]
 ```

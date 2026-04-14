@@ -131,16 +131,26 @@ CHECAGEM: "Existe tabela com linhas e colunas visíveis?"
 
 DISTINÇÃO — CRÍTICO:
 Intercalado = aparece no corpo do capítulo, antes da seção Atividades.
-Sinais: caixa colorida, título "Exemplo"/"Resolva"/"Fixação".
+Sinais: caixa colorida, título "Exemplo"/"Resolva"/"Fixação"/"Pratique".
 Atividades = bloco final numerado → NÃO capturar aqui.
 Em caso de dúvida: registre em IMAGENS RECOMENDADAS, não capture.
 
-Para cada item:
+DOIS SUBTIPOS — capture cada um com formato próprio:
+
+1. Exemplo resolvido (livro apresenta a solução):
 - Identificação [se houver]
 - Enunciado completo
 - Desenvolvimento passo a passo conforme o material
 - Resultado final
 - Conceito ou propriedade aplicada
+
+2. Questão autônoma (livro não apresenta solução) — tag [IC]:
+Use prefixo QI-N (sequência própria do arquivo):
+
+**QI-[N]** · [IC]
+Enunciado: [texto completo]
+Gabarito: [se fornecido pelo livro]
+Conceito testado: [conceito central avaliado]
 
 ---
 

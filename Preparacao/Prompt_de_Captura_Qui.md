@@ -216,3 +216,22 @@ com "Não especificada".]
 - Dados e fatos relevantes (preserve números, datas, fórmulas)
 - Conceitos químicos presentes
 - Fonte (se citada)
+
+---
+
+## BLOCO G — QUESTÕES INTERCALADAS
+[Se houver questões autônomas inseridas no corpo do capítulo,
+antes da seção Atividades. Sinais: número ou caixa destacada
+com título "Pratique"/"Resolva"/"Verifique"/"Atividade" dentro
+do fluxo expositivo — não no bloco final de Atividades.]
+
+DISTINÇÃO — CRÍTICO:
+Questão intercalada = aparece no corpo do capítulo, antes de Atividades.
+Seção Atividades (bloco final numerado) → NÃO capturar aqui → vai em questoes.md.
+
+Use prefixo QI-N (sequência própria do arquivo) e tag [IC]:
+
+**QI-[N]** · [IC]
+Enunciado: [texto completo]
+Gabarito: [se fornecido pelo livro]
+Conceito testado: [conceito central avaliado]
