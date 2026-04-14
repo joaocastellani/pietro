@@ -68,7 +68,7 @@ Todo arquivo `*-prep.md` deve conter estas seções na ordem:
 | SEÇÃO 2  | Mapa de conceitos               | ✅ Sim      |
 | SEÇÃO 3  | Cientistas / personagens        | ⬜ Se histórico |
 | SEÇÃO 4  | Fórmulas                        | ⬜ Se mat-operacional |
-| SEÇÃO 5  | Glossário                       | ✅ Sim      |
+| SEÇÃO 5  | Conteúdo específico por matéria | ⬜ Condicional |
 | SEÇÃO 6  | Tabelas de dados (markdown)     | ✅ Sim      |
 | SEÇÃO 7  | Dicas de ouro                   | ✅ Sim      |
 | SEÇÃO 8  | Alertas e pegadinhas            | ✅ Sim      |

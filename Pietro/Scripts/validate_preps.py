@@ -22,7 +22,7 @@ SECOES_OBRIGATORIAS = [
     ("SEÇÃO 2",  "MAPA DE CONCEITOS",        True),
     ("SEÇÃO 3",  "CIENTISTAS",               False),  # opcional: só se histórico
     ("SEÇÃO 4",  "FÓRMULAS",                 False),  # opcional: só se mat-operacional
-    ("SEÇÃO 5",  "GLOSSÁRIO",                True),
+    ("SEÇÃO 5",  "GLOSSÁRIO",                False),  # condicional — cada matéria define critério próprio
     ("SEÇÃO 6",  "TABELAS",                  True),
     ("SEÇÃO 7",  "DICAS DE OURO",            True),
     ("SEÇÃO 8",  "ALERTAS",                  True),
