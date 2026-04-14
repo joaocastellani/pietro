@@ -176,6 +176,10 @@ Convenção de mensagens:
 | Organização de arquivos  | `chore: move/renomeia arquivos`  |
 
 Regras:
+- Ao commitar um novo prep, sempre incluir no mesmo commit:
+  - `Pietro/Prep/[Materia]/[mat]-[u]-[c]-prep.md`
+  - `Pietro/Prep/[Materia]/mindmap_[mat][u][c].html` (se existir)
+  - Imagens Raw correspondentes (se houver)
 - Nunca commitar arquivos dentro de `Pietro/temp/`
 - Sempre incluir data no commit quando for relatório ou validação
 - Um commit por operação — não agrupar coisas não relacionadas
