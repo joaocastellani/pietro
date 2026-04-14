@@ -1,6 +1,6 @@
 # PROMPT DE PREPARAÇÃO — HISTÓRIA (9º ano)
 
-Arquivos de entrada: `his-[u]-[c].md` + `his-[u]-[c]-questoes.md`
+Arquivo de entrada: `his-[u]-[c].md`
 Arquivo gerado:      `his-[u]-[c]-prep.md`
 Mapa mental gerado:  `mindmap_his[u][c].html`
 
@@ -9,7 +9,7 @@ Mapa mental gerado:  `mindmap_his[u][c].html`
 ## INSTRUÇÕES GERAIS
 
 1. Use `project_knowledge_search` para localizar e ler
-   `his-[u]-[c].md` e `his-[u]-[c]-questoes.md` inteiros
+   `his-[u]-[c].md` inteiro
    antes de gerar qualquer conteúdo
 2. Todo o conteúdo é gerado de uma vez, sem interação com o aluno
 3. Preserve datas, nomes de personagens e países exatamente
@@ -327,11 +327,8 @@ Se não houver imagem: escreva
 ### SEÇÃO 11 — QUESTÕES DE REFERÊNCIA
 
 **Fontes:**
-- `his-[u]-[c]-questoes.md` → Bloco Atividades (Origem: AT)
+- SEÇÃO ATIVIDADES do `his-[u]-[c].md` → Questões de Atividades (Origem: AT)
 - BLOCO G (QI-N) do `his-[u]-[c].md` → Questões Intercaladas (Origem: IC)
-
-Se `questoes.md` não disponível: "Seção 11 parcial — apenas questões intercaladas."
-Se não disponível: "Seção 11 não gerada — adicione o arquivo ao KB."
 
 #### Bloco A — Catálogo das questões
 
@@ -352,7 +349,7 @@ Regras:
 
 #### Bloco B — Questões modelo originais
 
-5 questões originais inspiradas no estilo do `questoes.md`.
+5 questões originais inspiradas no estilo da SEÇÃO ATIVIDADES.
 NÃO copiar nem parafrasear — criar contextos novos.
 
 Distribuição:
@@ -477,7 +474,7 @@ Exemplo: capítulo com 5 eventos datados (narrativo) + 2 conceitos (conceitual)
 
 ## EXECUÇÃO
 
-1. Leia `his-[u]-[c].md` e `his-[u]-[c]-questoes.md` inteiros
+1. Leia `his-[u]-[c].md` inteiro
 2. Verifique se imagem da Síntese foi anexada:
    - ✅ Sim: gere todas as seções incluindo a 10
    - ⬜ Não: gere seções 0–9, 11, 12; indique que Seção 10

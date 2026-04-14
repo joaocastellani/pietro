@@ -1,6 +1,6 @@
 # PROMPT DE PREPARAÇÃO — QUÍMICA (9º ano)
 
-Arquivos de entrada: `qui-[u]-[c].md` + `qui-[u]-[c]-questoes.md`
+Arquivo de entrada: `qui-[u]-[c].md`
 Arquivo gerado:      `qui-[u]-[c]-prep.md`
 Mapa mental gerado:  `mindmap_qui[u][c].html`
 
@@ -9,7 +9,7 @@ Mapa mental gerado:  `mindmap_qui[u][c].html`
 ## INSTRUÇÕES GERAIS
 
 1. Use `project_knowledge_search` para localizar e ler
-   `qui-[u]-[c].md` e `qui-[u]-[c]-questoes.md` inteiros
+   `qui-[u]-[c].md` inteiro
    antes de gerar qualquer conteúdo
 2. Todo o conteúdo é gerado de uma vez, sem interação com o aluno
 3. Preserve equações químicas, símbolos e unidades exatamente
@@ -342,11 +342,8 @@ Se não houver imagem: escreva
 ### SEÇÃO 11 — QUESTÕES DE REFERÊNCIA
 
 **Fontes:**
-- `qui-[u]-[c]-questoes.md` → Bloco Atividades (Origem: AT)
+- SEÇÃO ATIVIDADES do `qui-[u]-[c].md` → Questões de Atividades (Origem: AT)
 - BLOCO G (QI-N) do `qui-[u]-[c].md` → Questões Intercaladas (Origem: IC)
-
-Se `questoes.md` não disponível: "Seção 11 parcial — apenas questões intercaladas."
-Se não disponível: "Seção 11 não gerada — adicione o arquivo ao KB."
 
 #### Bloco A — Catálogo das questões
 
@@ -369,7 +366,7 @@ Regras:
 
 #### Bloco B — Questões modelo originais
 
-5 questões originais inspiradas no estilo do `questoes.md`.
+5 questões originais inspiradas no estilo da SEÇÃO ATIVIDADES.
 NÃO copiar nem parafrasear — criar contextos novos.
 
 Distribuição:
@@ -496,7 +493,7 @@ NÃO usar SVG para tabelas densas de dados — usar markdown na Seção 6.
 
 ## EXECUÇÃO
 
-1. Leia `qui-[u]-[c].md` e `qui-[u]-[c]-questoes.md` inteiros
+1. Leia `qui-[u]-[c].md` inteiro
 2. Verifique se imagem da Síntese foi anexada:
    - ✅ Sim: gere todas as seções incluindo a 10
    - ⬜ Não: gere seções 0–9, 11, 12; indique que Seção 10

@@ -28,7 +28,7 @@ variações. Bloco sem dado concreto = bloco ausente no output.
 Campo sem dado concreto = campo ausente no bloco.
 
 BLOCOS DE ATIVIDADES E QUESTÕES: a seção Atividades (bloco final
-numerado) vai no arquivo separado geo-[u]-[c]-questoes.md.
+numerado) vai na SEÇÃO ATIVIDADES ao final deste arquivo.
 EXCEÇÃO: questões intercaladas no corpo do capítulo (antes das
 Atividades) devem ser capturadas no BLOCO G deste arquivo com
 prefixo QI-N e tag [IC].
@@ -218,7 +218,7 @@ do fluxo expositivo — não no bloco final de Atividades.]
 
 DISTINÇÃO — CRÍTICO:
 Questão intercalada = aparece no corpo do capítulo, antes de Atividades.
-Seção Atividades (bloco final numerado) → NÃO capturar aqui → vai em questoes.md.
+Seção Atividades (bloco final numerado) → NÃO capturar aqui → vai na SEÇÃO ATIVIDADES abaixo.
 
 Use prefixo QI-N (sequência própria do arquivo) e tag [IC]:
 
@@ -226,3 +226,77 @@ Use prefixo QI-N (sequência própria do arquivo) e tag [IC]:
 Enunciado: [texto completo]
 Gabarito: [se fornecido pelo livro]
 Conceito testado: [conceito central avaliado]
+
+---
+
+## SEÇÃO ATIVIDADES
+[Capture TODAS as questões da seção Atividades (bloco final numerado).
+NÃO capturar questões intercaladas — essas vão no BLOCO G acima.]
+
+NÃO CAPTURAR:
+- Perguntas retóricas do texto expositivo
+- Questões intercaladas ao conteúdo (→ BLOCO G)
+- "Questão invertida" (aluno cria a pergunta)
+
+IDENTIFICAÇÃO DE QUESTÕES DE CONCURSO — CRÍTICO:
+Se o número vier com nome de banca capture como QC-N. Extraia banca e ano.
+
+NUMERAÇÃO: sequência própria — NUNCA a do livro. Q-N e QC-N independentes.
+ANTI-DUPLICATA: mesma questão com e sem banca → apenas QC-N.
+ANTI-PARTIÇÃO: itens a) b) c) = UMA questão. Todos no Enunciado:.
+
+TEXTO vs ENUNCIADO:
+> Texto: → APENAS fonte primária (tabela de dados, excerto com autoria).
+  Se ausente: OMITA.
+Enunciado: → APENAS a pergunta. Nunca vazio.
+
+MÍDIA — CRÍTICO: blocos SEPARADOS antes do Enunciado:. Omitir se vazio.
+
+> Mapa: descreva: título · tipo · legenda (todos os elementos) ·
+  regiões/países identificáveis. Se ilegível: [IMAGEM].
+> Gráfico: reconstrua SEMPRE: título · Eixo X · Eixo Y · valores ·
+  séries com comportamento. NUNCA [GRÁFICO].
+[IMAGEM] irreconstruível (cartograma, mapa de gradiente):
+  [IMAGEM] (tipo; contexto; o que mostra; por que necessária)
+
+TIPO — um único valor:
+  Tem alternativas?                             → múltipla escolha
+  Afirmações I II III + alternativas?          → múltipla escolha
+  V ou F?                                       → V-F
+  Pede cálculo ou conversão de dado?           → cálculo
+  Pede dissertar/justificar processo?          → dissertativa
+  Análise de mapa ou cartograma?               → análise de mapa
+  Análise de gráfico ou dado estatístico?      → análise de dados
+  Associar colunas / completar tabela?         → associação
+  Mapa + alternativas                          → múltipla escolha
+  Gráfico + alternativas                       → múltipla escolha
+  Mapa + dissertar                             → análise de mapa
+
+GABARITO: sempre vazio. NUNCA invente ou infira.
+
+FORMATO — inclua APENAS campos com conteúdo real:
+
+**Q-[N]** · pág. [X]
+[> Texto:] [> Mapa:] [> Gráfico:] [se houver]
+Enunciado: [pergunta com todos os itens]
+Alternativas: (dissertativa/cálculo/análise) ou lista
+Gabarito:
+Tipo: [valor único]
+Classificação: [fácil / médio / difícil]
+
+**QC-[N]** · [Banca] · [Ano] · pág. [X]
+[> Texto:] [> Mapa:] [> Gráfico:] [se houver]
+Enunciado: [pergunta com todos os itens]
+Alternativas: lista
+Gabarito:
+Tipo: [valor único]
+Classificação: [fácil / médio / difícil]
+
+---
+
+## PADRÃO DAS QUESTÕES
+- Estilo predominante: [múltipla escolha / dissertativa / cálculo / misto]
+- Foco: [localização / dados estatísticos / processos geográficos / aplicação]
+- Nível de dificuldade médio: [fácil / médio / difícil]
+- Tópicos mais cobrados: [lista]
+- Total: [N] questões do capítulo + [N] questões de concurso

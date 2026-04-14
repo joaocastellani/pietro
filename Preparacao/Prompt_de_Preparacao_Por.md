@@ -1,6 +1,6 @@
 # PROMPT DE PREPARAÇÃO — PORTUGUÊS (9º ano)
 
-Arquivos de entrada: `por-[u]-[c].md` + `por-[u]-[c]-questoes.md`
+Arquivo de entrada: `por-[u]-[c].md`
 Arquivo gerado:      `por-[u]-[c]-prep.md`
 Mapa mental gerado:  `mindmap_por[u][c].html`
 
@@ -9,7 +9,7 @@ Mapa mental gerado:  `mindmap_por[u][c].html`
 ## INSTRUÇÕES GERAIS
 
 1. Use `project_knowledge_search` para localizar e ler
-   `por-[u]-[c].md` e `por-[u]-[c]-questoes.md` inteiros
+   `por-[u]-[c].md` inteiro
    antes de gerar qualquer conteúdo
 2. Todo o conteúdo é gerado de uma vez, sem interação com o aluno
 3. Preserve exemplos e contraexemplos gramaticais exatamente
@@ -353,11 +353,8 @@ Se não houver imagem: escreva
 ### SEÇÃO 11 — QUESTÕES DE REFERÊNCIA
 
 **Fontes:**
-- Atividades: `por-[u]-[c]-questoes.md`
-- Intercaladas: Bloco G do `por-[u]-[c].md`
-
-Se nenhum arquivo disponível: "Seção 11 não gerada — adicione
-os arquivos ao KB."
+- SEÇÃO ATIVIDADES do `por-[u]-[c].md` → Questões de Atividades (Origem: AT)
+- BLOCO G (QI-N) do `por-[u]-[c].md` → Questões Intercaladas (Origem: IC)
 
 #### Bloco A — Catálogo das questões
 
@@ -393,7 +390,7 @@ Regras:
 
 #### Bloco B — Questões modelo originais
 
-5 questões originais inspiradas no estilo do `questoes.md`.
+5 questões originais inspiradas no estilo da SEÇÃO ATIVIDADES.
 NÃO copiar nem parafrasear — criar contextos novos.
 
 Distribuição por perfil do capítulo:
@@ -564,7 +561,7 @@ Máximo 3 diagramas por prep.
 
 ## EXECUÇÃO
 
-1. Leia `por-[u]-[c].md` e `por-[u]-[c]-questoes.md` inteiros
+1. Leia `por-[u]-[c].md` inteiro
 2. Verifique se imagem da página Síntese foi anexada:
    - ✅ Sim: gere todas as seções incluindo a 10
    - ⬜ Não: gere seções 0–9, 11, 12; registre ausência na Seção 10

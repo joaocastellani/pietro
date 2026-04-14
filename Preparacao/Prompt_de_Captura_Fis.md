@@ -39,7 +39,7 @@ REGRAS GERAIS:
   títulos de figuras, dados de tabelas — e incorpore nas seções
   correspondentes. Não ignore imagens.
 - BLOCOS DE ATIVIDADES E QUESTÕES: a seção Atividades (bloco final
-  numerado) vai no arquivo separado fis-[u]-[c]-questoes.md.
+  numerado) vai na SEÇÃO ATIVIDADES ao final deste arquivo.
   EXCEÇÃO: questões intercaladas no corpo do capítulo (antes das
   Atividades) devem ser capturadas no BLOCO G deste arquivo com
   prefixo QI-N e tag [IC].
@@ -237,7 +237,7 @@ do fluxo expositivo — não no bloco final de Atividades.]
 
 DISTINÇÃO — CRÍTICO:
 Questão intercalada = aparece no corpo do capítulo, antes de Atividades.
-Seção Atividades (bloco final numerado) → NÃO capturar aqui → vai em questoes.md.
+Seção Atividades (bloco final numerado) → NÃO capturar aqui → vai na SEÇÃO ATIVIDADES abaixo.
 
 Use prefixo QI-N (sequência própria do arquivo) e tag [IC]:
 
@@ -287,3 +287,86 @@ Conceito testado: [conceito central avaliado]
 ## BLOCO G — QUESTÕES INTERCALADAS
 [se aplicável]
 ```
+
+---
+
+## SEÇÃO ATIVIDADES
+[Capture TODAS as questões da seção Atividades (bloco final numerado).
+NÃO capturar questões intercaladas — essas vão no BLOCO G acima.]
+
+NÃO CAPTURAR:
+- Perguntas retóricas do texto expositivo
+- Questões intercaladas ao conteúdo (→ BLOCO G)
+- "Questão invertida" (aluno cria a pergunta)
+
+IDENTIFICAÇÃO DE QUESTÕES DE CONCURSO — CRÍTICO:
+Se o número vier com nome de banca capture como QC-N. Extraia banca e ano.
+
+NUMERAÇÃO: sequência própria — NUNCA a do livro. Q-N e QC-N independentes.
+ANTI-DUPLICATA: mesma questão com e sem banca → apenas QC-N.
+ANTI-PARTIÇÃO: itens a) b) c) = UMA questão. Todos no Enunciado:.
+
+TEXTO vs ENUNCIADO:
+> Texto: → APENAS fonte primária. Se ausente: OMITA.
+Enunciado: → APENAS a pergunta. Nunca vazio.
+
+MÍDIA — CRÍTICO: blocos SEPARADOS antes do Enunciado:.
+
+> Gráfico: reconstrua SEMPRE: título · Eixo X · Eixo Y · valores ·
+  segmentos com comportamento. NUNCA [GRÁFICO].
+[IMAGEM] irreconstruível (diagrama de circuito, esquema de forças):
+  [IMAGEM] (tipo; contexto; o que mostra; por que necessária)
+
+TIPO — um único valor:
+  Tem alternativas?                  → múltipla escolha
+  Pede cálculo numérico?             → cálculo
+  Fonte primária + dissertar?        → análise de fonte
+  Associar colunas / tabela?         → associação
+  V ou F?                            → V-F
+  Nenhuma das anteriores?            → dissertativa
+  Gráfico + alternativas             → múltipla escolha
+  Gráfico + cálculo                  → cálculo
+
+GABARITO: sempre vazio. NUNCA invente ou infira.
+
+FORMATO:
+
+**Q-[N]** · pág. [X]
+[> Texto:] [> Gráfico:] [se houver]
+Enunciado: [pergunta com todos os itens]
+Alternativas: (dissertativa/cálculo) ou lista
+Gabarito:
+Tipo: [valor único]
+Classificação: [fácil / médio / difícil]
+
+**QC-[N]** · [Banca] · [Ano] · pág. [X]
+[> Texto:] [> Gráfico:] [se houver]
+Enunciado: [pergunta com todos os itens]
+Alternativas: lista
+Gabarito:
+Tipo: [valor único]
+Classificação: [fácil / médio / difícil]
+
+---
+
+EXEMPLOS:
+
+**Q-1** · pág. 22
+> Gráfico: Movimento de um carro
+> Eixo X: Tempo (s) — 0, 5, 10, 15 · Eixo Y: Velocidade (m/s) — 0, 20, 40
+> A→B (0–5s: sobe de 0 a 40 m/s) · B→C (5–10s: 40 m/s constante) · C→D (10–15s: cai a 0)
+Enunciado: Em qual intervalo o carro está em movimento uniforme?
+Alternativas:
+  a) A→B  b) B→C  c) C→D  d) A→D
+Gabarito:
+Tipo: múltipla escolha
+Classificação: fácil
+
+---
+
+## PADRÃO DAS QUESTÕES
+- Estilo predominante: [múltipla escolha / dissertativa / cálculo / misto]
+- Foco: [memorização / interpretação / aplicação / cálculo]
+- Nível de dificuldade médio: [fácil / médio / difícil]
+- Tópicos mais cobrados: [lista]
+- Total: [N] questões do capítulo + [N] questões de concurso
