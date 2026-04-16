@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mind Map — Inglês · Unidade 1 · Capítulo 3</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #F4F2EE;
+      color: #1a1a1a;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ── */
+    .header {
+      background: #004080;
+      color: #fff;
+      padding: 28px 40px 24px;
+      text-align: center;
+    }
+    .header .meta { font-size: 13px; letter-spacing: 1px; opacity: .75; margin-bottom: 6px; text-transform: uppercase; }
+    .header h1 { font-size: 32px; font-weight: 800; line-height: 1.2; margin-bottom: 6px; }
+    .header .sub { font-size: 13px; opacity: .7; margin-bottom: 18px; }
+    .legend { display: flex; justify-content: center; gap: 24px; flex-wrap: wrap; }
+    .legend-item { display: flex; align-items: center; gap: 7px; font-size: 13px; }
+    .dot { width: 13px; height: 13px; border-radius: 50%; display: inline-block; }
+    .dot-green  { background: #2E7D32; }
+    .dot-red    { background: #C62828; }
+    .dot-orange { background: #D4880A; }
+
+    /* ── PÍLULA CENTRAL ── */
+    .pill-wrap { display: flex; justify-content: center; padding: 32px 20px 12px; }
+    .pill {
+      background: #004080;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 800;
+      padding: 14px 40px;
+      border-radius: 50px;
+      letter-spacing: .5px;
+      text-align: center;
+      box-shadow: 0 4px 18px rgba(0,64,128,.18);
+    }
+
+    /* ── GRID DE CARDS ── */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+      max-width: 1200px;
+      margin: 24px auto 0;
+      padding: 0 32px 40px;
+    }
+
+    @media (max-width: 900px) { .grid { grid-template-columns: repeat(2,1fr); } }
+    @media (max-width: 580px) { .grid { grid-template-columns: 1fr; } }
+
+    .card {
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.07);
+      border-left: 5px solid #D4880A;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card-header {
+      padding: 16px 16px 10px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+    .card-num {
+      background: #D4880A;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 700;
+      width: 28px; height: 28px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .card-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #D4880A;
+      line-height: 1.35;
+    }
+
+    .card-body {
+      padding: 0 16px 14px 56px;
+      flex: 1;
+    }
+    .card-body ul {
+      list-style: none;
+      padding: 0;
+    }
+    .card-body ul li {
+      font-size: 13px;
+      color: #333;
+      padding: 4px 0;
+      border-bottom: 1px solid #f0f0f0;
+      line-height: 1.5;
+    }
+    .card-body ul li:last-child { border-bottom: none; }
+    .card-body ul li span.en { font-weight: 600; color: #1a1a1a; }
+    .card-body ul li span.pt { color: #555; font-style: italic; }
+
+    .gotcha {
+      margin: 10px 0 4px;
+      background: #FFF3E0;
+      border-left: 3px solid #D4880A;
+      border-radius: 6px;
+      padding: 8px 10px;
+      font-size: 12px;
+      color: #7a4500;
+      line-height: 1.45;
+    }
+    .gotcha strong { color: #D4880A; }
+
+    .card-footer {
+      padding: 8px 16px;
+      background: #FFF8F0;
+      border-top: 1px solid #f0e8d8;
+      text-align: right;
+    }
+    .badge {
+      display: inline-block;
+      background: #D4880A;
+      color: #fff;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 20px;
+      letter-spacing: .4px;
+    }
+
+    /* ── GOLDEN TIPS ── */
+    .tips-section {
+      background: #FFF8EC;
+      border-top: 2px solid #F0D080;
+      padding: 36px 40px 40px;
+    }
+    .tips-title {
+      text-align: center;
+      font-size: 20px;
+      font-weight: 800;
+      color: #7a4500;
+      margin-bottom: 24px;
+      letter-spacing: .5px;
+    }
+    .tips-grid {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 18px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    @media (max-width: 900px) { .tips-grid { grid-template-columns: repeat(2,1fr); } }
+    @media (max-width: 580px) { .tips-grid { grid-template-columns: 1fr; } }
+
+    .tip-card {
+      background: #fff;
+      border: 1.5px solid #F0D080;
+      border-radius: 12px;
+      padding: 16px;
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+    .tip-badge {
+      background: #D4880A;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 800;
+      width: 30px; height: 30px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .tip-content { font-size: 13px; color: #4a3000; line-height: 1.55; }
+    .tip-content strong { color: #7a4500; }
+    .tip-label {
+      display: block;
+      font-size: 12px;
+      font-weight: 700;
+      color: #D4880A;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══════════════ HEADER ══════════════ -->
+<header class="header">
+  <p class="meta">Inglês · Unidade 1 · Capítulo 3 · 9º ano</p>
+  <h1>Say no to fake news!</h1>
+  <p class="sub">Mind Map — generated at preparation</p>
+  <div class="legend">
+    <div class="legend-item"><span class="dot dot-green"></span> Mastered</div>
+    <div class="legend-item"><span class="dot dot-red"></span> Review</div>
+    <div class="legend-item"><span class="dot dot-orange"></span> Not tested</div>
+  </div>
+</header>
+
+<!-- ══════════════ PÍLULA CENTRAL ══════════════ -->
+<div class="pill-wrap">
+  <div class="pill">Say no to fake news! — Fake News, Conditionals &amp; Infographics</div>
+</div>
+
+<!-- ══════════════ CARDS ══════════════ -->
+<div class="grid">
+
+  <!-- CARD 1 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">1</div>
+      <div class="card-title">First Conditional<br><span style="font-weight:400;color:#888;font-size:12px;">Primeira Condicional</span></div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="en">Uso:</span> <span class="pt">situações prováveis / reais no futuro</span></li>
+        <li><span class="en">If + Simple Present</span> <span class="pt">→ na oração condicional</span></li>
+        <li><span class="en">will / won't + infinitive</span> <span class="pt">→ na oração principal</span></li>
+        <li><span class="en">"If you share fake news, people will believe it."</span></li>
+        <li><span class="en">Vírgula</span> <span class="pt">→ apenas quando o <em>if</em> vem primeiro</span></li>
+      </ul>
+      <div class="gotcha">
+        <strong>⚠️ Pegadinha:</strong> Nunca use <strong>will</strong> dentro do <em>if</em>.<br>
+        ❌ <em>"If you will check…"</em> &nbsp;✅ <em>"If you check…"</em>
+      </div>
+    </div>
+    <div class="card-footer"><span class="badge">Not tested</span></div>
+  </div>
+
+  <!-- CARD 2 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">2</div>
+      <div class="card-title">Second Conditional<br><span style="font-weight:400;color:#888;font-size:12px;">Segunda Condicional</span></div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="en">Uso:</span> <span class="pt">situações hipotéticas / improváveis</span></li>
+        <li><span class="en">If + Simple Past</span> <span class="pt">→ na oração condicional</span></li>
+        <li><span class="en">would / wouldn't + infinitive</span> <span class="pt">→ oração principal</span></li>
+        <li><span class="en">"If she were honest, she wouldn't spread fake news."</span></li>
+        <li><span class="en">'d</span> <span class="pt">= forma contraída de <em>would</em></span></li>
+      </ul>
+      <div class="gotcha">
+        <strong>⚠️ Pegadinha:</strong> <em>To be</em> usa <strong>were</strong> para TODOS os sujeitos.<br>
+        ❌ <em>"If I was…"</em> &nbsp;✅ <em>"If I were…"</em>
+      </div>
+    </div>
+    <div class="card-footer"><span class="badge">Not tested</span></div>
+  </div>
+
+  <!-- CARD 3 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">3</div>
+      <div class="card-title">1st vs 2nd Conditional<br><span style="font-weight:400;color:#888;font-size:12px;">Distinção fundamental</span></div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="en">1st Conditional</span> <span class="pt">→ situação <strong>possível/real</strong></span></li>
+        <li><span class="en">"If I have time, I will fact-check it."</span> <span class="pt">(posso ter tempo)</span></li>
+        <li><span class="en">2nd Conditional</span> <span class="pt">→ situação <strong>hipotética</strong></span></li>
+        <li><span class="en">"If I had more time, I would fact-check everything."</span> <span class="pt">(não tenho)</span></li>
+        <li><span class="pt">Pergunta-chave: <em>isso pode realmente acontecer?</em></span></li>
+      </ul>
+      <div class="gotcha">
+        <strong>💡 Macete:</strong> Real → <strong>will</strong>. Hipotético → <strong>would</strong>.
+      </div>
+    </div>
+    <div class="card-footer"><span class="badge">Not tested</span></div>
+  </div>
+
+  <!-- CARD 4 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">4</div>
+      <div class="card-title">The S.U.R.E. Method<br><span style="font-weight:400;color:#888;font-size:12px;">Método S.U.R.E.</span></div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="en">S → Source</span> <span class="pt">— verificar a fonte</span></li>
+        <li><span class="en">U → Understand</span> <span class="pt">— entender o contexto</span></li>
+        <li><span class="en">R → Research</span> <span class="pt">— pesquisar em fontes confiáveis</span></li>
+        <li><span class="en">E → Evaluate</span> <span class="pt">— avaliar antes de compartilhar</span></li>
+        <li><span class="pt">Campanha governamental de Singapura</span></li>
+      </ul>
+      <div class="gotcha">
+        <strong>💡 Dica:</strong> Memorize a ordem — pode cair como <em>matching</em> ou <em>gap fill</em>.
+      </div>
+    </div>
+    <div class="card-footer"><span class="badge">Not tested</span></div>
+  </div>
+
+  <!-- CARD 5 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">5</div>
+      <div class="card-title">Key Vocabulary — Disinformation<br><span style="font-weight:400;color:#888;font-size:12px;">Vocabulário de Desinformação</span></div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="en">fake news</span> <span class="pt">→ notícias falsas</span></li>
+        <li><span class="en">misinformation</span> <span class="pt">→ desinformação</span></li>
+        <li><span class="en">clickbait</span> <span class="pt">→ isca de cliques</span></li>
+        <li><span class="en">hoax</span> <span class="pt">→ engano deliberado</span></li>
+        <li><span class="en">rumor</span> <span class="pt">→ boato</span></li>
+        <li><span class="en">circular reporting</span> <span class="pt">→ reportagem circular</span></li>
+      </ul>
+      <div class="gotcha">
+        <strong>⚠️ Atenção:</strong> <em>Hoax</em> ≠ <em>Misinformation</em> ≠ <em>Clickbait</em> — cada um tem definição distinta em <em>matching</em>.
+      </div>
+    </div>
+    <div class="card-footer"><span class="badge">Not tested</span></div>
+  </div>
+
+  <!-- CARD 6 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">6</div>
+      <div class="card-title">Key Vocabulary — Actions<br><span style="font-weight:400;color:#888;font-size:12px;">Vocabulário de Ações</span></div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="en">fact-check</span> <span class="pt">→ verificar a veracidade</span></li>
+        <li><span class="en">forward</span> <span class="pt">→ encaminhar / transmitir</span></li>
+        <li><span class="en">lead to</span> <span class="pt">→ resultar em / levar a</span></li>
+        <li><span class="en">claim</span> <span class="pt">→ alegar / afirmar</span></li>
+        <li><span class="en">roam</span> <span class="pt">→ perambular / vagar</span></li>
+        <li><span class="en">coverage</span> <span class="pt">→ cobertura jornalística</span></li>
+        <li><span class="en">bias</span> <span class="pt">→ viés / parcialidade</span></li>
+      </ul>
+    </div>
+    <div class="card-footer"><span class="badge">Not tested</span></div>
+  </div>
+
+  <!-- CARD 7 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">7</div>
+      <div class="card-title">Genre: Infographic<br><span style="font-weight:400;color:#888;font-size:12px;">Gênero Textual: Infográfico</span></div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="en">information + graphics</span> <span class="pt">→ origem da palavra</span></li>
+        <li><span class="pt">Combina elementos verbais e visuais</span></li>
+        <li><span class="pt">Design atraente: cores, ícones, gráficos</span></li>
+        <li><span class="pt">Texto sintético e objetivo</span></li>
+        <li><span class="pt">Hierarquia visual: título → seções → conclusão</span></li>
+        <li><span class="pt">Fácil de ler e compreender rapidamente</span></li>
+      </ul>
+      <div class="gotcha">
+        <strong>💡 Dica:</strong> No infográfico, frases devem ser curtas e verbos no imperativo.
+      </div>
+    </div>
+    <div class="card-footer"><span class="badge">Not tested</span></div>
+  </div>
+
+  <!-- CARD 8 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">8</div>
+      <div class="card-title">Summary — First Conditional<br><span style="font-weight:400;color:#888;font-size:12px;">Lacunas do mapa mental</span></div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="en">IF + <strong>Simple Present</strong> + <strong>will</strong> + infinitive</span></li>
+        <li><span class="en">IF + <strong>Simple Present</strong> + <strong>won't</strong> + infinitive</span></li>
+        <li><span class="en">"If you check the links in this news, you won't <strong>be fooled</strong>."</span></li>
+        <li><span class="en">"If you open this website, you won't <strong>find credible information</strong>."</span></li>
+        <li><span class="en">"You will <strong>spot fake news</strong> if you pay attention to the details."</span></li>
+      </ul>
+    </div>
+    <div class="card-footer"><span class="badge">Not tested</span></div>
+  </div>
+
+  <!-- CARD 9 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">9</div>
+      <div class="card-title">Summary — Second Conditional<br><span style="font-weight:400;color:#888;font-size:12px;">Lacunas do mapa mental</span></div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="en">IF + Simple Past + <strong>would</strong> + infinitive</span></li>
+        <li><span class="en">IF + Simple Past + <strong>wouldn't</strong> + infinitive</span></li>
+        <li><span class="en">"If they spread gossip, they would <strong>harm her reputation</strong>."</span></li>
+        <li><span class="en">"The school would <strong>take action</strong> if a student shared lies."</span></li>
+        <li><span class="en">"The kids wouldn't <strong>believe it</strong> if they <strong>fact-checked it</strong>."</span></li>
+      </ul>
+    </div>
+    <div class="card-footer"><span class="badge">Not tested</span></div>
+  </div>
+
+  <!-- CARD 10 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">10</div>
+      <div class="card-title">Cultural References<br><span style="font-weight:400;color:#888;font-size:12px;">Referências Culturais</span></div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="en">Mark Twain (1835–1910)</span> <span class="pt">→ escritor americano; citado no Listening sobre velocidade da mentira</span></li>
+        <li><span class="en">The Great Moon Hoax (1835)</span> <span class="pt">→ <em>The New York Sun</em> publicou artigos falsos sobre vida na lua</span></li>
+        <li><span class="en">Harm to Mental Health</span> <span class="pt">→ <em>rumors/clickbait</em> causam ansiedade, depressão, baixa autoestima</span></li>
+      </ul>
+    </div>
+    <div class="card-footer"><span class="badge">Not tested</span></div>
+  </div>
+
+  <!-- CARD 11 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">11</div>
+      <div class="card-title">Comma Rule — Conditionals<br><span style="font-weight:400;color:#888;font-size:12px;">Regra da Vírgula</span></div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="pt">Vírgula → quando <em>if-clause</em> vem <strong>primeiro</strong></span></li>
+        <li><span class="en">✅ "If you check the source<strong>,</strong> you will find the truth."</span></li>
+        <li><span class="pt">Sem vírgula → quando <em>if-clause</em> vem <strong>depois</strong></span></li>
+        <li><span class="en">✅ "You will find the truth if you check the source."</span></li>
+      </ul>
+      <div class="gotcha">
+        <strong>⚠️ Vale para os dois condicionais</strong> — First e Second seguem a mesma regra de vírgula.
+      </div>
+    </div>
+    <div class="card-footer"><span class="badge">Not tested</span></div>
+  </div>
+
+  <!-- CARD 12 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">12</div>
+      <div class="card-title">Circular Reporting<br><span style="font-weight:400;color:#888;font-size:12px;">Reportagem Circular</span></div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><span class="pt">Várias publicações repetem a <strong>mesma informação falsa</strong></span></li>
+        <li><span class="pt">Cria falsa aparência de credibilidade</span></li>
+        <li><span class="en">Listening context:</span> <span class="pt">artigo pseudocientífico anti-vacina (1998) inspirou movimento global</span></li>
+        <li><span class="en">autism</span> <span class="pt">→ falsamente associado à vacinação</span></li>
+        <li><span class="en">movement</span> <span class="pt">→ movimento anti-vacina resultante</span></li>
+      </ul>
+    </div>
+    <div class="card-footer"><span class="badge">Not tested</span></div>
+  </div>
+
+</div><!-- /grid -->
+
+<!-- ══════════════ GOLDEN TIPS ══════════════ -->
+<section class="tips-section">
+  <div class="tips-title">✨ Golden Tips — Dicas de Ouro</div>
+  <div class="tips-grid">
+
+    <div class="tip-card">
+      <div class="tip-badge">1</div>
+      <div class="tip-content">
+        <span class="tip-label">Nunca "will" dentro do "if"</span>
+        No <strong>First Conditional</strong>, a oração com <strong>if</strong> sempre usa o <strong>Simple Present</strong>.
+        ❌ <em>"If you will check…"</em> &nbsp;✅ <em>"If you check…"</em>
+      </div>
+    </div>
+
+    <div class="tip-card">
+      <div class="tip-badge">2</div>
+      <div class="tip-content">
+        <span class="tip-label">"Were" para todos no 2nd Conditional</span>
+        No <strong>Second Conditional</strong>, o verbo <strong>to be</strong> usa <strong>were</strong> para todos os sujeitos.
+        ❌ <em>"If I was…"</em> &nbsp;✅ <em>"If I were…"</em>
+      </div>
+    </div>
+
+    <div class="tip-card">
+      <div class="tip-badge">3</div>
+      <div class="tip-content">
+        <span class="tip-label">Vírgula só quando "if" vem primeiro</span>
+        ✅ <em>"If you check the source<strong>,</strong> you will find the truth."</em><br>
+        ✅ <em>"You will find the truth if you check the source."</em> (sem vírgula)
+      </div>
+    </div>
+
+    <div class="tip-card">
+      <div class="tip-badge">4</div>
+      <div class="tip-content">
+        <span class="tip-label">1st vs 2nd — Real ou Hipotético?</span>
+        <strong>First</strong> = situação possível → <strong>will</strong>.
+        <strong>Second</strong> = situação imaginária → <strong>would</strong>.
+        Pergunta-chave: <em>"isso pode realmente acontecer?"</em>
+      </div>
+    </div>
+
+    <div class="tip-card">
+      <div class="tip-badge">5</div>
+      <div class="tip-content">
+        <span class="tip-label">S.U.R.E. — memorize a ordem!</span>
+        <strong>S</strong>ource → <strong>U</strong>nderstand → <strong>R</strong>esearch → <strong>E</strong>valuate.
+        Pode cair como <em>matching</em> ou <em>gap fill</em> — memorize o que cada letra representa.
+      </div>
+    </div>
+
+    <div class="tip-card">
+      <div class="tip-badge">6</div>
+      <div class="tip-content">
+        <span class="tip-label">Hoax ≠ Misinformation ≠ Clickbait</span>
+        <strong>Hoax</strong> = engano fabricado. <strong>Misinformation</strong> = informação errada para enganar.
+        <strong>Clickbait</strong> = manchete sensacionalista para atrair cliques. Cada um tem definição distinta em <em>matching</em>.
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
