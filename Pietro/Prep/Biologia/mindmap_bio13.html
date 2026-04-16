@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Biologia · U1 C3 · Divisões Celulares</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --green: #1a6e3a;
+    --green-light: #d1fae5;
+    --green-dark: #14532d;
+    --not-tested: #d4740a;
+    --not-tested-bg: #fff7ed;
+    --not-tested-border: #f97316;
+    --mastered: #15803d;
+    --review: #b91c1c;
+    --bg: #f4f2ee;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', sans-serif; background: var(--bg); color: #1e293b; }
+
+  /* HEADER */
+  .header {
+    background: var(--green);
+    color: white;
+    padding: 24px 32px 20px;
+    text-align: center;
+  }
+  .header .breadcrumb { font-size: 13px; opacity: 0.85; margin-bottom: 6px; }
+  .header h1 { font-size: 32px; font-weight: 700; margin-bottom: 4px; }
+  .header .subtitle { font-size: 14px; opacity: 0.8; margin-bottom: 16px; }
+  .legend { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 13px; }
+  .dot { width: 12px; height: 12px; border-radius: 50%; }
+  .dot-mastered { background: #4ade80; }
+  .dot-review { background: #f87171; }
+  .dot-not-tested { background: #fb923c; }
+
+  /* CENTRAL PILL */
+  .central-pill {
+    display: flex; justify-content: center; padding: 20px 32px 0;
+  }
+  .pill {
+    background: var(--green);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 32px;
+    border-radius: 999px;
+    letter-spacing: 0.05em;
+  }
+
+  /* GRID */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 20px 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* CARD */
+  .card {
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    overflow: hidden;
+    border-left: 3px solid var(--not-tested);
+    display: flex;
+    flex-direction: column;
+  }
+  .card-header {
+    padding: 12px 14px 8px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .card-num {
+    background: var(--not-tested);
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    width: 24px; height: 24px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .card-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--not-tested);
+    line-height: 1.3;
+  }
+  .card-body { padding: 0 14px 10px 14px; flex: 1; }
+  .card-body ul { list-style: none; padding: 0; }
+  .card-body li {
+    font-size: 13px;
+    color: #334155;
+    padding: 3px 0;
+    border-bottom: 1px solid #f1f5f9;
+    line-height: 1.4;
+  }
+  .card-body li:last-child { border-bottom: none; }
+  .card-body li strong { color: #1e293b; }
+  .card-body .trap {
+    background: #fff5f5;
+    border-left: 3px solid #f87171;
+    padding: 5px 8px;
+    margin-top: 6px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #7f1d1d;
+  }
+  .card-footer {
+    padding: 6px 14px;
+    background: var(--not-tested-bg);
+    border-top: 1px solid #fed7aa;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--not-tested);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  /* GOLDEN TIPS */
+  .golden-tips {
+    background: #fff8ec;
+    border: 2px solid #f0d080;
+    border-radius: 12px;
+    margin: 0 32px 32px;
+    padding: 20px 24px;
+    max-width: 1136px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+  }
+  .golden-tips h2 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #92400e;
+    margin-bottom: 14px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .tips-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+  .tip {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .tip-badge {
+    background: var(--not-tested);
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    min-width: 22px; height: 22px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .tip-text { font-size: 13px; color: #44403c; line-height: 1.45; }
+  .tip-text strong { color: #1c1917; }
+
+  @media (max-width: 900px) {
+    .grid { grid-template-columns: repeat(2, 1fr); }
+    .tips-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 600px) {
+    .grid { grid-template-columns: 1fr; }
+    .tips-grid { grid-template-columns: 1fr; }
+    .header h1 { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="breadcrumb">Biologia · Unidade 1 · Capítulo 3 · 9º ano</div>
+  <h1>Divisões Celulares e Formação do Indivíduo</h1>
+  <div class="subtitle">Mapa Mental — gerado na preparação</div>
+  <div class="legend">
+    <div class="legend-item"><div class="dot dot-mastered"></div> Dominado</div>
+    <div class="legend-item"><div class="dot dot-review"></div> Reforçar</div>
+    <div class="legend-item"><div class="dot dot-not-tested"></div> Não testado</div>
+  </div>
+</div>
+
+<div class="central-pill">
+  <div class="pill">DIVISÃO CELULAR</div>
+</div>
+
+<div class="grid">
+
+  <!-- Card 1 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">1</div>
+      <div class="card-title">Ploidia Celular</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>Diploide (2n)</strong> — 2 cópias de cada cromossomo</li>
+        <li><strong>Haploide (n)</strong> — 1 cópia de cada cromossomo</li>
+        <li>Humanos: somáticas 2n = 46 · gametas n = 23</li>
+        <li><strong>Cromátides irmãs</strong> — cópias idênticas unidas pelo centrômero</li>
+        <li><strong>Homólogos</strong> — par de cromossomos (1 materno + 1 paterno)</li>
+      </ul>
+    </div>
+    <div class="card-footer">Não testado</div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">2</div>
+      <div class="card-title">Mitose — Fases</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>Prófase</strong> — cromossomos condensam; fuso se forma</li>
+        <li><strong>Metáfase</strong> — cromossomos alinham no equador</li>
+        <li><strong>Anáfase</strong> — cromátides irmãs migram para polos</li>
+        <li><strong>Telófase</strong> — descondensação; novas membranas</li>
+        <li><strong>Citocinese</strong> — divisão do citoplasma; 2n → 2n</li>
+      </ul>
+      <div class="trap">Pegadinha: mitose separa <strong>cromátides irmãs</strong>, não homólogos</div>
+    </div>
+    <div class="card-footer">Não testado</div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">3</div>
+      <div class="card-title">Meiose — Visão Geral</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>2 divisões sucessivas</strong> — meiose I e II</li>
+        <li><strong>Meiose I</strong> — reducional: 2n → n (separa homólogos)</li>
+        <li><strong>Meiose II</strong> — equacional: separa cromátides irmãs</li>
+        <li>Resultado: <strong>4 células haploides (n)</strong></li>
+        <li>Ocorre nas <strong>gônadas</strong> para formação de gametas</li>
+      </ul>
+      <div class="trap">Pegadinha: Anáfase I separa <strong>homólogos</strong>; Anáfase II separa <strong>cromátides</strong></div>
+    </div>
+    <div class="card-footer">Não testado</div>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">4</div>
+      <div class="card-title">Crossing-Over</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Ocorre na <strong>Prófase I</strong> da meiose</li>
+        <li>Troca de segmentos entre <strong>cromossomos homólogos</strong></li>
+        <li>Aumenta a <strong>variabilidade genética</strong></li>
+        <li>Principal diferença entre meiose I e mitose</li>
+        <li>Não ocorre na mitose</li>
+      </ul>
+    </div>
+    <div class="card-footer">Não testado</div>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">5</div>
+      <div class="card-title">Espermatogênese</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Espermatogônia (2n) → Esperm. primário (2n)</li>
+        <li>[Meiose I] → 2 Esperm. secundários (n)</li>
+        <li>[Meiose II] → 4 espermátides (n)</li>
+        <li>Diferenciação → <strong>4 espermatozoides</strong> funcionais</li>
+        <li>Local: <strong>testículos</strong></li>
+      </ul>
+    </div>
+    <div class="card-footer">Não testado</div>
+  </div>
+
+  <!-- Card 6 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">6</div>
+      <div class="card-title">Ovogênese</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li>Oogônia (2n) → Oócito primário (2n)</li>
+        <li>[Meiose I] → Oócito secundário (n) + 1º corp. polar</li>
+        <li>[Meiose II — após fecundação] → Óvulo (n)</li>
+        <li>Resultado: <strong>1 óvulo funcional</strong> + 3 corpúsculos polares</li>
+        <li>Local: <strong>ovários</strong></li>
+      </ul>
+      <div class="trap">Pegadinha: Meiose II só se completa <strong>após fecundação</strong></div>
+    </div>
+    <div class="card-footer">Não testado</div>
+  </div>
+
+  <!-- Card 7 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">7</div>
+      <div class="card-title">Embriogênese Básica</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>Fecundação</strong> — espermatozoide + óvulo → zigoto (2n)</li>
+        <li><strong>Segmentação</strong> — mitoses rápidas → blastômeros → mórula → blástula</li>
+        <li><strong>Gastrulação</strong> — 3 camadas germinativas formam-se</li>
+        <li><strong>Neurulação</strong> — tubo neural (futuro SNC)</li>
+      </ul>
+      <div class="trap">Pegadinha: na segmentação, células ficam cada vez <strong>menores</strong></div>
+    </div>
+    <div class="card-footer">Não testado</div>
+  </div>
+
+  <!-- Card 8 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">8</div>
+      <div class="card-title">Camadas Germinativas</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>Ectoderme</strong> (externa) — pele, sistema nervoso</li>
+        <li><strong>Mesoderme</strong> (média) — músculos, ossos, coração</li>
+        <li><strong>Endoderme</strong> (interna) — tubo digestório, fígado, pulmões</li>
+        <li>Formadas na <strong>gastrulação</strong></li>
+        <li>Origem de todos os tecidos do organismo</li>
+      </ul>
+    </div>
+    <div class="card-footer">Não testado</div>
+  </div>
+
+  <!-- Card 9 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-num">9</div>
+      <div class="card-title">Mitose × Meiose</div>
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><strong>Mitose</strong>: 1 divisão · 2 células · 2n → 2n · idênticas</li>
+        <li><strong>Meiose</strong>: 2 divisões · 4 células · 2n → n · variáveis</li>
+        <li>Mitose: crescimento e renovação celular</li>
+        <li>Meiose: produção de gametas</li>
+        <li>Crossing-over: exclusivo da <strong>meiose I</strong></li>
+      </ul>
+    </div>
+    <div class="card-footer">Não testado</div>
+  </div>
+
+</div><!-- /grid -->
+
+<div class="golden-tips" style="margin: 0 32px 32px; max-width: calc(1200px - 0px);">
+  <h2>Dicas de Ouro</h2>
+  <div class="tips-grid">
+    <div class="tip">
+      <div class="tip-badge">1</div>
+      <div class="tip-text"><strong>Mitose conserva, meiose reduz.</strong> Mitose: 2n → 2n. Meiose: 2n → n. Se gametas fossem diploides, ao fecundar virariam tetraploides — a meiose existe para evitar isso.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-badge">2</div>
+      <div class="tip-text"><strong>Anáfase I ≠ Anáfase da mitose.</strong> Na Anáfase I, separam-se os <strong>homólogos</strong>. Na Anáfase II e na mitose, separam-se as <strong>cromátides irmãs</strong>. Essa é a pegadinha mais cobrada.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-badge">3</div>
+      <div class="tip-text"><strong>Ovogênese: 1 entra, 1 sai.</strong> A espermatogênese produz 4 gametas funcionais. A ovogênese produz apenas 1 — os 3 corpúsculos polares degeneram porque o óvulo precisa de toda a reserva nutritiva.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-badge">4</div>
+      <div class="tip-text"><strong>Segmentação: células ficam menores.</strong> O embrião não cresce durante a segmentação. O volume do zigoto é dividido entre células cada vez mais numerosas e menores (blastômeros).</div>
+    </div>
+    <div class="tip">
+      <div class="tip-badge">5</div>
+      <div class="tip-text"><strong>Crossing-over ocorre na Prófase I.</strong> É a principal fonte de variabilidade genética. Não ocorre na mitose nem na meiose II.</div>
+    </div>
+    <div class="tip">
+      <div class="tip-badge">6</div>
+      <div class="tip-text"><strong>Meiose II só completa após fecundação.</strong> O que é liberado na ovulação é o <strong>oócito secundário</strong> (parado em Metáfase II). A meiose II só termina quando o espermatozoide penetra.</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
