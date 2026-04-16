@@ -21,9 +21,28 @@ material pedagógico para uso no Claude.ai (Knowledge Base).
 │   │   ├── Matematica/
 │   │   ├── Portugues/
 │   │   └── Quimica/
-│   ├── Raw/                   ← conteúdo bruto capturado (Opera ARIA)
+│   ├── Raw/                   ← conteúdo bruto capturado
+│   │   ├── Artes/
+│   │   │   └── imagens/       ← screenshots concatenados prontos para Claude.ai
+│   │   ├── Biologia/
+│   │   │   └── imagens/
+│   │   ├── Fisica/
+│   │   │   └── imagens/
+│   │   ├── Geografia/
+│   │   │   └── imagens/
+│   │   ├── Historia/
+│   │   │   └── imagens/
+│   │   ├── Ingles/
+│   │   │   └── imagens/
+│   │   ├── Matematica/
+│   │   │   └── imagens/
+│   │   ├── Portugues/
+│   │   │   └── imagens/
+│   │   └── Quimica/
+│   │       └── imagens/
 │   ├── Scripts/               ← scripts de automação
-│   │   └── validate_preps.py  ← validador de preps
+│   │   ├── validate_preps.py  ← validador de preps
+│   │   └── concat_screenshots.sh ← concatenador de screenshots
 │   └── temp/                  ← arquivos temporários de trabalho
 ├── Preparacao/                ← prompts de preparação por matéria
 │   ├── Prompt_de_Preparacao_Fis.md
@@ -41,17 +60,17 @@ material pedagógico para uso no Claude.ai (Knowledge Base).
 
 Padrão: `[materia]-[unidade]-[capitulo]-prep.md`
 
-| Prefixo | Matéria     |
-|---------|-------------|
-| fis     | Física      |
-| qui     | Química     |
-| bio     | Biologia    |
-| geo     | Geografia   |
-| his     | História    |
-| mat     | Matemática  |
-| por     | Português   |
-| ing     | Inglês      |
-| art     | Artes       |
+| Prefixo | Matéria     | Pasta Raw     |
+|---------|-------------|---------------|
+| fis     | Física      | Fisica        |
+| qui     | Química     | Quimica       |
+| bio     | Biologia    | Biologia      |
+| geo     | Geografia   | Geografia     |
+| his     | História    | Historia      |
+| mat     | Matemática  | Matematica    |
+| por     | Português   | Portugues     |
+| ing     | Inglês      | Ingles        |
+| art     | Artes       | Artes         |
 
 Exemplo: `fis-1-3-prep.md` → Física, Unidade 1, Capítulo 3
 
@@ -105,24 +124,37 @@ Exit code 0 = tudo válido. Exit code 1 = há erros.
 ## Pipeline de geração de conteúdo
 
 ```
-1. CAPTURA   — Opera ARIA extrai conteúdo da apostila
-               Salva em: Pietro/Raw/[mat]-[u]-[c].md
-                         Pietro/Raw/[mat]-[u]-[c]-questoes.md
+1. CAPTURA   — Print Screen manual no leitor Poliedro (browser)
+               Joao tira screenshots página a página
+               Screenshots salvos em: ~/Pictures/Screenshots/
 
-2. PREPARAÇÃO — Claude.ai com Prompt de Preparação
+2. ORGANIZAÇÃO — Claude Code organiza os screenshots:
+               - Concatena N screenshots por imagem usando concat_screenshots.sh
+               - Move para: Pietro/Raw/[Materia]/imagens/[mat]-[u]-[c]-NN.png
+               - Deleta os screenshots originais de ~/Pictures/Screenshots/
+               Script: Pietro/Scripts/concat_screenshots.sh
+
+3. PREPARAÇÃO — Claude.ai com Prompt de Preparação + imagens do KB
                Gera: Pietro/Prep/[Materia]/[mat]-[u]-[c]-prep.md
                      Pietro/Prep/[Materia]/mindmap_[mat][u][c].html
 
-3. VALIDAÇÃO  — python3 Pietro/Scripts/validate_preps.py [arquivo]
+4. VALIDAÇÃO  — python3 Pietro/Scripts/validate_preps.py [arquivo]
                Verificar antes de subir ao Knowledge Base
 
-4. AULA       — Claude.ai com Prompt Professor Master + prep no KB
+5. AULA       — Claude.ai com Prompt Professor Master + prep no KB
                Aluno: Pietro (9º ano)
 ```
 
 ---
 
 ## Tarefas comuns — como pedir ao Claude Code
+
+**Organizar screenshots após captura manual:**
+```
+Acabei de tirar screenshots do capítulo 3 de Biologia unidade 1.
+Concatena de 4 em 4, move para Pietro/Raw/Biologia/imagens/ com
+prefixo bio-1-3 e deleta os originais de ~/Pictures/Screenshots/.
+```
 
 **Validar todos os preps:**
 ```
@@ -156,6 +188,44 @@ e me mostra uma tabela com a cobertura atual.
 
 ---
 
+## Organização de screenshots — regras para Claude Code
+
+Quando pedido para organizar screenshots:
+
+1. Verificar se existem arquivos `Screenshot_*.png` em `~/Pictures/Screenshots/`
+2. Ordenar por nome (cronológico)
+3. Separar o último screenshot dos demais:
+   - **Último screenshot** → síntese do capítulo (exceto Artes)
+   - **Demais screenshots** → conteúdo a concatenar
+4. Usar `concat_screenshots.sh` para concatenar os screenshots de conteúdo:
+   ```bash
+   bash Pietro/Scripts/concat_screenshots.sh [prefixo] [n] ~/Pictures/Screenshots/
+   ```
+5. Verificar se a pasta `Pietro/Raw/[Materia]/imagens/` existe — criar se não existir
+6. Mover os arquivos concatenados para a pasta de imagens:
+   `Pietro/Raw/[Materia]/imagens/[mat]-[u]-[c]-NN.png`
+7. Copiar o último screenshot como síntese (exceto Artes):
+   `Pietro/Raw/[Materia]/[mat]-[u]-[c]-sintese.png`
+8. Deletar todos os screenshots originais de `~/Pictures/Screenshots/`
+9. Confirmar quantos arquivos foram gerados e onde estão
+
+**Regra da síntese:**
+- Todas as matérias EXCETO Artes: último screenshot → `[mat]-[u]-[c]-sintese.png`
+- Artes: todos os screenshots vão para imagens, sem síntese separada
+
+Mapeamento prefixo → pasta:
+- bio → Biologia
+- fis → Fisica
+- qui → Quimica
+- geo → Geografia
+- his → Historia
+- mat → Matematica
+- por → Portugues
+- ing → Ingles
+- art → Artes
+
+---
+
 ## Git
 
 Repositório: https://github.com/joaocastellani/pietro
@@ -174,6 +244,7 @@ Convenção de mensagens:
 | Novo script              | `feat(scripts): nome do script`  |
 | Atualização de prompt    | `feat(prompts): atualiza Prompt_X` |
 | Organização de arquivos  | `chore: move/renomeia arquivos`  |
+| Novas imagens Raw        | `feat(raw): captura [mat]-[u]-[c]` |
 
 Regras:
 - Ao commitar um novo prep, sempre incluir no mesmo commit:
