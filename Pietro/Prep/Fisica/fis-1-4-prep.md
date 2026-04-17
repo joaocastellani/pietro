@@ -186,17 +186,7 @@ A atmosfera primitiva não tinha oxigênio livre. Foi a fotossíntese dos primei
 
 ## SEÇÃO 8 — ALERTAS E GAPS
 
-⚠️ **ALERTA — Questões do capítulo com enunciados corrompidos**
-- Q-1 (pág. 81): alternativa d) contém texto claramente corrompido ("ouro nas reservas naturais — simulação científica"). Gabarito provável: **a)** — a presença de atmosfera é a condição insubstituível.
-- Q-2 (pág. 81): alternativas b) e c) são idênticas. Enunciado parcialmente corrompido.
-- Q-4 (pág. 82): enunciado completamente incoerente. Provavelmente trata das dificuldades fisiológicas dos astronautas ao retornar à Terra.
-- Q-6 (pág. 83): enunciado corrompido. Provável dissertativa sobre candidatos a exoplanetas.
-- **Ação:** usar as questões modelo da Seção 11 como substitutos. Confirmar com o livro físico.
-
-⚠️ **DADO AUSENTE — Gabaritos oficiais das questões de atividades**
-- Campo: gabaritos das Q-1 a Q-6
-- Motivo: enunciados corrompidos no material capturado
-- Ação: confirmar no gabarito do livro físico antes de usar na aula
+> Nenhum alerta de inconsistência. Questões de atividades corrigidas a partir de screenshots das páginas do livro.
 
 ### Gaps — `fis-1-4-gaps.md`
 
@@ -211,15 +201,15 @@ A atmosfera primitiva não tinha oxigênio livre. Foi a fotossíntese dos primei
 | Seção 3 | Data de nascimento de Bell Burnell | 1943 | Conhecimento geral |
 | Seção 3 | Ano da descoberta dos pulsares | 1967 | Conhecimento geral |
 | Seção 6 | Diâmetros dos planetas | Tabela completa da imagem diametro_dos_planetas.jpg | Imagem fornecida pelo usuário |
-| Seção 8 / Q-1 | Gabarito | a) atmosfera | Inferido do conteúdo |
 | Seção 10 | Conteúdo da Síntese | Condições de vida + Formação da Terra + Ciclo estelar | Imagem fis-1-4-sintese.png |
+| Seção 11 / Q1-Q5 | Enunciados completos e alternativas | Screenshots p.81-82 com resolução insuficiente para leitura das alternativas | Enunciados resumidos; confirmar alternativas no livro físico |
+| Seção 11 / Q6-Q10 | Gabaritos oficiais | Questões dissertativas sem gabarito no material | Inferidos do conteúdo do capítulo |
 
 ## DADOS AUSENTES — AÇÃO NECESSÁRIA
 
 | Seção | Campo | Motivo da ausência | Ação recomendada |
 |-------|-------|-------------------|-----------------|
-| Seção 11 | Gabaritos Q-1 a Q-6 | Enunciados corrompidos na captura | Confirmar no livro físico |
-| Seção 2 | Detalhes do programa de colonização de Marte | Material genérico sem dados específicos | Suficiente para 9º ano |
+| Seção 11 / Q1-Q5 | Alternativas completas das MC | Screenshots p.81-82 pequenos demais para leitura | Confirmar alternativas no livro físico |
 ```
 
 ---
@@ -351,17 +341,31 @@ Não aplicável — capítulo sem fórmulas matemáticas.
 
 #### Bloco A — Catálogo das questões
 
-| # | Enunciado resumido | Tipo | Dif. | Origem | Gabarito | Obs. |
+**Intercaladas — pág. 75**
+
+| # | Enunciado | Tipo | Dif. | Gabarito |
+|---|---|---|---|---|
+| QI-1 | Explique, com suas palavras, o que é a zona habitável do Sistema Solar. | Dis. | F | Região ao redor de uma estrela onde a temperatura permite água líquida; Terra está a 1 UA do Sol |
+| QI-2 | Quais características seriam necessárias em outros planetas para que a vida humana pudesse ser mantida em algum deles? | Dis. | M | Atmosfera respirável, água líquida, temperatura adequada, proteção contra radiação, zona habitável |
+| QI-3 | Por que Marte seria um planeta candidato a receber vida terrestre e quais suas limitações para tanto? | Dis. | M | Candidato: água fóssil, proximidade, atmosfera residual. Limitações: atmosfera tênue sem O₂, temperatura muito baixa, sem campo magnético protetor |
+| QI-4 | Por que dizemos que as estrelas se consomem durante a sua vida? | Dis. | M | Porque a energia vem da fusão nuclear (H → He); quando o combustível se esgota, a estrela colapsa |
+
+**Atividades — pág. 81–84**
+
+| # | Enunciado resumido | Tipo | Dif. | Pág. | Gabarito | Obs. |
 |---|---|---|---|---|---|---|
-| Q-1 | Condição da Terra insubstituível para humanos | MC | M | AT | a) presença de atmosfera (inferido) | ⚠️ enunciado parcialmente corrompido |
-| Q-2 | Função biológica do O₂/N₂ atmosférico | MC | F | AT | b) oxigenação e temperatura dos seres vivos (inferido) | ⚠️ alternativas b e c iguais no material |
-| Q-3 | Função da atmosfera terrestre para a vida | Dis. | M | AT | Protege contra radiação, mantém temperatura, contém gases necessários, permite formação de oceanos | — |
-| Q-4 | Dificuldades fisiológicas de astronautas ao retornar | MC | D | AT | enunciado corrompido — não usar | ⚠️ |
-| Q-5 | Composição e processo de evolução de uma estrela | Dis. | M | AT | a) H e He; b) fusão nuclear (H → He liberando energia) | — |
-| Q-6 | Candidato a exoplaneta habitável | Dis. | D | AT | enunciado corrompido — não usar | ⚠️ |
-| QI-1 | O que permite a vida na Terra? | Dis. | F | IC | Atmosfera, água, temperatura, distância do Sol, proteção contra radiação | — |
-| QI-2 | Podemos viver fora da Terra? Cite candidato | Dis. | M | IC | Marte (água fóssil, temperatura moderada); Europa (oceano subsuperficial) | — |
-| QI-3 | O que a Astrobiologia estuda? | Dis. | F | IC | Origem da vida, possibilidade em outros planetas, condições de habitabilidade | — |
+| Q-1 | Condições estabelecidas na Terra para manutenção da vida | MC | M | 81 | — | ⚠️ alternativas não legíveis no screenshot |
+| Q-2 | Características e transformação do planeta ao longo do tempo | MC | M | 81 | — | ⚠️ alternativas não legíveis no screenshot |
+| Q-3 | Qual a função da atmosfera terrestre para a vida? | Dis. | M | 82 | Protege contra radiação UV/cósmica, mantém temperatura via efeito estufa moderado, contém gases necessários à respiração | — |
+| Q-4 | Que dificuldades fisiológicas enfrentam os astronautas ao retornar à Terra? | MC/Dis. | M | 82 | — | ⚠️ alternativas não legíveis no screenshot |
+| Q-5 | Características e diferenças entre planetas | MC | M | 82 | — | ⚠️ alternativas não legíveis no screenshot |
+| Q-6 | Qual a finalidade das missões Kepler e TESS lançadas pela NASA? (texto sobre TESS) | Dis. | M | 83 | Detectar exoplanetas; TESS usa método do trânsito e mapeia região maior que o Kepler |
+| Q-7 | Por que conseguimos pousar na Lua, mas não em Marte? | Dis. | M | 83 | Lua: menor distância (~384 000 km), sem atmosfera densa, missão viável em dias. Marte: ~225 milhões km, atmosfera fina mas presente, viagem de meses, tecnologia de pouso e sobrevivência mais complexa |
+| Q-8a | Quais os principais elementos na maior parte da vida de uma estrela? | Dis. | F | 83 | Hidrogênio (H) e hélio (He) |
+| Q-8b | Qual é o processo que mantém uma estrela viva? Por quê? | Dis. | F | 83 | Fusão nuclear: H funde-se formando He com liberação de energia (luz e calor) que equilibra a gravidade |
+| Q-8c | Por que os gases das estrelas não se espalham pelo espaço? | Dis. | M | 83 | A gravidade da própria estrela equilibra a pressão de radiação gerada pela fusão nuclear, confinando os gases |
+| Q-9 | Diferença entre estágios finais de estrela pouco massiva e massa semelhante à do Sol | Dis. | M | 84 | Pouca massa → anã branca diretamente. Massa solar → gigante vermelha → anã branca. (Ambas terminam em anã branca; estrelas muito massivas terminam em supernova → nêutrons/buraco negro) |
+| Q-10 | Diferencie buracos negros das estrelas de nêutrons. | Dis. | M | 84 | Ambos surgem de supernova de estrelas massivas. Estrela de nêutrons: núcleo compacto de nêutrons, emite radiação (ex: pulsar). Buraco negro: massa ainda maior, gravidade tão intensa que nem a luz escapa |
 
 ---
 
