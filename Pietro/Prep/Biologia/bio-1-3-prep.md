@@ -25,7 +25,7 @@ Tabelas da Seção 6 são apresentadas como markdown no chat.
 - Tema: Divisões Celulares e Formação do Indivíduo
 - Perfil: processual/misto
 - Processos principais: mitose, meiose, gametogênese, embriogênese
-- Cientistas citados: Walther Flemming (inferido — ver Seção 8)
+- Personagens históricos: Eng e Chang Bunker (siameses históricos — Reflexão)
 
 ---
 
@@ -68,16 +68,29 @@ A meiose é a divisão celular que **reduz a ploidia à metade**: a célula-mãe
    - **Endoderme** (interna) → revestimento do tubo digestório e órgãos internos.
 4. **Neurulação**: a ectoderme se dobra formando o **tubo neural** — origem do encéfalo e medula espinhal.
 
+### Gêmeos — Formação gemelar e casos especiais
+
+Existem dois tipos de gêmeos:
+
+- **Gêmeos univitelinos** (idênticos / monozigóticos): originam-se de **um único zigoto** que se divide em dois embriões. São geneticamente idênticos e sempre do mesmo sexo.
+- **Gêmeos bivitelinos** (fraternos / dizigóticos): originam-se de **dois óvulos diferentes** fecundados por dois espermatozoides distintos. São geneticamente tão diferentes quanto irmãos comuns e podem ser de sexos diferentes.
+
+**Gêmeos parasitas**: um dos fetos não se desenvolveu completamente e encontra-se incorporado ao corpo do irmão, dependendo das funções do outro. Em alguns casos pode ser removido cirurgicamente; em outros, está unido por estruturas vitais.
+
+**Gêmeos xifópagos (siameses)**: unidos por alguma parte do corpo, podendo ou não compartilhar órgãos. A separação cirúrgica é possível quando não há compartilhamento de órgãos vitais.
+
+> **Resposta à Reflexão do livro:** Tanto os gêmeos parasitas quanto os xifópagos ocorrem na formação **univitelina** — quando o embrião único não se separa completamente, resultando em dois indivíduos total ou parcialmente unidos.
+
 ---
 
 ## SEÇÃO 3 — CIENTISTAS E HISTÓRIA DA CIÊNCIA
 
-### Walther Flemming (1843–1905) — *inferido; verificar com material original*
-**Área:** Citologia / Biologia celular
-**Contribuição no capítulo:** Primeiro a descrever em detalhe as fases da divisão celular, observando cromossomos corados com anilina em larvas de salamandra.
-**O que mudou:** Cunhou o termo **mitose** (do grego *mitos* = fio, referindo-se aos filamentos cromossômicos) e o termo **cromatina**, estabelecendo que a divisão nuclear é um processo ordenado e não caótico.
-**Associado a:** Obra *Zellsubstanz, Kern und Zelltheilung* (1882); uso de corantes de anilina para tornar cromossomos visíveis.
-**Contexto histórico:** Final do século XIX, era áurea da microscopia; décadas antes da descoberta do DNA como material genético.
+### Eng e Chang Bunker (1811–1874)
+**Área:** Personagens históricos — Reflexão do capítulo
+**Contribuição no capítulo:** Os irmãos Eng e Chang nasceram em Sião (atual Tailândia) no século XIX, unidos por uma faixa de tecido na região do abdome. Tornaram-se mundialmente famosos e deram origem ao termo **"siamês"**, derivado do nome de sua cidade natal.
+**O que representa:** Caso histórico emblemático de gêmeos xifópagos — origem de toda a terminologia médica e popular para gêmeos unidos. Viveram até os 63 anos e tiveram filhos.
+**Associado a:** Gêmeos univitelinos com separação incompleta do embrião; impossibilidade de separação por compartilhamento de estruturas.
+**Contexto histórico:** Século XIX; eram exibidos em circos e espetáculos; mais tarde estabeleceram família nos EUA.
 
 ---
 
@@ -185,6 +198,18 @@ A meiose é a divisão celular que **reduz a ploidia à metade**: a célula-mãe
 
 ---
 
+### Tabela 3 — Gêmeos Univitelinos × Bivitelinos
+
+| Característica | Univitelinos (idênticos) | Bivitelinos (fraternos) | ⚠️ Pegadinha |
+|---|---|---|---|
+| Origem | 1 zigoto que se divide | 2 zigotos distintos | Univitelinos = 1 ovo só |
+| Material genético | Idêntico | Diferente (como irmãos) | Bivitelinos NÃO são clones |
+| Sexo | Sempre igual | Pode ser diferente | — |
+| Placenta | Podem compartilhar | Placentas separadas | — |
+| Gêmeos siameses / parasitas | Ocorrem aqui | Impossível | Divisão incompleta do embrião único |
+
+---
+
 ## SEÇÃO 7 — DICAS DE OURO
 
 💡 **Dica 1 — Mitose conserva, meiose reduz**
@@ -209,11 +234,7 @@ O oócito secundário fica bloqueado em Metáfase II. A meiose II só se complet
 
 ## SEÇÃO 8 — ALERTAS DE INCONSISTÊNCIA
 
-⚠️ **INFERÊNCIA — Cientista da seção Reflexão**
-- Campo: nome e identidade do cientista retratado na seção Reflexão (cap. 3)
-- Valor inferido no prep: Walther Flemming (1843–1905)
-- Base da inferência: contexto do capítulo (mitose), imagem de homem barbudo do século XIX, padrão usual deste tipo de capítulo em livros brasileiros do 9º ano
-- Ação: confirmar com o texto original da seção Reflexão antes de apresentar ao aluno
+Nenhum alerta de inconsistência factual identificado neste capítulo.
 
 ---
 
@@ -336,6 +357,7 @@ O oócito secundário fica bloqueado em Metáfase II. A meiose II só se complet
 | Q-7 | Identificar camadas germinativas e seus derivados | Assoc | M | IC | Ecto=SNC/pele; Meso=músculo/osso; Endo=tubo dig. | — |
 | Q-8 | Estilo ENEM — situação-problema sobre divisão celular e câncer | MC | D | IC | Mitose descontrolada | — |
 | Q-9 | Estilo olímpico — sobre meiose II e número de cromossomos | MC | D | IC | n cromossomos (sem redução na meiose II) | ⚠️ alto nível |
+| Q-10 | Reflexão — em qual tipo de gemelaridade ocorrem xifópagos e parasitas? | Dis | M | AT | Gêmeos univitelinos (divisão incompleta do embrião único) | — |
 
 ---
 
