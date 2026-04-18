@@ -344,48 +344,45 @@ Distribuição:
 3. Gere Seções 1–11 (conteúdo textual)
 4. Salve em `/mnt/user-data/outputs/ing-[u]-[c]-prep.md`
 5. Apresente com `present_files`
-6. Gere o **Mapa Mental HTML** (ver seção abaixo)
+6. Gere o **Mapa Mental inline** (ver seção abaixo)
 7. Salve em `/mnt/user-data/outputs/mindmap_ing[u][c].html`
+   (cópia de referência — não precisa ir para o KB)
 8. Apresente com `present_files`
 9. Informe:
     "✅ Preparação concluída! Dois arquivos gerados:
     - `ing-[u]-[c]-prep.md` → adicionar ao knowledge base
-    - `mindmap_ing[u][c].html` → adicionar ao knowledge base"
+    - `mindmap_ing[u][c].html` → referência visual (não vai para o KB)"
 
 ---
 
-## GERAÇÃO DO MAPA MENTAL HTML
+## GERAÇÃO DO MAPA MENTAL INLINE
 
-Arquivo HTML com mapa mental completo do capítulo.
-Todos os cards começam em laranja "Not tested".
+O mindmap é gerado como widget HTML inline via Visualizer —
+renderiza diretamente na conversa, sem abrir aba separada.
+NÃO salvar como arquivo no KB.
 
-**a) HEADER** — fundo #004080 (azul médio):
-- "Inglês · Unidade X · Capítulo Y · 9º ano"
-- Título do capítulo em inglês (32px bold)
-- "Mind Map — generated at preparation"
-- Legenda: verde=Mastered · vermelho=Review · laranja=Not tested
+### Fonte de conteúdo
+- Tópicos: Seção 2 do prep (um nó por bloco temático)
+- Fórmulas/notações: Seção 4 do prep
+- Pegadinhas: Seção 7 e alertas da Seção 8
+- Dicas de ouro: Seção 7 do prep
 
-**b) PÍLULA CENTRAL** — tema central em inglês, fundo #004080
+### Template HTML
 
-**c) GRID DE CARDS** — um por tópico principal, todos laranja:
-- Faixa lateral 3px · número em círculo · título em inglês (negrito)
-- Bullets com conteúdo bilíngue (inglês → português)
-- Badge "Not tested" no rodapé
-- Para gramática: estrutura em destaque + exemplo em inglês
-  + pegadinha principal
-- Para vocabulário: palavras agrupadas por tema
-- Para gênero textual: características em inglês
+Usar o template universal da Parte 1 deste prompt, preenchendo:
+- `[COR_PRIMARIA]` → `#004080`
+- `[TEMA DO CAPÍTULO]` → título da Seção 1 do prep
+- `[Matéria]` → `Inglês`
+- Um `.branch` por tópico da Seção 2
+- Leaves com bullets, fórmulas (tag `.fm`) e alertas (tag `.warn`)
+- Dicas de ouro da Seção 7
 
-**d) GOLDEN TIPS** — fundo #FFF8EC, borda 2px solid #F0D080,
-dicas da Seção 7, badge laranja numerado
+### Entrega
+Chamar `show_widget` com:
+- `title`: `"mindmap_ing[u][c]"`
+- `loading_messages`: `["Montando o mapa do capítulo..."]`
+- `widget_code`: HTML preenchido
 
-**CSS obrigatório:**
-- Fonte: 'Inter' (Google Fonts) · Fundo: #F4F2EE
-- Cards: bg #ffffff · border-radius 14px ·
-  box-shadow 0 2px 8px rgba(0,0,0,0.07)
-- Grid: 3 colunas · font-size mínimo 13px · header 32px bold
-- Cor de destaque: #004080 (azul médio de Inglês)
-- Badge "Not tested": fundo #D4880A (laranja), texto branco
-- Badge "Mastered": fundo #2e7d32, texto branco
-- Badge "Review": fundo #c62828, texto branco
-- Cards clicáveis: alternam badge entre os três estados
+Após renderizar, salvar também uma cópia em
+`/mnt/user-data/outputs/mindmap_ing[u][c].html`
+e apresentar com `present_files` como referência.

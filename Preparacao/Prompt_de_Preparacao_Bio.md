@@ -446,41 +446,45 @@ tracejada — NÃO desenhar em círculo/anel.
 5. Gere Seção 0 (índice) e posicione no início do arquivo
 6. Salve em `/mnt/user-data/outputs/bio-[u]-[c]-prep.md`
 7. Apresente com `present_files`
-8. Gere o Mapa Mental HTML (ver seção abaixo)
+8. Gere o Mapa Mental inline (ver seção abaixo)
 9. Salve em `/mnt/user-data/outputs/mindmap_bio[u][c].html`
+   (cópia de referência — não precisa ir para o KB)
 10. Apresente com `present_files`
 11. Informe:
     "✅ Preparação concluída!
     - `bio-[u]-[c]-prep.md` → adicionar ao knowledge base
-    - `mindmap_bio[u][c].html` → adicionar ao knowledge base"
+    - `mindmap_bio[u][c].html` → referência visual (não vai para o KB)"
 
 ---
 
-## GERAÇÃO DO MAPA MENTAL HTML
+## GERAÇÃO DO MAPA MENTAL INLINE
 
-Arquivo HTML com mapa mental completo. Todos os cards iniciam
-em verde "Não testado".
+O mindmap é gerado como widget HTML inline via Visualizer —
+renderiza diretamente na conversa, sem abrir aba separada.
+NÃO salvar como arquivo no KB.
 
-**a) HEADER** — fundo #1a6e3a:
-- "Biologia · Unidade X · Capítulo Y · 9º ano"
-- Título do capítulo (32px bold)
-- "Mapa Mental — gerado na preparação"
-- Legenda: verde=Dominado · vermelho=Reforçar · verde escuro=Não testado
+### Fonte de conteúdo
+- Tópicos: Seção 2 do prep (um nó por bloco temático)
+- Fórmulas/notações: Seção 4 do prep
+- Pegadinhas: Seção 7 e alertas da Seção 8
+- Dicas de ouro: Seção 7 do prep
 
-**b) PÍLULA CENTRAL** — tema, fundo #1a6e3a
+### Template HTML
 
-**c) GRID DE CARDS** — um por tópico, todos verde escuro:
-- Faixa lateral 3px · número em círculo · título em negrito
-- Bullets com conteúdo · badge "Não testado"
-- Para processos: etapas numeradas + entradas e saídas
-- Para classificações: hierarquia com recuo visual
+Usar o template universal da Parte 1 deste prompt, preenchendo:
+- `[COR_PRIMARIA]` → `#1a6e3a`
+- `[TEMA DO CAPÍTULO]` → título da Seção 1 do prep
+- `[Matéria]` → `Biologia`
+- Um `.branch` por tópico da Seção 2
+- Leaves com bullets, fórmulas (tag `.fm`) e alertas (tag `.warn`)
+- Dicas de ouro da Seção 7
 
-**d) DICAS DE OURO** — fundo #F0FAF4, borda #1a6e3a,
-dicas da Seção 7, badge verde numerado
+### Entrega
+Chamar `show_widget` com:
+- `title`: `"mindmap_bio[u][c]"`
+- `loading_messages`: `["Montando o mapa do capítulo..."]`
+- `widget_code`: HTML preenchido
 
-**CSS obrigatório:**
-- Fonte: 'Inter' (Google Fonts) · Fundo: #F4F2EE
-- Cards: bg #ffffff · border-radius 14px ·
-  box-shadow 0 2px 8px rgba(0,0,0,0.07)
-- Grid: 3 colunas · font-size mínimo 13px · header 32px bold
-- Cor primária: #1a6e3a (verde vivo de Biologia)
+Após renderizar, salvar também uma cópia em
+`/mnt/user-data/outputs/mindmap_bio[u][c].html`
+e apresentar com `present_files` como referência.
