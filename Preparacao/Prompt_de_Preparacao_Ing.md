@@ -342,6 +342,11 @@ Distribuição:
    - ✅ Sim: gere todas as seções incluindo a 10
    - ⬜ Não: gere seções 1–9, 11; registre ausência na Seção 10
 3. Gere Seções 1–11 (conteúdo textual)
+3.5. Antes de finalizar a Seção 12, varra todas as imagens anexadas:
+   identifique diagramas visuais (esquemas, fluxos, tabelas
+   estruturais, mapas, gráficos) e decida para cada um:
+   SVG embutido na Seção 12 · markdown na Seção 6 · ou registrar
+   na Seção 8 como ausente (para image_search na aula).
 4. Salve em `/mnt/user-data/outputs/ing-[u]-[c]-prep.md`
 5. Apresente com `present_files`
 6. Gere o **Mapa Mental inline** (ver seção abaixo)

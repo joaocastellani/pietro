@@ -480,7 +480,12 @@ Exemplo: capítulo com 5 eventos datados (narrativo) + 2 conceitos (conceitual)
    - ⬜ Não: gere seções 0–9, 11, 12; indique que Seção 10
      pode ser adicionada depois com a imagem
 3. Gere Seções 1–11 (conteúdo textual)
-4. Gere Seção 12 (SVGs embutidos no prep)
+4. Antes de gerar a Seção 12, varra todas as imagens anexadas:
+   identifique diagramas visuais (esquemas, fluxos, tabelas
+   estruturais, mapas, gráficos) e decida para cada um:
+   SVG embutido na Seção 12 · markdown na Seção 6 · ou registrar
+   na Seção 8 como ausente (para image_search na aula).
+   Depois gere a Seção 12 com todos os SVGs identificados.
 5. Gere Seção 0 (índice) e posicione no início do arquivo
 6. Salve em `/mnt/user-data/outputs/his-[u]-[c]-prep.md`
 7. Apresente com `present_files`
