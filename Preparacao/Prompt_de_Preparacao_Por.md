@@ -570,46 +570,45 @@ Máximo 3 diagramas por prep.
 5. Gere Seção 0 (índice) e posicione no início do arquivo
 6. Salve em `/mnt/user-data/outputs/por-[u]-[c]-prep.md`
 7. Apresente com `present_files`
-8. Gere o Mapa Mental HTML (ver seção abaixo)
+8. Gere o Mapa Mental inline (ver seção abaixo)
 9. Salve em `/mnt/user-data/outputs/mindmap_por[u][c].html`
+   (cópia de referência — não precisa ir para o KB)
 10. Apresente com `present_files`
 11. Informe:
     "✅ Preparação concluída!
     - `por-[u]-[c]-prep.md` → adicionar ao knowledge base
-    - `mindmap_por[u][c].html` → adicionar ao knowledge base"
+    - `mindmap_por[u][c].html` → referência visual (não vai para o KB)"
 
 ---
 
-## GERAÇÃO DO MAPA MENTAL HTML
+## GERAÇÃO DO MAPA MENTAL INLINE
 
-Arquivo HTML com mapa mental completo do capítulo.
-Todos os cards iniciam em roxo "Não testado".
+O mindmap é gerado como widget HTML inline via Visualizer —
+renderiza diretamente na conversa, sem abrir aba separada.
+NÃO salvar como arquivo no KB.
 
-**a) HEADER** — fundo #800020 (vinho):
-- "Português · Unidade X · Capítulo Y · 9º ano"
-- Título do capítulo (32px bold)
-- "Mapa Mental — gerado na preparação"
-- Legenda: verde=Dominado · vermelho=Reforçar · roxo=Não testado
+### Fonte de conteúdo
+- Tópicos: Seção 2 do prep (um nó por bloco temático)
+- Fórmulas/notações: Seção 4 do prep
+- Pegadinhas: Seção 7 e alertas da Seção 8
+- Dicas de ouro: Seção 7 do prep
 
-**b) PÍLULA CENTRAL** — tema, fundo #800020
+### Template HTML
 
-**c) GRID DE CARDS** — um por tópico principal, todos roxo:
-- Faixa lateral 3px · número em círculo · título em negrito
-- Bullets com conteúdo · badge "Não testado"
-- Para regras gramaticais: regra em destaque + exemplos
-- Para gêneros textuais: características estruturais
-- Para texto-base: autor, gênero, tema, recurso expressivo principal
+Usar o template universal da Parte 1 deste prompt, preenchendo:
+- `[COR_PRIMARIA]` → `#800020`
+- `[TEMA DO CAPÍTULO]` → título da Seção 1 do prep
+- `[Matéria]` → `Português`
+- Um `.branch` por tópico da Seção 2
+- Leaves com bullets, fórmulas (tag `.fm`) e alertas (tag `.warn`)
+- Dicas de ouro da Seção 7
 
-**d) DICAS DE OURO** — fundo #FFF0F0, borda #800020,
-dicas da Seção 7, badge roxo numerado
+### Entrega
+Chamar `show_widget` com:
+- `title`: `"mindmap_por[u][c]"`
+- `loading_messages`: `["Montando o mapa do capítulo..."]`
+- `widget_code`: HTML preenchido
 
-**CSS obrigatório:**
-- Fonte: 'Inter' (Google Fonts) · Fundo: #F4F2EE
-- Cards: bg #ffffff · border-radius 14px ·
-  box-shadow 0 2px 8px rgba(0,0,0,0.07)
-- Grid: 3 colunas · font-size mínimo 13px · header 32px bold
-- Cor de destaque: #800020 (vinho)
-- Badge "Não testado": fundo #800020, texto branco
-- Badge "Dominado": fundo #2e7d32, texto branco
-- Badge "Reforçar": fundo #c62828, texto branco
-- Cards clicáveis: alternam badge entre os três estados
+Após renderizar, salvar também uma cópia em
+`/mnt/user-data/outputs/mindmap_por[u][c].html`
+e apresentar com `present_files` como referência.
