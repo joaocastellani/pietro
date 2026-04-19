@@ -437,12 +437,19 @@ Eixo horizontal = tempo, nós coloridos por período/relevância.
    - ⬜ Não: gere seções 0–9, 11, 12; indique que Seção 10
      pode ser adicionada depois com a imagem
 3. Gere Seções 1–11 (conteúdo textual)
-4. Antes de gerar a Seção 12, varra todas as imagens anexadas:
-   identifique diagramas visuais (esquemas, fluxos, tabelas
-   estruturais, mapas, gráficos) e decida para cada um:
-   SVG embutido na Seção 12 · markdown na Seção 6 · ou registrar
-   na Seção 8 como ausente (para image_search na aula).
-   Depois gere a Seção 12 com todos os SVGs identificados.
+4. Antes de gerar a Seção 12:
+   a) Varra todas as imagens anexadas: identifique diagramas
+      visuais (esquemas, fluxos, tabelas estruturais, mapas,
+      gráficos) e decida para cada um: SVG na Seção 12 ·
+      markdown na Seção 6 · registrar na Seção 8 como ausente.
+   b) Gere a Seção 12 com todos os SVGs identificados.
+   c) Verifique cobertura visual: para cada bloco temático
+      da Seção 2, confirme se há ao menos um recurso visual
+      (SVG na Seção 12 · tabela na Seção 6 · image_search).
+      Tópicos sem cobertura → adicionar à Seção 8:
+      ⚠️ VISUAL AUSENTE — [tópico]
+      - Sugestão: [image_search query ou tipo de SVG]
+      - Ação: usar image_search na aula / gerar SVG na revisão
 5. Gere Seção 0 (índice) e posicione no início do arquivo
 6. Salve em `/mnt/user-data/outputs/geo-[u]-[c]-prep.md`
 7. Apresente com `present_files`
