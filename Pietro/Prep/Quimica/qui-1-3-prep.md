@@ -520,8 +520,8 @@ body{font-family:var(--font-sans)}
 <defs><style>
 .cell{stroke:#333;stroke-width:0.5}
 .bs{fill:#FAEEDA}.bp{fill:#EAF3DE}.bd{fill:#E6F1FB}.bf{fill:#EEEDFE}
-.blk{font-size:18px;font-weight:700;text-anchor:middle;dominant-baseline:central;opacity:0.3}
-.blk-s{fill:#854F0B}.blk-p{fill:#3B6D11}.blk-d{fill:#0C447C}.blk-f{fill:#3C3489}
+.blk{font-size:36px;font-weight:900;text-anchor:middle;dominant-baseline:central;opacity:0.85}
+.blk-s{fill:#5C2E00}.blk-p{fill:#1A4D00}.blk-d{fill:#002F6C}.blk-f{fill:#1E0070}
 .per{font-size:6px;fill:#888;text-anchor:middle;dominant-baseline:central}
 .grp{font-size:5.5px;fill:#888;text-anchor:middle;dominant-baseline:central}
 </style></defs>
