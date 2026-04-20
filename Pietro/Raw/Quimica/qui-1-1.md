@@ -1,334 +1,586 @@
-# 1. METADADOS
-
-- Matéria: Química
-- Unidade: 1
-- Capítulo/Tema: Propriedades da matéria
-- Nível de ensino: 9º ano
-- Perfil do capítulo: misto
+# qui-1-1.md
 
 ---
 
-# 2. CONCEITOS E DEFINIÇÕES
-
-## Química
-
-**Definição:** A Química é a ciência que estuda a matéria, investigando sua composição e suas propriedades, bem como suas transformações e a energia envolvida nesses processos.
-**Exemplos dados pelo livro:** texto contextual sobre presença da Química nos alimentos e materiais do dia a dia.
-
----
-
-## Matéria
-
-**Definição:** Podemos dizer que a matéria é tudo o que tem massa e ocupa lugar no espaço.
-**Exemplos dados pelo livro:** livros, árvores, roupas e até os seres vivos são objetos constituídos de matéria.
-**Observações/ressalvas explícitas:** Já o som, a luz e o calor não são considerados matéria, pois não possuem massa e não ocupam lugar no espaço – portanto, são tipos de energia.
+## 1. METADADOS
+- **Matéria:** Química
+- **Unidade:** 1
+- **Capítulo/Tema:** 1 — Propriedades da Matéria
+- **Nível de ensino:** 9º ano
+- **Perfil do capítulo:** misto
 
 ---
 
-## Propriedades da matéria — gerais
+## 2. CONCEITOS E DEFINIÇÕES
 
-**Definição:** As propriedades gerais são aquelas que podem ser observadas em todos os tipos de matéria, e, entre elas, temos: massa, extensão, impenetrabilidade, inércia e divisibilidade.
-**Exemplos dados pelo livro:** lista dos nomes das propriedades gerais.
+### Química
+- **Definição:** Ciência que estuda a matéria, investigando sua composição e suas propriedades, bem como suas transformações e a energia envolvida nesses processos.
+- **Observação:** Antes de se tornar essa ciência, a Química passou por uma longa jornada histórica, reunindo elementos de física, astrologia, filosofia, arte, metalurgia, medicina, misticismo e religião.
 
----
+### Matéria
+- **Definição:** Tudo que tem massa e ocupa lugar no espaço. Os livros, as árvores, as roupas e até os seres vivos são objetos constituídos de matéria. Som, luz e calor não são considerados matéria — são formas de energia.
+- **Observação:** A matéria é estudada como parte limitada da energia.
 
-## Propriedades da matéria — específicas
+### Propriedades Gerais da Matéria
+- **Definição:** Propriedades comuns a todos os tipos de matéria, independentemente do material específico.
+- **Exemplos:** massa, extensão, impenetrabilidade, inércia e divisibilidade.
 
-**Definição:** Já as específicas são aquelas utilizadas para diferenciar os tipos de matéria, como as temperaturas de fusão e ebulição, a densidade, a solubilidade, a dureza, a viscosidade e as propriedades organolépticas.
-**Exemplos dados pelo livro:** temperaturas de fusão e ebulição, densidade, solubilidade, dureza, viscosidade, propriedades organolépticas.
+### Propriedades Específicas da Matéria
+- **Definição:** Propriedades que identificam e diferenciam os materiais entre si; variam de acordo com cada tipo de material.
+- **Exemplos:** densidade, temperatura de fusão, temperatura de ebulição, solubilidade, condutividade, dureza, viscosidade e propriedades organolépticas.
 
----
+### Massa
+- **Definição:** Quantidade de matéria presente em todos os corpos; medida por meio de uma balança. O Sistema Internacional de Unidades (SI) estabeleceu o quilograma (kg) como unidade de medida de massa.
 
-## Massa
+### Extensão
+- **Definição:** Capacidade que a matéria tem de ocupar determinado espaço, definida pelo volume. A unidade básica de medida de volume é o metro cúbico (m³), equivalente a 1000 litros.
 
-**Definição:** A massa é a quantidade de matéria que existe em todos os corpos e que pode ser mensurada por meio de uma balança. O Sistema Internacional de Unidades (SI) estabeleceu o quilograma (kg) como unidade-padrão de medida de massa.
-**Exemplos dados pelo livro:** referência a balança analítica como instrumento utilizado em laboratório para medição precisa de massas.
-**Observações/ressalvas explícitas:** unidade padrão SI: quilograma (kg).
+### Impenetrabilidade
+- **Definição:** Propriedade que diz que dois corpos não podem ocupar o mesmo espaço ao mesmo tempo.
+- **Exemplo do livro:** Quando uma pedra é inserida em uma proveta com água, o volume de água deslocado corresponde ao volume da pedra.
 
----
+### Inércia
+- **Definição:** Tendência de um corpo a conservar seu estado de repouso ou de movimento retilíneo uniforme (MRU) — velocidade constante em linha reta — na ausência de forças externas atuando sobre ele. Quanto maior a massa, maior a inércia.
+- **Exemplo do livro:** Em uma colisão, o cinto de segurança evita que o ocupante continue em movimento. Caixas deslizando em um caminhão que freia bruscamente ilustram o princípio da inércia.
 
-## Extensão (Volume)
+### Divisibilidade
+- **Definição:** Toda matéria pode ser dividida em partes menores até certo limite sem que suas propriedades sejam alteradas. Metais como ferro e alumínio, por exemplo, podem ser subdivididos em lâminas sem perder suas características principais.
 
-**Definição:** A extensão corresponde à capacidade que a matéria tem de ocupar determinado espaço, sendo definida pelo volume. De acordo com o SI, a unidade básica de medida de volume é o metro cúbico (m³), que equivale a 1000 litros.
-**Exemplos dados pelo livro:** provetas, instrumentos utilizados em laboratório para medir volume de líquidos.
-**Observações/ressalvas explícitas:** equivalência m³ = 1000 litros.
+### Densidade
+- **Definição:** Propriedade específica relacionada à massa e ao volume de um corpo; cada tipo de material possui uma densidade específica. Influenciada pela temperatura.
+- **Unidades:** g/cm³ (grama por centímetro cúbico), g/mL (grama por mililitro), kg/L (quilograma por litro).
+- **Observação:** Um dos fatores de diferença de densidade entre os tipos de materiais é a diferença entre eles.
 
----
+### Temperatura de Fusão
+- **Definição:** Propriedade específica — temperatura na qual uma substância passa do estado sólido para o líquido (ou vice-versa) em determinadas condições de pressão.
+- **Exemplo do livro (tabela):**
 
-## Estados de agregação da matéria
+| Substância | Temperatura de fusão (°C) | Temperatura de ebulição (°C) |
+|---|---|---|
+| Água | 0 | 100 |
+| Álcool | −114 | 78 |
+| Ouro | 1064 | 2856 |
 
-**Definição:** A matéria pode ser encontrada em três estados de agregação, também chamados de estados físicos. À temperatura ambiente, por exemplo, a água está no estado líquido, o ferro no estado sólido, e o ar, no estado gasoso. Essas classificações são feitas de acordo com o comportamento das partículas que formam a matéria em diferentes temperaturas.
-**Exemplos dados pelo livro:** à temperatura ambiente, por exemplo, a água está no estado líquido, o ferro no estado sólido, e o ar, no estado gasoso.
-**Observações/ressalvas explícitas:** classificações feitas conforme comportamento das partículas em diferentes temperaturas.
+### Temperatura de Ebulição
+- **Definição:** Temperatura na qual uma substância passa do estado líquido para o gasoso (ou vice-versa) em determinadas condições de pressão.
 
----
+### Solubilidade
+- **Definição:** Capacidade que uma substância tem de se dissolver em outra (chamada solvente). Propriedade específica — cada substância apresenta um valor de solubilidade que depende de dois fatores: temperatura e quantidade de solvente.
+- **Exemplo do livro:** A solubilidade do sal de cozinha (NaCl) em água é de 36 gramas de sal para cada 100 gramas de água a 20 °C. Se a concentração de sal exceder esse valor, o excedente não se dissolve, formando corpo de fundo.
+- **Observação:** Se multiplicarmos a quantidade de solvente por dois, a quantidade máxima de sal dissolvida será — no caso — até 72 gramas.
 
-## Sólidos
+### Condutividade
+- **Definição:** Capacidade que a matéria tem de permitir a passagem de corrente elétrica. Um material é chamado condutor quando conduz bem corrente elétrica; isolante quando conduz pouco corrente elétrica (ou nenhuma).
+- **Exemplos de condutores:** metais como cobre, alumínio e estanho — usados na fabricação de fios elétricos.
+- **Exemplos de isolantes:** plásticos, cerâmica e borracha.
 
-**Definição:** As partículas que constituem os sólidos ficam próximas umas das outras, permitindo certa rigidez. Devido a essa organização e à forte atração das partículas entre si, os sólidos têm forma e volume definidos.
-**Exemplos dados pelo livro:** uso de materiais sólidos nas residências, indústrias e construção civil.
-**Propriedades específicas dos sólidos (textuais do material):**
-- **Resistência mecânica:** É a capacidade que um material tem de suportar forças externas sem se romper. Os metais, por exemplo, são materiais com grande resistência e, por isso, são amplamente utilizados na construção civil.
-- **Dureza:** É a capacidade que um sólido possui de riscar a superfície de outro. O diamante, por exemplo, é o material conhecido com a maior dureza e é utilizado em instrumentos para cortar ferro e aço.
-- **Ductilidade:** Alguns sólidos podem ser alongados e transformados em fios. É uma característica comum de alguns metais, como o cobre.
-- **Elasticidade:** Os sólidos elásticos podem ser deformados ao sofrer ação de alguma força e, quando esta deixa de agir, voltam ao seu estado original. A borracha, por exemplo, é um sólido elástico.
-**Observações/ressalvas explícitas:** "No estado sólido, as partículas ficam muito próximas umas das outras."
-**Trecho de atividade presente no texto:**
-- a) "As propriedades específicas podem auxiliar na escolha do material mais adequado para a finalidade de sua utilização."
-- b) "Não. Quando aumentamos a massa de um material, seu volume aumenta na mesma proporção; portanto, sua densidade permanece a mesma."
+### Propriedades Organolépticas
+- **Definição:** Propriedades percebidas pelos nossos sentidos: cor, cheiro, sabor, textura e brilho. Embora sejam próprias de cada material, não devem ser usadas como forma de identificação de substâncias por não exigirem método sofisticado.
 
----
+### Estados de Agregação da Matéria (Estados Físicos)
+- **Definição:** A matéria pode ser encontrada em três estados de agregação, também chamados de estados físicos: sólido, líquido e gasoso. As classificações são feitas de acordo com o comportamento das partículas que formam a matéria em diferentes temperaturas.
 
-## Os líquidos
+### Sólidos
+- **Definição:** As partículas que constituem os sólidos ficam próximas umas das outras, permitindo certa rigidez. Devido a essa organização e à forte atração das partículas entre si, os sólidos têm **forma e volume definidos**.
+- **Propriedades específicas dos sólidos:**
+  - **Resistência mecânica:** capacidade de suportar forças externas sem se romper.
+  - **Dureza:** capacidade que um sólido possui de riscar a superfície de outro. O diamante é o material conhecido como o mais duro.
+  - **Ductilidade:** alguns sólidos podem ser alongados e transformados em fios.
+  - **Elasticidade:** sólidos elásticos podem ser deformados ao sofrer ação de alguma força e, quando essa deixa de agir, voltam ao estado original. Exemplo: borracha.
 
-**Definição:** As partículas presentes nos líquidos não estão tão próximas quanto as dos sólidos, uma vez que a força de atração entre elas é menor. Os líquidos possuem volume fixo e assumem forma variada, dependendo do recipiente em que estão contidos.
-**Exemplos dados pelo livro:**
-- "Os óleos, por exemplo, são mais viscosos do que a água, que escoa com mais rapidez."
-- "A acetona, o álcool e o éter são mais voláteis do que a água, por exemplo."
-- "O óleo de coco apresenta baixa temperatura de fusão. Por isso, em dias frios, é sólido e, em dias quentes, é um líquido viscoso."
-- "Os perfumes contêm grande quantidade de álcool e, por isso, evaporam facilmente em contato com a pele."
-**Propriedades específicas dos líquidos (textuais do material):**
-- **Viscosidade:** consiste na resistência ao escoamento, ou seja, quanto mais viscoso um líquido, mais lento é o seu escoamento.
-- **Volatilidade:** está ligada à facilidade que um líquido tem de evaporar em temperatura ambiente.
-**Observações/ressalvas explícitas:** "As partículas que compõem os líquidos ficam um pouco afastadas umas das outras."
-Menção a sublimação de sólidos voláteis: "Alguns sólidos, como a naftalina e a cânfora, também são voláteis, e suas formas líquidas não são evidentes. É possível identificar os cheiros dessas substâncias devido ao processo de sublimação, no qual os sólidos se tornam gasosos em temperatura ambiente."
+### Líquidos
+- **Definição:** As partículas presentes nos líquidos não estão tão próximas quanto as dos sólidos, pois a força de atração entre elas é menor. Os líquidos possuem **volume fixo** e **forma variada**, dependendo do recipiente em que estão contidos.
+- **Propriedades características dos líquidos:**
+  - **Viscosidade:** resistência ao escoamento. Quanto mais viscoso um líquido, mais lento é o seu escoamento. Óleos são mais viscosos que a água.
+  - **Volatilidade:** facilidade com que um líquido tem de evaporar em temperatura ambiente. O álcool e o éter são mais voláteis do que a água.
 
----
+### Gases
+- **Definição:** As partículas que compõem os gases têm pouca interação entre si e se mantêm desorganizadas e afastadas umas das outras. Por isso, **os gases assumem o volume e a forma do recipiente** que os contém, espalhando-se pelo ambiente.
+- **Observação:** Por estarem mais afastadas, as partículas possuem maior liberdade de movimento, podendo ser **comprimidas** ou **expandidas**; a densidade é afetada pela variação de temperatura.
 
-## Os gases
+### Plasma (4º estado da matéria)
+- **Definição:** Quarto estado da matéria. Origina-se quando um gás é superaquecido, tornando-se eletricamente carregado. Possui qualidade de bom condutor elétrico.
+- **Aplicações tecnológicas:** lâmpadas fluorescentes, alguns modelos de TVs e letreiros de neon.
+- **Dado factual:** Os cientistas estimam que 99% da matéria do Universo seja encontrada na forma de plasma (estado físico das estrelas, do fogo, dos raios e das auroras boreais).
 
-**Definição:** As partículas que compõem os gases têm pouca interação entre si, o que as mantém desorganizadas e afastadas umas das outras. Por isso, os gases assumem o volume e a forma do recipiente que os contém ou espalham-se pelo ambiente.
-**Exemplos dados pelo livro:** por estarem mais afastadas, as partículas possuem maior liberdade de movimento, podendo ser comprimidas ou expandidas e ocupar todo o volume disponível.
-**Observações/ressalvas explícitas:** "É importante salientar que o volume dos gases sofre interferência da temperatura: quando ela está elevada, o gás se expande, aumentando seu volume; quando diminui, o gás se comprime e reduz seu volume. É por isso que a densidade também é afetada pela variação da temperatura." / "No estado gasoso, as partículas ficam afastadas umas das outras."
+### Mudanças de Estado Físico da Matéria
+- **Definição:** Alteração do estado físico da matéria que pode ocorrer com a liberação ou absorção de calor — transferência de energia entre dois corpos provocada por uma diferença de temperatura. O calor passa do corpo com temperatura mais alta para o de temperatura mais baixa, até que ambos atinjam o equilíbrio térmico.
 
----
+**Mudanças por absorção de calor:**
+| Mudança | Descrição |
+|---|---|
+| **Fusão** | Sólido → Líquido. Exemplo: gelo derretendo quando retirado do congelador. |
+| **Vaporização** | Líquido → Gasoso. Pode ocorrer por evaporação, ebulição ou calefação. |
+| **Sublimação** | Sólido → Gasoso diretamente. Exemplo: sublimação de naftalina. |
 
-## Quarto estado da matéria — Plasma
+**Mudanças por liberação de calor:**
+| Mudança | Descrição |
+|---|---|
+| **Condensação** | Gasoso → Líquido. Exemplo: formação das nuvens no ciclo da água. |
+| **Solidificação** | Líquido → Sólido. Exemplo: quando água congela na geladeira. |
+| **Ressublimação (ou Sublimação inversa)** | Gasoso → Sólido diretamente. |
 
-**Definição:** Além dos estados sólido, líquido e gasoso, os cientistas identificaram um quarto estado da matéria: o plasma. Ele se origina quando um gás é superaquecido, tornando-se eletricamente carregado.
-**Exemplos dados pelo livro:** "Materiais no estado de plasma são encontrados em lâmpadas fluorescentes, alguns modelos de TVs e letreiros de neon." / "Os cientistas estimam que 99% da matéria do Universo seja encontrada na forma de plasma, que é o estado físico das estrelas, do fogo, dos raios e das auroras boreais, entre outros fenômenos."
-**Observações/ressalvas explícitas:** "Essa característica dá ao plasma a qualidade de bom condutor elétrico, sendo utilizado em diversas aplicações tecnológicas."
+- **Vaporização:** pode ocorrer de três maneiras: evaporação (lenta e gradual), ebulição (mais rápida, causada pelo aumento de temperatura) e calefação (instantânea, quando o líquido entra em contato com superfície muito quente).
 
----
-
-## Mudanças de estado físico da matéria
-
-**Definição:** A alteração do estado físico da matéria pode ocorrer com a liberação ou absorção de calor – que é a transferência de energia entre dois corpos provocada por uma diferença de temperatura. Sendo assim, o calor passa do corpo que possui a temperatura mais alta para o de menor temperatura até que ambos atinjam o equilíbrio térmico.
-
-**Mudanças por absorção de calor (textuais do material):**
-- **Fusão:** mudança do estado sólido para o líquido. Exemplo: gelo derretendo quando é tirado do congelador.
-- **Vaporização:** mudança do estado líquido para o gasoso. Pode ocorrer por evaporação, ebulição ou calefação.
-- **Sublimação:** passagem direta do estado sólido para o gasoso. Exemplo: sublimação da naftalina.
-
-**Tipos de vaporização (textuais do material):**
-- **Evaporação:** de forma lenta e gradual.
-- **Ebulição:** de forma mais rápida, causada pelo aumento da temperatura.
-- **Calefação:** de forma instantânea, quando, por exemplo, o líquido entra em contato com uma superfície muito quente.
-
-**Mudanças por liberação de calor (textuais do material):**
-- **Condensação:** estado gasoso para o líquido. Exemplo: formação das nuvens no ciclo da água.
-- **Solidificação:** estado líquido para o sólido. Exemplo: quando colocamos água no congelador da geladeira.
-- **Sublimação ou ressublimação:** passagem direta do estado gasoso para o sólido.
-
-**Observações/ressalvas explícitas:**
-"Devido às suas temperaturas de fusão e ebulição, a água pode ser encontrada no planeta Terra, naturalmente, nos três estados físicos, sendo o estado líquido o mais comum."
-
-**Gráfico de aquecimento da água (texto preservado):**
-"O gráfico mostra que 0 °C é a temperatura de fusão da água e que a ebulição se dá a 100 °C. O intervalo marcado entre t1 e t2 revela que os estados sólido e líquido coexistem – até que todo o sólido se transforme em líquido e a temperatura volte a aumentar (verificado a partir de t2). Já o intervalo entre t3 e t4 demonstra que os estados líquido e vapor coexistem e a temperatura se mantém constante até que todo o líquido se torne vapor."
-
-Representação textual do gráfico:
-```
-Temperatura (ºC)
-100 ─────────────────────────── t3 ─────── t4 ────────── Vapor
-                                           Líquido e vapor
-  0 ─── t1 ──── t2 ────────────────────────────────────────────
-        Sólido e líquido   Líquido
-Sólido
-                                                          Tempo
-```
-
----
-
-## Energia
-
-**Definição:** O conceito de energia é complexo, mas pode ser definido de modo simplificado como a capacidade de produzir movimento ou de transformar a matéria. A energia está presente em nosso dia a dia, e, embora não seja visível, podemos percebê-la e classificá-la em alguns tipos, como cinética, potencial, térmica, luminosa, entre outros.
-**Exemplos dados pelo livro:**
-- Energia solar em energia elétrica, por meio da instalação de painéis solares em uma residência.
-- Energia elétrica em energia luminosa, ao acender uma lâmpada.
-- Energia luminosa em energia térmica, que pode ser percebida pelo calor de uma fogueira.
-- Energia luminosa do Sol em energia química, por meio do processo de fotossíntese.
-- Energia química das baterias dos carros em energia elétrica.
-**Observações/ressalvas explícitas:** "A energia não pode ser criada nem destruída, mas pode ser transformada."
+### Energia
+- **Definição simplificada:** Capacidade de produzir movimento ou de fazer uma transformação.
+- **Tipos citados:** cinética, potencial, térmica, luminosa, elétrica, entre outros.
+- **Observação:** A energia não pode ser criada nem destruída, mas pode ser transformada (conservação de energia).
+- **Exemplos de transformação de energia do livro:**
+  - Energia solar → elétrica (painéis solares)
+  - Energia elétrica → luminosa (lâmpada)
+  - Energia luminosa → térmica (calor de fogueira)
+  - Energia luminosa do Sol → química (fotossíntese)
+  - Energia química das baterias dos carros → elétrica
 
 ---
 
-## Ondas sonoras
-
-**Definição/descrição conforme o material:** As ondas sonoras propagam-se em meio material, ou seja, em que há matéria, como no ar, na água e nos sólidos. No entanto, sua velocidade de propagação varia de um meio para o outro, sendo mais rápida nos sólidos e mais lenta nos gases. Isso se deve à forma como as partículas se agrupam em cada material.
-
----
-
-## Metodologia científica (etapas exemplificadas por Lavoisier)
-
-**Descrição conforme o material:** Etapas simplificadas do método científico aplicado por Lavoisier:
-1. **Observação** — Lavoisier observou que as massas dos produtos variavam de acordo com a variação nas massas dos reagentes.
-2. **Levantamento de hipótese** — O cientista elaborou hipóteses, como a de que a massa de um sistema não se altera antes e depois de uma reação química.
-3. **Experimentação** — Lavoisier realizou experimentos repetidos, nos quais mediu cuidadosamente a massa dos reagentes e dos produtos e observou os resultados.
-4. **Análise de resultados** — verificou que o resultado dos experimentos era sempre o mesmo e corroborava sua hipótese.
-5. **Conclusão** — Em uma reação química realizada em recipiente fechado, a soma das massas dos reagentes é igual à soma das massas dos produtos.
-**Observações/ressalvas explícitas:** pergunta pedagógica presente no texto: "Suponha que o cientista, ao analisar os dados obtidos na etapa 3, não obtenha os resultados esperados com base em sua hipótese. O que ele deve fazer?" (preservada como conteúdo do material).
-
----
-
-## Lei da conservação das massas
-
-**Enunciado conforme o material:** Na natureza, nada se perde, nada se cria, tudo se transforma. Em uma reação química realizada em recipiente fechado, a soma das massas dos reagentes é igual à soma das massas dos produtos.
-**Exemplos dados pelo livro:** formulação e uso por Lavoisier em seus estudos.
-
----
-
-## Modelo atômico — menção a Dalton
-
-**Descrição conforme o material:** Em 1808, John Dalton propôs que toda matéria era formada por átomos, mesmo sem poder observá-los.
-**Observações/ressalvas explícitas:** o texto indica que a hipótese de Dalton auxiliou no desenvolvimento de modelos atômicos posteriores.
-
----
-
-## Trecho contextual preservado do material
-
-"A Química é a ciência que estuda a matéria e suas transformações. No entanto, antes de se tornar essa ciência tão essencial que conhecemos hoje, a Química passou por uma longa jornada histórica. Tudo começou com a alquimia, uma prática antiga que combinava elementos de química, física, astrologia, filosofia, arte, metalurgia, medicina, misticismo e religião e que foi fundamental para o desenvolvimento da Química moderna, pois levou ao estudo sistemático dos materiais e suas propriedades. [...] A Química nos ajuda a entender como a matéria é composta, como se organiza, quais são suas propriedades e como se transforma em diferentes condições."
-
----
-
-## Legendas de imagens (preservadas conforme o material)
-
-- "Balança analítica, instrumento utilizado em laboratório para medição precisa de massas."
-- "Provetas, instrumentos utilizados em laboratório para medir volume de líquidos."
-
----
-
-# 3. FLASHCARDS DO CAPÍTULO
+## 3. FLASHCARDS DO CAPÍTULO
 
 **FC-1**
 🔵 Frente: O que estuda a Química?
-🟢 Verso: A Química estuda a matéria, investigando sua composição e suas propriedades, bem como suas transformações e a energia envolvida nesses processos.
+🟢 Verso: A Química estuda a matéria, investigando sua composição e propriedades, bem como suas transformações e a energia envolvida nesses processos.
 
 **FC-2**
-🔵 Frente: Como se define matéria segundo o livro?
-🟢 Verso: Tudo que tem massa e ocupa lugar no espaço. Som, luz e calor não são matéria — são tipos de energia.
+🔵 Frente: O que é matéria?
+🟢 Verso: Tudo que tem massa e ocupa lugar no espaço. Som, luz e calor não são matéria — são formas de energia.
 
 **FC-3**
-🔵 Frente: Quais são as cinco propriedades gerais da matéria?
-🟢 Verso: Massa, extensão, impenetrabilidade, inércia e divisibilidade.
+🔵 Frente: Qual a diferença entre propriedades gerais e propriedades específicas da matéria?
+🟢 Verso: Propriedades gerais são comuns a todos os tipos de matéria (ex.: massa, extensão, inércia). Propriedades específicas identificam e diferenciam os materiais entre si (ex.: densidade, temperatura de fusão, solubilidade).
 
 **FC-4**
-🔵 Frente: O que é massa?
-🟢 Verso: A quantidade de matéria que existe em todos os corpos, mensurada por balança. Unidade-padrão do SI: quilograma (kg).
+🔵 Frente: O que é inércia?
+🟢 Verso: Tendência de um corpo a conservar seu estado de repouso ou de movimento retilíneo uniforme (MRU) na ausência de forças externas. Quanto maior a massa, maior a inércia.
 
 **FC-5**
-🔵 Frente: O que é extensão (volume)?
-🟢 Verso: A capacidade que a matéria tem de ocupar determinado espaço, definida pelo volume. Unidade básica do SI: metro cúbico (m³), que equivale a 1000 litros.
+🔵 Frente: O que é impenetrabilidade?
+🟢 Verso: Propriedade que diz que dois corpos não podem ocupar o mesmo espaço ao mesmo tempo.
 
 **FC-6**
-🔵 Frente: Cite três propriedades específicas da matéria mencionadas no capítulo.
-🟢 Verso: Temperaturas de fusão e ebulição, densidade, solubilidade. Também citadas: dureza, viscosidade, propriedades organolépticas.
+🔵 Frente: O que é densidade e quais suas unidades mais comuns?
+🟢 Verso: Propriedade específica que relaciona a massa e o volume de um corpo. Unidades: g/cm³, g/mL e kg/L. É influenciada pela temperatura.
 
 **FC-7**
-🔵 Frente: Quais são os três estados físicos clássicos da matéria?
-🟢 Verso: Sólido (forma e volume definidos), líquido (volume fixo, forma variável) e gasoso (assume forma e volume do recipiente).
+🔵 Frente: Qual a solubilidade do sal de cozinha (NaCl) em água a 20 °C?
+🟢 Verso: 36 gramas de sal para cada 100 gramas de água a 20 °C. O excedente não dissolvido forma corpo de fundo.
 
 **FC-8**
-🔵 Frente: O que é viscosidade?
-🟢 Verso: Consiste na resistência ao escoamento; quanto mais viscoso um líquido, mais lento é o seu escoamento. Exemplo: óleo é mais viscoso que água.
+🔵 Frente: Quais são os três estados físicos da matéria e suas características de forma e volume?
+🟢 Verso: Sólido: forma e volume definidos. Líquido: volume fixo e forma variada. Gasoso: assume o volume e a forma do recipiente.
 
 **FC-9**
-🔵 Frente: O que é volatilidade?
-🟢 Verso: A facilidade que um líquido tem de evaporar em temperatura ambiente. Acetona, álcool e éter são mais voláteis do que a água.
+🔵 Frente: O que é viscosidade?
+🟢 Verso: Resistência ao escoamento de um líquido. Quanto mais viscoso, mais lento é o escoamento. Óleos são mais viscosos do que a água.
 
 **FC-10**
-🔵 Frente: Defina plasma conforme o material.
-🟢 Verso: Quarto estado da matéria; origina-se quando um gás é superaquecido e se torna eletricamente carregado. É bom condutor elétrico. Presente em lâmpadas fluorescentes, TVs e letreiros de neon.
+🔵 Frente: O que é volatilidade?
+🟢 Verso: Facilidade com que um líquido tem de evaporar em temperatura ambiente. Álcool e éter são mais voláteis do que a água.
 
 **FC-11**
-🔵 Frente: Quais são as mudanças de estado por absorção de calor?
-🟢 Verso: Fusão (sólido → líquido), vaporização (líquido → gasoso) e sublimação (sólido → gasoso diretamente).
+🔵 Frente: Quais são as mudanças de estado físico que ocorrem por absorção de calor?
+🟢 Verso: Fusão (sólido → líquido), Vaporização (líquido → gasoso) e Sublimação (sólido → gasoso diretamente).
 
 **FC-12**
-🔵 Frente: Quais são os três tipos de vaporização descritos no capítulo?
-🟢 Verso: Evaporação (lenta e gradual), ebulição (rápida, por aumento de temperatura) e calefação (instantânea, por contato com superfície muito quente).
+🔵 Frente: Quais são as mudanças de estado físico que ocorrem por liberação de calor?
+🟢 Verso: Solidificação (líquido → sólido), Condensação (gasoso → líquido) e Ressublimação (gasoso → sólido diretamente).
 
 **FC-13**
-🔵 Frente: Quais são as mudanças de estado por liberação de calor?
-🟢 Verso: Condensação (gasoso → líquido), solidificação (líquido → sólido) e ressublimação (gasoso → sólido diretamente).
+🔵 Frente: De quais três formas pode ocorrer a vaporização?
+🟢 Verso: Evaporação (lenta e gradual), ebulição (mais rápida, pelo aumento de temperatura) e calefação (instantânea, por contato com superfície muito quente).
 
 **FC-14**
-🔵 Frente: Temperatura de fusão e de ebulição da água, conforme o gráfico do capítulo.
-🟢 Verso: Fusão: 0 °C; Ebulição: 100 °C.
+🔵 Frente: O que é o plasma e onde é encontrado na natureza?
+🟢 Verso: Quarto estado da matéria, formado por gás superaquecido eletricamente carregado. Encontrado nas estrelas, no fogo, nos raios e nas auroras boreais. Estima-se que 99% da matéria do Universo seja plasma.
 
 **FC-15**
-🔵 Frente: Como o capítulo define energia?
-🟢 Verso: A capacidade de produzir movimento ou de transformar a matéria. Tipos: cinética, potencial, térmica, luminosa, entre outros. A energia não pode ser criada nem destruída, mas pode ser transformada.
+🔵 Frente: O que é condutividade elétrica? Cite exemplos de condutores e isolantes.
+🟢 Verso: Capacidade da matéria de permitir a passagem de corrente elétrica. Condutores: cobre, alumínio, estanho. Isolantes: plásticos, cerâmica, borracha.
 
 **FC-16**
-🔵 Frente: Quais são as etapas do método científico aplicadas por Lavoisier, na ordem?
-🟢 Verso: 1) Observação; 2) Levantamento de hipótese; 3) Experimentação; 4) Análise de resultados; 5) Conclusão.
+🔵 Frente: Quais são as propriedades organolépticas da matéria?
+🟢 Verso: Cor, cheiro, sabor, textura e brilho — percebidas pelos sentidos. Não devem ser usadas como forma de identificação de substâncias.
 
 **FC-17**
-🔵 Frente: Enuncie a lei da conservação das massas conforme o texto.
-🟢 Verso: Em uma reação química realizada em recipiente fechado, a soma das massas dos reagentes é igual à soma das massas dos produtos. ("Na natureza, nada se perde, nada se cria, tudo se transforma.")
+🔵 Frente: Qual foi a contribuição de Antoine Laurent Lavoisier para a Química?
+🟢 Verso: Lavoisier (1743–1794) participou de estudos sobre a Química moderna, aplicou metodologia científica e propôs a lei de conservação das massas: em uma reação química, a soma das massas dos reagentes é igual à soma das massas dos produtos.
 
 **FC-18**
-🔵 Frente: Qual foi a contribuição de John Dalton descrita no capítulo?
-🟢 Verso: Em 1808, Dalton propôs que toda matéria era formada por átomos, hipótese que abriu novos horizontes para o estudo da Química.
+🔵 Frente: O que afirma a lei de conservação das massas (Lavoisier)?
+🟢 Verso: "Na natureza, nada se perde, nada se cria, tudo se transforma." Em uma reação química, a soma das massas dos reagentes é igual à soma das massas dos produtos.
 
 **FC-19**
-🔵 Frente: O que é dureza (propriedade dos sólidos)?
-🟢 Verso: A capacidade que um sólido possui de riscar a superfície de outro. O diamante é o material com maior dureza e é usado em instrumentos para cortar ferro e aço.
+🔵 Frente: Quais são as etapas simplificadas do método científico aplicado por Lavoisier?
+🟢 Verso: 1ª) Observar e medir as massas; 2ª) Elaborar hipóteses; 3ª) Realizar experimentos; 4ª) Analisar os resultados; 5ª) Em caso de confirmação, os resultados sustentam a hipótese e tornam-se conclusões.
 
 **FC-20**
-🔵 Frente: Por que a densidade de um material não muda ao aumentar sua massa?
-🟢 Verso: Porque quando a massa aumenta, o volume aumenta na mesma proporção; portanto, a densidade permanece a mesma. (Conforme resposta da atividade do material.)
+🔵 Frente: O que é energia e quais são alguns de seus tipos?
+🟢 Verso: Capacidade de produzir movimento ou fazer uma transformação. Tipos: cinética, potencial, térmica, luminosa, elétrica, química, entre outros. Não pode ser criada nem destruída, apenas transformada.
 
 ---
 
-# BLOCO A — CIENTISTAS
+## BLOCO A — CIENTISTAS
 
-## Antoine Laurent Lavoisier (1743–1794)
+### Antoine Laurent Lavoisier (1743–1794)
+- **Contribuição descrita no texto:** Importante cientista do século XVIII que participou de diversos estudos no campo da Química moderna. Realizou trabalhos relevantes para a área, sendo sua avaliação e comunicação sistemática dos estudos por meio do método científico essencial.
+- **Lei associada:** Lei de conservação das massas — "Na natureza, nada se perde, nada se cria, tudo se transforma." Em uma reação química, a soma das massas dos reagentes é igual à soma das massas dos produtos.
+- **Etapas do método científico (simplificadas conforme o livro):**
+  1. Observar e medir as massas dos corpos antes de uma reação
+  2. Elaborar hipóteses
+  3. Realizar experimentos, mantendo variáveis controladas e observando as massas e o que acontece depois de uma reação
+  4. Analisar os resultados
+  5. Em uma nova reação, as massas são repetidas, os resultados verificam o que foi verificado e os reagentes e resultados confirmam as hipóteses
 
-**Contribuição descrita no texto:** Participou de diversos estudos no campo da Química; é conhecido por alguns estudiosos como o pai da Química moderna; utilizou o método científico em seus estudos e propôs a lei da conservação das massas.
-**Modelo/experimento/lei associada:** Lei da conservação das massas; etapas do método científico aplicadas por Lavoisier (observação, hipótese, experimentação, análise, conclusão).
+### John Dalton
+- **Contribuição descrita no texto:** Propôs que toda a matéria era formada por átomos, mesmo sem poder observá-los. Suas hipóteses abriram novos horizontes para o estudo da Química e auxiliou cientistas a formularem outras teorias, aperfeiçoando até mesmo as ideias do próprio Dalton.
 
-## John Dalton
-
-**Contribuição descrita no texto:** Propôs, em 1808, que toda matéria era formada por átomos, hipótese que abriu novos horizontes para o estudo da Química.
-**Modelo/experimento/lei associada:** Hipótese atômica (proposta de que toda matéria é formada por átomos).
+### Aristóteles (384 a.C. – 322 d.C.)
+- **Contribuição descrita no texto:** Filósofo da Antiguidade que acreditava que a matéria era contínua e formada por quatro elementos: terra, água, fogo e ar, aos quais eram atribuídas qualidades como quente, frio, seco e úmido. Suas ideias vigoraram durante anos e influenciaram outros pensadores da época.
+- **Local de nascimento:** Estagira, na Trácia, Macedônia (norte da Grécia).
 
 ---
 
-# BLOCO C — GRANDEZAS E UNIDADES
+## BLOCO C — GRANDEZAS E UNIDADES
 
-## C1 — Grandezas do capítulo
+### C1 — Grandezas do capítulo
 
-| Grandeza | Símbolo | Unidade | Símbolo | Natureza |
-|----------|---------|---------|---------|----------|
-| Massa | m | quilograma | kg | extensiva |
-| Extensão (Volume) | V | metro cúbico | m³ | extensiva |
-| Temperatura | T | grau Celsius | °C | intensiva |
-| Densidade | d | (não especificado no texto) | — | intensiva |
-| Viscosidade | — | (não especificado) | — | qualitativa |
-| Volatilidade | — | (não especificado) | — | qualitativa |
-| Energia / Calor | — | (não especificado) | — | extensiva |
+| Nome | Símbolo | Unidade + símbolo | Natureza |
+|---|---|---|---|
+| Massa | m | quilograma (kg) | extensiva |
+| Volume | V | metro cúbico (m³); litro (L) | extensiva |
+| Densidade | d | g/cm³; g/mL; kg/L | intensiva |
+| Temperatura de fusão | T_f | grau Celsius (°C) | intensiva |
+| Temperatura de ebulição | T_e | grau Celsius (°C) | intensiva |
+| Solubilidade | — | g de soluto / 100 g de solvente | intensiva |
 
-## C2 — Conversões presentes no material
+### C2 — Conversões
 
 | Grandeza | Fator exato conforme o material | Exemplo do livro |
-|----------|---------------------------------|------------------|
-| Volume | 1 m³ = 1000 litros | "o metro cúbico (m³), que equivale a 1000 litros" |
+|---|---|---|
+| Volume | 1 m³ = 1000 litros | A unidade básica de volume é o m³, equivalente a 1000 litros. |
+
+---
+
+## BLOCO D — DADOS FACTUAIS DENSOS
+
+### Tabela: Temperaturas de fusão e ebulição (ao nível do mar)
+
+| Substância | Temperatura de fusão (°C) | Temperatura de ebulição (°C) |
+|---|---|---|
+| Água | 0 | 100 |
+| Álcool | −114 | 78 |
+| Ouro | 1064 | 2856 |
+
+### Tabela: Temperaturas de fusão e ebulição de halogênios (1 atm de pressão) — Questão 8 (Udesc 2023)
+
+| Substância | Temperatura de fusão (°C) | Temperatura de ebulição (°C) |
+|---|---|---|
+| Cloro | −101,0 | −34,6 |
+| Flúor | −219,6 | −188,1 |
+| Bromo | −7,2 | 58,8 |
+| Mercúrio | −38,8 | 356,6 |
+| Iodo | 113,5 | 184,0 |
+
+---
+
+## BLOCO E — EXPERIMENTOS
+
+### Experimento: Propriedades específicas dos materiais — Densidade ("Você é o cientista")
+
+- **Objetivo:** Avaliar e comparar as variações na densidade de diferentes materiais; classificar materiais como mais densos ou menos densos do que a água.
+- **Materiais:**
+  - 6 copos descartáveis de 50 mL
+  - Amostras de: arroz, feijão, farinha de trigo, açúcar e óleo
+  - Água
+  - Balança simples
+- **Procedimento:**
+  1. Encher cada um dos materiais em um copo descartável, enchendo até o topo de modo que todos estejam preenchidos ao mesmo nível (volume conhecido de 50 mL, correspondente à capacidade do copo).
+  2. Pesar cada copo cheio na balança, verificar a massa e anotar o valor na tabela.
+  3. Calcular a densidade de cada material e preencher a última coluna da tabela.
+- **Tabela de registro:**
+
+| Material | Volume | Massa | Densidade |
+|---|---|---|---|
+| Arroz | 50 mL | — | — |
+| Feijão | 50 mL | — | — |
+| Farinha de trigo | 50 mL | — | — |
+| Açúcar | 50 mL | — | — |
+| Óleo | 50 mL | — | — |
+| Água | 50 mL | — | — |
+
+- **Conclusão esperada:** Escrever um pequeno texto que sintetize o que foi observado no experimento; classificar os materiais como mais densos ou menos densos do que a água em relação à densidade da água.
+
+---
+
+## BLOCO F — TEXTO COMPLEMENTAR
+
+### Desafio — Química e produtos do cotidiano
+- **Tema central:** Consenso equivocado popular sobre o que é "químico" em alimentos e medicamentos; avaliação crítica de substâncias presentes em alimentos processados versus tratamentos naturais/alternativos.
+- **Dados e fatos relevantes:** Há um debate sobre alimentos industrializados x alimentos naturais e tratamentos médicos alternativos (homeopáticos, aromaterapia, meditação, acupuntura). O senso comum leva pessoas a acreditar que apenas produtos industrializados são "químicos" e, por isso, prejudicam a saúde.
+- **Conceitos químicos presentes:** composição química de alimentos, substâncias químicas presentes em medicamentos e alimentos, distinção entre substâncias naturais e sintéticas.
+- **Atividade proposta:** Realizar uma breve pesquisa sobre substâncias contidas em qualquer produto que possa ser ingerido pelo ser humano e apresentá-las à turma; refletir juntos sobre o que foi pesquisado.
+
+### Aplicando o assunto — Quarto estado da matéria (Plasma)
+- **Tema central:** Plasma como quarto estado da matéria.
+- **Dados e fatos relevantes:** Plasma se origina quando um gás é superaquecido, tornando-se eletricamente carregado. É bom condutor elétrico. Utilizado em lâmpadas fluorescentes, alguns modelos de TVs e letreiros de neon. Os cientistas estimam que 99% da matéria do Universo seja encontrada na forma de plasma. Plasma é o estado físico das estrelas, do fogo, dos raios e das auroras boreais.
+- **Conceitos químicos presentes:** estados da matéria, plasma, condutividade elétrica.
+
+### Veja também em Física — Ondas sonoras
+- **Tema central:** Propagação de ondas sonoras em diferentes meios materiais.
+- **Dados e fatos relevantes:** As ondas sonoras propagam-se em meio material (ar, água, sólidos). A velocidade de propagação varia de um meio para outro: é mais rápida nos sólidos e mais lenta nos gases. Isso se deve à forma como as partículas se agrupam em cada estado.
+- **Conceitos químicos presentes:** estados físicos da matéria, organização das partículas em sólidos, líquidos e gases.
+
+---
+
+## BLOCO G — QUESTÕES INTERCALADAS
+
+**QI-1** · [IC]
+Enunciado: Observe a linha a seguir, que representa as etapas da metodologia científica. Suponha que o cientista, ao analisar os dados obtidos na etapa 3, não obtenha os resultados esperados com base em sua hipótese. O que ele deve fazer?
+Conceito testado: Metodologia científica — etapas e reelaboração de hipóteses.
+
+**QI-2** · [IC]
+Enunciado: Qual é a relação entre a alquimia e a Química moderna?
+Conceito testado: História da Química — transição da alquimia para a Química moderna.
+
+---
+
+## SEÇÃO ATIVIDADES
+
+**Q-1** · pág. 19
+Enunciado: O som e a luz fazem parte de nosso cotidiano, mas não podem ser considerados matéria. Explique essa afirmação.
+Alternativas: (dissertativa)
+Gabarito:
+Tipo: dissertativa
+Classificação: fácil
+
+---
+
+**Q-2** · pág. 19
+[IMAGEM] (dois baldes com água; um com bolinha flutuando e outro transbordando; contexto: propriedades da matéria verificadas visualmente)
+Enunciado: Considerando a situação apresentada, quais propriedades da matéria podem ser verificadas? Explique por que a água transbordou e por que a bolinha flutuou.
+Alternativas: (dissertativa)
+Gabarito:
+Tipo: dissertativa
+Classificação: médio
+
+---
+
+**Q-3** · pág. 19
+Enunciado: Indique com **PG** as propriedades gerais da matéria e com **PE** as propriedades específicas:
+a. ( ) Massa.
+b. ( ) Densidade.
+c. ( ) Temperatura de fusão.
+d. ( ) Extensão.
+e. ( ) Impenetrabilidade.
+f. ( ) Inércia.
+Alternativas: (associação)
+Gabarito:
+Tipo: associação
+Classificação: fácil
+
+---
+
+**QC-1** · Col. Naval-RJ · 2016 · pág. 19
+Enunciado: Massa, extensão e impenetrabilidade são exemplos de propriedades:
+a. ( ) funcionais.
+b. ( ) químicas.
+c. ( ) particulares.
+d. ( ) gerais.
+e. ( ) físicas.
+Alternativas:
+a. ( ) funcionais.
+b. ( ) químicas.
+c. ( ) particulares.
+d. ( ) gerais.
+e. ( ) físicas.
+Gabarito:
+Tipo: múltipla escolha
+Classificação: fácil
+
+---
+
+**Q-4** · pág. 20
+Enunciado: Em relação às propriedades apresentadas, assinale a alternativa que corresponde, corretamente, aos estados físicos da matéria, nas situações apresentadas (utilize a tabela de temperaturas de fusão e ebulição dos halogênios — Cloro, Flúor, Bromo, Mercúrio, Iodo — a 1 atm de pressão):
+a. ( ) O mercúrio, se ficar exposto à temperatura ambiente, estando esta a 24 °C, estará no estado sólido.
+b. ( ) Se uma amostra de iodo for levada para a Antártida, aonde as temperaturas alcançam −55 °C, a mesma encontrar-se-á no estado gasoso.
+c. ( ) No deserto, onde as temperaturas são elevadas durante o dia, podendo atingir 50 °C, o flúor encontra-se no estado líquido.
+d. ( ) O cloro, nas CNTP, encontra-se no estado sólido.
+e. ( ) Em temperaturas altas, como as que acontecem no verão, podendo chegar a 45 °C, o bromo encontra-se no estado líquido.
+**Nota:** Temperatura ambiente = 25 °C; CNTP: 1 atm de pressão e 0 °C de temperatura.
+Alternativas:
+a. ( ) O mercúrio, se ficar exposto à temperatura ambiente, estando esta a 24 °C, estará no estado sólido.
+b. ( ) Se uma amostra de iodo for levada para a Antártida, aonde as temperaturas alcançam −55 °C, a mesma encontrar-se-á no estado gasoso.
+c. ( ) No deserto, onde as temperaturas são elevadas durante o dia, podendo atingir 50 °C, o flúor encontra-se no estado líquido.
+d. ( ) O cloro, nas CNTP, encontra-se no estado sólido.
+e. ( ) Em temperaturas altas, como as que acontecem no verão, podendo chegar a 45 °C, o bromo encontra-se no estado líquido.
+Gabarito:
+Tipo: múltipla escolha
+Classificação: médio
+
+---
+
+**QC-2** · Saresp · 2023 · pág. 21
+Enunciado: O iodo elementar, I₂, é sólido em temperatura ambiente e apresenta cor violeta escuro. Ao ser aquecido, forma vapores de coloração violácea. Quando entram em contato com uma superfície fria, os vapores de iodo se transformam em iodo sólido. A transformação que ocorre com o iodo em decorrência da troca de calor é denominada:
+a. ( ) sublimação.
+b. ( ) fusão.
+c. ( ) liquefação.
+d. ( ) dissolução.
+e. ( ) gaseificação.
+Alternativas:
+a. ( ) sublimação.
+b. ( ) fusão.
+c. ( ) liquefação.
+d. ( ) dissolução.
+e. ( ) gaseificação.
+Gabarito:
+Tipo: múltipla escolha
+Classificação: médio
+
+---
+
+**QC-3** · Cefet-MG · 2017 · pág. 21
+> Gráfico: Ciclo da água (etapas representadas por setas)
+> Eixo visual: setas indicando movimento da água de rios/lagos para o ar (evaporação/vaporização) e do ar para a terra (condensação/precipitação/chuva)
+Enunciado: As etapas do ciclo da água, representadas na figura pelas setas, são chamadas de:
+a. ( ) calefação e liquefação.
+b. ( ) ebulição e ressublimação.
+c. ( ) vaporização e sublimação.
+d. ( ) evaporação e condensação.
+Alternativas:
+a. ( ) calefação e liquefação.
+b. ( ) ebulição e ressublimação.
+c. ( ) vaporização e sublimação.
+d. ( ) evaporação e condensação.
+Gabarito:
+Tipo: múltipla escolha
+Classificação: médio
+
+---
+
+**QC-4** · Cefet-RJ · 2016 · pág. 21
+Enunciado: O café solúvel é obtido a partir do café comum dissolvido em água. A solução é congelada e, a seguir, diminui-se a pressão bruscamente. Com isso, a água passa direta e rapidamente para o estado gasoso, sendo eliminada do sistema por sucção. Com a remoção da água do sistema, por esse meio, resta o café em pó e seco. Identifique as mudanças de estado físico ocorridas neste processo:
+a. ( ) solidificação e fusão.
+b. ( ) vaporização e liquefação.
+c. ( ) fusão e ebulição.
+d. ( ) solidificação e sublimação.
+Alternativas:
+a. ( ) solidificação e fusão.
+b. ( ) vaporização e liquefação.
+c. ( ) fusão e ebulição.
+d. ( ) solidificação e sublimação.
+Gabarito:
+Tipo: múltipla escolha
+Classificação: médio
+
+---
+
+**Q-5** · pág. 17
+[IMAGEM] (chaleira com vapor saindo; roupa sendo estendida na corda — dois processos de vaporização)
+Enunciado: Qual é a diferença entre os dois processos representados nas imagens?
+Alternativas: (dissertativa)
+Gabarito:
+Tipo: dissertativa
+Classificação: médio
+
+---
+
+**Q-6** · pág. 20
+Enunciado: Em muitas residências, é comum o uso de aromatizadores de ambiente, responsáveis por manter o espaço com odor agradável por mais tempo. Qual propriedade específica dos líquidos permite que a substância usada para perfumar o ambiente se espalhe pelo ar?
+Alternativas: (dissertativa)
+Gabarito:
+Tipo: dissertativa
+Classificação: fácil
+
+---
+
+**Q-7** · pág. 20
+Enunciado: O cobre e o ouro são utilizados para diferentes fins. Enquanto o cobre é utilizado para fiação elétrica em geral, o ouro é aplicado em conectores eletrônicos de alta precisão. Quais propriedades dos materiais permitem que esses metais sejam assim utilizados?
+Alternativas: (dissertativa)
+Gabarito:
+Tipo: dissertativa
+Classificação: médio
+
+---
+
+**Q-8** · pág. 20
+Enunciado: Três líquidos de densidades diferentes foram misturados, mas a solução resultante não apresentou aparência uniforme, e em fases. A densidade do líquido 1 é 1,58 g/cm³, do líquido 2 é 13,546 g/cm³ e do líquido 3 é 1,0 g/cm³. Considerando esses dados, faça a representação da solução obtida no béquer a seguir.
+Alternativas: (dissertativa)
+Gabarito:
+Tipo: dissertativa
+Classificação: médio
+
+---
+
+**Q-9** · pág. 22
+> Gráfico: Aquecimento da água
+> Eixo X: Tempo · Eixo Y: Temperatura (°C)
+> A (−20°C, sólido) → B (0°C, início da fusão — temperatura constante) → C (acima de 0°C, líquido aquecendo) → D (100°C, início da ebulição — temperatura constante) → E (acima de 100°C, vapor)
+Enunciado:
+a) Quais são os estados físicos representados em A, C e E?
+b) Quais fenômenos são observados em B e D?
+Alternativas: (dissertativa)
+Gabarito:
+Tipo: dissertativa
+Classificação: médio
+
+---
+
+**QC-5** · UEG-GO · pág. 22
+> Gráfico: Temperatura (°C) × Tempo (s) — curva de aquecimento de substância desconhecida
+> Eixo X: Tempo/s · Eixo Y: Temperatura/°C
+> Ponto i (0°C, sólido) → I (0°C a 40°C, segmento I — aquecimento sólido) → II (40°C, temperatura constante — fusão) → III (40°C a 148°C, segmento III — aquecimento líquido) → IV (148°C, temperatura constante — ebulição) → V (148°C a 208°C, segmento V — aquecimento gasoso)
+> Nota: a 0 °C o composto encontra-se no estado sólido.
+Enunciado: No gráfico, encontra-se a substância no estado líquido nos pontos:
+a. ( ) I, II e IV
+b. ( ) III, IV e V
+c. ( ) II, III e IV
+d. ( ) I, III e V
+Alternativas:
+a. ( ) I, II e IV
+b. ( ) III, IV e V
+c. ( ) II, III e IV
+d. ( ) I, III e V
+Gabarito:
+Tipo: múltipla escolha
+Classificação: médio
+
+---
+
+**Q-10** · pág. 22
+Enunciado: A geração de energia elétrica por meio de painéis solares instalados nas residências vem ganhando espaço na busca pela sustentabilidade, pois utiliza uma fonte renovável e não poluente de energia nesse processo. Quais são as transformações de energia envolvidas no uso dessa tecnologia?
+Alternativas: (dissertativa)
+Gabarito:
+Tipo: dissertativa
+Classificação: fácil
+
+---
+
+**QC-6** · Udesc · 2023 · pág. 20
+Enunciado: Observe a tabela de temperaturas de fusão e ebulição das substâncias (Cloro, Flúor, Bromo, Mercúrio, Iodo) a 1 atm de pressão. Em relação a essas propriedades, assinale a alternativa que corresponde, corretamente, aos estados físicos da matéria nas situações apresentadas.
+*(Ver alternativas em Q-4 — mesma questão; registrada como QC-6 por ser de concurso identificado.)*
+Alternativas:
+a. ( ) O mercúrio, se ficar exposto à temperatura ambiente, estando esta a 24 °C, estará no estado sólido.
+b. ( ) Se uma amostra de iodo for levada para a Antártida, aonde as temperaturas alcançam −55 °C, a mesma encontrar-se-á no estado gasoso.
+c. ( ) No deserto, onde as temperaturas são elevadas durante o dia, podendo atingir 50 °C, o flúor encontra-se no estado líquido.
+d. ( ) O cloro, nas CNTP, encontra-se no estado sólido.
+e. ( ) Em temperaturas altas, como as que acontecem no verão, podendo chegar a 45 °C, o bromo encontra-se no estado líquido.
+Gabarito:
+Tipo: múltipla escolha
+Classificação: médio
+
+---
+
+## PADRÃO DAS QUESTÕES
+- **Estilo predominante:** misto (múltipla escolha + dissertativa)
+- **Foco:** interpretação e memorização
+- **Nível de dificuldade médio:** médio
+- **Tópicos mais cobrados:** mudanças de estado físico, propriedades gerais vs. específicas da matéria, temperaturas de fusão e ebulição, estados físicos, transformações de energia
+- **Total:** 10 questões do capítulo + 6 questões de concurso
 
 ---
 
 ## IMAGENS RECOMENDADAS PARA CAPTURA
-
-- Gráfico de aquecimento da água (curva temperatura × tempo) · valores dos pontos t1, t2, t3, t4 e temperaturas correspondentes · necessário para questões sobre mudanças de estado e interpretação de gráfico
-- Esquema das partículas nos três estados físicos (sólido, líquido, gasoso) · organização relativa das partículas em cada estado · complementa as definições da Seção 2
-- Esquema das mudanças de estado físico (diagrama com setas e nomes das transformações) · nomes e sentidos das transformações entre os três estados · necessário para verificar se ressublimação aparece graficamente
+- Esquema das etapas do método científico (pág. 8–9) · sequência com 5 etapas ilustradas e seus rótulos completos · necessário para detalhar FC-19 e QI-1 com precisão
+- Representações simbólicas dos quatro elementos de Aristóteles (pág. 8) · símbolos de terra, água, fogo e ar com atributos quente/frio/seco/úmido · necessário para complementar conceito de Aristóteles no Bloco A
+- Esquema completo de mudanças de estado físico com setas (pág. 16–17) · todos os nomes das mudanças com setas bidirecionais entre sólido, líquido e gasoso · necessário para validar completude das definições na Seção 2
+- Curva de aquecimento da água (gráfico — pág. 17) · valores exatos dos pontos t₁ e t₂ no eixo x e confirmação dos intervalos sólido/sólido+líquido/líquido/líquido+vapor/vapor · necessário para Q-9 e referência à curva descrita no texto
