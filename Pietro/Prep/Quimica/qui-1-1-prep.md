@@ -1,413 +1,503 @@
-<!-- qui-1-1-prep.md — gerado automaticamente pelo Prompt de Preparação -->
+# PREPARAÇÃO DE AULA — QUÍMICA
+## `qui-1-1-prep.md`
 
 ---
 
 ## DIAGRAMAS DISPONÍVEIS — qui-1-1
 
-| Nome | Identificador na Seção 12 | Quando usar |
-|------|--------------------------|-------------|
-| Linha do tempo dos cientistas | DIAGRAMA: timeline | Seção 3 — apresentar Lavoisier e Dalton |
-| Fluxo de mudanças de estado físico | DIAGRAMA: transformacao_estados | Seção 2 — bloco mudanças de estado |
-| Curva de aquecimento da água | DIAGRAMA: curva_aquecimento | Seção 6 e Q-12/Q-13 |
+| Nome | Identificador na Seção 12 | Quando usar na Etapa 1 |
+|------|--------------------------|------------------------|
+| Fluxo de propriedades da matéria | DIAGRAMA: propriedades_materia | Ao introduzir propriedades gerais vs. específicas |
+| Linha do tempo de cientistas | DIAGRAMA: timeline | Ao apresentar Aristóteles, Dalton e Lavoisier |
+| Mudanças de estado físico | DIAGRAMA: mudancas_estado | Ao trabalhar fusão, vaporização, sublimação etc. |
+| Fórmula da densidade | DIAGRAMA: formulas | Ao apresentar a fórmula d = m/V |
+| Curva de aquecimento da água | DIAGRAMA: curva_aquecimento | Ao interpretar Q-9 e QC-5 |
 
 ### Tabelas markdown (Seção 6):
-- Tabela de propriedades dos estados físicos
-- Tabela de temperaturas de fusão e ebulição (Água, Álcool, Ouro + substâncias da Q-8)
-- Tabela de propriedades específicas dos sólidos
+- Temperaturas de fusão e ebulição de substâncias comuns (água, álcool, ouro)
+- Temperaturas de fusão e ebulição de halogênios e mercúrio (1 atm)
+- Grandezas do capítulo (massa, volume, densidade, temperatura)
+- Tabela do experimento de densidade
 
 ### Nota ao Professor:
-Para cada diagrama: leia o SVG da Seção 12 e passe ao Visualizer para renderizar inline.
-Tabelas da Seção 6 são apresentadas como markdown no chat.
+Para cada diagrama: leia o SVG da Seção 12 e passe ao Visualizer para renderizar inline. Tabelas da Seção 6 são apresentadas como markdown no chat.
 
 ---
 
-# SEÇÃO 1 — METADADOS
+## SEÇÃO 1 — METADADOS
 
+```
 # PREPARAÇÃO DE AULA — QUÍMICA
 - Unidade: 1
 - Capítulo: 1
-- Tema: Propriedades da matéria
-- Perfil: misto (histórico-conceitual + descritivo-científico)
-- Equações/fórmulas principais: nenhuma equação química impressa; lei da conservação das massas enunciada em palavras
-- Cientistas citados: Antoine Laurent Lavoisier (1743–1794), John Dalton (1808)
+- Tema: Propriedades da Matéria
+- Perfil: misto (histórico-conceitual + descritivo-científico + matemático-operacional)
+- Equações/fórmulas principais: d = m/V
+- Cientistas citados: Aristóteles, Antoine Laurent Lavoisier, John Dalton
+```
 
 ---
 
-# SEÇÃO 2 — RESUMO CONCEITUAL DO CAPÍTULO
+## SEÇÃO 2 — RESUMO CONCEITUAL DO CAPÍTULO
 
-## O que é a Química?
+### **Bloco 1 — O que é Química e o que é Matéria**
 
-A Química é a ciência que estuda a **matéria**: sua composição, suas propriedades e suas transformações, incluindo a energia envolvida nesses processos. Antes de se tornar essa ciência, ela passou pela **alquimia** — prática antiga que misturava experimentação, filosofia e misticismo, mas que foi crucial para o estudo sistemático dos materiais. Com o tempo, o método científico substituiu a alquimia, e a Química moderna nasceu.
+A Química é a ciência que estuda a **matéria**: sua composição, suas propriedades, suas transformações e a energia envolvida nesses processos. Antes de se consolidar como ciência, a Química passou por séculos de influência da alquimia, reunindo elementos de filosofia, metalurgia, medicina e misticismo.
 
----
+**Matéria** é tudo que tem massa e ocupa lugar no espaço. Livros, árvores, roupas e seres vivos são feitos de matéria. **Som, luz e calor não são matéria** — são formas de energia. Essa distinção é clássica em provas.
 
-## Matéria: o que é e o que não é
+### **Bloco 2 — Propriedades Gerais da Matéria**
 
-**Matéria** é tudo que tem **massa** e **ocupa lugar no espaço**. Exemplos do dia a dia: livros, árvores, roupas, seres vivos.
+São propriedades **comuns a todos os tipos de matéria**, independentemente do material. As cinco propriedades gerais são:
 
-⚠️ **Atenção:** Som, luz e calor **não são matéria** — são formas de **energia**. Não têm massa nem ocupam espaço.
+| Propriedade | Resumo |
+|---|---|
+| **Massa** | Quantidade de matéria; medida em kg |
+| **Extensão** | Ocupa espaço (volume); medida em m³ |
+| **Impenetrabilidade** | Dois corpos não ocupam o mesmo espaço ao mesmo tempo |
+| **Inércia** | Tendência de manter repouso ou MRU; quanto maior a massa, maior a inércia |
+| **Divisibilidade** | Pode ser dividida em partes menores sem alterar as propriedades |
 
----
+**Conexão com cotidiano:** O cinto de segurança existe por causa da inércia — quando o carro freia, o corpo tende a continuar em movimento.
 
-## Propriedades da matéria
+### **Bloco 3 — Propriedades Específicas da Matéria**
 
-As propriedades da matéria se dividem em dois grupos:
+São propriedades que **identificam e diferenciam os materiais entre si**. Cada substância possui valores únicos dessas propriedades. As principais são:
 
-**Propriedades gerais** — presentes em **toda** matéria, sem exceção:
-- Massa
-- Extensão (volume)
-- Impenetrabilidade
-- Inércia
-- Divisibilidade
+- **Densidade** (d = m/V): relação entre massa e volume. Influenciada pela temperatura. Unidades: g/cm³, g/mL, kg/L.
+- **Temperatura de fusão:** temperatura em que a substância passa de sólido a líquido (ou vice-versa).
+- **Temperatura de ebulição:** temperatura em que a substância passa de líquido a gasoso (ou vice-versa).
+- **Solubilidade:** capacidade de uma substância se dissolver em outra. Depende da temperatura e da quantidade de solvente. Exemplo: 36 g de NaCl para cada 100 g de água a 20 °C.
+- **Condutividade:** capacidade de conduzir corrente elétrica. Condutores: cobre, alumínio. Isolantes: plásticos, borracha.
+- **Propriedades organolépticas:** cor, cheiro, sabor, textura, brilho — percebidas pelos sentidos, mas não recomendadas como método de identificação.
 
-**Propriedades específicas** — permitem **diferenciar** os tipos de matéria:
-- Temperaturas de fusão e ebulição
-- Densidade
-- Solubilidade
-- Dureza
-- Viscosidade
-- Propriedades organolépticas (cor, odor, sabor, textura)
-- Condutibilidade (citada na Síntese)
+### **Bloco 4 — Estados de Agregação da Matéria**
 
-💡 *Macete:* propriedades **gerais** valem para qualquer pedaço de qualquer material; propriedades **específicas** são como uma "impressão digital" da substância.
+A matéria pode existir em **três estados físicos principais** (mais o plasma):
 
----
+| Estado | Forma | Volume | Partículas |
+|---|---|---|---|
+| **Sólido** | Definida | Definido | Muito próximas, forte atração |
+| **Líquido** | Variada | Fixo | Menos próximas |
+| **Gasoso** | Do recipiente | Do recipiente | Muito afastadas, fraca interação |
+| **Plasma** | — | — | Gás superaquecido, eletricamente carregado |
 
-## Grandezas fundamentais: Massa e Volume
+**Propriedades específicas dos sólidos:** resistência mecânica, dureza, ductilidade, elasticidade.
+**Propriedades específicas dos líquidos:** viscosidade (resistência ao escoamento) e volatilidade (facilidade de evaporar).
+**Plasma:** 99% da matéria do Universo está no estado plasma (estrelas, raios, auroras boreais, fogo).
 
-**Massa** é a quantidade de matéria de um corpo, medida por balança. Unidade SI: quilograma (kg).
+### **Bloco 5 — Mudanças de Estado Físico**
 
-**Extensão (Volume)** é o espaço que a matéria ocupa. Unidade SI: metro cúbico (m³). Equivalência importante: **1 m³ = 1000 litros**.
+As mudanças de estado ocorrem com **absorção ou liberação de calor**:
 
-Em laboratório: balanças analíticas medem massa; provetas medem volume de líquidos.
+**Por absorção de calor (aquecimento):**
+- **Fusão:** sólido → líquido (gelo derretendo)
+- **Vaporização:** líquido → gasoso (ebulição, evaporação, calefação)
+- **Sublimação:** sólido → gasoso diretamente (naftalina)
 
----
+**Por liberação de calor (resfriamento):**
+- **Solidificação:** líquido → sólido (água congelando)
+- **Condensação:** gasoso → líquido (formação de nuvens)
+- **Ressublimação:** gasoso → sólido diretamente
 
-## Estados físicos da matéria
+**A vaporização** pode ocorrer de três formas:
+1. **Evaporação** — lenta e gradual, superfície do líquido
+2. **Ebulição** — mais rápida, aumento de temperatura
+3. **Calefação** — instantânea, contato com superfície muito quente
 
-A matéria pode ser encontrada em quatro estados:
+### **Bloco 6 — Energia e Transformações**
 
-| Estado | Partículas | Forma | Volume |
-|--------|-----------|-------|--------|
-| Sólido | Muito próximas, forte atração | Definida | Definido |
-| Líquido | Pouco afastadas, menor atração | Variável (recipiente) | Fixo |
-| Gasoso | Muito afastadas, pouca interação | Variável (recipiente) | Variável |
-| Plasma | Gás superaquecido, eletricamente carregado | Variável | Variável |
+Energia é a capacidade de produzir movimento ou transformação. Ela **não pode ser criada nem destruída**, apenas transformada (lei de conservação da energia). Exemplos:
+- Painéis solares: energia solar → elétrica
+- Fotossíntese: energia luminosa → química
+- Lâmpada: energia elétrica → luminosa
 
-**Plasma** é o 4º estado da matéria. Ocorre quando um gás é superaquecido e se torna condutor elétrico. Exemplo: lâmpadas fluorescentes, letreiros de neon, estrelas, raios, auroras boreais. Estimativa: 99% da matéria do Universo está em estado de plasma.
+### **Bloco 7 — História da Química e Método Científico**
 
----
+A Química moderna surgiu a partir da alquimia. **Aristóteles** (384–322 a.C.) defendia que a matéria era contínua e formada por 4 elementos (terra, água, fogo, ar). **Lavoisier** (1743–1794) estabeleceu a metodologia científica rigorosa e a Lei de Conservação das Massas. **Dalton** propôs que toda a matéria era formada por átomos.
 
-## Propriedades específicas dos estados físicos
-
-**Sólidos:**
-- **Resistência mecânica:** suporta forças externas sem se romper (ex.: metais na construção civil)
-- **Dureza:** capacidade de riscar outro sólido (ex.: diamante — maior dureza conhecida)
-- **Ductilidade:** pode ser esticado em fios (ex.: cobre)
-- **Elasticidade:** se deforma e volta ao estado original (ex.: borracha)
-
-**Líquidos:**
-- **Viscosidade:** resistência ao escoamento — mais viscoso = escoa mais lento (ex.: óleo > água)
-- **Volatilidade:** facilidade de evaporar à temperatura ambiente (ex.: acetona, álcool, éter > água)
-
-⚠️ Sólidos voláteis como naftalina e cânfora **sublimam** (passam direto do sólido para o gasoso) sem fase líquida aparente.
-
----
-
-## Mudanças de estado físico
-
-As mudanças ocorrem por **absorção** ou **liberação de calor**:
-
-**Absorção de calor (aquecimento):**
-- **Fusão:** sólido → líquido (ex.: gelo derretendo)
-- **Vaporização:** líquido → gasoso (3 modos: evaporação / ebulição / calefação)
-  - Evaporação: lenta e gradual
-  - Ebulição: rápida, por aumento de temperatura
-  - Calefação: instantânea, por contato com superfície muito quente
-- **Sublimação:** sólido → gasoso direto (ex.: naftalina)
-
-**Liberação de calor (resfriamento):**
-- **Condensação:** gasoso → líquido (ex.: formação das nuvens)
-- **Solidificação:** líquido → sólido (ex.: água no congelador)
-- **Ressublimação:** gasoso → sólido direto
-
-**Curva de aquecimento da água:**
-- 0 °C = temperatura de fusão (plateau entre t₁ e t₂: sólido e líquido coexistem)
-- 100 °C = temperatura de ebulição (plateau entre t₃ e t₄: líquido e vapor coexistem)
-- Nos plateaux a temperatura não sobe — toda a energia vai para a mudança de estado.
+O **método científico** segue: observação → hipótese → experimentação → análise → conclusão.
 
 ---
 
-## Energia
-
-Energia é definida como a **capacidade de produzir movimento ou transformar a matéria**. Tipos: cinética, potencial, térmica, luminosa, química, elétrica, entre outros.
-
-**Princípio fundamental:** A energia não pode ser criada nem destruída — apenas **transformada**.
-
-Exemplos de transformação:
-- Solar → Elétrica (painéis solares)
-- Elétrica → Luminosa (lâmpada)
-- Luminosa → Térmica (fogueira)
-- Luminosa (Sol) → Química (fotossíntese)
-- Química (bateria) → Elétrica (carro)
-
----
-
-## Método científico e Lei da Conservação das Massas
-
-Lavoisier aplicou o método científico em 5 etapas: **Observação → Hipótese → Experimentação → Análise → Conclusão**.
-
-Resultado: **Lei da Conservação das Massas** — *"Em uma reação química realizada em recipiente fechado, a soma das massas dos reagentes é igual à soma das massas dos produtos."* (Frase histórica: *"Na natureza, nada se perde, nada se cria, tudo se transforma."*)
-
----
-
-# SEÇÃO 3 — CIENTISTAS E HISTÓRIA DA CIÊNCIA
+## SEÇÃO 3 — CIENTISTAS E HISTÓRIA DA CIÊNCIA
 
 ### Antoine Laurent Lavoisier (1743–1794)
-**Área:** Química geral, método experimental
-**Contribuição no capítulo:** Conhecido por alguns como o "pai da Química moderna"; utilizou o método científico e propôs a Lei da Conservação das Massas.
-**O que mudou:** Substituiu a alquimia empírica pelo experimento rigoroso e quantitativo; estabeleceu que massa é conservada nas reações químicas.
-**Associado a:** Lei da Conservação das Massas; as 5 etapas do método científico aplicadas à Química.
-**Contexto histórico:** Século XVIII, Iluminismo; período de transição entre alquimia e Química científica moderna.
+**Área:** Química moderna, metodologia científica
+**Contribuição no capítulo:** Aplicou o método científico ao estudo da Química, medindo massas antes e depois de reações químicas em recipientes fechados. Formulou a Lei de Conservação das Massas.
+**O que mudou:** Transformou a Química em uma ciência experimental rigorosa, afastando-a do misticismo alquímico.
+**Associado a:** Lei de Conservação das Massas — *"Na natureza, nada se perde, nada se cria, tudo se transforma."*
+**Contexto histórico:** Século XVIII, Iluminismo; período de consolidação das ciências naturais como disciplinas experimentais.
 
 ---
 
-### John Dalton (sem datas de vida no material)
+### John Dalton (1766–1844)
 **Área:** Teoria atômica
-**Contribuição no capítulo:** Em 1808, propôs que toda matéria era formada por átomos — sem poder observá-los diretamente.
-**O que mudou:** Abriu novos horizontes para o estudo da Química; base para o desenvolvimento de modelos atômicos posteriores.
-**Associado a:** Hipótese atômica / modelo atômico inicial.
-**Contexto histórico:** Início do século XIX; período de consolidação da Química como ciência quantitativa.
+**Contribuição no capítulo:** Propôs que toda a matéria era formada por átomos, mesmo sem poder observá-los diretamente. Suas hipóteses abriram novos horizontes e inspiraram teorias posteriores.
+**O que mudou:** Forneceu base para o modelo atômico da matéria, permitindo o desenvolvimento da Química moderna.
+**Associado a:** Modelo atômico de Dalton (átomo como esfera maciça indivisível)
+**Contexto histórico:** Início do século XIX, Revolução Industrial e expansão da ciência experimental.
 
 ---
 
-# SEÇÃO 5 — GRANDEZAS E RELAÇÕES CARACTERÍSTICAS
+### Aristóteles (384 a.C. – 322 a.C.)
+**Área:** Filosofia natural, Antiguidade
+**Contribuição no capítulo:** Defendia que a matéria era contínua e composta por quatro elementos: terra, água, fogo e ar, com qualidades quente, frio, seco e úmido. Suas ideias dominaram o pensamento por séculos.
+**O que mudou:** Influenciou fortemente a alquimia medieval; suas ideias foram gradualmente superadas pelo atomismo e pela Química experimental.
+**Associado a:** Teoria dos 4 elementos; continuidade da matéria
+**Contexto histórico:** Grécia Antiga, Filosofia pré-socrática e socrática; nasceu em Estagira, Macedônia.
+
+---
+
+## SEÇÃO 4 — EQUAÇÕES QUÍMICAS, FÓRMULAS E LEIS
+
+*(Capítulo 1 não apresenta equações químicas balanceadas. Apresenta uma fórmula matemática central e uma lei qualitativa.)*
+
+#### 4B — Fórmulas Matemáticas de Química
+
+### Densidade
+
+**Expressão:** $$d = \frac{m}{V}$$
+
+| Símbolo | Grandeza | Unidade | Natureza |
+|---------|----------|---------|---------|
+| d | Densidade | g/cm³ · g/mL · kg/L | intensiva |
+| m | Massa | g · kg | extensiva |
+| V | Volume | cm³ · mL · L | extensiva |
+
+**Válida quando:** a temperatura é constante (a densidade varia com a temperatura).
+**Caso especial:** Para gases, a densidade é muito mais sensível à variação de temperatura e pressão do que para sólidos e líquidos.
+💡 **Pegadinha:** Usar unidades inconsistentes — por exemplo, massa em kg e volume em cm³ — sem fazer a conversão. Sempre verifique se m e V estão em unidades compatíveis com a unidade de d desejada.
+
+---
+
+### Lei de Conservação das Massas (Lavoisier)
+
+**Expressão:** $$m_{\text{reagentes}} = m_{\text{produtos}}$$
+
+| Símbolo | Grandeza | Unidade | Natureza |
+|---------|----------|---------|---------|
+| m_reagentes | Soma das massas dos reagentes | g ou kg | extensiva |
+| m_produtos | Soma das massas dos produtos | g ou kg | extensiva |
+
+**Válida quando:** reação química ocorre em sistema fechado.
+**Caso especial:** Em sistemas abertos (ex.: combustão), gases podem escapar e a massa aparente do sistema diminui — mas a massa total (incluindo gases) é conservada.
+💡 **Pegadinha:** Confundir "a massa não muda" com "os materiais não mudam". A lei diz que a massa total é conservada, não que as substâncias permanecem as mesmas.
+
+---
+
+## SEÇÃO 5 — GRANDEZAS E RELAÇÕES CARACTERÍSTICAS
 
 #### 5.1 — Grandezas do capítulo
 
 | Grandeza | Símbolo | Unidade | Símbolo | Natureza |
 |----------|---------|---------|---------|---------|
 | Massa | m | quilograma | kg | extensiva |
-| Volume (Extensão) | V | metro cúbico | m³ | extensiva |
-| Temperatura | T | grau Celsius | °C | intensiva |
-| Densidade | d | (não especificado no texto) | — | intensiva |
-| Energia/Calor | — | (não especificado) | — | extensiva |
+| Volume | V | metro cúbico / litro | m³ / L | extensiva |
+| Densidade | d | grama por centímetro cúbico | g/cm³ | intensiva |
+| Temperatura de fusão | T_f | grau Celsius | °C | intensiva |
+| Temperatura de ebulição | T_e | grau Celsius | °C | intensiva |
+| Solubilidade | — | g de soluto / 100 g de solvente | — | intensiva |
 
 #### 5.2 — Conversões importantes
 
 ```
 Volume: m³ → litros
 Fator: 1 m³ = 1000 L
-Exemplo: unidade básica do SI para volume
-⚠️ Pegadinha: confundir litro com m³ — 1 L ≠ 1 m³; 1 m³ = 1000 L
+Exemplo: 1 m³ de água = 1000 litros
+⚠️ Pegadinha: Confundir cm³ com mL — na verdade 1 cm³ = 1 mL,
+mas 1 m³ ≠ 1000 cm³ (1 m³ = 1.000.000 cm³).
+```
+
+```
+Massa: kg → g
+Fator: 1 kg = 1000 g
+Exemplo: cálculo de densidade — se m = 2 kg e V = 500 cm³,
+converter para 2000 g antes de calcular d em g/cm³
+⚠️ Pegadinha: Usar m em kg com V em cm³ — resultado em
+kg/cm³, não em g/cm³.
+```
+
+#### 5.4 — Relações e constantes características
+
+```
+Solubilidade do NaCl em água a 20 °C: 36 g / 100 g de água
+Uso: para calcular a quantidade máxima de sal dissolvida,
+multiplica-se pela razão da massa de solvente.
+Exemplo do capítulo: 200 g de água → 72 g de NaCl (máximo)
+⚠️ Pegadinha: Confundir "solubilidade" com "concentração atual"
+— a solubilidade é o LIMITE máximo, não a quantidade presente.
 ```
 
 ---
 
-# SEÇÃO 6 — DADOS FACTUAIS DENSOS
+## SEÇÃO 6 — DADOS FACTUAIS DENSOS
 
-### Tabela 1 — Propriedades dos estados físicos
+### Tabela 1: Temperaturas de fusão e ebulição — substâncias comuns
 
-| Estado | Partículas | Forma | Volume | Compressível? |
-|--------|-----------|-------|--------|---------------|
-| Sólido | Muito próximas | Definida | Definido | Não |
-| Líquido | Pouco afastadas | Variável | Fixo | Não |
-| Gasoso | Muito afastadas | Variável | Variável | Sim |
-| Plasma | Superaquecidas, carregadas | Variável | Variável | Sim |
-
----
-
-### Tabela 2 — Temperaturas de fusão e ebulição (material + questão Q-8)
-
-| Substância | T. fusão (°C) | T. ebulição (°C) | Estado a 25 °C (t. ambiente) |
-|------------|--------------|-----------------|------------------------------|
-| Água | 0 | 100 | Líquido |
-| Álcool | −114 | 78 | Líquido |
-| Ouro | 1064 | 2856 | Sólido |
-| Cloro | −101,0 | −34,6 | Gasoso |
-| Flúor | −219,6 | −188,1 | Gasoso |
-| Bromo | −7,2 | 58,8 | Líquido |
-| Mercúrio | −38,8 | 356,6 | Líquido |
-| Iodo | 113,5 | 184,0 | Sólido |
-
-> ⚠️ Pegadinha: para definir o estado a temperatura X, compare X com T. fusão e T. ebulição: se X < T. fusão → sólido; se T. fusão < X < T. ebulição → líquido; se X > T. ebulição → gasoso.
+| Substância | Fórmula | T. fusão (°C) | T. ebulição (°C) | ⚠️ Pegadinha |
+|---|---|---|---|---|
+| Água | H₂O | 0 | 100 | A 0 °C a água está fundindo (sólido+líquido), não necessariamente líquida |
+| Álcool etílico | C₂H₅OH | −114 | 78 | Ponto de fusão negativo — álcool é líquido em temperatura ambiente |
+| Ouro | Au | 1064 | 2856 | Altíssimas temperaturas — ouro é sólido em todas as condições do cotidiano |
 
 ---
 
-### Tabela 3 — Propriedades específicas dos sólidos
+### Tabela 2: Temperaturas de fusão e ebulição — halogênios e mercúrio (1 atm)
 
-| Propriedade | Definição | Exemplo do material |
-|-------------|-----------|---------------------|
-| Resistência mecânica | Suporta forças externas sem romper | Metais na construção civil |
-| Dureza | Capacidade de riscar outro sólido | Diamante (maior dureza) |
-| Ductilidade | Pode ser estirado em fios | Cobre |
-| Elasticidade | Deforma e volta ao original | Borracha |
+| Substância | T. fusão (°C) | T. ebulição (°C) | Estado a 25 °C | ⚠️ Pegadinha |
+|---|---|---|---|---|
+| Cloro (Cl₂) | −101,0 | −34,6 | **Gasoso** | T_eb < 25 °C → gás em temperatura ambiente |
+| Flúor (F₂) | −219,6 | −188,1 | **Gasoso** | T_eb muito baixa → jamais líquido em condições normais |
+| Bromo (Br₂) | −7,2 | 58,8 | **Líquido** | T_fus < 25 °C < T_eb → líquido em temperatura ambiente |
+| Mercúrio (Hg) | −38,8 | 356,6 | **Líquido** | Único metal líquido em temperatura ambiente |
+| Iodo (I₂) | 113,5 | 184,0 | **Sólido** | T_fus > 25 °C → sólido em temperatura ambiente |
 
----
-
-# SEÇÃO 7 — DICAS DE OURO
-
-💡 **Dica 1 — Matéria ≠ Energia**
-Som, luz e calor **não são matéria**. Essa é a pegadinha clássica da Q-1. Matéria tem massa e ocupa espaço; energia não. Nas provas, qualquer opção que diga que "luz é matéria" está errada.
-
-💡 **Dica 2 — Geral vs. Específica**
-Propriedade **geral** = vale para qualquer material (massa, extensão, impenetrabilidade, inércia, divisibilidade). Propriedade **específica** = identifica/diferencia a substância (densidade, ponto de fusão, solubilidade…). Macete: "**G**eral = **G**rupo inteiro; **E**specífica = **E**la mesma".
-
-💡 **Dica 3 — Plateau na curva de aquecimento**
-Quando a temperatura para de subir no gráfico, **não** significa que não está recebendo calor — significa que toda a energia está sendo usada para a mudança de estado. Nos plateaux de 0 °C e 100 °C da água, sólido+líquido e líquido+vapor **coexistem**.
-
-💡 **Dica 4 — Sublimação vs. Ressublimação**
-Sublimação: sólido → gasoso (absorção de calor). Ressublimação (ou sublimação reversa): gasoso → sólido (liberação de calor). O iodo da Q-9 faz as duas: aquece e sublima; resfria e ressublima.
-
-💡 **Dica 5 — Densidade não muda com a quantidade**
-Dobrar a massa de um material dobra o volume na mesma proporção — a densidade (massa/volume) permanece igual. Densidade é propriedade **intensiva**: não depende da quantidade.
-
-💡 **Dica 6 — Vaporização tem 3 modos**
-Evaporação (lenta), Ebulição (rápida, aquecimento) e Calefação (instantânea, superfície quente). Nas provas, "ebulição" é o mais cobrado. Calefação é o menos conhecido — memorizar o exemplo da água na frigideira quente.
+> **Como usar:** Se T_amb < T_fusão → sólido · Se T_fusão < T_amb < T_ebulição → líquido · Se T_amb > T_ebulição → gasoso
 
 ---
 
-# SEÇÃO 8 — ALERTAS DE INCONSISTÊNCIA
+### Tabela 3: Mudanças de estado físico — síntese
+
+| Mudança | Transição | Calor | Exemplo |
+|---|---|---|---|
+| Fusão | Sólido → Líquido | Absorção | Gelo derretendo |
+| Vaporização | Líquido → Gasoso | Absorção | Água fervendo |
+| Sublimação | Sólido → Gasoso | Absorção | Naftalina evaporando |
+| Solidificação | Líquido → Sólido | Liberação | Água congelando |
+| Condensação | Gasoso → Líquido | Liberação | Formação de nuvens |
+| Ressublimação | Gasoso → Sólido | Liberação | Iodo resfriando (QC-2) |
+
+---
+
+### Tabela 4: Propriedades específicas dos sólidos e líquidos
+
+| Estado | Propriedade | Definição | Exemplo |
+|---|---|---|---|
+| Sólido | Resistência mecânica | Suporta forças sem se romper | Ferro em vigas |
+| Sólido | Dureza | Capacidade de riscar outro sólido | Diamante (mais duro) |
+| Sólido | Ductilidade | Pode ser estirado em fios | Cobre em fios elétricos |
+| Sólido | Elasticidade | Retorna à forma original após deformação | Borracha |
+| Líquido | Viscosidade | Resistência ao escoamento | Óleo > água |
+| Líquido | Volatilidade | Facilidade de evaporar | Álcool > água |
+
+---
+
+## SEÇÃO 7 — DICAS DE OURO
+
+💡 **Dica 1 — Som, luz e calor NÃO são matéria**
+Matéria = massa + ocupa espaço. Som, luz e calor são formas de **energia**. Questões costumam misturar esses conceitos esperando que o aluno classifique luz ou calor como matéria.
+
+💡 **Dica 2 — Propriedade geral ≠ propriedade específica**
+Propriedade **geral**: vale para TUDO (massa, extensão, inércia, impenetrabilidade, divisibilidade).
+Propriedade **específica**: identifica o material (densidade, temperatura de fusão, solubilidade...).
+Macete: se a propriedade tem um **valor numérico característico da substância**, é específica.
+
+💡 **Dica 3 — Determinando o estado físico pela temperatura**
+Regra prática com os dados da tabela:
+- T_amb **<** T_fusão → **sólido**
+- T_fusão **<** T_amb **<** T_ebulição → **líquido**
+- T_amb **>** T_ebulição → **gasoso**
+Exemplo: Bromo a 45 °C — T_fus = −7,2 °C e T_eb = 58,8 °C → 45 °C está entre os dois → **líquido** ✅
+
+💡 **Dica 4 — Sublimação × Ressublimação**
+Sublimação: sólido → gasoso (absorção de calor).
+Ressublimação (ou sublimação inversa): gasoso → sólido (liberação de calor).
+**Pegadinha clássica (QC-2):** o iodo aquecido sofre sublimação; ao esfriar em superfície fria, sofre **ressublimação** — não é fusão nem liquefação.
+
+💡 **Dica 5 — Unidades da densidade**
+g/cm³ = g/mL = kg/L (todas são equivalentes numericamente para a mesma substância). A densidade da água é 1 g/cm³ = 1 g/mL = 1 kg/L. Substâncias com d > 1 g/cm³ afundam na água; com d < 1 g/cm³, flutuam.
+
+💡 **Dica 6 — Vaporização tem três formas**
+**Evaporação** (lenta, superfície, qualquer temperatura) ≠ **ebulição** (rápida, toda a massa, temperatura de ebulição específica) ≠ **calefação** (instantânea, contato com superfície muito quente). Uma questão com chaleira = ebulição; roupa secando = evaporação.
+
+---
+
+## SEÇÃO 8 — ALERTAS DE INCONSISTÊNCIA
+
+### INFERÊNCIAS USADAS NO PREP
+
+| Seção | Campo | Valor inferido | Fonte da inferência |
+|-------|-------|---------------|---------------------|
+| Seção 3 | Datas de Dalton | 1766–1844 | Conhecimento geral — não consta no material |
+| Seção 4 | Fórmula da densidade | d = m/V | Inferida das unidades e da definição textual; fórmula explícita não aparece no material capturado |
+| Seção 6 | Fórmula química do álcool | C₂H₅OH | Conhecimento geral — material cita apenas "álcool" |
+
+### DADOS AUSENTES — AÇÃO NECESSÁRIA
+
+| Seção | Campo | Motivo da ausência | Ação recomendada |
+|-------|-------|-------------------|-----------------|
+| Seção 4 | Fórmula explícita d = m/V | Não capturada no texto do material | Verificar se aparece no livro didático e adicionar ao qui-1-1.md |
+| Seção 6 | Gabaritos das questões Q-1 a Q-10 | Campo "Gabarito" em branco no material | Preencher gabaritos no qui-1-1.md antes de disponibilizar ao aluno |
+| Seção 11 | Gabaritos de Q-1, Q-2, Q-5, Q-6, Q-7, Q-8, Q-9, Q-10 (dissertativas) | Não capturados | Redigir gabaritos modelo e adicionar ao arquivo |
+
+### ALERTAS FACTUAIS
 
 ```
-⚠️ INFERÊNCIA — Condutibilidade como propriedade específica
-- Dado no material: aparece na Síntese (imagem) mas não no texto expositivo capturado
-- Inferência usada: condutibilidade é propriedade específica (correto cientificamente)
-- Ação: confirmar se o texto do livro trata condutibilidade antes de cobrar do aluno
+⚠️ ALERTA — Datas de Aristóteles no Bloco A
+- Dado no material: "Aristóteles (384 a.C. – 322 d.C.)"
+- Problema: Erro tipográfico — "322 d.C." deve ser "322 a.C."
+- Dado correto: Aristóteles (384 a.C. – 322 a.C.)
+- Impacto na aula: Corrigir antes de apresentar ao aluno para
+  evitar confusão cronológica.
+```
 
-⚠️ DADO AUSENTE — Unidade de densidade
-- Campo: unidade e símbolo da grandeza densidade
-- Motivo: não especificado no texto capturado (apenas citada como propriedade)
-- Ação: g/cm³ ou kg/m³ — acrescentar ao qui-1-1.md quando aparecer em capítulo posterior
-
-⚠️ INFERÊNCIA — Datas de Dalton
-- Campo: período de vida de John Dalton
-- Valor inferido: 1766–1844 (conhecimento geral)
-- Nota: o material cita apenas "1808" como data da hipótese; não fornece dados biográficos
+```
+⚠️ ALERTA — Gabaritos em branco (Q-1 a Q-10 e QC-1 a QC-6)
+- Dado no material: campo "Gabarito:" vazio em todas as questões
+- Problema: Prep não pode fornecer gabaritos confiáveis para
+  dissertativas sem texto-resposta de referência
+- Ação: Professor deve revisar os gabaritos inferidos na
+  Seção 11 com o livro do professor antes de usar com alunos
 ```
 
 ---
 
-# SEÇÃO 9 — SÍNTESE DO CAPÍTULO (para warm-up)
+## SEÇÃO 9 — SÍNTESE DO CAPÍTULO (para warm-up)
 
 #### Bloco 1 — Conceitos e Definições
 
+- **Química**
+  - Definição: `______` (ciência que estuda a matéria, sua composição, propriedades, transformações e energia envolvida)
+  - Exemplo: `______` (análise de reações químicas em laboratório)
+
 - **Matéria**
   - Definição: `______` (tudo que tem massa e ocupa lugar no espaço)
-  - Exemplo de não-matéria: `______` (som, luz e calor — são formas de energia)
+  - Contra-exemplo: `______` (som, luz e calor — não são matéria, são energia)
 
-- **Propriedades gerais**
-  - São aquelas observadas em `______` os tipos de matéria (todos)
-  - Liste as cinco: `______` (massa, extensão, impenetrabilidade, inércia, divisibilidade)
+- **Propriedade geral**
+  - Definição: `______` (propriedade comum a todos os tipos de matéria)
+  - Exemplos: `______` (massa, extensão, impenetrabilidade, inércia, divisibilidade)
 
-- **Propriedades específicas**
-  - Servem para `______` os tipos de matéria (diferenciar)
-  - Exemplo: `______` (densidade, temperatura de fusão, solubilidade, dureza, viscosidade)
+- **Propriedade específica**
+  - Definição: `______` (propriedade que identifica e diferencia os materiais)
+  - Exemplos: `______` (densidade, temperatura de fusão, solubilidade)
 
-- **Viscosidade**
-  - Definição: `______` (resistência ao escoamento)
-  - Quanto mais viscoso, o escoamento é: `______` (mais lento)
+- **Densidade**
+  - Fórmula: `______` (d = m/V)
+  - Unidades: `______` (g/cm³, g/mL, kg/L)
 
-- **Volatilidade**
-  - Definição: `______` (facilidade de evaporar à temperatura ambiente)
+- **Fusão**
+  - Transição: `______` (sólido → líquido)
+  - Calor: `______` (absorção)
+
+- **Condensação**
+  - Transição: `______` (gasoso → líquido)
+  - Calor: `______` (liberação)
 
 - **Plasma**
-  - Como se forma: `______` (gás superaquecido que se torna eletricamente carregado)
-  - Exemplo cotidiano: `______` (lâmpadas fluorescentes, letreiros de neon)
+  - Definição: `______` (quarto estado da matéria; gás superaquecido eletricamente carregado)
+  - Dado numérico: `______` (99% da matéria do Universo)
 
-- **Lei da conservação das massas**
-  - Enunciado: `______` (em reação em recipiente fechado, soma das massas dos reagentes = soma das massas dos produtos)
+#### Bloco 2 — Fórmulas
+
+- **Densidade**
+  - Expressão: `______` (d = m/V)
+  - d representa: `______` (densidade em g/cm³)
+  - m representa: `______` (massa em g)
+  - V representa: `______` (volume em cm³)
+
+- **Lei de Lavoisier**
+  - Expressão: `______` (m_reagentes = m_produtos)
+  - Enunciado popular: `______` ("nada se cria, nada se perde, tudo se transforma")
 
 #### Bloco 3 — Lacunas para Warm-Up
 
-1. A matéria é definida como tudo que tem `______` e ocupa `______`.
+1. A Química é a ciência que estuda a `______`, investigando sua composição, propriedades, transformações e a `______` envolvida nesses processos.
+*(resposta: matéria / energia)*
+
+2. Som, luz e calor **não** são matéria porque não possuem `______` nem ocupam `______`.
 *(resposta: massa / lugar no espaço)*
 
-2. As propriedades gerais são: massa, `______`, impenetrabilidade, `______` e divisibilidade.
-*(resposta: extensão / inércia)*
+3. Propriedades **gerais** são comuns a todos os materiais. Cite duas: `______` e `______`.
+*(resposta: qualquer duas entre massa, extensão, impenetrabilidade, inércia, divisibilidade)*
 
-3. A temperatura na qual um sólido se transforma em líquido é chamada de temperatura de `______`.
-*(resposta: fusão)*
+4. A `______` é uma propriedade específica que relaciona massa e volume de uma substância, sendo calculada por d = `______`.
+*(resposta: densidade / m/V)*
 
-4. Nos plateaux da curva de aquecimento da água, a temperatura `______`, pois a energia é usada para `______`.
-*(resposta: permanece constante / a mudança de estado)*
+5. A mudança do estado sólido diretamente para o gasoso, sem passar pelo líquido, chama-se `______`.
+*(resposta: sublimação)*
 
-5. A mudança direta do estado gasoso para o sólido chama-se `______`.
+6. Quando os vapores de iodo entram em contato com uma superfície fria e voltam ao estado sólido, ocorre a `______`.
 *(resposta: ressublimação)*
 
-6. Lavoisier propôs que, em uma reação em recipiente fechado, a soma das massas dos `______` é igual à soma das massas dos `______`.
+7. Os três tipos de vaporização são: `______`, `______` e `______`.
+*(resposta: evaporação / ebulição / calefação)*
+
+8. Segundo a Lei de Lavoisier, em uma reação química realizada em recipiente fechado, a soma das massas dos `______` é igual à soma das massas dos `______`.
 *(resposta: reagentes / produtos)*
-
-7. O `______` é o 4º estado da matéria e origina-se quando um gás é `______` e se torna eletricamente carregado.
-*(resposta: plasma / superaquecido)*
-
-8. Álcool é mais `______` que água, por isso evapora mais facilmente à temperatura ambiente.
-*(resposta: volátil)*
 
 #### Bloco 4 — Tabela Síntese
 
 | Conceito | Lacuna — resposta esperada |
 |---|---|
-| Definição de matéria | Tudo que tem `______` e ocupa `______` → massa; lugar no espaço |
-| Propriedades gerais | Observadas em `______` os tipos de matéria: massa, extensão, impenetrabilidade, `______`, divisibilidade → todos; inércia |
-| Propriedades específicas | Servem para `______` os tipos de matéria → diferenciar |
-| Viscosidade | Resistência ao `______` — quanto maior, escoamento mais `______` → escoamento; lento |
-| Volatilidade | Facilidade de `______` à temperatura ambiente → evaporar |
-| Plasma | 4º estado da matéria; gás `______` que se torna eletricamente `______` → superaquecido; carregado |
-| Lei de Lavoisier | Massa dos `______` = massa dos `______` em sistema fechado → reagentes; produtos |
-| Mudança de estado direta: gás → sólido | Chama-se `______` → ressublimação |
+| Definição de matéria | `______` → *tudo que tem massa e ocupa lugar no espaço* |
+| Propriedade geral (exemplo) | `______` → *massa, extensão, impenetrabilidade, inércia ou divisibilidade* |
+| Propriedade específica (exemplo) | `______` → *densidade, temperatura de fusão, solubilidade, condutividade* |
+| Fórmula da densidade | `______` → *d = m/V* |
+| Fusão (transição + calor) | `______` → *sólido → líquido; absorção de calor* |
+| Condensação (transição + calor) | `______` → *gasoso → líquido; liberação de calor* |
+| Tipos de vaporização | `______` → *evaporação, ebulição, calefação* |
+| Plasma | `______` → *4º estado da matéria; gás superaquecido eletricamente carregado* |
+| Lei de Lavoisier | `______` → *massa dos reagentes = massa dos produtos* |
+| Substância líquida em temperatura ambiente (metal) | `______` → *mercúrio (T_fus = −38,8 °C)* |
 
 ---
 
-# SEÇÃO 10 — SÍNTESE DO LIVRO
+## SEÇÃO 10 — SÍNTESE DO LIVRO
 
 ### Síntese do Livro — PROPRIEDADES DA MATÉRIA
 
+*(Baseada na imagem da Síntese — pág. 23)*
+
 | Nó / Posição | Já dado | Lacuna — resposta esperada |
 |---|---|---|
-| Origem histórica da Química | ALQUIMIA → QUÍMICA | — (dado completo) |
-| O que a Química estuda | "Ciência que estuda a" | MATÉRIA |
-| Ramo das propriedades | PROPRIEDADES GERAIS | — (dado completo) |
-| Prop. geral 1 | MASSA | — |
-| Prop. geral 2 | EXPANSÃO (VOLUME) | — |
-| Prop. geral 3 (lacuna no esquema) | `[lacuna]` | IMPENETRABILIDADE |
-| Prop. geral 4 (lacuna no esquema) | `[lacuna]` | INÉRCIA |
-| Prop. geral 5 | DIVISIBILIDADE | — |
-| Ramo das prop. específicas | PROPRIEDADES ESPECÍFICAS | — |
-| Prop. específica 1 | DENSIDADE | — |
-| Prop. específica 2 (lacuna) | `[lacuna]` | SOLUBILIDADE (ou DUREZA/VISCOSIDADE) |
-| Prop. específica 3 | CONDUTIBILIDADE | — |
-| Prop. específica 4 | CARACTERÍSTICAS ORGANOLÉPTICAS | — |
-| Prop. específica 5 (lacuna parcial) | TEMPERATURA DE `[lacuna]` | FUSÃO E EBULIÇÃO |
-| Método científico | OBSERVAÇÃO → HIPÓTESE → EXPERIMENTAÇÃO → ANÁLISE → CONCLUSÃO | — |
-| Estados de agregação | ESTADOS DE AGREGAÇÃO | — |
-| Mudança por absorção — direto | SUBLIMAÇÃO (sólido → gasoso) | — |
-| Mudança por liberação — entre sólido e líquido | Solidificação (↓) / Fusão (↑) | — |
-| Mudança por liberação — entre líquido e gasoso | Condensação (↓) / Vaporização (↑) | — |
-| Estado físico (lacuna no esquema) | `[lacuna]` | GASOSO |
+| Origem da Química | ALQUIMIA → QUÍMICA | `______` → *ciência que estuda a* → MATÉRIA |
+| Derivação do método | QUÍMICA → MÉTODO CIENTÍFICO | ← `______` → *Química origina método científico* |
+| Etapas do método | OBSERVAÇÃO → HIPÓTESE → EXPERIMENTAÇÃO → ANÁLISE → `______` | *CONCLUSÃO* |
+| Propriedades gerais — 1ª coluna | MASSA | `______` → *EXTENSÃO (VOLUME)* |
+| Propriedades gerais — 2ª coluna | EXPANSÃO (VOLUME) | `______` → *IMPENETRABILIDADE* (caixa vazia à direita) |
+| Propriedades gerais — 3ª caixa (abaixo do volume) | `______` | *INÉRCIA* (caixa vazia no esquema) |
+| Propriedades gerais — direita | DIVISIBILIDADE | já dado |
+| Propriedades específicas — 1ª | DENSINDADE | já dado |
+| Propriedades específicas — 2ª (caixa vazia central) | `______` | *SOLUBILIDADE* (ou temperatura de fusão/ebulição) |
+| Propriedades específicas — 3ª | CONDUTIBILIDADE | já dado |
+| Abaixo de propriedades específicas — esq. | CARACTERÍSTICAS ORGANOLÉPTICAS | já dado |
+| Abaixo de propriedades específicas — dir. | TEMPERATURA DE `______` | *FUSÃO / EBULIÇÃO* |
+| Estado de agregação — gasoso (caixa vazia) | SÓLIDO → LÍQUIDO → `______` | *GASOSO* |
+| Mudança sólido→líquido | `______` | *Fusão* |
+| Mudança líquido→sólido | `______` | *Solidificação* |
+| Mudança líquido→gasoso | `______` | *Vaporização* |
+| Mudança gasoso→líquido | `______` | *Condensação* |
+| Processo direto sólido↔gasoso | `______` | *Sublimação* |
+| Seta vermelha (absorção) | Absorção de calor | já dado |
+| Seta azul (liberação) | Liberação de calor | já dado |
 
 ---
 
-# SEÇÃO 11 — QUESTÕES DE REFERÊNCIA
+## SEÇÃO 11 — QUESTÕES DE REFERÊNCIA
 
 #### Bloco A — Catálogo das questões
 
-| # | Enunciado resumido | Tipo | Dif. | Gabarito | Obs. |
-|---|---|---|---|---|---|
-| Q-1 | Som e luz não são matéria — explicar | Dis | M | Som e luz não têm massa nem ocupam espaço; são formas de energia | — |
-| Q-2 | Copo com água e bolinha: propriedades verificadas, por que transbordou e por que flutuou | Dis | M | Impenetrabilidade (água transbordou ao inserir a bolinha, pois dois corpos não ocupam o mesmo espaço); densidade/flutuabilidade (bolinha flutua se sua densidade < densidade da água) | — |
-| Q-3 | Classificar: Massa, Densidade, Temp. fusão, Extensão, Impenetrabilidade, Inércia — PG ou PE | Dis | F | a) PG; b) PE; c) PE; d) PG; e) PG; f) PG | — |
-| Q-4 | Massa, extensão e impenetrabilidade são exemplos de propriedades… (Col. Naval-RJ 2016) | MC | F | d) gerais | — |
-| Q-5 | Aromatizador: qual propriedade permite espalhar pelo ar? | Dis | M | Volatilidade — facilidade de evaporar à temperatura ambiente | — |
-| Q-6 | Cobre (fiação) e ouro (circuitos precisos): quais propriedades permitem esses usos? | Dis | M | Cobre: ductilidade (pode ser transformado em fios) e condutibilidade elétrica; Ouro: condutibilidade elétrica, resistência à corrosão, ductilidade | — |
-| Q-7 | Três líquidos com densidades 1,58 / 13,546 / 1,0 g/cm³: representar fases no béquer | Dis | D | Camadas de baixo para cima: Líquido 2 (13,546) → Líquido 1 (1,58) → Líquido 3 (1,0) — maior densidade fica embaixo | — |
-| Q-8 | Tabela Cl, F, Br, Hg, I: estado físico nas situações (Udesc 2023) | MC | D | e) Bromo a 45 °C: T.fusão=-7,2 e T.eb.=58,8 → 45°C entre fusão e ebulição → líquido ✅ | — |
-| Q-9 | Iodo: sólido→vapor→sólido — qual transformação? (Saresp 2023) | MC | M | a) sublimação (sólido→gasoso por aquecimento; gasoso→sólido por resfriamento = ressublimação; a questão chama o conjunto de "sublimação") | ⚠️ enunciado pede a transformação do iodo sólido em vapor; resposta é sublimação |
-| Q-10 | Ciclo da água — duas setas no esquema (Cefet-MG 2017) | MC | M | d) evaporação e condensação | — |
-| Q-11 | Café solúvel: congelamento + queda de pressão → água vira gás (Cefet-RJ 2016) | MC | D | d) solidificação e sublimação (água congela = solidificação; depois passa direto para gasoso = sublimação) | — |
-| Q-12 | Curva de aquecimento da água: estados em A, C, E; fenômenos em B e D | Dis | M | A=sólido; C=líquido; E=gasoso; B=fusão (0°C); D=ebulição/vaporização (100°C) | — |
-| Q-13 | Curva de aquecimento de substância (fusão 0°C, ebulição 148°C): estado líquido nos pontos (UEG-GO) | MC | D | c) II, III e IV — II=plateau de fusão (sólido+líquido coexistem, considera-se liquefação em andamento); III=líquido puro; IV=plateau de ebulição (líquido+vapor) | — |
-| Q-14 | Painéis solares: quais transformações de energia? | Dis | M | Energia solar (luminosa) → energia elétrica | — |
+| # | Enunciado resumido | Tipo | Dif. | Origem | Gabarito | Obs. |
+|---|---|---|---|---|---|---|
+| Q-1 | Som e luz não são matéria — explique | Dis | F | AT | Som e luz são formas de energia: não têm massa nem ocupam lugar no espaço | — |
+| Q-2 | Propriedades verificadas em baldes com água e bolinha flutuando | Dis | M | AT | Impenetrabilidade (água transborda) e densidade (bolinha flutua — d < d_água) | ⚠️ imagem não processada |
+| Q-3 | Classificar propriedades como PG ou PE | Assoc | F | AT | a.PG · b.PE · c.PE · d.PG · e.PG · f.PG | — |
+| QC-1 | Massa, extensão e impenetrabilidade são exemplos de… | MC | F | AT | d) gerais | — |
+| Q-4/QC-6 | Estado físico de halogênios em diferentes temperaturas | MC | M | AT | e) Bromo a 45 °C está líquido (T_fus=−7,2 °C < 45 °C < T_eb=58,8 °C) | — |
+| QC-2 | Iodo aquecido → vapor; vapor resfria → sólido; qual transformação? | MC | M | AT | a) sublimação (aquecimento) + ressublimação (resfriamento) — questão pede a denominação geral: **a) sublimação** | — |
+| QC-3 | Etapas do ciclo da água (evaporação + condensação) | MC | M | AT | d) evaporação e condensação | — |
+| QC-4 | Café solúvel: congelamento + sublimação da água | MC | M | AT | d) solidificação e sublimação | — |
+| Q-5 | Diferença entre chaleira (ebulição) e roupa secando (evaporação) | Dis | M | AT | Chaleira = ebulição (rápida, temperatura de ebulição); roupa = evaporação (lenta, superfície) | ⚠️ imagem não processada |
+| Q-6 | Propriedade que permite aromatizador espalhar-se pelo ar | Dis | F | AT | Volatilidade — facilidade de evaporar em temperatura ambiente | — |
+| Q-7 | Propriedades do cobre e do ouro para uso elétrico | Dis | M | AT | Condutividade elétrica (ambos) + ductilidade (cobre em fios) | — |
+| Q-8 | Representar três líquidos de densidades diferentes em camadas | Dis | M | AT | Da base ao topo: líquido 2 (13,546) → líquido 1 (1,58) → líquido 3 (1,0) | — |
+| Q-9 | Gráfico de aquecimento da água: estados em A, C, E e fenômenos em B, D | Dis | M | AT | A=sólido, C=líquido, E=gasoso; B=fusão (0 °C), D=ebulição (100 °C) | — |
+| QC-5 | Gráfico de aquecimento: estado líquido nos pontos? | MC | M | AT | c) II, III e IV (II=fusão em curso, III=líquido aquecendo, IV=ebulição em curso) | — |
+| Q-10 | Transformações de energia nos painéis solares | Dis | F | AT | Solar → elétrica (painel) → pode ser luminosa, térmica etc. (uso doméstico) | — |
+| QI-1 | Cientista não obtém resultado esperado — o que fazer? | Dis | M | IC | Reformular a hipótese e repetir o ciclo experimental | — |
+| QI-2 | Relação entre alquimia e Química moderna | Dis | M | IC | A alquimia foi precursora da Química, reunindo práticas experimentais que, com o método científico, tornaram-se Química científica | — |
 
 ---
 
@@ -415,241 +505,415 @@ Evaporação (lenta), Ebulição (rápida, aquecimento) e Calefação (instantâ
 
 ---
 
-**QM-1** · múltipla escolha · médio · inspirada em: Q-3
+**QM-1** · MC · Médio · inspirada em: QC-1
 
-Uma professora pediu que os alunos classificassem as seguintes características de uma amostra de ferro: (I) tem massa; (II) apresenta brilho metálico; (III) ocupa lugar no espaço; (IV) pode ser magnetizado. Quais delas são propriedades **gerais** da matéria?
+Uma amostra de mercúrio líquido é colocada em um recipiente fechado. Qual propriedade geral da matéria impede que o mercúrio ocupe o mesmo espaço que as paredes do recipiente simultaneamente?
 
-a) I e II
-b) II e IV
-c) I e III
-d) III e IV
+a) Densidade
+b) Inércia
+c) Impenetrabilidade
+d) Viscosidade
+e) Extensão
 
-✅ Gabarito: c)
-📝 Resolução: Propriedades gerais são observadas em toda matéria: massa (I) e extensão/ocupar espaço (III). Brilho metálico e magnetização são específicas do ferro.
-⚠️ Professor: referência de estilo — crie variações originais, nunca reproduza diretamente.
-
----
-
-**QM-2** · múltipla escolha · médio · inspirada em: Q-8
-
-A acetona (T. fusão = −95 °C; T. ebulição = 56 °C) é usada como removedor de esmalte. Em um laboratório a 20 °C, qual é o estado físico da acetona e qual propriedade explica por que ela evapora rapidamente ao ser aplicada na pele?
-
-a) Gasoso; viscosidade
-b) Líquido; volatilidade
-c) Sólido; ductilidade
-d) Líquido; elasticidade
-
-✅ Gabarito: b)
-📝 Resolução: 20 °C está entre −95 °C (fusão) e 56 °C (ebulição) → líquido. Evaporação rápida à temperatura ambiente = volatilidade.
-⚠️ Professor: referência de estilo — crie variações originais, nunca reproduza diretamente.
+✅ **Gabarito:** c) Impenetrabilidade
+📝 **Resolução:** A impenetrabilidade afirma que dois corpos não podem ocupar o mesmo espaço ao mesmo tempo. As demais opções são: densidade e viscosidade são propriedades **específicas**; extensão é geral mas descreve ocupação de espaço, não exclusão; inércia refere-se à resistência à mudança de estado de movimento.
+⚠️ **Professor:** referência de estilo — crie variações originais, nunca reproduza diretamente.
 
 ---
 
-**QM-3** · dissertativa · médio · inspirada em: Q-5 e Q-6
+**QM-2** · MC · Médio · inspirada em: Q-4 / QC-6
 
-O grafite e o diamante são formados pelo mesmo elemento químico (carbono), mas têm propriedades físicas muito diferentes. O grafite risca papel com facilidade e é macio ao tato; o diamante é utilizado para cortar vidros e metais duros. Explique, usando o conceito de **dureza**, por que o diamante é mais adequado para cortar materiais resistentes.
+A tabela a seguir apresenta dados de uma substância X:
 
-✅ Gabarito: A dureza é a capacidade de um sólido riscar a superfície de outro. O diamante tem a maior dureza conhecida, o que significa que ele risca (e portanto corta) praticamente qualquer outro material. O grafite, apesar de ser carbono como o diamante, tem dureza muito menor — por isso risca papel mas não corta materiais resistentes.
-📝 Resolução: conecta definição de dureza (prop. específica dos sólidos) com aplicação prática.
-⚠️ Professor: referência de estilo — crie variações originais, nunca reproduza diretamente.
+| Temperatura de fusão | Temperatura de ebulição |
+|---|---|
+| −7,2 °C | 58,8 °C |
 
----
+Em qual dos seguintes contextos a substância X se encontra no estado **gasoso**?
 
-**QM-4** · múltipla escolha estilo concurso · difícil · inspirada em: Q-11 e Q-13
+a) No interior de um freezer a −15 °C
+b) Em temperatura ambiente (25 °C)
+c) Em um forno industrial a 80 °C
+d) Em uma câmara fria a 0 °C
+e) Em um lago congelado a −5 °C
 
-Durante a produção de gelo-seco (CO₂ sólido) em laboratório, o dióxido de carbono gasoso é resfriado abruptamente, tornando-se sólido sem passar pela fase líquida. Ao ser exposto à temperatura ambiente, o gelo-seco volta ao estado gasoso, também sem fase líquida visível. As mudanças de estado descritas, **nessa ordem**, são:
-
-a) Solidificação e sublimação
-b) Condensação e vaporização
-c) Ressublimação e sublimação
-d) Fusão e ebulição
-
-✅ Gabarito: c)
-📝 Resolução: Gasoso → sólido sem fase líquida = ressublimação. Sólido → gasoso sem fase líquida = sublimação. A ordem é ressublimação (na produção) e sublimação (à temperatura ambiente).
-⚠️ Professor: referência de estilo — crie variações originais, nunca reproduza diretamente.
+✅ **Gabarito:** c) Em um forno industrial a 80 °C
+📝 **Resolução:** T_eb = 58,8 °C. Para que a substância esteja gasosa, a temperatura deve ser **superior** à temperatura de ebulição. 80 °C > 58,8 °C → estado gasoso. Nas demais opções, a temperatura está abaixo de T_eb: a 25 °C → líquido; a −15 °C → sólido (abaixo de T_fus = −7,2 °C); a 0 °C e a −5 °C → sólido.
+⚠️ **Professor:** referência de estilo — crie variações originais, nunca reproduza diretamente.
 
 ---
 
-**QM-5** · dissertativa difícil · inspirada em: Q-12 e Q-7
+**QM-3** · Dissertativa · Médio · inspirada em: Q-6 e Q-7
 
-Uma substância desconhecida possui temperatura de fusão de 30 °C e temperatura de ebulição de 80 °C. Um estudante aqueceu uma amostra sólida dessa substância a partir de 10 °C. Descreva o que ocorre com a substância ao longo do aquecimento, nomeando cada etapa e indicando as temperaturas em que ocorrem as mudanças de estado. Explique também o que acontece com a temperatura durante as mudanças de estado.
+Um estudante observa dois fenômenos no cotidiano:
+- **Fenômeno I:** Perfume aplicado no pulso evapora rapidamente em um dia quente.
+- **Fenômeno II:** Mel escorre muito mais lentamente do que água ao ser derramado.
 
-✅ Gabarito: De 10 °C a 30 °C: aquecimento do sólido (temperatura sobe). A 30 °C: fusão — temperatura permanece constante enquanto sólido e líquido coexistem (toda energia vai para a mudança de estado). De 30 °C a 80 °C: aquecimento do líquido (temperatura sobe). A 80 °C: ebulição/vaporização — temperatura permanece constante enquanto líquido e vapor coexistem. Acima de 80 °C: aquecimento do gás.
-📝 Resolução: aplica leitura de curva de aquecimento a dados novos, exige compreensão dos plateaux.
-⚠️ Professor: referência de estilo — crie variações originais, nunca reproduza diretamente.
+a) Identifique qual propriedade específica dos líquidos está relacionada a cada fenômeno.
+b) Explique, em termos de partículas, por que líquidos diferentes apresentam valores distintos para essas propriedades.
+
+✅ **Gabarito:**
+a) Fenômeno I → **Volatilidade** (facilidade de evaporar em temperatura ambiente). Fenômeno II → **Viscosidade** (resistência ao escoamento).
+b) A volatilidade está relacionada à intensidade das forças de atração entre as partículas do líquido: quanto menores essas forças, mais facilmente as partículas escapam para a fase gasosa. A viscosidade depende do tamanho e da forma das partículas e das interações entre elas: moléculas maiores ou com mais interações tendem a escoar mais lentamente.
+⚠️ **Professor:** referência de estilo — crie variações originais, nunca reproduza diretamente.
 
 ---
 
-# SEÇÃO 12 — DIAGRAMAS SVG DO CAPÍTULO
+**QM-4** · MC (estilo concurso) · Difícil · inspirada em: QC-4 e QC-2
 
-### DIAGRAMA: timeline
-Linha do tempo dos cientistas citados no capítulo.
+*(Adaptado de contexto original)*
+
+Um técnico de laboratório realiza o seguinte procedimento com uma amostra de iodo sólido (I₂):
+
+**Etapa 1:** Aquece a amostra em béquer aberto até observar a formação de vapores violáceos.
+**Etapa 2:** Aproxima uma placa de vidro fria dos vapores, e cristais de iodo se depositam na superfície da placa.
+**Etapa 3:** Congela a placa e depois reduz a pressão bruscamente, fazendo os cristais desaparecerem sem formar líquido.
+
+Assinale a alternativa que identifica corretamente as mudanças de estado da **Etapa 1**, **Etapa 2** e **Etapa 3**, respectivamente:
+
+a) Fusão · Solidificação · Vaporização
+b) Sublimação · Ressublimação · Sublimação
+c) Vaporização · Condensação · Sublimação
+d) Sublimação · Condensação · Vaporização
+e) Fusão · Ressublimação · Sublimação
+
+✅ **Gabarito:** b) Sublimação · Ressublimação · Sublimação
+📝 **Resolução:**
+- **Etapa 1:** Iodo sólido → vapor **sem passar pelo líquido** = **sublimação**.
+- **Etapa 2:** Vapor de iodo → sólido na placa fria **sem passar pelo líquido** = **ressublimação** (sublimação inversa).
+- **Etapa 3:** Cristais sólidos desaparecem sem formar líquido sob baixa pressão = **sublimação** novamente.
+O erro clássico é confundir Etapa 2 com condensação (gasoso → **líquido**) ou solidificação (líquido → sólido) — mas em ambos os casos há passagem pelo estado líquido, o que não ocorre aqui.
+⚠️ **Professor:** referência de estilo — crie variações originais, nunca reproduza diretamente.
+
+---
+
+**QM-5** · Cálculo · Médio-Difícil · inspirada em: Q-8
+
+Três líquidos imiscíveis são adicionados a uma proveta. Os dados são:
+
+| Líquido | Massa | Volume |
+|---|---|---|
+| A | 79 g | 100 mL |
+| B | 50 g | 100 mL |
+| C | 1354,6 g | 100 mL |
+
+a) Calcule a densidade de cada líquido.
+b) Represente, do fundo para o topo da proveta, a ordem em que os líquidos se dispõem.
+c) Se um fragmento de madeira com densidade 0,6 g/cm³ for colocado na proveta, entre quais líquidos ele ficará?
+
+✅ **Gabarito:**
+a) $$d_A = \frac{79}{100} = 0{,}79 \text{ g/mL}$$ · $$d_B = \frac{50}{100} = 0{,}50 \text{ g/mL}$$ · $$d_C = \frac{1354{,}6}{100} = 13{,}546 \text{ g/mL}$$
+
+b) Do fundo ao topo: **C (13,546)** → **A (0,79)** → **B (0,50)**
+*(maior densidade fica no fundo)*
+
+c) A madeira tem d = 0,6 g/cm³. Como 0,50 < 0,6 < 0,79 → a madeira ficará **entre B e A** (acima de A e abaixo de B, na interface).
+📝 **Obs.:** Líquido C corresponde ao mercúrio da Q-8 original.
+⚠️ **Professor:** referência de estilo — crie variações originais, nunca reproduza diretamente.
+
+---
+
+## SEÇÃO 12 — DIAGRAMAS SVG DO CAPÍTULO
+
+---
+
+### DIAGRAMA: propriedades_materia
+Fluxo hierárquico das propriedades gerais e específicas da matéria com exemplos.
 
 ```svg
-<svg width="100%" viewBox="0 0 680 200" xmlns="http://www.w3.org/2000/svg">
-<defs>
-  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
-  markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-  <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
-  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  </marker>
-</defs>
-<!-- linha do tempo -->
-<line x1="40" y1="100" x2="640" y2="100" stroke="var(--color-border,#888)" stroke-width="2" marker-end="url(#arrow)"/>
-<!-- marcos de tempo -->
-<line x1="160" y1="90" x2="160" y2="110" stroke="var(--color-border,#888)" stroke-width="1.5"/>
-<line x1="460" y1="90" x2="460" y2="110" stroke="var(--color-border,#888)" stroke-width="1.5"/>
-<!-- Lavoisier — acima -->
-<rect x="80" y="20" width="160" height="58" rx="8" class="c-purple"/>
-<text x="160" y="38" text-anchor="middle" class="th" dominant-baseline="central">Lavoisier</text>
-<text x="160" y="56" text-anchor="middle" class="ts" dominant-baseline="central">1743–1794</text>
-<text x="160" y="72" text-anchor="middle" class="ts" dominant-baseline="central">Pai da Química moderna</text>
-<line x1="160" y1="78" x2="160" y2="100" stroke="var(--color-border,#888)" stroke-width="1" stroke-dasharray="4,2"/>
-<!-- contrib Lavoisier — abaixo -->
-<text x="160" y="120" text-anchor="middle" class="ts" dominant-baseline="central">Lei da Conservação das Massas</text>
-<text x="160" y="136" text-anchor="middle" class="ts" dominant-baseline="central">Método científico (5 etapas)</text>
-<!-- Dalton — abaixo -->
-<rect x="380" y="122" width="160" height="58" rx="8" class="c-teal"/>
-<text x="460" y="140" text-anchor="middle" class="th" dominant-baseline="central">John Dalton</text>
-<text x="460" y="158" text-anchor="middle" class="ts" dominant-baseline="central">1808</text>
-<text x="460" y="174" text-anchor="middle" class="ts" dominant-baseline="central">Hipótese atômica</text>
-<line x1="460" y1="100" x2="460" y2="122" stroke="var(--color-border,#888)" stroke-width="1" stroke-dasharray="4,2"/>
-<!-- contrib Dalton — acima -->
-<text x="460" y="80" text-anchor="middle" class="ts" dominant-baseline="central">Toda matéria = átomos</text>
-<text x="460" y="64" text-anchor="middle" class="ts" dominant-baseline="central">Base para modelos atômicos</text>
-<!-- labels de época -->
-<text x="160" y="190" text-anchor="middle" class="ts" dominant-baseline="central">Séc. XVIII</text>
-<text x="460" y="190" text-anchor="middle" class="ts" dominant-baseline="central">Séc. XIX</text>
+<svg width="100%" viewBox="0 0 680 420">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
+markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
+stroke-width="1.5" stroke-linecap="round"
+stroke-linejoin="round"/></marker></defs>
+
+<!-- Raiz: MATÉRIA -->
+<rect x="260" y="20" width="160" height="44" rx="8" class="c-teal"/>
+<text x="340" y="42" text-anchor="middle" class="th" dominant-baseline="central">MATÉRIA</text>
+
+<!-- Seta para Gerais -->
+<line x1="280" y1="64" x2="160" y2="110" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow)"/>
+<!-- Seta para Específicas -->
+<line x1="400" y1="64" x2="520" y2="110" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<!-- PROPRIEDADES GERAIS -->
+<rect x="60" y="110" width="200" height="44" rx="8" class="c-purple"/>
+<text x="160" y="132" text-anchor="middle" class="th" dominant-baseline="central">PROPRIEDADES GERAIS</text>
+
+<!-- PROPRIEDADES ESPECÍFICAS -->
+<rect x="420" y="110" width="210" height="44" rx="8" class="c-purple"/>
+<text x="525" y="132" text-anchor="middle" class="th" dominant-baseline="central">PROP. ESPECÍFICAS</text>
+
+<!-- Setas para exemplos gerais -->
+<line x1="80" y1="154" x2="55" y2="200" stroke="currentColor" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line x1="120" y1="154" x2="115" y2="200" stroke="currentColor" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line x1="160" y1="154" x2="175" y2="200" stroke="currentColor" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line x1="200" y1="154" x2="235" y2="200" stroke="currentColor" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line x1="235" y1="154" x2="295" y2="200" stroke="currentColor" stroke-width="1.2" marker-end="url(#arrow)"/>
+
+<!-- Exemplos gerais -->
+<rect x="20" y="200" width="70" height="44" rx="6" class="c-gray"/>
+<text x="55" y="215" text-anchor="middle" class="ts" dominant-baseline="central">Massa</text>
+<rect x="82" y="200" width="74" height="44" rx="6" class="c-gray"/>
+<text x="119" y="215" text-anchor="middle" class="ts" dominant-baseline="central">Extensão</text>
+<rect x="148" y="200" width="100" height="44" rx="6" class="c-gray"/>
+<text x="198" y="215" text-anchor="middle" class="ts" dominant-baseline="central">Impenetr.</text>
+<rect x="212" y="200" width="68" height="44" rx="6" class="c-gray"/>
+<text x="246" y="215" text-anchor="middle" class="ts" dominant-baseline="central">Inércia</text>
+<rect x="272" y="200" width="90" height="44" rx="6" class="c-gray"/>
+<text x="317" y="215" text-anchor="middle" class="ts" dominant-baseline="central">Divisibil.</text>
+
+<!-- Setas para exemplos específicos -->
+<line x1="450" y1="154" x2="430" y2="200" stroke="currentColor" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line x1="500" y1="154" x2="510" y2="200" stroke="currentColor" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line x1="545" y1="154" x2="585" y2="200" stroke="currentColor" stroke-width="1.2" marker-end="url(#arrow)"/>
+
+<!-- Exemplos específicos -->
+<rect x="385" y="200" width="84" height="44" rx="6" class="c-amber"/>
+<text x="427" y="215" text-anchor="middle" class="ts" dominant-baseline="central">Densidade</text>
+<rect x="475" y="200" width="82" height="58" rx="6" class="c-amber"/>
+<text x="516" y="220" text-anchor="middle" class="ts" dominant-baseline="central">Temp.</text>
+<text x="516" y="238" text-anchor="middle" class="ts" dominant-baseline="central">Fusão/Eb.</text>
+<rect x="563" y="200" width="88" height="44" rx="6" class="c-amber"/>
+<text x="607" y="215" text-anchor="middle" class="ts" dominant-baseline="central">Solubilidade</text>
+
+<!-- Alerta -->
+<rect x="60" y="290" width="560" height="58" rx="8" class="c-coral"/>
+<text x="340" y="310" text-anchor="middle" class="ts" dominant-baseline="central">Gerais: comuns a TODA matéria | Específicas: identificam e diferenciam materiais</text>
+<text x="340" y="330" text-anchor="middle" class="ts" dominant-baseline="central">Pegadinha: dureza e viscosidade são ESPECÍFICAS, não gerais!</text>
+
+<!-- Legenda -->
+<rect x="60" y="365" width="14" height="14" class="c-purple"/>
+<text x="82" y="372" class="ts" dominant-baseline="central">Categoria</text>
+<rect x="180" y="365" width="14" height="14" class="c-gray"/>
+<text x="202" y="372" class="ts" dominant-baseline="central">Prop. Geral</text>
+<rect x="310" y="365" width="14" height="14" class="c-amber"/>
+<text x="332" y="372" class="ts" dominant-baseline="central">Prop. Específica</text>
+<rect x="460" y="365" width="14" height="14" class="c-coral"/>
+<text x="482" y="372" class="ts" dominant-baseline="central">Alerta</text>
 </svg>
 ```
 
 ---
 
-### DIAGRAMA: transformacao_estados
-Fluxo completo das mudanças de estado físico da matéria.
+### DIAGRAMA: timeline
+Linha do tempo dos cientistas citados no capítulo.
 
 ```svg
-<svg width="100%" viewBox="0 0 680 340" xmlns="http://www.w3.org/2000/svg">
-<defs>
-  <marker id="arrow2" viewBox="0 0 10 10" refX="8" refY="5"
-  markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-  <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
-  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  </marker>
-</defs>
-<!-- estados -->
-<rect x="40" y="130" width="130" height="44" rx="8" class="c-teal"/>
-<text x="105" y="152" text-anchor="middle" class="th" dominant-baseline="central">SÓLIDO</text>
+<svg width="100%" viewBox="0 0 680 260">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
+markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
+stroke-width="1.5" stroke-linecap="round"
+stroke-linejoin="round"/></marker></defs>
 
-<rect x="275" y="130" width="130" height="44" rx="8" class="c-teal"/>
+<!-- Eixo do tempo -->
+<line x1="40" y1="140" x2="640" y2="140" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="648" y="144" class="ts" dominant-baseline="central">Tempo</text>
+
+<!-- Marcadores no eixo -->
+<line x1="100" y1="134" x2="100" y2="146" stroke="currentColor" stroke-width="1.5"/>
+<text x="100" y="158" text-anchor="middle" class="ts">384 a.C.</text>
+
+<line x1="350" y1="134" x2="350" y2="146" stroke="currentColor" stroke-width="1.5"/>
+<text x="350" y="158" text-anchor="middle" class="ts">1743</text>
+
+<line x1="530" y1="134" x2="530" y2="146" stroke="currentColor" stroke-width="1.5"/>
+<text x="530" y="158" text-anchor="middle" class="ts">1766</text>
+
+<!-- ARISTÓTELES — acima -->
+<line x1="100" y1="134" x2="100" y2="92" stroke="currentColor" stroke-width="1.2"/>
+<rect x="30" y="40" width="140" height="58" rx="8" class="c-purple"/>
+<text x="100" y="58" text-anchor="middle" class="th" dominant-baseline="central">Aristóteles</text>
+<text x="100" y="76" text-anchor="middle" class="ts" dominant-baseline="central">384–322 a.C.</text>
+<text x="100" y="108" text-anchor="middle" class="ts">4 elementos; matéria contínua</text>
+
+<!-- LAVOISIER — abaixo -->
+<line x1="350" y1="146" x2="350" y2="188" stroke="currentColor" stroke-width="1.2"/>
+<rect x="270" y="188" width="160" height="58" rx="8" class="c-teal"/>
+<text x="350" y="206" text-anchor="middle" class="th" dominant-baseline="central">Lavoisier</text>
+<text x="350" y="224" text-anchor="middle" class="ts" dominant-baseline="central">1743–1794</text>
+<text x="350" y="255" text-anchor="middle" class="ts">Lei conservação de massas</text>
+
+<!-- DALTON — acima -->
+<line x1="530" y1="134" x2="530" y2="92" stroke="currentColor" stroke-width="1.2"/>
+<rect x="455" y="40" width="150" height="58" rx="8" class="c-amber"/>
+<text x="530" y="58" text-anchor="middle" class="th" dominant-baseline="central">John Dalton</text>
+<text x="530" y="76" text-anchor="middle" class="ts" dominant-baseline="central">1766–1844</text>
+<text x="530" y="108" text-anchor="middle" class="ts">Teoria atômica</text>
+
+<!-- Legenda -->
+<rect x="40" y="220" width="14" height="14" class="c-purple"/>
+<text x="62" y="227" class="ts" dominant-baseline="central">Antiguidade</text>
+<rect x="160" y="220" width="14" height="14" class="c-teal"/>
+<text x="182" y="227" class="ts" dominant-baseline="central">Modernos (Quím. clássica)</text>
+<rect x="380" y="220" width="14" height="14" class="c-amber"/>
+<text x="402" y="227" class="ts" dominant-baseline="central">Modernos (teoria atômica)</text>
+</svg>
+```
+
+---
+
+### DIAGRAMA: mudancas_estado
+Fluxo completo das mudanças de estado físico com direção de calor.
+
+```svg
+<svg width="100%" viewBox="0 0 680 340">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
+markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
+stroke-width="1.5" stroke-linecap="round"
+stroke-linejoin="round"/></marker></defs>
+
+<!-- Estados -->
+<rect x="40" y="130" width="140" height="58" rx="10" class="c-teal"/>
+<text x="110" y="152" text-anchor="middle" class="th" dominant-baseline="central">SÓLIDO</text>
+<text x="110" y="172" text-anchor="middle" class="ts" dominant-baseline="central">Forma e vol. definidos</text>
+
+<rect x="270" y="130" width="140" height="58" rx="10" class="c-teal"/>
 <text x="340" y="152" text-anchor="middle" class="th" dominant-baseline="central">LÍQUIDO</text>
+<text x="340" y="172" text-anchor="middle" class="ts" dominant-baseline="central">Vol. fixo, forma variada</text>
 
-<rect x="510" y="130" width="130" height="44" rx="8" class="c-teal"/>
-<text x="575" y="152" text-anchor="middle" class="th" dominant-baseline="central">GASOSO</text>
+<rect x="500" y="130" width="140" height="58" rx="10" class="c-teal"/>
+<text x="570" y="152" text-anchor="middle" class="th" dominant-baseline="central">GASOSO</text>
+<text x="570" y="172" text-anchor="middle" class="ts" dominant-baseline="central">Forma e vol. do recipiente</text>
 
-<!-- Fusão: sólido → líquido -->
-<line x1="170" y1="144" x2="275" y2="144" stroke="var(--color-border,#e07)" stroke-width="2" marker-end="url(#arrow2)"/>
-<text x="222" y="136" text-anchor="middle" class="ts" dominant-baseline="central">Fusão</text>
+<!-- FUSÃO: sólido → líquido (acima, absorção) -->
+<line x1="180" y1="148" x2="268" y2="148" stroke="#2a9d8f" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="224" y="138" text-anchor="middle" class="ts">Fusão</text>
 
-<!-- Solidificação: líquido → sólido -->
-<line x1="275" y1="160" x2="170" y2="160" stroke="var(--color-border,#36a)" stroke-width="2" marker-end="url(#arrow2)"/>
-<text x="222" y="172" text-anchor="middle" class="ts" dominant-baseline="central">Solidificação</text>
+<!-- SOLIDIFICAÇÃO: líquido → sólido (abaixo, liberação) -->
+<line x1="270" y1="168" x2="182" y2="168" stroke="#e76f51" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="226" y="185" text-anchor="middle" class="ts">Solidificação</text>
 
-<!-- Vaporização: líquido → gasoso -->
-<line x1="405" y1="144" x2="510" y2="144" stroke="var(--color-border,#e07)" stroke-width="2" marker-end="url(#arrow2)"/>
-<text x="457" y="136" text-anchor="middle" class="ts" dominant-baseline="central">Vaporização</text>
+<!-- VAPORIZAÇÃO: líquido → gasoso (acima, absorção) -->
+<line x1="410" y1="148" x2="498" y2="148" stroke="#2a9d8f" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="454" y="138" text-anchor="middle" class="ts">Vaporização</text>
 
-<!-- Condensação: gasoso → líquido -->
-<line x1="510" y1="160" x2="405" y2="160" stroke="var(--color-border,#36a)" stroke-width="2" marker-end="url(#arrow2)"/>
-<text x="457" y="172" text-anchor="middle" class="ts" dominant-baseline="central">Condensação</text>
+<!-- CONDENSAÇÃO: gasoso → líquido (abaixo, liberação) -->
+<line x1="500" y1="168" x2="412" y2="168" stroke="#e76f51" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="456" y="185" text-anchor="middle" class="ts">Condensação</text>
 
-<!-- Sublimação: sólido → gasoso (arco por cima) -->
-<path d="M 105 130 Q 340 50 575 130" fill="none" stroke="var(--color-border,#e07)" stroke-width="2" marker-end="url(#arrow2)" stroke-dasharray="6,3"/>
-<text x="340" y="72" text-anchor="middle" class="ts" dominant-baseline="central">Sublimação</text>
+<!-- SUBLIMAÇÃO: sólido → gasoso (curva superior) -->
+<path d="M110 130 Q340 50 570 130" fill="none" stroke="#2a9d8f" stroke-width="1.8" stroke-dasharray="6 3" marker-end="url(#arrow)"/>
+<text x="340" y="62" text-anchor="middle" class="ts">Sublimação (sólido→gasoso)</text>
 
-<!-- Ressublimação: gasoso → sólido (arco por baixo) -->
-<path d="M 575 174 Q 340 260 105 174" fill="none" stroke="var(--color-border,#36a)" stroke-width="2" marker-end="url(#arrow2)" stroke-dasharray="6,3"/>
-<text x="340" y="248" text-anchor="middle" class="ts" dominant-baseline="central">Ressublimação</text>
+<!-- RESSUBLIMAÇÃO: gasoso → sólido (curva inferior) -->
+<path d="M570 188 Q340 270 110 188" fill="none" stroke="#e76f51" stroke-width="1.8" stroke-dasharray="6 3" marker-end="url(#arrow)"/>
+<text x="340" y="278" text-anchor="middle" class="ts">Ressublimação (gasoso→sólido)</text>
 
-<!-- Plasma box -->
-<rect x="275" y="285" width="130" height="44" rx="8" class="c-amber"/>
-<text x="340" y="303" text-anchor="middle" class="th" dominant-baseline="central">PLASMA</text>
-<text x="340" y="320" text-anchor="middle" class="ts" dominant-baseline="central">Gás superaquecido</text>
+<!-- Legenda calor -->
+<rect x="40" y="295" width="280" height="30" rx="6" class="c-gray"/>
+<text x="180" y="310" text-anchor="middle" class="ts" dominant-baseline="central">Setas verdes = absorção de calor (aquecimento)</text>
+<rect x="360" y="295" width="280" height="30" rx="6" class="c-coral"/>
+<text x="500" y="310" text-anchor="middle" class="ts" dominant-baseline="central">Setas laranjas = liberação de calor (resfriamento)</text>
+</svg>
+```
 
-<!-- Seta gás → plasma -->
-<line x1="575" y1="174" x2="400" y2="290" stroke="var(--color-border,#e07)" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrow2)"/>
-<text x="510" y="248" text-anchor="middle" class="ts" dominant-baseline="central">Superaquecimento</text>
+---
 
-<!-- Labels calor -->
-<rect x="220" y="8" width="130" height="28" rx="6" class="c-coral"/>
-<text x="285" y="22" text-anchor="middle" class="ts" dominant-baseline="central">Absorção de calor →</text>
+### DIAGRAMA: formulas
+Fórmula da densidade com variáveis, unidades e pegadinha.
 
-<rect x="330" y="8" width="130" height="28" rx="6" class="c-gray"/>
-<text x="395" y="22" text-anchor="middle" class="ts" dominant-baseline="central">← Liberação de calor</text>
+```svg
+<svg width="100%" viewBox="0 0 680 220">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
+markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
+stroke-width="1.5" stroke-linecap="round"
+stroke-linejoin="round"/></marker></defs>
+
+<!-- Nome da fórmula -->
+<rect x="40" y="20" width="140" height="44" rx="8" class="c-purple"/>
+<text x="110" y="42" text-anchor="middle" class="th" dominant-baseline="central">Densidade</text>
+
+<!-- Seta -->
+<line x1="180" y1="42" x2="228" y2="42" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<!-- Expressão -->
+<rect x="230" y="20" width="120" height="44" rx="8" class="c-teal"/>
+<text x="290" y="42" text-anchor="middle" class="th" dominant-baseline="central">d = m / V</text>
+
+<!-- Seta para variáveis -->
+<line x1="350" y1="42" x2="398" y2="42" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<!-- Variáveis -->
+<rect x="400" y="10" width="240" height="72" rx="8" class="c-gray"/>
+<text x="520" y="30" text-anchor="middle" class="ts" dominant-baseline="central">d: densidade (g/cm³ · g/mL · kg/L)</text>
+<text x="520" y="50" text-anchor="middle" class="ts" dominant-baseline="central">m: massa (g · kg)</text>
+<text x="520" y="70" text-anchor="middle" class="ts" dominant-baseline="central">V: volume (cm³ · mL · L)</text>
+
+<!-- Pegadinha -->
+<rect x="40" y="100" width="600" height="58" rx="8" class="c-coral"/>
+<text x="340" y="118" text-anchor="middle" class="ts" dominant-baseline="central">Pegadinha: usar unidades inconsistentes (m em kg + V em cm³)</text>
+<text x="340" y="138" text-anchor="middle" class="ts" dominant-baseline="central">Resultado fica em kg/cm³, não em g/cm³. Sempre converta antes!</text>
+
+<!-- Observação temperatura -->
+<rect x="40" y="170" width="600" height="36" rx="8" class="c-amber"/>
+<text x="340" y="188" text-anchor="middle" class="ts" dominant-baseline="central">A densidade varia com a temperatura — é uma propriedade intensiva e condicionada</text>
 </svg>
 ```
 
 ---
 
 ### DIAGRAMA: curva_aquecimento
-Curva de aquecimento da água (temperatura × tempo).
+Curva de aquecimento da água com fases e pontos de mudança de estado.
 
 ```svg
-<svg width="100%" viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg">
-<defs>
-  <marker id="arrow3" viewBox="0 0 10 10" refX="8" refY="5"
-  markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-  <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
-  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  </marker>
-</defs>
-<!-- eixos -->
-<line x1="80" y1="260" x2="640" y2="260" stroke="var(--color-border,#888)" stroke-width="2" marker-end="url(#arrow3)"/>
-<line x1="80" y1="260" x2="80" y2="20" stroke="var(--color-border,#888)" stroke-width="2" marker-end="url(#arrow3)"/>
-<!-- label eixos -->
-<text x="360" y="290" text-anchor="middle" class="t" dominant-baseline="central">Tempo</text>
-<text x="30" y="140" text-anchor="middle" class="t" dominant-baseline="central" transform="rotate(-90,30,140)">Temperatura (°C)</text>
+<svg width="100%" viewBox="0 0 680 360">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
+markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
+stroke-width="1.5" stroke-linecap="round"
+stroke-linejoin="round"/></marker></defs>
 
-<!-- linhas de referência horizontais -->
-<line x1="80" y1="200" x2="640" y2="200" stroke="var(--color-border,#bbb)" stroke-width="1" stroke-dasharray="4,3"/>
-<line x1="80" y1="100" x2="640" y2="100" stroke="var(--color-border,#bbb)" stroke-width="1" stroke-dasharray="4,3"/>
-<!-- labels temperatura -->
-<text x="70" y="200" text-anchor="end" class="ts" dominant-baseline="central">0°C</text>
-<text x="70" y="100" text-anchor="end" class="ts" dominant-baseline="central">100°C</text>
+<!-- Eixos -->
+<line x1="80" y1="290" x2="80" y2="30" stroke="currentColor" stroke-width="1.8" marker-end="url(#arrow)"/>
+<line x1="80" y1="290" x2="640" y2="290" stroke="currentColor" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="50" y="20" class="ts" dominant-baseline="central">T(°C)</text>
+<text x="645" y="293" class="ts" dominant-baseline="central">Tempo</text>
 
-<!-- curva -->
-<!-- trecho 1: sólido aquecendo (subida até 0°C) -->
-<line x1="100" y1="240" x2="170" y2="200" stroke="#006080" stroke-width="2.5"/>
-<!-- trecho 2: plateau fusão (0°C, t1 a t2) -->
-<line x1="170" y1="200" x2="280" y2="200" stroke="#006080" stroke-width="2.5"/>
-<!-- trecho 3: líquido aquecendo -->
-<line x1="280" y1="200" x2="400" y2="100" stroke="#006080" stroke-width="2.5"/>
-<!-- trecho 4: plateau ebulição (100°C, t3 a t4) -->
-<line x1="400" y1="100" x2="520" y2="100" stroke="#006080" stroke-width="2.5"/>
-<!-- trecho 5: vapor aquecendo -->
-<line x1="520" y1="100" x2="610" y2="50" stroke="#006080" stroke-width="2.5"/>
+<!-- Linhas de referência T=0 e T=100 -->
+<line x1="76" y1="230" x2="600" y2="230" stroke="currentColor" stroke-width="0.8" stroke-dasharray="4 3"/>
+<text x="56" y="230" text-anchor="middle" class="ts" dominant-baseline="central">0</text>
+<line x1="76" y1="120" x2="600" y2="120" stroke="currentColor" stroke-width="0.8" stroke-dasharray="4 3"/>
+<text x="56" y="120" text-anchor="middle" class="ts" dominant-baseline="central">100</text>
 
-<!-- marcadores t1, t2, t3, t4 -->
-<line x1="170" y1="255" x2="170" y2="265" stroke="var(--color-border,#888)" stroke-width="1.5"/>
-<text x="170" y="275" text-anchor="middle" class="ts" dominant-baseline="central">t₁</text>
-<line x1="280" y1="255" x2="280" y2="265" stroke="var(--color-border,#888)" stroke-width="1.5"/>
-<text x="280" y="275" text-anchor="middle" class="ts" dominant-baseline="central">t₂</text>
-<line x1="400" y1="255" x2="400" y2="265" stroke="var(--color-border,#888)" stroke-width="1.5"/>
-<text x="400" y="275" text-anchor="middle" class="ts" dominant-baseline="central">t₃</text>
-<line x1="520" y1="255" x2="520" y2="265" stroke="var(--color-border,#888)" stroke-width="1.5"/>
-<text x="520" y="275" text-anchor="middle" class="ts" dominant-baseline="central">t₄</text>
+<!-- Curva de aquecimento da água -->
+<!-- Segmento 1: sólido aquecendo (inclinado, abaixo de 0 °C) -->
+<line x1="90" y1="280" x2="160" y2="230" stroke="#2a9d8f" stroke-width="2.5"/>
+<!-- Segmento 2: fusão (horizontal em 0 °C) -->
+<line x1="160" y1="230" x2="280" y2="230" stroke="#e76f51" stroke-width="2.5"/>
+<!-- Segmento 3: líquido aquecendo (inclinado) -->
+<line x1="280" y1="230" x2="420" y2="120" stroke="#2a9d8f" stroke-width="2.5"/>
+<!-- Segmento 4: ebulição (horizontal em 100 °C) -->
+<line x1="420" y1="120" x2="540" y2="120" stroke="#e76f51" stroke-width="2.5"/>
+<!-- Segmento 5: vapor aquecendo (inclinado) -->
+<line x1="540" y1="120" x2="620" y2="60" stroke="#2a9d8f" stroke-width="2.5"/>
 
-<!-- labels dos estados -->
-<text x="130" y="235" text-anchor="middle" class="ts" dominant-baseline="central">Sólido</text>
-<text x="225" y="188" text-anchor="middle" class="ts" dominant-baseline="central">Sólido + Líquido</text>
-<text x="340" y="160" text-anchor="middle" class="ts" dominant-baseline="central">Líquido</text>
-<text x="460" y="88" text-anchor="middle" class="ts" dominant-baseline="central">Líquido + Vapor</text>
-<text x="575" y="72" text-anchor="middle" class="ts" dominant-baseline="central">Vapor</text>
+<!-- Rótulos dos segmentos -->
+<text x="118" y="260" text-anchor="middle" class="ts">Sólido</text>
+<text x="220" y="218" text-anchor="middle" class="ts">Fusão (t₁→t₂)</text>
+<text x="355" y="185" text-anchor="middle" class="ts">Líquido</text>
+<text x="480" y="108" text-anchor="middle" class="ts">Ebulição (t₃→t₄)</text>
+<text x="590" y="80" text-anchor="middle" class="ts">Vapor</text>
 
-<!-- anotações plateau -->
-<rect x="155" y="170" width="140" height="24" rx="4" class="c-coral"/>
-<text x="225" y="182" text-anchor="middle" class="ts" dominant-baseline="central">Fusão — T constante</text>
-<rect x="390" y="70" width="140" height="24" rx="4" class="c-coral"/>
-<text x="460" y="82" text-anchor="middle" class="ts" dominant-baseline="central">Ebulição — T constante</text>
+<!-- Marcadores t1 t2 t3 t4 -->
+<line x1="160" y1="290" x2="160" y2="230" stroke="currentColor" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="160" y="305" text-anchor="middle" class="ts">t₁</text>
+<line x1="280" y1="290" x2="280" y2="230" stroke="currentColor" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="280" y="305" text-anchor="middle" class="ts">t₂</text>
+<line x1="420" y1="290" x2="420" y2="120" stroke="currentColor" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="420" y="305" text-anchor="middle" class="ts">t₃</text>
+<line x1="540" y1="290" x2="540" y2="120" stroke="currentColor" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="540" y="305" text-anchor="middle" class="ts">t₄</text>
+
+<!-- Legenda -->
+<rect x="80" y="326" width="240" height="20" rx="4" class="c-gray"/>
+<text x="200" y="336" text-anchor="middle" class="ts" dominant-baseline="central">Segmentos inclinados = T variando (aquecimento)</text>
+<rect x="340" y="326" width="260" height="20" rx="4" class="c-coral"/>
+<text x="470" y="336" text-anchor="middle" class="ts" dominant-baseline="central">Segmentos horizontais = mudança de estado (T constante)</text>
 </svg>
 ```
+
