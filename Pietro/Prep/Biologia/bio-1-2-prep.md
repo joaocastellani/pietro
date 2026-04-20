@@ -1,393 +1,403 @@
+# bio-1-2-prep.md — Preparação de Aula · Ácidos Nucleicos
+
+---
+
+## SEÇÃO 0 — ÍNDICE DE DIAGRAMAS
+
+```
 ## DIAGRAMAS DISPONÍVEIS — bio-1-2
 
 | Nome | Identificador na Seção 12 | Quando usar na Etapa 1 |
 |------|--------------------------|------------------------|
-| Estrutura do nucleotídeo | DIAGRAMA: nucleotideo_componentes | Ao apresentar nucleotídeo — componentes e diferenças DNA/RNA |
-| Pareamento de bases | DIAGRAMA: pareamento_bases | Ao apresentar regras A–T, G–C, A–U e distinção timina/uracila |
-| Síntese proteica | DIAGRAMA: sintese_proteica | Ao apresentar transcrição e tradução (Seção 4) |
-| Timeline da descoberta do DNA | DIAGRAMA: timeline_dna | Ao apresentar Seção 3 — cientistas e controvérsia Franklin |
+| Estrutura do Nucleotídeo | DIAGRAMA: nucleotideo | Introduzir composição de DNA e RNA |
+| Comparativo DNA × RNA | DIAGRAMA: dna_vs_rna | Distinguir estrutura, pentose e bases das duas moléculas |
+| Síntese Proteica | DIAGRAMA: sintese_proteica | Explicar transcrição e tradução |
+| Timeline dos Cientistas | DIAGRAMA: timeline_cientistas | Contextualizar história da descoberta do DNA |
+| Cromossomos e Ploidia | DIAGRAMA: cromossomos_ploidia | Explicar haploide, diploide, cariótipo e gametas |
 
 ### Tabelas markdown (Seção 6):
-- Comparação DNA × RNA (6 características)
+- Comparativo DNA × RNA (6 atributos)
 - Tipos de RNA e funções (RNAm, RNAt, RNAr)
-- Bases nitrogenadas — classificação completa
-- Conceitos de genética — resumo tabular
 
 ### Nota ao Professor:
-Para cada diagrama: leia o bloco SVG da Seção 12 e passe ao Visualizer.
+Para cada diagrama: leia o SVG da Seção 12 e passe ao Visualizer.
 Tabelas da Seção 6 são apresentadas como markdown no chat.
+```
 
 ---
 
 ## SEÇÃO 1 — METADADOS
 
+```
 # PREPARAÇÃO DE AULA — BIOLOGIA
 - Unidade: 1
 - Capítulo: 2
-- Tema: Ácidos nucleicos
-- Perfil: misto (descritivo-científico + histórico-conceitual + processual)
-- Processos principais: Transcrição (DNA → RNAm); Síntese de proteínas (tradução)
-- Cientistas citados: James Watson, Francis Crick, Maurice Wilkins, Rosalind Franklin
+- Tema: Ácidos Nucleicos
+- Perfil: misto
+- Processos principais: Síntese proteica (transcrição + tradução)
+- Cientistas citados: James Watson, Francis Crick,
+  Maurice Wilkins, Rosalind Franklin
+```
 
 ---
 
 ## SEÇÃO 2 — RESUMO CONCEITUAL DO CAPÍTULO
 
-### O que são ácidos nucleicos?
+---
 
-Existem dois tipos de ácido nucleico nas células: o **DNA** (ácido desoxirribonucleico) e o **RNA** (ácido ribonucleico). Ambos são moléculas fundamentais — juntas, controlam todas as atividades celulares e os mecanismos de hereditariedade. Se o DNA é o "arquivo" com a receita completa da vida, o RNA é o "mensageiro" que leva essa receita para ser executada.
+### 🧩 Bloco 1 — O que são ácidos nucleicos?
+
+Os **ácidos nucleicos** são as moléculas responsáveis por guardar e transmitir a informação genética dos seres vivos. Existem dois tipos: o **DNA** e o **RNA**. Ambos são formados por unidades menores chamadas **nucleotídeos** — assim como uma palavra é formada por letras, uma molécula de DNA ou RNA é formada por nucleotídeos encadeados.
+
+No cotidiano, quando ouvimos falar em "código genético", "teste de paternidade" ou "DNA de uma espécie", estamos falando justamente dessas moléculas.
 
 ---
 
-### Nucleotídeo — a unidade básica
+### 🧩 Bloco 2 — O nucleotídeo: a unidade básica
 
-DNA e RNA são construídos a partir de unidades menores chamadas **nucleotídeos**. Cada nucleotídeo tem exatamente três componentes:
+Cada nucleotídeo é composto por **três partes**:
 
-1. **Fosfato (P)** — grupo fosfato, dá o caráter ácido à molécula
-2. **Pentose** — açúcar de 5 carbonos: **desoxirribose** no DNA, **ribose** no RNA
-3. **Base nitrogenada** — uma das cinco possíveis: A, T, G, C (DNA) ou A, U, G, C (RNA)
+1. **Fosfato** — grupo que confere caráter ácido à molécula
+2. **Pentose** — açúcar de 5 carbonos (desoxirribose no DNA; ribose no RNA)
+3. **Base nitrogenada** — a "letra" do código genético
 
-Os nucleotídeos se encadeiam formando longas cadeias — duas cadeias unidas = DNA; uma cadeia = RNA.
+As bases nitrogenadas são divididas em dois grupos:
+- **Púricas** (estrutura dupla): Adenina (A) e Guanina (G)
+- **Pirimídicas** (estrutura simples): Citosina (C), Timina (T) e Uracila (U)
 
----
-
-### Bases nitrogenadas — classificação e pareamento
-
-As cinco bases se dividem em dois grupos:
-- **Púricas** (estrutura maior): Adenina (A) e Guanina (G)
-- **Pirimídicas** (estrutura menor): Citosina (C), Timina (T) e Uracila (U)
-
-As bases do DNA se ligam em pares sempre fixos — **a ligação não é aleatória**:
-- **A — T** (adenina com timina, no DNA)
-- **G — C** (guanina com citosina)
-- **A — U** (adenina com uracila, no RNA)
-
-Essa regra é a chave para entender como o DNA se duplica e como o RNA é fabricado a partir dele. As bases são formadas por carbono, hidrogênio e oxigênio.
+> 🔑 **Macete:** Pur**A G**ente — as bases PÚRicas são **A** e **G**.
 
 ---
 
-### DNA — estrutura e função
+### 🧩 Bloco 3 — DNA: o arquivo da vida
 
-O DNA armazena e transmite a informação genética de geração em geração. Sua estrutura é uma **dupla-hélice**: duas cadeias de nucleotídeos entrelaçadas como uma escada retorcida, unidas pelas bases nitrogenadas no centro. As fitas têm orientação oposta — uma corre no sentido 5'→3' e a outra no sentido 3'→5'.
+O **DNA** (ácido desoxirribonucleico) é a molécula que armazena toda a informação genética de um ser vivo. Suas principais características:
 
-O DNA se localiza:
-- No **núcleo** das células eucariontes (organismos com núcleo definido)
-- No **citoplasma** das células procariontes (ex: bactérias), onde não há núcleo
+- Pentose: **desoxirribose**
+- Bases: A, G, C e **T** (timina — exclusiva do DNA)
+- Estrutura: **dupla fita** em forma de **dupla hélice**
+- Localização: núcleo (eucarióticos) / citoplasma (procarióticos)
 
-Em comparação com o RNA, o DNA tem três diferenças exclusivas:
+As duas fitas se mantêm unidas pelo **pareamento específico das bases**:
+- Adenina ↔ Timina (A–T)
+- Guanina ↔ Citosina (G–C)
 
-| Característica | DNA | RNA |
-|---|---|---|
-| Pentose | Desoxirribose | Ribose |
-| Base exclusiva | Timina (T) | Uracila (U) |
-| Número de fitas | Cadeia dupla | Cadeia simples |
-
----
-
-### RNA — estrutura e função
-
-O RNA é uma cadeia simples de nucleotídeos com ribose como pentose. Sua função principal é **decodificar a informação do DNA** e orientar a produção de proteínas. Existem três tipos com funções específicas:
-
-- **RNAm (mensageiro):** copia a informação do DNA e a leva ao local de síntese proteica
-- **RNAt (transportador):** carrega os aminoácidos corretos até o ribossomo
-- **RNAr (ribossômico):** forma os ribossomos — as "fábricas" onde a proteína é montada
-
-O RNA também pode ser o genoma de alguns vírus (ex: vírus influenza, coronavírus).
+Essa regra é chamada de **Regra de Chargaff** e tem uma consequência matemática importante: em qualquer molécula de DNA, **%A = %T** e **%G = %C**, e a soma de todas as bases é sempre 100%.
 
 ---
 
-### Transcrição e síntese de proteínas
+### 🧩 Bloco 4 — RNA: o mensageiro e executor
 
-O fluxo da informação genética ocorre em duas etapas:
+O **RNA** (ácido ribonucleico) é a molécula que "lê" as instruções do DNA e as coloca em prática na síntese de proteínas. Diferenças em relação ao DNA:
 
-**1. Transcrição (núcleo):** uma fita do DNA serve de molde para fabricar uma molécula de RNAm. O RNAm é uma "cópia em RNA" de um trecho do DNA.
+- Pentose: **ribose**
+- Bases: A, G, C e **U** (uracila — no lugar da timina)
+- Estrutura: **fita simples**
+- Localização: núcleo e citoplasma
 
-**2. Tradução/síntese proteica (ribossomo):**
-- O RNAm chega ao ribossomo (formado por RNAr)
-- O RNAt traz os aminoácidos corretos, lendo a sequência do RNAm
-- Os aminoácidos se encadeiam formando uma proteína
+Existem **três tipos** de RNA, cada um com papel específico:
 
-A proteína produzida determina uma característica do organismo. Assim, o DNA controla indiretamente todas as características — via RNA → proteína.
-
----
-
-### Regulação gênica
-
-Todas as células do corpo possuem o **mesmo DNA**, mas cada tipo celular expressa apenas os genes necessários para sua função. Esse controle de "ligar e desligar" genes se chama **regulação gênica**. Por isso, células do fígado se comportam diferente de células musculares, mesmo tendo DNA idêntico.
+| Tipo | Função |
+|---|---|
+| **RNAm** (mensageiro) | Leva a "receita" do DNA ao ribossomo |
+| **RNAt** (transportador) | Carrega os aminoácidos até o ribossomo |
+| **RNAr** (ribossômico) | Forma a estrutura do ribossomo |
 
 ---
 
-### Conceitos de genética associados ao DNA
+### 🧩 Bloco 5 — Síntese proteica: do DNA à proteína
 
-**Cromossomos:** quando a célula vai se dividir, o DNA se condensa com proteínas chamadas histonas formando os cromossomos — estruturas visíveis ao microscópio. Cada lado do "X" cromossômico é uma cópia do outro (DNA já duplicado).
+A síntese proteica é o processo pelo qual a célula usa a informação do DNA para fabricar proteínas. Ocorre em duas etapas:
 
-**Cariótipo:** o conjunto completo de cromossomos de uma célula. Em humanos: 46 cromossomos organizados em 23 pares.
+1. **Transcrição** (núcleo): o DNA serve de molde para produzir uma fita de RNAm
+2. **Tradução** (ribossomo, no citoplasma): o RNAm é "lido" pelos ribossomos; o RNAt traz os aminoácidos certos; o RNAr catalisa a ligação entre eles formando a proteína
 
-**Genes:** trechos específicos do DNA que carregam a "receita" para uma característica. Os genes encontram-se aos pares dentro das células.
-
-**Cromossomos homólogos:** pares de cromossomos com mesmo tamanho, forma e conjunto de genes — um de origem materna, outro paterna.
-
-**Genes alelos:** par de genes, um em cada cromossomo homólogo, que determinam a mesma característica (ex: cor dos olhos).
-
-**Ploidia celular:**
-- **Diploide (2n):** cromossomos em pares — células somáticas humanas (46 cromossomos)
-- **Haploide (n):** cromossomos sem par — gametas (óvulo e espermatozoide)
+> 💡 Analogia: o DNA é o livro de receitas (fica na biblioteca = núcleo); o RNAm é a fotocópia da receita (sai da biblioteca); o ribossomo é a cozinha; o RNAt é o entregador dos ingredientes (aminoácidos); a proteína é o prato final.
 
 ---
 
-### A descoberta da estrutura do DNA
+### 🧩 Bloco 6 — Genes, cromossomos e cariótipo
 
-A estrutura de dupla-hélice foi proposta em meados da década de 1950 por Watson, Crick e Wilkins — com base nas fotografias de difração de raios X capturadas por **Rosalind Franklin**. Os três receberam o Nobel de Medicina e Fisiologia em 1962. Franklin, que faleceu em 1958, não pôde recebê-lo. O capítulo traz uma seção de reflexão sobre as contribuições não creditadas de Franklin e a ética na ciência.
+- **Gene**: sequência de nucleotídeos do DNA que carrega a "receita" para uma característica
+- **Cromossomo**: DNA altamente condensado + proteínas histonas; visível durante a divisão celular
+- **Cromossomos homólogos**: par de cromossomos com mesma forma, tamanho e conjunto de genes
+- **Genes alelos**: versões do mesmo gene em cromossomos homólogos (ex: gene para cor dos olhos)
+- **Cariótipo**: conjunto completo de cromossomos de um indivíduo (humanos: 46, em 23 pares)
 
 ---
 
-### Textos complementares do capítulo
+### 🧩 Bloco 7 — Ploidia celular e tipos de célula
 
-**Projeto Genoma Humano (PGH):** iniciado nos anos 1990, mapeou todos os genes do DNA humano — 3,2 bilhões de nucleotídeos. Cerca de 50% dos genes ainda têm função desconhecida. Gerou aplicações em medicina (terapias gênicas, diagnóstico), agricultura (transgênicos) e segurança (forense).
+- **Célula diploide (2n)**: possui dois cromossomos de cada tipo (pares homólogos) → células somáticas
+- **Célula haploide (n)**: possui apenas um cromossomo de cada tipo → gametas (óvulo e espermatozoide)
+- **Células somáticas**: compõem tecidos e órgãos; diploides
+- **Células sexuais (gametas)**: participam da reprodução; haploides
+- Quando óvulo + espermatozoide se unem → **zigoto** (diploide = 2n)
 
-**DNA mitocondrial (mtDNA):** mitocôndrias e cloroplastos possuem DNA próprio, circular, semelhante ao de bactérias — evidência da **teoria endossimbiótica** (essas organelas teriam sido bactérias incorporadas por outras células). O mtDNA é herdado exclusivamente da mãe (herança monoparental materna).
+---
+
+### 🧩 Bloco 8 — DNA mitocondrial e Genoma Humano
+
+- **DNA mitocondrial**: presente nas mitocôndrias; circular, pequeno, semelhante ao de bactérias; herdado **exclusivamente da mãe**
+- **Genoma humano**: totalidade do DNA de um ser humano; ~3,2 bilhões de nucleotídeos
+- **Projeto Genoma Humano (PGH)**: iniciado nos anos 1990 com o objetivo de mapear todos os genes humanos
+
+---
+
+### 🧩 Bloco 9 — História: a descoberta da estrutura do DNA
+
+Na década de 1950, quatro cientistas foram centrais para desvendar a estrutura do DNA:
+
+- **Rosalind Franklin**: produziu a imagem de difração de raios X (Foto 51) que mostrou o formato helicoidal do DNA
+- **Maurice Wilkins**: supervisionava Franklin e compartilhou os dados dela sem consentimento
+- **Watson e Crick**: usaram os dados de Franklin para propor o modelo de dupla hélice em 1953
+- Em 1962, Watson, Crick e Wilkins receberam o **Nobel de Medicina** — Franklin havia falecido em 1958 e não foi incluída
 
 ---
 
 ## SEÇÃO 3 — CIENTISTAS E HISTÓRIA DA CIÊNCIA
 
-### James Watson (1928–)
+### James Watson (1928–presente)
 **Área:** Biologia molecular
-**Contribuição no capítulo:** Co-descobridor da estrutura de dupla-hélice do DNA nos anos 1950. Recebeu o Nobel de Medicina e Fisiologia em 1962 junto com Crick e Wilkins.
-**O que mudou:** Revolucionou a compreensão da hereditariedade e abriu caminho para a biologia molecular moderna.
-**Associado a:** Estrutura de dupla-hélice do DNA · livro *The Double Helix*
-**Contexto histórico:** O material registra críticas a Watson por pontos de vista eugenistas e por ter retratado Rosalind Franklin de forma negativa em seu livro.
+**Contribuição no capítulo:** Co-descobridor da estrutura de dupla hélice do DNA (1953), junto com Francis Crick.
+**O que mudou:** Permitiu compreender como o DNA armazena e replica informação genética, revolucionando a biologia e a medicina.
+**Associado a:** Modelo de dupla hélice do DNA; utilizou imagens de difração de raios X de Rosalind Franklin sem os devidos créditos; autor de *The Double Helix*.
+**Contexto histórico:** Período pós-2ª Guerra Mundial; corrida científica para desvendar o mecanismo da hereditariedade.
+
+---
 
 ### Francis Crick (1916–2004)
-**Área:** Biologia molecular / Física
-**Contribuição no capítulo:** Co-descobridor da estrutura de dupla-hélice. Nobel de Medicina e Fisiologia em 1962.
-**Associado a:** Estrutura de dupla-hélice do DNA
-**Contexto histórico:** Trabalhou com Watson usando dados de raios X de Franklin, sem crédito adequado a ela.
+**Área:** Biofísica / Biologia molecular
+**Contribuição no capítulo:** Co-descobridor da estrutura de dupla hélice do DNA.
+**O que mudou:** O modelo de dupla hélice explicou como o DNA pode ser copiado com precisão (base a base), fundamentando toda a genética moderna.
+**Associado a:** Modelo de dupla hélice; livro *The Double Helix* (retratou Franklin negativamente).
+**Contexto histórico:** Década de 1950; Cavendish Laboratory, Cambridge.
+
+---
 
 ### Maurice Wilkins (1916–2004)
 **Área:** Biofísica
-**Contribuição no capítulo:** Terceiro Nobel de 1962. Rosalind Franklin trabalhava sob sua supervisão quando capturou a imagem de raios X decisiva.
-**Associado a:** Difração de raios X do DNA
+**Contribuição no capítulo:** Trabalhava com cristalografia de raios X no King's College London; compartilhou os dados de Rosalind Franklin com Watson e Crick sem consentimento dela.
+**O que mudou:** Seus dados (de Franklin) foram cruciais para o modelo de dupla hélice.
+**Associado a:** Difração de raios X do DNA; King's College London.
+**Contexto histórico:** Mesma época e contexto de Watson e Crick.
+
+---
 
 ### Rosalind Franklin (1920–1958)
-**Área:** Cristalografia / Biologia molecular
-**Contribuição no capítulo:** Capturou a imagem de difração de raios X que revelou pela primeira vez a estrutura helicoidal do DNA. Sua contribuição foi usada por Watson, Crick e Wilkins sem crédito adequado. Faleceu em 1958 aos 37 anos (câncer de ovário) — antes do Nobel de 1962, para o qual não era mais elegível.
-**O que mudou:** Sua imagem foi a evidência experimental que tornou possível a proposta da dupla-hélice.
-**Contexto histórico:** Seção "Reflexão" do capítulo discute a ética na ciência e o reconhecimento tardio de Franklin. Seu legado é hoje amplamente celebrado.
+**Área:** Cristalografia de raios X / Biofísica
+**Contribuição no capítulo:** Produziu a Foto 51 — imagem de difração de raios X que revelou pela primeira vez a estrutura helicoidal do DNA. Suas medições precisas foram fundamentais para o modelo proposto por Watson e Crick.
+**O que mudou:** Forneceu a evidência experimental direta da estrutura do DNA, sem a qual o modelo de dupla hélice não teria sido possível.
+**Associado a:** Foto 51; cristalografia de raios X; King's College London.
+**Contexto histórico:** Cientista mulher numa época de forte discriminação de gênero na ciência; faleceu antes do Nobel de 1962, que não é concedido postumamente.
 
 ---
 
 ## SEÇÃO 4 — PROCESSOS E CICLOS BIOLÓGICOS
 
-### Transcrição (DNA → RNAm)
+### Síntese Proteica (Expressão Gênica)
 
 **Etapas:**
-1. Uma fita do DNA é usada como molde
-2. Nucleotídeos de RNA se encaixam complementarmente à fita molde (A–U, T–A, G–C, C–G)
-3. Uma molécula de RNAm é produzida como "cópia em RNA" de um trecho do DNA
+1. **Transcrição** — No núcleo da célula eucariótica, o DNA se abre em um trecho e serve de molde para a síntese de uma fita de RNAm. Os nucleotídeos de RNA se encaixam de acordo com o pareamento de bases (A–U, G–C). O RNAm produzido migra para o citoplasma.
+2. **Tradução** — No citoplasma, o RNAm se associa ao ribossomo (composto de RNAr). O RNAt, carregando aminoácidos específicos, reconhece os códons do RNAm e deposita os aminoácidos na sequência correta. Os aminoácidos são ligados entre si, formando a proteína (polipeptídeo).
 
-**Entradas:** fita molde do DNA; nucleotídeos de RNA
-**Saídas:** molécula de RNAm
-**Local:** núcleo (em eucariontes)
-**Condições:** não especificadas em detalhe no material
+**Entradas:** DNA (molde), nucleotídeos de RNA (transcrição), aminoácidos (tradução)
+**Saídas:** RNAm (transcrição), proteína/polipeptídeo (tradução)
+**Local:**
+- Transcrição → núcleo (eucarióticos)
+- Tradução → citoplasma, nos ribossomos
 
-💡 **Pegadinha:** Na transcrição, a base complementar da adenina do DNA é a **uracila** (não timina) — porque estamos formando RNA, não DNA.
+**Condições:** Enzimas (RNA polimerase na transcrição); ribossomos; RNAt carregados com aminoácidos
 
----
-
-### Síntese de proteínas (tradução)
-
-**Etapas:**
-1. RNAm sai do núcleo e chega ao ribossomo (formado por RNAr)
-2. RNAt traz o aminoácido correto lendo os códons do RNAm
-3. Os aminoácidos se encadeiam na sequência determinada pelo RNAm
-4. A proteína é liberada ao final
-
-**Entradas:** RNAm (informação); aminoácidos transportados por RNAt
-**Saídas:** proteína (cadeia de aminoácidos)
-**Local:** ribossomos (citoplasma ou retículo endoplasmático)
-
-💡 **Pegadinha:** Confundir transcrição com tradução. Transcrição = DNA → RNA (no núcleo). Tradução = RNA → proteína (no ribossomo). São etapas diferentes em locais diferentes.
-
----
-
-## SEÇÃO 5 — CLASSIFICAÇÃO E TAXONOMIA
-
-#### 5.1 — Tipos celulares quanto à ploidia
-
-| Tipo | Ploidia | Cromossomos (humanos) | Exemplos |
-|---|---|---|---|
-| Células somáticas | Diploide (2n) | 46 (23 pares) | Neurônios, células musculares, hepatócitos |
-| Células sexuais (gametas) | Haploide (n) | 23 | Óvulo, espermatozoide |
-| Zigoto | Diploide (2n) | 46 | Resultado da fecundação |
-
-#### 5.2 — Critério de classificação
-- **Ploidia celular:** quantidade de cromossomos na célula. Células somáticas são diploides (2n); gametas são haploides (n).
-- Pegadinha: o zigoto formado pela fusão dos gametas é diploide (n + n = 2n) — não haploide.
+💡 **Pegadinha:** Muitos alunos confundem o local da **transcrição** com o da **tradução**. A transcrição ocorre no **núcleo** (onde está o DNA); a tradução ocorre no **citoplasma** (onde estão os ribossomos). Em procarióticos, como não há núcleo separado, ambas ocorrem no citoplasma. Outra pegadinha clássica: dizer que o DNA vai "para fora do núcleo" — na verdade, é o **RNAm** que sai, o DNA permanece no núcleo.
 
 ---
 
 ## SEÇÃO 6 — DADOS FACTUAIS DENSOS
 
-### Comparação DNA × RNA
+### Tabela 1 — Comparativo DNA × RNA
 
 | Característica | DNA | RNA | ⚠️ Pegadinha |
 |---|---|---|---|
-| Pentose | Desoxirribose | Ribose | Desoxirribose = sem um oxigênio; daí o prefixo "desoxi" |
-| Base exclusiva | Timina (T) | Uracila (U) | Timina só no DNA; uracila só no RNA |
-| Bases comuns | A, G, C | A, G, C | Adenina, guanina e citosina aparecem nos dois |
-| Número de fitas | Dupla (hélice) | Simples | RNA simples não é "metade do DNA" |
-| Localização | Núcleo (eucar.); citoplasma (procar.) | Núcleo e citoplasma | RNA transita entre os dois compartimentos |
-| Função principal | Armazenar e transmitir inf. genética | Traduzir e sintetizar proteínas | Um depende do outro |
+| Nome completo | Ácido desoxirribonucleico | Ácido ribonucleico | — |
+| Pentose | Desoxirribose | Ribose | Confundir os açúcares é erro frequente |
+| Bases nitrogenadas | A, G, C, **T** (timina) | A, G, C, **U** (uracila) | Timina só no DNA; uracila só no RNA |
+| Estrutura | Dupla fita (dupla hélice) | Fita simples | RNA não é dupla hélice (em geral) |
+| Localização (eucariótico) | Núcleo | Núcleo e citoplasma | RNA está em ambos os compartimentos |
+| Função principal | Armazenar e transmitir info. genética | Síntese proteica e regulação gênica | DNA não fabrica proteína diretamente |
 
-### Tipos de RNA e funções
+---
 
-| Tipo | Sigla | Função |
+### Tabela 2 — Tipos de RNA
+
+| Tipo | Sigla | Função | ⚠️ Pegadinha |
+|---|---|---|---|
+| RNA mensageiro | RNAm | Leva a informação do DNA ao ribossomo | Não é ele quem "carrega" os aminoácidos |
+| RNA transportador | RNAt | Transporta aminoácidos ao ribossomo | Não é ele quem "lê" o código — quem lê é o ribossomo |
+| RNA ribossômico | RNAr | Forma a estrutura dos ribossomos; catalisa ligação dos aminoácidos | Confundir com RNAt é erro comum |
+
+---
+
+### Tabela 3 — Regra de Chargaff (pareamento de bases no DNA)
+
+| Base | Emparelha com | Tipo |
 |---|---|---|
-| RNA mensageiro | RNAm | Transfere informação do DNA → ribossomo |
-| RNA transportador | RNAt | Carrega aminoácidos ao ribossomo |
-| RNA ribossômico | RNAr | Compõe os ribossomos (local de síntese proteica) |
+| Adenina (A) | Timina (T) | Púrica ↔ Pirimídica |
+| Guanina (G) | Citosina (C) | Púrica ↔ Pirimídica |
+| **%A = %T** | **%G = %C** | A + T + G + C = 100% |
 
-### Bases nitrogenadas — classificação completa
+---
 
-| Classificação | Bases | Presente em |
-|---|---|---|
-| Púricas (2 anéis) | Adenina (A), Guanina (G) | DNA e RNA |
-| Pirimídicas (1 anel) | Citosina (C) | DNA e RNA |
-| Pirimídicas (1 anel) | Timina (T) | Apenas DNA |
-| Pirimídicas (1 anel) | Uracila (U) | Apenas RNA |
+### Tabela 4 — Ploidia celular
 
-### Conceitos de genética — resumo tabular
-
-| Conceito | Definição | Dado numérico |
-|---|---|---|
-| Cromossomos | DNA condensado com histonas; visível na divisão | Humanos: 46 |
-| Cariótipo | Conjunto de cromossomos da célula; constante por espécie | Humanos: 23 pares |
-| Genes | Trechos do DNA com "receita" para uma característica | Pares nas células |
-| Cromossomos homólogos | Mesmo tamanho, forma e conjunto de genes | 23 pares em humanos |
-| Genes alelos | Par de genes em homólogos para a mesma característica | Ex: cor dos olhos |
-| Células somáticas | Tecidos e órgãos | Diploides (2n = 46) |
-| Células sexuais | Gametas (óvulo, espermatozoide) | Haploides (n = 23) |
-| PGH | Mapeamento do genoma humano | 3,2 bilhões de nucleotídeos |
+| Tipo celular | Ploidia | Símbolo | Exemplo |
+|---|---|---|---|
+| Célula somática | Diploide | 2n | Células da pele, músculo, neurônios |
+| Gameta | Haploide | n | Óvulo, espermatozoide |
+| Zigoto | Diploide | 2n | Célula resultante da fecundação |
+| Humano (cariótipo) | Diploide | 2n = 46 | 23 pares de cromossomos |
 
 ---
 
 ## SEÇÃO 7 — DICAS DE OURO
 
-💡 **Dica 1 — Timina ou Uracila?**
-Timina (T) existe **só no DNA**. Uracila (U) existe **só no RNA**. Se a questão mencionar uracila, está falando de RNA. Se mencionar timina, DNA. Nunca os dois na mesma molécula.
+💡 **Dica 1 — Timina vs. Uracila: quem é de quem?**
+A **Timina** mora no **DNA** (lembre: T de **D**NA → não, mas pense: **T**imina = **T**radicional, o DNA é mais estável). A **Uracila** fica no **RNA**. Em provas, quando aparecer uracila numa sequência de bases, é RNA — e não DNA. Nunca haverá timina no RNA nem uracila no DNA.
 
-💡 **Dica 2 — Ribose vs. desoxirribose**
-"Desoxi" = "sem oxigênio". A desoxirribose tem um átomo de oxigênio a menos que a ribose. DNA = **d**esoxirribose. RNA = **r**ibose. Macete: **D**NA → **D**esoxirribose · **R**NA → **R**ibose.
+💡 **Dica 2 — A Regra de Chargaff e os cálculos de porcentagem**
+Se uma questão diz que o DNA tem X% de citosina, então **guanina = X%** também. E como A + T + G + C = 100%, basta calcular: A + T = 100 − 2X, e como A = T, divide por 2. Esse raciocínio resolve a maioria das questões de porcentagem de bases do DNA.
 
-💡 **Dica 3 — Transcrição ≠ Tradução**
-Transcrição: DNA → RNAm (no **núcleo**). Tradução: RNAm → proteína (no **ribossomo**). Questão que perguntar "onde ocorre a transcrição em eucariotos?" → núcleo.
+💡 **Dica 3 — DNA não sai do núcleo; RNAm sim**
+Uma pegadinha clássica afirma que "o DNA vai ao ribossomo para produzir proteínas". Isso é **errado**. O DNA fica no núcleo. Quem vai ao ribossomo é o **RNAm** (cópia da informação do DNA). O DNA é como um livro que só pode ser lido na biblioteca — você tira uma fotocópia (RNAm) e leva para usar em outro lugar.
 
-💡 **Dica 4 — Regra de Chargaff (% de bases)**
-Em qualquer molécula de DNA: %A = %T e %G = %C. E %A + %T + %G + %C = 100%. Se uma questão diz que o DNA tem 16% de citosina → guanina também é 16% → A + T = 68% → A = T = 34%.
+💡 **Dica 4 — Haploide × Diploide: lembre dos gametas**
+Células **haploides** (n) possuem **metade** dos cromossomos da espécie. Em humanos, n = 23. São os **gametas** (óvulo e espermatozoide). Quando dois gametas se unem na fecundação, formam o **zigoto**, que é **diploide** (2n = 46). A célula-ovo (zigoto) dará origem a todas as células do organismo por mitose.
 
-💡 **Dica 5 — RNA não é filamento do DNA**
-O RNA é fabricado a partir do DNA, mas **não é um pedaço do DNA**. Tem pentose diferente (ribose), base diferente (uracila) e é cadeia simples. Afirmação "RNA é um filamento do DNA" → FALSA.
+💡 **Dica 5 — Os três RNAs e seus papéis na síntese proteica**
+Use a analogia da construção: o **RNAm** é a planta (projeto), o **RNAt** é o entregador de materiais (aminoácidos), e o **RNAr** é a obra em si (o ribossomo, onde tudo acontece). Em prova, se perguntarem qual RNA "transporta aminoácidos", é o **RNAt** — não confundir com o RNAm.
 
-💡 **Dica 6 — DNA mitocondrial é materno**
-O mtDNA é herdado exclusivamente da mãe. Questões de genética forense e rastreamento de ancestralidade exploram muito esse dado. Motivo: o espermatozoide não transmite mitocôndrias ao óvulo durante a fecundação.
+💡 **Dica 6 — Rosalind Franklin e o Nobel**
+Questões de vestibular frequentemente exploram a história da descoberta do DNA. Lembre: Franklin **não recebeu o Nobel** porque faleceu em 1958, e o prêmio de 1962 foi para Watson, Crick e Wilkins. O Nobel **não é concedido postumamente**. A contribuição dela foi a **Foto 51** (difração de raios X) — evidência direta da estrutura helicoidal.
 
 ---
 
 ## SEÇÃO 8 — ALERTAS DE INCONSISTÊNCIA
 
-⚠️ **ALERTA — Denominação do Nobel**
-- Dado no arquivo de captura inicial: "Prêmio Nobel de Fisiologia"
-- Dado correto: **Prêmio Nobel de Fisiologia ou Medicina** (denominação oficial)
-- Impacto: usar denominação correta ao apresentar Watson, Crick e Wilkins.
+```
+# GAPS — bio-1-2
+# Gerado automaticamente pelo Prompt de Preparação
 
-⚠️ **ALERTA — Metadados do arquivo de captura**
-- O arquivo `bio-1-2.md` chegou com cabeçalho indicando "Unidade: 2, Arquivo: bio-2-1.md"
-- Dado correto conforme contexto da sessão: **Unidade 1, Capítulo 2 → bio-1-2**
-- Impacto: nenhum no conteúdo pedagógico; apenas para nomenclatura dos arquivos no KB.
+## INFERÊNCIAS USADAS NO PREP
+
+| Seção | Campo | Valor inferido | Fonte da inferência |
+|-------|-------|---------------|---------------------|
+| Seção 3 | Período de vida de Watson | 1928–presente | Conhecimento geral de biologia |
+| Seção 3 | Período de vida de Crick | 1916–2004 | Conhecimento geral de biologia |
+| Seção 3 | Período de vida de Wilkins | 1916–2004 | Conhecimento geral de biologia |
+| Seção 4 | Enzima RNA polimerase | citada como condição da transcrição | Conhecimento geral; não mencionada no material |
+| Seção 4 | Noção de códon no RNAt | inferida na descrição da tradução | Conhecimento geral; não mencionada explicitamente |
+
+## DADOS AUSENTES — AÇÃO NECESSÁRIA
+
+| Seção | Campo | Motivo da ausência | Ação recomendada |
+|-------|-------|-------------------|-----------------|
+| Seção 11 / QC-4 | Numeração exata das etapas 1–4 no diagrama de síntese proteica | Esquema disponível na imagem mas numeração parcialmente inferida | Confirmar numeração das setas no diagrama original da pág. 34 |
+| Seção 11 / QC-3 | Sequências exatas das amostras 1 e 2 | Possível discrepância de transcrição no material capturado | Verificar sequências originais na pág. 33 do livro |
+```
+
+---
+
+⚠️ **ALERTA — Q-4 (Uracila no DNA)**
+- Dado no material: *"Descubra as porcentagens referentes às quantidades de timina, uracila, adenina e citosina"*
+- Problema: A questão pede porcentagem de **uracila** em uma molécula de **DNA**. Uracila não existe no DNA — é exclusiva do RNA. A questão pode estar com erro de formulação, ou pode ser uma "pegadinha" esperando que o aluno identifique que a uracila é ausente no DNA (% = 0).
+- Dado correto: DNA não contém uracila. O aluno deve responder: uracila = 0%; e com 35% de guanina → citosina = 35%; adenina = timina = (100 − 70)/2 = 15%.
+- **Impacto na aula:** Alertar os alunos antes de resolver. Pode ser questão intencional para testar atenção, ou erro tipográfico do livro. Verificar enunciado original.
+
+---
+
+⚠️ **VISUAL AUSENTE — Esquema da dupla hélice com bases rotuladas**
+- Sugestão: imagem disponível nas páginas 22–23 do material (fornecida); incorporar o SVG DIAGRAMA: dna_vs_rna para suprir esta lacuna visual.
 
 ---
 
 ## SEÇÃO 9 — SÍNTESE DO CAPÍTULO (para warm-up)
 
-#### Bloco 1 — Conceitos e Definições
+### Bloco 1 — Conceitos e Definições
+
+- **Ácido nucleico**
+  - Definição: `______` (molécula responsável por armazenar e transmitir a informação genética; existem dois tipos: DNA e RNA)
+  - Exemplo: `______` (DNA no núcleo das células; RNA nos ribossomos)
 
 - **Nucleotídeo**
-  - Componentes: `______` + `______` + `______` (fosfato; pentose; base nitrogenada)
+  - Definição: `______` (unidade básica dos ácidos nucleicos, formada por fosfato + pentose + base nitrogenada)
 
-- **DNA**
-  - Pentose: `______` (desoxirribose)
-  - Base exclusiva: `______` (timina)
-  - Estrutura: `______` (cadeia dupla / dupla-hélice)
-  - Localização em eucariontes: `______` (núcleo)
+- **Regra de Chargaff**
+  - Definição: `______` (no DNA, adenina sempre se liga à timina e guanina sempre se liga à citosina; %A = %T e %G = %C)
 
-- **RNA**
-  - Pentose: `______` (ribose)
-  - Base exclusiva: `______` (uracila)
-  - Estrutura: `______` (cadeia simples)
+- **Cromossomo**
+  - Definição: `______` (estrutura formada por DNA condensado + histonas, visível durante a divisão celular)
 
-- **Pareamento de bases no DNA**
-  - A liga-se a: `______` (T — timina)
-  - G liga-se a: `______` (C — citosina)
+- **Ploidia celular**
+  - Definição: `______` (quantidade de cromossomos de uma célula; diploide = 2 cópias; haploide = 1 cópia)
 
-- **Pareamento no RNA**
-  - A liga-se a: `______` (U — uracila)
+- **Cariótipo**
+  - Definição: `______` (conjunto de todos os cromossomos de um indivíduo; em humanos = 46 cromossomos, 23 pares)
 
-- **Regulação gênica**
-  - Definição: controle dos genes `______` em cada célula (expressos)
-  - Observação: todas as células têm o `______` DNA, mas expressam genes `______` (mesmo; diferentes)
+---
 
-#### Bloco 2 — Processos
+### Bloco 2 — Processos e Ciclos
 
-- **Transcrição**
-  - Entrada: `______` (fita de DNA molde)
-  - Saída: `______` (RNAm)
-  - Local (eucariotos): `______` (núcleo)
+- **Síntese proteica**
+  - Etapa 1 (Transcrição): `______` (DNA → RNAm, no núcleo)
+  - Etapa 2 (Tradução): `______` (RNAm + RNAt + RNAr → proteína, no citoplasma/ribossomo)
+  - Entrada: `______` (DNA, nucleotídeos de RNA, aminoácidos)
+  - Saída: `______` (RNAm na transcrição; proteína na tradução)
+  - Local: `______` (transcrição: núcleo; tradução: ribossomo no citoplasma)
 
-- **Síntese proteica (tradução)**
-  - RNAm: transfere `______` ao ribossomo (informação/instrução)
-  - RNAt: transporta `______` (aminoácidos)
-  - RNAr: forma os `______` (ribossomos)
-  - Produto final: `______` (proteína)
+---
 
-#### Bloco 3 — Lacunas para Warm-Up
+### Bloco 3 — Lacunas para Warm-Up
 
-1. Os dois tipos de ácido nucleico são o `______` e o `______`. Ambos são formados por unidades chamadas `______`.
-*(resposta: DNA; RNA; nucleotídeos)*
+1. O nucleotídeo é formado por três componentes: fosfato, `______` e base nitrogenada.
+*(resposta: pentose — desoxirribose no DNA ou ribose no RNA)*
 
-2. Um nucleotídeo é composto por três partes: `______`, `______` e `______`.
-*(resposta: fosfato; pentose; base nitrogenada)*
+2. No DNA, a adenina sempre se liga à `______`, enquanto a guanina se liga à `______`.
+*(resposta: timina; citosina)*
 
-3. No DNA, a adenina se pareia com `______` e a guanina se pareia com `______`. No RNA, a adenina se pareia com `______`.
-*(resposta: timina; citosina; uracila)*
+3. A base nitrogenada exclusiva do DNA é a `______`; a exclusiva do RNA é a `______`.
+*(resposta: timina; uracila)*
 
-4. O DNA possui a pentose `______`, enquanto o RNA possui `______`. O DNA tem a base exclusiva `______`; o RNA tem `______`.
-*(resposta: desoxirribose; ribose; timina; uracila)*
+4. A etapa da síntese proteica que ocorre no núcleo da célula eucariótica é a `______`.
+*(resposta: transcrição)*
 
-5. Na síntese proteica, o `______` leva a informação do DNA ao ribossomo; o `______` transporta os aminoácidos; o `______` forma o ribossomo.
-*(resposta: RNAm; RNAt; RNAr)*
+5. Um organismo com células diploides possui `______` cromossomos de cada tipo, enquanto seus gametas são `______`.
+*(resposta: dois / haploides)*
 
-6. A etapa que ocorre no núcleo das células eucariontes, produzindo RNAm a partir do DNA, chama-se `______`. A etapa seguinte, que ocorre no ribossomo, chama-se `______`.
-*(resposta: transcrição; tradução)*
+6. O RNA que transporta aminoácidos até o ribossomo é o `______`.
+*(resposta: RNAt — RNA transportador)*
 
-7. O cariótipo humano possui `______` cromossomos organizados em `______` pares. Células somáticas são `______` (2n); gametas são `______` (n).
-*(resposta: 46; 23; diploides; haploides)*
+7. Em humanos, o cariótipo é composto de `______` cromossomos, organizados em `______` pares.
+*(resposta: 46 / 23)*
 
-8. Segundo a teoria `______`, mitocôndrias e cloroplastos teriam sido bactérias ancestrais incorporadas por outras células. O DNA mitocondrial é herdado exclusivamente da `______`.
-*(resposta: endossimbiótica; mãe)*
+8. O DNA mitocondrial é herdado exclusivamente da `______`, pois após a fecundação apenas as mitocôndrias do `______` entram no zigoto.
+*(resposta: mãe / óvulo)*
 
-#### Bloco 4 — Tabela Síntese
+---
+
+### Bloco 4 — Tabela Síntese
 
 | Conceito | Lacuna — resposta esperada |
 |---|---|
-| Nucleotídeo | Composto por `______` + `______` + `______` → fosfato; pentose; base nitrogenada |
-| DNA — pentose e base exclusiva | Pentose: `______`; base exclusiva: `______` → desoxirribose; timina |
-| RNA — pentose e base exclusiva | Pentose: `______`; base exclusiva: `______` → ribose; uracila |
-| Pareamento DNA | A-`______` · G-`______` → T (timina); C (citosina) |
-| Transcrição | DNA molde → `______`; ocorre no `______` → RNAm; núcleo |
-| Tradução | RNAm (informação) + RNAt (`______`) + RNAr (`______`) → proteína → aminoácidos; ribossomo |
-| Cariótipo humano | `______` cromossomos em `______` pares; somáticas = diploides (2n); gametas = `______` (n) → 46; 23; haploides |
-| Teoria endossimbiótica | Mitocôndrias e cloroplastos teriam sido `______` ancestrais; DNA mitocondrial herdado da `______` → bactérias; mãe |
+| Pentose do DNA | `______` → *desoxirribose* |
+| Pentose do RNA | `______` → *ribose* |
+| Base exclusiva do DNA | `______` → *timina (T)* |
+| Base exclusiva do RNA | `______` → *uracila (U)* |
+| Estrutura do DNA | `______` → *dupla hélice (duas fitas antiparalelas)* |
+| Estrutura do RNA | `______` → *fita simples* |
+| Local da transcrição (eucariótico) | `______` → *núcleo* |
+| Local da tradução | `______` → *citoplasma (ribossomo)* |
+| Regra: se DNA tem 20% de G, então %C = | `______` → *20% (pois %G = %C pela Regra de Chargaff)* |
+| Pegadinha: uracila pode aparecer no DNA? | `______` → *não — uracila é exclusiva do RNA* |
 
 ---
 
@@ -395,322 +405,472 @@ O mtDNA é herdado exclusivamente da mãe. Questões de genética forense e rast
 
 ### Síntese do Livro — ÁCIDOS NUCLEICOS
 
+*(Imagem da Síntese fornecida — conteúdo extraído)*
+
 | Nó / Posição | Já dado | Lacuna — resposta esperada |
 |---|---|---|
-| Pílula central | Nucleotídeos | — |
-| Constituição química (3 componentes) | Fosfato · Pentose · Base nitrogenada | — (já dados) |
-| Ramificação: vão originar as moléculas → DNA | DNA: ácido desoxirribonucleico | — |
-| DNA → Pentose | Pentose: `______` | Desoxirribose |
-| DNA → Bases nitrogenadas | Bases nitrogenadas: Citosina – Guanina – Adenina – `______` | Timina |
-| Ramificação: vão originar as moléculas → RNA | RNA: ácido ribonucleico | — |
-| RNA → Pentose | Pentose: `______` | Ribose |
-| RNA → Bases nitrogenadas | Bases nitrogenadas: Citosina – Guanina – Adenina – `______` | Uracila |
-| RNA → tipos (3 setas) | RNA mensageiro · RNA transportador · `______` | RNA ribossômico |
-| Tabela inferior: DNA | DNA – material genético das células | — |
-| Tabela inferior: Cromossomos | Cromossomos – DNA em sua forma `______` | condensada |
-| Tabela inferior: Cariótipo | Cariótipo – Todos os cromossomos de uma `______` | célula |
-| Tabela inferior: Genes | Genes – Parte de DNA que carrega uma `______` | característica |
-| Tabela inferior: Cromossomos homólogos | Cromossomos `______` – cromossomos iguais e com o mesmo conjunto de genes | homólogos |
-| Tabela inferior: Genes alelos | Genes alelos – genes que carregam a mesma `______` | característica |
-| Tabela inferior: Ploidia celular | Ploidia celular – quantidade de `______` nas células | cromossomos |
-| Tabela inferior: Células somáticas | Células somáticas – células `______` | diploides |
-| Tabela inferior: Células sexuais | Células sexuais – células `______` | haploides |
+| Nó central | Nucleotídeos | — |
+| Constituição química — ramo 1 | Fosfato | — |
+| Constituição química — ramo 2 | Pentose | — |
+| Constituição química — ramo 3 | Base nitrogenada | — |
+| Molécula originada 1 | DNA: ácido desoxirribonucleico | — |
+| Molécula originada 2 | RNA: ácido ribonucleico | — |
+| DNA — Pentose | `______` | *desoxirribose* |
+| DNA — Bases nitrogenadas | `______` | *Citosina, Guanina, Adenina, Timina* |
+| RNA — Pentose | `______` | *ribose* |
+| RNA — Bases nitrogenadas | `______` | *Citosina, Guanina, Adenina, Uracila* |
+| RNA — tipos (3 ramos) | RNA mensageiro / RNA transportador / RNA ribossômico | — |
+| DNA — definição na tabela | Material genético das células | — |
+| Cromossomos — definição | `______` | *DNA em sua forma condensada* |
+| Cariótipo — definição | `______` | *Todos os cromossomos de uma célula* |
+| Genes — definição | `______` | *Parte do DNA que carrega uma característica* |
+| Cromossomos homólogos | `______` | *Cromossomos iguais com o mesmo conjunto de genes* |
+| Genes alelos | `______` | *Genes que carregam a mesma característica* |
+| Ploidia celular | `______` | *Quantidade de cromossomos nas células* |
+| Células somáticas | `______` | *Células diploides* |
+| Células sexuais | `______` | *Células haploides* |
 
 ---
 
 ## SEÇÃO 11 — QUESTÕES DE REFERÊNCIA
 
-#### Bloco A — Catálogo das questões
+### Bloco A — Catálogo das questões
 
-| # | Enunciado resumido | Tipo | Dif. | Gabarito | Obs. |
-|---|---|---|---|---|---|
-| Q-1 | Identificar A (base nitrogenada), B (pentose), C (fosfato) no diagrama do nucleotídeo | Id | F | A = base nitrogenada · B = pentose · C = fosfato/grupo fosfato | — |
-| Q-2 | Identificar pares de bases nitrogenadas no gene mostrado na dupla-hélice (A=Adenina, G=Guanina) | Id | F | Adenina (A) pareia com Timina (T) · Guanina (G) pareia com Citosina (C) | — |
-| Q-3 | Sequência complementar de GGCTACCTA | Dis | F | CCGATGGAT (G↔C, C↔G, T↔A, A↔T) | — |
-| QC-1 | DNA com 16% de citosina — determinar % de guanina e timina | Dis | M | G = 16% (G=C); A+T = 68%; T = 34% (A=T) | Uerj |
-| Q-4 | DNA com 35% de guanina — determinar % de T, U, A, C | Dis | M | C = 35%; A = T = 15%; U = 0% (DNA não tem uracila) ⚠️ pegadinha da uracila | — |
-| Q-5 | Analisar imagem de molécula com bases A, G, U, C: identificar tipo, unidade básica e componentes | Id | M | a) RNA — presença de uracila (U) · b) nucleotídeo · c) bases nitrogenadas (A, G, U, C) + pentose + fosfato | — |
-| QC-2 | Alternativa correta sobre composição de nucleotídeos DNA/RNA | MC | M | **c)** nucleotídeos de DNA podem ter desoxirribose + fosfato + timina | OBB |
-| Q-6 | Soma V/F: 01+02+08 corretas (04 errada: RNA não é só fosfato; 16 errada: uracila não é do DNA) | VF | M | Soma = 01+02+08 = **11** | — |
-| QC-3 | Sequências de DNA de felinos — amostras 1 e 2 são tigres; são indivíduos diferentes; hemácias de felinos não têm núcleo (crítico está errado) | Dis | D | a) tigres-de-bengala (sequência idêntica); indivíduos diferentes (posição 20: G≠T) · b) pesquisador tem razão — hemácias de felinos, como de mamíferos, não têm núcleo e portanto não têm DNA nuclear | Unicamp 2018 |
-| QC-4 | Etapa da síntese proteica que ocorre no núcleo em eucariotos | MC | M | **a) 1** — transcrição (DNA → RNAm) ocorre no núcleo | Cefet-MG 2018 ⚠️ esquema visual |
-| QC-5 | Moléculas com uracila que silenciam o RNAm — função é regulação gênica | MC | M | **e)** regulação gênica (silenciamento gênico do RNAm) | Cefet-MG 2017 |
-| QC-6 | Primeiro evento para expressão do DNA | MC | M | **d)** transcrição em RNA mensageiro | UEA-AM 2024 |
-| Q-7 | DNA com 30%A, 30%T, 20%C, 20%G — base complementar de cada | Dis | M | A→T · T→A · C→G · G→C (confirma regra de Chargaff: A=T, G=C) | — |
-| Q-8 | Interação RNAm + RNAt + RNAr na síntese proteica | Dis | M | RNAm: leva informação do DNA · RNAt: traz aminoácidos · RNAr: forma ribossomo onde a síntese ocorre | — |
-| QC-7 | Mutação serina→prolina no gene TAAR5: molécula = DNA; nucleotídeo substituído = U→C no RNAm (UCU/UCC/UCA/UCG → CCU/CCC/CCA/CCG: 1ª base muda de U para C) | Dis | D | a) DNA · b) substituição da 1ª base do códon: U→C no RNAm (equivale a T→C na fita molde do DNA) | Fuvest 2024 |
-
-#### Bloco B — Questões modelo originais
-
-**QM-1** · múltipla escolha · médio · inspirada em Q-5
-
-Uma molécula foi analisada em laboratório e apresentou as seguintes características: cadeia simples, pentose ribose e bases nitrogenadas adenina, guanina, citosina e uracila. Essa molécula é:
-
-a) DNA — porque é formada por nucleotídeos.
-b) RNA — porque possui ribose e uracila em vez de desoxirribose e timina.
-c) DNA — porque possui adenina e guanina.
-d) RNA — porque está localizada apenas no núcleo celular.
-
-✅ Gabarito: b
-📝 Resolução: Ribose (não desoxirribose) + uracila (não timina) + cadeia simples = RNA. A alternativa d é incorreta pois o RNA está presente tanto no núcleo quanto no citoplasma.
-⚠️ Professor: referência de estilo — crie variações originais, nunca reproduza diretamente.
+| # | Enunciado resumido | Tipo | Dif. | Origem | Gabarito | Obs. |
+|---|---|---|---|---|---|---|
+| Q-1 | Identificar A, B e C no esquema do nucleotídeo | Id | F | AT | A = fosfato; B = pentose; C = base nitrogenada | ⚠️ depende do esquema |
+| Q-2 | Identificar pares de bases nitrogenadas no gene da dupla hélice | Id | F | AT | Adenina–Timina e Guanina–Citosina | ⚠️ depende do esquema |
+| Q-3 | Determinar fita complementar de GGCTACCTA | Dis | M | AT | CCGATGGAT | — |
+| QC-1 | DNA com 16% de citosina: calcular %G e %T | Dis | M | AT | G = 16%; T = 34% (pois A+T = 68%, A=T=34%) | — |
+| Q-4 | DNA com 35% de G: calcular %T, %U, %A, %C | Dis | M | AT | G = C = 35%; A = T = 15%; U = 0% (não existe no DNA) | ⚠️ uracila em DNA = erro no enunciado |
+| Q-5 | Identificar molécula de RNA pela cadeia simples e uracila | Id | F | AT | a) RNA (cadeia simples, uracila presente); b) nucleotídeo; c) fosfato, ribose e base nitrogenada | ⚠️ depende do esquema |
+| QC-2 | Alternativa correta sobre composição de nucleotídeos | MC | M | AT | c) nucleotídeo de DNA = desoxirribose + fosfato + timina | — |
+| Q-6 | Somatório de afirmativas corretas (01, 02, 08) | Dis | M | AT | Soma = 01 + 02 + 08 = 11 (afirmativas 04 e 16 são falsas) | — |
+| QC-3 | Análise de sequências do gene Gapdh em felinos | Dis | D | AT | a) tigres-de-bengala; mesma espécie mas indivíduos diferentes; b) pesquisador tem razão (células epiteliais nas fezes têm DNA nuclear) | — |
+| QC-4 | Etapa da síntese proteica que ocorre no núcleo | MC | M | AT | a) 1 (transcrição — DNA → RNAm no núcleo) | ⚠️ verificar numeração do diagrama |
+| QC-5 | Função das moléculas que inibem o RNAm | MC | M | AT | b) síntese de proteínas | — |
+| QC-6 | Primeiro evento na expressão gênica a partir do DNA | MC | F | AT | d) A transcrição em RNA mensageiro | — |
+| Q-7 | Identificar bases complementares de A, T, C, G | Dis | M | AT | A↔T, T↔A, C↔G, G↔C | — |
+| Q-8 | Explicar interação RNAm, RNAt e RNAr na síntese proteica | Dis | D | AT | RNAm leva a sequência; RNAt traz aminoácidos; RNAr forma o ribossomo e catalisa a ligação | — |
+| QC-7 | Mutação no DNA que altera aminoácido serina→prolina | Dis | D | AT | Mutação ocorre no DNA; UCX (serina) → CCX (prolina): substituição de U por C na 1ª posição do códon | — |
 
 ---
 
-**QM-2** · múltipla escolha · médio · inspirada em QC-1
+### Bloco B — Questões modelo originais
 
-Uma análise de DNA revelou que 22% das bases nitrogenadas são de adenina. Com base nas regras de pareamento, qual é a porcentagem de citosina nessa molécula?
+---
+
+**QM-1** · múltipla escolha · médio · inspirada em: Q-3
+
+Uma pesquisadora sequenciou um fragmento de DNA e obteve a seguinte fita: 5'–ATCGGCTA–3'. Ao analisar a fita complementar, ela percebeu que um nucleotídeo estava ausente. Considerando as regras de pareamento do DNA, qual seria a sequência correta da fita complementar?
+
+a) 5'–TAGCCGAT–3'
+b) 3'–TAGCCGAT–5'
+c) 5'–UAGCCGAU–3'
+d) 3'–ATCGGCTA–5'
+
+✅ **Gabarito:** b)
+📝 **Resolução:** A fita complementar é antiparalela. Pareando base a base (A↔T, T↔A, C↔G, G↔C): A→T, T→A, C→G, G→C, G→C, C→G, T→A, A→T = TAGCCGAT. Por ser antiparalela à fita 5'→3', ela é lida 3'→5'. A alternativa c) está errada pois usa uracila (exclusiva do RNA).
+⚠️ **Professor:** referência de estilo — crie variações com sequências diferentes antes de usar.
+
+---
+
+**QM-2** · múltipla escolha · médio · inspirada em: QC-1
+
+Uma molécula de DNA de dupla fita apresenta 22% de adenina em sua composição total de bases nitrogenadas. Com base na Regra de Chargaff, qual é o percentual de citosina nessa molécula?
 
 a) 22%
-b) 28%
-c) 44%
+b) 44%
+c) 28%
 d) 56%
 
-✅ Gabarito: b
-📝 Resolução: Se A = 22%, então T = 22% (A = T). A + T = 44%, portanto G + C = 56%. Como G = C, então C = 28%.
-⚠️ Professor: referência de estilo — crie variações originais, nunca reproduza diretamente.
+✅ **Gabarito:** c)
+📝 **Resolução:** Pela Regra de Chargaff, %A = %T = 22%. Portanto A + T = 44%. Como A + T + G + C = 100%, temos G + C = 56%. Como %G = %C, cada um corresponde a 28%.
+⚠️ **Professor:** referência de estilo — crie variações com outros percentuais antes de usar.
 
 ---
 
-**QM-3** · dissertativa · médio · inspirada em Q-8
+**QM-3** · dissertativa · médio · inspirada em: Q-8
 
-Uma célula produz a proteína insulina. Descreva, passo a passo, o papel de cada tipo de RNA nesse processo, desde a leitura da informação no DNA até a formação da proteína.
+Explique, de forma clara e organizada, qual é a diferença funcional entre o RNAm e o RNAt durante o processo de síntese proteica. Por que a célula precisa dos dois tipos de RNA para fabricar uma proteína?
 
-✅ Gabarito: 1) O DNA é transcrito no núcleo — uma fita serve de molde para produzir o RNAm com a sequência de códons correspondente à insulina. 2) O RNAm sai do núcleo e se associa ao ribossomo (formado por RNAr). 3) O RNAt lê os códons do RNAm e traz os aminoácidos corretos na sequência certa. 4) Os aminoácidos se encadeiam formando a proteína insulina.
-⚠️ Professor: referência de estilo — crie variações originais, nunca reproduza diretamente.
-
----
-
-**QM-4** · múltipla escolha estilo concurso · difícil · inspirada em QC-3 e QC-7
-
-(Estilo ENEM) Uma equipe forense recebeu amostras de duas cenas de crime e realizou o sequenciamento de DNA mitocondrial de ambas. As amostras apresentaram sequências idênticas. Com base no conteúdo estudado, é CORRETO afirmar que:
-
-a) As amostras pertencem com certeza ao mesmo indivíduo, pois o DNA mitocondrial é único para cada pessoa.
-b) As amostras podem pertencer a indivíduos diferentes, pois o DNA mitocondrial é herdado apenas da mãe e pode ser idêntico em parentes maternos.
-c) O resultado é inválido, pois DNA mitocondrial só pode ser extraído de amostras de sangue.
-d) As amostras pertencem ao mesmo indivíduo, pois DNA nuclear e mitocondrial sempre coincidem.
-
-✅ Gabarito: b
-📝 Resolução: O DNA mitocondrial é herdado exclusivamente da mãe (herança monoparental materna). Portanto, irmãos de mesma mãe, mãe e filho, tios maternos etc. têm o mesmo mtDNA. Sequências idênticas não garantem que sejam da mesma pessoa — apenas que compartilham linhagem materna.
-⚠️ Professor: referência de estilo — crie variações originais, nunca reproduza diretamente.
+✅ **Gabarito:**
+O **RNAm** (RNA mensageiro) carrega a sequência de informação copiada do DNA (em forma de códons) do núcleo até o ribossomo — ele é a "receita" da proteína. O **RNAt** (RNA transportador) reconhece cada códon do RNAm e transporta o aminoácido correspondente até o ribossomo — ele é o "entregador" dos ingredientes. Sem o RNAm, não há informação sobre qual proteína produzir; sem o RNAt, os aminoácidos não chegam ao ribossomo na ordem correta. Ambos são indispensáveis.
+⚠️ **Professor:** referência de estilo — crie variações de contexto antes de usar.
 
 ---
 
-**QM-5** · classificação · médio-difícil · inspirada em Q-6
+**QM-4** · múltipla escolha estilo concurso · difícil · inspirada em: QC-7
 
-Classifique cada afirmativa como VERDADEIRA (V) ou FALSA (F) e corrija as falsas:
+*(Fuvest/UNICAMP style)*
 
-1. O RNA mensageiro é produzido a partir de uma fita de DNA no processo de transcrição.
-2. A timina é uma base nitrogenada presente tanto no DNA quanto no RNA.
-3. Células sexuais humanas são diploides, possuindo 46 cromossomos.
-4. O DNA mitocondrial é herdado de ambos os progenitores em proporções iguais.
-5. Guanina e adenina são classificadas como bases púricas.
+Pesquisadores estudaram uma mutação pontual no gene BRCA1, associado ao câncer de mama. A análise do RNAm de pacientes com a mutação revelou a substituição de um códon GAG (glutamato) por um códon AAG (lisina). Com base nessas informações, analise as afirmativas:
 
-✅ Gabarito: 1-V · 2-F (timina só no DNA; no RNA é uracila) · 3-F (gametas são haploides, n=23) · 4-F (mtDNA herdado só da mãe) · 5-V
-⚠️ Professor: referência de estilo — crie variações originais, nunca reproduza diretamente.
+I. A mutação ocorreu no DNA, com substituição de uma base nitrogenada.
+II. A alteração no RNAm indica que houve troca de citosina por adenina no DNA molde.
+III. Como ambos os aminoácidos são codificados por códons diferentes, a proteína resultante terá estrutura alterada.
+IV. A uracila presente nos códons indica que a mutação ocorreu diretamente no RNA.
+
+Estão corretas apenas:
+
+a) I e III
+b) II e IV
+c) I, II e III
+d) II, III e IV
+
+✅ **Gabarito:** a) I e III
+📝 **Resolução:** I — Correta: mutações que alteram a proteína ocorrem no DNA. III — Correta: códons diferentes → aminoácidos diferentes → proteína alterada. II — Incorreta: a troca no RNAm foi G→A no códon (GAG→AAG), o que no DNA molde corresponde à substituição de C por T (o RNA usa U onde o DNA tem T, mas o DNA molde é complementar). IV — Incorreta: a uracila é normal no RNAm (não indica mutação no RNA).
+⚠️ **Professor:** referência de estilo — adapte o gene e a mutação antes de usar.
+
+---
+
+**QM-5** · identificação · médio-difícil · inspirada em: Q-5 e Q-1
+
+Observe as descrições abaixo e identifique, para cada uma, se a molécula descrita é DNA ou RNA. Justifique cada resposta com base em UMA característica estrutural citada.
+
+a) Molécula com ribose, cadeia simples e uracila entre suas bases.
+b) Molécula com desoxirribose, dupla hélice e timina entre suas bases.
+c) Molécula presente exclusivamente no núcleo de células eucarióticas e responsável por armazenar a informação genética.
+d) Molécula que contém o código para a sequência de aminoácidos de uma proteína e migra do núcleo para o citoplasma.
+
+✅ **Gabarito:**
+a) RNA — possui ribose (não desoxirribose) e uracila (exclusiva do RNA).
+b) DNA — possui desoxirribose e timina (exclusiva do DNA); estrutura de dupla hélice.
+c) DNA — localização exclusivamente nuclear e função de armazenamento da informação genética.
+d) RNAm — é o RNA mensageiro, que migra do núcleo ao citoplasma portando o código para a síntese proteica.
+⚠️ **Professor:** referência de estilo — varie as descrições antes de usar.
 
 ---
 
 ## SEÇÃO 12 — DIAGRAMAS SVG DO CAPÍTULO
 
-### DIAGRAMA: nucleotideo_componentes
-Estrutura de um nucleotídeo com seus três componentes identificados.
+---
+
+### DIAGRAMA: nucleotideo
+Estrutura de um nucleotídeo com seus três componentes (fosfato, pentose, base nitrogenada)
 
 ```svg
-<svg width="100%" viewBox="0 0 680 220" xmlns="http://www.w3.org/2000/svg">
-<defs><marker id="arw" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
-
-<!-- Fosfato — círculo -->
-<circle cx="160" cy="110" r="44" class="c-teal"/>
-<text x="160" y="104" text-anchor="middle" class="th">Fosfato</text>
-<text x="160" y="122" text-anchor="middle" class="ts">(P)</text>
-
-<!-- Pentose — pentágono -->
-<polygon points="340,66 374,92 361,132 319,132 306,92" class="c-amber"/>
-<text x="340" y="104" text-anchor="middle" class="th">Pentose</text>
-<text x="340" y="120" text-anchor="middle" class="ts">(açúcar)</text>
-
-<!-- Base nitrogenada — retângulo -->
-<rect x="460" y="72" width="160" height="72" rx="10" class="c-green"/>
-<text x="540" y="104" text-anchor="middle" class="th">Base</text>
-<text x="540" y="122" text-anchor="middle" class="th">nitrogenada</text>
-
-<!-- Ligações -->
-<line x1="204" y1="110" x2="304" y2="110" stroke="var(--c-border)" stroke-width="2" marker-end="url(#arw)"/>
-<line x1="376" y1="110" x2="458" y2="110" stroke="var(--c-border)" stroke-width="2" marker-end="url(#arw)"/>
-
-<!-- Labels de diferença DNA/RNA -->
-<text x="340" y="160" text-anchor="middle" class="ts" fill="var(--c-muted)">DNA: desoxirribose</text>
-<text x="340" y="176" text-anchor="middle" class="ts" fill="var(--c-muted)">RNA: ribose</text>
-<text x="540" y="160" text-anchor="middle" class="ts" fill="var(--c-muted)">DNA: A, T, G, C</text>
-<text x="540" y="176" text-anchor="middle" class="ts" fill="var(--c-muted)">RNA: A, U, G, C</text>
+<svg width="100%" viewBox="0 0 680 260">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
+    markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
 
 <!-- Título -->
-<text x="340" y="30" text-anchor="middle" class="th">Nucleotídeo — unidade básica do DNA e RNA</text>
+<rect x="200" y="10" width="280" height="38" rx="8" class="c-green"/>
+<text x="340" y="34" text-anchor="middle" class="th" fill="white">Estrutura do Nucleotídeo</text>
+
+<!-- Fosfato -->
+<rect x="40" y="90" width="160" height="58" rx="8" class="c-teal"/>
+<text x="120" y="114" text-anchor="middle" class="th" fill="white">Fosfato</text>
+<text x="120" y="135" text-anchor="middle" class="ts" fill="white">Grupo fosfato (PO₄)</text>
+
+<!-- Pentose -->
+<rect x="260" y="90" width="160" height="58" rx="8" class="c-amber"/>
+<text x="340" y="114" text-anchor="middle" class="th">Pentose</text>
+<text x="340" y="135" text-anchor="middle" class="ts">Desoxirribose (DNA)</text>
+
+<!-- Base nitrogenada -->
+<rect x="480" y="90" width="160" height="58" rx="8" class="c-purple"/>
+<text x="560" y="114" text-anchor="middle" class="th" fill="white">Base Nitrogenada</text>
+<text x="560" y="135" text-anchor="middle" class="ts" fill="white">A, G, C, T ou U</text>
+
+<!-- Linha conectora central -->
+<line x1="200" y1="119" x2="260" y2="119" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="420" y1="119" x2="480" y2="119" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+
+<!-- Ribose vs Desoxirribose -->
+<rect x="220" y="175" width="240" height="58" rx="8" class="c-coral"/>
+<text x="340" y="199" text-anchor="middle" class="th" fill="white">⚠️ Atenção: Pentose</text>
+<text x="340" y="218" text-anchor="middle" class="ts" fill="white">DNA → Desoxirribose | RNA → Ribose</text>
 </svg>
 ```
 
 ---
 
-### DIAGRAMA: pareamento_bases
-Regras de pareamento das bases nitrogenadas no DNA e no RNA.
+### DIAGRAMA: dna_vs_rna
+Comparação visual entre DNA e RNA destacando diferenças estruturais e de bases
 
 ```svg
-<svg width="100%" viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg">
-<defs><marker id="arw2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<svg width="100%" viewBox="0 0 680 380">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
+    markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
 
-<!-- Título DNA -->
-<text x="220" y="30" text-anchor="middle" class="th">Pareamento no DNA</text>
+<!-- Título -->
+<rect x="180" y="10" width="320" height="38" rx="8" class="c-green"/>
+<text x="340" y="34" text-anchor="middle" class="th" fill="white">DNA × RNA — Comparativo</text>
 
-<!-- Par A-T -->
-<rect x="60" y="50" width="80" height="44" rx="8" class="c-teal"/>
-<text x="100" y="77" text-anchor="middle" class="th">A</text>
-<line x1="142" y1="72" x2="178" y2="72" stroke="var(--c-coral)" stroke-width="2.5" stroke-dasharray="5,3"/>
-<rect x="180" y="50" width="80" height="44" rx="8" class="c-amber"/>
-<text x="220" y="77" text-anchor="middle" class="th">T</text>
-<text x="160" y="45" text-anchor="middle" class="ts">Adenina</text>
-<text x="220" y="45" text-anchor="middle" class="ts">Timina</text>
+<!-- Cabeçalho DNA -->
+<rect x="40" y="65" width="270" height="38" rx="6" class="c-teal"/>
+<text x="175" y="89" text-anchor="middle" class="th" fill="white">DNA</text>
 
-<!-- Par G-C -->
-<rect x="60" y="120" width="80" height="44" rx="8" class="c-green"/>
-<text x="100" y="147" text-anchor="middle" class="th">G</text>
-<line x1="142" y1="142" x2="178" y2="142" stroke="var(--c-coral)" stroke-width="2.5" stroke-dasharray="5,3"/>
-<rect x="180" y="120" width="80" height="44" rx="8" class="c-purple"/>
-<text x="220" y="147" text-anchor="middle" class="th">C</text>
-<text x="100" y="115" text-anchor="middle" class="ts">Guanina</text>
-<text x="220" y="115" text-anchor="middle" class="ts">Citosina</text>
+<!-- Cabeçalho RNA -->
+<rect x="370" y="65" width="270" height="38" rx="6" class="c-purple"/>
+<text x="505" y="89" text-anchor="middle" class="th" fill="white">RNA</text>
 
-<!-- Título RNA -->
-<text x="510" y="30" text-anchor="middle" class="th">Pareamento no RNA</text>
+<!-- Linha 1: Pentose -->
+<rect x="40" y="118" width="270" height="44" rx="4" class="c-gray"/>
+<text x="175" y="136" text-anchor="middle" class="ts">Pentose:</text>
+<text x="175" y="153" text-anchor="middle" class="t">Desoxirribose</text>
+<rect x="370" y="118" width="270" height="44" rx="4" class="c-gray"/>
+<text x="505" y="136" text-anchor="middle" class="ts">Pentose:</text>
+<text x="505" y="153" text-anchor="middle" class="t">Ribose</text>
 
-<!-- Par A-U -->
-<rect x="360" y="50" width="80" height="44" rx="8" class="c-teal"/>
-<text x="400" y="77" text-anchor="middle" class="th">A</text>
-<line x1="442" y1="72" x2="478" y2="72" stroke="var(--c-coral)" stroke-width="2.5" stroke-dasharray="5,3"/>
-<rect x="480" y="50" width="80" height="44" rx="8" class="c-coral"/>
-<text x="520" y="77" text-anchor="middle" class="th">U</text>
-<text x="400" y="45" text-anchor="middle" class="ts">Adenina</text>
-<text x="520" y="45" text-anchor="middle" class="ts">Uracila</text>
+<!-- Linha 2: Estrutura -->
+<rect x="40" y="172" width="270" height="44" rx="4" class="c-gray"/>
+<text x="175" y="190" text-anchor="middle" class="ts">Estrutura:</text>
+<text x="175" y="207" text-anchor="middle" class="t">Dupla hélice (2 fitas)</text>
+<rect x="370" y="172" width="270" height="44" rx="4" class="c-gray"/>
+<text x="505" y="190" text-anchor="middle" class="ts">Estrutura:</text>
+<text x="505" y="207" text-anchor="middle" class="t">Fita simples</text>
 
-<!-- Par G-C -->
-<rect x="360" y="120" width="80" height="44" rx="8" class="c-green"/>
-<text x="400" y="147" text-anchor="middle" class="th">G</text>
-<line x1="442" y1="142" x2="478" y2="142" stroke="var(--c-coral)" stroke-width="2.5" stroke-dasharray="5,3"/>
-<rect x="480" y="120" width="80" height="44" rx="8" class="c-purple"/>
-<text x="520" y="147" text-anchor="middle" class="th">C</text>
-<text x="400" y="115" text-anchor="middle" class="ts">Guanina</text>
-<text x="520" y="115" text-anchor="middle" class="ts">Citosina</text>
+<!-- Linha 3: Bases -->
+<rect x="40" y="226" width="270" height="58" rx="4" class="c-gray"/>
+<text x="175" y="244" text-anchor="middle" class="ts">Bases nitrogenadas:</text>
+<text x="175" y="261" text-anchor="middle" class="t">A, G, C, T (timina)</text>
+<text x="175" y="276" text-anchor="middle" class="ts">Timina = exclusiva do DNA</text>
+<rect x="370" y="226" width="270" height="58" rx="4" class="c-gray"/>
+<text x="505" y="244" text-anchor="middle" class="ts">Bases nitrogenadas:</text>
+<text x="505" y="261" text-anchor="middle" class="t">A, G, C, U (uracila)</text>
+<text x="505" y="276" text-anchor="middle" class="ts">Uracila = exclusiva do RNA</text>
 
-<!-- Nota -->
-<rect x="40" y="190" width="600" height="44" rx="8" class="c-coral"/>
-<text x="340" y="207" text-anchor="middle" class="ts">⚠️ Timina (T) existe APENAS no DNA · Uracila (U) existe APENAS no RNA</text>
-<text x="340" y="225" text-anchor="middle" class="ts">G sempre pareia com C em ambos</text>
+<!-- Alerta -->
+<rect x="100" y="302" width="480" height="58" rx="8" class="c-coral"/>
+<text x="340" y="326" text-anchor="middle" class="th" fill="white">⚠️ Pegadinha frequente</text>
+<text x="340" y="347" text-anchor="middle" class="ts" fill="white">Timina só no DNA · Uracila só no RNA · Nunca ao contrário!</text>
 </svg>
 ```
 
 ---
 
 ### DIAGRAMA: sintese_proteica
-Fluxo da síntese proteica: transcrição e tradução.
+Fluxo do processo de síntese proteica (transcrição e tradução)
 
 ```svg
-<svg width="100%" viewBox="0 0 680 230" xmlns="http://www.w3.org/2000/svg">
-<defs><marker id="arw3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<svg width="100%" viewBox="0 0 680 400">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
+    markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
 
-<!-- Etapa 1: DNA -->
-<rect x="20" y="70" width="110" height="58" rx="8" class="c-teal"/>
-<text x="75" y="94" text-anchor="middle" class="th">DNA</text>
-<text x="75" y="112" text-anchor="middle" class="ts">(núcleo)</text>
+<!-- Título -->
+<rect x="180" y="10" width="320" height="38" rx="8" class="c-green"/>
+<text x="340" y="34" text-anchor="middle" class="th" fill="white">Síntese Proteica</text>
 
-<!-- Seta 1 -->
-<line x1="132" y1="99" x2="168" y2="99" stroke="var(--c-border)" stroke-width="2" marker-end="url(#arw3)"/>
-<text x="150" y="90" text-anchor="middle" class="ts">transcrição</text>
+<!-- NÚCLEO (área) -->
+<rect x="30" y="60" width="295" height="130" rx="12" fill="none" stroke="#6c8ebf" stroke-width="2" stroke-dasharray="6,3"/>
+<text x="177" y="82" text-anchor="middle" class="ts">NÚCLEO</text>
 
-<!-- Etapa 2: RNAm -->
-<rect x="170" y="70" width="110" height="58" rx="8" class="c-amber"/>
-<text x="225" y="94" text-anchor="middle" class="th">RNAm</text>
-<text x="225" y="112" text-anchor="middle" class="ts">(mensageiro)</text>
+<!-- DNA -->
+<rect x="50" y="90" width="110" height="58" rx="8" class="c-teal"/>
+<text x="105" y="114" text-anchor="middle" class="th" fill="white">DNA</text>
+<text x="105" y="133" text-anchor="middle" class="ts" fill="white">Molde genético</text>
 
-<!-- Seta 2 -->
-<line x1="282" y1="99" x2="318" y2="99" stroke="var(--c-border)" stroke-width="2" marker-end="url(#arw3)"/>
-<text x="300" y="90" text-anchor="middle" class="ts">tradução</text>
+<!-- Seta DNA→RNAm -->
+<line x1="160" y1="119" x2="195" y2="119" stroke="#6c8ebf" stroke-width="2" marker-end="url(#arrow)"/>
 
-<!-- Etapa 3: Ribossomo -->
-<rect x="320" y="70" width="120" height="58" rx="8" class="c-green"/>
-<text x="380" y="90" text-anchor="middle" class="th">Ribossomo</text>
-<text x="380" y="108" text-anchor="middle" class="ts">(RNAr)</text>
+<!-- RNAm (no núcleo) -->
+<rect x="195" y="90" width="110" height="58" rx="8" class="c-amber"/>
+<text x="250" y="114" text-anchor="middle" class="th">RNAm</text>
+<text x="250" y="133" text-anchor="middle" class="ts">Transcrição</text>
 
-<!-- RNAt de cima -->
-<rect x="330" y="15" width="100" height="44" rx="8" class="c-purple"/>
-<text x="380" y="32" text-anchor="middle" class="ts">RNAt +</text>
-<text x="380" y="50" text-anchor="middle" class="ts">aminoácidos</text>
-<line x1="380" y1="59" x2="380" y2="68" stroke="var(--c-purple)" stroke-width="2" marker-end="url(#arw3)"/>
+<!-- Label transcrição -->
+<text x="177" y="175" text-anchor="middle" class="ts">① TRANSCRIÇÃO (núcleo)</text>
 
-<!-- Seta 3 -->
-<line x1="442" y1="99" x2="478" y2="99" stroke="var(--c-border)" stroke-width="2" marker-end="url(#arw3)"/>
+<!-- Seta núcleo → citoplasma -->
+<line x1="340" y1="119" x2="380" y2="119" stroke="#888" stroke-width="2.5" stroke-dasharray="5,3" marker-end="url(#arrow)"/>
+<text x="360" y="112" text-anchor="middle" class="ts">sai do</text>
+<text x="360" y="126" text-anchor="middle" class="ts">núcleo</text>
 
-<!-- Etapa 4: Proteína -->
-<rect x="480" y="70" width="180" height="58" rx="8" class="c-green"/>
-<text x="570" y="90" text-anchor="middle" class="th">Proteína</text>
-<text x="570" y="112" text-anchor="middle" class="ts">(cadeia de aminoácidos)</text>
+<!-- CITOPLASMA (área) -->
+<rect x="375" y="60" width="280" height="260" rx="12" fill="none" stroke="#82b366" stroke-width="2" stroke-dasharray="6,3"/>
+<text x="515" y="82" text-anchor="middle" class="ts">CITOPLASMA</text>
 
-<!-- Labels localização -->
-<text x="75" y="148" text-anchor="middle" class="ts" fill="var(--c-muted)">núcleo</text>
-<text x="225" y="148" text-anchor="middle" class="ts" fill="var(--c-muted)">núcleo → citoplasma</text>
-<text x="380" y="148" text-anchor="middle" class="ts" fill="var(--c-muted)">citoplasma</text>
-<text x="570" y="148" text-anchor="middle" class="ts" fill="var(--c-muted)">citoplasma</text>
+<!-- Ribossomo -->
+<rect x="390" y="90" width="120" height="58" rx="8" class="c-purple"/>
+<text x="450" y="114" text-anchor="middle" class="th" fill="white">Ribossomo</text>
+<text x="450" y="133" text-anchor="middle" class="ts" fill="white">RNAr + RNAm</text>
+
+<!-- RNAt -->
+<rect x="390" y="170" width="120" height="58" rx="8" class="c-amber"/>
+<text x="450" y="194" text-anchor="middle" class="th">RNAt</text>
+<text x="450" y="213" text-anchor="middle" class="ts">Traz aminoácidos</text>
+
+<!-- Seta ribossomo+RNAt → proteína -->
+<line x1="510" y1="149" x2="535" y2="149" stroke="#82b366" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="510" y1="199" x2="535" y2="199" stroke="#82b366" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="535" y1="149" x2="535" y2="229" stroke="#82b366" stroke-width="2"/>
+<line x1="535" y1="229" x2="560" y2="229" stroke="#82b366" stroke-width="2" marker-end="url(#arrow)"/>
+
+<!-- Proteína -->
+<rect x="560" y="205" width="80" height="58" rx="8" class="c-green"/>
+<text x="600" y="229" text-anchor="middle" class="th" fill="white">Proteína</text>
+<text x="600" y="248" text-anchor="middle" class="ts" fill="white">Produto final</text>
+
+<!-- Label tradução -->
+<text x="475" y="295" text-anchor="middle" class="ts">② TRADUÇÃO (ribossomo)</text>
 
 <!-- Alerta -->
-<rect x="20" y="170" width="640" height="36" rx="8" class="c-coral"/>
-<text x="340" y="184" text-anchor="middle" class="ts">⚠️ Transcrição ocorre no NÚCLEO (eucariotos). Tradução ocorre no RIBOSSOMO (citoplasma).</text>
-<text x="340" y="200" text-anchor="middle" class="ts">Questão QC-4: etapa 1 (DNA→RNAm) = transcrição = NÚCLEO.</text>
+<rect x="60" y="310" width="560" height="72" rx="8" class="c-coral"/>
+<text x="340" y="334" text-anchor="middle" class="th" fill="white">⚠️ Pegadinha</text>
+<text x="340" y="354" text-anchor="middle" class="ts" fill="white">O DNA NÃO sai do núcleo. Quem migra é o RNAm.</text>
+<text x="340" y="372" text-anchor="middle" class="ts" fill="white">Em procarióticos: transcrição e tradução ocorrem no citoplasma.</text>
 </svg>
 ```
 
 ---
 
-### DIAGRAMA: timeline_dna
-Linha do tempo da descoberta do DNA.
+### DIAGRAMA: timeline_cientistas
+Linha do tempo da descoberta da estrutura do DNA
 
 ```svg
-<svg width="100%" viewBox="0 0 680 200" xmlns="http://www.w3.org/2000/svg">
-<defs><marker id="arw4" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<svg width="100%" viewBox="0 0 680 310">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
+    markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
 
-<!-- Eixo -->
-<line x1="40" y1="100" x2="648" y2="100" stroke="var(--c-border)" stroke-width="2" marker-end="url(#arw4)"/>
+<!-- Título -->
+<rect x="180" y="10" width="320" height="38" rx="8" class="c-green"/>
+<text x="340" y="34" text-anchor="middle" class="th" fill="white">Descoberta da Estrutura do DNA</text>
 
-<!-- Nó 1: Franklin foto raios X -->
-<circle cx="140" cy="100" r="5" fill="var(--c-coral-bg)" stroke="var(--c-coral)" stroke-width="2"/>
-<line x1="140" y1="100" x2="140" y2="148" stroke="var(--c-coral)" stroke-width="1.5" stroke-dasharray="4,3"/>
-<rect x="66" y="150" width="148" height="44" rx="8" class="c-coral"/>
-<text x="140" y="167" text-anchor="middle" class="th">Rosalind Franklin</text>
-<text x="140" y="183" text-anchor="middle" class="ts">Foto raios X · anos 1950</text>
+<!-- Linha do tempo -->
+<line x1="50" y1="160" x2="630" y2="160" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
 
-<!-- Nó 2: Watson Crick Wilkins -->
-<circle cx="320" cy="100" r="5" fill="var(--c-teal-bg)" stroke="var(--c-teal)" stroke-width="2"/>
-<line x1="320" y1="100" x2="320" y2="55" stroke="var(--c-teal)" stroke-width="1.5" stroke-dasharray="4,3"/>
-<rect x="234" y="20" width="172" height="34" rx="8" class="c-teal"/>
-<text x="320" y="42" text-anchor="middle" class="th">Watson · Crick · Wilkins</text>
+<!-- Ponto 1950s -->
+<circle cx="130" cy="160" r="7" class="c-teal"/>
+<text x="130" y="152" text-anchor="middle" class="ts">1950</text>
 
-<!-- Nó 3: Dupla-hélice proposta -->
-<circle cx="460" cy="100" r="5" fill="var(--c-green-bg)" stroke="var(--c-green)" stroke-width="2"/>
-<line x1="460" y1="100" x2="460" y2="148" stroke="var(--c-green)" stroke-width="1.5" stroke-dasharray="4,3"/>
-<rect x="390" y="150" width="140" height="44" rx="8" class="c-green"/>
-<text x="460" y="167" text-anchor="middle" class="th">Dupla-hélice</text>
-<text x="460" y="183" text-anchor="middle" class="ts">proposta · anos 1950</text>
+<!-- Franklin - acima -->
+<rect x="50" y="68" width="160" height="72" rx="8" class="c-teal"/>
+<text x="130" y="88" text-anchor="middle" class="th" fill="white">Rosalind Franklin</text>
+<text x="130" y="106" text-anchor="middle" class="ts" fill="white">Foto 51</text>
+<text x="130" y="122" text-anchor="middle" class="ts" fill="white">Difração de raios X</text>
+<text x="130" y="137" text-anchor="middle" class="ts" fill="white">1920–1958</text>
+<line x1="130" y1="140" x2="130" y2="153" stroke="#888" stroke-width="1.5"/>
 
-<!-- Nó 4: Nobel 1962 -->
-<circle cx="590" cy="100" r="5" fill="var(--c-amber-bg)" stroke="var(--c-amber)" stroke-width="2"/>
-<line x1="590" y1="100" x2="590" y2="55" stroke="var(--c-amber)" stroke-width="1.5" stroke-dasharray="4,3"/>
-<rect x="518" y="20" width="144" height="34" rx="8" class="c-amber"/>
-<text x="590" y="42" text-anchor="middle" class="th">Nobel de Fisiologia</text>
+<!-- Ponto 1953 -->
+<circle cx="300" cy="160" r="7" class="c-purple"/>
+<text x="300" y="152" text-anchor="middle" class="ts">1953</text>
 
-<!-- Nota Franklin -->
-<text x="140" y="90" text-anchor="middle" class="ts" fill="var(--c-coral)">sem crédito</text>
-<text x="590" y="90" text-anchor="middle" class="ts" fill="var(--c-amber)">ou Medicina · 1962</text>
+<!-- Watson e Crick - abaixo -->
+<rect x="220" y="178" width="160" height="72" rx="8" class="c-purple"/>
+<line x1="300" y1="167" x2="300" y2="178" stroke="#888" stroke-width="1.5"/>
+<text x="300" y="198" text-anchor="middle" class="th" fill="white">Watson e Crick</text>
+<text x="300" y="216" text-anchor="middle" class="ts" fill="white">Modelo dupla hélice</text>
+<text x="300" y="232" text-anchor="middle" class="ts" fill="white">Usaram dados de Franklin</text>
+<text x="300" y="247" text-anchor="middle" class="ts" fill="white">sem crédito</text>
+
+<!-- Ponto 1958 -->
+<circle cx="450" cy="160" r="7" class="c-coral"/>
+<text x="450" y="152" text-anchor="middle" class="ts">1958</text>
+
+<!-- Franklin morte - acima -->
+<rect x="370" y="68" width="160" height="58" rx="8" class="c-coral"/>
+<line x1="450" y1="126" x2="450" y2="153" stroke="#888" stroke-width="1.5"/>
+<text x="450" y="90" text-anchor="middle" class="th" fill="white">Franklin falece</text>
+<text x="450" y="108" text-anchor="middle" class="ts" fill="white">37 anos · câncer</text>
+<text x="450" y="123" text-anchor="middle" class="ts" fill="white">Sem reconhecimento</text>
+
+<!-- Ponto 1962 -->
+<circle cx="590" cy="160" r="7" class="c-amber"/>
+<text x="590" y="152" text-anchor="middle" class="ts">1962</text>
+
+<!-- Nobel - abaixo -->
+<rect x="510" y="178" width="150" height="72" rx="8" class="c-amber"/>
+<line x1="590" y1="167" x2="590" y2="178" stroke="#888" stroke-width="1.5"/>
+<text x="585" y="198" text-anchor="middle" class="th">Nobel</text>
+<text x="585" y="216" text-anchor="middle" class="ts">Watson, Crick</text>
+<text x="585" y="232" text-anchor="middle" class="ts">e Wilkins</text>
+<text x="585" y="248" text-anchor="middle" class="ts">Franklin excluída</text>
 </svg>
 ```
+
+---
+
+### DIAGRAMA: cromossomos_ploidia
+Conceitos de cromossomos, ploidia, haploide e diploide
+
+```svg
+<svg width="100%" viewBox="0 0 680 360">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
+    markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
+
+<!-- Título -->
+<rect x="160" y="10" width="360" height="38" rx="8" class="c-green"/>
+<text x="340" y="34" text-anchor="middle" class="th" fill="white">Cromossomos, Ploidia e Células</text>
+
+<!-- Bloco Cromossomo -->
+<rect x="30" y="65" width="185" height="72" rx="8" class="c-teal"/>
+<text x="122" y="88" text-anchor="middle" class="th" fill="white">Cromossomo</text>
+<text x="122" y="106" text-anchor="middle" class="ts" fill="white">DNA condensado</text>
+<text x="122" y="122" text-anchor="middle" class="ts" fill="white">+ histonas (proteínas)</text>
+
+<!-- Bloco Gene -->
+<rect x="247" y="65" width="185" height="72" rx="8" class="c-purple"/>
+<text x="340" y="88" text-anchor="middle" class="th" fill="white">Gene</text>
+<text x="340" y="106" text-anchor="middle" class="ts" fill="white">Sequência de nucleotídeos</text>
+<text x="340" y="122" text-anchor="middle" class="ts" fill="white">Carrega 1 característica</text>
+
+<!-- Bloco Cariótipo -->
+<rect x="464" y="65" width="185" height="72" rx="8" class="c-amber"/>
+<text x="557" y="88" text-anchor="middle" class="th">Cariótipo</text>
+<text x="557" y="106" text-anchor="middle" class="ts">Conjunto de cromossomos</text>
+<text x="557" y="122" text-anchor="middle" class="ts">Humanos: 46 (23 pares)</text>
+
+<!-- Divisor -->
+<line x1="40" y1="158" x2="640" y2="158" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
+
+<!-- Haploide -->
+<rect x="40" y="170" width="270" height="72" rx="8" class="c-teal"/>
+<text x="175" y="194" text-anchor="middle" class="th" fill="white">Haploide (n)</text>
+<text x="175" y="213" text-anchor="middle" class="ts" fill="white">1 cromossomo de cada tipo</text>
+<text x="175" y="230" text-anchor="middle" class="ts" fill="white">Ex: gametas (n = 23 em humanos)</text>
+
+<!-- Diploide -->
+<rect x="370" y="170" width="270" height="72" rx="8" class="c-purple"/>
+<text x="505" y="194" text-anchor="middle" class="th" fill="white">Diploide (2n)</text>
+<text x="505" y="213" text-anchor="middle" class="ts" fill="white">2 cromossomos de cada tipo</text>
+<text x="505" y="230" text-anchor="middle" class="ts" fill="white">Ex: células somáticas (2n = 46)</text>
+
+<!-- Setas gametas → zigoto -->
+<text x="175" y="268" text-anchor="middle" class="ts">Óvulo (n)</text>
+<text x="340" y="268" text-anchor="middle" class="t">+</text>
+<text x="505" y="268" text-anchor="middle" class="ts">Espermatozoide (n)</text>
+<line x1="175" y1="275" x2="310" y2="295" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="505" y1="275" x2="370" y2="295" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<!-- Zigoto -->
+<rect x="255" y="295" width="170" height="44" rx="8" class="c-green"/>
+<text x="340" y="317" text-anchor="middle" class="th" fill="white">Zigoto (2n)</text>
+<text x="340" y="332" text-anchor="middle" class="ts" fill="white">Diploide = fecundação</text>
+</svg>
+```
+
+---
+
+> ✅ **Preparação concluída!**
+> - **`bio-1-2-prep.md`** → adicionar ao knowledge base
+> - **Seção 10** gerada com base na imagem da Síntese fornecida ✅
+> - **Imagens adicionais processadas:** estrutura DNA/RNA (pág. 22–23), cariótipo, diagrama síntese proteica (QC-4), síntese do livro ✅
+> - ⚠️ Verificar alerta da **Q-4** (uracila no DNA — possível erro no enunciado do livro)
+> - ⚠️ Confirmar numeração das etapas 1–4 do diagrama de síntese proteica (pág. 34) para gabarito da **QC-4**
