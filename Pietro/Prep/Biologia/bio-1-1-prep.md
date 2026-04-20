@@ -1,252 +1,273 @@
+# bio-1-1-prep.md
+
+---
+
 ## DIAGRAMAS DISPONÍVEIS — bio-1-1
 
 | Nome | Identificador na Seção 12 | Quando usar na Etapa 1 |
 |------|--------------------------|------------------------|
-| Timeline da origem da vida | DIAGRAMA: timeline_origem | Ao apresentar Seção 3 — cientistas e cronologia |
-| Fluxo da evolução química | DIAGRAMA: ciclo_evolucao_quimica | Ao apresentar Seção 4 — evolução química |
+| Timeline de Cientistas | DIAGRAMA: timeline_cientistas | Seção 3 — história da ciência e sequência cronológica |
+| Fluxo Oparin-Haldane | DIAGRAMA: fluxo_oparin_haldane | Seção 4 — processo de origem da vida / sopa primordial |
+| Experimento de Pasteur | DIAGRAMA: experimento_pasteur | Seção 4 — etapas do experimento de refutação da abiogênese |
+| Características dos Seres Vivos | DIAGRAMA: caracteristicas_seres_vivos | Seção 2 — bloco de características / warm-up |
 
 ### Tabelas markdown (Seção 6):
-- Comparação: Abiogênese × Biogênese × Evolução Química
-- Linha cronológica — refutação da abiogênese
+- Tabela comparativa: Hipóteses sobre a origem da vida
+- Tabela: Características dos seres vivos
 
 ### Nota ao Professor:
-Para cada diagrama: leia o bloco SVG da Seção 12 e passe ao Visualizer.
-Tabelas da Seção 6 são apresentadas como markdown no chat.
+Para cada diagrama: leia o SVG da Seção 12 e passe ao Visualizer. Tabelas da Seção 6 são apresentadas como markdown no chat.
 
 ---
 
 ## SEÇÃO 1 — METADADOS
 
+```
 # PREPARAÇÃO DE AULA — BIOLOGIA
 - Unidade: 1
 - Capítulo: 1
-- Tema: A origem dos seres vivos
-- Perfil: misto (histórico-conceitual + descritivo-científico)
-- Processos principais: Evolução química; Formação da Terra primitiva
-- Cientistas citados: Louis Pasteur, Francesco Redi, Lazzaro Spallanzani, Aleksandr Oparin, J.B.S. Haldane
+- Tema: A Origem dos Seres Vivos
+- Perfil: misto (histórico-conceitual + processual)
+- Processos principais:
+    · Síntese abiótica de moléculas orgânicas (Oparin-Haldane)
+    · Experimento de Pasteur (refutação da abiogênese)
+    · Experimento de Miller e Urey
+- Cientistas citados:
+    · Francesco Redi (1668)
+    · Lazzaro Spallanzani (1770)
+    · Louis Pasteur (1822–1895)
+    · Alexander Oparin e J. B. S. Haldane (anos 1920)
+    · Stanley Miller e Harold Urey (1953)
+```
 
 ---
 
 ## SEÇÃO 2 — RESUMO CONCEITUAL DO CAPÍTULO
 
-### O que é Biologia?
-
-Biologia vem do grego *bios* (vida) + *logos* (estudo) — literalmente "o estudo da vida". É a ciência que busca compreender os seres vivos e suas relações com o ambiente. No cotidiano, a Biologia está em tudo: na vacina que você tomou na infância, na bactéria que fermenta o iogurte e nas plantas que produzem o oxigênio que você respira agora.
-
----
-
-### O que torna algo um ser vivo?
-
-Existem cinco características que, juntas, definem um ser vivo e o diferenciam dos seres não vivos:
-
-**1. Evoluir e adaptar-se**
-Ao longo das gerações, pequenas alterações genéticas se acumulam. Quando uma mudança é vantajosa — como uma coloração que camufla o animal no ambiente —, ela tende a se perpetuar na espécie. Esse processo é a evolução. A árvore filogenética do capítulo ilustra como grupos animais muito diferentes compartilham ancestrais comuns.
-
-**2. Constituir-se de células**
-Todo ser vivo é formado por células — a unidade básica da vida. Podem ser unicelulares (como as bactérias) ou pluricelulares (como você). As células são compostas de substâncias essenciais: água, sais minerais, proteínas, carboidratos e ácidos nucleicos — todos formados principalmente de carbono, hidrogênio e oxigênio.
-
-**3. Realizar metabolismo**
-O metabolismo é o conjunto de reações que o organismo realiza para obter energia e manter suas funções vitais. Envolve receber, degradar e reconstruir substâncias. A obtenção de alimentos pode ser:
-- **Autotrófica** — o ser produz seu próprio alimento (ex: fotossíntese nas plantas)
-- **Heterotrófica** — o ser obtém energia consumindo outros organismos (ex: digestão nos animais)
-O metabolismo também envolve respiração e circulação.
-
-**4. Reagir a estímulos**
-Os seres vivos percebem o ambiente por meio de sistemas sensoriais e órgãos dos sentidos: detectam calor, frio, luz, predadores. Essa capacidade é fundamental à sobrevivência — ajuda o organismo a buscar condições favoráveis e fugir do perigo.
-
-**5. Reproduzir-se**
-A reprodução pode ser sexuada (com fusão de gametas) ou assexuada. Sem reprodução, nenhuma espécie sobreviveria: é por ela que as características são transmitidas hereditariamente aos descendentes, garantindo a continuidade da espécie.
+### 🔬 O que é Biologia?
+A Biologia é a ciência que estuda os seres vivos e suas interações com o ambiente. O nome vem do grego *bíos* (vida) + *logos* (estudo). No 9º ano, o foco inicial é entender **o que é vida** e **como ela surgiu** — perguntas que a humanidade tenta responder há séculos.
 
 ---
 
-### Conceito biológico de espécie
+### 🌱 O que são seres vivos?
+Todo ser vivo compartilha cinco características fundamentais:
+1. **Evoluir e adaptar-se** — muda ao longo das gerações por alterações genéticas.
+2. **Constituir-se de células** — pode ser unicelular (uma célula) ou pluricelular (muitas células).
+3. **Realizar metabolismo** — transforma substâncias para obter energia; pode ser autotrófico (faz o próprio alimento, ex: fotossíntese) ou heterotrófico (digere outros organismos).
+4. **Reagir a estímulos** — percebe e responde ao ambiente (calor, luz, predadores).
+5. **Reproduzir-se** — gera descendentes, de forma sexuada ou assexuada, perpetuando a espécie.
 
-Para a Biologia, dois organismos pertencem à mesma espécie se, e somente se, conseguem se reproduzir entre si e gerar **descendentes férteis**. Características físicas semelhantes não bastam — o critério é o isolamento reprodutivo. Exemplo clássico: cavalo e jumento se reproduzem, mas a mula gerada é estéril — portanto, são espécies diferentes.
-
----
-
-### Manutenção da espécie
-
-A reprodução é o que garante que uma espécie não desapareça. Ao se reproduzir, o indivíduo transmite suas características às gerações seguintes. Com o tempo, características benéficas se acumulam — isso é o motor da evolução.
-
----
-
-### A origem da vida — uma área especulativa
-
-A origem da vida é considerada especulativa porque não pode ser comprovada por evidências físicas diretas. Diferente da evolução dos seres vivos (que tem registros fósseis), o surgimento da própria vida não deixou registro claro. A evidência mais antiga de vida conhecida são **fósseis de micro-organismos com ~3,5 bilhões de anos**.
+**Conexão com o cotidiano:** Uma bactéria em um iogurte, um cachorro latindo para um estranho e uma planta crescendo em direção à luz — todos estão cumprindo essas cinco características.
 
 ---
 
-### Abiogênese × Biogênese
+### ⚡ Abiogênese × Biogênese — o grande debate
+Durante séculos, acreditou-se que seres vivos podiam surgir do nada — da lama, de roupas sujas, de carne podre. Essa ideia chama-se **abiogênese** (geração espontânea). O suporte filosófico era o **vitalismo**: a ideia de que uma "força vital" imaterial animava a matéria inerte.
 
-**Abiogênese** (geração espontânea): hipótese antiga de que seres vivos poderiam surgir espontaneamente de matéria não viva — como ratos nascendo de roupas sujas. Associada ao **vitalismo** (crença em uma "força vital" imaterial). Foi progressivamente refutada por experimentos de Redi (1668), Spallanzani (1770) e definitivamente por Pasteur (1860).
+Aos poucos, experimentos científicos foram derrubando essa crença:
+- **Francesco Redi (1668):** mostrou que larvas não surgem em carne protegida de moscas.
+- **Lazzaro Spallanzani (1770):** ferveu caldos e os selou — sem contaminação.
+- **Louis Pasteur (1850s):** experimento definitivo com frascos de pescoço de cisne — provou que microrganismos vêm do ar, não surgem espontaneamente.
 
-**Biogênese**: hipótese de que a vida só se origina de outra vida preexistente. É a mais aceita atualmente. Limitação: não explica como surgiu a *primeira* forma de vida.
-
----
-
-### A Terra primitiva e a sopa primordial
-
-A Terra se formou há ~4,6 bilhões de anos como uma esfera quente e sem atmosfera. Com o resfriamento, surgiram as primeiras rochas. A superfície tinha vulcanismo intenso, gases como CO, CO₂, metano e amônia, descargas elétricas constantes e bombardeio de meteoros — sem camada de ozônio para filtrar a radiação solar.
-
-A água teria sido trazida por meteoros: ao tocar a superfície quente, evaporava e subia à atmosfera; com o resfriamento e as chuvas, acumulou-se formando os **primeiros oceanos** — o ambiente onde provavelmente a vida surgiu.
-
-Nos anos 1920, **Oparin e Haldane** propuseram que esse oceano era rico em moléculas inorgânicas simples — a **"sopa primordial"**. Sob descargas elétricas e radiação ultravioleta, essas moléculas teriam se combinado para formar as primeiras moléculas orgânicas.
+A hipótese vencedora foi a **biogênese**: todo ser vivo origina-se de outro ser vivo preexistente.
 
 ---
 
-### Evolução química — o caminho da molécula à célula
+### 🌍 Como a vida surgiu na Terra? — As grandes hipóteses
+Como a biogênese não pode explicar a *primeira* forma de vida, surgiram três grandes hipóteses:
 
-O processo hipotético que teria levado das moléculas simples aos primeiros seres vivos:
+**1. Evolução química (Oparin e Haldane, anos 1920)**
+A Terra primitiva tinha ~4,5 bilhões de anos, atmosfera sem oxigênio, vulcões ativos e raios constantes. Moléculas inorgânicas simples (metano, amônia, hidrogênio, água) teriam se combinado, sob ação de descargas elétricas e radiação UV, formando moléculas orgânicas cada vez mais complexas — até os primeiros seres vivos. O oceano primitivo seria uma **"sopa primordial"** rica em nutrientes.
 
-1. **Moléculas inorgânicas** (metano, amônia, hidrogênio, água) no oceano primitivo
-2. → **Moléculas orgânicas complexas** (nucleotídeos) — sob ação de descargas elétricas e radiação UV
-3. → **Macromoléculas** (ácidos nucleicos, proteínas)
-4. → **Protobiontes ou coacervados** — estruturas pré-celulares
+Miller e Urey (1953) testaram isso em laboratório e conseguiram sintetizar aminoácidos a partir de moléculas inorgânicas — validando a hipótese.
+
+**2. Panspermia cósmica**
+Sugere que a vida (ou seus precursores) foi trazida à Terra por meteoros. Aminoácidos já foram encontrados em meteoritos, e algumas bactérias extremófilas resistem a condições espaciais — o que torna a hipótese plausível, mas não comprovada.
+
+**3. Hipótese heterotrófica**
+Os primeiros seres vivos eram heterotróficos — obtinham energia consumindo moléculas orgânicas já presentes no oceano primitivo, sem capacidade de fotossíntese.
+
+---
+
+### 🧫 Coacervados — os "pré-vivos"
+Antes dos primeiros seres vivos, teriam existido estruturas chamadas **coacervados (protobiontes)**: aglomerados de aminoácidos e proteínas envoltos por uma membrana primitiva. Essa membrana separava o interior do exterior — uma das características mais fundamentais de qualquer célula.
+
+---
+
+### 🐧 Conceito biológico de espécie e manutenção
+Uma **espécie** é um grupo de organismos capazes de se reproduzir entre si gerando descendentes **férteis**, isolados reprodutivamente de outros grupos. É a **reprodução** que garante a **manutenção da espécie** — sem ela, qualquer grupo se extinguiria em uma geração.
 
 ---
 
 ## SEÇÃO 3 — CIENTISTAS E HISTÓRIA DA CIÊNCIA
 
 ### Francesco Redi (séc. XVII)
-**Área:** Biologia experimental
-**Contribuição no capítulo:** Realizou experimento em 1668 que contribuiu para demonstrar que seres vivos não surgem espontaneamente de matéria não viva.
-**O que mudou:** Primeiro golpe experimental significativo contra a abiogênese.
-**Associado a:** Refutação da geração espontânea
-**Contexto histórico:** Período do nascimento do método científico experimental na Europa.
+**Área:** Biologia experimental / Medicina
+**Contribuição no capítulo:** Em 1668, demonstrou que larvas não surgem espontaneamente em carne quando esta é protegida do contato com moscas — um dos primeiros golpes contra a abiogênese.
+**O que mudou:** Introduziu o controle experimental no debate sobre geração espontânea.
+**Associado a:** Experimento com carne coberta e descoberta → sem larvas; carne exposta → com larvas.
+**Contexto histórico:** Época do Iluminismo; início da valorização do método experimental na ciência europeia.
 
-### Lazzaro Spallanzani (séc. XVIII)
-**Área:** Biologia experimental
-**Contribuição no capítulo:** Realizou experimento em 1770 que reforçou a refutação da abiogênese.
-**O que mudou:** Aprofundou a evidência contra a geração espontânea, antecipando o trabalho de Pasteur.
-**Associado a:** Refutação da geração espontânea
-**Contexto histórico:** Iluminismo — era de racionalismo e valorização da experimentação.
+---
+
+### Lazzaro Spallanzani (1729–1799)
+**Área:** Biologia / Fisiologia
+**Contribuição no capítulo:** Em 1770, ferveu caldos nutritivos e os selou hermeticamente; sem contato com o ar, os caldos permaneciam limpos — reforçando a biogênese.
+**O que mudou:** Mostrou que microrganismos também não surgem espontaneamente em líquidos esterilizados.
+**Associado a:** Caldos fervidos e selados.
+**Contexto histórico:** Pré-revolucionário; período de grande produção científica na Europa.
+
+---
 
 ### Louis Pasteur (1822–1895)
 **Área:** Microbiologia, Química, Medicina
-**Contribuição no capítulo:** Em 1860, refutou definitivamente a abiogênese com o experimento dos frascos de pescoço de cisne, fortalecendo a biogênese. Desenvolveu também a pasteurização e a vacina contra a raiva. Fundou o Instituto Pasteur em 1888.
-**O que mudou:** Encerrou o debate secular sobre a geração espontânea; revolucionou a microbiologia e a medicina preventiva.
-**Associado a:** Experimento do pescoço de cisne · Pasteurização · Vacina contra a raiva · Biogênese
-**Contexto histórico:** Século XIX — expansão da microbiologia e da medicina experimental.
+**Contribuição no capítulo:** Refutou definitivamente a abiogênese com o experimento dos frascos de pescoço de cisne (~1859–1861); desenvolveu a pasteurização e vacinas fundamentais (ex: raiva).
+**O que mudou:** Consolidou a biogênese como lei científica; fundou a microbiologia moderna; deu bases à biotecnologia e à imunização.
+**Associado a:** Frascos de pescoço de cisne, pasteurização, Institut Pasteur (fundado em 1888, 26 países).
+**Contexto histórico:** Segunda Revolução Industrial; medicina começava a se tornar ciência de laboratório.
 
-### Aleksandr Oparin e J.B.S. Haldane (séc. XX)
-**Área:** Bioquímica / Origem da vida
-**Contribuição no capítulo:** Nos anos 1920, propuseram a hipótese da "sopa primordial" — que o oceano primitivo rico em moléculas inorgânicas, sob ação de descargas elétricas e radiação UV, teria originado as primeiras moléculas orgânicas complexas.
-**O que mudou:** Deslocou o debate sobre a origem da vida para o campo da química, criando a base para a hipótese da evolução química.
-**Associado a:** Sopa primordial · Evolução química · Protobiontes
-**Contexto histórico:** Início do séc. XX — avanços na bioquímica e na compreensão da composição da matéria viva.
+---
+
+### Alexander Oparin e J. B. S. Haldane (anos 1920)
+**Área:** Bioquímica / Biologia Evolutiva
+**Contribuição no capítulo:** Propuseram independentemente a hipótese da sopa primordial — moléculas inorgânicas na Terra primitiva teriam originado, por ação de energia, as primeiras moléculas orgânicas e seres vivos.
+**O que mudou:** Deslocou o debate sobre a origem da vida para o campo da química e da física, afastando explicações sobrenaturais.
+**Associado a:** Hipótese da sopa primordial / evolução química.
+**Contexto histórico:** Pós-Primeira Guerra; avanços em bioquímica e termodinâmica.
+
+---
+
+### Stanley Miller e Harold Urey (1953)
+**Área:** Bioquímica
+**Contribuição no capítulo:** Simularam em laboratório as condições da Terra primitiva (gases + descargas elétricas) e sintetizaram aminoácidos a partir de matéria inorgânica — validando experimentalmente a hipótese de Oparin-Haldane.
+**O que mudou:** Prova experimental de que moléculas orgânicas podem surgir abioticamente.
+**Associado a:** Experimento de Miller-Urey; síntese de aminoácidos.
+**Contexto histórico:** Guerra Fria; explosão da biologia molecular (mesma época da descoberta da estrutura do DNA por Watson e Crick, 1953).
 
 ---
 
 ## SEÇÃO 4 — PROCESSOS E CICLOS BIOLÓGICOS
 
-### Evolução química
+### Síntese Abiótica de Moléculas Orgânicas (Oparin-Haldane)
 
 **Etapas:**
-1. **Moléculas inorgânicas** no oceano primitivo — metano, amônia, hidrogênio, água
-2. **Ação de energia** — descargas elétricas de tempestades + radiação ultravioleta do Sol
-3. **Moléculas orgânicas complexas** — formação de nucleotídeos
-4. **Macromoléculas** — ácidos nucleicos e proteínas
-5. **Protobiontes ou coacervados** — estruturas pré-celulares organizadas
+1. **Atmosfera primitiva** — presença de moléculas inorgânicas: metano (CH₄), amônia (NH₃), hidrogênio (H₂), água (H₂O); ausência de oxigênio livre.
+2. **Ação de energia** — descargas elétricas (raios), intensa radiação ultravioleta e calor vulcânico atuam sobre os gases.
+3. **Formação de moléculas orgânicas simples** — surgimento de nucleotídeos e aminoácidos.
+4. **Polimerização** — combinação das moléculas simples em macromoléculas orgânicas: ácidos nucleicos e proteínas.
+5. **Formação dos coacervados (protobiontes)** — aglomerados envoltos por membrana primitiva; precursores dos primeiros seres vivos.
 
-**Entradas:** Metano, amônia, hidrogênio, água (moléculas inorgânicas)
-**Saídas:** Nucleotídeos → ácidos nucleicos, proteínas → protobiontes/coacervados
-**Local:** Oceano primitivo ("sopa primordial")
-**Condições:** Descargas elétricas de tempestades; intensa radiação ultravioleta (ausência de camada de ozônio)
+**Entradas:** CH₄, NH₃, H₂, H₂O (moléculas inorgânicas)
+**Saídas:** Aminoácidos, ácidos nucleicos, proteínas → coacervados
+**Local:** Atmosfera primitiva + oceanos primitivos (sopa primordial)
+**Condições:** Ausência de O₂, descargas elétricas, radiação UV intensa, calor
 
-💡 **Pegadinha:** A evolução química é uma **hipótese** — não foi observada nem reproduzida completamente. Não confundir com a teoria da evolução biológica (Darwin), que descreve mudanças em seres vivos já existentes.
+💡 **Pegadinha:** Muitos alunos confundem **abiogênese** (geração espontânea — ideia antiga e refutada) com **evolução química** (origem abiótica das primeiras moléculas — hipótese científica aceita). São conceitos opostos: a evolução química explica a origem das *moléculas*, não de organismos complexos surgindo do nada.
 
 ---
 
-### Formação da Terra primitiva e dos primeiros oceanos
+### Experimento de Pasteur — Refutação da Abiogênese
 
 **Etapas:**
-1. Terra formada há ~4,6 bilhões de anos: esfera quente, sem atmosfera
-2. Resfriamento parcial → primeiras formações rochosas
-3. Atmosfera primitiva: CO, CO₂, metano, amônia; vulcanismo intenso; impactos de meteoros; sem ozônio
-4. Água trazida por meteoros → evapora ao tocar superfície quente → sobe à atmosfera
-5. Ciclos de evaporação, condensação e precipitação
-6. Resfriamento + chuvas constantes → formação dos primeiros oceanos
+1. Caldo nutritivo colocado em frasco com gargalo **esticado e curvado** (pescoço de cisne).
+2. Caldo **fervido** — esterilização por calor.
+3. Frasco resfria com pescoço íntegro → ar entra, mas microrganismos ficam retidos na curva do pescoço → **caldo permanece limpo**.
+4. Pescoço quebrado (ou frasco inclinado para molhar o pescoço) → microrganismos passam livremente → **caldo contamina rapidamente**.
 
-**Resultado:** Ambiente aquoso rico em moléculas inorgânicas — condição necessária para a sopa primordial de Oparin e Haldane.
+**Entradas:** Caldo nutritivo, ar ambiente
+**Saídas (com pescoço íntegro):** Caldo estéril (sem contaminação)
+**Saídas (com pescoço quebrado):** Caldo contaminado
+**Condições:** Fervura para esterilização; design do pescoço como barreira física
 
-💡 **Pegadinha:** O material apresenta a origem da água via meteoros como hipótese ("há a crença de que"), não como fato estabelecido.
+💡 **Pegadinha:** O frasco de pescoço de cisne **não bloqueia o ar** — o caldo tem contato com o ar o tempo todo. O que ele bloqueia são os **microrganismos**, que ficam presos na curvatura úmida do pescoço. Alunos frequentemente erram achando que o experimento "isola o caldo do ar".
 
 ---
 
-## SEÇÃO 5 — GLOSSÁRIO
+## SEÇÃO 5 — CLASSIFICAÇÃO E TAXONOMIA
 
-| Termo | Definição |
-|-------|-----------|
-| Biologia | Ciência que estuda a vida, os seres vivos e suas relações com o ambiente |
-| Abiogênese | Hipótese (refutada) de que seres vivos surgem espontaneamente de matéria não viva |
-| Biogênese | Hipótese de que a vida só se origina de vida preexistente |
-| Evolução química | Hipótese que explica o surgimento das primeiras moléculas orgânicas no oceano primitivo |
-| Sopa primordial | Oceano primitivo rico em moléculas inorgânicas; cenário da evolução química (Oparin e Haldane) |
-| Protobiontes / Coacervados | Estruturas pré-celulares organizadas; etapa final da evolução química |
-| Espécie | Conjunto de organismos capazes de se reproduzir entre si e gerar descendentes férteis |
-| Fóssil | Vestígio preservado de um ser vivo do passado; a evidência mais antiga de vida data de ~3,5 bilhões de anos |
-| Célula | Unidade estrutural e funcional dos seres vivos |
-| Vitalismo / Força vital | Conceito ligado à abiogênese; ideia de que a vida possuiria uma força imaterial especial |
-| Pasteurização | Processo de aquecimento para eliminar micro-organismos; decorre dos experimentos de Pasteur que refutaram a abiogênese |
+*(Não aplicável como bloco taxonômico formal neste capítulo. O capítulo menciona a árvore evolutiva como ilustração da diversidade, mas não aborda hierarquia taxonômica com critérios classificatórios. Conteúdo incorporado na Seção 2.)*
 
 ---
 
 ## SEÇÃO 6 — DADOS FACTUAIS DENSOS
 
-### Comparação: Abiogênese × Biogênese × Evolução Química
+### Tabela 1 — Comparativo das Hipóteses sobre a Origem da Vida
 
-| Conceito | Proposta central | Autores/período | Status atual | ⚠️ Pegadinha |
-|---|---|---|---|---|
-| Abiogênese | Seres vivos surgem espontaneamente de matéria não viva | Crença antiga / vitalismo | Refutada (Redi 1668, Spallanzani 1770, Pasteur 1860) | Não confundir com "evolução química" — são hipóteses opostas |
-| Biogênese | Vida só se origina de vida preexistente | Consolidada por Pasteur (1860) | Mais aceita atualmente | Não explica a origem da *primeira* forma de vida |
-| Evolução química | Moléculas inorgânicas → orgânicas → protobiontes, no oceano primitivo | Oparin e Haldane (anos 1920) | Hipótese científica aceita para origem da 1ª vida | É hipótese, não fato comprovado; não confundir com evolução biológica |
+| Hipótese | Ideia central | Evidências / Argumentos | Limitação | ⚠️ Pegadinha |
+|----------|--------------|------------------------|-----------|--------------|
+| **Abiogênese** (geração espontânea) | Seres vivos surgem espontaneamente da matéria inanimada | Observações do cotidiano (larvas em carne, ratos em celeiros) | Refutada pelos experimentos de Redi, Spallanzani e Pasteur | Não confundir com evolução química — são opostas |
+| **Biogênese** | Todo ser vivo origina-se de outro ser vivo | Experimentos de Redi (1668), Spallanzani (1770), Pasteur (~1860) | Não explica a *primeira* forma de vida | É a hipótese aceita hoje, mas não explica tudo |
+| **Evolução química** | Moléculas inorgânicas → orgânicas → primeiros seres vivos por processos físico-químicos | Experimento de Miller e Urey (1953); presença de vida há ~3,5 bi de anos | Especulativa para as etapas iniciais | Confundir "abiótico" com "abiogênese" — são conceitos diferentes |
+| **Panspermia cósmica** | A vida (ou seus precursores) veio de meteoros do espaço | Aminoácidos em meteoritos; resistência de extremófilos | Não explica *como* a vida surgiu — só *de onde* veio | Não nega a evolução química; apenas muda o local de origem |
+| **Hipótese heterotrófica** | Os primeiros seres vivos eram heterotróficos | Oceano rico em moléculas orgânicas disponíveis | Não é mutuamente exclusiva com a evolução química | Opõe-se à hipótese autotrófica (quimiossíntese em fontes termais) |
 
-### Linha cronológica — refutação da abiogênese
+---
 
-| Ano | Cientista | Contribuição |
-|---|---|---|
-| 1668 | Francesco Redi | Experimento contra geração espontânea |
-| 1770 | Lazzaro Spallanzani | Reforço experimental |
-| 1860 | Louis Pasteur | Refutação definitiva (frascos pescoço de cisne) |
-| Anos 1920 | Oparin e Haldane | Hipótese da sopa primordial / evolução química |
+### Tabela 2 — As 5 Características dos Seres Vivos
+
+| Característica | O que significa | Exemplo prático | ⚠️ Pegadinha |
+|---------------|----------------|-----------------|--------------|
+| **Evoluir e adaptar-se** | Modificações genéticas ao longo das gerações | Resistência bacteriana a antibióticos | Adaptação individual ≠ evolução — evolução ocorre na *população*, ao longo de gerações |
+| **Constituir-se de células** | Formados por 1 (unicelular) ou mais células (pluricelular) | Bactéria (unicelular); ser humano (pluricelular) | Vírus **não** são formados por células — por isso há debate se são seres vivos |
+| **Realizar metabolismo** | Transformar substâncias para obter energia | Digestão (heterotrófico), fotossíntese (autotrófico) | Autotrófico ≠ só plantas — bactérias quimiossintetizantes também são autotróficas |
+| **Reagir a estímulos** | Perceber e responder a mudanças do ambiente | Planta crescendo em direção à luz (fototropismo) | Plantas **reagem** a estímulos, mas sem sistema nervoso |
+| **Reproduzir-se** | Gerar descendentes (sexuado ou assexuado) | Divisão bacteriana (assexuada); humanos (sexuada) | A reprodução define a espécie pelo conceito biológico — descendentes devem ser **férteis** |
 
 ---
 
 ## SEÇÃO 7 — DICAS DE OURO
 
-💡 **Dica 1 — Biogênese ≠ resposta completa**
-Biogênese diz que "vida vem de vida" — mas não explica como surgiu a *primeira* forma de vida. Para essa pergunta, entra a evolução química. Prova adora perguntar a limitação da biogênese.
+💡 **Dica 1 — Abiogênese ≠ Evolução Química**
+São conceitos opostos que vivem sendo confundidos. A **abiogênese** diz que organismos complexos surgem espontaneamente do nada (ideia antiga, refutada). A **evolução química** diz que moléculas simples, por processos físico-químicos lentos, originaram as primeiras moléculas orgânicas (hipótese científica aceita). Lembre-se: Pasteur refutou a *abiogênese* — não refutou a evolução química.
 
-💡 **Dica 2 — Evolução química ≠ evolução biológica**
-Evolução química (Oparin/Haldane) trata da origem das primeiras moléculas e estruturas pré-celulares. Evolução biológica (Darwin) trata de mudanças em seres vivos já existentes ao longo das gerações. São conceitos completamente diferentes.
+💡 **Dica 2 — O frasco de Pasteur não bloqueia o ar**
+Pegadinha clássica de prova! O pescoço de cisne permite a entrada de ar no frasco — o caldo não fica isolado. O que o pescoço curvo faz é reter os **microrganismos** na umidade da curva, impedindo que cheguem ao caldo. Por isso, quando o pescoço é quebrado, os microrganismos entram e o caldo se contamina.
 
-💡 **Dica 3 — Espécie = descendentes férteis**
-O critério biológico de espécie não é aparência — é a capacidade de gerar descendentes *férteis*. Cavalo + jumento = mula (estéril) → espécies diferentes. Leão + tigre = tigon (geralmente estéril) → idem. A palavra "férteis" é a chave.
+💡 **Dica 3 — Biogênese não explica a origem da vida**
+A biogênese diz que "todo ser vivo vem de outro ser vivo" — mas isso cria um paradoxo: de onde veio o *primeiro* ser vivo? Por isso a biogênese não contradiz a evolução química: a biogênese explica a *continuidade* da vida; a evolução química tenta explicar a *origem* da vida.
 
-💡 **Dica 4 — Pasteur: o experimento e o ano certos**
-O experimento decisivo de Pasteur foi em **1860** (não 1870 como constava na versão inicial do material). O frasco de pescoço de cisne permite a entrada de ar mas impede a entrada de partículas — o caldo só contamina quando o gargalo é quebrado.
+💡 **Dica 4 — Conceito biológico de espécie: o critério é a fertilidade**
+Dois animais que se parecem muito podem ser de espécies diferentes se não gerarem descendentes férteis. O exemplo clássico: cavalo + jumento = mula (estéril) → espécies diferentes. Dois animais de aparência diferente que geram filhotes férteis → mesma espécie. O critério não é aparência, é **reprodução com descendência fértil**.
 
-💡 **Dica 5 — Autotrófico vs. heterotrófico**
-Autotrófico = produz o próprio alimento (plantas, algas — via fotossíntese). Heterotrófico = obtém energia consumindo outros seres (animais, fungos — via digestão). Questões sobre os primeiros seres vivos frequentemente exploram qual teria surgido primeiro (hipótese heterotrófica: usariam as moléculas da sopa primordial).
+💡 **Dica 5 — Coacervados não são seres vivos**
+Os coacervados (protobiontes) são estruturas pré-celulares — têm membrana primitiva, mas não realizam todas as características dos seres vivos. Eles são os *precursores* dos primeiros seres vivos, não os primeiros seres vivos em si. Provas adoram perguntar "o que são coacervados" esperando que o aluno confunda com células.
 
-💡 **Dica 6 — Protobiontes/coacervados: posição correta na sequência**
-Protobiontes e coacervados são a *última* etapa da evolução química — estruturas pré-celulares formadas por macromoléculas organizadas. Aparecem *depois* dos ácidos nucleicos e proteínas, não antes.
+💡 **Dica 6 — Panspermia não resolve o problema**
+A hipótese da panspermia diz que a vida veio de outro planeta — mas isso não responde *como* a vida surgiu, apenas *transfere* o problema para outro lugar do universo. Em questões que pedem "qual hipótese explica a **origem** da vida", panspermia não é a resposta correta — ela explica a *chegada* da vida à Terra, não sua origem.
 
 ---
 
 ## SEÇÃO 8 — ALERTAS DE INCONSISTÊNCIA
 
-⚠️ **ALERTA — Data do experimento de Pasteur**
-- Dado no material (versão inicial capturada): "Realizado em 1870"
-- Problema: data incorreta
-- Dado correto: O experimento clássico com frascos de pescoço de cisne foi publicado em **1860** (conforme segunda versão do capture e confirmado na Síntese do livro)
-- Impacto na aula: Usar 1860 em todas as referências. A versão correta já consta no capture consolidado `bio-1-1.md`.
+```
+# GAPS — bio-1-1
+# Gerado automaticamente pelo Prompt de Preparação
 
-⚠️ **ALERTA — Vírus: ser vivo ou não?**
-- Dado no material: O texto introdutório questiona "E um vírus, é um ser vivo?" sem apresentar resposta explícita.
-- Problema: Dado ausente — o livro abre a discussão sem resolvê-la no capítulo.
-- Impacto na aula: Se o aluno perguntar, o Professor deve informar que o status do vírus é debatido: não possui células, não realiza metabolismo próprio, mas se replica usando células hospedeiras. A maioria dos biólogos não classifica vírus como seres vivos pelo critério celular.
+## INFERÊNCIAS USADAS NO PREP
+
+| Seção | Campo | Valor inferido | Fonte da inferência |
+|-------|-------|---------------|---------------------|
+| Seção 3 | Período de vida de Francesco Redi | 1626–1697 | Conhecimento geral — não citado no material |
+| Seção 3 | Período de vida de Lazzaro Spallanzani | 1729–1799 | Conhecimento geral — não citado no material |
+| Seção 3 | Ano exato do experimento de Pasteur | ~1859–1861 | Conhecimento geral — material cita "1850" de forma aproximada |
+
+## DADOS AUSENTES — AÇÃO NECESSÁRIA
+
+| Seção | Campo | Motivo da ausência | Ação recomendada |
+|-------|-------|-------------------|-----------------|
+| Seção 5 | Hierarquia taxonômica da árvore evolutiva (pág. 12–13) | Imagem da árvore não possui legendas textuais legíveis | Capturar imagem da árvore e identificar grupos representados |
+| Seção 10 | Síntese do livro — lacunas da Síntese (pág. 18) | Imagem da Síntese foi fornecida — ver Seção 10 abaixo |  — |
+```
+
+⚠️ **ALERTA — Data do experimento de Pasteur**
+- **Dado no material:** "em 1850, comprovou-se pelos experimentos de Louis Pasteur"
+- **Problema:** O experimento clássico dos frascos de pescoço de cisne ocorreu entre 1859 e 1861, não em 1850. Em 1850, Pasteur ainda estava em início de carreira.
+- **Dado correto:** O experimento definitivo de Pasteur foi publicado em 1861.
+- **Impacto na aula:** Baixo — para o 9º ano a data exata não é cobrada; professor pode usar "segunda metade do século XIX" ou "por volta de 1860" para maior precisão.
+
+⚠️ **VISUAL AUSENTE — Árvore evolutiva (pág. 12–13)**
+- **Sugestão:** Identificar os grupos animais ilustrados (mamíferos, aves, répteis, anfíbios, peixes) e gerar SVG de hierarquia na revisão do capítulo.
+- **Ação:** Usar image_search na aula para complementar ou capturar a legenda completa da figura.
 
 ---
 
@@ -255,96 +276,100 @@ Protobiontes e coacervados são a *última* etapa da evolução química — est
 #### Bloco 1 — Conceitos e Definições
 
 - **Biologia**
-  - Definição: ciência que estuda `______` (a vida / os seres vivos e suas relações com o ambiente)
+  - Definição: `______` → *(Ciência que estuda os seres vivos e suas interações com o ambiente; do grego bíos + logos)*
+  - Exemplo: `______` → *(estudo de bactérias, plantas, animais e suas relações com o ecossistema)*
 
 - **Abiogênese**
-  - Definição: hipótese de que seres vivos surgem `______` de matéria não viva (espontaneamente)
-  - Associada a: `______` (vitalismo / força vital)
-  - Status: `______` (refutada)
+  - Definição: `______` → *(hipótese de que seres vivos surgem espontaneamente da matéria não viva)*
+  - Quem refutou: `______` → *(Redi, Spallanzani e Pasteur)*
 
 - **Biogênese**
-  - Definição: hipótese de que a vida só se origina de `______` (outra vida preexistente)
-  - Limitação: não explica `______` (o surgimento da primeira forma de vida)
-
-- **Espécie (conceito biológico)**
-  - Critério definidor: capacidade de gerar `______` entre si (descendentes férteis)
-  - Critério secundário: `______` reprodutivo de outros grupos (isolamento)
-
-- **Sopa primordial**
-  - Proposta por: `______` nos anos 1920 (Oparin e Haldane)
-  - Local: `______` (oceano primitivo)
-
-- **Evidência de vida mais antiga**
-  - Tipo: `______` de micro-organismos (~3,5 bilhões de anos) (fósseis)
-
-#### Bloco 2 — Processos
+  - Definição: `______` → *(todo ser vivo origina-se de outro ser vivo preexistente)*
 
 - **Evolução química**
-  - 1ª etapa: `______` (moléculas inorgânicas: metano, amônia, hidrogênio, água)
-  - 2ª etapa: `______` (moléculas orgânicas complexas — nucleotídeos)
-  - 3ª etapa: `______` (macromoléculas — ácidos nucleicos e proteínas)
-  - Etapa final: `______` (protobiontes ou coacervados)
-  - Condições: `______` e `______` (descargas elétricas; radiação ultravioleta)
-  - Local: `______` (oceano primitivo / sopa primordial)
+  - Definição: `______` → *(hipótese de que moléculas inorgânicas simples originaram, por processos físico-químicos, as primeiras moléculas orgânicas e formas de vida)*
+  - Quem propôs: `______` → *(Oparin e Haldane, anos 1920)*
+
+- **Coacervados**
+  - Definição: `______` → *(aglomerados de aminoácidos e proteínas com membrana primitiva — precursores dos primeiros seres vivos)*
+
+- **Espécie (conceito biológico)**
+  - Definição: `______` → *(grupo de organismos que se reproduzem entre si gerando descendentes férteis)*
+
+#### Bloco 2 — Processos e Ciclos
+
+- **Síntese abiótica (Oparin-Haldane)**
+  - Entrada: `______` → *(CH₄, NH₃, H₂, H₂O — moléculas inorgânicas)*
+  - Ação: `______` → *(descargas elétricas, radiação UV, calor)*
+  - Saída: `______` → *(aminoácidos, ácidos nucleicos, proteínas → coacervados)*
+
+- **Experimento de Pasteur**
+  - Variável testada: `______` → *(presença ou ausência de contato com microrganismos do ar)*
+  - Resultado (pescoço íntegro): `______` → *(caldo sem contaminação)*
+  - Resultado (pescoço quebrado): `______` → *(caldo contaminado)*
+  - Conclusão: `______` → *(microrganismos vêm do ar — biogênese confirmada)*
 
 #### Bloco 3 — Lacunas para Warm-Up
 
-1. Os seres vivos possuem cinco características determinantes. São elas: evoluir e adaptar-se, constituir-se de `______`, realizar `______`, reagir a `______` e `______`.
-*(resposta: células; metabolismo; estímulos; reproduzir-se)*
+1. A ciência que estuda os seres vivos e suas interações com o ambiente chama-se `______`.
+*(resposta: Biologia)*
 
-2. Para a Biologia, dois organismos pertencem à mesma espécie se conseguem se reproduzir e gerar descendentes `______`.
+2. A hipótese de que seres vivos surgem espontaneamente da matéria inanimada é chamada de `______`, e foi definitivamente refutada por `______`.
+*(resposta: abiogênese / Louis Pasteur)*
+
+3. Segundo a hipótese da `______`, proposta por Oparin e Haldane, moléculas inorgânicas como metano, amônia e hidrogênio teriam dado origem às primeiras moléculas orgânicas na Terra primitiva.
+*(resposta: evolução química / sopa primordial)*
+
+4. Os `______` são estruturas formadas por aglomerados de aminoácidos e proteínas, envolvidas por uma membrana primitiva, considerados precursores dos primeiros seres vivos.
+*(resposta: coacervados ou protobiontes)*
+
+5. No experimento de Pasteur, o frasco com pescoço de cisne `______` (bloqueava / não bloqueava) a entrada de ar, mas impedia a passagem de `______`.
+*(resposta: não bloqueava / microrganismos)*
+
+6. Uma das cinco características dos seres vivos é a capacidade de `______`, que garante a manutenção da espécie ao longo das gerações.
+*(resposta: reproduzir-se)*
+
+7. Dois animais são considerados da mesma espécie quando são capazes de se reproduzir gerando descendentes `______`.
 *(resposta: férteis)*
 
-3. A hipótese da `______` defendia que seres vivos podiam surgir espontaneamente de matéria não viva. Ela foi refutada por experimentos de Redi, Spallanzani e `______`.
-*(resposta: abiogênese; Pasteur)*
-
-4. A hipótese oposta, a `______`, afirma que vida só se origina de vida — mas não explica como surgiu a `______` forma de vida.
-*(resposta: biogênese; primeira)*
-
-5. No experimento de Pasteur, o frasco com gargalo em formato de `______` manteve o caldo sem contaminação porque impedia a entrada de `______`, não de ar.
-*(resposta: pescoço de cisne; partículas/micro-organismos)*
-
-6. Oparin e Haldane propuseram que o `______` primitivo era rico em moléculas inorgânicas — a chamada `______` primordial — onde, sob ação de descargas elétricas e radiação UV, surgiram as primeiras moléculas `______`.
-*(resposta: oceano; sopa; orgânicas)*
-
-7. Na sequência da evolução química, as macromoléculas se organizaram em estruturas pré-celulares chamadas `______` ou `______`.
-*(resposta: protobiontes; coacervados)*
-
-8. A Terra se formou há cerca de `______` bilhões de anos. A evidência mais antiga de vida data de `______` bilhões de anos.
-*(resposta: 4,6; 3,5)*
+8. A hipótese da `______` sugere que a vida na Terra teria sido trazida por meteoros vindos do espaço, sendo reforçada pela presença de aminoácidos em meteoritos.
+*(resposta: panspermia cósmica)*
 
 #### Bloco 4 — Tabela Síntese
 
 | Conceito | Lacuna — resposta esperada |
 |---|---|
-| Abiogênese | Hipótese de que a vida surge `______` de matéria não viva; status: `______` → espontaneamente; refutada |
-| Biogênese | Vida só se origina de `______`; não explica o surgimento da `______` forma de vida → vida; primeira |
-| Sopa primordial | Proposta por `______` e `______` nos anos 1920; local: oceano `______` → Oparin; Haldane; primitivo |
-| Evolução química — etapas | Moléculas inorgânicas → moléculas orgânicas → `______` → `______` → protobiontes → Macromoléculas; coacervados |
-| Condições da evolução química | `______` de tempestades e intensa radiação `______` → descargas elétricas; ultravioleta |
-| Espécie (conceito biológico) | Organismos que geram descendentes `______` entre si → férteis |
-| Pasteur — experimento | Frasco com gargalo em `______` manteve caldo estéril impedindo `______` → pescoço de cisne; micro-organismos |
-| Formação da Terra | Há ~`______` bilhões de anos; fósseis mais antigos: ~`______` bilhões de anos → 4,6; 3,5 |
+| Significado de Biologia | `______` → *"estudo da vida" — do grego bíos + logos* |
+| Hipótese refutada por Pasteur | `______` → *abiogênese (geração espontânea)* |
+| Hipótese proposta por Oparin e Haldane | `______` → *evolução química / sopa primordial* |
+| Precursores dos primeiros seres vivos | `______` → *coacervados (protobiontes)* |
+| Quem validou experimentalmente Oparin-Haldane | `______` → *Miller e Urey (1953)* |
+| Critério do conceito biológico de espécie | `______` → *reprodução com descendentes férteis* |
+| As 5 características dos seres vivos | `______` → *evoluir, constituir-se de células, metabolismo, reagir a estímulos, reproduzir-se* |
+| ⚠️ Pegadinha clássica | Abiogênese e evolução química são `______` → *conceitos opostos — não confundir!* |
 
 ---
 
 ## SEÇÃO 10 — SÍNTESE DO LIVRO
 
-### Síntese do Livro — ORIGEM DA VIDA
+### Síntese do Livro — ORIGEM DA VIDA *(pág. 18)*
+
+> Imagem fornecida ✅ — conteúdo extraído abaixo.
 
 | Nó / Posição | Já dado | Lacuna — resposta esperada |
 |---|---|---|
-| Título central | ORIGEM DA VIDA — Afinal, o que é vida e como ela surgiu? | — |
-| **Abiogênese** — definição | "Os seres vivos poderiam surgir de maneira ___ de qualquer matéria não viva. De um cesto de roupas sujas, poderiam nascer ratos." | espontânea |
-| **Biogênese** — caixa superior direita (sem título visível) | "Alguns cientistas eram contrários à abiogênese e, em 1870, Louis Pasteur realizou o Experimento de Pasteur, no qual comprovou que a vida se origina apenas de outra vida anterior." | ⚠️ Nota: a Síntese do livro registra 1870 — data incorreta; o correto é 1860 |
-| **Evolução química** — definição | "Teoria que sugere que devido a processos físico-químicos, pequenas moléculas ___ abióticas teriam surgido, e então formado os microrganismos." | (inorgânicas / abióticas) |
-| **Terra primitiva** — descrição | "No início da formação da Terra, nosso planeta foi atingido por meteoros que trouxeram água. Na superfície muito quente, esta água teria evaporado, causando chuvas e formado os primeiros oceanos. Nessa sopa primordial, as primeiras moléculas inorgânicas teriam surgido, seguidas dos microrganismos, os ___" | [lacuna 1: referência às moléculas orgânicas] |
-| **Terra primitiva** — lacuna 2 | continuação: "___" | [lacuna 2: referência aos microrganismos / primeiras formas de vida] |
-| **Terra primitiva** — nota lateral | "Para alguns cientistas, essas primeiras moléculas e microrganismos poderiam ter chegado à Terra Primordial também nos meteoros, vindos de outros planetas." | — (panspermia — não é foco do capítulo) |
-| **Características dos seres vivos** | "Um ser vivo tem como características: Evoluir e se adaptar; constituir-se de células; realizar metabolismo; reagir a estímulos; reproduzir-se." | — (já dado completo) |
-| **Reprodução / Espécie** | "A ___ é uma das principais características dentro da Biologia, sendo, inclusive, o que define uma espécie." | reprodução |
-| **Espécie** | "Para serem da mesma espécie, os indivíduos devem ser capazes de se reproduzir entre si, gerando descendentes ___." | férteis |
-| **Manutenção da espécie** | "É por meio da reprodução que ocorre a ___ da espécie: passamos para próximas gerações nossas características, garantindo que nossas particularidades permaneçam dentro da espécie, trazendo benefícios eventualmente." | manutenção |
+| Título central | "ORIGEM DA VIDA — Afinal, o que é vida e como ela surgiu?" | — |
+| Bloco Abiogênese — definição | "Os seres vivos poderiam surgir de maneira ___ de qualquer matéria não viva. De um cesto de roupas sujas, poderiam nascer ratos." | `______` → *espontânea* |
+| Bloco Biogênese — título | *(caixa em branco no topo direito — nome da hipótese a preencher)* | `______` → *Biogênese* |
+| Bloco Biogênese — conteúdo | "Alguns cientistas eram contrários à abiogênese e, em 1870, Louis Pasteur realizou o Experimento de Pasteur, no qual comprovou que a vida se origina apenas de outra vida anterior." | — |
+| Experimento de Pasteur — aplicação industrial | "Esse experimento foi tão revolucionário que é usado até hoje na indústria, é a ___." | `______` → *pasteurização* |
+| Bloco Evolução química — definição | "Teoria que sugere que devido a processos físico-químicos, pequenas moléculas ___ abióticas teriam surgido, e então formado os microrganismos." | `______` → *orgânicas* |
+| Bloco Terra primitiva — panspermia | "Nessa sopa primordial, as primeiras moléculas inorgânicas teriam surgido, seguidas dos microrganismos, os ___ / ___." | `______` → *coacervados / protobiontes* |
+| Bloco Terra primitiva — hipótese extra | "Para alguns cientistas, essas primeiras moléculas e microrganismos poderiam ter chegado à Terra Primordial também nos meteoros, vindos de outros planetas." | — (panspermia) |
+| Bloco Seres vivos — características | "Um ser vivo tem como características: Evoluir e se adaptar; constituir-se de células; realizar metabolismo; reagir a estímulos; reproduzir-se." | — |
+| Bloco Reprodução — espécie | "A ___ é uma das principais características dentro da Biologia, sendo, inclusive, o que define uma espécie." | `______` → *reprodução* |
+| Bloco Espécie — critério | "Para serem da mesma espécie, os indivíduos devem ser capazes de se reproduzir entre si, gerando descendentes ___." | `______` → *férteis* |
+| Bloco Manutenção da espécie | "É por meio da reprodução que ocorre a ___ da espécie: passamos para próximas gerações nossas características, garantindo que nossas particularidades permaneçam dentro da espécie, trazendo benefícios eventualmente." | `______` → *manutenção* |
 
 ---
 
@@ -352,207 +377,438 @@ Protobiontes e coacervados são a *última* etapa da evolução química — est
 
 #### Bloco A — Catálogo das questões
 
-| # | Enunciado resumido | Tipo | Dif. | Gabarito | Obs. |
-|---|---|---|---|---|---|
-| Q-1 | Planetas do sistema TRAPPIST-1 com água líquida: que condições seriam propícias para vida? | Dis | M | Água líquida, fonte de energia (radiação/calor), compostos inorgânicos disponíveis, atmosfera estável | — |
-| Q-2 | Cite processos vitais importantes realizados pelos seres vivos | Dis | F | Metabolismo, reprodução, reagir a estímulos, evoluir, constituir-se de células | — |
-| Q-3 | (UCS-RS 2017) Hipótese que diz que os primeiros seres vivos usavam moléculas orgânicas abiogênicas acumuladas nos mares | MC | M | **b) heterotrófica** — os primeiros seres usavam moléculas orgânicas prontas do ambiente, sem produzir alimento | — |
-| Q-4 | (UEA-AM 2024) Coacervados — estudo sobre origem deles objetiva conhecer | MC | M | **e) à origem das primeiras formas de vida** — coacervados são protobiontes, estruturas pré-celulares da evolução química | — |
-| Q-5 | (Unicamp-SP 2016) Evidências sobre a origem da vida sugerem que | MC | M | **a) a composição química da atmosfera influenciou o surgimento da vida** — metano, amônia, etc. foram condições necessárias | — |
-| Q-6 | (Famerp-SP 2023) Fontes termais submarinas → hipótese sobre o primeiro metabolismo | MC | D | **c) autotrófica, pois acreditam que os primeiros seres realizavam a quimiossíntese** — fontes hidrotermais fornecem energia química, não solar | — |
-| Q-7 | V ou F: reprodução, composição celular, plantas e sistema nervoso, adaptação | VF | M | a) V · b) V · c) F (plantas não têm sistema nervoso; reagem a estímulos por outros mecanismos como fototropismo) · d) V | — |
-| Q-8 | Explique com suas palavras o que é "manutenção da espécie" | Dis | F | Capacidade dos seres vivos de se reproduzir, transmitindo características às gerações seguintes, garantindo a continuidade e evolução da espécie | — |
+| # | Enunciado resumido | Tipo | Dif. | Origem | Gabarito | Obs. |
+|---|---|---|---|---|---|---|
+| Q-1 | Condições dos planetas TRAPPIST-1 propícias à vida | Dis | M | AT | Água líquida, atmosfera, energia (radiação da estrela) — condições análogas às da Terra primitiva | — |
+| Q-2 | Processos vitais realizados pelos seres vivos | Dis | F | AT | Metabolismo, reprodução, reação a estímulos, nutrição, circulação | — |
+| QC-1 | Hipótese que usa moléculas orgânicas abióticas como alimento dos primeiros seres | MC | M | AT (UCS-RS 2017) | **b) heterotrófica** | — |
+| QC-2 | Coacervados e metabolismo interno controlado — relação com origem da vida | MC | M | AT (UEA-AM 2024) | **e) à origem das primeiras formas de vida** | — |
+| QC-3 | Qual hipótese foi refutada pelos experimentos de Pasteur | MC | M | AT (Unicamp-SP 2016) | **a) a composição química da atmosfera influenciou o surgimento da vida** ⚠️ | ⚠️ Ver obs. |
+| QC-4 | Fontes termais submarinas → hipótese autotrófica por quimiossíntese | MC | D | AT (Famerp-SP 2023) | **d) autotrófica — quimiossíntese** | — |
+| Q-3 | V ou F — características dos seres vivos (4 itens) | VF | M | AT | a) V · b) V · c) F (plantas não têm sistema nervoso) · d) V | — |
+| Q-4 | Explicar "manutenção da espécie" com palavras próprias | Dis | F | AT | Capacidade de reprodução que garante descendentes, perpetuando as características da espécie | — |
+| QI-1 | Características da Terra primitiva para o surgimento de vida (Oparin-Haldane) | Dis | M | IC | Ausência de O₂, moléculas inorgânicas, descargas elétricas, radiação UV, calor, água | — |
+| QI-2 | Argumentos que reforçam a panspermia cósmica | Dis | M | IC | Aminoácidos em meteoritos, moléculas orgânicas no espaço, resistência de extremófilos | — |
+
+⚠️ **Obs. QC-3:** O enunciado da questão afirma que Pasteur refutou hipóteses alternativas — mas as alternativas estão confusas. A alternativa **c)** afirma que "a abiogênese foi *provada*" pelos experimentos de Pasteur, o que é falso (Pasteur *refutou* a abiogênese). A alternativa mais provável como gabarito da banca seria **c)**, por ser a afirmação claramente falsa a ser identificada. Professor deve revisar o enunciado original antes de aplicar.
+
+---
 
 #### Bloco B — Questões modelo originais
 
-**QM-1** · múltipla escolha · médio · inspirada em Q-3
+---
 
-Um estudante afirma: "Os primeiros seres vivos da Terra provavelmente eram autotróficos, pois precisavam produzir seu próprio alimento para sobreviver." Avalie essa afirmação:
+**QM-1** · múltipla escolha · médio · inspirada em: QC-1
 
-a) Correta — seres autotróficos são mais simples e surgiriam primeiro.
-b) Incorreta — a hipótese mais aceita é que os primeiros seres eram heterotróficos, usando moléculas orgânicas já presentes na sopa primordial.
-c) Correta — a fotossíntese foi o primeiro processo metabólico a surgir.
-d) Incorreta — os primeiros seres não realizavam metabolismo algum.
+Em 1953, Stanley Miller e Harold Urey simularam em laboratório as condições da Terra primitiva. Eles misturaram metano, amônia, hidrogênio e vapor de água em uma câmara fechada e aplicaram descargas elétricas. Após alguns dias, detectaram compostos orgânicos no sistema. Esse experimento demonstrou que:
 
-✅ Gabarito: b
-📝 Resolução: A hipótese heterotrófica propõe que os primeiros seres usavam as moléculas orgânicas já formadas na sopa primordial como fonte de energia — não precisavam sintetizá-las. A autotrofia (fotossíntese, quimiossíntese) é um processo mais complexo que teria surgido posteriormente.
-⚠️ Professor: referência de estilo — crie variações originais, nunca reproduza diretamente.
+a) A abiogênese é possível quando há energia suficiente disponível.
+b) A vida pode surgir espontaneamente a partir de qualquer mistura de gases.
+c) É possível sintetizar moléculas orgânicas a partir de moléculas inorgânicas em condições abióticas.
+d) Os primeiros seres vivos eram autotróficos e produziam seu próprio alimento desde o início.
+
+✅ **Gabarito: c)**
+📝 **Resolução:** O experimento de Miller e Urey não criou seres vivos — criou **moléculas orgânicas** (aminoácidos) a partir de substâncias inorgânicas, corroborando a hipótese da evolução química de Oparin e Haldane. A alternativa a) confunde evolução química com abiogênese; b) e d) são incorretas pelo mesmo motivo.
+⚠️ **Professor:** referência de estilo — crie variações originais, nunca reproduza diretamente.
 
 ---
 
-**QM-2** · múltipla escolha · médio · inspirada em Q-7
+**QM-2** · múltipla escolha · médio · inspirada em: Q-3
 
-Analise as afirmações sobre as características dos seres vivos:
-I. A reprodução assexuada não transmite características hereditárias aos descendentes.
-II. A obtenção de alimento de forma autotrófica ocorre, por exemplo, por meio da fotossíntese.
-III. Reagir a estímulos é uma característica exclusiva dos animais, pois possuem sistema nervoso.
+Analise as afirmativas sobre as características dos seres vivos:
 
-Está(ão) correta(s):
-a) Apenas I
-b) Apenas II
-c) I e III
-d) II e III
+I. Um vírus é capaz de se reproduzir dentro de células hospedeiras, o que seria suficiente para classificá-lo como ser vivo.
+II. Uma planta que cresce em direção à luz está realizando uma reação a estímulo do ambiente.
+III. Tanto a reprodução sexuada quanto a assexuada garantem a manutenção da espécie ao longo das gerações.
 
-✅ Gabarito: b
-📝 Resolução: I — Incorreta: reprodução assexuada também transmite características hereditárias (cópia genética do progenitor). II — Correta: fotossíntese é o exemplo clássico de nutrição autotrófica. III — Incorreta: plantas também reagem a estímulos (ex: fototropismo), sem sistema nervoso.
-⚠️ Professor: referência de estilo — crie variações originais, nunca reproduza diretamente.
+Estão corretas:
+a) Apenas I e II.
+b) Apenas II e III.
+c) Apenas I e III.
+d) I, II e III.
 
----
-
-**QM-3** · dissertativa · médio · inspirada em Q-1
-
-A missão Mars 2020 da NASA enviou o rover Perseverance para procurar sinais de vida passada em Marte. Cientistas buscam principalmente ambientes onde teria havido água líquida no passado. Com base no que você estudou sobre a origem da vida na Terra, justifique por que a presença de água líquida é considerada uma condição tão importante para o surgimento de formas de vida.
-
-✅ Gabarito: A água é o meio onde ocorrem as reações químicas essenciais à vida — incluindo a formação das primeiras moléculas orgânicas (como proposto por Oparin e Haldane na hipótese da sopa primordial). As células são compostas majoritariamente de água, e o metabolismo depende de reações em meio aquoso. Sem água líquida, não haveria o ambiente necessário para a evolução química que teria dado origem aos primeiros seres vivos.
-⚠️ Professor: referência de estilo — crie variações originais, nunca reproduza diretamente.
+✅ **Gabarito: b)**
+📝 **Resolução:** I é incorreta — vírus não são formados por células, não realizam metabolismo próprio e não são considerados seres vivos pela maioria dos cientistas. II é correta — fototropismo é reação a estímulo. III é correta — ambos os tipos de reprodução perpetuam a espécie.
+⚠️ **Professor:** referência de estilo — crie variações originais, nunca reproduza diretamente.
 
 ---
 
-**QM-4** · múltipla escolha estilo concurso · difícil · inspirada em Q-5 e Q-6
+**QM-3** · dissertativa · médio · inspirada em: Q-1
 
-(Estilo ENEM) A hipótese da evolução química proposta por Oparin e Haldane pressupõe condições específicas na Terra primitiva. Considerando essa hipótese, é INCORRETO afirmar que:
+O experimento de Pasteur com frascos de pescoço de cisne é considerado um marco na história da Biologia. Explique por que o desenho do frasco com pescoço curvado era essencial para o experimento e qual foi a conclusão obtida a partir dos resultados.
 
-a) A ausência de camada de ozônio permitia intensa radiação ultravioleta, fonte de energia para as reações químicas primordiais.
-b) As descargas elétricas de tempestades forneciam energia para a formação de moléculas orgânicas a partir de moléculas inorgânicas.
-c) Os protobiontes ou coacervados foram as primeiras estruturas formadas, antes dos ácidos nucleicos e proteínas.
-d) O oceano primitivo funcionava como um meio de concentração das moléculas inorgânicas, favorecendo seu encontro e reação.
-
-✅ Gabarito: c
-📝 Resolução: Os protobiontes/coacervados são a última etapa da evolução química — surgem após a formação dos ácidos nucleicos e proteínas (macromoléculas), não antes. A sequência correta é: moléculas inorgânicas → moléculas orgânicas complexas (nucleotídeos) → macromoléculas (ácidos nucleicos, proteínas) → protobiontes/coacervados.
-⚠️ Professor: referência de estilo — crie variações originais, nunca reproduza diretamente.
+✅ **Gabarito:**
+O pescoço curvado era essencial porque **não bloqueava a entrada de ar**, mas impedia que **microrganismos presentes no ar** chegassem ao caldo nutritivo — eles ficavam retidos na umidade da curvatura. Quando o pescoço era quebrado, os microrganismos passavam livremente e o caldo se contaminava. Isso demonstrou que a contaminação era causada por microrganismos do ambiente, não por geração espontânea — confirmando a **biogênese** e refutando a **abiogênese**.
+⚠️ **Professor:** referência de estilo — crie variações originais, nunca reproduza diretamente.
 
 ---
 
-**QM-5** · classificação · médio-difícil · inspirada em Q-4 e Q-8
+**QM-4** · múltipla escolha estilo concurso · difícil · inspirada em: QC-4
 
-Classifique cada situação abaixo como compatível com a hipótese da **Abiogênese (A)**, da **Biogênese (B)** ou da **Evolução Química (EQ)**:
+Pesquisadores estudando ecossistemas de fontes hidrotermais no fundo do oceano encontraram comunidades de organismos que sobrevivem sem luz solar, obtendo energia por meio da oxidação de compostos inorgânicos como sulfeto de hidrogênio (H₂S). Esse achado foi usado como argumento para defender uma hipótese sobre o metabolismo dos primeiros seres vivos. Essa hipótese afirma que os primeiros organismos eram:
 
-1. Um pesquisador do séc. XVII acredita que ratos surgem espontaneamente de grãos armazenados em celeiros úmidos.
-2. Pasteur demonstra que o caldo esterilizado só se contamina quando exposto a partículas do ambiente.
-3. Oparin propõe que, no oceano primitivo, moléculas inorgânicas simples se combinaram para formar nucleotídeos.
-4. A biogênese não explica como surgiu a primeira bactéria — para isso, é necessária uma hipótese complementar.
+a) Heterotróficos, pois consumiam moléculas orgânicas já presentes no oceano primitivo.
+b) Autotróficos, pois realizavam fotossíntese utilizando a energia luminosa disponível.
+c) Autotróficos, pois realizavam quimiossíntese utilizando compostos inorgânicos como fonte de energia.
+d) Heterotróficos, pois dependiam de compostos produzidos por vulcões submarinos.
+e) Autotróficos, pois obtinham energia por fermentação de compostos orgânicos do oceano.
 
-✅ Gabarito: 1-A · 2-B · 3-EQ · 4-EQ (a evolução química é a hipótese complementar à biogênese para explicar a origem da primeira forma de vida)
-⚠️ Professor: referência de estilo — crie variações originais, nunca reproduza diretamente.
+✅ **Gabarito: c)**
+📝 **Resolução:** As fontes termais submarinas não recebem luz solar, o que descarta a fotossíntese (b). Os organismos ali presentes usam **quimiossíntese** — processo autotrófico que usa energia química de compostos inorgânicos (como H₂S). Isso apoia a hipótese **autotrófica por quimiossíntese** para os primeiros seres vivos — diretamente ligada à QC-4 do material.
+⚠️ **Professor:** referência de estilo — crie variações originais, nunca reproduza diretamente.
+
+---
+
+**QM-5** · classificação · médio-difícil · inspirada em: Q-2 e QI-1
+
+Classifique cada situação abaixo como exemplo de qual característica dos seres vivos (evoluir/adaptar-se, constituir-se de células, realizar metabolismo, reagir a estímulos, reproduzir-se):
+
+| Situação | Característica |
+|----------|---------------|
+| Uma bactéria se divide ao meio gerando duas células idênticas. | `______` |
+| Populações de mariposas escuras sobrevivem mais em ambientes poluídos e tornam-se predominantes. | `______` |
+| Um atleta converte glicose em energia durante uma corrida. | `______` |
+| Um cachorro late e se afasta ao ouvir um trovão. | `______` |
+| Um biólogo observa ao microscópio que um organismo é formado por uma única unidade com núcleo e membrana. | `______` |
+
+✅ **Gabarito:**
+
+| Situação | Característica |
+|----------|---------------|
+| Bactéria se divide | Reproduzir-se |
+| Mariposas escuras predominam | Evoluir e adaptar-se |
+| Atleta converte glicose em energia | Realizar metabolismo |
+| Cachorro late com o trovão | Reagir a estímulos |
+| Organismo unicelular com núcleo e membrana | Constituir-se de células |
+
+⚠️ **Professor:** referência de estilo — crie variações originais, nunca reproduza diretamente.
 
 ---
 
 ## SEÇÃO 12 — DIAGRAMAS SVG DO CAPÍTULO
 
-### DIAGRAMA: timeline_origem
-Linha do tempo dos cientistas e hipóteses sobre a origem da vida.
+### DIAGRAMA: timeline_cientistas
+Linha do tempo cronológica dos cientistas do capítulo e suas contribuições para o debate abiogênese × biogênese × origem da vida.
 
 ```svg
-<svg width="100%" viewBox="0 0 680 260" xmlns="http://www.w3.org/2000/svg">
-<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
-markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
-stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<svg width="100%" viewBox="0 0 680 260">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
+      markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
+        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
 
-<!-- Eixo horizontal -->
-<line x1="40" y1="130" x2="648" y2="130" stroke="var(--c-border)" stroke-width="2" marker-end="url(#arrow)"/>
+  <style>
+    .t  { font-family: sans-serif; font-size: 14px; fill: currentColor; }
+    .ts { font-family: sans-serif; font-size: 11px; fill: currentColor; }
+    .th { font-family: sans-serif; font-size: 14px; font-weight: bold; fill: currentColor; }
+    .c-purple { fill: #7c3aed; }
+    .c-teal   { fill: #0d9488; }
+    .c-green  { fill: #16a34a; }
+    .c-amber  { fill: #d97706; }
+    .c-coral  { fill: #e11d48; }
+    .c-gray   { fill: #6b7280; }
+    .txt-w    { fill: #ffffff; }
+    .axis     { stroke: #9ca3af; stroke-width: 2; }
+  </style>
 
-<!-- Marcadores do eixo -->
-<circle cx="100" cy="130" r="5" fill="var(--c-purple-bg)" stroke="var(--c-purple)" stroke-width="2"/>
-<circle cx="230" cy="130" r="5" fill="var(--c-teal-bg)" stroke="var(--c-teal)" stroke-width="2"/>
-<circle cx="360" cy="130" r="5" fill="var(--c-teal-bg)" stroke="var(--c-teal)" stroke-width="2"/>
-<circle cx="490" cy="130" r="5" fill="var(--c-green-bg)" stroke="var(--c-green)" stroke-width="2"/>
-<circle cx="610" cy="130" r="5" fill="var(--c-green-bg)" stroke="var(--c-green)" stroke-width="2"/>
+  <!-- Eixo horizontal -->
+  <line x1="40" y1="130" x2="645" y2="130" class="axis"
+    marker-end="url(#arrow)" stroke="#9ca3af"/>
 
-<!-- Linhas verticais alternadas -->
-<line x1="100" y1="130" x2="100" y2="85" stroke="var(--c-purple)" stroke-width="1.5" stroke-dasharray="4,3"/>
-<line x1="230" y1="130" x2="230" y2="175" stroke="var(--c-teal)" stroke-width="1.5" stroke-dasharray="4,3"/>
-<line x1="360" y1="130" x2="360" y2="85" stroke="var(--c-teal)" stroke-width="1.5" stroke-dasharray="4,3"/>
-<line x1="490" y1="130" x2="490" y2="175" stroke="var(--c-green)" stroke-width="1.5" stroke-dasharray="4,3"/>
-<line x1="610" y1="130" x2="610" y2="85" stroke="var(--c-green)" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- Labels do eixo -->
+  <text x="60"  y="148" class="ts" text-anchor="middle" fill="#6b7280">1668</text>
+  <text x="180" y="148" class="ts" text-anchor="middle" fill="#6b7280">1770</text>
+  <text x="310" y="148" class="ts" text-anchor="middle" fill="#6b7280">~1860</text>
+  <text x="450" y="148" class="ts" text-anchor="middle" fill="#6b7280">1920s</text>
+  <text x="590" y="148" class="ts" text-anchor="middle" fill="#6b7280">1953</text>
 
-<!-- Caixa 1 — Redi — acima -->
-<rect x="52" y="40" width="96" height="44" rx="8" class="c-purple"/>
-<text x="100" y="57" text-anchor="middle" class="th">Redi</text>
-<text x="100" y="75" text-anchor="middle" class="ts">1668 · vs abiogênese</text>
+  <!-- Marcadores no eixo -->
+  <line x1="60"  y1="124" x2="60"  y2="136" stroke="#9ca3af" stroke-width="2"/>
+  <line x1="180" y1="124" x2="180" y2="136" stroke="#9ca3af" stroke-width="2"/>
+  <line x1="310" y1="124" x2="310" y2="136" stroke="#9ca3af" stroke-width="2"/>
+  <line x1="450" y1="124" x2="450" y2="136" stroke="#9ca3af" stroke-width="2"/>
+  <line x1="590" y1="124" x2="590" y2="136" stroke="#9ca3af" stroke-width="2"/>
 
-<!-- Caixa 2 — Spallanzani — abaixo -->
-<rect x="176" y="146" width="108" height="44" rx="8" class="c-teal"/>
-<text x="230" y="163" text-anchor="middle" class="th">Spallanzani</text>
-<text x="230" y="181" text-anchor="middle" class="ts">1770 · reforço</text>
+  <!-- REDI 1668 — acima -->
+  <line x1="60" y1="124" x2="60" y2="76" stroke="#7c3aed" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="10" y="30" width="100" height="44" rx="6" class="c-purple"/>
+  <text x="60" y="50" class="th" text-anchor="middle" fill="#ffffff">Redi</text>
+  <text x="60" y="66" class="ts" text-anchor="middle" fill="#ffffff">Refuta abiog.</text>
+  <text x="60" y="163" class="ts" text-anchor="middle" fill="#6b7280">larvas/carne</text>
 
-<!-- Caixa 3 — Pasteur — acima -->
-<rect x="305" y="40" width="110" height="44" rx="8" class="c-teal"/>
-<text x="360" y="57" text-anchor="middle" class="th">Pasteur</text>
-<text x="360" y="75" text-anchor="middle" class="ts">1860 · biogênese</text>
+  <!-- SPALLANZANI 1770 — abaixo -->
+  <line x1="180" y1="136" x2="180" y2="184" stroke="#7c3aed" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="130" y="185" width="100" height="44" rx="6" class="c-purple"/>
+  <text x="180" y="205" class="th" text-anchor="middle" fill="#ffffff">Spallanzani</text>
+  <text x="180" y="221" class="ts" text-anchor="middle" fill="#ffffff">Caldos selados</text>
+  <text x="180" y="163" class="ts" text-anchor="middle" fill="#6b7280">caldo fervido</text>
 
-<!-- Caixa 4 — Oparin/Haldane — abaixo -->
-<rect x="420" y="146" width="140" height="44" rx="8" class="c-green"/>
-<text x="490" y="163" text-anchor="middle" class="th">Oparin e Haldane</text>
-<text x="490" y="181" text-anchor="middle" class="ts">Anos 1920 · sopa primordial</text>
+  <!-- PASTEUR ~1860 — acima -->
+  <line x1="310" y1="124" x2="310" y2="76" stroke="#0d9488" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="252" y="30" width="116" height="44" rx="6" class="c-teal"/>
+  <text x="310" y="50" class="th" text-anchor="middle" fill="#ffffff">Pasteur</text>
+  <text x="310" y="66" class="ts" text-anchor="middle" fill="#ffffff">Pescoço de cisne</text>
+  <text x="310" y="163" class="ts" text-anchor="middle" fill="#6b7280">biogênese</text>
 
-<!-- Caixa 5 — Evolução química — acima -->
-<rect x="558" y="40" width="104" height="44" rx="8" class="c-green"/>
-<text x="610" y="57" text-anchor="middle" class="th">Evol. química</text>
-<text x="610" y="75" text-anchor="middle" class="ts">Hipótese complementar</text>
+  <!-- OPARIN-HALDANE 1920s — abaixo -->
+  <line x1="450" y1="136" x2="450" y2="184" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="388" y="185" width="124" height="44" rx="6" class="c-green"/>
+  <text x="450" y="205" class="th" text-anchor="middle" fill="#ffffff">Oparin &amp; Haldane</text>
+  <text x="450" y="221" class="ts" text-anchor="middle" fill="#ffffff">Sopa primordial</text>
+  <text x="450" y="163" class="ts" text-anchor="middle" fill="#6b7280">evol. química</text>
 
-<!-- Label do eixo -->
-<text x="40" y="220" class="ts" fill="var(--c-muted)">Antiga crença (abiogênese)</text>
-<text x="400" y="220" class="ts" fill="var(--c-muted)">→  Ciência moderna</text>
+  <!-- MILLER-UREY 1953 — acima -->
+  <line x1="590" y1="124" x2="590" y2="76" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="530" y="30" width="120" height="44" rx="6" class="c-green"/>
+  <text x="590" y="50" class="th" text-anchor="middle" fill="#ffffff">Miller &amp; Urey</text>
+  <text x="590" y="66" class="ts" text-anchor="middle" fill="#ffffff">Síntese abiótica</text>
+  <text x="590" y="163" class="ts" text-anchor="middle" fill="#6b7280">aminoácidos</text>
 </svg>
 ```
 
 ---
 
-### DIAGRAMA: ciclo_evolucao_quimica
-Fluxo sequencial da evolução química — da molécula inorgânica ao protobionte.
+### DIAGRAMA: fluxo_oparin_haldane
+Fluxo sequencial da hipótese da sopa primordial — da matéria inorgânica aos protobiontes.
 
 ```svg
-<svg width="100%" viewBox="0 0 680 200" xmlns="http://www.w3.org/2000/svg">
-<defs><marker id="arrow2" viewBox="0 0 10 10" refX="8" refY="5"
-markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
-stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<svg width="100%" viewBox="0 0 680 200">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
+      markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
+        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
 
-<!-- Etapa 1 — Moléculas inorgânicas -->
-<rect x="20" y="60" width="130" height="72" rx="8" class="c-teal"/>
-<text x="85" y="80" text-anchor="middle" class="th">Moléculas</text>
-<text x="85" y="98" text-anchor="middle" class="th">inorgânicas</text>
-<text x="85" y="116" text-anchor="middle" class="ts">CH₄, NH₃, H₂, H₂O</text>
+  <style>
+    .t  { font-family: sans-serif; font-size: 13px; fill: currentColor; }
+    .ts { font-family: sans-serif; font-size: 11px; fill: currentColor; }
+    .th { font-family: sans-serif; font-size: 13px; font-weight: bold; fill: currentColor; }
+    .c-teal  { fill: #0d9488; }
+    .c-green { fill: #16a34a; }
+    .c-amber { fill: #d97706; }
+    .c-gray  { fill: #6b7280; }
+    .c-coral { fill: #e11d48; }
+  </style>
 
-<!-- Seta 1→2 -->
-<line x1="152" y1="96" x2="178" y2="96" stroke="var(--c-border)" stroke-width="2" marker-end="url(#arrow2)"/>
+  <!-- Caixa 1: Moléculas inorgânicas -->
+  <rect x="20" y="60" width="130" height="72" rx="8" fill="#0d9488"/>
+  <text x="85" y="82" class="th" text-anchor="middle" fill="#fff">Moléculas</text>
+  <text x="85" y="98" class="th" text-anchor="middle" fill="#fff">inorgânicas</text>
+  <text x="85" y="114" class="ts" text-anchor="middle" fill="#fff">CH₄ · NH₃ · H₂ · H₂O</text>
 
-<!-- Energia (condições) -->
-<rect x="148" y="30" width="90" height="44" rx="8" class="c-amber"/>
-<text x="193" y="47" text-anchor="middle" class="ts">Descargas</text>
-<text x="193" y="62" text-anchor="middle" class="ts">elétricas + UV</text>
-<line x1="193" y1="74" x2="193" y2="84" stroke="var(--c-amber)" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <!-- Seta 1 -->
+  <line x1="152" y1="96" x2="174" y2="96" stroke="#d97706" stroke-width="2"
+    marker-end="url(#arrow)"/>
 
-<!-- Etapa 2 — Moléculas orgânicas complexas -->
-<rect x="180" y="60" width="130" height="72" rx="8" class="c-teal"/>
-<text x="245" y="80" text-anchor="middle" class="th">Moléculas</text>
-<text x="245" y="98" text-anchor="middle" class="th">orgânicas</text>
-<text x="245" y="116" text-anchor="middle" class="ts">Nucleotídeos</text>
+  <!-- Caixa energia (amber) -->
+  <rect x="158" y="60" width="110" height="72" rx="8" fill="#d97706"/>
+  <text x="213" y="82" class="th" text-anchor="middle" fill="#fff">Energia</text>
+  <text x="213" y="98" class="ts" text-anchor="middle" fill="#fff">Raios · UV</text>
+  <text x="213" y="114" class="ts" text-anchor="middle" fill="#fff">Calor vulcânico</text>
 
-<!-- Seta 2→3 -->
-<line x1="312" y1="96" x2="338" y2="96" stroke="var(--c-border)" stroke-width="2" marker-end="url(#arrow2)"/>
+  <!-- Seta 2 -->
+  <line x1="270" y1="96" x2="292" y2="96" stroke="#16a34a" stroke-width="2"
+    marker-end="url(#arrow)"/>
 
-<!-- Etapa 3 — Macromoléculas -->
-<rect x="340" y="60" width="130" height="72" rx="8" class="c-green"/>
-<text x="405" y="80" text-anchor="middle" class="th">Macromoléculas</text>
-<text x="405" y="98" text-anchor="middle" class="ts">Ácidos nucleicos</text>
-<text x="405" y="116" text-anchor="middle" class="ts">Proteínas</text>
+  <!-- Caixa 3: Moléculas orgânicas simples -->
+  <rect x="296" y="60" width="120" height="72" rx="8" fill="#16a34a"/>
+  <text x="356" y="82" class="th" text-anchor="middle" fill="#fff">Mol. orgânicas</text>
+  <text x="356" y="98" class="th" text-anchor="middle" fill="#fff">simples</text>
+  <text x="356" y="114" class="ts" text-anchor="middle" fill="#fff">Nucleotídeos</text>
 
-<!-- Seta 3→4 -->
-<line x1="472" y1="96" x2="498" y2="96" stroke="var(--c-border)" stroke-width="2" marker-end="url(#arrow2)"/>
+  <!-- Seta 3 -->
+  <line x1="418" y1="96" x2="440" y2="96" stroke="#16a34a" stroke-width="2"
+    marker-end="url(#arrow)"/>
 
-<!-- Etapa 4 — Protobiontes -->
-<rect x="500" y="60" width="158" height="72" rx="8" class="c-green"/>
-<text x="579" y="80" text-anchor="middle" class="th">Protobiontes</text>
-<text x="579" y="98" text-anchor="middle" class="th">ou coacervados</text>
-<text x="579" y="116" text-anchor="middle" class="ts">Estruturas pré-celulares</text>
+  <!-- Caixa 4: Macromoléculas -->
+  <rect x="444" y="44" width="118" height="104" rx="8" fill="#16a34a"/>
+  <text x="503" y="68" class="th" text-anchor="middle" fill="#fff">Macromoléculas</text>
+  <text x="503" y="84" class="ts" text-anchor="middle" fill="#fff">Ácidos nucleicos</text>
+  <text x="503" y="100" class="ts" text-anchor="middle" fill="#fff">Proteínas</text>
+  <text x="503" y="116" class="ts" text-anchor="middle" fill="#fff">Carboidratos</text>
+  <text x="503" y="132" class="ts" text-anchor="middle" fill="#fff">Lipídeos</text>
 
-<!-- Local -->
-<text x="340" y="162" text-anchor="middle" class="ts" fill="var(--c-muted)">Local: oceano primitivo (sopa primordial)</text>
+  <!-- Seta 4 -->
+  <line x1="564" y1="96" x2="586" y2="96" stroke="#6b7280" stroke-width="2"
+    marker-end="url(#arrow)"/>
 
-<!-- Pegadinha -->
-<rect x="20" y="152" width="290" height="30" rx="6" class="c-coral"/>
-<text x="165" y="172" text-anchor="middle" class="ts">⚠️ Hipótese — não confundir com evolução biológica</text>
+  <!-- Caixa 5: Coacervados -->
+  <rect x="590" y="60" width="72" height="72" rx="8" fill="#6b7280"/>
+  <text x="626" y="88" class="th" text-anchor="middle" fill="#fff">Coac.</text>
+  <text x="626" y="104" class="ts" text-anchor="middle" fill="#fff">Proto-</text>
+  <text x="626" y="118" class="ts" text-anchor="middle" fill="#fff">biontes</text>
+
+  <!-- Label alerta embaixo -->
+  <rect x="20" y="152" width="640" height="30" rx="6" fill="#e11d48" opacity="0.15"/>
+  <text x="340" y="172" class="ts" text-anchor="middle" fill="#e11d48">
+    ⚠ Não confundir: coacervados ≠ seres vivos — são precursores pré-celulares
+  </text>
 </svg>
 ```
+
+---
+
+### DIAGRAMA: experimento_pasteur
+Fluxo do experimento de Pasteur — pescoço de cisne e dois desfechos.
+
+```svg
+<svg width="100%" viewBox="0 0 680 240">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
+      markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
+        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <style>
+    .t  { font-family: sans-serif; font-size: 13px; }
+    .ts { font-family: sans-serif; font-size: 11px; }
+    .th { font-family: sans-serif; font-size: 13px; font-weight: bold; }
+    .c-teal  { fill: #0d9488; }
+    .c-green { fill: #16a34a; }
+    .c-amber { fill: #d97706; }
+    .c-gray  { fill: #6b7280; }
+    .c-coral { fill: #e11d48; }
+  </style>
+
+  <!-- ETAPA 1: Caldo nutritivo -->
+  <rect x="20" y="80" width="110" height="58" rx="8" fill="#0d9488"/>
+  <text x="75" y="104" class="th" text-anchor="middle" fill="#fff">Caldo</text>
+  <text x="75" y="120" class="ts" text-anchor="middle" fill="#fff">nutritivo</text>
+  <text x="75" y="134" class="ts" text-anchor="middle" fill="#fff">no frasco</text>
+
+  <!-- Seta -->
+  <line x1="132" y1="109" x2="155" y2="109" stroke="#d97706" stroke-width="2"
+    marker-end="url(#arrow)"/>
+
+  <!-- ETAPA 2: Fervura -->
+  <rect x="158" y="80" width="100" height="58" rx="8" fill="#d97706"/>
+  <text x="208" y="104" class="th" text-anchor="middle" fill="#fff">Fervura</text>
+  <text x="208" y="120" class="ts" text-anchor="middle" fill="#fff">Esterilização</text>
+  <text x="208" y="134" class="ts" text-anchor="middle" fill="#fff">do caldo</text>
+
+  <!-- Seta -->
+  <line x1="260" y1="109" x2="283" y2="109" stroke="#6b7280" stroke-width="2"
+    marker-end="url(#arrow)"/>
+
+  <!-- ETAPA 3: Pescoço de cisne -->
+  <rect x="286" y="80" width="120" height="58" rx="8" fill="#6b7280"/>
+  <text x="346" y="100" class="th" text-anchor="middle" fill="#fff">Pescoço</text>
+  <text x="346" y="116" class="th" text-anchor="middle" fill="#fff">de cisne</text>
+  <text x="346" y="132" class="ts" text-anchor="middle" fill="#fff">Ar entra · micróbios</text>
+
+  <!-- Bifurcação: seta para cima e para baixo -->
+  <line x1="408" y1="109" x2="450" y2="109" stroke="#6b7280" stroke-width="2"/>
+  <line x1="450" y1="109" x2="450" y2="60"  stroke="#16a34a" stroke-width="2"/>
+  <line x1="450" y1="60"  x2="475" y2="60"  stroke="#16a34a" stroke-width="2"
+    marker-end="url(#arrow)"/>
+  <line x1="450" y1="109" x2="450" y2="160" stroke="#e11d48" stroke-width="2"/>
+  <line x1="450" y1="160" x2="475" y2="160" stroke="#e11d48" stroke-width="2"
+    marker-end="url(#arrow)"/>
+
+  <!-- Labels bifurcação -->
+  <text x="456" y="50" class="ts" fill="#16a34a">Pescoço íntegro</text>
+  <text x="456" y="175" class="ts" fill="#e11d48">Pescoço quebrado</text>
+
+  <!-- Resultado A: sem contaminação -->
+  <rect x="478" y="30" width="180" height="58" rx="8" fill="#16a34a"/>
+  <text x="568" y="54" class="th" text-anchor="middle" fill="#fff">Sem contaminação</text>
+  <text x="568" y="70" class="ts" text-anchor="middle" fill="#fff">Micróbios retidos na curva</text>
+  <text x="568" y="84" class="ts" text-anchor="middle" fill="#fff">→ BIOGÊNESE ✓</text>
+
+  <!-- Resultado B: contaminado -->
+  <rect x="478" y="132" width="180" height="58" rx="8" fill="#e11d48"/>
+  <text x="568" y="156" class="th" text-anchor="middle" fill="#fff">Contaminado</text>
+  <text x="568" y="172" class="ts" text-anchor="middle" fill="#fff">Micróbios passam livremente</text>
+  <text x="568" y="186" class="ts" text-anchor="middle" fill="#fff">Abiogênese refutada ✗</text>
+
+  <!-- Nota inferior -->
+  <rect x="20" y="162" width="420" height="28" rx="6" fill="#e11d48" opacity="0.12"/>
+  <text x="230" y="180" class="ts" text-anchor="middle" fill="#e11d48">
+    ⚠ O frasco NÃO bloqueia o ar — só retém os microrganismos na curva úmida
+  </text>
+</svg>
+```
+
+---
+
+### DIAGRAMA: caracteristicas_seres_vivos
+Mapa radial das 5 características dos seres vivos a partir do nó central.
+
+```svg
+<svg width="100%" viewBox="0 0 680 340">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
+      markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
+        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <style>
+    .t  { font-family: sans-serif; font-size: 13px; }
+    .ts { font-family: sans-serif; font-size: 11px; }
+    .th { font-family: sans-serif; font-size: 13px; font-weight: bold; }
+    .c-teal  { fill: #0d9488; }
+    .c-green { fill: #16a34a; }
+    .c-amber { fill: #d97706; }
+    .c-gray  { fill: #6b7280; }
+    .c-coral { fill: #e11d48; }
+    .c-purple{ fill: #7c3aed; }
+  </style>
+
+  <!-- Nó central -->
+  <rect x="246" y="128" width="188" height="58" rx="10" fill="#16a34a"/>
+  <text x="340" y="152" class="th" text-anchor="middle" fill="#fff">Características</text>
+  <text x="340" y="170" class="th" text-anchor="middle" fill="#fff">dos Seres Vivos</text>
+
+  <!-- 1. Evoluir e adaptar-se (topo esquerda) -->
+  <line x1="280" y1="128" x2="175" y2="70" stroke="#7c3aed" stroke-width="2"
+    marker-end="url(#arrow)"/>
+  <rect x="40" y="26" width="150" height="58" rx="8" fill="#7c3aed"/>
+  <text x="115" y="50" class="th" text-anchor="middle" fill="#fff">Evoluir e</text>
+  <text x="115" y="66" class="th" text-anchor="middle" fill="#fff">adaptar-se</text>
+  <text x="115" y="80" class="ts" text-anchor="middle" fill="#7c3aed">alterações genéticas</text>
+
+  <!-- 2. Constituir-se de células (topo direita) -->
+  <line x1="400" y1="128" x2="505" y2="70" stroke="#0d9488" stroke-width="2"
+    marker-end="url(#arrow)"/>
+  <rect x="490" y="26" width="160" height="58" rx="8" fill="#0d9488"/>
+  <text x="570" y="50" class="th" text-anchor="middle" fill="#fff">Constituir-se</text>
+  <text x="570" y="66" class="th" text-anchor="middle" fill="#fff">de células</text>
+  <text x="570" y="80" class="ts" text-anchor="middle" fill="#0d9488">uni ou pluricelular</text>
+
+  <!-- 3. Realizar metabolismo (esquerda) -->
+  <line x1="246" y1="157" x2="172" y2="157" stroke="#d97706" stroke-width="2"
+    marker-end="url(#arrow)"/>
+  <rect x="20" y="128" width="150" height="58" rx="8" fill="#d97706"/>
+  <text x="95" y="150" class="th" text-anchor="middle" fill="#fff">Realizar</text>
+  <text x="95" y="166" class="th" text-anchor="middle" fill="#fff">metabolismo</text>
+  <text x="95" y="180" class="ts" text-anchor="middle" fill="#d97706">autotrófico/heterotrófico</text>
+
+  <!-- 4. Reagir a estímulos (baixo esquerda) -->
+  <line x1="280" y1="186" x2="175" y2="248" stroke="#6b7280" stroke-width="2"
+    marker-end="url(#arrow)"/>
+  <rect x="40" y="240" width="150" height="58" rx="8" fill="#6b7280"/>
+  <text x="115" y="264" class="th" text-anchor="middle" fill="#fff">Reagir a</text>
+  <text x="115" y="280" class="th" text-anchor="middle" fill="#fff">estímulos</text>
+  <text x="115" y="294" class="ts" text-anchor="middle" fill="#6b7280">sentidos e respostas</text>
+
+  <!-- 5. Reproduzir-se (baixo direita) -->
+  <line x1="400" y1="186" x2="505" y2="248" stroke="#e11d48" stroke-width="2"
+    marker-end="url(#arrow)"/>
+  <rect x="490" y="240" width="155" height="58" rx="8" fill="#e11d48"/>
+  <text x="567" y="264" class="th" text-anchor="middle" fill="#fff">Reproduzir-se</text>
+  <text x="567" y="280" class="ts" text-anchor="middle" fill="#fff">sexuada ou assexuada</text>
+  <text x="567" y="294" class="ts" text-anchor="middle" fill="#fff">→ define espécie</text>
+</svg>
+```
+
+---
+
