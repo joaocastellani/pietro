@@ -224,12 +224,17 @@ Portugal e Espanha, por sua posição atlântica (Cabo da Boa Esperança, ilhas 
 
 | Seção | Campo | Motivo da ausência | Ação recomendada |
 |-------|-------|-------------------|-----------------|
-| Seção 4 | Legenda detalhada do mapa de densidade | Imagem do Desafio não processada em alta resolução | Usar image_search ou anexar printscreen na aula |
-| Seção 4 | Dados do gráfico de pizza da Espanha | Gráfico pequeno na imagem — valores não legíveis | Solicitar dado na apostila ou usar image_search |
+| Seção 4 / BLOCO A | Legenda completa do mapa de densidade (faixas em hab/km²) | Imagens capturadas com 4 págs. concatenadas — texto da legenda não legível | Capturar printscreen individual da pág. do Desafio e adicionar ao geo-1-4.md |
+| Seção 4 / BLOCO A | Valores do gráfico de pizza ao lado do mapa da Espanha | Gráfico pequeno — percentuais não legíveis na captura | Capturar printscreen da seção Separatismo na Espanha |
+| Seção 4 / BLOCO A | País retratado no mapa "Território e cultura na Europa" + legenda | Formato do mapa não confirmado — país não identificado com certeza | Capturar printscreen da pág. correspondente |
+| Seção 6 | Tabela de dados demográficos (Q-3 das Atividades) | Tabela presente na questão mas valores não legíveis | Capturar printscreen das Atividades pág. 2 |
+| Seção 11 | Texto completo das questões Q-1 a Q-4 e QC-1 | Atividades capturadas com resolução insuficiente para leitura individual | Capturar printscreen exclusivo das páginas de Atividades |
 | Seção 11 | Gabaritos das questões de atividade | Gabaritos não aparecem no material capturado | Conferir no livro do professor antes da aula |
 
 ## STATUS
-⚠️ Inferências marcadas acima devem ser verificadas com o material original.
+⚠️ geo-1-4.md gerado a partir de imagens concatenadas (4 págs./imagem).
+Itens marcados acima requerem printscreens individuais para completar.
+Prep utilizável para aula; conferir gabaritos das Atividades antes de usar Q-11.
 ```
 
 ---
