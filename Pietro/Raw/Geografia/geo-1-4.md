@@ -115,31 +115,98 @@
 🔵 Frente: O referendo da Catalunha de 2017 foi reconhecido pelo governo espanhol?
 🟢 Verso: Não. O governo espanhol não reconheceu o referendo de independência de 2017 realizado pela Catalunha.
 
+**FC-15**
+🔵 Frente: Quais são as quatro principais línguas da Espanha e seus percentuais de falantes?
+🟢 Verso: Espanhol/Castelhano (74%) · Catalão (17%) · Galego (7%) · Basco (2%). Fonte: Gazeta do Povo, 2012.
+
+**FC-16**
+🔵 Frente: O que é o Lácio e qual sua importância linguística para o mundo?
+🟢 Verso: Região da Itália central, onde se situa Roma. Foi o berço do latim e, por consequência, das línguas neolatinas (português, espanhol, francês, italiano, romeno, entre outras).
+
+**FC-17**
+🔵 Frente: Quais povos compõem a principal matriz étnica da Europa Oriental?
+🟢 Verso: Os eslavos — povos que habitam a Europa Oriental e parte da Europa Central, incluindo russos, ucranianos, poloneses, tchecos, eslovacos, búlgaros, sérvios, entre outros.
+
 ---
 
 ## BLOCO A — MAPAS E REPRESENTAÇÕES CARTOGRÁFICAS
 
-### Mapa 1 — Mapa de densidade demográfica mundial (Desafio)
-- **Título:** Mapa de densidade demográfica (2018 ou similar)
+### Mapa 1 — Mapa de densidade demográfica – 2020 (Desafio) · geo-1-4-05.png
+- **Título:** Mapa de densidade demográfica – 2020
 - **Tipo:** Demográfico / temático
-- **Legenda:** Faixas de densidade em hab/km² representadas por escala de cores — do amarelo-claro (baixa densidade) ao vermelho/marrom-escuro (alta densidade). Valores exatos das faixas não legíveis na captura.
-- **Regiões visíveis:** Planisfério completo; destaque para regiões de alta densidade (Europa Ocidental, sul da Ásia, leste da Ásia) e regiões de baixa densidade (interior da África, Austrália, norte do Canadá e da Rússia).
-- **Contexto de uso:** Utilizado na seção "Desafio" para introduzir o conceito de densidade demográfica e analisar a distribuição populacional mundial.
+- **Legenda:** "Nível de densidade demográfica (hab./km²)"
+  - < 1 (amarelo muito claro)
+  - 1 a 10
+  - 10 a 25
+  - 25 a 50
+  - > 50 (vermelho/laranja escuro)
+- **Oceanos rotulados:** Oceano Pacífico · Oceano Atlântico · Oceano Índico · Oceano Ártico · Oceano Glacial Antártico
+- **Regiões visíveis:** Planisfério completo; alta densidade: Europa Ocidental, sul e leste da Ásia, leste dos EUA; baixa densidade: interior da Austrália, norte do Canadá, norte da Rússia, Saara, Amazônia.
+- **Fonte:** "Densidade populacional" SESAC, 2020. Disponível em: https://class.columbia.edu/...
+- **Contexto de uso:** Seção "Desafio" — analisar distribuição populacional mundial e introduzir o conceito de densidade demográfica.
 
-### Mapa 2 — Separatismo na Espanha
-- **Título:** Mapa da Espanha — regiões separatistas / comunidades autônomas
-- **Tipo:** Político / temático
-- **Legenda:** Regiões autônomas com movimentos separatistas destacadas em cor diferente (País Basco e Catalunha).
-- **Regiões visíveis:** Espanha continental; País Basco (norte, fronteira com França); Catalunha (nordeste, fronteira com França e costa mediterrânea). Demais comunidades autônomas visíveis mas sem destaque especial.
-- **Dado adicional:** Gráfico de pizza ou donut chart ao lado do mapa — possivelmente mostrando percentual de apoio à independência ou composição populacional; valores específicos não legíveis na captura.
-- **Contexto de uso:** Ilustra a seção "Separatismo na Espanha".
+### Mapa 2 — Península Ibérica: idiomas · geo-1-4-08.png
+- **Título:** Península Ibérica: idiomas
+- **Tipo:** Temático / linguístico
+- **Legenda (cores):**
+  - Amarelo/laranja claro → Espanhol/Castelhano (maioria do território)
+  - Laranja escuro/vermelho → Basco/Euskera (País Basco)
+  - Laranja médio → Catalão/Valenciano (Catalunha, Valência, Ilhas Baleares)
+  - Outro tom → Galego (Galícia)
+- **Regiões e cidades rotuladas:**
+  - Portugal (oeste)
+  - França (norte)
+  - Galícia · Santiago de Compostela · Astúrias · Oviedo · Cantábria · Santander
+  - País Basco (Vitória, Pamplona) · Navarra · La Rioja · Logroño
+  - Castela e Leão · Valladolid · Castela-La Mancha · Toledo · Madri
+  - Estremadura · Mérida · Andaluzia · Sevilla
+  - Aragão · Zaragoza · Catalunha · Barcelona
+  - Valência · Murcia · Ilhas Baleares
+  - Ceuta · Melila (enclaves no norte da África)
+- **Escala:** 110 km
+- **Paralelo referência:** 40° N
+- **Mini gráfico de pizza** (partial, na base do mapa): 2% Basco · 7% Galego (demais valores no Bloco B)
+- **Contexto de uso:** Ilustra a seção "Separatismo na Espanha" e "Território e cultura na Europa".
 
-### Mapa 3 — Território e cultura na Europa (mapa de regiões culturais/linguísticas)
-- **Título:** Não legível na captura
-- **Tipo:** Temático / cultural-linguístico
-- **Legenda:** Regiões coloridas indicando diferentes grupos culturais ou linguísticos dentro de um país europeu; mapa principal em rosa/vermelho com subdivisões em cores distintas; mapa de contexto menor mostrando localização na Europa.
-- **Regiões visíveis:** País europeu com formato peninsular; divisões internas por grupos culturais. País específico não confirmado na captura — possivelmente Itália ou país ibérico com regiões culturais distintas.
-- **Contexto de uso:** Ilustra a seção "Território e cultura na Europa".
+### Mapa 3 — Região do Lácio (Itália) · geo-1-4-07.png
+- **Título / Legenda:** "Região do Lácio, na Itália, berço das línguas neolatinas"
+- **Tipo:** Temático / histórico-linguístico
+- **Regiões limítrofes visíveis:** Toscana (norte) · Úmbria (norte) · Abruzos (leste) · Molise (sudeste) · Campania (sul)
+- **Cidades rotuladas:** Roma · Fiumicino · Latina · Cassino · Viterbo · Rieti
+- **Corpos d'água:** Mar Mediterrâneo (oeste) · Mar Adriático (leste) · Lago de Bracciano · Lago de Bolsena
+- **Paralelo referência:** 42° N
+- **Escala:** 0–20 km
+- **Inset:** mapa de contexto mostrando localização do Lácio na Itália e no mundo
+- **Contexto de uso:** Ilustra a seção "Território e cultura na Europa" — Roma (capital do Lácio) foi berço do latim, língua-mãe das línguas neolatinas (português, espanhol, francês, italiano, romeno).
+
+### Mapa 4 — Europa: matrizes étnicas eslavas (Q-7) · geo-1-4-09.png
+- **Título:** (sem título explícito — imagem da questão 7)
+- **Tipo:** Temático / étnico-cultural
+- **Legenda:** Regiões destacadas em verde escuro = povos eslavos
+- **Regiões destacadas:** Europa Oriental e parte da Europa Central — Rússia europeia, Ucrânia, Belarus, Polônia, República Tcheca, Eslováquia, Bulgária, Sérvia e demais países de maioria eslava
+- **Outros elementos:** Rosa dos ventos · Escala: 780 km · Oceano Atlântico rotulado · Mar Negro rotulado · Mar Mediterrâneo rotulado
+- **Fonte:** Wikipedia/Wikimedia (citado na questão)
+- **Contexto de uso:** Questão 7 das Atividades — identifica os eslavos como uma das principais matrizes étnicas europeias.
+
+---
+
+## BLOCO B — DADOS GEOGRÁFICOS ESTRUTURADOS
+
+### Gráfico 1 — Idiomas da Espanha · geo-1-4-06.png
+- **Tipo:** Gráfico de pizza
+- **Fonte:** Rodolfo Stancki. "Crise espanhola reaviva o separatismo". Gazeta do povo. Mundo. 27 out. 2012. Disponível em: https://www.gazetadopovo.com.br/mundo/crise-espanhola-reaviva-o-separatismo-2759cg259c1y4oizoclfo9qoe/. Acesso em: 6 ago. 2024.
+- **Dados:**
+
+| Idioma | % falantes |
+|--------|-----------|
+| Espanhol / Castelhano | 74% |
+| Catalão | 17% |
+| Galego | 7% |
+| Basco | 2% |
+
+- **Texto do material:**
+  - "As regiões da Catalunha e País Basco apresentam movimentos separatistas mais fortes."
+  - "Os espanhóis também são divididos entre quatro principais idiomas."
 
 ---
 
@@ -233,14 +300,15 @@ Gabarito:
 Tipo: dissertativa
 Classificação: médio
 
-**QC-1** · [Banca não legível] · pág. [não legível]
-[IMAGEM] (mapa; mapa da Europa com regiões coloridas/marcadas; mostra distribuição de dados demográficos ou culturais por região; necessário para responder à questão)
-Enunciado: Com base no mapa da Europa apresentado, identifique as características indicadas e assinale a alternativa correta.
+**Q-5** · pág. [não legível]
+[IMAGEM] (mapa; Europa com regiões da Europa Oriental destacadas em verde — Rússia europeia, Ucrânia, Belarus, Polônia, República Tcheca, Eslováquia, Bulgária, Sérvia e demais países eslavos; escala 780 km; fonte: Wikipedia/Wikimedia)
+Enunciado: Observe as regiões assinaladas no mapa e responda. As regiões destacadas no mapa são habitadas por diferentes grupos sociais que, reunidos, compõem uma das principais matrizes étnicas dos povos europeus. Trata-se dos:
 Alternativas:
-  a) [não legível]
-  b) [não legível]
-  c) [não legível]
-  d) [não legível]
+  a) ( ) russos.
+  b) ( ) celtas.
+  c) ( ) germânicos.
+  d) ( ) eslavos.
+  e) ( ) latinos.
 Gabarito:
 Tipo: múltipla escolha
 Classificação: médio
@@ -252,15 +320,17 @@ Classificação: médio
 - Foco: processos históricos de ocupação, identidade cultural, separatismo, dados demográficos
 - Nível de dificuldade médio: médio
 - Tópicos mais cobrados: processos de ocupação da Europa, separatismo na Espanha (País Basco e Catalunha), União Europeia, densidade demográfica
-- Total: 4 questões do capítulo + 1 questão de concurso (captura parcial — verificar com material original)
+- Total: 5 questões do capítulo (Q-1 a Q-5); Q-2, Q-3 e Q-4 com enunciados parcialmente reconstruídos — verificar com material original
 
 ---
 
 ## IMAGENS RECOMENDADAS PARA CAPTURA
 
-- Legenda completa do mapa de densidade demográfica mundial (Desafio, pág. ~68–69) · faixas de densidade em hab/km² com valores exatos · necessária para completar o BLOCO A e responder à QI-1
-- Gráfico de pizza/donut chart ao lado do mapa da Espanha (seção Separatismo) · percentuais de apoio à independência ou composição étnica das regiões separatistas · necessário para complementar dados do BLOCO C
-- Mapa de regiões culturais/linguísticas na Europa (seção "Território e cultura na Europa") · país retratado com suas divisões culturais; rótulos de regiões e legenda · necessário para identificar o país e os grupos culturais apresentados
-- Tabela de dados demográficos (Q-3, seção Atividades) · países europeus com população, área e/ou densidade · necessária para completar o enunciado e o gabarito da Q-3
-- Texto completo das alternativas da QC-1 (mapa da Europa + múltipla escolha) · alternativas a, b, c, d com valores ou descrições · necessária para registrar a questão completa e inferir o gabarito
-- Texto introdutório do capítulo (pág. de abertura) · objetivos ou tópicos listados na abertura do Capítulo 4 · necessário para confirmar o escopo completo do capítulo
+- ✅ ~~Legenda completa do mapa de densidade~~ → capturada em geo-1-4-05.png
+- ✅ ~~Gráfico de idiomas da Espanha~~ → capturado em geo-1-4-06.png
+- ✅ ~~Mapa de regiões culturais/linguísticas (Lácio)~~ → capturado em geo-1-4-07.png
+- ✅ ~~Mapa Península Ibérica: idiomas~~ → capturado em geo-1-4-08.png
+- ✅ ~~Questão com mapa da Europa (Q-5 / eslavos)~~ → capturada em geo-1-4-09.png
+- ⚠️ Tabela de dados demográficos (Q-3, Atividades) · enunciado da questão com tabela de países e densidades · texto ainda não legível na captura atual
+- ⚠️ Enunciados completos de Q-1, Q-2, Q-4 · texto das Atividades capturado com resolução insuficiente · capturar printscreen exclusivo das páginas de Atividades
+- ⚠️ Texto introdutório do capítulo (pág. de abertura) · objetivos listados na abertura do Capítulo 4
