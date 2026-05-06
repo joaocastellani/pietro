@@ -100,25 +100,38 @@ A integração europeia inclui livre circulação de pessoas, bens, serviços e 
 
 ## SEÇÃO 4 — MAPAS DO CAPÍTULO
 
-### MAPA: Densidade demográfica mundial (Desafio)
+### MAPA: Densidade demográfica mundial – 2020 (Desafio) · geo-1-4-05.png
 **Tipo:** Temático / Demográfico
-**O que mostra:** Distribuição da densidade demográfica no mundo, com destaque para as regiões de maior concentração populacional.
-**Dados da legenda:** Escala de densidade em hab/km² — faixas de cores do amarelo claro (pouco denso) ao vermelho/marrom escuro (muito denso).
-**Dados capturados:** Europa Ocidental e Central, sul da Ásia e leste da Ásia como regiões de alta densidade; interior da África, Austrália e norte do Canadá/Rússia como regiões de baixa densidade.
-**Termos para image_search:** "mapa densidade demográfica mundial hab km2"
+**O que mostra:** Distribuição da densidade demográfica no mundo em 2020.
+**Dados da legenda:** "Nível de densidade demográfica (hab./km²)"
+- < 1 · 1 a 10 · 10 a 25 · 25 a 50 · > 50 (escala do amarelo claro ao vermelho escuro)
+
+**Dados capturados:** Alta densidade: Europa Ocidental, sul e leste da Ásia, leste dos EUA. Baixa densidade: interior da Austrália, norte do Canadá, norte da Rússia, Saara, Amazônia. Oceanos rotulados: Pacífico, Atlântico, Índico, Ártico, Glacial Antártico.
+**Fonte:** "Densidade populacional" SESAC, 2020 (Columbia University)
 **Quando usar na aula:** Bloco 1 (ocupação histórica) — relacionar densidade com trajetória de ocupação
 **Pegadinha:** Alunos confundem **densidade demográfica** (hab/km²) com **população total**. A China tem mais habitantes, mas Bangladesh tem maior densidade. Na Europa, países pequenos como os Países Baixos têm densidade muito superior à da Rússia.
 
 ---
 
-### MAPA: Espanha — regiões autônomas
-**Tipo:** Político / Temático
-**O que mostra:** Divisão da Espanha em comunidades autônomas, com destaque para País Basco e Catalunha.
-**Dados da legenda:** Fronteiras das comunidades autônomas; possivelmente gráfico de pizza com participação no PIB ou na população.
-**Dados capturados:** País Basco (norte da Espanha, fronteira com França); Catalunha (nordeste, fronteira com França e costa mediterrânea).
-**Termos para image_search:** "Espanha mapa comunidades autônomas País Basco Catalunha"
-**Quando usar na aula:** Bloco 3 (separatismo) — ao apresentar os casos espanhóis
+### MAPA: Península Ibérica — idiomas · geo-1-4-08.png
+**Tipo:** Temático / Linguístico
+**O que mostra:** Distribuição dos principais idiomas na Península Ibérica, com destaque para as regiões com línguas próprias na Espanha.
+**Dados da legenda:** Castelhano/Espanhol (maioria — laranja claro) · Basco/Euskera (País Basco — laranja escuro/vermelho) · Catalão/Valenciano (Catalunha, Valência, Baleares — laranja médio) · Galego (Galícia)
+**Dados capturados:** Cidades: Santiago de Compostela, Oviedo, Santander, Vitória, Pamplona, Logroño, Valladolid, Madri, Toledo, Mérida, Sevilla, Zaragoza, Barcelona, Valência, Murcia, Ceuta, Melila. Escala: 110 km. Paralelo 40°N.
+**Gráfico associado (geo-1-4-06.png):**
+- Espanhol/Castelhano: **74%** · Catalão: **17%** · Galego: **7%** · Basco: **2%**
+- Fonte: Rodolfo Stancki. *Gazeta do Povo*, 27 out. 2012.
+**Quando usar na aula:** Bloco 3 (separatismo) — ao apresentar os casos espanhóis e discutir diversidade linguística
 **Pegadinha:** O País Basco e a Catalunha são regiões **autônomas** da Espanha — não são países independentes. Alunos frequentemente confundem o status político atual com o objetivo do movimento separatista.
+
+---
+
+### MAPA: Região do Lácio — berço das línguas neolatinas · geo-1-4-07.png
+**Tipo:** Temático / histórico-linguístico
+**O que mostra:** Região do Lácio na Itália central — onde ficava Roma, berço do latim e das línguas neolatinas.
+**Dados capturados:** Lácio em rosa; regiões limítrofes: Toscana, Úmbria (norte), Abruzos (leste), Molise, Campania (sul). Cidades: Roma, Fiumicino, Latina, Cassino, Viterbo, Rieti. Corpos d'água: Mar Mediterrâneo, Mar Adriático, Lago de Bracciano. Escala: 20 km. Paralelo 42°N.
+**Quando usar na aula:** Bloco 2 (identidades culturais) — ao explicar a origem das línguas românicas/neolatinas como exemplo de herança cultural romana
+**Pegadinha:** As línguas neolatinas (português, espanhol, francês, italiano, romeno) derivam do latim — língua do Lácio/Roma — e não são línguas "inventadas" pelos países modernos. São herança direta da ocupação romana.
 
 ---
 
@@ -168,7 +181,18 @@ A integração europeia inclui livre circulação de pessoas, bens, serviços e 
 
 ---
 
-### Tabela 2 — União Europeia: dados principais
+### Tabela 2 — Idiomas da Espanha (Fonte: Gazeta do Povo, 2012)
+
+| Idioma | % falantes | Região principal | ⚠️ Pegadinha |
+|--------|-----------|-----------------|--------------|
+| Espanhol / Castelhano | 74% | Todo o território | É idioma oficial em toda a Espanha |
+| Catalão | 17% | Catalunha, Valência, Baleares | 17% = maior minoria linguística da Espanha |
+| Galego | 7% | Galícia (noroeste) | O galego é próximo do português — mesma origem |
+| Basco (Euskera) | 2% | País Basco | Menor porcentagem, mas com o movimento separatista mais histórico (ETA) |
+
+---
+
+### Tabela 3 — União Europeia: dados principais
 
 | Dado | Valor |
 |------|-------|
@@ -199,7 +223,13 @@ Bangladesh tem maior densidade que a China; Países Baixos têm maior densidade 
 💡 **Dica 5 — A língua basca não tem origem indo-europeia**
 O **euskera** (língua basca) é isolado linguístico — não tem parentesco com nenhuma língua indo-europeia (ao contrário do espanhol, do português, do francês etc.). Esse fato é frequentemente usado em questões sobre diversidade cultural europeia.
 
-💡 **Dica 6 — As Grandes Navegações partiram da Península Ibérica, não de toda a Europa**
+💡 **Dica 6 — O basco tem 2% de falantes, mas o maior histórico separatista**
+O **catalão** (17%) é a segunda língua mais falada da Espanha, mas o **basco** (2%) tem o movimento separatista mais antigo e radical (ETA). Em provas, a pergunta sobre "qual idioma tem maior percentual de falantes não castelhanos" a resposta é o **catalão**, não o basco — que é mais associado ao conflito.
+
+💡 **Dica 7 — Galego ≠ Espanhol e Galego ≈ Português**
+O **galego** (7% dos espanhóis) é uma língua próxima do português — ambos têm a mesma origem histórica no galego-português medieval. Já o **catalão** tem origem diferente (língua occitana/romance da região). As provas adoram perguntar sobre a "língua mais parecida com o português falada na Espanha".
+
+💡 **Dica 8 — As Grandes Navegações partiram da Península Ibérica, não de toda a Europa**
 Portugal e Espanha, por sua posição atlântica (Cabo da Boa Esperança, ilhas do Atlântico), lideraram as Grandes Navegações. A Europa Central e Oriental não teve papel de destaque nesse processo — não confundir com a Revolução Industrial, que teve origem na Inglaterra.
 
 ---
@@ -220,21 +250,26 @@ Portugal e Espanha, por sua posição atlântica (Cabo da Boa Esperança, ilhas 
 | Seção 5 | Tratado de Maastricht (1993) | Nome oficial da fundação da UE moderna | Conhecimento geográfico consolidado |
 | Tabela 2 | Países que não usam o euro (Suécia, Polônia, Hungria) | Exemplos de membros sem euro | Conhecimento atualizado — verificar possíveis adesões recentes |
 
-## DADOS AUSENTES — AÇÃO NECESSÁRIA
+## INFERÊNCIAS RESOLVIDAS COM IMAGENS ADICIONAIS
 
-| Seção | Campo | Motivo da ausência | Ação recomendada |
-|-------|-------|-------------------|-----------------|
-| Seção 4 / BLOCO A | Legenda completa do mapa de densidade (faixas em hab/km²) | Imagens capturadas com 4 págs. concatenadas — texto da legenda não legível | Capturar printscreen individual da pág. do Desafio e adicionar ao geo-1-4.md |
-| Seção 4 / BLOCO A | Valores do gráfico de pizza ao lado do mapa da Espanha | Gráfico pequeno — percentuais não legíveis na captura | Capturar printscreen da seção Separatismo na Espanha |
-| Seção 4 / BLOCO A | País retratado no mapa "Território e cultura na Europa" + legenda | Formato do mapa não confirmado — país não identificado com certeza | Capturar printscreen da pág. correspondente |
-| Seção 6 | Tabela de dados demográficos (Q-3 das Atividades) | Tabela presente na questão mas valores não legíveis | Capturar printscreen das Atividades pág. 2 |
-| Seção 11 | Texto completo das questões Q-1 a Q-4 e QC-1 | Atividades capturadas com resolução insuficiente para leitura individual | Capturar printscreen exclusivo das páginas de Atividades |
-| Seção 11 | Gabaritos das questões de atividade | Gabaritos não aparecem no material capturado | Conferir no livro do professor antes da aula |
+| Seção | Campo | Status | Imagem |
+|-------|-------|--------|--------|
+| Seção 4 | Legenda do mapa de densidade (hab/km²) | ✅ Resolvido | geo-1-4-05.png |
+| Seção 4 | Gráfico idiomas da Espanha (74/17/7/2%) | ✅ Resolvido | geo-1-4-06.png |
+| Seção 4 | Mapa "Território e cultura" → Região do Lácio (Itália) | ✅ Resolvido | geo-1-4-07.png |
+| Seção 4 | Mapa Península Ibérica: idiomas | ✅ Resolvido | geo-1-4-08.png |
+| Seção 11 | Q-5 (mapa Europa — eslavos) | ✅ Resolvido | geo-1-4-09.png |
+
+## DADOS AUSENTES REMANESCENTES
+
+| Seção | Campo | Motivo | Ação recomendada |
+|-------|-------|--------|-----------------|
+| Seção 11 | Enunciados completos de Q-1, Q-2, Q-3, Q-4 | Páginas de Atividades não capturadas em alta resolução | Capturar printscreen individual das págs. de Atividades |
+| Seção 11 | Gabaritos das questões Q-1 a Q-4 | Gabaritos não aparecem no material | Conferir no livro do professor antes da aula |
 
 ## STATUS
-⚠️ geo-1-4.md gerado a partir de imagens concatenadas (4 págs./imagem).
-Itens marcados acima requerem printscreens individuais para completar.
-Prep utilizável para aula; conferir gabaritos das Atividades antes de usar Q-11.
+✅ Mapas e gráficos do capítulo: completos.
+⚠️ Questões Q-1 a Q-4: enunciados parcialmente reconstruídos — verificar com material antes de usar na aula.
 ```
 
 ---
@@ -298,6 +333,12 @@ Prep utilizável para aula; conferir gabaritos das Atividades antes de usar Q-11
 8. A diferença entre `______` e `______` é que o primeiro busca mais autonomia dentro do Estado, enquanto o segundo busca a criação de um Estado independente.
 *(resposta: autonomismo · separatismo)*
 
+9. O idioma mais falado na Espanha é o `______` (74%), seguido pelo `______` (17%), o `______` (7%) e o `______` (2%).
+*(resposta: espanhol/castelhano · catalão · galego · basco)*
+
+10. A região do `______`, na Itália central, foi o berço do latim e, por consequência, de todas as línguas `______` (português, espanhol, francês, italiano, romeno).
+*(resposta: Lácio · neolatinas)*
+
 #### Bloco 4 — Tabela Síntese
 
 | Conceito | Lacuna — resposta esperada |
@@ -344,7 +385,7 @@ Prep utilizável para aula; conferir gabaritos das Atividades antes de usar Q-11
 | Q-2 | Diferentes identidades culturais — exemplo de grupo com língua própria na Europa | Dis | M | Bascos (euskera), catalães, escoceses, flamengos etc. | ⚠️ gabarito inferido |
 | Q-3 | Questão com dados demográficos — identificar no mapa de densidade | Mapa | M | Regiões de alta densidade: Europa Ocidental, sul da Ásia, leste asiático | ⚠️ mapa não capturado em alta res. |
 | Q-4 | Separatismo na Espanha — diferença entre País Basco e Catalunha | Dis | M | País Basco: identidade linguística única (euskera); Catalunha: identidade cultural + peso econômico | ⚠️ gabarito inferido |
-| Q-5 | Mapa — identificar regiões autônomas da Espanha | Mapa | F | País Basco (norte) · Catalunha (nordeste) | ⚠️ mapa não capturado em alta res. |
+| Q-5 | Mapa da Europa — identificar matriz étnica das regiões destacadas (Europa Oriental) | MC | F | **d) eslavos** — regiões em verde correspondem a países eslavos (Rússia, Ucrânia, Polônia, etc.) | — |
 
 ---
 
