@@ -598,7 +598,11 @@ body{font-family:var(--font-sans)}
 <svg width="100%" viewBox="0 0 680 280" role="img">
 <title>Blocos da tabela periódica</title>
 <desc>Tabela periódica mostrando os blocos s, p, d e f com posições reais</desc>
-<defs><style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
+markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
+stroke-width="1.5" stroke-linecap="round"
+stroke-linejoin="round"/></marker><style>
 .cell{stroke:#333;stroke-width:0.5}
 .bs{fill:#FAEEDA}.bp{fill:#EAF3DE}.bd{fill:#E6F1FB}.bf{fill:#EEEDFE}
 .blk{font-size:36px;font-weight:900;text-anchor:middle;dominant-baseline:central;opacity:0.85}
@@ -720,7 +724,11 @@ body{font-family:var(--font-sans)}
 <svg width="100%" viewBox="0 0 680 260" role="img">
 <title>Grupos e famílias da tabela periódica</title>
 <desc>Estrutura de grupos A e B da tabela periódica</desc>
-<defs><style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
+markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
+stroke-width="1.5" stroke-linecap="round"
+stroke-linejoin="round"/></marker><style>
 .cell{stroke:#333;stroke-width:0.5}
 .ga{fill:#E6F1FB}.gb{fill:#FAEEDA}.g18{fill:#EAF3DE}
 .grp{font-size:6px;fill:#0C447C;text-anchor:middle;dominant-baseline:central;font-weight:500}
