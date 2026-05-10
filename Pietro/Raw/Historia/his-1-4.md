@@ -264,11 +264,13 @@ Conceito testado: causas da Primeira Guerra / atentado como estopim vs. causas e
 
 ## SEÇÃO ATIVIDADES
 
-**Q-1** · pág. 81
-Enunciado: [Ilegível nas imagens disponíveis — primeira questão da seção Atividades, pág. 81]
+**Q-1** · pág. 81 · [VOCÊ É O HISTORIADOR]
+> Imagem: charge em alemão mostrando uma grande mão (luva marcada "Österr." = Áustria) estrangulando uma figura pequena; legenda: "...Serbien muss sterbien." Tradução fornecida pelo livro: Áustria ("Österr.") e "A Sérvia deve morrer" ("Serbien muss sterbien!").
+
+Enunciado: Analise atentamente a charge sobre a relação entre o Império Austro-Húngaro e a Sérvia e a interprete, considerando o contexto que estamos estudando neste capítulo.
 Gabarito:
-Tipo: [ilegível]
-Classificação: [ilegível]
+Tipo: análise de imagem
+Classificação: médio
 
 **QC-1** · Enem · 2023 · pág. 82
 Enunciado: O início do século XX foi marcado por rivalidades entre as potências europeias, cujo clima de tensão e diplomacia acontecia simultaneamente ao militarismo. As principais políticas que firmavam os acordos entre os países no período da Paz Armada foram:
@@ -290,15 +292,18 @@ Gabarito:
 Tipo: dissertativa
 Classificação: médio
 
-**QC-2** · Uej · 2015 · pág. 82
-> Texto: "O patriotismo é o amor pelos seus, o nacionalismo o ódio pelos outros."
-(Romain Gary)
+**QC-2** · Uerj · 2015 · pág. 82
+> Texto: "O patriotismo é o amor pelos seus; o nacionalismo é o ódio pelos outros."
+GARY, Romain (1914-1980). Citado por Henri Deleersnijder. *O Globo*, 28/07/2014.
 
-Enunciado: Com base na citação e nos seus conhecimentos históricos sobre o período que antecedeu a Primeira Guerra Mundial (1914–1918), aponte:
-A) [sub-item parcialmente ilegível — relacionado ao crescimento do pangermanismo ou ações antissemitas]
-B) [sub-item parcialmente ilegível — relacionado ao expansionismo ou ações de guerra]
+Enunciado: A frase do escritor francês Romain Gary ajuda a compreender como reivindicações de autonomia de povos e sociedades variadas acabam por ocasionar disputas territoriais e políticas. Um exemplo dessa situação é a eclosão da Primeira Guerra Mundial (1914-1918), para a qual contribuiu o seguinte fator:
+Alternativas:
+a. ( ) difusão do domínio soviético.
+b. ( ) expansão do ideal pangermânico.
+c. ( ) agravamento das crises balcânicas.
+d. ( ) crescimento das ações antissemitas.
 Gabarito:
-Tipo: dissertativa
+Tipo: múltipla escolha
 Classificação: médio
 
 **Q-3** · pág. 83
@@ -319,7 +324,8 @@ Tipo: dissertativa
 Classificação: difícil
 
 **Q-4** · pág. 83–84
-> Gráfico: barras horizontais mostrando gastos militares (Exército e Marinha separados) de seis países em cinco cortes temporais · Eixo Y: anos (1880, 1890, 1900, 1910, 1914) · Eixo X: £ Mn (Milhões de libras esterlinas), escala 10–160 · Países: Alemanha, Áustria-Hungria, Itália, Grã-Bretanha, Rússia, França · Fonte: Folha de S.Paulo. *Atlas da história do mundo*. São Paulo: Folha da Manhã S/A, 1995, p. 246.
+> Gráfico: barras horizontais empilhadas (Exército + Marinha) por país e por ano · Eixo Y: anos (1880, 1890, 1900, 1910, 1914) · Eixo X: £ Mn (Milhões de libras esterlinas), escala 0–160 · Países (ordem na legenda): Alemanha, Áustria-Hungria, Itália, Grã-Bretanha, Rússia, França · Fonte: Folha de S.Paulo. *Atlas da história do mundo*. São Paulo: Folha da Manhã S/A, 1995, p. 246.
+> Leitura aproximada dos valores totais (Exército + Marinha) em 1914: Alemanha ~147, Grã-Bretanha ~145, Rússia ~145, França ~145, Áustria-Hungria ~37, Itália ~30 · Em 1880 todos os países ficavam abaixo de 40 · O crescimento relativo foi mais expressivo em Alemanha, Rússia e Grã-Bretanha; Áustria-Hungria e Itália cresceram pouco.
 
 Enunciado: Sobre os anos anteriores à Primeira Guerra, analise o gráfico. Complete a tabela a seguir, listando em ordem crescente os países em relação ao seu crescimento militar no período da Paz Armada. Considere que estamos tratando do crescimento militar de cada um desses países diante de uma guerra que iria começar, e não de sua força total.
 
@@ -348,7 +354,4 @@ Classificação: difícil
 ---
 
 ## IMAGENS RECOMENDADAS PARA CAPTURA
-- Q-1 (pág. 81) · enunciado completo da primeira questão das Atividades · não capturado com zoom
-- Sub-itens A e B do QC-2 / Uej 2015 (pág. 82) · texto parcialmente ilegível
-- Valores exatos do gráfico Q-4 (pág. 83–84) · necessários para o aluno preencher a tabela de ranking de crescimento militar por país
-- Gráfico "Corrida armamentista entre potências" (pág. 73) · valores exatos das barras por país e período
+- Gráfico "Corrida armamentista entre potências" (pág. 73) · valores exatos das barras por país e período · útil para discussão de QI-1
