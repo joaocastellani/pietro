@@ -130,7 +130,7 @@ Exit code 0 = tudo válido. Exit code 1 = há erros.
 
 2. ORGANIZAÇÃO — Claude Code organiza os screenshots:
                - Concatena 2 screenshots por imagem usando concat_screenshots.sh
-               - Padrão: grupos de 2 (legibilidade de texto e alternativas)
+               - Padrão: grupos de 2, concatenação VERTICAL (preserva largura → texto legível)
                - Move para: Pietro/Raw/[Materia]/imagens/[mat]-[u]-[c]-NN.png
                - Deleta os screenshots originais de ~/Pictures/Screenshots/
                Script: Pietro/Scripts/concat_screenshots.sh
@@ -202,7 +202,7 @@ Quando pedido para organizar screenshots:
    ```bash
    bash Pietro/Scripts/concat_screenshots.sh [prefixo] 2 ~/Pictures/Screenshots/
    ```
-   Padrão: **sempre 2 por grupo** — preserva legibilidade de textos e alternativas de questões.
+   Padrão: **sempre 2 por grupo, concatenação vertical** — preserva a largura original de cada página, mantendo textos e alternativas legíveis.
 5. Verificar se a pasta `Pietro/Raw/[Materia]/imagens/` existe — criar se não existir
 6. Mover os arquivos concatenados para a pasta de imagens:
    `Pietro/Raw/[Materia]/imagens/[mat]-[u]-[c]-NN.png`

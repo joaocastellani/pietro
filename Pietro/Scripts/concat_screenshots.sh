@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Uso: ./concat_screenshots.sh <prefixo> <n> [diretório]
-# Exemplo: ./concat_screenshots.sh por-1-1 4
+# Exemplo: ./concat_screenshots.sh por-1-1 2
+# Concatenação vertical (-append): preserva largura original de cada página
 
 PREFIX=$1
 N=$2
@@ -32,7 +33,7 @@ for ((i=0; i<TOTAL; i+=N)); do
   echo "Gerando $OUTPUT com ${#GROUP[@]} imagem(ns):"
   printf "  %s\n" "${GROUP[@]}"
 
-  convert +append "${GROUP[@]}" "$OUTPUT"
+  convert -append "${GROUP[@]}" "$OUTPUT"
 
   ((SEQ++))
 done
