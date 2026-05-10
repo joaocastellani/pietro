@@ -362,3 +362,97 @@ Os três termos são distintos e costumam ser cobrados em matching. **Hoax** = e
 
 8. Qual é a diferença entre **hoax** e **misinformation**? `______`
 *(resposta: A hoax is a deliberate lie/trick; misinformation is false information spread to make someone believe something untrue — um hoax é um engano fabricado; misinformation é informação errada usada para enganar)*
+
+---
+
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| First Conditional — uso | `______` → *Situações prováveis/reais no futuro* |
+| First Conditional — estrutura | `______` → *If + Simple Present + will/won't + infinitive* |
+| Second Conditional — uso | `______` → *Situações hipotéticas/imaginárias* |
+| Second Conditional — estrutura | `______` → *If + Simple Past + would/wouldn't + infinitive* |
+| "were" no Second Conditional | Para qual sujeito usar "were"? → *Todos os sujeitos (I, he, she, it, we, they)* |
+| Vírgula nos condicionais | Quando usar vírgula? → *Somente quando a if-clause vem antes da main clause* |
+| S.U.R.E. — S | `______` → *Source (verificar a fonte)* |
+| S.U.R.E. — U | `______` → *Understand (entender o contexto)* |
+| S.U.R.E. — R | `______` → *Research (pesquisar em fontes confiáveis)* |
+| S.U.R.E. — E | `______` → *Evaluate (avaliar antes de compartilhar)* |
+| ⚠️ Pegadinha — "will" dentro do "if" | ❌ "If you will check…" → *Correto: "If you check…" (Simple Present)* |
+| ⚠️ Pegadinha — "was" no Second | ❌ "If I was a journalist…" → *Correto: "If I were a journalist…"* |
+| hoax vs. misinformation | `______` → *Hoax = engano deliberado · Misinformation = informação errada para enganar* |
+| clickbait | `______` → *Manchete/link exagerado para atrair cliques* |
+
+---
+
+## SEÇÃO 11 — QUESTÕES DE REFERÊNCIA
+
+#### Bloco A — Catálogo das questões
+
+| # | Enunciado resumido | Tipo | Dif. | Origem | Gabarito | Obs. |
+|---|---|---|---|---|---|---|
+| Q-1 | Identificar o tipo de fake news apresentado em cada situação (fabricated story, photo manipulation, etc.) | Matching | F | AT | (ver gabarito oficial) | — |
+| Q-2 | Completar frases com First ou Second Conditional | Gap fill | M | AT | (ver gabarito oficial) | — |
+| Q-3 | Identificar erros gramaticais em frases condicionais | Correção | M | AT | (ver gabarito oficial) | — |
+| Q-4 | Associar cada letra do S.U.R.E. ao seu significado | Matching | F | AT | S=Source · U=Understand · R=Research · E=Evaluate | — |
+| Q-5 | Leitura do infográfico — responder perguntas de compreensão | Reading | M | AT | (ver gabarito oficial) | — |
+| Q-6 | Reescrever frases do First para o Second Conditional | Transformação | M | AT | (ver gabarito oficial) | — |
+| QC-1 | Selecionar a frase no Second Conditional correta | MC | M | AT | (ver gabarito oficial) | — |
+
+---
+
+#### Bloco B — Questões modelo originais
+
+---
+
+**QM-1** · gap fill · fácil · inspirada em: Q-2
+
+Complete the sentences with the correct conditional form:
+
+1. If you ______ (check) the source, you ______ (find) the truth. *(First Conditional)*
+2. If she ______ (be) more careful, she ______ (not / share) fake news. *(Second Conditional)*
+3. If they ______ (research) before posting, fewer people ______ (believe) the hoax. *(First Conditional)*
+
+✅ **Gabarito:**
+1. check / will find
+2. were / wouldn't share
+3. research / will believe
+⚠️ **Professor:** referência de estilo — crie variações originais, nunca reproduza diretamente.
+
+---
+
+**QM-2** · múltipla escolha · médio · inspirada em: Q-3 e QC-1
+
+Assinale a alternativa com a frase **gramaticalmente correta**:
+
+a) If I was a journalist, I would investigate fake news more carefully.
+b) If you will fact-check the article, you will find mistakes.
+c) If she were honest, she wouldn't spread misinformation.
+d) If they checked the source, they will avoid sharing hoaxes.
+
+✅ **Gabarito:** c)
+📝 **Resolução:**
+- a) ❌ — Second Conditional usa *were*, não *was*: "If I **were** a journalist…"
+- b) ❌ — Nunca *will* dentro do *if* no First Conditional: "If you **fact-check**…"
+- c) ✅ — Second Conditional correto: *were* + *wouldn't*
+- d) ❌ — Mistura tempos: *if* no Simple Past pede *would*, não *will*
+⚠️ **Professor:** referência de estilo — crie variações originais, nunca reproduza diretamente.
+
+---
+
+**QM-3** · dissertativa · médio · inspirada em: Q-5
+
+Read the following situation and answer:
+
+*"A student sees a post claiming that a famous singer made controversial remarks. The post has no clear source, the headline is exaggerated, and only one website is reporting it."*
+
+a) Which steps of the S.U.R.E. method should the student follow before sharing this post?
+b) Write one First Conditional sentence about what could happen if the student shares the post without checking.
+c) Write one Second Conditional sentence about what the student would do if they were a responsible digital citizen.
+
+✅ **Gabarito esperado:**
+a) All four steps: **S** — check the source (no clear source identified); **U** — understand the context (only one site reporting); **R** — research other reliable sources; **E** — evaluate credibility before sharing.
+b) Any correct First Conditional, e.g.: *"If the student shares the post, people will believe the false information."*
+c) Any correct Second Conditional, e.g.: *"If I were a responsible digital citizen, I would fact-check the post before sharing it."*
+⚠️ **Professor:** referência de estilo — crie variações originais, nunca reproduza diretamente.
