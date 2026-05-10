@@ -220,6 +220,8 @@
 ## BLOCO G — QUESTÕES INTERCALADAS
 
 **QI-1** · [IC] · pág. 73
+> Gráfico: "Corrida armamentista entre potências" · barras horizontais únicas por ano mostrando o gasto militar COMBINADO das 6 grandes potências (Alemanha, Áustria-Hungria, Grã-Bretanha, Rússia, Itália e França) em milhões de libras esterlinas · Eixo Y: anos (1880, 1890, 1900, 1910, 1914) · Eixo X: 0 a 450 £ Mn · Valores aproximados: 1880 ≈ 160, 1890 ≈ 200, 1900 ≈ 300, 1910 ≈ 380, 1914 ≈ 440
+
 Enunciado: Sobre a Guerra Franco-Prussiana, responda ao que se pede:
 a) Explique as motivações do conflito.
 b) Aponte suas consequências para os:
@@ -354,4 +356,4 @@ Classificação: difícil
 ---
 
 ## IMAGENS RECOMENDADAS PARA CAPTURA
-- Gráfico "Corrida armamentista entre potências" (pág. 73) · valores exatos das barras por país e período · útil para discussão de QI-1
+Nenhuma. Todos os gaps foram resolvidos.
