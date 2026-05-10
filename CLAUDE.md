@@ -129,7 +129,8 @@ Exit code 0 = tudo válido. Exit code 1 = há erros.
                Screenshots salvos em: ~/Pictures/Screenshots/
 
 2. ORGANIZAÇÃO — Claude Code organiza os screenshots:
-               - Concatena N screenshots por imagem usando concat_screenshots.sh
+               - Concatena 2 screenshots por imagem usando concat_screenshots.sh
+               - Padrão: grupos de 2 (legibilidade de texto e alternativas)
                - Move para: Pietro/Raw/[Materia]/imagens/[mat]-[u]-[c]-NN.png
                - Deleta os screenshots originais de ~/Pictures/Screenshots/
                Script: Pietro/Scripts/concat_screenshots.sh
@@ -152,7 +153,7 @@ Exit code 0 = tudo válido. Exit code 1 = há erros.
 **Organizar screenshots após captura manual:**
 ```
 Acabei de tirar screenshots do capítulo 3 de Biologia unidade 1.
-Concatena de 4 em 4, move para Pietro/Raw/Biologia/imagens/ com
+Concatena de 2 em 2, move para Pietro/Raw/Biologia/imagens/ com
 prefixo bio-1-3 e deleta os originais de ~/Pictures/Screenshots/.
 ```
 
@@ -199,8 +200,9 @@ Quando pedido para organizar screenshots:
    - **Demais screenshots** → conteúdo a concatenar
 4. Usar `concat_screenshots.sh` para concatenar os screenshots de conteúdo:
    ```bash
-   bash Pietro/Scripts/concat_screenshots.sh [prefixo] [n] ~/Pictures/Screenshots/
+   bash Pietro/Scripts/concat_screenshots.sh [prefixo] 2 ~/Pictures/Screenshots/
    ```
+   Padrão: **sempre 2 por grupo** — preserva legibilidade de textos e alternativas de questões.
 5. Verificar se a pasta `Pietro/Raw/[Materia]/imagens/` existe — criar se não existir
 6. Mover os arquivos concatenados para a pasta de imagens:
    `Pietro/Raw/[Materia]/imagens/[mat]-[u]-[c]-NN.png`
