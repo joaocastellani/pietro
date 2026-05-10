@@ -195,7 +195,8 @@ Quando pedido para organizar screenshots:
 
 1. Verificar se existem arquivos `Screenshot_*.png` em `~/Pictures/Screenshots/`
 2. Ordenar por nome (cronológico)
-3. Separar o último screenshot dos demais:
+3. Separar os screenshots especiais:
+   - **Primeiro screenshot** → descartar (capa do capítulo — só título e imagem decorativa)
    - **Último screenshot** → síntese do capítulo (exceto Artes)
    - **Demais screenshots** → conteúdo a concatenar
 4. Usar `concat_screenshots.sh` para concatenar os screenshots de conteúdo:
