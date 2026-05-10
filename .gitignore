@@ -1,2 +1,7 @@
 .venv/
 Pietro/temp/
+
+# Imagens e screenshots (binários pesados — regeneráveis)
+Pietro/Raw/**/*.png
+Pietro/Raw/**/*.jpg
+Pietro/Raw/**/*.jpeg
