@@ -28,8 +28,8 @@ Tabelas da Seção 6 são apresentadas como markdown no chat.
 - **Perfil:** misto (literário-interpretativo + gramatical-operacional)
 - **Cientistas citados:** nenhum
 - **Seções presentes:** Interpretação de texto | Produção textual | A métrica | Classificação dos versos | Coesão e coerência | Ambiguidade lexical | Estudos de língua | Derivação | Atividades | Questão invertida
-- **Texto-base principal:** "Cumplicidade de mãe e filha" — Jefferson Barbosa — conto
-- **Texto 2:** Poema "Mãe" — autor parcialmente ilegível nas imagens (possivelmente Sérgio Caparelli)
+- **Texto-base principal:** "Cumplicidade de mãe e filha" — Affonso Romano de Sant'Anna — crônica
+- **Texto 2:** Poema "Mãe" — Sérgio Caparelli (nascido 1947, Ijuí-RS; PUC-RS; 60+ livros infanto-juvenis)
 - **Texto 3:** "As supermães e as mães normais" — artigo de opinião
 - **Texto 4:** Manchetes — Agência Brasil (maio–jul. 2016)
 - **Gênero-alvo de produção:** Poema
@@ -41,7 +41,7 @@ Tabelas da Seção 6 são apresentadas como markdown no chat.
 
 ### Interpretação de texto — "Cumplicidade de mãe e filha"
 
-O capítulo abre com o conto **"Cumplicidade de mãe e filha"**, de Jefferson Barbosa, publicado na antologia *Mãe, o que quero?*. O texto narra a relação afetiva entre mãe e filha, explorando os laços emocionais que definem essa cumplicidade. Serve de ponto de partida para questões de interpretação (foco narrativo, linguagem, posicionamento do autor) que integram a seção de interpretação de texto.
+O capítulo abre com a crônica **"Cumplicidade de mãe e filha"**, de **Affonso Romano de Sant'Anna**, publicada na antologia *Mãe, o que quero?*. O texto narra em 1ª pessoa a cumplicidade afetiva entre mãe e filha. A seção "Intertextualizando" explora a relação com o conto "Menino" de Fernando Sabino. Serve de ponto de partida para questões de interpretação (linguagem expressiva, neologismos, recursos estilísticos) que integram a seção de interpretação de texto.
 
 ---
 
@@ -85,11 +85,12 @@ Nomes dos versos mais importantes para a prova:
 
 ### Ambiguidade lexical
 
-**Ambiguidade lexical** ocorre quando palavras **polissêmicas** (com vários significados) são usadas em um contexto em que o sentido pretendido não fica claro.
+**Ambiguidade lexical** ocorre quando palavras com mais de um significado são usadas em contexto em que o sentido pretendido não fica claro.
 
-- **Polissemia:** uma palavra tem vários significados registrados. Ex.: *manga* (fruta | parte do vestuário | tipo de nuvem).
+- **Palavras polissêmicas:** têm vários significados derivados do mesmo radical. Ex.: *manga* (fruta | parte do vestuário | nuvem de insetos).
+- **Palavras homônimas:** mesma forma escrita/sonora, origens e significados sem relação etimológica. Ex.: *banco* (assento) ≠ *banco* (instituição financeira).
 - O **contexto** normalmente resolve a ambiguidade. Em tirinhas e piadas, a ambiguidade é explorada intencionalmente.
-- Exemplos do livro: *"Passei colinha de manga"* — manga da fruta ou manga da roupa?
+- Exemplos do livro: *"Paulo correu a manga"* (manga fruta ou manga da camisa?); *"Marta ganhou um gato para a vizinha"* (animal ou homem atraente?).
 
 ---
 
@@ -160,7 +161,7 @@ Processo de formação de "eternidade": *eterno* (adj.) + sufixo **"-dade"** = *
 3. **Escansão: conte até a última tônica.** A maioria dos versos é paroxítona, então a contagem é igual à contagem de sílabas gramaticais com as regras de elisão e sinérese aplicadas.
 4. **Redondilha maior = 7 sílabas** é a medida da poesia popular brasileira (cordel, modas de viola). Decassílabo = 10 é o padrão dos sonetos clássicos (Camões, Drummond). Essas são as mais cobradas.
 5. **Sufixos que constumam aparecer em prova:** "-dade" (substantivo abstrato de adj.: lealdade, eternidade); "-eza" (beleza, riqueza); "-aço/-ção" (coletivo/ação: mamaço, adoção); "-oso" (qualidade: oneroso, valioso); "-crata" (poder: escravocrata, aristocrata).
-6. **Ambiguidade x polissemia:** toda palavra polissêmica *pode* gerar ambiguidade, mas só gera quando o contexto não resolve. Em textos literários, a ambiguidade pode ser intencional — o autor explora os dois sentidos simultaneamente.
+6. **Ambiguidade x polissemia x homonímia:** palavras polissêmicas têm significados do mesmo radical; homônimas têm origens diferentes. Ambas podem gerar ambiguidade quando o contexto não resolve. Em textos literários e tirinhas, a ambiguidade é frequentemente intencional.
 
 ---
 
@@ -194,6 +195,7 @@ Processo de formação de "eternidade": *eterno* (adj.) + sufixo **"-dade"** = *
 | Processo: forma subst. removendo afixo de verbo = ___ | derivação regressiva |
 | Processo: muda de classe sem alterar a forma = ___ | derivação imprópria |
 | Ambiguidade lexical vem de palavras ___ (vários significados) | polissêmicas |
+| Palavras de mesma forma mas origens distintas = ___ | homônimas |
 | Sufixo "-dade" transforma ___ em substantivos abstratos | adjetivos |
 
 ---

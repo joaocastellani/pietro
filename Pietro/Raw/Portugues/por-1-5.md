@@ -15,19 +15,21 @@
 ### Texto 1
 
 - **Título:** Cumplicidade de mãe e filha
-- **Autor:** Jefferson Barbosa
+- **Autor:** Affonso Romano de Sant'Anna
 - **Fonte:** Antologia *Mãe, o que quero?* [editora e ano parcialmente ilegíveis nas imagens]
-- **Gênero textual:** conto
-- **Texto integral:** [texto integral não legível com precisão suficiente nas imagens disponíveis — narrativa em 1ª ou 3ª pessoa sobre a relação afetiva entre mãe e filha]
+- **Gênero textual:** crônica
+- **Texto integral:** [texto integral não legível com precisão suficiente nas imagens disponíveis — crônica em 1ª pessoa sobre a cumplicidade entre mãe e filha]
+- **Intertextualidade:** seção "Intertextualizando" referencia o conto "Menino" de Fernando Sabino (pág. 104)
 
 ---
 
 ### Texto 2 — Produção textual
 
 - **Título:** Mãe
-- **Autor:** [parcialmente ilegível — possivelmente Sérgio Caparelli; foto e biografia de Caparelli apresentadas na mesma seção]
+- **Autor:** Sérgio Caparelli (nascido em 1947 em Ijuí-RS; professor na PUC-RS; mais de 60 livros para crianças e jovens)
 - **Gênero textual:** poema (utilizado como texto-base para análise de métrica)
-- **Texto integral:** [ilegível com precisão nas imagens disponíveis — poema lírico de estrofes curtas sobre a figura da mãe]
+- **Texto integral:** [parcialmente legível no zoom-04 — poema lírico de estrofes curtas sobre a figura da mãe]
+- **Epígrafe da seção:** trecho do poema "Mãe" de Antero de Quental (pág. 107)
 
 ---
 
@@ -60,12 +62,13 @@
 ### Texto 1 — Cumplicidade de mãe e filha
 
 - **Aspecto:** Gênero e tipo narrativo
-  - Conto com foco na relação afetiva entre mãe e filha.
-  - Narrador em 1ª ou 3ª pessoa (ilegível nas imagens).
+  - Crônica com foco na cumplicidade afetiva entre mãe e filha.
+  - Narrador em 1ª pessoa.
 
 - **Aspecto:** Autoria
-  - Jefferson Barbosa, escritor brasileiro contemporâneo.
+  - Affonso Romano de Sant'Anna, escritor e poeta brasileiro.
   - Texto publicado em antologia coletiva sobre o tema da maternidade.
+  - Seção "Intertextualizando" explora relação com o conto "Menino" de Fernando Sabino.
 
 ---
 
@@ -189,10 +192,15 @@
 
 - **Nome:** Ambiguidade lexical
 - **Definição:** Ocorre quando palavras com mais de um significado (polissêmicas) são empregadas em um contexto em que o sentido pretendido não fica claro para o leitor.
-- **Palavras polissêmicas:** palavras que têm vários significados possíveis; o contexto normalmente seleciona o sentido correto, mas, quando falha, gera ambiguidade.
-- **Exemplos do livro:**
+- **Palavras polissêmicas:** palavras que têm vários significados possíveis (sentidos figurados do mesmo radical); o contexto normalmente seleciona o sentido correto, mas, quando falha, gera ambiguidade.
+- **Palavras homônimas:** palavras de forma igual mas origens e significados completamente diferentes (homógrafas ou homófonas); ex.: "banco" (móvel) ≠ "banco" (instituição financeira).
+- **Distinção homônimas × polissêmicas** [zoom-07]:
+  - Homônimas → mesma forma, significados sem relação etimológica: **banco** (assento / instituição)
+  - Polissêmicas → mesma palavra com sentidos figurados derivados do sentido original: **manga** (parte da roupa / fruta), **gato** (animal / pessoa atraente / ligação clandestina de luz)
+- **Exemplos do livro** [zoom-07]:
+  - "Paulo correu a manga" → manga (fruta ou parte da camisa?)
+  - "Marta ganhou um gato para a vizinha" → gato (animal doméstico ou homem atraente?)
   - "Passei colinha de manga" → manga (fruta ou manga de camisa?)
-  - Derivação com sufixos pode também carretar sentido pejorativo (ex.: sufixo -eco em "eco", sufixo -inho em "engracadinho") que não pode ser ignorado na leitura
 - **Observação:** Em textos bem construídos, o contexto resolve a ambiguidade. Em piadas, tirinhas e jogos de linguagem, a ambiguidade é explorada intencionalmente.
 
 ---
@@ -211,40 +219,61 @@
 
 ## BLOCO G — QUESTÕES INTERCALADAS
 
-**QI-1** · [IC] · pág. 104 (aprox.)
-Enunciado: [ilegível — primeira questão de interpretação sobre o conto "Cumplicidade de mãe e filha", possivelmente sobre foco narrativo ou análise do ponto de vista do narrador]
+**QI-1** · [IC] · pág. 104
+Enunciado: [ilegível — primeira questão de interpretação sobre a crônica "Cumplicidade de mãe e filha" de Affonso Romano de Sant'Anna]
 Gabarito: [ilegível]
-Conceito testado: interpretação de texto / foco narrativo
+Conceito testado: interpretação de texto / análise da crônica
 
 **QI-2** · [IC] · pág. 104
-Enunciado: [ilegível]
-Gabarito: [ilegível]
-Conceito testado: interpretação / análise do texto
+Enunciado: No trecho "periquitando no meio emocional da mãe", qual é o efeito expressivo do verbo "periquitar"? [paráfrase aproximada do zoom-01]
+Gabarito: [dissertativa — efeito cômico/expressivo de verbo criado a partir do substantivo "periquito", indicando agitação barulhenta e intromissão afetiva da filha no espaço emocional da mãe]
+Conceito testado: derivação / efeito expressivo de neologismo
 
-**QI-3** · [IC] · pág. 104
-Enunciado: [ilegível]
-Gabarito: [ilegível]
-Conceito testado: interpretação / linguagem do texto
+**QI-3** · [IC] · pág. 104 · múltipla escolha
+Enunciado: O diminutivo "conversinha" no contexto do texto tem sentido:
+a) pejorativo — conversa sem importância
+b) afetivo — conversa querida e íntima
+c) afetivo-pejorativo — conversa longa e chata
+d) [ilegível]
+Gabarito: c) [confirmado pelo zoom-01 — o diminutivo carrega sentido ambivalente de afeto e ironia]
+Conceito testado: sufixo diminutivo / efeito de sentido
 
-**QI-4** · [IC] · pág. 105
-Enunciado: [ilegível — possivelmente sobre semelhanças ou diferenças no texto]
+**QI-4** · [IC] · pág. 104–105 · múltipla escolha
+Enunciado: A cumplicidade entre mãe e filha descrita no texto é marcada por: [opções a/b parcialmente legíveis no zoom-02]
+a) [ilegível]
+b) [ilegível]
 Gabarito: [ilegível]
-Conceito testado: análise literária / intertextualidade
+Conceito testado: interpretação / análise da relação afetiva no texto
 
-**QI-5** · [IC] · pág. 106–107 (seção Produção textual)
-Enunciado: [ilegível — questões sobre o poema "Mãe" e análise de métrica]
-Gabarito: [ilegível]
-Conceito testado: métrica / escansão
+**QI-5** · [IC] · pág. 104
+Enunciado: No trecho transcrito com travessões ou parênteses, qual é a função do comentário parentético? [zoom-02]
+Gabarito: [dissertativa — recurso de voz do narrador, acrescentando avaliação ou ironia sobre o narrado]
+Conceito testado: recursos sintáticos / função do comentário parentético
 
-**QI-6** · [IC] · pág. 112–113 (seção Coesão e coerência)
-Enunciado: [ilegível — sobre composição e referentes em texto acompanhado da pintura "Lot e suas filhas" de Lucas de Leyde, 1521]
-Gabarito: [ilegível]
-Conceito testado: coesão / coerência textual
+**QI-6** · [IC] · pág. 104
+Enunciado: Qual é o efeito do espaçamento duplo (parágrafo em branco entre blocos) no texto? [zoom-02]
+Gabarito: [dissertativa — marcação de pausas ou mudanças de cena/tempo na crônica]
+Conceito testado: coesão / organização textual
 
-**QI-7** · [IC] · pág. 115 (Ambiguidade lexical)
-Enunciado: [ilegível — sobre a ambiguidade nas tirinhas apresentadas na seção "Estudos de língua"]
-Gabarito: [ilegível]
-Conceito testado: ambiguidade lexical / polissemia
+**QI-7** · [IC] · pág. 104
+Enunciado: A expressão "mas é pouco" aparece repetida no texto. Que efeito essa repetição produz? [zoom-02]
+Gabarito: [dissertativa — reforço do argumento; ironia ou ênfase afetiva]
+Conceito testado: repetição como recurso estilístico / coesão
+
+**QI-8** · [IC] · pág. 105 (seção Produção textual — poema "Mãe" de Sérgio Caparelli)
+Enunciado: [zoom-05] Q1 sobre imagens poéticas do poema. Q2 sobre estrutura: número de versos, estrofes, rimas e tamanho dos versos.
+Gabarito: [dissertativa — análise de escansão e classificação dos versos do poema de Caparelli]
+Conceito testado: métrica / escansão / classificação dos versos
+
+**QI-9** · [IC] · pág. 112 (Coesão e coerência — pintura "Lot e suas filhas", Pinacoteca do Estado de SP)
+Enunciado: [zoom-06] Q3: analisar a frase "A ida sempre apresenta seu filho ao mesmo, no banco". Q4: comparar a figura materna na pintura com a do texto. Q5: refletir sobre a representação da maternidade nos anos 1900.
+Gabarito: [dissertativo — análise de referência, ambiguidade sintática e leitura de imagem]
+Conceito testado: coesão / coerência / leitura de imagem
+
+**QI-10** · [IC] · pág. ~116 (Ambiguidade lexical)
+Enunciado: [zoom-07] Identificar ambiguidade em frases com palavras homônimas (banco) e polissêmicas (manga, gato). Exemplos: "Paulo correu a manga", "Marta ganhou um gato para a vizinha".
+Gabarito: [dissertativo — distinguir homônimas de polissêmicas; explicar o duplo sentido em cada frase]
+Conceito testado: ambiguidade lexical / homônimas / polissemia
 
 ---
 
@@ -354,22 +383,22 @@ Classificação: médio
 Na derivação imprópria, não ocorre necessariamente uma alteração na forma da palavra, mas em seu uso. A palavra passa a atuar em uma classe gramatical diferente da sua classificação original. Ligue a frase que exemplifica cada um dos usos de derivação imprópria:
 
 (1) Infinitivo empregado como substantivo
-(2) Substantivo empregado como advérbio
-(3) Adjetivo empregado como substantivo
-(4) Adjetivo empregado como advérbio
-(5) Substantivo próprio empregado como comum
+(2) Adjetivo empregado como substantivo
+(3) Adjetivo empregado como advérbio
+(4) Substantivo próprio empregado como comum
 
 Frases:
-a) Anã com capa, ela se livra do que lhe faz
+a) [ilegível]
 b) As bonitas que me perdoem
 c) Fale baixo no quarto
-d) [ilegível]
+d) Meu pai é um Einstein da família [revelado no zoom-10]
 e) O andar daquela mãe destacar-se-ia na multidão
 
-**Gabarito parcial** (opções d ilegível):
-(1) → e) "O **andar** daquela mãe..." (infinitivo "andar" = substantivo)
-(3) → b) "**As bonitas** que me perdoem" (adj. "bonitas" = substantivo)
-(4) → c) "Fale **baixo** no quarto" (adj. "baixo" = advérbio)
+**Gabarito completo** [zoom-10]:
+(1) → e) "O **andar** daquela mãe..." (infinitivo "andar" empregado como substantivo)
+(2) → b) "**As bonitas** que me perdoem" (adj. "bonitas" empregado como substantivo)
+(3) → c) "Fale **baixo** no quarto" (adj. "baixo" empregado como advérbio)
+(4) → d) "Meu pai é um **Einstein** da família" (subst. próprio "Einstein" empregado como comum — sinônimo de gênio)
 Tipo: emparelhamento
 Classificação: médio
 
