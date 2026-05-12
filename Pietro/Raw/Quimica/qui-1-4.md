@@ -12,7 +12,7 @@
 **Eletrosfera**
 - Região ao redor do núcleo atômico onde se encontram os elétrons
 - Dividida em camadas de energia denominadas K, L, M, N, O, P, Q (da mais próxima à mais distante do núcleo)
-- Cada camada possui uma energia característica — quanto mais distante do núcleo, maior a energia
+- Ao todo, são 7 níveis diferentes de energia; um átomo não precisa ter todas as 7 camadas preenchidas — a quantidade de elétrons define o número de camadas ocupadas
 
 **Camadas de energia (níveis energéticos)**
 - Cada camada comporta um número máximo de elétrons dado pela fórmula 2n² (n = número da camada)
@@ -56,14 +56,16 @@
 **Íons**
 - Átomos que ganham ou perdem elétrons, adquirindo carga elétrica
 - **Cátion**: perde elétrons → carga positiva
-  - Exemplo: Li (Z=3, K=2 L=1) → Li⁺ (perde 1e⁻) → K=2
+  - Exemplo: ₃Li (K=2, L=1) → Li⁺ (perde 1e⁻) → 1s²
 - **Ânion**: ganha elétrons → carga negativa
-  - Exemplo: O (Z=8, K=2 L=6) → O²⁻ (ganha 2e⁻) → K=2 L=8
-- A distribuição eletrônica do íon segue as mesmas regras, com o número total de elétrons alterado
+  - Exemplo: ₈O (K=2, L=6) → O²⁻ (ganha 2e⁻) → K=2, L=8
+- Os íons também podem ter sua distribuição eletrônica realizada pelo diagrama de Linus Pauling: subtrai-se ou soma-se a quantidade de elétrons perdidos ou acrescentados
+  - ₈O: 1s² 2s² 2p⁴ → ₈O²⁻: 1s² 2s² 2p⁶ (ganha 2e⁻ na 2p)
+  - ₃Li: 1s² 2s¹ → ₃Li⁺: 1s² (perde o 2s¹)
 
 **Distribuição eletrônica e a tabela periódica**
 - O número do período corresponde ao número da última camada eletrônica ocupada
-  - Período 1: última camada K · Período 2: L · Período 3: M · Período 4: N · e assim por diante
+  - Período 1: última camada K · Período 2: L · Período 3: M · Período 4: N · etc.
 - O grupo (família) é determinado pelo número de elétrons na camada de valência (para os grupos A)
 
 ---
@@ -72,14 +74,14 @@
 
 **FC-1**
 🔵 Frente: O que é a eletrosfera?
-🟢 Verso: Região ao redor do núcleo do átomo onde ficam os elétrons. Dividida em camadas de energia: K, L, M, N, O, P, Q, da mais próxima à mais distante do núcleo.
+🟢 Verso: Região ao redor do núcleo do átomo onde ficam os elétrons. Dividida em 7 camadas de energia: K, L, M, N, O, P, Q, da mais próxima à mais distante do núcleo.
 
 **FC-2**
 🔵 Frente: Qual é a fórmula para o número máximo de elétrons em uma camada?
 🟢 Verso: 2n², onde n é o número da camada. Resultados: K=2, L=8, M=18, N=32.
 
 **FC-3**
-🔵 Frente: Quantos elétrons cabe em cada subnível?
+🔵 Frente: Quantos elétrons cabe em cada subnível (s, p, d, f)?
 🟢 Verso: s=2 · p=6 · d=10 · f=14.
 
 **FC-4**
@@ -87,44 +89,44 @@
 🟢 Verso: 1s → 2s → 2p → 3s → 3p → 4s → 3d → 4p → 5s → 4d → 5p → 6s → 4f → 5d → 6p → 7s → 5f → 6d → 7p.
 
 **FC-5**
-🔵 Frente: Qual é a regra para a camada de valência?
-🟢 Verso: A última camada ocupada não pode ter mais de 8 elétrons. Ela contém os elétrons responsáveis pelas propriedades químicas do elemento.
+🔵 Frente: Quais as 5 regras de distribuição eletrônica no modelo de camadas?
+🟢 Verso: 1) Começa pela camada K. 2) Máximo por camada: 2n². 3) Valência ≤ 8e⁻. 4) Penúltima ≤ 18e⁻. 5) Antepenúltima ≤ 32e⁻.
 
 **FC-6**
-🔵 Frente: O que é um cátion? E um ânion?
-🟢 Verso: Cátion: átomo que perde elétrons → carga positiva (ex: Na → Na⁺). Ânion: átomo que ganha elétrons → carga negativa (ex: Cl → Cl⁻).
+🔵 Frente: O que é camada de valência? Qual a sua limitação?
+🟢 Verso: É a última camada eletrônica ocupada. Nunca pode ter mais de 8 elétrons. Seus elétrons determinam as propriedades químicas e as ligações do elemento.
 
 **FC-7**
+🔵 Frente: O que é um cátion? E um ânion?
+🟢 Verso: Cátion: átomo que perde elétrons → carga positiva (ex: Li → Li⁺, perde 1e⁻). Ânion: átomo que ganha elétrons → carga negativa (ex: O → O²⁻, ganha 2e⁻).
+
+**FC-8**
+🔵 Frente: Como obter a distribuição eletrônica de um íon pelo diagrama de Linus Pauling?
+🟢 Verso: Parte-se do número atômico do átomo neutro e subtrai-se (cátion) ou soma-se (ânion) os elétrons envolvidos. Ex: Li (1s² 2s¹) → Li⁺: retira o último elétron → 1s².
+
+**FC-9**
 🔵 Frente: Como determinar o período de um elemento a partir da distribuição eletrônica?
 🟢 Verso: O número do período corresponde ao número da última camada eletrônica ocupada. Ex: Na tem distribuição K=2 L=8 M=1 → última camada é M (3ª) → Período 3.
 
-**FC-8**
-🔵 Frente: Faça a distribuição eletrônica por camadas do Na (Z=11).
-🟢 Verso: K=2, L=8, M=1. A camada de valência é M, com 1 elétron → Período 3.
-
-**FC-9**
-🔵 Frente: Faça a distribuição eletrônica por camadas do Cl (Z=17).
-🟢 Verso: K=2, L=8, M=7. Camada de valência M com 7 elétrons → Período 3.
-
 **FC-10**
-🔵 Frente: Qual é a distribuição eletrônica do O²⁻ (ânion do oxigênio)?
-🟢 Verso: O (Z=8) tem K=2, L=6. Ao ganhar 2 elétrons: K=2, L=8. Total: 10 elétrons (igual ao Ne).
+🔵 Frente: Faça a distribuição eletrônica por camadas do Na (Z=11) e do Cl (Z=17).
+🟢 Verso: Na: K=2, L=8, M=1 → Período 3. · Cl: K=2, L=8, M=7 → Período 3.
 
 **FC-11**
-🔵 Frente: Quem foi Linus Pauling e qual sua principal contribuição para a Química?
-🟢 Verso: Químico americano (1901–1994). Criou o diagrama diagonal (diagrama de Linus Pauling) que determina a ordem de preenchimento dos subníveis de energia. Ganhou dois Prêmios Nobel: Química (1954) e da Paz (1962).
+🔵 Frente: Faça a distribuição do O²⁻ e do Li⁺ pelo diagrama de Linus Pauling.
+🟢 Verso: O (Z=8): 1s² 2s² 2p⁴. O²⁻ (ganha 2e⁻): 1s² 2s² 2p⁶ (10e⁻ = isoeletrônico ao Ne). · Li (Z=3): 1s² 2s¹. Li⁺ (perde 1e⁻): 1s² (2e⁻ = isoeletrônico ao He).
 
 **FC-12**
 🔵 Frente: Faça a distribuição eletrônica por subníveis do Na (Z=11).
-🟢 Verso: 1s² 2s² 2p⁶ 3s¹. Total: 2+2+6+1 = 11 elétrons ✓.
+🟢 Verso: 1s² 2s² 2p⁶ 3s¹. Total: 2+2+6+1 = 11 ✓. Camada de valência: 3s¹ → Período 3.
 
 **FC-13**
-🔵 Frente: Faça a distribuição eletrônica por subníveis do Cl (Z=17).
-🟢 Verso: 1s² 2s² 2p⁶ 3s² 3p⁵. Total: 2+2+6+2+5 = 17 elétrons ✓.
+🔵 Frente: Quem foi Linus Pauling e qual sua principal contribuição para a Química?
+🟢 Verso: Químico americano (1901–1994). Criou o diagrama diagonal que leva seu nome para determinar a ordem de preenchimento dos subníveis de energia. Ganhou dois Prêmios Nobel: Química (1954) e da Paz (1962).
 
 **FC-14**
-🔵 Frente: Quais as 5 regras de distribuição eletrônica no modelo de camadas?
-🟢 Verso: 1) Começa pela camada K (menor energia). 2) Máximo por camada: 2n². 3) Valência ≤ 8e⁻. 4) Penúltima ≤ 18e⁻. 5) Antepenúltima ≤ 32e⁻.
+🔵 Frente: Espécies isoeletrônicas são aquelas com o mesmo número de elétrons. Dê exemplos com 10 e 18 elétrons.
+🟢 Verso: 10 elétrons: Ne, Na⁺, Mg²⁺, O²⁻, F⁻. · 18 elétrons: Ar, K⁺, Ca²⁺, Cl⁻, S²⁻.
 
 ---
 
@@ -212,118 +214,133 @@ Conceito testado: distribuição eletrônica / camadas de energia
 ## SEÇÃO ATIVIDADES
 
 **Q-1** · pág. 65
-Enunciado: Determine a distribuição eletrônica dos seguintes elementos usando o modelo de camadas (K, L, M, N…) e complete o quadro abaixo:
-[tabela com colunas Elemento | K | L | M | N para vários elementos]
-a) Qual é o número de camadas eletrônicas de cada átomo?
-b) Quantos elétrons de valência possui cada átomo?
-c) A que período pertence cada elemento?
+Enunciado: Sobre os átomos e sua natureza, classifique as proposições em verdadeiras (V) ou falsas (F).
+a. ( ) Nos átomos, os elétrons se encontram na eletrosfera, dispostos em camadas eletrônicas ou níveis de energia, que, ao todo, somam 7 níveis diferentes.
+b. ( ) Um átomo não tem, necessariamente, todas as 7 camadas. A quantidade de elétrons presentes no átomo define o seu número de camadas preenchidas e a distribuição deles pelos níveis de energia.
+c. ( ) Caso o número de elétrons seja maior do que a capacidade de uma camada, esses elétrons serão doados para outro átomo.
+d. ( ) A última camada eletrônica de cada átomo é chamada de camada de valência.
 Gabarito:
-Tipo: dissertativa
+Tipo: V-F
 Classificação: fácil
 
 **Q-2** · pág. 65
-Enunciado: Utilize o diagrama de Linus Pauling para fazer a distribuição eletrônica por subníveis dos seguintes átomos:
-[lista de elementos — ilegível parcialmente]
+Enunciado: Sabendo que um átomo neutro de iodo apresenta 53 prótons, faça a distribuição de seus elétrons em camadas.
+[tabela com colunas K | L | M | N | O | P | Q]
 Gabarito:
 Tipo: dissertativa
 Classificação: médio
 
-**Q-3** · pág. 66
-Enunciado: [ilegível — questão sobre íons e distribuição eletrônica de cátions e ânions]
+**Q-3** · pág. 65
+Enunciado: Faça a distribuição eletrônica dos elementos a seguir pelo diagrama de Linus Pauling:
+a) ₁₉K
+b) ₂₈Ni
+c) ₄₂Mo
+d) ₇₉Au
+[diagrama de Linus Pauling em branco fornecido para cada elemento]
 Gabarito:
 Tipo: dissertativa
 Classificação: médio
 
-**Q-4** · pág. 66
-Enunciado: Para a distribuição eletrônica abaixo, informe o número de camadas eletrônicas e a quantidade de elétrons na camada de valência:
-[distribuições listadas — ilegível parcialmente]
-Gabarito:
-Tipo: dissertativa
-Classificação: fácil
-
-**QC-1** · Enem Brasil · 2020 · pág. 67
-Enunciado: [ilegível — questão sobre distribuição eletrônica e tabela periódica, com 5 alternativas (a–e)]
+**QC-1** · EsPCEx-SP · 2017 · pág. 66
+Enunciado: Quando um átomo, ou um grupo de átomos, perde a neutralidade elétrica, passa a ser chamado de íon. Sendo assim, esse fato interfere na distribuição eletrônica do espaço químico. Todavia, várias espécies químicas podem apresentar a mesma distribuição eletrônica. Considere as espécies químicas listadas na tabela a seguir. [tabela com espécies I a VI — parcialmente ilegível] A distribuição eletrônica 1s², 2s², 2p⁶, 3s², 3p⁶ segundo o Diagrama de Linus Pauling é comum às espécies:
 Alternativas:
-  a) [ilegível]
-  b) [ilegível]
-  c) [ilegível]
-  d) [ilegível]
-  e) [ilegível]
+  a) I, II e VI
+  b) II, III e V
+  c) II e IV
+  d) I e V
+  e) III e VI
 Gabarito:
 Tipo: múltipla escolha
 Classificação: médio
 
-**QC-2** · Unifesp · [ano ilegível] · pág. 67
-Enunciado: [ilegível — questão sobre distribuição eletrônica e propriedades dos elementos, com 5 alternativas]
+**QC-2** · UFPB · 2017 · pág. 66
+Enunciado: As propriedades das substâncias químicas podem ser previstas a partir das configurações eletrônicas de seus constituintes. De posse do número atômico, pode-se obter a distribuição eletrônica e localizar a posição de um elemento na tabela periódica, ou mesmo prever as configurações dos seus íons. Um elemento de número atômico 23 — a configuração eletrônica do seu cátion bivalente é:
 Alternativas:
-  a) [ilegível]
-  b) [ilegível]
-  c) [ilegível]
-  d) [ilegível]
-  e) [ilegível]
+  a) 1s² 2s² 2p⁶ 3s² 3p⁶ 3d³
+  b) 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d³
+  c) 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹
+  d) 1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹
+  e) 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁵
 Gabarito:
 Tipo: múltipla escolha
-Classificação: médio
+Classificação: difícil
 
-**QC-3** · UFV · [ano ilegível] · pág. 67
-Enunciado: [ilegível — questão sobre distribuição eletrônica, camada de valência ou íons]
+**QC-3** · Col. Naval-RJ · 2025 · pág. 67
+Enunciado: Dados as distribuições eletrônicas:
+I. 1s² 2s² 2p¹
+II. 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁴
+III. 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 4f⁸
+É INCORRETO afirmar que:
 Alternativas:
-  a) [ilegível]
-  b) [ilegível]
-  c) [ilegível]
-  d) [ilegível]
-  e) [ilegível]
-Gabarito:
-Tipo: múltipla escolha
-Classificação: médio
-
-**QC-4** · Fuvest · [ano ilegível] · pág. 68
-Enunciado: [ilegível — questão sobre distribuição eletrônica e tabela periódica]
-Alternativas:
-  a) [ilegível]
-  b) [ilegível]
-  c) [ilegível]
+  a) A distribuição I refere-se a um metal alcalino do 1° período.
+  b) A distribuição II refere-se a um metal alcalino terroso do 4° período.
+  c) A distribuição III refere-se a um metal alcalino terroso do 2° período.
   d) [ilegível]
   e) [ilegível]
 Gabarito:
 Tipo: múltipla escolha
 Classificação: difícil
 
-**QC-5** · FAPEC · [ano ilegível] · pág. 68
-Enunciado: [ilegível — questão sobre configuração eletrônica ou íons]
+**QC-4** · UFCE · 2016 · pág. 67
+Enunciado: Um íon pode ser considerado como um grupo de átomos, com algum excesso de cargas positivas ou negativas. Nesse contexto, a distribuição eletrônica do íon Mg²⁺ pode ser representada como:
 Alternativas:
-  a) [ilegível]
-  b) [ilegível]
-  c) [ilegível]
-  d) [ilegível]
-  e) [ilegível]
+  a) 1s² 2s² 2p⁶ 3s²
+  b) 1s² 2s² 2p⁶ 3s² 3p⁶
+  c) 1s² 2s² 2p⁶
+  d) 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d³
+  e) 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁵
 Gabarito:
 Tipo: múltipla escolha
 Classificação: médio
 
-**QC-6** · [banca ilegível] · [ano ilegível] · pág. 68
-Enunciado: [ilegível — última questão de concurso do capítulo]
+**QC-5** · [banca ilegível] · 2020 · pág. 67
+Enunciado: O alumínio é o metal mais abundante na crosta terrestre, sendo o principal componente de alumina (Al₂O₃) utilizada para a obtenção de alumínio metálico. No composto o alumínio está na forma de íon trivalente. A distribuição eletrônica desse íon é:
 Alternativas:
-  a) [ilegível]
-  b) [ilegível]
-  c) [ilegível]
-  d) [ilegível]
+  a) 1s² 2s² 2p⁶
+  b) 1s² 2s² 2p⁶ 3s²
+  c) 1s² 2s² 2p⁶ 3s² 3p³
+  d) 1s² 2s² 2p⁶ 3s² 3p⁶
+  e) 1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹
 Gabarito:
 Tipo: múltipla escolha
 Classificação: médio
+
+**QC-6** · PUC-RJ · 2023 · pág. 67
+Enunciado: Ao consultar a tabela periódica dos elementos, observa-se que, na última camada do átomo do elemento:
+Alternativas:
+  a) ( ) cálcio, há 4 elétrons.
+  b) ( ) hidrogênio, há 8 elétrons.
+  c) ( ) bismuto, há 6 elétrons.
+  d) ( ) argônio, há 2 elétrons.
+  e) ( ) iodo, há 7 elétrons.
+Gabarito:
+Tipo: múltipla escolha
+Classificação: médio
+
+**QC-7** · UTFPR · [ano ilegível] · pág. 67
+Enunciado: Com relação ao elemento químico nitrogênio (Z = 7), é correto afirmar que:
+Alternativas:
+  a) ( ) sua distribuição eletrônica em camadas, no estado fundamental é K–2, L–2, M–3.
+  b) ( ) possui, no estado fundamental, três elétrons na última camada.
+  c) ( ) pertence ao 3° período da tabela periódica.
+  d) ( ) pertence ao grupo 15 ou 5A da tabela periódica.
+  e) ( ) seu símbolo é Ni.
+Gabarito:
+Tipo: múltipla escolha
+Classificação: fácil
 
 ---
 
 ## PADRÃO DAS QUESTÕES
 - Estilo predominante: múltipla escolha
-- Foco: distribuição eletrônica por camadas e subníveis, íons, relação com tabela periódica
+- Foco: distribuição eletrônica por camadas e subníveis (Linus Pauling), íons (cátions e ânions), espécies isoeletrônicas, relação com tabela periódica
 - Nível de dificuldade médio: médio
-- Tópicos mais cobrados: distribuição eletrônica (camadas e Linus Pauling), identificação de período/grupo, cátions e ânions
-- Total: 4 questões do capítulo + 6 questões de concurso
+- Tópicos mais cobrados: configuração eletrônica de íons, identificação de período/grupo, aplicação do diagrama de Linus Pauling, espécies com mesma distribuição (isoeletrônicas)
+- Total: 3 questões do capítulo + 7 questões de concurso
 
 ---
 
 ## IMAGENS RECOMENDADAS PARA CAPTURA
 - QI-1 e QI-2 (questões iniciais do capítulo) · enunciados completos · ilegíveis na imagem 01
-- QC-1 a QC-6 (todas as questões de concurso) · enunciados completos e alternativas · páginas 67–68 · ilegíveis nas imagens 05–06
-- Q-1 (tabela de elementos para preenchimento) · lista dos elementos solicitados e gabarito da tabela · ilegível parcialmente
+- QC-1 (EsPCEx 2017) · tabela de espécies I a VI · ilegível · necessária para identificar as espécies isoeletrônicas com 18 elétrons
+- QC-3 (Col. Naval-RJ 2025) · alternativas d) e e) · ilegíveis na imagem 05
