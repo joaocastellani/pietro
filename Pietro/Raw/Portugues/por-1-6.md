@@ -15,7 +15,7 @@
 ### Texto 1
 
 - **Título:** Pai e filho, filho e pai
-- **Autor:** [ilegível nas imagens disponíveis — "Conheça o autor" mostra homem de cabelos brancos, pág. 127; autor a confirmar]
+- **Autor:** Moacyr Scliar (1937–2011)
 - **Gênero textual:** crônica
 - **Vocabulário do texto (glossário do livro):**
   - *Residência*: território; lugar
@@ -77,6 +77,9 @@
 ## 3. ANÁLISE DOS TEXTOS
 
 ### Texto 1 — "Pai e filho, filho e pai" (crônica)
+
+- **Aspecto:** Autoria
+  - Moacyr Scliar (1937–2011): escritor gaúcho, médico de formação, referência na literatura infantojuvenil e de crônicas no Brasil. Obras traduzidas para 12 idiomas.
 
 - **Aspecto:** Gênero e narrador
   - Crônica reflexiva com narrador que observa e comenta a relação pai-filho.
@@ -264,6 +267,18 @@
   - Os dois chegaram a se apresentar juntos — símbolo máximo da transmissão cultural de pai para filho.
   - Gonzaguinha faleceu em acidente de trânsito em 1991; Luiz Gonzaga faleceu em 1989 [atenção: Gonzaga faleceu antes do filho].
   - O texto usa esse relato como contexto para exercícios de formação de palavras por afixos.
+
+---
+
+### Entrada 1b — "Conheça o autor" | Moacyr Scliar
+
+- **Tema central:** Biografia de Moacyr Scliar, autor da crônica "Pai e filho, filho e pai"
+- **Dados e fatos relevantes:**
+  - Nascido em Porto Alegre (RS), 1937; falecido em 2011.
+  - Foi alfabetizado pela mãe, que era professora.
+  - Formou-se em Medicina; atuou por vários anos na área, com dedicação especial à saúde pública.
+  - Como autor, sua obra é composta de crônicas, contos e romances — muitos voltados ao público infantojuvenil.
+  - Reconhecido internacionalmente; obras traduzidas para 12 idiomas.
 
 ---
 
