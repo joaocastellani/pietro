@@ -276,26 +276,34 @@ Na superfície da Terra, a menor distância entre duas cidades não é uma reta,
 #### Bloco B — Alertas
 
 ```
-⚠️ ALERTA — AT-9/AT-15 (UPF-RS): bissetriz do "4º quadrante"
-- Captura registrou: "A semirreta OB é bissetriz do 4º quadrante"
-- Problema: as alternativas mostram B(5,5), B(6,6) etc. — no 1º quadrante
-- Correto: provavelmente "bissetriz do 1º quadrante" (reta y = x, x > 0)
-- Impacto: resolver com A(-a, a) e B(b, b); b = a + 3; área = a(a+3) = 10
-  → a = 2 → A(-2, 2) e B(5, 5) → gabarito b)
+✅ RESOLVIDO — AT-15 (UPF-RS): bissetriz confirmada como 1º quadrante
+- OB é bissetriz do 1º quadrante (reta y = x, x > 0) — confirmado por recaptura
+- Gabarito confirmado: b) A(–2, 2) e B(5, 5)
+- Resolução: A(–a,a); B(b,b); b=a+3; área=a(a+3)=10 → a=2
 ```
 
 ```
-⚠️ ALERTA — AT-11 EEAR-SP: gabarito é d) 10, não c) 3√7
-- A(2,8) e B(8,0): d = √[(8–2)²+(0–8)²] = √[36+64] = √100 = 10
-- O livro lista c) 3√7 como 3ª alternativa — não confundir com a correta
-- Gabarito correto: d) 10
+✅ RESOLVIDO — AT-11 EEAR-SP (pág. 349): gabarito d) 10 confirmado
+- Alternativas confirmadas: a)√14  b)3√2  c)3√7  d)10
+- Gabarito: d) 10 — cálculo: √[(8–2)²+(0–8)²] = √100 = 10
 ```
 
 ```
-⚠️ ALERTA — AT-16 (UEM-PR): coordenadas de A e B podem estar incorretas
-- Captura marcou A(3/2, 0) e B(3/2, 3/2) como "aproximadas"
-- Verificar as coordenadas exatas no livro antes de resolver os itens
-- Não usar os valores do raw para este exercício sem confirmar
+✅ RESOLVIDO — AT-16 (UEM-PR): coordenadas confirmadas por recaptura
+- Coordenadas corretas: A(1/2, 0) e B(5/2, 3/2)
+- AB = 5/2
+- Item 01 C(5, 3/2): BC=AB=5/2 → isósceles → VERDADEIRO
+- Item 02 C(5/2,–1): AC=√5≠5/2 → não equilátero → FALSO
+- Item 04 C(1/2,3/2): AC=3/2, BC=2; AC²+BC²=AB² → retângulo → VERDADEIRO
+- Item 08 C(1/2,9/2): área=9/2≠3 → FALSO
+- Item 16 C(1/2,3/2): perímetro=3/2+2+5/2=6 → VERDADEIRO
+- Soma: 01+04+16 = 21
+```
+
+```
+✅ RESOLVIDO — AT-9: era IFSC (Oktoberfest), não UPF-RS
+- A questão AT-9 é (IFSC) sobre deslocamento A→B→C→D no pavilhão da Oktoberfest
+- A questão UPF-RS (bissetrizes) é AT-15
 ```
 
 ---
@@ -411,8 +419,9 @@ A síntese (pág. 359) apresenta mapa conceitual com os ramos:
 | AT-12 | Triângulo (3,3), (3,–3), (–5,0): mostrar retângulo | Dis | M | AT | verificar catetos e hipotenusa | — |
 | AT-13 | (EEAR-SP) Baricentro de A(1,1), B(3,–1), C(5,3) | MC | F | AT | **d) (3, 1)** | — |
 | AT-14 | (Unesp) Triângulo P(0,0), Q(6,0), R(3,3): tipo | MC | M | AT | **b) isósceles, não equilátero** | — |
-| AT-15 | (UPF-RS) Triângulo AOB com bissetrizes; área=10 | MC | D | AT | **b) A(–2,2) e B(5,5)** | ⚠️ ver alerta |
-| AT-16 | (UEM-PR) Soma de afirmativas corretas | Soma | D | AT | verificar no livro | ⚠️ ver alerta |
+| AT-9 | (IFSC) Oktoberfest — deslocamento A→B→C→D no plano (metros) | MC | M | AT | verificar gabarito no livro | ⚠️ figura |
+| AT-15 | (UPF-RS) Triângulo AOB; OB bissetriz do 1º quad.; área=10 | MC | D | AT | **b) A(–2,2) e B(5,5)** | — |
+| AT-16 | (UEM-PR) A(1/2,0) e B(5/2,3/2) — soma de corretas | Soma | D | AT | **Soma = 21** (01+04+16) | — |
 
 **Resolução IC-10:** A é simétrico de B(5,4) pelo eixo y → A = (–5, 4). C é simétrico de B pela origem → C = (–5, –4). Vértices: A(–5,4), B(5,4), C(–5,–4). AB = 10 (horizontal); AC = 8 (vertical). Área = (1/2)×10×8 = **40 u²**.
 
