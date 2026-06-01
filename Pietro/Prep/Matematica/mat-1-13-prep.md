@@ -400,11 +400,11 @@ A síntese (pág. 359) apresenta mapa conceitual com os ramos:
 | # | Enunciado resumido | Tipo | Dif. | Origem | Gabarito | Obs. |
 |---|---|---|---|---|---|---|
 | IC-1 | Localizar A(12,10), B(2,4), ..., L(14,0) no plano | Const | F | IC | plotagem | — |
-| IC-2 | Dar coordenadas de pontos no gráfico | Cal | F | IC | leitura do gráfico | ⚠️ figura |
+| IC-2 | Dar coordenadas de pontos no gráfico (pág. 341) | Cal | F | IC | A(9,4) B(4,3) C(–5,4) D(–3,8) E(–10,–4) F(–6,–6) G(4,–6) H(8,–6) I(6,7) J(–7,1) K(–1,–6) L(10,1) | ✅ confirmado |
 | IC-3 | Concluir sobre sinais por quadrante | Dis | F | IC | 1º:+,+; 2º:–,+; 3º:–,–; 4º:+,– | — |
 | IC-4 | Pontos no eixo das ordenadas: o que têm em comum | Dis | F | IC | abscissa = 0 | — |
 | IC-5 | Pontos no eixo das abscissas: o que têm em comum | Dis | F | IC | ordenada = 0 | — |
-| IC-6 | (Saresp) Triângulo MNP com M(–2,3), N(0,–1), P(2,0) | MC | F | IC | ver gráficos do livro | ⚠️ figura |
+| IC-6 | (Saresp) Triângulo MNP com M(–2,3), N(0,–1), P(2,0) | MC | F | IC | **a)** — M no 2º quad., N no eixo y abaixo de O, P no eixo x positivo | ✅ confirmado |
 | IC-9a | Distância A(1,8) e B(4,12) | Cal | F | IC | 5 | — |
 | IC-9b | Distância A(–1,3) e B(–9,18) | Cal | F | IC | 17 | — |
 | IC-9c | Distância A(4,–7) e B(–16,–22) | Cal | M | IC | 25 | — |
@@ -415,16 +415,16 @@ A síntese (pág. 359) apresenta mapa conceitual com os ramos:
 | IC-13 | Ponto P no eixo x equidistante de A(0,6) e B(5,–6) | Cal | M | IC | P = (5/2, 0) | — |
 | IC-14 | Ponto P no eixo y equidistante de A(–12,8) e B(5,1) | Cal | M | IC | calcular com livro | — |
 | IC-15 | (PUC-Rio) A(–1,0), B(1,0), C(x,y) equilátero: AC = ? | MC | M | IC | **b) 2** | — |
-| AT-1 | (Brave) Fortaleza hexagonal bio-inspirada — calcular área | Cal | M | AT | verificar no livro | ⚠️ figura |
-| AT-2 | (Frente-RS) Distância entre P e Q no plano | MC | F | AT | verificar no livro | ⚠️ figura |
-| AT-3 | (ZEAM-SP) Distância entre M(A,B) e N(A,B) com parâmetros | MC | M | AT | verificar no livro | ⚠️ figura |
-| AT-4 | (PPY) Candy Crush — encontrar nova posição após jogadas | Cal | F | AT | verificar no livro | — |
-| AT-5 | (OPP-RS) Polígono convexo no plano — distâncias entre vértices | Cal | M | AT | verificar no livro | ⚠️ figura |
-| AT-6 | (CFN-PR/CFN) Espectador no cinema — distância até a tela | MC | M | AT | verificar no livro | ⚠️ figura |
-| AT-7 | (Draw) Triângulo no plano — calcular distâncias | Cal | M | AT | verificar no livro | ⚠️ figura |
-| AT-8 | (ZEAM-SP) Distância entre dois pontos | MC | F | AT | verificar no livro | — |
-| AT-9 | (IFSC) Oktoberfest — deslocamento A→B→C→D no plano (metros) | MC | M | AT | verificar no livro | ⚠️ figura |
-| AT-10 | (parcialmente ilegível — pág. 356/357) | — | — | AT | verificar no livro | ⚠️ ilegível |
+| AT-1 | (Enem) Formigas: 4 km/h horizontal e 3 km/h vertical, após 2h | MC | F | AT | **a) (8,0) e (0,6)** | ✅ confirmado |
+| AT-2 | (Feevale-RS) Praça A(–2,1) e livraria B(4,2) — distância em km | MC | F | AT | **c) 6 km** (√37≈6,08) | ✅ confirmado |
+| AT-3 | (banca ilegível — pág. 353/354) | MC | — | AT | verificar no livro | ⚠️ ilegível |
+| AT-4 | (PPY) Candy Crush — distância entre peças especiais no plano | Cal | F | AT | verificar no livro | ⚠️ figura |
+| AT-5 | (OPP-RS) Perímetro de polígono com vértices no plano | Cal | M | AT | verificar no livro | ⚠️ figura |
+| AT-6 | (CPS-SP 2018) Ilhas A(2,3), B(18,15), C(18,3) — tan(BAC) | MC | M | AT | **b) 3/4** (BC=12, AC=16) | ✅ confirmado |
+| AT-7 | (Enem) Terreno escala 1:500; vértices (1,1)(9,1)(9,4)(7,6)(1,6) | MC | M | AT | **c) 124 m** | ✅ confirmado |
+| AT-8 | (Unicamp-SP) Catedral(1,1), Prefeitura(3,1), Câmara(5,3); d=500m | MC | M | AT | **b) 500√5 m** | ✅ confirmado |
+| AT-9 | (IFSC) Oktoberfest A(5,5)→B(15,10)→C(0,30)→D(20,40) | MC | M | AT | **a) 5(3√5+5) m** | ✅ confirmado |
+| AT-10 | Triângulo equilátero A(1,2), B(7,2), C — medir lado BC | Cal | F | AT | **BC = 6** (AB=6, equilátero) | ✅ confirmado |
 | AT-11 | d(A(y,–1), B(5,3)) = 5; valor de y | MC | M | AT | **c) 2 ou 8** | — |
 | AT-12 | Triângulo (3,3), (3,–3), (–5,0): mostrar retângulo | Dis | M | AT | verificar catetos e hipotenusa | — |
 | AT-13 | (EEAR-SP) Baricentro de A(1,1), B(3,–1), C(5,3) | MC | F | AT | **d) (3, 1)** | — |
