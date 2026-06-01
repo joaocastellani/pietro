@@ -277,35 +277,121 @@ Gabarito:
 Tipo: competição
 Classificação: difícil
 
-**Q-6** · pág. 115
+**QI-4** · pág. 115 (atividade inline — MUV)
 Enunciado: Uma ave está realizando um MUV que obedece à seguinte função: v = 9 − 3·t.
 a) Analisando a função horária da velocidade do movimento, quais são os valores, no SI, da aceleração e da velocidade inicial?
 Gabarito: Comparando v = 9 − 3·t com v = v₀ + a·t → v₀ = 9 m/s · a = −3 m/s²
 Tipo: cálculo/interpretação
 Classificação: médio
 
-**QC-1** · Famerp-SP · 2018 · pág. ~114
-Enunciado: [questão sobre atleta — envolvendo velocidade e/ou aceleração — enunciado com opções a, b, c, d, e — parcialmente ilegível — zoom complementar necessário]
-Alternativas: a) b) c) d) e)
-Gabarito:
+---
+
+## SEÇÃO ATIVIDADES (pág. 118–121)
+
+**Q-1** · IFCMCSP 2024 · pág. 118
+Enunciado: Em uma estação de trem, há uma esteira com 45 m de comprimento, que se move com velocidade constante de 0,80 m/s em relação ao solo. Uma pessoa sobe nessa esteira e caminha sobre ela, no mesmo sentido do movimento, com velocidade constante de 1,0 m/s em relação à esteira. O intervalo de tempo para essa pessoa percorrer todo o comprimento da esteira será de:
+Alternativas: a) b) c) 22,5 s · d) 25 s · e) [demais opções — parcialmente ilegíveis]
+Gabarito: d) 25 s · Resolução: v_total = 0,80 + 1,0 = 1,80 m/s · t = 45/1,80 = 25 s
 Tipo: múltipla escolha
 Classificação: médio
 
-**QC-2** · Enem · pág. ~115
-Enunciado: [questão de longa leitura — cenário sobre veículo espacial, foguete ou objeto de grande velocidade — aplicação de conceitos de MU ou MUV em contexto real — enunciado parcialmente ilegível — zoom complementar necessário]
-Alternativas: a) b) c) d) e)
+**Q-2** · Fuvest · pág. 118
+Enunciado: A Agência Espacial Francesa recentemente realizou a primeira transmissão "ao vivo" de Marte ao receber imagens do planeta capturadas pelos equipamentos de uma sonda espacial. Admita que essa transmissão ocorreu através de ondas eletromagnéticas que se propagaram no vácuo com velocidade constante de 3,0 · 10⁵ km/s. Admita, também, que a distância entre a sonda espacial e a Terra seja de 3,24 · 10⁸ km. Determine, em minutos, o intervalo de tempo Δt entre cada captura de imagem.
+Gabarito: Δt = 3,24 · 10⁸ / (3,0 · 10⁵) = 1 080 s = 18 min
+Tipo: cálculo
+Classificação: médio
+
+**Q-3** · Unicamp-SP · pág. 119
+Enunciado: Correr uma maratona requer preparo físico e determinação. A uma pessoa comum se recomenda, para o treino de um dia, repetir 8 vezes a seguinte sequência: correr a distância de 1 km à velocidade de 10,8 km/h e, posteriormente, andar rápido a 7,2 km/h durante dois minutos.
+a) Qual será a distância total percorrida pelo atleta ao terminar o treino?
+b) Para atingir a velocidade de 10,8 km/h, partindo do repouso, o atleta percorre 3 m com aceleração constante. Calcule o módulo da aceleração a do corredor neste trecho.
 Gabarito:
+  a) v_caminhada = 7,2 km/h · t = 2 min = 1/30 h · d_caminhada = 7,2/30 = 0,24 km · sequência = 1 + 0,24 = 1,24 km · total = 8 × 1,24 = 9,92 km
+  b) v = 10,8 km/h = 3 m/s · v₀ = 0 · Δs = 3 m · v² = v₀² + 2aΔs → 9 = 6a → a = 1,5 m/s²
+Tipo: cálculo/dissertativa
+Classificação: difícil
+
+**Q-4** · pág. 119
+Enunciado: Um foguete parte do repouso e, depois de 3 s em movimento, atinge a velocidade de 252 km/h. Qual é, aproximadamente, a aceleração média do foguete?
+Gabarito: v = 252 km/h = 70 m/s · v₀ = 0 · a = Δv/Δt = 70/3 ≈ 23,3 m/s²
+Tipo: cálculo
+Classificação: médio
+
+**Q-5** · pág. 120
+Enunciado: Considere as três situações:
+I. Velocidade = 12 m/s no instante 2 s e aceleração constante = 6 m/s².
+II. Velocidade = 15 m/s no instante 4 s e aceleração constante = 0.
+III. Velocidade = 24 m/s no instante 1 s e aceleração constante = −3 m/s².
+Identifique cada uma das situações no esquema a seguir e marque a velocidade em cada instante do movimento. (Esquema: Movimento uniforme / Movimento acelerado / Movimento retardado com carros em linha do tempo 0–5 s)
+Gabarito: II → MU (a = 0) · I → acelerado (a = 6 m/s² > 0) · III → retardado (a = −3 m/s²)
+Tipo: identificação/classificação
+Classificação: médio
+
+**Q-6** · pág. 120
+Enunciado: Partindo da marca de 50 m de uma pista de corrida, uma garota começou a correr no sentido contrário ao das posições indicadas na trajetória, a uma velocidade constante de 2 m/s. Utilizando essas informações, responda às questões a seguir.
+a) Qual é a função horária da posição que descreve o movimento da garota?
+b) O movimento da garota é progressivo ou retrógrado? Justifique sua resposta.
+c) Quanto tempo ela vai levar para percorrer 20 metros?
+Gabarito:
+  a) s₀ = 50 m · v = −2 m/s (sentido contrário ao positivo) · s = 50 − 2t
+  b) Retrógrado — a garota se move no sentido contrário à orientação positiva da trajetória (v < 0)
+  c) Δs = 20 m → t = 20/2 = 10 s
+Tipo: cálculo/dissertativa
+Classificação: médio
+
+**Q-7** · pág. 120
+Enunciado: Considerando que um móvel realiza um MRU que obedece à função horária s = 2 + 50·t (unidade no SI), assinale V para as afirmativas verdadeiras e F para as falsas.
+a) O móvel possui velocidade de 50 m/s.
+b) Em 3 segundos, o móvel terá se deslocado 152 metros.
+c) O s₀ do móvel é 2 m.
+d) Quando o móvel estiver na posição 102 m, terão se passado 2 segundos.
+Gabarito:
+  a) V — v = 50 m/s (coeficiente de t)
+  b) F — s(3) = 2 + 150 = 152 m é a posição, não o deslocamento; Δs = 152 − 2 = 150 m
+  c) V — s₀ = 2 m (termo independente)
+  d) V — 102 = 2 + 50t → t = 2 s
+Tipo: V/F
+Classificação: médio
+
+**Q-8** · UCS-RS · pág. 121
+Enunciado: Uma moça apressada atravessa a rua e vai para a outra calçada. Ao chegar lá e andar com velocidade constante, ela percebe que por coincidência acabou ficando lado a lado com uma pessoa desconhecida que está na mesma velocidade, direção e sentido que ela. Desconfortável com a situação, decide aumentar sua velocidade para que fique à frente da outra pessoa. Assumindo que no início ambas as pessoas estão com a mesma velocidade constante em relação a qualquer objeto fixo da calçada, como um poste da rede elétrica, mas com velocidade nula de uma em relação à outra, qual a aceleração que a moça deve adquirir para que, mantendo o mesmo sentido de deslocamento, fique 2 metros à frente da pessoa desconhecida depois de 4 segundos?
+Alternativas:
+  a) 0,25 m/s²
+  b) 0,42 m/s²
+  c) 1,00 m/s²
+  d) 2,40 m/s²
+  e) 4,40 m/s²
+Gabarito: a) 0,25 m/s² · Resolução: referencial relativo entre elas: v₀ = 0, Δs = 2 m, t = 4 s · s = ½·a·t² → 2 = ½·a·16 → a = 0,25 m/s²
+Tipo: múltipla escolha
+Classificação: difícil
+
+**Q-9** · pág. 121
+Enunciado: Qual é o tipo de movimento de um corpo em queda livre? Justifique sua resposta.
+Gabarito: MRUV acelerado — o corpo parte do repouso e acelera uniformemente devido à gravidade (a = g ≈ 10 m/s²), com aceleração constante para baixo (desprezando resistência do ar)
+Tipo: dissertativa
+Classificação: médio
+
+**Q-10** · Ufam · pág. 121
+Enunciado: O italiano Galileu Galilei (1564–1642) observou que, desprezando a resistência do ar, todos os corpos caem com a mesma aceleração, não importando seu tamanho, peso ou constituição. Se a altura de queda não for muito grande, a aceleração de queda permanecerá constante durante todo o movimento. Este movimento ideal, no qual são desprezadas a resistência do ar e alguma variação da aceleração com a altitude, é chamado de queda livre. Seja a seguinte situação: por descuido, um operário deixa cair um martelo do alto de um prédio em construção e o martelo atinge o solo com velocidade de 72 km/h. Considerando a situação de queda livre, podemos concluir que o martelo caiu de uma altura de I e demorou II para atingir o solo. Escolha a alternativa que completa as lacunas do texto:
+Alternativas:
+  a) I — 20 m; II — 2 s
+  b) I — 20 m; II — 4 s
+  c) I — 36 m; II — 4 s
+  d) I — 36 m; II — 2 s
+  e) I — 20 m; II — 5 s
+Gabarito: a) · Resolução: v = 72 km/h = 20 m/s · v₀ = 0 · a = g = 10 m/s² · v = a·t → t = 20/10 = 2 s · s = ½·a·t² = ½·10·4 = 20 m
 Tipo: múltipla escolha
 Classificação: difícil
 
 ---
 
 ## PADRÃO DAS QUESTÕES
-- Estilo predominante: múltipla escolha e cálculo
-- Foco: aplicação de s = s₀ + v·t, a = Δv/Δt, v = v₀ + a·t, encontro de móveis, classificação de movimentos
-- Nível de dificuldade médio: médio
-- Tópicos mais cobrados: função horária da posição (MU), aceleração (definição e cálculo), classificação de movimento por tabela/gráfico, encontro de dois móveis
-- Total: ~3 questões do capítulo + ~3 questões de concurso
+- Estilo predominante: múltipla escolha, cálculo e V/F
+- Foco: velocidade relativa (Q-1), ondas eletromagnéticas/MU aplicado (Q-2), MUV com aceleração (Q-3b, Q-4, Q-8), função horária da posição (Q-6, Q-7), classificação de movimentos (Q-5, Q-9), queda livre (Q-9, Q-10)
+- Nível de dificuldade médio: médio-difícil
+- Tópicos mais cobrados: a = Δv/Δt, s = s₀ + v·t (MU/MRU), v = v₀ + a·t (MUV), identificação de tipo de movimento, queda livre como MRUV
+- Fontes: IFCMCSP 2024, Fuvest, Unicamp-SP, UCS-RS, Ufam
+- Total: 10 questões (5 dissertativas/cálculo + 4 múltipla escolha + 1 V/F)
 
 ---
 
@@ -313,13 +399,14 @@ Classificação: difícil
 - QI-1 · enunciado completo e gabarito · texto ilegível na resolução
 - QI-2 · tabela completa de s × t · valores numéricos ilegíveis
 - QI-3 · dados e gabarito · parcialmente ilegível
-- Q-1 a Q-3 · enunciados e gabaritos · parcialmente ilegíveis
-- Questão Bônus · enunciado, gabarito e resolução completos
-- QC-1 (Famerp-SP 2018) · enunciado completo com todas as alternativas ← AINDA PENDENTE
-- QC-2 (Enem) · texto completo da questão e alternativas ← AINDA PENDENTE
+- Q-1 · alternativas a, b, e · valores numéricos parcialmente ilegíveis
 
 ## IMAGENS CAPTURADAS COM ZOOM
 - zoom-01/02: MUV introdução — exemplo peixe (pág. 112) ✅
 - zoom-03/04: derivação v = v₀ + a·t — exemplo avião (pág. 113) ✅
 - zoom-05/06: função horária da posição MUV — s = s₀ + v₀·t + ½·a·t² (pág. 113–114) ✅
-- zoom-07/08: exemplo resolvido caminhão + questão invertida + Q-6 ave (pág. 114–115) ✅
+- zoom-07/08: exemplo resolvido caminhão + questão invertida + QI-4 ave (pág. 114–115) ✅
+- zoom-09: Q-1 (IFCMCSP 2024) + Q-2 (Fuvest) (pág. 118) ✅
+- zoom-10/11: Q-3 (Unicamp-SP) + Q-4 (foguete) + Q-5 (pág. 119–120) ✅
+- zoom-12/13: Q-6 (garota) + Q-7 (MRU V/F) + Q-8 (UCS-RS) (pág. 120–121) ✅
+- zoom-14: Q-9 + Q-10 (Ufam/Galileu) + início Síntese (pág. 121) ✅
