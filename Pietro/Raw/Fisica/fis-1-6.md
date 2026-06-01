@@ -1,7 +1,7 @@
 ## 1. METADADOS
 - Matéria: Física
 - Unidade: 1
-- Capítulo/Tema: Capítulo 6 — Tipos de Movimento
+- Capítulo/Tema: Capítulo 6 — Movimentos
 - Nível de ensino: 9º ano
 - Perfil do capítulo: misto (descritivo-científico + matemático-operacional)
 
@@ -38,8 +38,18 @@
 
 **Movimento uniformemente variado (MUV)**
 - Quando um corpo sofre a mesma variação em sua velocidade em intervalos de tempo iguais
-- Aceleração escalar constante e diferente de zero
+- Aceleração escalar constante e diferente de zero (aceleração média = aceleração instantânea)
+- Δs varia, Δt constante, v varia, a constante
 - Gráfico v × t: reta inclinada; gráfico s × t: parábola
+- Exemplo do livro: peixe parte do repouso em s = 10 m
+  - t=0→1s: Δs₁ = 4 m → v₁ = 4 m/s
+  - t=1→2s: Δs₂ = 8 m → v₂ = 8 m/s
+  - t=2→3s: Δs₃ = 12 m → v₃ = 12 m/s
+  - Aceleração: a = (4−0)/1 = (8−4)/1 = (12−8)/1 = 4 m/s² (constante) → MUV confirmado
+
+**Movimento retilíneo uniformemente variado (MRUV)**
+- MUV que ocorre em uma trajetória reta
+- Caso mais comum nos problemas do capítulo
 
 **Ponto médio (p_m)**
 - Ponto equidistante dos extremos de um percurso
@@ -66,11 +76,18 @@
 **Função horária da velocidade — MUV**
 - v = v₀ + a · t
 - v₀: velocidade inicial; a: aceleração constante; t: instante
+- Derivação do livro: a = (v−v₀)/t → v − v₀ = a·t → v = v₀ + a·t (com t₀ = 0)
+- Exemplo do livro (avião): v = 50 + 10·t → v₀ = 50 m/s, a = 10 m/s²; em t=7s: v = 50+70 = 120 m/s
 
 **Função horária da posição — MUV**
 - s = s₀ + v₀ · t + ½ · a · t²
 - s₀: posição inicial; v₀: velocidade inicial; a: aceleração constante; t: instante
 - Gráfico s × t: parábola (côncava para cima se a > 0; côncava para baixo se a < 0)
+- Conexão com Matemática: é uma função do 2º grau — s₀ é o termo independente, v₀ varia linearmente com t, e ½·a varia com t²
+- Exemplo do livro (caminhão): s₀ = 50 m, v₀ = 10 m/s, a = 4 m/s²
+  - Função: s = 50 + 10·t + 2·t²
+  - Em t = 4s: s = 50 + 40 + 32 = 122 m
+  - Em t = 10s: s = 50 + 100 + 200 = 350 m → espaço percorrido = 350 − 50 = 300 m
 
 **Encontro e ultrapassagem de móveis**
 - Dois móveis se encontram quando ocupam a mesma posição no mesmo instante: s₁(t) = s₂(t)
@@ -125,6 +142,14 @@
 🔵 Frente: O que é ponto médio de tempo e ponto médio de espaço?
 🟢 Verso: Ponto médio de tempo: t_m = (t₀ + t_f)/2 — a velocidade instantânea nesse instante é igual à velocidade média do percurso. Ponto médio de espaço: s_m = (s₀ + s_f)/2.
 
+**FC-12**
+🔵 Frente: Qual é a diferença entre MUV e MRUV?
+🟢 Verso: MUV (Movimento Uniformemente Variado) é qualquer movimento com aceleração constante ≠ 0. MRUV é o MUV que ocorre em trajetória reta. Os problemas do 9º ano trabalham principalmente com MRUV.
+
+**FC-13**
+🔵 Frente: Como saber qual função horária usar?
+🟢 Verso: Se a aceleração = 0 → MU → usar s = s₀ + v·t. Se a aceleração ≠ 0 → MUV → usar v = v₀ + a·t e/ou s = s₀ + v₀·t + ½·a·t². Verificar quais dados o enunciado fornece para escolher a equação adequada.
+
 ---
 
 ## BLOCO B — FÓRMULAS, LEIS E PRINCÍPIOS
@@ -146,6 +171,15 @@
   - v: velocidade escalar constante · unidade SI: m/s
   - t: instante · unidade SI: segundo (s)
 - Observação: reta no gráfico s × t; inclinação = v; intercepto = s₀
+
+**Tabela comparativa MU × MUV**
+
+| Grandeza | MU | MUV |
+|---|---|---|
+| Δs (espaço percorrido) | Constante | Varia |
+| Δt (intervalo de tempo) | Constante | Constante |
+| v (velocidade) | Constante | Varia |
+| a (aceleração) | Zero | Constante ≠ 0 |
 
 **Função horária da velocidade — MUV**
 - Expressão: v = v₀ + a · t
@@ -243,6 +277,13 @@ Gabarito:
 Tipo: competição
 Classificação: difícil
 
+**Q-6** · pág. 115
+Enunciado: Uma ave está realizando um MUV que obedece à seguinte função: v = 9 − 3·t.
+a) Analisando a função horária da velocidade do movimento, quais são os valores, no SI, da aceleração e da velocidade inicial?
+Gabarito: Comparando v = 9 − 3·t com v = v₀ + a·t → v₀ = 9 m/s · a = −3 m/s²
+Tipo: cálculo/interpretação
+Classificação: médio
+
 **QC-1** · Famerp-SP · 2018 · pág. ~114
 Enunciado: [questão sobre atleta — envolvendo velocidade e/ou aceleração — enunciado com opções a, b, c, d, e — parcialmente ilegível — zoom complementar necessário]
 Alternativas: a) b) c) d) e)
@@ -274,5 +315,11 @@ Classificação: difícil
 - QI-3 · dados e gabarito · parcialmente ilegível
 - Q-1 a Q-3 · enunciados e gabaritos · parcialmente ilegíveis
 - Questão Bônus · enunciado, gabarito e resolução completos
-- QC-1 (Famerp-SP 2018) · enunciado completo com todas as alternativas
-- QC-2 (Enem) · texto completo da questão e alternativas
+- QC-1 (Famerp-SP 2018) · enunciado completo com todas as alternativas ← AINDA PENDENTE
+- QC-2 (Enem) · texto completo da questão e alternativas ← AINDA PENDENTE
+
+## IMAGENS CAPTURADAS COM ZOOM
+- zoom-01/02: MUV introdução — exemplo peixe (pág. 112) ✅
+- zoom-03/04: derivação v = v₀ + a·t — exemplo avião (pág. 113) ✅
+- zoom-05/06: função horária da posição MUV — s = s₀ + v₀·t + ½·a·t² (pág. 113–114) ✅
+- zoom-07/08: exemplo resolvido caminhão + questão invertida + Q-6 ave (pág. 114–115) ✅
