@@ -410,18 +410,27 @@ A síntese (pág. 359) apresenta mapa conceitual com os ramos:
 | IC-9c | Distância A(4,–7) e B(–16,–22) | Cal | M | IC | 25 | — |
 | IC-9d | Distância A(2,–3) e B(7,–15) | Cal | M | IC | 13 | — |
 | IC-10 | Triângulo ABC: A simétrico de B(5,4) pelo eixo y; C simétrico de B pela origem; área? | Cal | M | IC | A=(–5,4); C=(–5,–4); área=40 u² | — |
-| IC-11 | (EEAR-SP) A(2,8) e B(8,0): distância | MC | F | IC | **d) 10** | ⚠️ não é c) 3√7 |
+| IC-11 | (EEAR-SP) A(2,8) e B(8,0): distância | MC | F | IC | **d) 10** (a)√14 b)3√2 c)3√7 d)10) | ✅ confirmado |
 | IC-12 | Perímetro do triângulo R(0,2), S(3,5), T(9,–1) | Cal | M | IC | 9√2 + 3√10 | — |
 | IC-13 | Ponto P no eixo x equidistante de A(0,6) e B(5,–6) | Cal | M | IC | P = (5/2, 0) | — |
 | IC-14 | Ponto P no eixo y equidistante de A(–12,8) e B(5,1) | Cal | M | IC | calcular com livro | — |
 | IC-15 | (PUC-Rio) A(–1,0), B(1,0), C(x,y) equilátero: AC = ? | MC | M | IC | **b) 2** | — |
+| AT-1 | (Brave) Fortaleza hexagonal bio-inspirada — calcular área | Cal | M | AT | verificar no livro | ⚠️ figura |
+| AT-2 | (Frente-RS) Distância entre P e Q no plano | MC | F | AT | verificar no livro | ⚠️ figura |
+| AT-3 | (ZEAM-SP) Distância entre M(A,B) e N(A,B) com parâmetros | MC | M | AT | verificar no livro | ⚠️ figura |
+| AT-4 | (PPY) Candy Crush — encontrar nova posição após jogadas | Cal | F | AT | verificar no livro | — |
+| AT-5 | (OPP-RS) Polígono convexo no plano — distâncias entre vértices | Cal | M | AT | verificar no livro | ⚠️ figura |
+| AT-6 | (CFN-PR/CFN) Espectador no cinema — distância até a tela | MC | M | AT | verificar no livro | ⚠️ figura |
+| AT-7 | (Draw) Triângulo no plano — calcular distâncias | Cal | M | AT | verificar no livro | ⚠️ figura |
+| AT-8 | (ZEAM-SP) Distância entre dois pontos | MC | F | AT | verificar no livro | — |
+| AT-9 | (IFSC) Oktoberfest — deslocamento A→B→C→D no plano (metros) | MC | M | AT | verificar no livro | ⚠️ figura |
+| AT-10 | (parcialmente ilegível — pág. 356/357) | — | — | AT | verificar no livro | ⚠️ ilegível |
 | AT-11 | d(A(y,–1), B(5,3)) = 5; valor de y | MC | M | AT | **c) 2 ou 8** | — |
 | AT-12 | Triângulo (3,3), (3,–3), (–5,0): mostrar retângulo | Dis | M | AT | verificar catetos e hipotenusa | — |
 | AT-13 | (EEAR-SP) Baricentro de A(1,1), B(3,–1), C(5,3) | MC | F | AT | **d) (3, 1)** | — |
 | AT-14 | (Unesp) Triângulo P(0,0), Q(6,0), R(3,3): tipo | MC | M | AT | **b) isósceles, não equilátero** | — |
-| AT-9 | (IFSC) Oktoberfest — deslocamento A→B→C→D no plano (metros) | MC | M | AT | verificar gabarito no livro | ⚠️ figura |
-| AT-15 | (UPF-RS) Triângulo AOB; OB bissetriz do 1º quad.; área=10 | MC | D | AT | **b) A(–2,2) e B(5,5)** | — |
-| AT-16 | (UEM-PR) A(1/2,0) e B(5/2,3/2) — soma de corretas | Soma | D | AT | **Soma = 21** (01+04+16) | — |
+| AT-15 | (UPF-RS) Triângulo AOB; OB bissetriz do 1º quad.; área=10 | MC | D | AT | **b) A(–2,2) e B(5,5)** | ✅ confirmado |
+| AT-16 | (UEM-PR) A(1/2,0) e B(5/2,3/2) — soma de corretas | Soma | D | AT | **Soma = 21** (01+04+16) | ✅ confirmado |
 
 **Resolução IC-10:** A é simétrico de B(5,4) pelo eixo y → A = (–5, 4). C é simétrico de B pela origem → C = (–5, –4). Vértices: A(–5,4), B(5,4), C(–5,–4). AB = 10 (horizontal); AC = 8 (vertical). Área = (1/2)×10×8 = **40 u²**.
 
