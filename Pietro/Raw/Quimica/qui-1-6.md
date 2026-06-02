@@ -237,7 +237,11 @@ Gabarito:
 Tipo: dissertativa
 Classificação: médio
 
-**Q-9** · [zoom complementar necessário — enunciado não capturado]
+**Q-9** · pág. 99
+Enunciado: Explique por que uma substância composta não pode ser considerada uma mistura.
+Gabarito: Uma substância composta tem composição fixa e definida — os átomos de elementos diferentes estão unidos por ligações químicas, formando um material com propriedades próprias e distintas dos elementos originais. Uma mistura, ao contrário, tem composição variável, os componentes mantêm suas propriedades individuais (não há ligações entre eles) e pode ser separada por processos físicos. Portanto, uma substância composta não é uma mistura porque sua composição não varia e seus componentes não preservam propriedades independentes.
+Tipo: dissertativa
+Classificação: médio
 
 **Q-10** · UFJF/Pism-MG 2023 · pág. 99
 Enunciado: Considere uma mistura de três líquidos A, B e água. Sabe-se que: o líquido A é imiscível tanto em B quanto em água; o líquido B é miscível em água; o líquido A é o menos denso dentre todos. Assinale o aspecto adequado da mistura, observado após algum tempo de repouso. [alternativas com diagramas de tubos mostrando separação de fases]
@@ -259,10 +263,11 @@ Classificação: médio
 
 ## IMAGENS RECOMENDADAS PARA CAPTURA (zoom complementar)
 - Q-1 · confirmar alternativas d e e
-- Q-9 · enunciado e gabarito completos ← PENDENTE
+- Nenhuma pendente ✅
 
 ## IMAGENS CAPTURADAS COM ZOOM
 - zoom-01: Q-3 (Fuvest-SP) diagramas I-V + alternativas (pág. 97) ✅
 - zoom-02: Q-4 (UFGD-MS) diagrama ○●⊗ + Q-5 (UFG-GO) grafeno (pág. 97) ✅
 - zoom-03: Q-6 (Ufla/PAS-MG) recipientes + Q-7 tabela correspondência (pág. 98) ✅
 - zoom-04: Q-10 (UFJF/Pism-MG 2023) tubos de ensaio A+B+água (pág. 99) ✅
+- zoom-05: confirmação Q-1, Q-2, Q-3 (pág. 96–97) ✅
