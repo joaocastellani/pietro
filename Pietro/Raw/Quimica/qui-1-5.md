@@ -205,9 +205,12 @@ Tipo: interpretação de fórmula
 Classificação: fácil
 
 **Q-3** · pág. 82
-Enunciado: O ar atmosférico é formado por um conjunto de várias substâncias, sendo que predominam os gases [enunciado continua — parcialmente ilegível — zoom complementar necessário]
+Enunciado: O ar atmosférico é formado por um conjunto de várias substâncias, sendo que predominam os gases nitrogênio (N₂) e oxigênio (O₂). O gás carbônico (CO₂), por sua vez, aparece em menores proporções. Represente esses gases utilizando a fórmula estrutural plana.
 Gabarito:
-Tipo: dissertativa/identificação
+  · N₂: N≡N (ligação covalente tripla — N tem 5e⁻ de valência, precisa de 3 para completar octeto)
+  · O₂: O=O (ligação covalente dupla — O tem 6e⁻ de valência, precisa de 2)
+  · CO₂: O=C=O (duas ligações covalentes duplas — C tem 4e⁻ de valência, faz 2 duplas)
+Tipo: fórmula estrutural / dissertativa
 Classificação: médio
 
 **Q-4** · Cefet-MG 2017 · pág. 83
@@ -259,10 +262,30 @@ Gabarito:
 Tipo: dissertativa / construção de fórmula
 Classificação: médio
 
-**Q-8 a Q-10** · pág. ~84
-Enunciado: [questões sobre massa molecular e propriedades dos compostos — enunciados parcialmente ilegíveis — zoom complementar necessário]
+**Q-8** · pág. 84
+Enunciado: A combinação entre o carbono e o hidrogênio forma o gás metano, que é inflamável e potencializador do efeito estufa. Sabendo que a fórmula molecular desse composto é CH₄, esquematize as ligações covalentes entre os átomos de carbono e hidrogênio utilizando a fórmula de Lewis e a fórmula estrutural plana.
+Gabarito: C tem 4e⁻ de valência e precisa de 4 para completar octeto → faz 4 ligações simples com 4 átomos de H · Estrutural plana: H−C(−H)(−H)−H (C central com 4 traços para os 4 H) · Lewis: C rodeado de 4 pares ligantes com H, sem pares isolados no C
+Tipo: fórmula estrutural / dissertativa
+Classificação: médio
+
+**Q-9** · pág. 84
+Enunciado: Considere os elementos A e B. A possui número atômico igual a 35, e B número atômico igual a 19.
+a) Na combinação entre esses elementos, qual deles receberá elétrons e qual doará?
+b) Que tipo de ligação ocorre entre esses elementos? Justifique.
+c) Como será a fórmula química de um composto formado por A e B?
 Gabarito:
-Tipo: cálculo / dissertativa
+  · A: Z=35 → Br (bromo), config 2,8,18,7 → não-metal, grupo 17, precisa de 1e⁻ → receberá elétrons
+  · B: Z=19 → K (potássio), config 2,8,8,1 → metal, grupo 1, tem 1e⁻ de valência → doará elétrons
+  a) B (K) doará 1 elétron; A (Br) receberá 1 elétron
+  b) Ligação iônica — B é metal e A é não-metal; há transferência de elétrons
+  c) K⁺ + Br⁻ → KBr (cruzamento 1×1, simplifica)
+Tipo: dissertativa / construção de fórmula
+Classificação: médio
+
+**Q-10** · pág. 84
+Enunciado: Explique por que a ligação metálica difere das ligações covalente e iônica.
+Gabarito: Na ligação iônica há transferência de elétrons entre metal e não-metal, formando íons que se atraem eletricamente. Na covalente há compartilhamento de pares de elétrons entre não-metais. Na metálica, os elétrons de valência se desprendem dos átomos e formam uma "nuvem" ou "mar de elétrons" livre que pertence coletivamente a toda a estrutura — não há transferência nem compartilhamento fixo entre pares de átomos.
+Tipo: dissertativa
 Classificação: médio
 
 **Q-11** · Uerj 2018 · pág. 85
@@ -288,8 +311,16 @@ Tipo: múltipla escolha
 Classificação: fácil
 
 **Q-13** · pág. 85
-Enunciado: Analise as afirmações abaixo e justifique se são verdadeiras ou falsas, com base nas propriedades fundamentais dos metais. [enunciado continua — parcialmente ilegível — zoom complementar necessário]
+Enunciado: Analise as afirmações abaixo e justifique se são verdadeiras ou falsas, com base nas propriedades fundamentais dos metais.
+I. Os metais possuem brilho devido à reflexão da luz sobre a sua superfície polida.
+II. Metais são maleáveis e dúcteis, o que permite que sejam facilmente moldados em lâminas e fios.
+III. Em ligas metálicas, os átomos compartilham elétrons exclusivamente e formam moléculas.
+IV. Por não possuírem elétrons livres, os metais não são capazes de conduzir corrente elétrica.
 Gabarito:
+  I. VERDADEIRO — o brilho metálico resulta da interação dos elétrons livres com a luz
+  II. VERDADEIRO — maleabilidade e ductilidade decorrem do "mar de elétrons" que mantém a coesão mesmo com deslocamento dos cátions
+  III. FALSO — na ligação metálica os elétrons formam uma nuvem coletiva (não compartilhamento fixo entre pares); não formam moléculas
+  IV. FALSO — os metais possuem elétrons livres (mar de elétrons), o que os torna excelentes condutores elétricos
 Tipo: V/F dissertativa
 Classificação: médio
 
@@ -306,12 +337,14 @@ Classificação: médio
 ---
 
 ## IMAGENS RECOMENDADAS PARA CAPTURA (zoom complementar)
-- Q-3 · enunciado completo
-- Q-8 a Q-10 · enunciados e gabaritos completos
-- Q-13 · enunciado e gabarito completos
+- Nenhuma pendente ✅
 
 ## IMAGENS CAPTURADAS COM ZOOM
 - zoom-01: Q-1 (Enem 2019) + Q-2 + início Q-3 (pág. 82) ✅
 - zoom-02: Q-4 (Cefet-MG 2017) + início Q-5 (pág. 83) ✅
 - zoom-03: Q-6 (UEPG-PR 2016) + Q-7 adamantium (pág. 84) ✅
 - zoom-04: Q-11 (Uerj 2018) + Q-12 (OBQjr 2023) + início Q-13 (pág. 85) ✅
+- zoom-05: Q-3 + Q-4 (pág. 82–83) ✅
+- zoom-06: Q-8 + Q-9 + Q-10 (pág. 84) ✅
+- zoom-07: Q-12 + Q-13 (pág. 85) ✅
+- zoom-08: Q-8 a Q-11 visão geral (pág. 84–85) ✅
