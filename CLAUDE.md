@@ -23,7 +23,7 @@ material pedagógico para uso no Claude.ai (Knowledge Base).
 │   │   └── Quimica/
 │   ├── Raw/                   ← conteúdo bruto capturado
 │   │   ├── Artes/
-│   │   │   └── imagens/       ← screenshots concatenados prontos para Claude.ai
+│   │   │   └── imagens/       ← screenshots individuais prontos para Claude.ai
 │   │   ├── Biologia/
 │   │   │   └── imagens/
 │   │   ├── Fisica/
@@ -42,7 +42,7 @@ material pedagógico para uso no Claude.ai (Knowledge Base).
 │   │       └── imagens/
 │   ├── Scripts/               ← scripts de automação
 │   │   ├── validate_preps.py  ← validador de preps
-│   │   └── concat_screenshots.sh ← concatenador de screenshots
+│   │   └── concat_screenshots.sh ← deprecado (não usar)
 │   └── temp/                  ← arquivos temporários de trabalho
 ├── Preparacao/                ← prompts de preparação por matéria
 │   ├── Prompt_de_Preparacao_Fis.md
@@ -129,11 +129,10 @@ Exit code 0 = tudo válido. Exit code 1 = há erros.
                Screenshots salvos em: ~/Pictures/Screenshots/
 
 2. ORGANIZAÇÃO — Claude Code organiza os screenshots:
-               - Concatena 2 screenshots por imagem usando concat_screenshots.sh
-               - Padrão: grupos de 2, concatenação VERTICAL (preserva largura → texto legível)
+               - Move cada screenshot diretamente (sem concatenação)
+               - Descarta o primeiro (capa) e separa o último como síntese
                - Move para: Pietro/Raw/[Materia]/imagens/[mat]-[u]-[c]-NN.png
                - Deleta os screenshots originais de ~/Pictures/Screenshots/
-               Script: Pietro/Scripts/concat_screenshots.sh
 
 3. PREPARAÇÃO — Claude.ai com Prompt de Preparação + imagens do KB
                Gera: Pietro/Prep/[Materia]/[mat]-[u]-[c]-prep.md
@@ -153,7 +152,7 @@ Exit code 0 = tudo válido. Exit code 1 = há erros.
 **Organizar screenshots após captura manual:**
 ```
 Acabei de tirar screenshots do capítulo 3 de Biologia unidade 1.
-Concatena de 2 em 2, move para Pietro/Raw/Biologia/imagens/ com
+Organiza, move para Pietro/Raw/Biologia/imagens/ com
 prefixo bio-1-3 e deleta os originais de ~/Pictures/Screenshots/.
 ```
 
@@ -197,24 +196,25 @@ Quando pedido para organizar screenshots:
 2. Ordenar por nome (cronológico)
 3. Separar os screenshots especiais:
    - **Primeiro screenshot** → descartar (capa do capítulo — só título e imagem decorativa)
+     - **Exceção Inglês**: o primeiro screenshot tem conteúdo relevante — NÃO descartar
    - **Último screenshot** → síntese do capítulo (exceto Artes)
-   - **Demais screenshots** → conteúdo a concatenar
-4. Usar `concat_screenshots.sh` para concatenar os screenshots de conteúdo:
-   ```bash
-   bash Pietro/Scripts/concat_screenshots.sh [prefixo] 2 ~/Pictures/Screenshots/
-   ```
-   Padrão: **sempre 2 por grupo, concatenação vertical** — preserva a largura original de cada página, mantendo textos e alternativas legíveis.
-5. Verificar se a pasta `Pietro/Raw/[Materia]/imagens/` existe — criar se não existir
-6. Mover os arquivos concatenados para a pasta de imagens:
-   `Pietro/Raw/[Materia]/imagens/[mat]-[u]-[c]-NN.png`
-7. Copiar o último screenshot como síntese (exceto Artes):
+   - **Demais screenshots** → conteúdo, mover diretamente (sem concatenação)
+4. Verificar se a pasta `Pietro/Raw/[Materia]/imagens/` existe — criar se não existir
+5. Mover cada screenshot de conteúdo diretamente para a pasta de imagens com numeração sequencial:
+   `Pietro/Raw/[Materia]/imagens/[mat]-[u]-[c]-NN.png` (01, 02, 03, ...)
+6. Copiar o último screenshot como síntese (exceto Artes):
    `Pietro/Raw/[Materia]/[mat]-[u]-[c]-sintese.png`
-8. Deletar todos os screenshots originais de `~/Pictures/Screenshots/`
-9. Confirmar quantos arquivos foram gerados e onde estão
+7. Deletar todos os screenshots originais de `~/Pictures/Screenshots/`
+8. Confirmar quantos arquivos foram gerados e onde estão
 
 **Regra da síntese:**
 - Todas as matérias EXCETO Artes: último screenshot → `[mat]-[u]-[c]-sintese.png`
 - Artes: todos os screenshots vão para imagens, sem síntese separada
+
+**Por que sem concatenação:**
+- Cada screenshot corresponde a uma página inteira em resolução total
+- Textos de atividades e questões ficam legíveis sem precisar de zoom complementar
+- Elimina o risco de misturar zooms com screenshots de conteúdo na mesma sessão
 
 Mapeamento prefixo → pasta:
 - bio → Biologia
