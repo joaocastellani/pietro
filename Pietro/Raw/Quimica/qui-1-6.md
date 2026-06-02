@@ -170,51 +170,60 @@ Tipo: múltipla escolha
 Classificação: médio
 
 **Q-3** · Fuvest-SP · pág. 97
-Enunciado: Considere as figuras a seguir, em que cada esfera representa um átomo. [diagramas moleculares I, II, III, IV com bolinhas de uma ou duas cores] As figuras mais adequadas para representar, respectivamente, uma mistura de compostos moleculares e uma amostra de substância nitrogênio são:
-Alternativas: a) I e ii · b) I e II · c) III e I · d) II e I · e) IV e I [alternativas parcialmente ilegíveis — zoom complementar necessário para confirmar]
-Gabarito: [zoom complementar necessário]
+Enunciado: Considere as figuras a seguir, em que cada esfera representa um átomo. [diagramas moleculares I, II, III, IV, V] As figuras mais adequadas para representar, respectivamente, uma mistura de compostos moleculares e uma amostra da substância nitrogênio são:
+Alternativas:
+  a) III e II · b) IV e III · c) IV e I · d) V e II · e) V e I
+Gabarito: e) V e I · Resolução: N₂ = moléculas diatômicas homonucleares → figura I · Mistura de compostos = moléculas heteronucleares variadas → figura V
 Tipo: múltipla escolha
 Classificação: difícil
 
-**Q-4** · UFGD-MG · pág. 97
-Enunciado: Os elementos químicos que estão representados na tabela periódica podem se unir por diferentes tipos de ligações químicas para formar diversas substâncias. As diversas moléculas existentes podem ser chamadas de substâncias e classificadas como substâncias simples ou compostas. No esquema a seguir, cada bolinha (X ou ⊕) representa um átomo diferente e a quantidade de moléculas representa a quantidade de substâncias simples e compostas [diagrama com bolinhas X e O].
+**Q-4** · UFGD-MS · pág. 97
+Enunciado: Os elementos químicos que estão representados na tabela periódica podem se unir por meio de ligações químicas, para formar diversas substâncias. As diversas moléculas existentes podem ser chamadas de substâncias e classificadas como substâncias simples ou compostas. No esquema a seguir, cada "bolinha" (○, ● e ⊗) representa um átomo diferente. Conforme a quantidade de moléculas, substâncias simples e substâncias compostas, assinale a alternativa correta.
+[Diagrama: ○○ | ⊗⊗ | ○⊗ / ●●● | ○⊗]
 Alternativas:
   a) 5 moléculas, 12 substâncias simples e 3 substâncias compostas
-  b) 12 substâncias, 5 substâncias simples e 7 substâncias compostas
-  c) 5 moléculas, 12 substâncias simples e 3 substâncias compostas [verificar se igual a a]
+  b) 12 moléculas, 5 substâncias simples e 3 substâncias compostas
+  c) 5 moléculas, 3 substâncias simples e 2 substâncias compostas
   d) 5 moléculas, 2 substâncias simples e 3 substâncias compostas
   e) 12 moléculas, 2 substâncias simples e 3 substâncias compostas
-Gabarito: [zoom complementar necessário para confirmar diagrama e alternativas exatas]
+Gabarito: c) · Resolução: 5 moléculas · Simples: ○○, ⊗⊗, ●●● = 3 tipos · Compostas: ○⊗ e ○● = 2 tipos
 Tipo: múltipla escolha
 Classificação: médio
 
-**Q-5** · Fuvest-SP · pág. 97
-Enunciado: O Prêmio Nobel de Física de 2010 foi concedido a dois pesquisadores russos, pelos seus estudos com o material denominado "grafeno". O grafeno é constituído de átomos de carbono em uma estrutura de espessura de uma só camada de dimensões atômicas, o que permite sua utilização para a construção de telas de imagem sensíveis ao toque. Este material é alotrópico ao:
+**Q-5** · UFG-GO · pág. 97
+Enunciado: O Prêmio Nobel de Física de 2010 foi concedido a dois pesquisadores russos, pelos seus estudos com o material denominado "grafeno". O grafeno é constituído de átomos de carbono em uma estrutura de espessura similar às de dimensões atômicas, o que permite sua utilização para a construção de telas de imagem sensíveis ao toque. Este material é alótropo dos seguintes compostos:
 Alternativas:
-  a) fósforo e basalto
-  b) enxofre e basalto
-  c) grafite e diamante
+  a) fulereno e diamante
+  b) fulereno e baquelite
+  c) teflon e diamante
   d) grafite e teflon
-Gabarito: c) grafite e diamante · Resolução: grafeno, grafite e diamante são todos alótropos do carbono (apenas átomos de C, arranjos espaciais diferentes)
+  e) grafite e baquelite
+Gabarito: a) fulereno e diamante · Resolução: grafeno, fulereno e diamante são todos alótropos do carbono · baquelite e teflon são polímeros sintéticos, não alótropos do carbono
 Tipo: múltipla escolha
 Classificação: médio
 
-**Q-6** · pág. 98
-Enunciado: Considere os sistemas I, II, III e IV. [diagramas de bolinhas representando diferentes sistemas] Os sistemas I e II correspondem, respectivamente, a: [alternativas parcialmente ilegíveis — zoom complementar necessário]
-Gabarito:
-Tipo: múltipla escolha / identificação
+**Q-6** · Ufla/PAS-MG · pág. 98
+Enunciado: Considere os sistemas a seguir. I: Água + Etanol · II: Água · III: Água + Gasolina. Os sistemas I, II e III correspondem, respectivamente, a:
+Alternativas:
+  a) mistura heterogênea, substância composta, mistura heterogênea
+  b) mistura homogênea, substância simples, mistura heterogênea
+  c) mistura homogênea, substância simples, mistura homogênea
+  d) mistura homogênea, substância composta, mistura heterogênea
+Gabarito: d) · Resolução: I (água+etanol) = miscíveis = homogênea · II (água pura) = H₂O = substância composta · III (água+gasolina) = imiscíveis, 2 fases = heterogênea
+Tipo: múltipla escolha
 Classificação: médio
 
 **Q-7** · pág. 98
 Enunciado: Relacione corretamente as colunas e marque a alternativa que contém a resposta correta.
-Coluna I: 1. Mistura monofásica formada por três substâncias · 2. Substância composta · 3. Mistura heterogênea bifásica com componentes diferentes · 4. Sistema bifásico formado por uma substância [item 4 parcialmente ilegível]
-Coluna II: a. Água + açúcar · b. Vapor de água + gás carbônico + gás oxigênio · c. Água (pura) · d. Água + açúcar + areia [confirmar com zoom]
-Alternativas: a) 1-b, 2-c, 3-a, 4-d e variações [parcialmente ilegíveis — zoom complementar necessário]
-Gabarito:
-  1-b: Mistura monofásica de 3 substâncias = vapor de água + CO₂ + O₂ (gases misturados, 1 fase)
-  2-c: Substância composta = Água (H₂O, composta pura)
-  3-d: Mistura heterogênea = Água + açúcar + areia (sólido + solução = 2 fases)
-  4-a: [confirmar]
+Coluna I: 1. Mistura monofásica formada por três substâncias. · 2. Mistura homogênea formada por duas substâncias. · 3. Mistura heterogênea bifásica composta de diferentes substâncias em diferentes estados físicos. · 4. Sistema bifásico formado por uma substância composta.
+Coluna II: I. Água + gelo. · II. Vapor de água + gás carbônico + gás oxigênio. · III. Água + açúcar. · IV. Álcool + areia.
+Alternativas:
+  a) 1-II; 2-IV; 3-III; 4-I
+  b) 1-II; 2-III; 3-IV; 4-I
+  c) 1-II; 2-I; 3-III; 4-IV
+  d) 1-II; 2-III; 3-I; 4-IV
+  e) 1-IV; 2-III; 3-II; 4-I
+Gabarito: b) · Resolução: 1→II (3 gases = 1 fase gasosa) · 2→III (água+açúcar = solução homogênea) · 3→IV (álcool+areia = líquido+sólido = 2 fases) · 4→I (água+gelo = H₂O em 2 estados = bifásico, 1 substância composta)
 Tipo: correspondência
 Classificação: médio
 
@@ -228,9 +237,11 @@ Gabarito:
 Tipo: dissertativa
 Classificação: médio
 
-**Q-9** · UJFP-Patos/MG 2023 · pág. 99
-Enunciado: Considera-se uma mistura de dois líquidos A e B. Observe que o líquido A se misturou tanto em B quanto em água; o líquido B é miscível em água; o líquido A é o menos denso entre todos. Assinale o aspecto adequado da mistura observado após algum tempo de repouso. [imagens de tubos de ensaio com diferentes configurações de camadas — parcialmente ilegível — zoom complementar necessário]
-Gabarito:
+**Q-9** · [zoom complementar necessário — enunciado não capturado]
+
+**Q-10** · UFJF/Pism-MG 2023 · pág. 99
+Enunciado: Considere uma mistura de três líquidos A, B e água. Sabe-se que: o líquido A é imiscível tanto em B quanto em água; o líquido B é miscível em água; o líquido A é o menos denso dentre todos. Assinale o aspecto adequado da mistura, observado após algum tempo de repouso. [alternativas com diagramas de tubos mostrando separação de fases]
+Gabarito: c) · Resolução: B + água = miscíveis → fase inferior única · A = imiscível com ambos e menos denso → flutua no topo · Resultado: camada A (superior) sobre camada B+água (inferior)
 Tipo: múltipla escolha
 Classificação: médio
 
@@ -241,15 +252,17 @@ Classificação: médio
 - Foco: identificar tipo de substância (simples/composta) a partir de fórmulas ou diagramas moleculares, classificar misturas (homogênea/heterogênea), reconhecer alotropia, interpretar diagramas de bolinhas representando átomos
 - Nível de dificuldade médio: médio
 - Tópicos mais cobrados: substância simples vs. composta (Q-3, Q-4, Q-5), alotropia do carbono e oxigênio (Q-4, Q-8), mistura homogênea vs. heterogênea (Q-6, Q-7)
-- Fontes: PDO, JEL-PR, UFGD-MG, Fuvest-SP
+- Fontes: PDO, JEL-PR, Fuvest-SP, UFGD-MS, UFG-GO, Ufla/PAS-MG, UFJF/Pism-MG 2023
+- Total: 10 questões (Q-1 a Q-10, sem Q-9)
 
 ---
 
 ## IMAGENS RECOMENDADAS PARA CAPTURA (zoom complementar)
-- Q-1 · alternativas d e e completas
-- Q-2 · confirmar alternativas d e e
-- Q-3 (Fuvest-SP) · diagramas I-IV e alternativas completas ← PRIORITÁRIO
-- Q-4 (UFGD-MG) · diagrama de bolinhas X/O e alternativas exatas ← PRIORITÁRIO
-- Q-6 · diagramas dos sistemas e alternativas completas
-- Q-7 · coluna II completa e alternativas de correspondência
-- Q-9 · imagem dos tubos e alternativas
+- Q-1 · confirmar alternativas d e e
+- Q-9 · enunciado e gabarito completos ← PENDENTE
+
+## IMAGENS CAPTURADAS COM ZOOM
+- zoom-01: Q-3 (Fuvest-SP) diagramas I-V + alternativas (pág. 97) ✅
+- zoom-02: Q-4 (UFGD-MS) diagrama ○●⊗ + Q-5 (UFG-GO) grafeno (pág. 97) ✅
+- zoom-03: Q-6 (Ufla/PAS-MG) recipientes + Q-7 tabela correspondência (pág. 98) ✅
+- zoom-04: Q-10 (UFJF/Pism-MG 2023) tubos de ensaio A+B+água (pág. 99) ✅
