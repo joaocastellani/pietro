@@ -146,50 +146,75 @@ Conceito testado: mistura homogênea vs. heterogênea
 ## SEÇÃO ATIVIDADES (pág. 96–99)
 
 **Q-1** · PDO · pág. 96
-Enunciado: [questão sobre substâncias e melhorias na qualidade de vida — enunciado parcialmente ilegível — zoom complementar necessário]
-Gabarito:
-Tipo: dissertativa/classificação
+Enunciado: A química é responsável pela melhora em nossa qualidade de vida e está inserida em nosso cotidiano de muitas formas em substâncias e misturas que conduzem diversas materiais. Assinale a alternativa que apresenta, respectivamente, substância simples, substância composta, mistura homogênea e mistura heterogênea.
+Alternativas:
+  a) Ar, granito, alumínio, aço
+  b) Água, aço, alumínio, granito
+  c) Alumínio, água, aço, granito
+  d) Alumínio, água, aço, granito [alternativas d e e — parcialmente ilegíveis — zoom complementar necessário]
+  e) Alumínio, água, granito, aço
+Gabarito: c) · Resolução: Alumínio (Al, 1 elemento = simples) · Água (H₂O, 2 elementos = composta) · Aço (liga metálica, 1 fase = homogênea) · Granito (rocha com cristais visíveis = heterogênea)
+Tipo: múltipla escolha
 Classificação: fácil
 
 **Q-2** · JEL-PR · pág. 96
-Enunciado: [questão de classificação de material como substância simples, composta, mistura homogênea ou heterogênea — enunciado parcialmente ilegível — zoom complementar necessário]
-Gabarito:
+Enunciado: A maioria dos materiais não é nem elementos puros nem compostos puros; são misturas de substâncias mais simples. Por exemplo, um medicamento, tal como xarope expectorante, é uma mistura de vários ingredientes formulados para conseguir um efeito biológico. Um sistema constituído por açúcar dissolvido em água, limalha de ferro, vapor de água e nitrogênio gasoso pode ser classificado como:
+Alternativas:
+  a) sistema homogêneo com 4 fases e 4 componentes
+  b) sistema homogêneo com 4 fases e 3 componentes
+  c) sistema heterogêneo com 3 fases e 4 componentes
+  d) sistema heterogêneo com 2 fases e 4 componentes
+  e) sistema heterogêneo com 3 fases e 4 componentes [opções d e e — confirmar com zoom]
+Gabarito: c) · Resolução: Fase 1 = solução aquosa de açúcar (líquida) · Fase 2 = limalha de ferro (sólida) · Fase 3 = vapor de água + N₂ (gasosa) → 3 fases · 4 componentes (açúcar, água, Fe, N₂) → heterogênea
 Tipo: múltipla escolha
 Classificação: médio
 
-**Q-3** · UFGD-MG · pág. 97
-Enunciado: Os elementos químicos que estão representados na tabela periódica podem se unir por diferentes tipos de ligações químicas para formar diversas substâncias. As diversas moléculas existentes podem ser classificadas como substâncias simples ou compostas. [continua com diagrama de bolinhas representando átomos — zoom complementar necessário para alternativas]
-Gabarito:
+**Q-3** · Fuvest-SP · pág. 97
+Enunciado: Considere as figuras a seguir, em que cada esfera representa um átomo. [diagramas moleculares I, II, III, IV com bolinhas de uma ou duas cores] As figuras mais adequadas para representar, respectivamente, uma mistura de compostos moleculares e uma amostra de substância nitrogênio são:
+Alternativas: a) I e ii · b) I e II · c) III e I · d) II e I · e) IV e I [alternativas parcialmente ilegíveis — zoom complementar necessário para confirmar]
+Gabarito: [zoom complementar necessário]
+Tipo: múltipla escolha
+Classificação: difícil
+
+**Q-4** · UFGD-MG · pág. 97
+Enunciado: Os elementos químicos que estão representados na tabela periódica podem se unir por diferentes tipos de ligações químicas para formar diversas substâncias. As diversas moléculas existentes podem ser chamadas de substâncias e classificadas como substâncias simples ou compostas. No esquema a seguir, cada bolinha (X ou ⊕) representa um átomo diferente e a quantidade de moléculas representa a quantidade de substâncias simples e compostas [diagrama com bolinhas X e O].
+Alternativas:
+  a) 5 moléculas, 12 substâncias simples e 3 substâncias compostas
+  b) 12 substâncias, 5 substâncias simples e 7 substâncias compostas
+  c) 5 moléculas, 12 substâncias simples e 3 substâncias compostas [verificar se igual a a]
+  d) 5 moléculas, 2 substâncias simples e 3 substâncias compostas
+  e) 12 moléculas, 2 substâncias simples e 3 substâncias compostas
+Gabarito: [zoom complementar necessário para confirmar diagrama e alternativas exatas]
 Tipo: múltipla escolha
 Classificação: médio
 
-**Q-4** · Fuvest-SP · pág. 97
+**Q-5** · Fuvest-SP · pág. 97
 Enunciado: O Prêmio Nobel de Física de 2010 foi concedido a dois pesquisadores russos, pelos seus estudos com o material denominado "grafeno". O grafeno é constituído de átomos de carbono em uma estrutura de espessura de uma só camada de dimensões atômicas, o que permite sua utilização para a construção de telas de imagem sensíveis ao toque. Este material é alotrópico ao:
 Alternativas:
   a) fósforo e basalto
   b) enxofre e basalto
   c) grafite e diamante
   d) grafite e teflon
-Gabarito: c) grafite e diamante · Resolução: grafeno, grafite e diamante são todos alótropos do carbono (formados exclusivamente por átomos de C com arranjos diferentes)
+Gabarito: c) grafite e diamante · Resolução: grafeno, grafite e diamante são todos alótropos do carbono (apenas átomos de C, arranjos espaciais diferentes)
 Tipo: múltipla escolha
 Classificação: médio
 
-**Q-5** · Fuvest-SP · pág. 97
-Enunciado: Considere as figuras a seguir, em que cada esfera representa um átomo. [mostra diagramas moleculares I, II, III, IV com bolinhas de diferentes cores/tamanhos] As figuras mais adequadas para representar, respectivamente, uma mistura de compostos moleculares e uma amostra de substância nitrogênio são:
-Alternativas: a) I e II · b) I e III · c) II e I · d) III e I · e) IV e I [parcialmente ilegível — zoom complementar necessário]
-Gabarito: [zoom complementar necessário]
-Tipo: múltipla escolha
-Classificação: difícil
-
-**Q-6** · pág. 97–98
-Enunciado: [questão sobre sistema químico e classificação — tabela de correspondência entre sistemas e descrições — zoom complementar necessário]
+**Q-6** · pág. 98
+Enunciado: Considere os sistemas I, II, III e IV. [diagramas de bolinhas representando diferentes sistemas] Os sistemas I e II correspondem, respectivamente, a: [alternativas parcialmente ilegíveis — zoom complementar necessário]
 Gabarito:
-Tipo: correspondência / múltipla escolha
+Tipo: múltipla escolha / identificação
 Classificação: médio
 
 **Q-7** · pág. 98
-Enunciado: [questão sobre classificação de sistemas usando tabela de correspondência — zoom complementar necessário para alternativas]
+Enunciado: Relacione corretamente as colunas e marque a alternativa que contém a resposta correta.
+Coluna I: 1. Mistura monofásica formada por três substâncias · 2. Substância composta · 3. Mistura heterogênea bifásica com componentes diferentes · 4. Sistema bifásico formado por uma substância [item 4 parcialmente ilegível]
+Coluna II: a. Água + açúcar · b. Vapor de água + gás carbônico + gás oxigênio · c. Água (pura) · d. Água + açúcar + areia [confirmar com zoom]
+Alternativas: a) 1-b, 2-c, 3-a, 4-d e variações [parcialmente ilegíveis — zoom complementar necessário]
 Gabarito:
+  1-b: Mistura monofásica de 3 substâncias = vapor de água + CO₂ + O₂ (gases misturados, 1 fase)
+  2-c: Substância composta = Água (H₂O, composta pura)
+  3-d: Mistura heterogênea = Água + açúcar + areia (sólido + solução = 2 fases)
+  4-a: [confirmar]
 Tipo: correspondência
 Classificação: médio
 
@@ -198,13 +223,13 @@ Enunciado: Considerando que o oxigênio pode existir em duas formas alotrópicas
 a) Explique o que é alotropia.
 b) Descreva as principais diferenças estruturais entre as formas alotrópicas O₂ e O₃ do oxigênio.
 Gabarito:
-  a) Alotropia é o fenômeno pelo qual um mesmo elemento químico pode formar diferentes substâncias simples, chamadas formas alotrópicas, que diferem no número de átomos por molécula ou no arranjo espacial dos átomos
-  b) O₂ é uma molécula diatômica (2 átomos de oxigênio ligados por ligação dupla covalente) · O₃ é uma molécula triatômica (3 átomos de oxigênio, com estrutura angular e ligações ressonantes) · Ambas são substâncias simples do elemento oxigênio, mas com propriedades distintas
+  a) Alotropia é o fenômeno pelo qual um mesmo elemento químico forma diferentes substâncias simples (formas alotrópicas), que diferem no número de átomos por molécula ou no arranjo espacial dos átomos
+  b) O₂: molécula diatômica (2 átomos de O), ligação dupla covalente · O₃: molécula triatômica (3 átomos de O), estrutura angular com ligações ressonantes · Ambas são substâncias simples do oxigênio, mas com propriedades distintas (O₃ é instável e oxidante mais forte)
 Tipo: dissertativa
 Classificação: médio
 
-**Q-9** · UJF/MG-Patos/MS (ou similar) · pág. 99
-Enunciado: [questão sobre misturas líquidos A e B — imagem de tubos de ensaio mostrando comportamento da mistura ao longo do tempo — zoom complementar necessário]
+**Q-9** · UJFP-Patos/MG 2023 · pág. 99
+Enunciado: Considera-se uma mistura de dois líquidos A e B. Observe que o líquido A se misturou tanto em B quanto em água; o líquido B é miscível em água; o líquido A é o menos denso entre todos. Assinale o aspecto adequado da mistura observado após algum tempo de repouso. [imagens de tubos de ensaio com diferentes configurações de camadas — parcialmente ilegível — zoom complementar necessário]
 Gabarito:
 Tipo: múltipla escolha
 Classificação: médio
@@ -221,9 +246,10 @@ Classificação: médio
 ---
 
 ## IMAGENS RECOMENDADAS PARA CAPTURA (zoom complementar)
-- QI-1 e QI-2 · enunciados completos
-- Q-1 e Q-2 · enunciados e gabaritos completos
-- Q-3 (UFGD-MG) · diagrama de bolinhas e alternativas completas ← PRIORITÁRIO
-- Q-5 (Fuvest-SP) · diagramas e alternativas completas ← PRIORITÁRIO
-- Q-6 e Q-7 · tabelas e alternativas completas ← PRIORITÁRIO
+- Q-1 · alternativas d e e completas
+- Q-2 · confirmar alternativas d e e
+- Q-3 (Fuvest-SP) · diagramas I-IV e alternativas completas ← PRIORITÁRIO
+- Q-4 (UFGD-MG) · diagrama de bolinhas X/O e alternativas exatas ← PRIORITÁRIO
+- Q-6 · diagramas dos sistemas e alternativas completas
+- Q-7 · coluna II completa e alternativas de correspondência
 - Q-9 · imagem dos tubos e alternativas
