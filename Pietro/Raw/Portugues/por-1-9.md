@@ -156,10 +156,12 @@
 ## 6. QUESTÕES INTERCALADAS (teatro e inclusão)
 
 **QI-1** · pág. 197
-O que indica que o grupo de teatro foi uma deficiência auditiva? [ilegível — ver por-1-9-03]
+"O interesse e a vontade de três alunas com deficiência auditiva de participar das aulas de teatro oferecidas pela escola levou à criação do grupo 'Teatro sem palavras'. O grupo formado é composto de vinte participantes: dezessete ouvintes, duas alunas surdas e uma com deficiência auditiva."
+a) Pesquise e responda: qual a diferença entre os termos "deficiência auditiva" e "surdez"?
+b) O que indica essa reunião de alunos com e sem deficiência em um mesmo grupo?
 
 **QI-2** · pág. 197
-O que indica que os participantes do grupo foram aceitos? / Qual a condição para que todos possam participar do grupo?
+Qual é a condição para que todos participem do grupo?
 
 **QI-3** · pág. 198
 Retome o boxe "Intertextualizando" e responda: por que as obras de Charles Chaplin inspiram as apresentações?
@@ -216,6 +218,20 @@ Q-3: Sobre palavras empregadas de forma polissêmica no cartaz — identificar e
 Gabarito:
 - "enxerga": literal = ver com os olhos; figurado = perceber/reconhecer a igualdade de todos
 - "anda": literal = caminhar; figurado = funcionar melhor, progredir
+
+**CC-4** · pág. 205 (duas pinturas — completar tabela)
+Pinturas: Frederick Morgan, *Os coletores de maçã*, 1880, Coleção particular / Johann Georg Meyer von Bremen, *Por ?, sc. 1880*, Óleo sobre tela, 50×38 cm, Coleção particular.
+"Analise as cenas retratadas a seguir e complete a tabela." (Cenas retratadas / Sentidos retratados)
+
+**CC-5** · pág. 205 (ENEM — polissemia "rede social")
+Charge: cartaz com família em rede (hammock) com frase "REDE SOCIAL / AQUI EM CASA / É OUTRA COISA!"
+"O efeito de sentido da charge é provocado pela combinação de informações visuais e recursos linguísticos. No contexto da ilustração, a frase proferida recorre à:"
+a) polissemia, ou seja, aos múltiplos sentidos da expressão "rede social" para transmitir a ideia que pretende veicular.
+b) ironia para conferir um novo significado ao termo "outra coisa".
+c) homonímia para opor, a partir do advérbio de lugar, o espaço da população pobre e o espaço da população rica.
+d) personificação para opor o mundo real pobre ao mundo virtual rico.
+e) antonímia para comparar a rede mundial de computadores com a rede caseira de descanso da família.
+Gabarito: a) — "rede social" polissêmica: rede = hammock (sentido literal/físico) + rede social = internet (sentido digital); a charge explora os dois sentidos simultaneamente.
 
 ---
 
@@ -297,19 +313,33 @@ b) Desmembre os períodos compostos a seguir, transformando-os em simples:
    II. "O convívio com a deficiência é bom porque nos adapta à diversidade."
    III. "Não chegou ao décimo terceiro andar porque o elevador estava quebrado."
 
-**AT-6** · pág. 216 (texto sobre inclusão digital)
-Texto sobre regras de acessibilidade na internet.
-Questão: contar quantas orações existem no trecho (pelo número de verbos).
-[Alternativas a) a e) com diferentes contagens — VER IMAGEM por-1-9-22]
+**AT-6** · pág. 216 (Alexandre de Faria Silva — acessibilidade)
+Texto: "Respeitar os deficientes é reconhecer que eles possuem os mesmos direitos que nós aos bens da sociedade [...] os cegos podem navegar na internet utilizando programas especiais [...] os surdos assistem à TV com a ajuda de legendas ou de um intérprete de Libras [...] os espaços físicos podem ter acesso aos locais públicos, graças a portas largas e rampas que permitem o trânsito de suas cadeiras de roda [...] os alunos inclusivos possam estudar nas salas de aula regulares com os demais alunos sem serem discriminados."
+Fonte: Alexandre de Faria Silva. *Acessibilidade: Direito de todos*. Prefeitura Municipal de Igaratinga, 31 jul. 2017.
 
-**AT-7** · pág. 216 (texto "Enlace" de Millôr Fernandes)
-Questão: "A graça, no texto de Millôr, decorre da:"
+a) Que frase constitui um período simples?
+A. Os cegos podem navegar na internet utilizando programas especiais para deficientes visuais.
+B. Os surdos assistem à TV com a ajuda de legendas ou de um intérprete de Libras.
+C. Os espaços físicos podem ter acesso aos locais públicos, graças a rampas que permitem o trânsito de suas cadeiras de roda.
+D. Os alunos inclusivos podem estudar nas salas de aula regulares com os demais alunos, sem serem discriminados.
+Gabarito: B — "assistem" = 1 verbo → período simples. (A: 2 verbos; C: "podem ter" + "permitem" = 2; D: "podem estudar" + "serem" = 2)
+
+b) Cada verbo demarca a presença de uma oração. Quantas orações tem o período e o período é:
+( ) Duas orações.
+( ) Três orações.
+( ) Quatro orações.
+Gabarito: Duas orações (referente ao período C: "podem ter" + "permitem" = 2 verbos)
+
+**AT-7** · pág. 217 · (Uniesp) "Enlace" — Millôr Fernandes
+Texto: "No convento da sinhinha Sandra Carvalho e cirurgião plástico Nóbrega Penha, contrataram carmelitas ontem as próprias testemunhas sendo seus pais os laços matrimoniais." — Millôr Fernandes
+
+"A graça, no texto de Millôr, decorre da:"
 a) Alteração dos sentidos das palavras, já que a forma de organizá-las sugere outro significado, diferente de enlace, proposto no título.
 b) Transgressão do princípio sintático de articulação das palavras, o que acaba por criar associações inusitadas e singulares.
 c) Desorganização total do texto, que faz com que o leitor tente ordenar as palavras para entendê-lo — o que não é possível.
 d) Organização das palavras segundo os padrões sintáticos da língua, o que garante a manutenção do sentido do texto.
 e) Articulação das palavras dentro das convenções da língua, mas com outros matizes de significação, o que altera, por exemplo, o sentido do título.
-Gabarito: b) — Millôr transgride a sintaxe convencional para criar associações inusitadas e singulares; a graça vem do estranhamento sintático.
+Gabarito: b) — Millôr transgride o princípio sintático convencional, misturando convento/carmelitas com cirurgião/matrimônio para criar associações inusitadas e singulares.
 
 ---
 
@@ -323,6 +353,4 @@ Gabarito: b) — Millôr transgride a sintaxe convencional para criar associaç�
 ---
 
 ## IMAGENS RECOMENDADAS PARA CAPTURA
-- por-1-9-03: QI-1 e QI-2 completas (texto pequeno)
-- por-1-9-11: exercícios polissemia (CC-3 completo)
-- por-1-9-22: AT-6 texto e alternativas completas (Millôr — AT-7 com alternativas já capturadas em por-1-9-23)
+Nenhuma. Todos os gaps foram resolvidos pelas recapturas com zoom.
