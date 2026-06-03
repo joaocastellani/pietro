@@ -205,8 +205,24 @@ a) A quem se refere o pronome possessivo "suas"?
 b) É correto afirmar que se trata de uma frase ambígua? Justifique.
 Gabarito: a) pode ser da avó ou do avô — ambíguo; b) sim, é ambígua pois "suas" pode retomar dois referentes diferentes na frase.
 
-**CC-3** · pág. 181 (ambiguidade com pronomes — exercícios)
-[VER IMAGEM por-1-8-11 — exercícios sobre pronomes possessivos e referência ambígua]
+**CC-3** · pág. 181 (ambiguidade com pronomes — teoria + exercícios)
+Teoria: A ambiguidade é a possibilidade de um enunciado ser interpretado de mais de uma forma. Pode ser recurso expressivo em textos artísticos, mas é prejudicial em textos técnicos que precisam de clareza. O pronome é uma fonte frequente de ambiguidade quando seu referente não está bem definido.
+Exemplo: "A avó de Maria alia **seu** novo livro para contar histórias." — "seu" pode se referir à avó ou a Maria.
+
+Q-3 · pág. 181
+Assinale os pronomes cujo uso gera ambiguidade nas frases a seguir. (Exercícios com pronomes "que", "ele/ela", "seu/sua" em frases com múltiplos referentes possíveis)
+[Exercícios completos visíveis em por-1-8-11.png]
+
+**CC-4** · pág. 181 (tira — ambiguidade com pronome "a")
+Tira: paródia da cantiga "A dona Aranha":
+"A DONA ARANHA SUBIU PELA PAREDE / VEIO A CHUVA FORTE E **A** DERRUBOU..."
+Aluno pergunta ao professor: "QUEM A CHUVA FORTE DERRUBOU? A DONA ARANHA OU A PAREDE?"
+
+a) A tira explora a ambiguidade sintática para a produção do humor. Sobre qual palavra recai tal duplicidade? Explique.
+Gabarito: o pronome "a" em "a derrubou" é ambíguo — pode retomar "a dona Aranha" ou "a parede". A língua permite as duas leituras sintaticamente.
+
+b) A cantiga reproduzida é parte de um repertório popular. De que forma a continuidade da canção (o contexto) desfaz a ambiguidade?
+Gabarito: A cantiga completa continua descrevendo o estado da dona Aranha após cair — o contexto deixa claro que foi ela (não a parede) que caiu.
 
 ---
 
@@ -293,12 +309,23 @@ d) Instituto Brasileiro de Opinião Pública e Estatística → IBOPE
 
 ## 11. SEÇÃO ATIVIDADES
 
-**AT-1** · pág. 190 (texto "Velhice tem riqueza e história")
-[Questões sobre o texto — VER IMAGEM por-1-8-20 para enunciados completos]
-Q2: Encontre no texto 5 sinônimos de "personalidade".
+**AT-1** · pág. 190
+Texto base: "Velhice tem rejeição à velhice, diz presidente da Sociedade de Geriatria" — discurso sobre como a sociedade brasileira rejeita o envelhecimento; qualidade de vida dos idosos; expectativa de vida aumentou mas qualidade de vida não acompanhou para todos.
+Enunciado: "Apesar de a população brasileira ter aumentado sua expectativa de vida, a qualidade de vida não melhorou para todos."
+a) Sublinhe no texto os motivos apontados como entraves ao desenvolvimento de uma visão saudável de velhice no país.
+b) Em sua opinião, como é possível melhorar as condições de vida do idoso?
+Tipo: dissertativa / pesquisa
 
 **AT-2** · pág. 190
-Substitua a palavra "personalidade" pelas que você encontrou. Sua substituição muda o sentido original do texto?
+Enunciado: "Na área da Psicologia, usa-se muito o radical '-fobia' para indicar um medo intenso, exagerado. A palavra 'fobia' remete a uma divindade grega – Phóbos – que espantava os inimigos por ter a face terrivelmente feia. Um exemplo é 'gerontofobia', que significa o medo do processo de envelhecimento. Analise as palavras listadas a seguir e indique a que tipo de medo elas se relacionam."
+a) Acrofobia: medo de altura / lugares altos
+b) Agorafobia: medo de espaços abertos ou multidões
+c) Carcinofobia: medo de câncer
+d) Pedofobia: medo de crianças
+e) Belonofobia: medo de agulhas e objetos pontiagudos
+f) Odontofobia: medo de dentistas / tratamento dentário
+Tipo: associação / hibridismo (radical grego)
+Gabarito: ver acima.
 
 **AT-3** · pág. 191
 Fazendo uma composição ou empregando o radical de outra língua, que nome você daria à aversão à senilidade — ao medo que a população tem de envelhecer e à sua rejeição à velhice?
@@ -316,16 +343,24 @@ d) "terceiro-idadistas" (João Ubaldo) + "jângal" (estrangeirismo do inglês "j
    - terceiro-idadistas: composição; jângal: estrangeirismo; boys: estrangeirismo; coroas: gíria
 
 **AT-5** · pág. 192 · (ENEM 2014)
-"Em bom português" — poema sobre incorporação de palavras estrangeiras ao português
-[VER IMAGEM por-1-8-22 para texto completo e alternativas]
+Texto: "Em bom português" — Fernando Sabino (*Ponto de encontro*. Rio de Janeiro: Record, 2005.)
+Texto sobre a vitalidade e transformação constante da língua portuguesa no Brasil; palavras que caem em desuso; novas que surgem; a língua como fenômeno vivo em movimento.
+Questão: sobre o processo sociolinguístico descrito — como a língua evolui e se renova conforme o uso social.
+[Alternativas completas em por-1-8-22.png]
 Tipo: múltipla escolha
-Gabarito: [VER IMAGEM]
+Gabarito: [VER IMAGEM por-1-8-22]
 
 **AT-6** · pág. 192 · (ENEM 2019)
-Textos sobre fenômenos linguísticos (Textos I e II)
-[VER IMAGEM por-1-8-22 para textos completos e alternativas]
+Texto I: sobre como atos de criatividade geram modelos de formação de palavras; derivação como extensão do sistema da língua; "ambulantismo" como neologismo formado por derivação sufixal (-ismo sobre "ambulante").
+Texto II: julgamento de valor sobre a formação de novas palavras no português popular.
+Questão: "Há nas línguas mecanismos geradores de palavras. Embora o texto II apresente um julgamento de valor sobre a formação de novas palavras, a descrição do processo pode ser assim referida:"
+a) Uma nova realidade limitada ao aparecimento de novas palavras.
+b) A limitação da língua ao impedir o surgimento de novas palavras por influência das línguas europeias.
+c) A extensão do sistema de uma palavra para compor novas.
+d) Formas populares não identificadas como criação de palavras por neologismo.
+e) A restrição na produção de novas palavras com a introdução de um radical novo.
 Tipo: múltipla escolha
-Gabarito: [VER IMAGEM]
+Gabarito inferido: c)
 
 ---
 
@@ -339,6 +374,5 @@ Gabarito: [VER IMAGEM]
 ---
 
 ## IMAGENS RECOMENDADAS PARA CAPTURA
-- por-1-8-11: exercícios completos de ambiguidade com pronomes (CC-3)
-- por-1-8-20: texto "Velhice tem riqueza e história" completo (AT-1 e AT-2)
-- por-1-8-22: ENEM 2014 e ENEM 2019 completos com alternativas (AT-5 e AT-6)
+- por-1-8-11: exercícios CC-3 completos (pronomes) — ainda parcialmente ilegíveis
+- por-1-8-22: alternativas ENEM 2014 (AT-5) — gabarito pendente
