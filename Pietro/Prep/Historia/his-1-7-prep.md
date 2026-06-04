@@ -1,491 +1,528 @@
+## SEÇÃO 0 — ÍNDICE DE DIAGRAMAS
+```
 ## DIAGRAMAS DISPONÍVEIS — his-1-7
-
-| Nome | Identificador na Seção 12 | Quando usar |
-|------|--------------------------|-------------|
-| Linha do tempo 1914–1919 | DIAGRAMA: his17_timeline | Apresentar sequência de eventos da guerra e seus impactos no Brasil |
-| Fluxo da industrialização | DIAGRAMA: his17_fluxo_industrializacao | Explicar o processo de substituição de importações e suas consequências |
-
+| Nome | Identificador na Seção 12 | Quando usar na Etapa 1 |
+|------|--------------------------|------------------------|
+| Linha do tempo — O Brasil da Primeira Guerra | DIAGRAMA: timeline | Ao apresentar a cronologia do capítulo (Seção 4) |
+| Fluxo — Industrialização e greves operárias | DIAGRAMA: fluxo_industrializacao | Ao explicar causas e consequências dos processos econômicos e sociais (Seção 5) |
 ### Tabelas markdown (Seção 6):
-- Tabela 1: Produção industrial e agrícola brasileira (1914–1919)
-
+- Concentração da produção industrial nacional — 1907 e 1920
+- Variação da produção industrial e agrícola brasileira — 1914 a 1919
 ### Nota ao Professor:
 Para cada diagrama: leia o SVG da Seção 12 e passe ao Visualizer.
-A síntese visual do capítulo está disponível em:
-`Pietro/Raw/Historia/his-1-7-sintese.png`
-⚠️ QC-1 (UEPG), QC-2 (UEPG) e QC-3 (FUVEST 2015): alternativas ilegíveis nas imagens capturadas — ver his-1-7-12.png e his-1-7-13.png para texto completo antes de trabalhar essas questões.
+Tabelas da Seção 6 são apresentadas como markdown no chat.
+Se o usuário anexar printscreens de mapas históricos da apostila,
+use-os diretamente em vez de fazer image_search.
+```
 
 ---
-
 ## SEÇÃO 1 — METADADOS
-
+```
 # PREPARAÇÃO DE AULA — HISTÓRIA
-- Unidade: 1
+- Unidade: não especificada no material
 - Capítulo: 7
 - Tema: O Brasil da Primeira Guerra
-- Perfil: misto (histórico-narrativo + analítico-temático)
-- Período histórico: 1914–1919
-- Personagens principais: Wenceslau Braz, Epitácio Pessoa
-- Processos principais: crise do café · substituição de importações · crescimento urbano e industrial · movimento operário e greve geral de 1917 · anarquismo · Lei Gordo · entrada do Brasil na Primeira Guerra Mundial
+- Perfil: misto (histórico-narrativo dominante + analítico-temático)
+- Período histórico: início do século XX (c. 1880–1922)
+- Personagens principais: Venceslau Brás, Nilo Peçanha, Delfim Moreira,
+  Adolfo Afonso da Silva Gordo, Woodrow Wilson, Penélope (operária)
+- Processos principais: industrialização brasileira; substituição de
+  importações; crescimento urbano; formação do movimento operário;
+  entrada do Brasil na Primeira Guerra Mundial; repressão às greves
+```
 
 ---
-
 ## SEÇÃO 2 — RESUMO CONCEITUAL DO CAPÍTULO
+### **Bloco 1 — O Brasil no contexto da Primeira Guerra (1914–1918)**
+Entre 1914 e 1918, o Brasil viveu um período de intensa agitação econômica e social. A economia agrário-exportadora entrou em crise motivada pelas contínuas secas e pela queda do preço do café, produto que sustentava a base da riqueza nacional. Ao mesmo tempo, o contexto da guerra gerou um fenômeno novo: a **substituição de importações**. Com o bloqueio do comércio global, bens que antes vinham do exterior passaram a ser produzidos no próprio Brasil, estimulando o pequeno comércio, a pequena indústria e o surgimento de um novo grupo de profissionais liberais desvinculados da grande lavoura.
 
-**Bloco 1 — O Brasil republicano: modernização com exclusão**
-
-O início do século XX trouxe ao Brasil um acelerado processo de urbanização, impulsionado pela chegada de imigrantes europeus e pelo crescimento das cidades. Surgiu uma nova camada social: profissionais liberais desvinculados da grande lavoura — advogados, médicos, comerciantes, artesãos e industriais de pequeno porte. As cidades cresciam, mas sem romper com a lógica do modelo agroexportador. O poder político continuava nas mãos dos grandes proprietários rurais, por meio do **coronelismo** e do **voto de cabresto** — sistema pelo qual fazendeiros controlavam os votos dos trabalhadores rurais dependentes. Na correlação entre coronéis e governo central, os novos grupos urbanos tiveram sua participação política neutralizada, suas demandas ignoradas. A modernização das cidades era real, mas profundamente desigual.
-
-**Bloco 2 — A guerra e a economia: substituição de importações**
-
-Quando a Primeira Guerra Mundial eclodiu em 1914, o Brasil sentiu o impacto de dois lados: a crise do café (principal produto de exportação) e a interrupção do comércio global. A Europa, em guerra, não comprava nem vendia como antes. A crise obrigou o Brasil a produzir internamente o que antes importava — é o processo chamado de **substituição de importações**. O capital para financiar essa industrialização vinha das reservas acumuladas pelo café; a mão de obra era majoritariamente composta por imigrantes europeus já instalados nas cidades. Os dados revelam a contradição do período: em 1914, a produção industrial caiu 8,7% com o início da guerra; mas já em 1915 cresceu 12,9%, chegando a 14,8% em 1919. O setor agrícola teve comportamento inverso. A industrialização foi real, mas frágil: grande parte das fábricas abertas durante a guerra fechou após o fim do conflito. As que sobreviveram cresceram, principalmente em São Paulo, plantando a semente da futura industrialização brasileira.
-
-**Bloco 3 — O movimento operário: organização e repressão**
-
-Com o crescimento industrial, cresceu também o **movimento operário** brasileiro. Trabalhadores das fábricas — em sua maioria imigrantes italianos, espanhóis e portugueses — trouxeram da Europa as ideias do **anarquismo**: defesa da extinção do Estado e das hierarquias, organização coletiva dos trabalhadores, imprensa operária. Comunidades anarquistas chegaram a existir no interior do Brasil — como a fazenda Cecília, em Palmeira (PR). Os trabalhadores formaram sociedades de resistência e sindicatos, exigindo jornada de 8 horas, melhores salários e condições dignas de trabalho. Em 1917, sob influência também da Revolução Russa, estourou a **greve geral** no Brasil. A resposta do governo foi a repressão: prisões, dissolução de greves, e a **Lei de Expulsão de Estrangeiros (Lei Gordo)**, que permitia deportar imigrantes envolvidos em movimentos políticos — instrumento direto para desarticular a liderança operária, que era majoritariamente estrangeira. Entre 1917 e 1920, greves se intensificaram por todo o país.
-
-**Bloco 4 — O Brasil na Primeira Guerra Mundial**
-
-O Brasil iniciou a guerra em neutralidade. Havia interesse comercial com ambos os lados, e a tradição diplomática brasileira recomendava cautela. Mas a guerra chegou literalmente ao Brasil: submarinos alemães atacaram e afundaram navios mercantes brasileiros, incluindo o navio **Paraná**. Diante dos ataques, o governo de **Wenceslau Braz** rompeu relações diplomáticas com a Alemanha e, em **26 de outubro de 1917**, declarou guerra à Alemanha e à Áustria-Hungria. A participação militar brasileira foi limitada, mas simbólica: o Brasil enviou uma **missão médica (FEM — Força Expedicionária Médica)** e uma **divisão naval (DNOG — Divisão Naval em Operações de Guerra)** à Europa para atuar junto às forças aliadas. **Epitácio Pessoa** representou o Brasil nas conferências de paz que se seguiram ao fim da guerra.
+Apesar dessas mudanças econômicas, o sistema político não acompanhou o ritmo de transformação. A **Primeira República** manteve o **coronelismo** e o **voto de cabresto**, mecanismos que limitavam a participação política dos novos grupos urbanos e garantiam o controle das oligarquias rurais sobre o Estado.
 
 ---
+### **Bloco 2 — Crescimento urbano e industrialização**
+O início do século XX foi marcado pelo acelerado crescimento das cidades brasileiras. São Paulo, por exemplo, saltou de 64 mil para 239 mil habitantes entre 1890 e 1900. Esse crescimento foi impulsionado pela chegada de imigrantes europeus, pela migração de trabalhadores ex-escravizados e pela atração de fazendeiros que buscavam novos ramos de investimento, como bancos, ferrovias e pequenas indústrias.
 
+O desenvolvimento industrial em São Paulo ocorreu graças ao capital gerado pela economia cafeeira: o dinheiro do café financiou ferrovias e maquinários. Outras regiões também cresceram: o **boom da borracha** (1880–1910) modernizou Belém e Manaus, financiando obras como o Teatro do Amazonas; o Rio de Janeiro, capital da República, oferecia empregos no setor de serviços, portos e serviço público.
+
+A **política de substituição de importações**, acelerada durante a guerra, resultou em crescimento industrial — com queda em 1914 (−8,7%) seguida de expansão até 1919 (+14,8%) — embora as fábricas brasileiras ainda dependessem de tecnologias estrangeiras.
+
+---
+### **Bloco 3 — Poder e resistência nas cidades: anarquismo, socialismo e greves**
+Com o crescimento urbano, as cidades tornaram-se palco de intensa organização política. Imigrantes italianos e espanhóis trouxeram as ideias **anarquistas** — que pregavam o fim de toda hierarquia e a propriedade coletiva dos meios de produção — tornando o anarquismo o principal motor de organização operária nas primeiras décadas do século XX. O **socialismo**, por sua vez, chegou primeiro entre a elite intelectualizada, sendo difundido em eventos como a Revolução Praieira de 1848 (Pernambuco).
+
+Entre 1900 e 1920, cerca de **400 greves** ocorreram no Brasil. Os marcos foram: a primeira manifestação grevista no Rio de Janeiro em 1902 (fábrica de sapatos); a primeira greve multiprofissional em 1903; e a primeira greve geral em São Paulo em 1907, pela defesa das oito horas de trabalho. A resposta do governo foi repressiva: violência policial, expulsão de imigrantes acusados de anarquismo e a **Lei Adolfo Gordo** (1907–1919), que previa a expulsão de estrangeiros considerados ameaça à ordem.
+
+A partir de 1920, a divisão entre anarquistas e socialistas enfraqueceu o movimento, e em 1922 foi fundado o **Partido Comunista Brasileiro** por ex-anarquistas.
+
+---
+### **Bloco 4 — O Brasil na Primeira Guerra Mundial**
+O Brasil entrou no conflito em **outubro de 1917**, durante o governo de **Venceslau Brás**, após ataques alemães a navios brasileiros nas proximidades do Canal da Mancha. A participação foi limitada a quatro frentes: esquadrilha de patrulhamento com a Inglaterra; Divisão Naval de Operações de Guerra (litoral africano); envio de soldados para o *front* ocidental; e a Missão Médica Militar enviada à França em 1918.
+
+Apesar da participação modesta, as consequências diplomáticas foram relevantes: na **Conferência de Paris (1919)**, o Brasil participou das negociações do **Tratado de Versalhes**, recebeu navios mercantes alemães como reparação de guerra e ingressou na recém-criada **Sociedade das Nações** como membro não permanente do Conselho, com o apoio do presidente norte-americano **Woodrow Wilson**.
+
+---
 ## SEÇÃO 3 — PERSONAGENS E PENSADORES
-
-### Wenceslau Braz (1868–1966)
+### Venceslau Brás (chegou ao poder em 1914)
 **Origem:** Brasil (Minas Gerais)
-**Cargo:** Presidente do Brasil (1914–1918)
-**Papel histórico:** Governou o Brasil durante todo o período da Primeira Guerra Mundial. Sob sua presidência, o Brasil rompeu relações diplomáticas com a Alemanha após o afundamento de navios mercantes brasileiros, e em 26 de outubro de 1917 declarou guerra à Alemanha e à Áustria-Hungria.
-**Ações relevantes:** Declaração de guerra em 1917; envio de missão médica (FEM) e divisão naval (DNOG) à Europa.
-**Associado a:** entrada do Brasil na Primeira Guerra · 26 de outubro de 1917
-💡 **Pegadinha:** Wenceslau Braz é o presidente da *entrada* na guerra (1917), não do início da guerra (1914). O Brasil ficou neutro por três anos antes de entrar no conflito.
-
-### Epitácio Pessoa (1865–1942)
-**Origem:** Brasil (Paraíba)
-**Papel histórico:** Representou o Brasil nas conferências de paz após o fim da Primeira Guerra Mundial.
-**Associado a:** conferências de paz pós-guerra · diplomacia brasileira
-💡 **Para a aula:** Epitácio Pessoa mais tarde tornou-se presidente do Brasil (1919–1922) — a representação nas conferências de paz foi um trampolim político.
+**Papel histórico:** presidente do Brasil durante a Primeira Guerra Mundial
+**Ações ou decisões relevantes:** declarou guerra à Alemanha em 26 de outubro de 1917; enviou oficiais, soldados e a Missão Médica Militar à França; participou das negociações do Tratado de Versalhes
+**Associado a:** entrada do Brasil na Primeira Guerra Mundial; Conferência de Paris (1919)
+💡 **Pegadinha:** Muitos alunos confundem o motivo da entrada do Brasil na guerra — não foi em 1914 com o início do conflito, mas somente em 1917, após ataques alemães a navios brasileiros.
 
 ---
+### Adolfo Afonso da Silva Gordo (1907–1919)
+**Origem:** Brasil (São Paulo)
+**Papel histórico:** político paulista autor da legislação repressiva ao movimento operário imigrante
+**Ações ou decisões relevantes:** elaborou série de propostas de leis entre 1907 e 1919 para expulsar do Brasil imigrantes considerados ameaça à ordem
+**Associado a:** Lei Adolfo Gordo; repressão ao movimento operário
+💡 **Pegadinha:** A Lei Adolfo Gordo é frequentemente apresentada como "lei trabalhista", mas seu objetivo era o oposto — reprimir e desmobilizar trabalhadores imigrantes, não protegê-los.
 
+---
+### Woodrow Wilson
+**Origem:** Estados Unidos
+**Papel histórico:** presidente dos EUA durante a Primeira Guerra Mundial
+**Ações ou decisões relevantes:** apoiou o ingresso do Brasil na Sociedade das Nações como membro não permanente do Conselho
+**Associado a:** Conferência de Paris (1919); Tratado de Versalhes; Sociedade das Nações
+💡 **Pegadinha:** Wilson apoiou o Brasil na Sociedade das Nações, mas isso não significou que os EUA controlavam as decisões brasileiras — o Brasil negociou seus próprios interesses (café e navios).
+
+---
+### Nilo Peçanha
+**Origem:** Brasil
+**Papel histórico:** ministro das relações exteriores durante o governo Venceslau Brás
+**Ações ou decisões relevantes:** presente no ato de assinatura da declaração de guerra do Brasil à Alemanha em 1917
+**Associado a:** declaração de guerra de 1917
+
+---
+### Delfim Moreira
+**Origem:** Brasil (Minas Gerais)
+**Papel histórico:** presidente da província (equivalente a governador) de Minas Gerais
+**Ações ou decisões relevantes:** presente no ato de assinatura da declaração de guerra do Brasil à Alemanha em 1917
+**Associado a:** declaração de guerra de 1917
+
+---
+### Penélope (operária)
+**Origem:** Brasil (São Paulo)
+**Papel histórico:** operária citada nominalmente em documento de repressão policial durante a greve geral de 1917
+**Ações ou decisões relevantes:** participou ativamente de comícios durante a greve geral de 1917, discursando contra os patrões e as autoridades
+**Associado a:** greve geral de 1917; participação feminina no movimento operário
+💡 **Pegadinha:** O documento do inspetor afirma que as mulheres foram "manipuladas" pelos companheiros — mas a citação da própria operária Penélope como oradora ativa contradiz essa narrativa, evidenciando a autonomia feminina no movimento.
+
+---
 ## SEÇÃO 4 — CRONOLOGIA DO CAPÍTULO
-
 | Data | Evento | Local | Consequência imediata |
-|------|--------|-------|----------------------|
-| Início séc. XX | Urbanização e imigração aceleradas | Brasil | Surgimento de profissionais liberais; novas camadas urbanas |
-| 1914 | Início da Primeira Guerra Mundial | Europa | Crise do café; queda industrial de 8,7%; início da substituição de importações |
-| 1915 | Substituição de importações em marcha | Brasil | Crescimento industrial de 12,9%; queda agrícola de 0,9% |
-| 1916 | Continuidade da industrialização | Brasil | Crescimento industrial de 11,4%; crescimento agrícola de 4,2% |
-| 1917 | Crescimento industrial de 8,7%; Revolução Russa | Brasil/Rússia | Influência sobre o movimento operário brasileiro |
-| 1917 | Greve geral | Brasil | Repressão estatal; acirramento da luta de classes |
-| 1917 | Submarinos alemães afundam navios brasileiros (navio Paraná) | Atlântico | Brasil rompe relações com Alemanha |
-| 26/out/1917 | Brasil declara guerra à Alemanha e à Áustria-Hungria | Brasil | Envio de FEM e DNOG à Europa |
-| 1917–1920 | Intensificação das greves | Brasil | Lei Gordo; expulsão de lideranças imigrantes |
-| 1918 | Queda industrial de 1,1% | Brasil | Fim do ciclo de crescimento induzido pela guerra |
-| 1918 | Fim da Primeira Guerra Mundial | Europa | Retomada do comércio global; crise das indústrias de substituição |
-| 1919 | Crescimento industrial de 14,8%; queda agrícola de 4,3% | Brasil | Pico industrial; início do fechamento de fábricas abertas durante a guerra |
+|------|--------|-------|-----------------------|
+| 1848 | Revolução Praieira | Pernambuco, Brasil | Difusão do socialismo no Brasil |
+| 1880–1910 | *Boom* da borracha | Amazonas e Pará, Brasil | Modernização de Belém e Manaus; construção do Teatro do Amazonas |
+| 1890–1900 | Crescimento urbano de São Paulo | São Paulo, Brasil | Cidade passa de 64 mil para 239 mil habitantes |
+| Meados séc. XIX | Chegada do anarquismo ao Brasil | Brasil | Organização operária nas primeiras décadas do séc. XX |
+| 2ª metade séc. XIX | Surgimento de grupos socialistas | Santos, RJ, SP, Porto Alegre, Curitiba, Fortaleza | Politização dos trabalhadores urbanos |
+| Final séc. XIX | Fundação da Colônia Cecília | Palmeira, Paraná | Experiência concreta de comunidade anarquista com propriedade coletiva da terra |
+| 1900–1920 | Ciclo de greves operárias (~400 greves) | Brasil | Repressão sistemática; expulsão de imigrantes; formação do PCB em 1922 |
+| 1902 | Primeira manifestação grevista no RJ | Rio de Janeiro | Expansão das greves para outros setores |
+| 1903 | Primeira greve multiprofissional | Rio de Janeiro | Reprimida pela polícia |
+| 1904 | Greve da Cia. Docas de Santos | Santos (SP) e Rio de Janeiro | Articulação entre trabalhadores de diferentes cidades |
+| 1906 | Greve ferroviária | São Paulo | Visibilidade das condições precárias dos operários ferroviários |
+| 1907 | Primeira greve geral em São Paulo | SP, Santos, Ribeirão Preto, Campinas | Difusão do movimento; ~2 mil operários; Lei Adolfo Gordo como resposta |
+| 1907–1919 | Lei Adolfo Gordo | Brasil | Expulsão de imigrantes considerados "ameaça à ordem" |
+| 1914 | Início da Primeira Guerra Mundial; Venceslau Brás assume o poder | Brasil / Europa | Impacto inicial negativo na economia brasileira (−8,7% na produção industrial) |
+| 1914–1918 | Período da Primeira Guerra; substituição de importações | Brasil | Expansão da pequena indústria; crescimento econômico moderado |
+| 1917 (26 out.) | Brasil declara guerra à Alemanha | Brasil | Fim da neutralidade; participação militar limitada ao lado dos Aliados |
+| 1917–1920 | Intensificação das greves | Brasil | Solidariedade internacional; contexto da Revolução Russa |
+| 1918 | Envio da Missão Médica Militar à França | França | Apoio humanitário aos Aliados |
+| 1919 (jan.) | Conferência de Paris / Tratado de Versalhes | Paris, França | Brasil recebe navios alemães; ingressa na Sociedade das Nações |
+| 1922 | Fundação do Partido Comunista Brasileiro | Brasil | Redução da influência anarquista no movimento operário |
+| A partir de 1920 | Declínio das mobilizações operárias | Brasil | Estado passa a legislar sobre trabalho para controlar, não para melhorar condições |
 
 ---
-
 ## SEÇÃO 5 — CAUSAS E CONSEQUÊNCIAS
-
-### Substituição de importações e industrialização durante a guerra
-**Causas estruturais:** economia brasileira dependente do café; ausência de base industrial sólida; mão de obra imigrante disponível nas cidades.
-**Causas imediatas:** Primeira Guerra Mundial interrompe o comércio global; mercados europeus fechados; queda das exportações de café.
-**Desenvolvimento:** capital acumulado pelo café financiou expansão industrial; imigrantes compuseram o operariado; indústrias se expandiram principalmente em São Paulo.
-**Consequências de curto prazo:** crescimento industrial entre 1915–1917; surgimento de novos grupos sociais urbanos.
-**Consequências de longo prazo:** após a guerra, grande parte das indústrias fechou; as que sobreviveram estabeleceram São Paulo como polo industrial; pequeno crescimento econômico duradouro.
-**Países/regiões afetados:** principalmente São Paulo e Rio de Janeiro.
-💡 **Pegadinha:** A industrialização durante a guerra foi FRÁGIL — não foi uma revolução industrial consolidada. Muitas fábricas abriram para suprir a demanda de guerra e fecharam logo após. Não confundir com a industrialização pesada dos anos Vargas (1930s+).
-
-### Movimento operário e repressão estatal
-**Causas estruturais:** condições precárias de trabalho; ausência de legislação trabalhista; influência do anarquismo europeu trazido por imigrantes.
-**Causas imediatas:** Revolução Russa de 1917 inspira trabalhadores; inflação e deterioração das condições de vida durante a guerra.
-**Desenvolvimento:** formação de sociedades de resistência e sindicatos; greve geral de 1917; governo responde com prisões, dissolução de greves e Lei Gordo.
-**Consequências de curto prazo:** repressão às lideranças; expulsão de imigrantes militantes; enfraquecimento temporário do movimento.
-**Consequências de longo prazo:** consciência de classe operária consolidada; base para futura legislação trabalhista (décadas depois, no governo Vargas).
-💡 **Pegadinha:** O movimento operário brasileiro desta época era dominado pelo **anarquismo**, não pelo comunismo. O Partido Comunista Brasileiro (PCB) só foi fundado em 1922. Em prova, afirmar que os operários de 1917 eram "comunistas" é ERRO.
-
-### Entrada do Brasil na Primeira Guerra Mundial
-**Causas imediatas:** afundamento de navios mercantes brasileiros por submarinos alemães; ataque ao navio Paraná.
-**Desenvolvimento:** Brasil rompe relações diplomáticas com Alemanha; em 26/out/1917, declara guerra à Alemanha e Áustria-Hungria; envia FEM (missão médica) e DNOG (divisão naval) à Europa.
-**Consequências de curto prazo:** participação simbólica nas forças aliadas; representação nas conferências de paz.
-**Consequências de longo prazo:** maior inserção do Brasil no cenário diplomático internacional; Epitácio Pessoa nas conferências de paz.
+### Industrialização brasileira no início do século XX
+**Causas estruturais:** capital excedente da exportação do café; chegada de imigrantes europeus com experiência fabril e contato com empresas europeias; desenvolvimento do capitalismo que proporcionou acúmulo de riquezas
+**Causas imediatas:** investimento em ferrovias para transportar o café; compra de maquinários industriais com capital cafeeiro; bloqueio do comércio global pela Primeira Guerra; política de substituição de importações
+**Desenvolvimento:** crescimento concentrado em São Paulo (17% → 32% da produção nacional entre 1907 e 1920); cidades cresceram ~5% ao ano; em 1907 havia 3 258 indústrias e ~149 mil operários; fábricas dependiam de tecnologias estrangeiras
+**Consequências de curto prazo:** pequeno crescimento econômico; maioria das indústrias criadas na guerra fechou após o conflito
+**Consequências de longo prazo:** indústrias remanescentes concentraram-se em São Paulo; aumento do contingente de comerciantes, artesãos e industriais de menor porte
+**Países/regiões afetados:** São Paulo (maior crescimento); Distrito Federal/RJ (33% → 21%); Rio Grande do Sul (15% → 11%); Belém e Manaus (via borracha)
+💡 **Pegadinha:** São Paulo **ultrapassou** o Distrito Federal (RJ) na concentração industrial entre 1907 e 1920 — muitos alunos imaginam que o RJ sempre foi o maior polo industrial, mas os dados mostram que SP assumiu a liderança.
 
 ---
+### Formação do movimento operário e ciclo de greves (1900–1920)
+**Causas estruturais:** crescimento urbano e concentração de trabalhadores; influência de imigrantes com experiência em lutas trabalhistas europeias; difusão das ideias anarquistas e socialistas
+**Causas imediatas:** abusos cotidianos dos patrões; redução de salários; inflação causada pela Primeira Guerra; solidariedade com operários de outras nações e com a Revolução Russa
+**Desenvolvimento:** ~400 greves entre 1900 e 1920; primeiras em 1902 (calçados, RJ); expansão para múltiplos setores; greve geral em SP (1907); intensificação entre 1917 e 1920
+**Consequências de curto prazo:** repressão sistemática (violência policial, Lei Adolfo Gordo); expulsão de imigrantes; trabalhadores presos e espancados
+**Consequências de longo prazo:** fundação do PCB em 1922; divisão anarquistas × socialistas reduziu mobilizações; Estado passou a legislar sobre trabalho mais para controlar do que para proteger
+**Países/regiões afetados:** Rio de Janeiro, São Paulo, Santos, Ribeirão Preto, Campinas, Porto Alegre, Curitiba, Fortaleza
+💡 **Pegadinha:** A maioria dos trabalhadores **não queria uma revolução** — desejava uma sociedade mais igualitária. Confundir o movimento operário brasileiro com propostas revolucionárias radicais é um erro comum.
 
+---
+### Entrada do Brasil na Primeira Guerra Mundial (1917)
+**Causa imediata:** ataques alemães a navios brasileiros nas proximidades do Canal da Mancha
+**Desenvolvimento:** declaração de guerra em 26/10/1917; envio de oficiais para esquadrilha com a Inglaterra; criação da Divisão Naval de Operações de Guerra (litoral africano); envio de soldados para o *front* ocidental; Missão Médica Militar à França (1918)
+**Consequências de curto prazo:** fim da neutralidade brasileira; participação nas negociações de Versalhes
+**Consequências de longo prazo:** recebimento de navios mercantes alemães como reparação; ingresso na Sociedade das Nações como membro não permanente do Conselho; aumento do prestígio diplomático do Brasil
+💡 **Pegadinha:** O Brasil entrou na guerra em **1917**, não em 1914. A neutralidade durou três anos. Muitos alunos confundem a data de início do conflito com a data de entrada do Brasil.
+
+---
+### Impacto da Primeira Guerra na economia brasileira
+**Causas:** bloqueio das exportações e importações em quase todo o mundo; queda do preço do café; interrupção do comércio global
+**Desenvolvimento:** impacto inicial negativo (queda de 8,7% na produção industrial em 1914); crescimento a partir de 1915 pela substituição de importações; indústria atendeu mercados internos e da América Latina, África e Europa
+**Consequências:** pequeno crescimento econômico durante a guerra; fechamento de grande parte das indústrias após o conflito; remanescentes cresceram principalmente em São Paulo
+💡 **Pegadinha:** O impacto inicial da guerra foi **negativo** para a indústria (−8,7% em 1914). Só a partir de 1915 o crescimento se acelerou. Alunos frequentemente assumem que a guerra foi imediatamente benéfica para a indústria brasileira.
+
+---
 ## SEÇÃO 6 — DADOS HISTÓRICOS DENSOS
+### Concentração da produção industrial nacional — 1907 e 1920
+| Estado | 1907 | 1920 | Pegadinha |
+|--------|:----:|:----:|-----------|
+| Distrito Federal (RJ) | 33% | 21% | Maior polo em 1907, mas perdeu participação |
+| São Paulo | 17% | 32% | **Ultrapassou o RJ** — crescimento mais expressivo |
+| Rio Grande do Sul | 15% | 11% | Também perdeu participação relativa |
 
-### Tabela 1 — Produção industrial e agrícola brasileira (1914–1919)
-
-| Ano | Produção industrial | Produção agrícola | ⚠️ Pegadinha |
-|-----|---------------------|-------------------|-------------|
-| 1914 | Queda de 8,7% | Crescimento de 6,7% | Início da guerra derruba industria antes de ela reagir |
-| 1915 | Crescimento de 12,9% | Queda de 0,9% | Substituição começa: indústria sobe, agrícola cai |
-| 1916 | Crescimento de 11,4% | Crescimento de 4,2% | Ambos crescem — pico do ciclo |
-| 1917 | Crescimento de 8,7% | Crescimento de 3,6% | Ano da greve geral; indústria ainda cresce |
-| 1918 | Queda de 1,1% | Crescimento de 3% | Guerra termina; indústria começa a recuar |
-| 1919 | Crescimento de 14,8% | Queda de 4,3% | Último pico industrial; muitas fábricas fecharão logo após |
-
-Fonte: Gustavo H. B. Franco; Luiz Aranha Corrêa Lago. O processo econômico. In: Lilia M. Schwarcz (coord.). *A abertura para o mundo*: 1889-1930. Madrid: Fundación Mapfre; Rio de Janeiro: Objetiva. v. 3. p. 208. (História do Brasil nação: 1808-2010).
+Fonte: Boris Fausto. *História concisa do Brasil*. 2. ed. São Paulo: Edusp, 2014. p. 162.
 
 ---
+### Variação da produção industrial e agrícola brasileira — 1914 a 1919
+| Ano | Produção industrial | Produção agrícola | Pegadinha |
+|:---:|:-------------------:|:-----------------:|-----------|
+| 1914 | Queda de 8,7% | Crescimento de 6,7% | Impacto inicial da guerra foi **negativo** para a indústria |
+| 1915 | Crescimento de 12,9% | Queda de 0,9% | Recuperação industrial rápida |
+| 1916 | Crescimento de 11,4% | Crescimento de 4,2% | — |
+| 1917 | Crescimento de 8,7% | Crescimento de 3,6% | — |
+| 1918 | Queda de 1,1% | Crescimento de 3% | Nova queda industrial no último ano da guerra |
+| 1919 | Crescimento de 14,8% | Queda de 4,3% | Maior crescimento industrial do período, pós-guerra |
 
+Fonte: Gustavo H. B. Franco; Luiz Aranha Corrêa Lago. O processo econômico. *In*: Lilia M. Schwarcz (coord.). *A abertura para o mundo*: 1889-1930. Madrid: Fundación Mapfre; Rio de Janeiro: Objetiva. v. 3. p. 208.
+
+---
+### Síntese da participação brasileira na Primeira Guerra
+| Frente de atuação | Descrição | Parceiro |
+|-------------------|-----------|----------|
+| Esquadrilha de patrulhamento | Envio de oficiais à Europa | Inglaterra |
+| Divisão Naval de Operações de Guerra | Patrulhamento do litoral ocidental africano | Marinha inglesa |
+| *Front* ocidental | Envio de soldados para combate | França |
+| Missão Médica Militar (1918) | Tratamento de feridos na França | França (Aliados) |
+
+---
 ## SEÇÃO 7 — DICAS DE OURO
-
 💡 **Dica 1 — O Brasil entrou na guerra em 1917, não em 1914**
-Erro clássico: confundir o início da guerra (1914) com a entrada do Brasil (1917). O Brasil ficou neutro por três anos. Só entrou após o afundamento de navios mercantes por submarinos alemães. A data exata: **26 de outubro de 1917**. Em prova, qualquer afirmação que coloque o Brasil como participante ativo desde 1914 é FALSA.
+A Primeira Guerra começou em 1914, mas o Brasil manteve neutralidade por três anos. Somente após ataques alemães a navios brasileiros nas proximidades do Canal da Mancha, em 1917, Venceslau Brás declarou guerra à Alemanha em 26 de outubro. Cuidado para não confundir o início do conflito mundial com o ingresso do Brasil.
 
-💡 **Dica 2 — Substituição de importações ≠ industrialização consolidada**
-A industrialização durante a guerra foi oportunista e frágil. Muitas fábricas abriram para suprir demanda de guerra e fecharam logo após. Não foi uma revolução industrial — foi um "pequeno crescimento econômico". Em dissertativa, nunca dizer "a Primeira Guerra industrializou o Brasil"; dizer "criou condições para um primeiro surto industrial, mas limitado".
+💡 **Dica 2 — São Paulo ultrapassou o Rio de Janeiro como polo industrial**
+Em 1907, o Distrito Federal (RJ) concentrava 33% da produção industrial nacional contra apenas 17% de São Paulo. Em 1920, a situação se inverteu: SP chegou a 32% e o RJ caiu para 21%. Essa inversão é frequente em questões de prova e pega muitos alunos desprevenidos.
 
-💡 **Dica 3 — O movimento operário de 1917 era anarquista, não comunista**
-O PCB (Partido Comunista Brasileiro) só foi fundado em 1922. Em 1917, o movimento operário era dominado pelo anarquismo, trazido por imigrantes europeus (italianos, espanhóis). Afirmar que os grevistas de 1917 eram comunistas é anacronismo — erro frequente em prova.
+💡 **Dica 3 — A Lei Adolfo Gordo reprimia, não protegia os trabalhadores**
+Apesar do nome associado à legislação trabalhista, a Lei Adolfo Gordo não criou direitos — pelo contrário, permitia expulsar imigrantes considerados "ameaça à ordem". Era uma ferramenta de repressão ao movimento operário, não de proteção social.
 
-💡 **Dica 4 — Lei Gordo: ferramenta de repressão ao operariado imigrante**
-A Lei de Expulsão de Estrangeiros (chamada "Lei Gordo") não era uma lei de imigração comum — era uma ferramenta política para desarticular o movimento operário. Como a maioria das lideranças era de imigrantes europeus, expulsá-los era esvaziar a organização dos trabalhadores. Em prova: questão sobre a "relação entre a lei e o movimento operário" tem resposta nessa lógica.
+💡 **Dica 4 — O impacto inicial da guerra foi negativo para a indústria**
+Em 1914, a produção industrial brasileira caiu 8,7%. Apenas a partir de 1915 o crescimento se acelerou pela substituição de importações. Não confunda: a guerra não foi imediatamente boa para a indústria — o bloqueio do comércio global teve impacto negativo antes de gerar estímulo à produção interna.
 
-💡 **Dica 5 — Coronelismo e urbanização coexistiram sem contradição**
-O fato de as cidades crescerem não eliminou o coronelismo. Ao contrário: durante a Primeira República, o coronelismo se expandiu e o voto de cabresto neutralizou os novos grupos urbanos. Modernização das cidades ≠ democratização política. Em prova, afirmar que o crescimento urbano enfraqueceu automaticamente o coronelismo é ERRO.
+💡 **Dica 5 — Anarquismo não é caos; socialismo não é comunismo**
+O livro é explícito: "anarquismo não é ausência de ordem, é ausência de opressão." Já o socialismo é descrito como a fase anterior ao comunismo, não como sinônimo dele. Confundir os dois pares é um erro clássico em questões conceituais.
 
-💡 **Dica 6 — Wenceslau Braz declarou a guerra, mas a participação foi simbólica**
-O Brasil declarou guerra mas enviou uma missão médica e uma divisão naval — não um exército de combate terrestre. A participação foi mais diplomática e simbólica do que militar. Não confundir com a Segunda Guerra, quando o Brasil enviou a FEB (Força Expedicionária Brasileira) para lutar na Itália.
+💡 **Dica 6 — A maioria dos grevistas queria igualdade, não revolução**
+O texto do capítulo sublinha que "a maioria dos trabalhadores envolvidos no movimento trabalhista desejava uma sociedade mais igualitária, e não uma revolução." Questões que apresentam o movimento operário brasileiro como revolucionário ou violento por natureza tendem a ser incorretas segundo o material.
 
 ---
-
 ## SEÇÃO 8 — ALERTAS DE INCONSISTÊNCIA
-
-### GAPS — his-1-7
-
-#### INFERÊNCIAS USADAS NO PREP
-
-| Seção | Campo | Valor inferido | Base da inferência |
-|-------|-------|---------------|-------------------|
-| Seção 3 | Ano de nascimento de Wenceslau Braz | 1868 | Conhecimento histórico geral; não citado no material |
-| Seção 3 | Datas de Epitácio Pessoa | 1865–1942 | Conhecimento histórico geral; não citado no material |
-
-#### DADOS AUSENTES — AÇÃO NECESSÁRIA
-
-| Seção | Campo | Motivo | Ação |
-|-------|-------|--------|------|
-| Seção 11 | QC-1 (UEPG) — alternativas completas | Texto muito pequeno em his-1-7-12.png | Abrir imagem original para transcrição antes da aula |
-| Seção 11 | QC-2 (UEPG) — alternativas completas | Texto muito pequeno em his-1-7-12.png | Abrir imagem original para transcrição antes da aula |
-| Seção 11 | QC-3 (FUVEST 2015) — enunciado e alternativas | Texto muito pequeno em his-1-7-13.png | Abrir imagem original para transcrição antes da aula |
-| Seção 11 | Q-1 — enunciado e alternativas completos | Texto ilegível em his-1-7-12.png | Abrir imagem original antes da aula |
-| Seção 11 | Gabaritos QC-1, QC-2, QC-3, Q-1 | Dependem da transcrição completa | Resolver após transcrição |
-| Seção 6 | Tabela de população de São Paulo por distrito | Texto ilegível em his-1-7-02.png e his-1-7-04.png | Rever imagens originais; tabela aparece nas páginas 122–124 |
-| Seção 2 | Seção "Reflexão" (his-1-7-10.png) | Texto ilegível | Transcrever antes da aula; são perguntas de síntese do capítulo |
-
-⚠️ **ALERTA — Q-3 (charge): imagem necessária para a questão**
-- A questão Q-3 pede análise de uma charge/ilustração política (his-1-7-13.png).
-- A charge está ilegível na imagem capturada.
-- Impacto: a questão não pode ser trabalhada sem a imagem. Abrir imagem original antes da aula.
+```
+# GAPS — his-1-7
+## INFERÊNCIAS USADAS NO PREP
+| Seção | Campo | Valor inferido | Fonte da inferência |
+|-------|-------|---------------|---------------------|
+| Seção 3 (Woodrow Wilson) | Período presidencial | Durante a Primeira Guerra Mundial | Contexto histórico geral — não citado explicitamente no material |
+| Seção 4 | "Meados do século XIX" para chegada do anarquismo | Inferido do texto "em meados do século XIX" | Material capturado |
+## DADOS AUSENTES — AÇÃO NECESSÁRIA
+| Seção | Campo | Motivo da ausência | Ação recomendada |
+|-------|-------|-------------------|--------------------|
+| Seção 10 | Síntese do livro (pág. 134) | Imagem da Síntese contém lacunas com texto ilegível ou incompleto | Ver análise da Seção 10 abaixo |
+```
 
 ---
-
-## SEÇÃO 9 — SÍNTESE DO CAPÍTULO
-
+## SEÇÃO 9 — SÍNTESE DO CAPÍTULO (para warm-up)
 #### Bloco 1 — Conceitos e Definições
-
 - **Substituição de importações**
-  - Causa principal: `______` (*Primeira Guerra Mundial interrompe o comércio global*)
-  - Capital veio de: `______` (*exportação do café*)
-  - Mão de obra: `______` (*imigrantes europeus*)
+  - Definição: `______` (política pela qual bens antes importados passaram a ser produzidos no Brasil, praticada principalmente durante a Primeira Guerra Mundial)
+  - Exemplo histórico: `______` (expansão da pequena indústria e do pequeno comércio durante o bloqueio do comércio global em 1914–1918)
+- **Voto de cabresto**
+  - Definição: `______` (controle do voto pelos coronéis em correlação com o governo, limitando a participação política dos grupos urbanos)
+  - Exemplo histórico: `______` (expandiu-se durante a Primeira República paralelamente ao crescimento das cidades)
+- **Anarquismo**
+  - Definição: `______` (sistema político e filosófico que descarta toda forma de hierarquia e defende o fim da propriedade privada dos meios de produção)
+  - Exemplo histórico: `______` (Colônia Cecília, Palmeira/PR; jornal *A terra livre*, SP, 1907)
+- **Lei Adolfo Gordo**
+  - Definição: `______` (série de propostas de leis entre 1907 e 1919 para expulsar imigrantes considerados ameaça à ordem, visando desmobilizar o movimento operário)
+  - Exemplo histórico: `______` (imigrantes expulsos do Brasil sob alegação de serem "anarquistas e baderneiros")
 
-- **Coronelismo e voto de cabresto**
-  - Coronelismo: poder dos `______` sobre populações locais (*coronéis / grandes proprietários rurais*)
-  - Voto de cabresto: controle do `______` dos trabalhadores rurais (*voto*)
-  - Efeito nas cidades: `______` (*neutralizou a participação dos novos grupos urbanos*)
-
-- **Anarquismo no Brasil**
-  - Quem trouxe: `______` (*imigrantes europeus*)
-  - Principal movimento influenciado: `______` (*movimento operário*)
-  - Lei para combatê-lo: `______` (*Lei de Expulsão de Estrangeiros / Lei Gordo*)
-
-- **Entrada do Brasil na guerra**
-  - Causa imediata: `______` (*afundamento de navios mercantes por submarinos alemães*)
-  - Data da declaração de guerra: `______` (*26 de outubro de 1917*)
-  - Presidente: `______` (*Wenceslau Braz*)
-
+---
 #### Bloco 2 — Cronologia e Personagens
+- **Entrada do Brasil na Primeira Guerra Mundial**
+  - Data: `______` (26 de outubro de 1917)
+  - Local: `______` (declaração em território brasileiro; conflito no Canal da Mancha)
+  - Consequência principal: `______` (participação nas negociações do Tratado de Versalhes; ingresso na Sociedade das Nações)
+- **Primeira greve geral em São Paulo**
+  - Data: `______` (1907)
+  - Reivindicação: `______` (defesa das oito horas de trabalho)
+  - Consequência principal: `______` (difusão do movimento para Santos, Ribeirão Preto e Campinas; resposta repressiva do governo)
+- **Venceslau Brás**
+  - Cargo: `______` (presidente do Brasil)
+  - Principal decisão no capítulo: `______` (declarou guerra à Alemanha em outubro de 1917 ao lado dos Aliados)
+- **Adolfo Afonso da Silva Gordo**
+  - Papel: `______` (político paulista autor da Lei Adolfo Gordo)
+  - Objetivo da lei: `______` (expulsar imigrantes considerados ameaça à ordem para desmobilizar o movimento operário)
 
-- **1914**: `______` (*início da Primeira Guerra; crise do café; queda industrial de 8,7%*)
-- **1917 (greve)**: `______` (*greve geral no Brasil; influência da Revolução Russa*)
-- **26/out/1917**: `______` (*Brasil declara guerra à Alemanha e Áustria-Hungria*)
-- **1919**: produção industrial cresce `______` % (*14,8*)
-
-- Presidente do Brasil durante a guerra: `______` (*Wenceslau Braz*)
-- Representou o Brasil nas conferências de paz: `______` (*Epitácio Pessoa*)
-
+---
 #### Bloco 3 — Lacunas para Warm-Up
+1. A política de `______` consistia em produzir internamente bens que antes eram importados, sendo praticada principalmente durante a Primeira Guerra Mundial.
+*(resposta: substituição de importações)*
+2. O *boom* da borracha, entre 1880 e 1910, modernizou principalmente as cidades de `______` e `______`, no Amazonas e no Pará.
+*(resposta: Belém e Manaus)*
+3. Em 1907, a concentração da produção industrial nacional no Distrito Federal (RJ) era de `______`%, enquanto São Paulo respondia por `______`%.
+*(resposta: 33% e 17%)*
+4. O Brasil declarou guerra à Alemanha em `______` de 1917, após ataques alemães a navios brasileiros nas proximidades do `______`.
+*(resposta: outubro / Canal da Mancha)*
+5. O anarquismo chegou ao Brasil principalmente por meio de imigrantes `______` e `______` em meados do século XIX.
+*(resposta: italianos e espanhóis)*
+6. A Lei `______`, elaborada entre 1907 e 1919, tinha como objetivo expulsar do Brasil os imigrantes considerados uma ameaça à ordem.
+*(resposta: Adolfo Gordo)*
+7. Em 1919, o maior crescimento da produção industrial brasileira no período da guerra foi de `______`%, enquanto a produção agrícola caiu `______`%.
+*(resposta: 14,8% / 4,3%)*
+8. O Partido Comunista Brasileiro foi fundado em `______`, por `______`.
+*(resposta: 1922 / ex-anarquistas)*
 
-1. O processo pelo qual o Brasil passou a produzir internamente o que antes importava, durante a Primeira Guerra, chama-se `______`. *(substituição de importações)*
-
-2. O capital que financiou a industrialização durante a guerra veio principalmente da exportação do `______`. *(café)*
-
-3. O sistema político pelo qual fazendeiros controlavam os votos dos trabalhadores rurais na Primeira República chama-se `______`. *(voto de cabresto)*
-
-4. A corrente política que dominava o movimento operário brasileiro em 1917 era o `______`, não o comunismo. *(anarquismo)*
-
-5. A Lei `______` permitia ao governo expulsar imigrantes estrangeiros que participassem de movimentos políticos, visando desarticular o movimento operário. *(de Expulsão de Estrangeiros / Lei Gordo)*
-
-6. O Brasil declarou guerra à Alemanha em `______` de 1917, após o afundamento de navios mercantes por submarinos alemães. *(26 de outubro)*
-
-7. O Brasil enviou à Europa uma missão médica chamada `______` e uma divisão naval chamada `______`. *(FEM / DNOG)*
-
-8. Em 1919, a produção industrial brasileira cresceu `______`%, enquanto a produção agrícola caiu `______`%. *(14,8 / 4,3)*
-
+---
 #### Bloco 4 — Tabela Síntese
-
 | Conceito / Evento | Lacuna — resposta esperada |
 |---|---|
-| Substituição de importações | Causa: `______`; capital de: `______` → *guerra / café* |
-| Voto de cabresto | Controlava o `______` dos trabalhadores rurais → *voto* |
-| Greve geral | Ano: `______`; influência externa: `______` → *1917 / Revolução Russa* |
-| Anarquismo no operariado | Trazido por: `______`; combatido pela: `______` → *imigrantes europeus / Lei Gordo* |
-| Wenceslau Braz | Declarou guerra em: `______` → *26 de outubro de 1917* |
-| Produção industrial 1914 | Variação: `______` → *queda de 8,7%* |
-| Produção industrial 1919 | Variação: `______` → *crescimento de 14,8%* |
-| Participação do Brasil | Enviou: `______` e `______` → *FEM (missão médica) / DNOG (divisão naval)* |
+| Política de substituição de importações | Produzir `______` bens antes importados → *internamente no Brasil, durante a Primeira Guerra* |
+| Crescimento de São Paulo (1890–1900) | De `______` para `______` habitantes → *64 mil para 239 mil* |
+| Participação do Brasil na 1ª Guerra | Data de entrada: `______` → *26 de outubro de 1917* |
+| Causa imediata da entrada na guerra | `______` a navios brasileiros → *ataques alemães nas proximidades do Canal da Mancha* |
+| Queda industrial em 1914 | `______`% → *8,7%* |
+| Maior crescimento industrial (1914–1919) | Ano: `______` / Taxa: `______` → *1919 / 14,8%* |
+| Lei Adolfo Gordo | Objetivo: `______` → *expulsar imigrantes considerados ameaça à ordem para desmobilizar o movimento operário* |
+| Fundação do PCB | Ano: `______` / Por: `______` → *1922 / ex-anarquistas* |
+| Pegadinha — polo industrial | Em 1920, `______` ultrapassou `______` na concentração industrial → *São Paulo ultrapassou o Distrito Federal (RJ)* |
+| Consequência diplomática da guerra | Brasil ingressou na `______` como membro `______` → *Sociedade das Nações / não permanente do Conselho* |
 
 ---
-
 ## SEÇÃO 10 — SÍNTESE DO LIVRO
-
 ### Síntese do Livro — O BRASIL NO CONTEXTO DA PRIMEIRA GUERRA MUNDIAL
-
-*Reconstituição do diagrama his-1-7-sintese.png*
-
-| Nó / Posição | Já dado | Lacuna — resposta esperada |
+| Nó / Posição | Já dado no impresso | Lacuna — resposta esperada |
 |---|---|---|
-| Título central | O Brasil no contexto da Primeira Guerra Mundial | — |
-| Ramo 1 | Impacto do [preço do] café | Causas: `______`, `______` → *secas contínuas / flutuação do preço* |
-| Sub-ramo 1.1 | Crise da economia agrário-exportadora | — |
-| Ramo 2 | Urbanização da população | Agente: `______`; resultado: `______` → *imigração europeia / novos grupos sociais urbanos* |
-| Sub-ramo 2.1 | Entrada da população imigrante | — |
-| Sub-ramo 2.2 | Desenvolvimento urbano acelerado | Limitação política: `______` → *coronelismo / voto de cabresto* |
-| Ramo 3 | Industrialização | — |
-| Sub-ramo 3.1 | Condições que propiciaram | `______` e `______` → *substituição de importações / capital do café* |
-| Sub-ramo 3.2 | Consequências | `______` → *pequeno crescimento econômico; muitas fábricas fecharam após a guerra* |
-| Ramo 4 | Participação do Brasil na Primeira Guerra | — |
-| Sub-ramo 4.1 | Entrada do Brasil na guerra | Causa: `______`; data: `______` → *afundamento de navios / 26 de outubro de 1917* |
-| Sub-ramo 4.2 | Missões enviadas à Europa | `______` e `______` → *FEM (missão médica) / DNOG (divisão naval)* |
+| Nó central | O Brasil no contexto da Primeira Guerra Mundial | — (título dado) |
+| Ramo esquerdo superior — tema | impacto da vinda de | `______` → *imigrantes* |
+| Ramo esquerdo inferior — subtema 1 | Industrialização | — (dado) |
+| Sub-bullet Industrialização 1 | Condição dos trabalhadores | — (dado) |
+| Sub-bullet Industrialização 2 | Ideais socialistas e anarquistas | — (dado) |
+| Sub-bullet Industrialização 3 | Greve de | `______` → *1907 (primeira greve geral em São Paulo)* |
+| Ramo direito superior — tema | crescimento da população | — (dado) |
+| Ramo direito inferior — subtema | Participação do Brasil na Primeira Guerra | — (dado) |
+| Sub-bullet Participação | Envio de suprimentos aos aliados da Entente | — (dado) |
 
 ---
-
 ## SEÇÃO 11 — QUESTÕES DE REFERÊNCIA
-
 #### Bloco A — Catálogo das questões
-
 | # | Enunciado resumido | Tipo | Dif. | Origem | Gabarito | Obs. |
 |---|---|---|---|---|---|---|
-| QI-1 | O Brasil republicano passou por modernização? Por quê? | Dis | M | IC pág. 121 | Sim, parcialmente: urbanização e crescimento industrial, mas com exclusão política via coronelismo | — |
-| QI-2 | O Brasil republicano era mais justo que o imperial? | Dis | M | IC pág. 121 | Não: coronelismo e voto de cabresto mantiveram exclusão; novos grupos urbanos foram neutralizados | — |
-| QI-3 | Relação entre crescimento urbano e concentração em São Paulo | Dis | F | IC pág. 124 | Substituição de importações atraiu imigrantes e capital para SP; industrialização concentrou população | — |
-| QI-4a | Relação entre movimento operário e governo na 1ª República | Dis | M | IC pág. 126 | Conflituosa: governo reprimia greves, usava Lei Gordo para expulsar lideranças | — |
-| QI-4b | Situação dos trabalhadores hoje é diferente? | Dis | F | IC pág. 126 | Dissertativa aberta; espera-se citação de CLT, direitos trabalhistas conquistados | — |
-| QI-4c | Lei Gordo e desmobilização do movimento operário | Dis | M | IC pág. 126 | Maioria das lideranças era imigrante; expulsão esvaziava organização sem confronto direto | — |
-| Q-1 | Primeira República e modernização do Brasil | MC | M | AT pág. 132 | ⚠️ VER IMAGEM his-1-7-12 | enunciado e alternativas ilegíveis |
-| QC-1 | UEPG: participação do Brasil na 1ª Guerra e movimento operário | MC | M | AT pág. 132 | ⚠️ VER IMAGEM his-1-7-12 | alternativas ilegíveis |
-| QC-2 | UEPG: movimento operário e legislação | MC | M | AT pág. 132 | ⚠️ VER IMAGEM his-1-7-12 | alternativas ilegíveis |
-| Q-2 | Tabela 1914–1919: descreva aspectos da economia brasileira | Dis | M | AT pág. 131 | Queda inicial em 1914; crescimento industrial durante guerra (substituição); queda após 1918; pico em 1919 | — |
-| QC-3 | FUVEST 2015: Brasil na 1ª Guerra | MC | M | AT pág. 133 | ⚠️ VER IMAGEM his-1-7-13 | enunciado e alternativas ilegíveis |
-| Q-3 | Análise de charge sobre a Primeira República | Img | M | AT pág. 133 | ⚠️ VER IMAGEM his-1-7-13 | charge ilegível na captura |
-| Q-4 | A economia brasileira sofreu impacto da 1ª Guerra? Explique | Dis | M | AT pág. 133 | Sim: crise do café + substituição de importações → crescimento industrial frágil durante a guerra | — |
+| QI-1 | O Brasil passou por modernização após a Proclamação da República? | Dis | M | IC | Sim, com ressalvas — crescimento urbano e industrial, mas coronelismo e voto de cabresto limitaram a modernização política | — |
+| QI-2 | O Brasil republicano era mais justo que o imperial? | Dis | M | IC | Não necessariamente — elitismo persistiu; greves reprimidas; coronelismo limitou participação popular | — |
+| QI-3 | Fatores que levaram o governo a incentivar imigrantes | Dis | F | IC | Mão de obra para lavoura cafeeira e fábricas; experiência industrial dos imigrantes europeus | — |
+| QI-4 | Motivo do crescimento industrial de São Paulo (tabela) | Dis | M | IC | Capital cafeeiro; investimento em ferrovias; compra de maquinários; política de substituição de importações → SP passou de 17% para 32% | — |
+| QI-5 | Relação Manaus × desenvolvimento industrial do mundo | Dis | M | IC | *Boom* da borracha (1880–1910) financiou modernização de Manaus; relacionado ao crescimento das indústrias mundiais de bicicletas e automóveis | — |
+| QI-6a | Relação movimento operário × governo na 1ª República | Dis | M | IC | Relação de repressão: violência policial, Lei Adolfo Gordo, expulsão de imigrantes | — |
+| QI-6b | Situação dos trabalhadores hoje é diferente? | Dis | D | IC | Questão reflexiva — resposta pessoal com base histórica | — |
+| QI-6c | Como a lei de expulsão desmobilizava o movimento? | Dis | M | IC | Ao ameaçar imigrantes com expulsão, eliminava lideranças e intimidava participantes | — |
+| QI-7 | Descreva aspectos da economia brasileira 1914–1919 | Dis | M | IC | Queda industrial em 1914 (−8,7%); crescimento a partir de 1915; maior crescimento em 1919 (+14,8%) | — |
+| QI-8a | Impressão da imagem sobre participação feminina na greve | Análise de imagem | M | IC | Imagem mostra mulheres organizadas e presentes — participação ativa, não passiva | — |
+| QI-8b | Documento do inspetor confirma a imagem? | Análise de fonte | D | IC | Não — o inspetor afirma manipulação, mas cita Penélope como oradora ativa, contradizendo a tese de passividade | — |
+| QC-1 | Participação do Brasil na 1ª Guerra (UPF-RS 2018) | MC | M | AT | **d** | — |
+| QC-2a | Três países europeus criados após a 1ª Guerra (UFSC 2015) | Dis | M | AT | Polônia, Tchecoslováquia, Iugoslávia (qualquer três) | Requer conhecimento além do capítulo |
+| QC-2b | Impacto econômico da guerra no Brasil | Dis | M | AT | Substituição de importações / queda do preço do café (qualquer um com explicação) | — |
+| Q-1 | Por que o setor agrário era maior que o industrial? | Dis | M | AT | Economia colonial/agroexportadora; fábricas dependiam de tecnologia estrangeira | — |
+| Q-2 | Análise da charge "O Brazil na Guerra" (*A Plebe*, 1917) | Análise de imagem | D | AT | Guerreiro alegoriza o Brasil envolvido na guerra enquanto o clero pede pão — crítica anarquista à prioridade dada ao esforço de guerra | — |
+| Q-3 | Ideologia do movimento operário brasileiro (séc. XX) | MC | M | AT | **e** | — |
+| QC-3 | Participação brasileira na 1ª Guerra (FGV-RJ 2015) | MC | M | AT | **d** | — |
 
+---
 #### Bloco B — Questões modelo originais
-
-**QM-1** · múltipla escolha · médio · inspirada em: Q-2 e Seção 6
-
-Observe a tabela abaixo, que apresenta dados sobre a economia brasileira entre 1914 e 1919:
-
-| Ano | Produção industrial | Produção agrícola |
-|-----|---------------------|-------------------|
-| 1915 | Crescimento de 12,9% | Queda de 0,9% |
-| 1917 | Crescimento de 8,7% | Crescimento de 3,6% |
-| 1919 | Crescimento de 14,8% | Queda de 4,3% |
-
-Com base na tabela e no contexto histórico, é correto afirmar:
-
-a) O crescimento industrial entre 1915 e 1919 foi resultado direto de investimentos estrangeiros europeus durante a guerra.
-b) O processo de substituição de importações, financiado pelo capital cafeeiro e pela mão de obra imigrante, explica o crescimento industrial observado no período.
-c) A queda da produção agrícola em 1915 e 1919 indica que o Brasil abandonou o modelo agroexportador durante a Primeira Guerra.
-d) O crescimento industrial consolidou-se após 1919, tornando o Brasil uma potência industrial na América Latina.
-
-✅ Gabarito: b)
-📝 Resolução: a) errado — investimentos europeus caíram com a guerra; o capital era nacional, do café; c) errado — o Brasil não abandonou o modelo, apenas diversificou temporariamente; d) errado — grande parte das indústrias fechou após a guerra; b) correto — resume os dois pilares da industrialização: capital do café e mão de obra imigrante.
-⚠️ Professor: referência de estilo — crie variações originais, nunca reproduza diretamente.
+**QM-1** · múltipla escolha · médio · inspirada em: QC-1
+Durante a Primeira Guerra Mundial, o Brasil adotou a política de substituição de importações. Sobre os efeitos dessa política na economia brasileira, é correto afirmar:
+a) Gerou um crescimento imediato e sustentado da produção industrial a partir de 1914, tornando o Brasil independente das importações estrangeiras.
+b) Teve impacto inicial negativo em 1914, mas contribuiu para o crescimento da produção industrial a partir de 1915, atendendo mercados internos e externos.
+c) Beneficiou exclusivamente o setor agrícola, que cresceu continuamente durante todo o período de 1914 a 1919.
+d) Levou à criação de grandes indústrias que se mantiveram ativas e dominantes no mercado brasileiro após o fim da guerra.
+✅ Gabarito: b
+📝 Resolução: Em 1914, a produção industrial caiu 8,7% (impacto inicial negativo do bloqueio comercial). A partir de 1915, o crescimento se acelerou (12,9% em 1915; 11,4% em 1916), com a indústria atendendo mercados da América Latina, África e Europa. Grande parte das indústrias criadas no período foi fechada após o conflito.
 
 ---
-
-**QM-2** · múltipla escolha · médio · inspirada em: QI-4c e Seção 5
-
-Sobre o movimento operário na Primeira República brasileira, é incorreto afirmar:
-
-a) A maioria das lideranças operárias era composta por imigrantes europeus que trouxeram as ideias do anarquismo.
-b) A Lei de Expulsão de Estrangeiros (Lei Gordo) foi usada pelo governo para desarticular o movimento, ao deportar suas principais lideranças.
-c) A Revolução Russa de 1917 foi um dos fatores que influenciaram a intensificação das greves no Brasil naquele ano.
-d) O movimento operário de 1917 era liderado pelo Partido Comunista Brasileiro, fundado anos antes para organizar os trabalhadores.
-
-✅ Gabarito: d) — incorreto (portanto é a resposta)
-📝 Resolução: O PCB foi fundado em **1922**, cinco anos depois da greve geral de 1917. Em 1917, o movimento era dominado pelo **anarquismo**. Afirmar que o PCB liderou 1917 é anacronismo.
-⚠️ Professor: referência de estilo — crie variações originais, nunca reproduza diretamente.
-
----
-
-**QM-3** · análise de fonte · médio · inspirada em: Bloco F (Schwarzz e Starling)
-
-> *"[...] as cidades cresceram, porém sem romper com a dinâmica do modelo agroexportador. Ao contrário, durante a Primeira República expandiu-se o fenômeno conhecido como 'voto de cabresto' e do coronelismo, na sua correlação com o governo, configuração que a princípio neutralizou a atuação desses novos grupos urbanos, limitando a participação e o voto."*
-> — Lília M. Schwarzz; Heloisa M. Starling. *Brasil: uma biografia*. São Paulo: Companhia das Letras. p. 346-7.
-
-Com base no documento e nos conteúdos estudados, responda:
-a) O que as historiadoras querem dizer ao afirmar que as cidades cresceram "sem romper com a dinâmica do modelo agroexportador"?
-b) Como o coronelismo e o voto de cabresto "neutralizavam" os novos grupos urbanos?
-
-✅ Gabarito:
-a) Apesar do crescimento urbano e industrial, o poder político e econômico continuava centrado no café e nas oligarquias rurais; a urbanização não mudou a estrutura de poder.
-b) Coronéis controlavam o voto dos trabalhadores rurais dependentes (voto de cabresto); no jogo político, o governo central se apoiava nos coronéis, que em troca recebiam autonomia local; grupos urbanos (operários, profissionais liberais) não tinham representação política real nesse sistema.
-⚠️ Professor: referência de estilo — crie variações originais, nunca reproduza diretamente.
+**QM-2** · múltipla escolha · médio · inspirada em: Q-3
+| | 1907 | 1920 |
+|---|---|---|
+| Distrito Federal (RJ) | 33% | 21% |
+| São Paulo | 17% | 32% |
+| Rio Grande do Sul | 15% | 11% |
+Com base nos dados, qual afirmativa descreve corretamente a transformação ocorrida no período?
+a) O Distrito Federal manteve sua hegemonia industrial, embora com leve redução percentual.
+b) São Paulo e Rio Grande do Sul cresceram juntos, reduzindo a participação do Distrito Federal.
+c) São Paulo ultrapassou o Distrito Federal, tornando-se o maior polo industrial do país em 1920.
+d) O Rio Grande do Sul foi o estado que mais cresceu em termos de participação industrial entre 1907 e 1920.
+✅ Gabarito: c
 
 ---
-
-**QM-4** · dissertativa · médio-difícil · inspirada em: Q-4 e Bloco C
-
-Analise a seguinte afirmação: *"A Primeira Guerra Mundial industrializou o Brasil."* Você concorda com essa afirmação? Justifique apresentando pelo menos dois argumentos.
-
-✅ Gabarito (pontos esperados):
-**Concordância parcial — a guerra criou um surto industrial, mas não uma industrialização consolidada:**
-- A favor: crescimento industrial entre 1915–1919; processo de substituição de importações; expansão do operariado urbano.
-- Contra: grande parte das indústrias fechou após a guerra; o crescimento resultou em "pequeno crescimento econômico", não em industrialização pesada; o modelo agroexportador não foi superado.
-- Síntese: a guerra criou condições para um primeiro surto industrial, plantando sementes para a industrialização futura (especialmente em São Paulo), mas não consolidou o Brasil como país industrial — isso só ocorreria nas décadas seguintes.
-📝 A industrialização pesada brasileira data do governo Vargas (1930s+), não da Primeira Guerra.
-⚠️ Professor: referência de estilo — crie variações originais, nunca reproduza diretamente.
+**QM-3** · análise de fonte primária · médio · inspirada em: QI-8
+*"[Faziam] operárias subirem à tribuna pública e falar contra os patrões e contra as autoridades constituídas. Ainda ontem e em outros comícios, não tem faltado a eles com a sua palavra arrogante e atrevida a operária Penélope [...]"*
+a) Qual é a intenção do inspetor ao redigir esse documento?
+b) O próprio conteúdo da carta contradiz a tese central que o inspetor tenta defender? Justifique.
+✅ Gabarito: a) O inspetor busca desqualificar a participação feminina, apresentando as mulheres como manipuladas. b) Sim — ao citar Penélope como oradora ativa, o documento demonstra o oposto: participação consciente e protagonista das mulheres.
 
 ---
-
-**QM-5** · dissertativa aprofundada · difícil · inspirada em: QI-1 e QI-2
-
-*"O Brasil republicano herdou do Império a exclusão política das camadas populares, limitando-se a modernizar a forma sem alterar o conteúdo."* Com base no conteúdo do capítulo, avalie essa afirmação e apresente evidências históricas que a sustentem ou contestem.
-
-✅ Gabarito (pontos esperados):
-- **Evidências que sustentam:** coronelismo e voto de cabresto ampliaram-se na República; novos grupos urbanos (operários, profissionais liberais) foram neutralizados politicamente; a modernização das cidades coexistiu com a exclusão do voto e a repressão ao movimento operário.
-- **Evidências que contestam (nuance):** o surgimento do movimento operário, dos sindicatos e da imprensa operária representou, mesmo que fora das estruturas oficiais, uma forma de participação política popular inédita.
-- **Síntese:** a afirmação é válida no plano político-institucional: a República não democratizou o acesso ao poder. No plano social, porém, criou condições para novas formas de organização coletiva que, a longo prazo, pressionariam por mudanças.
-⚠️ Professor: referência de estilo — crie variações originais, nunca reproduza diretamente.
+**QM-4** · causa-consequência · médio-difícil · inspirada em: QI-6 e Q-1
+Explique como o crescimento urbano no Brasil no início do século XX criou as condições para a formação do movimento operário e das greves. Em sua resposta, indique pelo menos duas causas do movimento e duas consequências da resposta governamental às greves.
+✅ Gabarito: Causas: concentração de trabalhadores nas cidades; influência de imigrantes italianos e espanhóis com experiência em lutas trabalhistas. Consequências da repressão: expulsão de imigrantes pela Lei Adolfo Gordo; fundação do PCB em 1922 como reorganização do movimento.
 
 ---
+**QM-5** · dissertativa aprofundada · difícil · inspirada em: QC-2 e QI-2
+"Embora pequena, sua participação militar na guerra permitiu ao Brasil ter parte nas negociações de paz de Versalhes." (Marcello Scarrone)
+Com base no trecho e no conteúdo do capítulo, discuta: a participação do Brasil na Primeira Guerra foi vantajosa para o país?
+✅ Gabarito: Diplomaticamente, sim — o Brasil obteve acesso às negociações de Versalhes, recebeu navios alemães e ingressou na Sociedade das Nações. Economicamente, houve pequeno crescimento industrial, mas a maioria das indústrias fechou após o conflito. Socialmente, o período foi marcado por repressão ao movimento operário, inflação e condições precárias — o que questiona se os ganhos diplomáticos traduziram-se em benefícios reais para a população.
 
+---
 ## SEÇÃO 12 — DIAGRAMAS SVG DO CAPÍTULO
-
-### DIAGRAMA: his17_timeline
-Linha do tempo dos principais eventos do Brasil durante a Primeira Guerra (1914–1919)
-
-<svg width="100%" viewBox="0 0 680 355">
-<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
-markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
-stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
-
-<!-- Timeline axis -->
-<line x1="20" y1="200" x2="660" y2="200" stroke="var(--c-line,#888)" stroke-width="2"/>
-<polygon points="660,195 670,200 660,205" fill="var(--c-line,#888)"/>
-
-<!-- === ABOVE NODES (top=90, h=58, th=y+20, t=y+38) === -->
-
-<!-- A1: 1914 — Crise do cafe (c-coral) -->
-<rect class="c-coral" rx="6" x="20" y="90" width="150" height="58"/>
-<text class="th" x="95" y="110" text-anchor="middle" dominant-baseline="central">1914</text>
-<text class="t" x="95" y="128" text-anchor="middle" dominant-baseline="central">Crise do cafe</text>
-<line x1="95" y1="148" x2="95" y2="200" stroke="var(--c-line,#888)" stroke-width="1.5" marker-end="url(#arrow)"/>
-
-<!-- A2: 1917 — Greve Geral (c-purple) -->
-<rect class="c-purple" rx="6" x="227" y="90" width="150" height="58"/>
-<text class="th" x="302" y="110" text-anchor="middle" dominant-baseline="central">1917</text>
-<text class="t" x="302" y="128" text-anchor="middle" dominant-baseline="central">Greve Geral</text>
-<line x1="302" y1="148" x2="302" y2="200" stroke="var(--c-line,#888)" stroke-width="1.5" marker-end="url(#arrow)"/>
-
-<!-- A3: Out/1917 — Brasil entra na guerra (c-amber) -->
-<rect class="c-amber" rx="6" x="434" y="90" width="150" height="58"/>
-<text class="th" x="509" y="110" text-anchor="middle" dominant-baseline="central">Out/1917</text>
-<text class="t" x="509" y="128" text-anchor="middle" dominant-baseline="central">Brasil entra na guerra</text>
-<line x1="509" y1="148" x2="509" y2="200" stroke="var(--c-line,#888)" stroke-width="1.5" marker-end="url(#arrow)"/>
-
-<!-- === BELOW NODES (top=252, h=58, th=y+20, t=y+38) === -->
-
-<!-- B1: 1915-16 — Substituicao de importacoes (c-teal) -->
-<line x1="199" y1="200" x2="199" y2="252" stroke="var(--c-line,#888)" stroke-width="1.5" marker-end="url(#arrow)"/>
-<rect class="c-teal" rx="6" x="124" y="252" width="150" height="58"/>
-<text class="th" x="199" y="272" text-anchor="middle" dominant-baseline="central">1915-16</text>
-<text class="t" x="199" y="290" text-anchor="middle" dominant-baseline="central">Subst. de importacoes</text>
-
-<!-- B2: 1917-20 — Mov. operario intenso (c-purple) -->
-<line x1="406" y1="200" x2="406" y2="252" stroke="var(--c-line,#888)" stroke-width="1.5" marker-end="url(#arrow)"/>
-<rect class="c-purple" rx="6" x="331" y="252" width="150" height="58"/>
-<text class="th" x="406" y="272" text-anchor="middle" dominant-baseline="central">1917-20</text>
-<text class="t" x="406" y="290" text-anchor="middle" dominant-baseline="central">Mov. operario intenso</text>
-
-<!-- B3: 1919 — Industria cresce 14,8% (c-teal) -->
-<line x1="603" y1="200" x2="603" y2="252" stroke="var(--c-line,#888)" stroke-width="1.5" marker-end="url(#arrow)"/>
-<rect class="c-teal" rx="6" x="528" y="252" width="150" height="58"/>
-<text class="th" x="603" y="272" text-anchor="middle" dominant-baseline="central">1919</text>
-<text class="t" x="603" y="290" text-anchor="middle" dominant-baseline="central">Industria +14,8%</text>
-
-<!-- Label -->
-<text class="ts" x="340" y="340" text-anchor="middle" dominant-baseline="central">* Escala cronologica nao proporcional</text>
+### DIAGRAMA: timeline
+```svg
+<svg width="100%" viewBox="0 0 680 520">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
+  markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+  <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
+  stroke-width="1.5" stroke-linecap="round"
+  stroke-linejoin="round"/></marker>
+</defs>
+<line x1="40" y1="270" x2="645" y2="270" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="28" y="170" width="110" height="58" rx="6" class="c-teal"/>
+<text x="83" y="190" text-anchor="middle" class="th">1880–1910</text>
+<text x="83" y="208" text-anchor="middle" class="ts">Boom da</text>
+<text x="83" y="222" text-anchor="middle" class="ts">borracha</text>
+<line x1="83" y1="228" x2="83" y2="270" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="83" y="254" text-anchor="middle" class="ts">Belém e Manaus</text>
+<circle cx="83" cy="270" r="5" class="c-teal"/>
+<rect x="225" y="140" width="110" height="72" rx="6" class="c-coral"/>
+<text x="280" y="160" text-anchor="middle" class="th">1907</text>
+<text x="280" y="178" text-anchor="middle" class="ts">1ª Greve Geral</text>
+<text x="280" y="192" text-anchor="middle" class="ts">São Paulo</text>
+<text x="280" y="206" text-anchor="middle" class="ts">8h de trabalho</text>
+<line x1="280" y1="212" x2="280" y2="270" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="280" y="254" text-anchor="middle" class="ts">Lei Adolfo Gordo</text>
+<circle cx="280" cy="270" r="5" class="c-coral"/>
+<rect x="400" y="150" width="110" height="72" rx="6" class="c-purple"/>
+<text x="455" y="170" text-anchor="middle" class="th">Out. 1917</text>
+<text x="455" y="188" text-anchor="middle" class="ts">Brasil declara</text>
+<text x="455" y="202" text-anchor="middle" class="ts">guerra</text>
+<text x="455" y="216" text-anchor="middle" class="ts">a Alemanha</text>
+<line x1="455" y1="222" x2="455" y2="270" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="455" y="254" text-anchor="middle" class="ts">Tríplice Entente</text>
+<circle cx="455" cy="270" r="5" class="c-purple"/>
+<rect x="555" y="170" width="80" height="58" rx="6" class="c-amber"/>
+<text x="595" y="190" text-anchor="middle" class="th">1922</text>
+<text x="595" y="208" text-anchor="middle" class="ts">Fundação</text>
+<text x="595" y="222" text-anchor="middle" class="ts">do PCB</text>
+<line x1="595" y1="228" x2="595" y2="270" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="595" y="254" text-anchor="middle" class="ts">Ex-anarquistas</text>
+<circle cx="595" cy="270" r="5" class="c-amber"/>
+<line x1="155" y1="270" x2="155" y2="320" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
+<rect x="98" y="320" width="116" height="58" rx="6" class="c-coral"/>
+<text x="156" y="340" text-anchor="middle" class="th">1900–1920</text>
+<text x="156" y="358" text-anchor="middle" class="ts">~400 greves</text>
+<text x="156" y="372" text-anchor="middle" class="ts">no Brasil</text>
+<text x="156" y="394" text-anchor="middle" class="ts">Repressão sistemática</text>
+<circle cx="155" cy="270" r="5" class="c-coral"/>
+<line x1="330" y1="270" x2="330" y2="320" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
+<rect x="268" y="320" width="124" height="72" rx="6" class="c-teal"/>
+<text x="330" y="340" text-anchor="middle" class="th">1914–1918</text>
+<text x="330" y="358" text-anchor="middle" class="ts">1ª Guerra Mundial</text>
+<text x="330" y="372" text-anchor="middle" class="ts">Substituição de</text>
+<text x="330" y="386" text-anchor="middle" class="ts">importações</text>
+<text x="330" y="408" text-anchor="middle" class="ts">Pequeno cresc. industrial</text>
+<circle cx="330" cy="270" r="5" class="c-teal"/>
+<line x1="510" y1="270" x2="510" y2="320" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
+<rect x="454" y="320" width="112" height="72" rx="6" class="c-amber"/>
+<text x="510" y="340" text-anchor="middle" class="th">Jan. 1919</text>
+<text x="510" y="358" text-anchor="middle" class="ts">Tratado de</text>
+<text x="510" y="372" text-anchor="middle" class="ts">Versalhes</text>
+<text x="510" y="386" text-anchor="middle" class="ts">Navios alemães</text>
+<text x="510" y="408" text-anchor="middle" class="ts">Soc. das Nações</text>
+<circle cx="510" cy="270" r="5" class="c-amber"/>
+<text x="340" y="30" text-anchor="middle" class="th" font-size="15">O Brasil da Primeira Guerra — Cronologia</text>
+<text x="340" y="50" text-anchor="middle" class="ts">Eventos políticos (roxo) · Econômicos/sociais (verde-água) · Greves/crises (coral) · Acordos (âmbar)</text>
 </svg>
+```
 
 ---
-
-### DIAGRAMA: his17_fluxo_industrializacao
-Fluxo causal: da Primeira Guerra à industrialização e suas consequências
-
-<svg width="100%" viewBox="0 0 680 282">
-<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
-markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
-stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
-
-<!-- Title -->
-<text class="th" x="340" y="18" text-anchor="middle" dominant-baseline="central">Substituicao de Importacoes — Fluxo Causal</text>
-
-<!-- Row 1: 3 causes (c-teal) — y=30, h=58 -->
-<!-- Box C1: Guerra interrompe comercio (x=10, w=210) -->
-<rect class="c-teal" rx="6" x="10" y="30" width="210" height="58"/>
-<text class="th" x="115" y="50" text-anchor="middle" dominant-baseline="central">1a Guerra Mundial</text>
-<text class="t" x="115" y="68" text-anchor="middle" dominant-baseline="central">interrompe o comercio</text>
-
-<!-- Box C2: Crise do cafe (x=235, w=210) -->
-<rect class="c-teal" rx="6" x="235" y="30" width="210" height="58"/>
-<text class="th" x="340" y="50" text-anchor="middle" dominant-baseline="central">Crise do cafe</text>
-<text class="t" x="340" y="68" text-anchor="middle" dominant-baseline="central">capital disponivel</text>
-
-<!-- Box C3: Mao de obra imigrante (x=460, w=210) -->
-<rect class="c-teal" rx="6" x="460" y="30" width="210" height="58"/>
-<text class="th" x="565" y="50" text-anchor="middle" dominant-baseline="central">Mao de obra</text>
-<text class="t" x="565" y="68" text-anchor="middle" dominant-baseline="central">imigrante nas cidades</text>
-
-<!-- Arrows from causes to process box (y=88 to y=108) -->
-<line x1="115" y1="88" x2="115" y2="108" stroke="var(--c-line,#888)" stroke-width="1.5" marker-end="url(#arrow)"/>
-<line x1="340" y1="88" x2="340" y2="108" stroke="var(--c-line,#888)" stroke-width="1.5" marker-end="url(#arrow)"/>
-<line x1="565" y1="88" x2="565" y2="108" stroke="var(--c-line,#888)" stroke-width="1.5" marker-end="url(#arrow)"/>
-
-<!-- Row 2: process box (c-green) — y=108, h=44 -->
-<rect class="c-green" rx="6" x="10" y="108" width="660" height="44"/>
-<text class="th" x="340" y="130" text-anchor="middle" dominant-baseline="central">Substituicao de importacoes — expansao industrial</text>
-
-<!-- Y-split arrow from process to consequences -->
-<line x1="340" y1="152" x2="340" y2="166" stroke="var(--c-line,#888)" stroke-width="1.5"/>
-<line x1="170" y1="166" x2="510" y2="166" stroke="var(--c-line,#888)" stroke-width="1.5"/>
-<line x1="170" y1="166" x2="170" y2="182" stroke="var(--c-line,#888)" stroke-width="1.5" marker-end="url(#arrow)"/>
-<line x1="510" y1="166" x2="510" y2="182" stroke="var(--c-line,#888)" stroke-width="1.5" marker-end="url(#arrow)"/>
-
-<!-- Row 3: 2 consequence boxes — y=182, h=58 -->
-<!-- Box D1: Expansao urbana e operariado (c-amber) -->
-<rect class="c-amber" rx="6" x="10" y="182" width="320" height="58"/>
-<text class="th" x="170" y="202" text-anchor="middle" dominant-baseline="central">Expansao urbana</text>
-<text class="t" x="170" y="220" text-anchor="middle" dominant-baseline="central">e surgimento do operariado</text>
-
-<!-- Box D2: Movimento operario e repressao (c-coral) -->
-<rect class="c-coral" rx="6" x="350" y="182" width="320" height="58"/>
-<text class="th" x="510" y="202" text-anchor="middle" dominant-baseline="central">Movimento operario</text>
-<text class="t" x="510" y="220" text-anchor="middle" dominant-baseline="central">greves e repressao estatal</text>
+### DIAGRAMA: fluxo_industrializacao
+```svg
+<svg width="100%" viewBox="0 0 680 460">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
+  markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+  <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
+  stroke-width="1.5" stroke-linecap="round"
+  stroke-linejoin="round"/></marker>
+</defs>
+<text x="340" y="28" text-anchor="middle" class="th" font-size="15">Industrialização e Movimento Operário — Fluxo de Processos</text>
+<text x="340" y="58" text-anchor="middle" class="ts">CAUSAS ESTRUTURAIS</text>
+<rect x="30" y="68" width="130" height="58" rx="6" class="c-teal"/>
+<text x="95" y="88" text-anchor="middle" class="th">Capital do café</text>
+<text x="95" y="106" text-anchor="middle" class="ts">Ferrovias e</text>
+<text x="95" y="120" text-anchor="middle" class="ts">maquinários</text>
+<rect x="178" y="68" width="130" height="58" rx="6" class="c-teal"/>
+<text x="243" y="88" text-anchor="middle" class="th">Imigrantes</text>
+<text x="243" y="106" text-anchor="middle" class="ts">Mão de obra e</text>
+<text x="243" y="120" text-anchor="middle" class="ts">experiência fabril</text>
+<rect x="326" y="68" width="150" height="58" rx="6" class="c-teal"/>
+<text x="401" y="88" text-anchor="middle" class="th">Bloqueio da Guerra</text>
+<text x="401" y="106" text-anchor="middle" class="ts">Substituição de</text>
+<text x="401" y="120" text-anchor="middle" class="ts">importações</text>
+<rect x="494" y="68" width="150" height="58" rx="6" class="c-teal"/>
+<text x="569" y="88" text-anchor="middle" class="th">Boom da borracha</text>
+<text x="569" y="106" text-anchor="middle" class="ts">Manaus e Belém</text>
+<text x="569" y="120" text-anchor="middle" class="ts">1880–1910</text>
+<line x1="95" y1="126" x2="200" y2="175" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="243" y1="126" x2="270" y2="175" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="401" y1="126" x2="340" y2="175" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="569" y1="126" x2="420" y2="175" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="340" y="168" text-anchor="middle" class="ts">PROCESSOS</text>
+<rect x="128" y="178" width="150" height="58" rx="6" class="c-teal"/>
+<text x="203" y="198" text-anchor="middle" class="th">Industrialização</text>
+<text x="203" y="216" text-anchor="middle" class="ts">SP: 17% para 32%</text>
+<text x="203" y="230" text-anchor="middle" class="ts">(1907 para 1920)</text>
+<rect x="296" y="178" width="150" height="58" rx="6" class="c-teal"/>
+<text x="371" y="198" text-anchor="middle" class="th">Crescimento urbano</text>
+<text x="371" y="216" text-anchor="middle" class="ts">SP: 64 mil para 239 mil</text>
+<text x="371" y="230" text-anchor="middle" class="ts">(1890–1900)</text>
+<line x1="203" y1="236" x2="203" y2="282" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="371" y1="236" x2="371" y2="282" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="340" y="274" text-anchor="middle" class="ts">CONSEQUÊNCIAS SOCIAIS</text>
+<rect x="80" y="284" width="140" height="58" rx="6" class="c-amber"/>
+<text x="150" y="304" text-anchor="middle" class="th">Classe operária</text>
+<text x="150" y="322" text-anchor="middle" class="ts">Anarquismo e</text>
+<text x="150" y="336" text-anchor="middle" class="ts">socialismo</text>
+<rect x="238" y="284" width="120" height="58" rx="6" class="c-amber"/>
+<text x="298" y="304" text-anchor="middle" class="th">~400 greves</text>
+<text x="298" y="322" text-anchor="middle" class="ts">1900–1920</text>
+<text x="298" y="336" text-anchor="middle" class="ts">Brasil</text>
+<rect x="376" y="284" width="140" height="58" rx="6" class="c-amber"/>
+<text x="446" y="304" text-anchor="middle" class="th">Participação</text>
+<text x="446" y="322" text-anchor="middle" class="ts">feminina ativa</text>
+<text x="446" y="336" text-anchor="middle" class="ts">Greve 1917</text>
+<line x1="150" y1="342" x2="200" y2="388" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="298" y1="342" x2="280" y2="388" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="446" y1="342" x2="380" y2="388" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="340" y="382" text-anchor="middle" class="ts">RESPOSTA ESTATAL / RUPTURA</text>
+<rect x="128" y="392" width="150" height="44" rx="6" class="c-coral"/>
+<text x="203" y="412" text-anchor="middle" class="th">Lei Adolfo Gordo</text>
+<text x="203" y="428" text-anchor="middle" class="ts">Expulsão de imigrantes</text>
+<rect x="296" y="392" width="150" height="44" rx="6" class="c-coral"/>
+<text x="371" y="412" text-anchor="middle" class="th">PCB — 1922</text>
+<text x="371" y="428" text-anchor="middle" class="ts">Reorganização do movimento</text>
 </svg>
+```
