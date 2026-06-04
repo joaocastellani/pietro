@@ -1,0 +1,320 @@
+# PROMPT DE CAPTURA — HISTÓRIA (9º ano) · versão txt
+# Uso: input .md consolidado gerado pelo Prompt_de_Transcricao_His
+# Arquivo gerado: his-[unidade]-[capitulo].md
+
+---
+
+Tarefa: Organize e estruture o conteúdo do arquivo `.md` anexado,
+gerado pelo Prompt de Transcrição de História. O material já foi
+extraído das imagens — não há screenshots. Trabalhe exclusivamente
+sobre o texto recebido. Não acesse imagens, não tente ver o original.
+
+REGRAS GERAIS:
+- Preserve todos os dados exatamente como aparecem no material
+- Não resuma, não interprete, não omita datas, nomes ou dados
+- Para documentos históricos, discursos e fontes primárias:
+  capture o conteúdo textual completo
+- Imagens históricas, mapas e gráficos já estão descritos no `.md`
+  como blocos `> Imagem:`, `> Mapa:` e `> Gráfico:` — use essas
+  descrições como fonte. Não tente reconstituir além do que está escrito.
+- PROIBIDO encerrar o output com perguntas, próximos passos,
+  sugestões ou qualquer texto fora dos blocos abaixo.
+  O output termina com o último bloco preenchido — nada mais.
+
+REGRA DE OMISSÃO (vale para todos os blocos condicionais):
+Se um bloco não tiver dados reais extraídos do material, NÃO o
+inclua. Não escreva "Não aplicável", "Não especificado", "Não
+citado" nem variações. Bloco sem dado concreto = bloco ausente
+no output. Campo sem dado concreto = campo ausente no bloco.
+Exemplos proibidos:
+- Bloco E incluído com campos "Não especificado no conteúdo"
+- Bloco B com campo "País ou região de origem: —"
+
+BLOCOS DE ATIVIDADES E QUESTÕES: a seção Atividades (bloco final
+numerado) vai na SEÇÃO ATIVIDADES ao final deste arquivo.
+EXCEÇÃO: questões intercaladas no corpo do capítulo (antes das
+Atividades) devem ser capturadas no BLOCO G deste arquivo com
+prefixo QI-N e tag [IC].
+
+CAIXAS E SEÇÕES COM TÍTULO PRÓPRIO: todo bloco com título
+destacado deve ser capturado — ex: "Veja também em Geografia",
+"Para saber mais", "Saiba mais", caixas de destaque, caixas
+laterais informativas. Direcione o conteúdo para o bloco
+correspondente (mapa → Bloco E, texto separado → Bloco F,
+conceito → Seção 2).
+
+SEÇÃO FINAL OPCIONAL — ELEMENTOS PENDENTES:
+Se o `.md` recebido contiver seções ELEMENTOS IRRECONSTRUÍVEIS
+com itens relevantes para o capítulo (mapas sem legenda, imagens
+sem contexto identificável), liste-os ao final do arquivo:
+
+## ELEMENTOS PENDENTES
+- [descrição do elemento] · [localização no capítulo] · [por que é relevante]
+
+---
+
+## 1. METADADOS
+- Matéria: História
+- Unidade:
+- Capítulo/Tema:
+- Nível de ensino: 9º ano
+- Perfil do capítulo: [escreva EXATAMENTE um:
+  histórico-conceitual | histórico-narrativo |
+  analítico-temático | misto]
+
+---
+
+## 2. CONCEITOS E DEFINIÇÕES
+Para cada conceito presente no capítulo — incluindo termos em
+destaque no texto, títulos de movimentos, nomes de períodos,
+leis, manifestos e categorias históricas, mesmo que sem
+definição formal explícita:
+- Nome do conceito em destaque
+- Definição completa conforme o material (ou descrição funcional
+  se não houver definição formal)
+- Exemplos dados pelo livro (preserve países, datas, personagens)
+- Observações ou ressalvas explícitas no texto
+
+---
+
+## 3. FLASHCARDS DO CAPÍTULO
+Regras:
+- Mínimo 10 flashcards
+- Cobertura obrigatória por bloco — gere ao menos 1 card por:
+  · Cada conceito principal da Seção 2
+  · Cada personagem do Bloco B
+  · Cada lei ou data-chave do Bloco A
+  · Cada processo do Bloco C (causa ou consequência central)
+  A cobertura obrigatória tem precedência absoluta — satisfaça
+  todos os itens acima antes de aplicar qualquer limite.
+  Só após cobrir todos os itens obrigatórios aplica-se o teto
+  de 20: se ainda houver itens relevantes além dos obrigatórios,
+  selecione os mais importantes até o máximo de 20.
+- Alterne sentidos: conceito→definição, evento→data,
+  personagem→papel histórico, causa→consequência
+- NÃO crie flashcard de questão de exercício
+- Se não souber a resposta do verso, omita o card inteiro
+- NÃO escreva "Frente:" duas vezes na mesma linha
+
+FORMATO OBRIGATÓRIO — 3 linhas por card, linha em branco entre cards:
+
+**FC-1**
+🔵 Frente: O que foi a Revolução Francesa?
+🟢 Verso: Movimento político e social ocorrido na França entre 1789 e 1799 que derrubou a monarquia absoluta e instaurou princípios de liberdade, igualdade e fraternidade.
+
+**FC-2**
+🔵 Frente: Quem foi Napoleão Bonaparte?
+🟢 Verso: General e estadista francês que ascendeu ao poder após a Revolução Francesa, tornou-se imperador da França em 1804 e dominou grande parte da Europa até ser derrotado em 1815.
+
+---
+
+## BLOCO A — CRONOLOGIA E PERIODIZAÇÃO
+[Execute se o capítulo apresentar sequência de eventos datados,
+fases ou períodos históricos identificáveis.]
+
+Para cada evento ou período:
+- Data ou intervalo de tempo
+- Nome do evento ou período
+- Local (país, região, cidade — se citado)
+- Síntese do que ocorreu (preservar dados exatos do material)
+- Personagens principais citados
+- Consequências imediatas descritas no material
+
+---
+
+## BLOCO B — PERSONAGENS HISTÓRICOS
+[Execute se o capítulo apresentar personagens com papel
+relevante na narrativa histórica.]
+
+PROIBIDO incluir no Bloco B:
+- Autores de obras bibliográficas citadas como fonte
+- Artistas ou pintores mencionados apenas em legenda de imagem
+- Fotógrafos ou créditos de acervo (ex: "Foto: João Silva / Acervo X")
+- Qualquer nome que apareça exclusivamente como crédito ou
+  atribuição de fonte, sem papel na narrativa histórica do capítulo
+Esses nomes pertencem ao Bloco F como atribuição de fonte.
+
+Para cada personagem:
+- Nome completo e outras denominações citadas
+- Período de atuação (datas ou reinado/mandato — se citadas)
+- País ou região de origem (obrigatório — inferir do contexto
+  se não citado explicitamente)
+- Papel histórico descrito no material
+- Ações ou decisões relevantes mencionadas
+- Citações diretas do personagem (se houver no material)
+
+---
+
+## BLOCO C — CAUSAS E CONSEQUÊNCIAS
+[Execute se o capítulo apresentar análise de causas e
+consequências de eventos ou processos históricos.]
+
+Para cada processo analisado:
+- Nome do evento ou processo
+- Causas descritas no material (estruturais e imediatas, se distintas)
+- Desenvolvimento: como o processo ocorreu
+- Consequências descritas (de curto e longo prazo, se distintas)
+- Países ou regiões afetados — com dados quando citados
+
+---
+
+## BLOCO D — DADOS HISTÓRICOS ESTRUTURADOS
+[Execute se o capítulo apresentar tabelas, listas comparativas,
+dados econômicos, demográficos ou estatísticos históricos.]
+
+CHECAGEM OBRIGATÓRIA — responda internamente antes de executar:
+"Existe uma tabela em markdown no `.md` recebido, com linhas e
+colunas explícitas, que eu possa copiar célula a célula sem
+inferir nenhum valor?"
+→ Não → omita o bloco inteiro, sem exceção
+→ Sim → copie célula a célula, sem adicionar nada
+
+PROIBIDO reconstituir tabela a partir de:
+- Texto corrido ou parágrafos expositivos
+- Descrições de gráficos ou blocos `> Gráfico:`
+- Alternativas ou enunciados de questões
+- Qualquer fonte que não seja tabela markdown com linhas e colunas
+  literalmente presentes no `.md` recebido
+
+Para cada conjunto de dados:
+- Título ou tema dos dados
+- Organize em tabela fiel ao material
+- Preserve todos os valores numéricos com unidades exatas
+  (datas, populações, produções, percentuais)
+- Não omita nenhum país, região ou item da lista original
+
+---
+
+## BLOCO E — MAPAS HISTÓRICOS
+[Execute se o `.md` recebido contiver blocos `> Mapa:` com
+contexto histórico — fronteiras de época, rotas, divisões
+territoriais, zonas de conflito.]
+
+Para cada mapa, use os campos já descritos no bloco `> Mapa:`:
+- Título do mapa (conforme o material)
+- Período histórico representado
+- Legenda: todos os elementos descritos
+- Territórios, rotas ou divisões identificáveis
+- Fonte (se citada)
+- Contexto de uso: o que o mapa ilustra no capítulo
+
+---
+
+## BLOCO F — TEXTO COMPLEMENTAR
+[Execute SOMENTE se o capítulo incluir texto de leitura SEPARADO
+do conteúdo expositivo principal — como documento histórico,
+discurso, artigo adaptado, excerto de historiador ou seção
+"Para saber mais".
+NÃO capture aqui o conteúdo expositivo normal do capítulo —
+esse vai nas Seções 2 e Blocos A–D.
+NÃO capture afirmativas de questões como fatos.
+NÃO capture trechos cujo conteúdo já está no corpo expositivo
+do capítulo, mesmo que apareçam em caixa destacada ou atividade
+de releitura — se a fonte for o próprio livro didático, não é
+texto complementar.
+Critério prático: o texto do Bloco F deve ter título próprio
+destacado, ser de fonte externa ou fonte primária, ou estar
+claramente separado do texto principal do capítulo. Se a fonte
+não estiver citada, omita o campo — nunca preencha com
+"Não especificada" ou variações.]
+
+- Título | Tema central
+- Dados e fatos relevantes (preserve números, países, datas)
+- Conceitos históricos presentes
+- Fonte (se citada) | Período histórico do documento
+
+---
+
+## BLOCO G — QUESTÕES INTERCALADAS
+[Se houver questões autônomas inseridas no corpo do capítulo,
+antes da seção Atividades. Sinais: número ou caixa destacada
+com título "Pratique"/"Resolva"/"Verifique"/"Atividade" dentro
+do fluxo expositivo — não no bloco final de Atividades.]
+
+DISTINÇÃO — CRÍTICO:
+Questão intercalada = aparece no corpo do capítulo, antes de Atividades.
+Seção Atividades (bloco final numerado) → NÃO capturar aqui → vai na SEÇÃO ATIVIDADES abaixo.
+
+Use prefixo QI-N (sequência própria do arquivo) e tag [IC]:
+
+**QI-[N]** · [IC]
+Enunciado: [texto completo]
+Gabarito: [se fornecido pelo livro]
+Conceito testado: [conceito central avaliado]
+
+---
+
+## SEÇÃO ATIVIDADES
+[Capture TODAS as questões da seção Atividades (bloco final numerado).
+NÃO capturar questões intercaladas — essas vão no BLOCO G acima.]
+
+NÃO CAPTURAR:
+- Perguntas retóricas do texto expositivo
+- Questões intercaladas ao conteúdo (→ BLOCO G)
+- "Questão invertida" (aluno cria a pergunta)
+
+IDENTIFICAÇÃO DE QUESTÕES DE CONCURSO — CRÍTICO:
+Se o número vier com nome de banca capture como QC-N. Extraia banca e ano.
+
+NUMERAÇÃO: sequência própria — NUNCA a do livro. Q-N e QC-N independentes.
+ANTI-DUPLICATA: mesma questão com e sem banca → apenas QC-N.
+ANTI-PARTIÇÃO: itens a) b) c) = UMA questão. Todos no Enunciado:.
+
+TEXTO vs ENUNCIADO:
+> Texto: → APENAS fonte primária (discurso, documento histórico,
+  excerto de historiador). Se ausente: OMITA.
+Enunciado: → APENAS a pergunta. Nunca vazio.
+
+MÍDIA — CRÍTICO: blocos SEPARADOS antes do Enunciado:. Omitir se vazio.
+Use a descrição já presente no `.md` recebido para cada bloco:
+
+> Mapa: use a descrição do bloco `> Mapa:` correspondente.
+  Se marcado como [IMAGEM] na transcrição: mantenha [IMAGEM].
+> Gráfico: use a descrição do bloco `> Gráfico:` correspondente.
+  Nunca substitua por [GRÁFICO] se a descrição estiver disponível.
+> Imagem: use a descrição do bloco `> Imagem:` correspondente.
+  Se marcado como [IMAGEM] na transcrição: mantenha [IMAGEM].
+[IMAGEM] irreconstruível:
+  [IMAGEM] (tipo; contexto histórico; o que mostra; por que necessária)
+
+TIPO — um único valor:
+  Tem alternativas?                             → múltipla escolha
+  Afirmações I II III + alternativas?          → múltipla escolha
+  V ou F?                                       → V-F
+  Pede cronologia ou ordenação de eventos?     → cronologia
+  Texto primário + pede dissertar/analisar?    → análise de fonte
+  Imagem histórica + pede dissertar?           → análise de imagem
+  Mapa histórico + pede analisar?              → análise de mapa
+  Pede causa-consequência?                     → dissertativa
+  Associar colunas / completar tabela?         → associação
+  Mapa + alternativas                          → múltipla escolha
+  Gráfico + alternativas                       → múltipla escolha
+
+GABARITO: sempre vazio. NUNCA invente ou infira.
+
+FORMATO — inclua APENAS campos com conteúdo real:
+
+**Q-[N]** · pág. [X]
+[> Texto:] [> Mapa:] [> Gráfico:] [> Imagem:] [se houver]
+Enunciado: [pergunta com todos os itens]
+Alternativas: (dissertativa/cronologia/análise) ou lista
+Gabarito:
+Tipo: [valor único]
+Classificação: [fácil / médio / difícil]
+
+**QC-[N]** · [Banca] · [Ano] · pág. [X]
+[> Texto:] [> Mapa:] [> Gráfico:] [> Imagem:] [se houver]
+Enunciado: [pergunta com todos os itens]
+Alternativas: lista
+Gabarito:
+Tipo: [valor único]
+Classificação: [fácil / médio / difícil]
+
+---
+
+## PADRÃO DAS QUESTÕES
+- Estilo predominante: [múltipla escolha / dissertativa / análise de fonte / misto]
+- Foco: [memorização / cronologia / fonte primária / causa-consequência]
+- Nível de dificuldade médio: [fácil / médio / difícil]
+- Tópicos mais cobrados: [lista]
+- Total: [N] questões do capítulo + [N] questões de concurso
