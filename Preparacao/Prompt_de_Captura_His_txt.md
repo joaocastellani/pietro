@@ -133,6 +133,9 @@ PROIBIDO incluir no Bloco B:
 - Qualquer nome que apareça exclusivamente como crédito ou
   atribuição de fonte, sem papel na narrativa histórica do capítulo
 Esses nomes pertencem ao Bloco F como atribuição de fonte.
+ATENÇÃO — autores que aparecem tanto no Bloco F quanto no corpo
+do capítulo como fonte citada: inclua-os SOMENTE no Bloco F.
+Não duplique no Bloco B mesmo que sua citação seja relevante.
 
 Para cada personagem:
 - Nome completo e outras denominações citadas
@@ -263,6 +266,9 @@ ANTI-PARTIÇÃO: itens a) b) c) = UMA questão. Todos no Enunciado:.
 TEXTO vs ENUNCIADO:
 > Texto: → APENAS fonte primária (discurso, documento histórico,
   excerto de historiador). Se ausente: OMITA.
+  ATENÇÃO: artigo jornalístico, texto de divulgação ou trecho
+  de livro didático NÃO são fonte primária → use apenas como
+  contexto do Enunciado, não como bloco > Texto:.
 Enunciado: → APENAS a pergunta. Nunca vazio.
 
 MÍDIA — CRÍTICO: blocos SEPARADOS antes do Enunciado:. Omitir se vazio.
@@ -282,7 +288,8 @@ TIPO — um único valor:
   Afirmações I II III + alternativas?          → múltipla escolha
   V ou F?                                       → V-F
   Pede cronologia ou ordenação de eventos?     → cronologia
-  Texto primário + pede dissertar/analisar?    → análise de fonte
+  Texto primário (doc histórico, discurso) + pede dissertar?  → análise de fonte
+  Texto jornalístico ou de divulgação + pede dissertar? → dissertativa
   Imagem histórica + pede dissertar?           → análise de imagem
   Mapa histórico + pede analisar?              → análise de mapa
   Pede causa-consequência?                     → dissertativa
