@@ -23,7 +23,7 @@ REGRAS GERAIS:
 
 REGRA DE OMISSÃO (vale para todos os blocos condicionais):
 Se um bloco não tiver dados reais extraídos do material, NÃO o
-Inclua. Não escreva "Não aplicável", "Não especificado", "Não
+inclua. Não escreva "Não aplicável", "Não especificado", "Não
 citado" nem variações. Bloco sem dado concreto = bloco ausente
 no output. Campo sem dado concreto = campo ausente no bloco.
 Exemplos proibidos:
@@ -135,7 +135,7 @@ eixos ou rótulos explicitamente marcados.]
 CHECAGEM OBRIGATÓRIA — responda internamente antes de executar:
 "Existe uma tabela em markdown no `.md` recebido, com linhas e
 colunas explícitas, que eu possa copiar célula a célula sem
-Inferir nenhum valor?"
+inferir nenhum valor?"
 → Não → omita a parte de tabelas, sem exceção
 → Sim → copie célula a célula, sem adicionar nada
 
