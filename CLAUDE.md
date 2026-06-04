@@ -32,14 +32,22 @@ material pedagógico para uso no Claude.ai (Knowledge Base).
 │   │   │   └── imagens/
 │   │   ├── Historia/
 │   │   │   └── imagens/
-│   │   ├── Ingles/
-│   │   │   └── imagens/
 │   │   ├── Matematica/
 │   │   │   └── imagens/
 │   │   ├── Portugues/
 │   │   │   └── imagens/
 │   │   └── Quimica/
 │   │       └── imagens/
+│   ├── Transcricoes/          ← transcrições .md geradas pelo Prompt de Transcrição
+│   │   ├── Artes/
+│   │   ├── Biologia/
+│   │   ├── Fisica/
+│   │   ├── Geografia/
+│   │   ├── Historia/
+│   │   ├── Ingles/
+│   │   ├── Matematica/
+│   │   ├── Portugues/
+│   │   └── Quimica/
 │   ├── Scripts/               ← scripts de automação
 │   │   ├── validate_preps.py  ← validador de preps
 │   │   └── concat_screenshots.sh ← deprecado (não usar)
@@ -73,6 +81,19 @@ Padrão: `[materia]-[unidade]-[capitulo]-prep.md`
 | art     | Artes       | Artes         |
 
 Exemplo: `fis-1-3-prep.md` → Física, Unidade 1, Capítulo 3
+
+---
+
+## Convenção de nomenclatura das transcrições
+
+Padrão: `[materia]-[unidade]-[capitulo]-trans.md`
+
+O arquivo de transcrição é o `.md` consolidado (todos os lotes
+concatenados) gerado pelo Prompt de Transcrição antes do Prompt
+de Captura. Arquivos de lote intermediários (`-trans-01.md` etc.)
+são gerados em `Pietro/temp/` e deletados após concatenação.
+
+Exemplo: `his-1-7-trans.md` → transcrição consolidada de História, Unidade 1, Capítulo 7
 
 ---
 
@@ -123,26 +144,60 @@ Exit code 0 = tudo válido. Exit code 1 = há erros.
 
 ## Pipeline de geração de conteúdo
 
+### Pipeline A — direto com imagens (Claude.ai)
+
 ```
-1. CAPTURA   — Print Screen manual no leitor Poliedro (browser)
-               Joao tira screenshots página a página
-               Screenshots salvos em: ~/Pictures/Screenshots/
+1. CAPTURA      — Print Screen manual no leitor Poliedro (browser)
+                  Joao tira screenshots página a página
+                  Screenshots salvos em: ~/Pictures/Screenshots/
 
-2. ORGANIZAÇÃO — Claude Code organiza os screenshots:
-               - Move cada screenshot diretamente (sem concatenação)
-               - Descarta o primeiro (capa) e separa o último como síntese
-               - Move para: Pietro/Raw/[Materia]/imagens/[mat]-[u]-[c]-NN.png
-               - Deleta os screenshots originais de ~/Pictures/Screenshots/
+2. ORGANIZAÇÃO  — Claude Code organiza os screenshots:
+                  - Move cada screenshot diretamente (sem concatenação)
+                  - Descarta o primeiro (capa) e separa o último como síntese
+                  - Move para: Pietro/Raw/[Materia]/imagens/[mat]-[u]-[c]-NN.png
+                  - Deleta os screenshots originais de ~/Pictures/Screenshots/
 
-3. PREPARAÇÃO — Claude.ai com Prompt de Preparação + imagens do KB
-               Gera: Pietro/Prep/[Materia]/[mat]-[u]-[c]-prep.md
-                     Pietro/Prep/[Materia]/mindmap_[mat][u][c].html
+3. PREPARAÇÃO   — Claude.ai com Prompt de Preparação + imagens do KB
+                  Gera: Pietro/Prep/[Materia]/[mat]-[u]-[c]-prep.md
+                        Pietro/Prep/[Materia]/mindmap_[mat][u][c].html
 
-4. VALIDAÇÃO  — python3 Pietro/Scripts/validate_preps.py [arquivo]
-               Verificar antes de subir ao Knowledge Base
+4. VALIDAÇÃO    — python3 Pietro/Scripts/validate_preps.py [arquivo]
+                  Verificar antes de subir ao Knowledge Base
 
-5. AULA       — Claude.ai com Prompt Professor Master + prep no KB
-               Aluno: Pietro (9º ano)
+5. AULA         — Claude.ai com Prompt Professor Master + prep no KB
+                  Aluno: Pietro (9º ano)
+```
+
+### Pipeline B — via transcrição .md (MyHub.ia + Sonnet)
+
+Usar quando o limite de upload de imagens do Claude.ai for um problema.
+
+```
+1. CAPTURA      — igual ao Pipeline A
+
+2. ORGANIZAÇÃO  — igual ao Pipeline A
+
+3. TRANSCRIÇÃO  — MyHub.ia com Prompt_de_Transcricao_[mat].md
+                  Anexar lotes de screenshots (ex: 4–5 por run)
+                  Copiar output de cada lote para Pietro/temp/:
+                    [mat]-[u]-[c]-trans-01.md, -02.md, ...
+                  Pedir ao Claude Code para concatenar:
+                    "Concatena os lotes his-1-7-trans-*.md de Pietro/temp/
+                     e salva como Pietro/Transcricoes/Historia/his-1-7-trans.md"
+                  Claude Code deleta os arquivos de lote de Pietro/temp/
+
+4. PREPARAÇÃO   — MyHub.ia com Prompt_de_Captura_[mat]_txt.md
+                  Anexar Pietro/Transcricoes/[Materia]/[mat]-[u]-[c]-trans.md
+                  Copiar output e salvar como:
+                    Pietro/Prep/[Materia]/[mat]-[u]-[c]-prep.md
+
+5. VALIDAÇÃO    — python3 Pietro/Scripts/validate_preps.py [arquivo]
+
+6. AULA         — igual ao Pipeline A
+
+Síntese: o último screenshot continua sendo salvo como
+[mat]-[u]-[c]-sintese.png em Pietro/Raw/[Materia]/ e
+subido diretamente ao KB como imagem — não passa pela transcrição.
 ```
 
 ---
@@ -154,6 +209,13 @@ Exit code 0 = tudo válido. Exit code 1 = há erros.
 Acabei de tirar screenshots do capítulo 3 de Biologia unidade 1.
 Organiza, move para Pietro/Raw/Biologia/imagens/ com
 prefixo bio-1-3 e deleta os originais de ~/Pictures/Screenshots/.
+```
+
+**Concatenar lotes de transcrição:**
+```
+Concatena os lotes his-1-7-trans-*.md de Pietro/temp/ em ordem
+e salva como Pietro/Transcricoes/Historia/his-1-7-trans.md.
+Deleta os arquivos de lote de Pietro/temp/ após concatenar.
 ```
 
 **Validar todos os preps:**
@@ -178,6 +240,12 @@ com a lista dos arquivos com erro e o que falta em cada um.
 ```
 Compara os arquivos em Pietro/Raw/ com os em Pietro/Prep/.
 Me diz quais captures ainda não têm prep gerado.
+```
+
+**Listar transcrições sem prep correspondente:**
+```
+Compara os arquivos em Pietro/Transcricoes/ com os em Pietro/Prep/.
+Me diz quais transcrições ainda não têm prep gerado.
 ```
 
 **Contar cobertura por matéria:**
@@ -239,21 +307,23 @@ faça commit e push automaticamente.
 
 Convenção de mensagens:
 
-| Tipo de mudança          | Prefixo                          |
-|--------------------------|----------------------------------|
-| Novo prep                | `feat(mat): adiciona prep mat-u-c` |
-| Correção em prep         | `fix(mat): corrige prep mat-u-c`   |
-| Relatório de validação   | `chore: relatório de validação DD/MM/AAAA` |
-| Novo script              | `feat(scripts): nome do script`  |
-| Atualização de prompt    | `feat(prompts): atualiza Prompt_X` |
-| Organização de arquivos  | `chore: move/renomeia arquivos`  |
-| Novas imagens Raw        | `feat(raw): captura [mat]-[u]-[c]` |
+| Tipo de mudança          | Prefixo                                      |
+|--------------------------|----------------------------------------------|
+| Novo prep                | `feat(mat): adiciona prep mat-u-c`           |
+| Correção em prep         | `fix(mat): corrige prep mat-u-c`             |
+| Nova transcrição         | `feat(trans): adiciona transcrição mat-u-c`  |
+| Relatório de validação   | `chore: relatório de validação DD/MM/AAAA`   |
+| Novo script              | `feat(scripts): nome do script`              |
+| Atualização de prompt    | `feat(prompts): atualiza Prompt_X`           |
+| Organização de arquivos  | `chore: move/renomeia arquivos`              |
+| Novas imagens Raw        | `feat(raw): captura [mat]-[u]-[c]`           |
 
 Regras:
 - Ao commitar um novo prep, sempre incluir no mesmo commit:
   - `Pietro/Prep/[Materia]/[mat]-[u]-[c]-prep.md`
   - `Pietro/Prep/[Materia]/mindmap_[mat][u][c].html` (se existir)
   - Imagens Raw correspondentes (se houver)
+- Transcrições são commitadas separadamente do prep
 - Nunca commitar arquivos dentro de `Pietro/temp/`
 - Sempre incluir data no commit quando for relatório ou validação
 - Um commit por operação — não agrupar coisas não relacionadas
