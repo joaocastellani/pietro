@@ -76,6 +76,8 @@ QUESTÕES E ATIVIDADES:
 Transcreva integralmente — enunciado, alternativas, itens.
 Não classifique nem atribua gabarito.
 Preserve a numeração original do livro.
+Ícones de marcador (quadrado, círculo, seta, traço) usados como
+bullet antes de perguntas reflexivas → substitua por `—`.
 
 LEGENDAS SOLTAS E CRÉDITOS:
 Transcreva na posição em que aparecem na página.
