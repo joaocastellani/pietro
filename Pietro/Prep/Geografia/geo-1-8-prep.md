@@ -639,14 +639,27 @@ Classificação: médio
 
 ---
 
-**QC-3** · Uerj · 2019 (Adapt.) · pág. 174
+**QC-3** · Uerj · 2019 (Adapt.) · pág. 174–175
 
-> Texto: excerto do artigo "Física para poetas" — trata dos desafios do ensino de física, da distância entre áreas do conhecimento na formação especializada e da proposta de um curso que apresenta física sem linguagem matemática, associando-a ao cotidiano, à poesia e à música. [O texto se estende pela página 25 mas foi parcialmente fornecido.]
+> **Texto 1 — Física para poetas** (Adilson de Oliveira. Adaptado de cienciahoje.org.br, 08/08/2016.)
+> O ensino da física sempre foi um grande desafio. [...] Há alguns anos, ofereço um curso chamado "Física para poetas". A ideia não é original — é muito utilizada em diversos países e no Brasil. Seu objetivo é apresentar a física sem o uso da linguagem matemática e tentar mostrá-la próxima ao cotidiano das pessoas. [...] Na aula "Memórias de um carbono", faço uma narrativa de um átomo de carbono contando sua história, em primeira pessoa, desde seu nascimento, em uma distante estrela que morreu há bilhões de anos, até o momento em que sai pelo nariz de uma pessoa respirando. [...] A arte é uma forma importante do conhecimento humano. Se músicas e poesias inspiram as mentes e os corações, podemos mostrar que a ciência, em particular a física, também é algo inspirador e belo.
 
-Enunciado: [questão não completamente fornecida no material recebido — enunciado e alternativas estão na página 25, não disponível integralmente]
-Gabarito:
+> **Texto 2 — Memórias de um carbono** (Adilson de Oliveira. Adaptado de cienciahoje.org.br.)
+> Pouco tempo atrás, o átomo de carbono foi liberado de sua prisão química. No processo de transformação industrial do petróleo, ele foi incorporado à gasolina que era processada em uma refinaria. Não demorou muito e ele estava participando de uma reação de queima no motor de um automóvel e rapidamente estava novamente livre na atmosfera. A excessiva liberação desses átomos de carbono que ficaram aprisionados por milhões de anos no subsolo é um dos maiores problemas que a humanidade enfrenta atualmente.
+
+> **Texto 3 — O futuro já está entre nós** (Adaptado de cbn.globoradio.globo.com, 14/07/2017.)
+> O gestor hospitalar Edgar Escobar comprou um carro elétrico em 2016. Ele tem um dos veículos elétricos ou híbridos que circulam pelas ruas do Brasil hoje. São carros e ônibus que ajudam a preservar o meio ambiente. E cerca de 300 deles são elétricos. Ou seja, a emissão de gases poluentes é zero. Todo o funcionamento do carro é sustentado pela bateria, que pode ser carregada numa tomada dentro de casa.
+
+Enunciado: O desenvolvimento de veículos elétricos é uma das medidas para enfrentar o problema apontado no primeiro texto. A eficácia ambiental dessa medida, considerando as tecnologias comercialmente viáveis a curto prazo no mundo, depende principalmente do seguinte fator:
+a. ( ) perfil da matriz energética
+b. ( ) tamanho da carga tributária
+c. ( ) qualidade da rede rodoviária
+d. ( ) automação da cadeia produtiva
+Gabarito: a
+Explicação do gabarito: o carro elétrico só é ambientalmente eficaz se a eletricidade que o abastece vier de fontes limpas. Se a matriz energética do país for baseada em termelétricas a carvão ou petróleo, o carro elétrico apenas desloca a emissão de CO₂ da rua para a usina — sem ganho real. No Brasil, com matriz predominantemente hidrelétrica e crescente participação de eólica e solar, o benefício é maior do que em países dependentes de combustíveis fósseis na geração de energia.
+Conceito testado: matriz energética; eficácia ambiental dos veículos elétricos; relação entre fonte de energia e emissão de carbono
 Tipo: múltipla escolha
-Classificação: médio
+Classificação: difícil
 
 ---
 
@@ -664,4 +677,4 @@ Classificação: médio
 - Mapa temático do potencial eólico (Brasil: potencial eólico para altura de 100 m) · página 20 · regiões de destaque já capturadas em BLOCO C e BLOCO D — sem impacto na aula
 - ~~Gráfico de área empilhada — Produção mundial de biocombustíveis 2006–2016~~ · **resolvido** — dados adicionados em Gráfico 6 (BLOCO B)
 - ~~Gráfico de barras agrupadas — Etanol e biodiesel por região (2006 e 2016)~~ · **resolvido** — dados adicionados em Gráfico 7 (BLOCO B)
-- Questão QC-3 (Uerj 2019) · página 25 · enunciado e alternativas não fornecidos integralmente — questão incompleta no material recebido
+- ~~Questão QC-3 (Uerj 2019)~~ · **resolvida** — texto-base e alternativas adicionados integralmente
