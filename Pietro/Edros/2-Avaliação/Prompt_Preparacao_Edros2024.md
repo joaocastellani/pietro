@@ -1,18 +1,24 @@
-# Prompt — Geração do banco_edros_2024.md
+# PROMPT DE PREPARAÇÃO — 2ª Avaliação Edros 2024 (9º ano)
 
-**Uso:** Colar este prompt no Claude.ai e anexar o PDF da prova:
-`2024_2_avaliaçao_edros_9ano_prova.pdf`
-
----
-
-## TAREFA
-
-Você receberá o PDF da **2ª Avaliação Edros 2024 — 9º Ano** (60 questões).
-Sua tarefa é gerar o arquivo `banco_edros_2024.md` no formato padrão do sistema de tutoria.
+Arquivo de entrada:  `edros-2024-captura.md`
+Arquivo gerado:      `banco_edros_2024.md`
 
 ---
 
-## GABARITO (já confirmado — use diretamente)
+## INSTRUÇÕES GERAIS
+
+1. Leia `edros-2024-captura.md` inteiro antes de gerar qualquer
+   conteúdo
+2. Aplique o gabarito fornecido abaixo — não tente inferir respostas
+3. Mapeie cada questão ao prep correspondente usando a tabela
+   de preps disponíveis
+4. Preserve os enunciados e alternativas exatamente como capturados
+5. PROIBIDO encerrar com perguntas, sugestões ou próximos passos.
+   O output termina na Q60 — nada mais.
+
+---
+
+## GABARITO OFICIAL (2ª Avaliação Edros 2024 — 9º Ano)
 
 ```
 Q01-E  Q02-A  Q03-D  Q04-C  Q05-A  Q06-C  Q07-B  Q08-E  Q09-D  Q10-E
@@ -29,8 +35,14 @@ Q51-E  Q52-B  Q53-D  Q54-B  Q55-A  Q56-B  Q57-E  Q58-D  Q59-D  Q60-E
 
 ```
 Q[NN] · [Matéria] · Edros 2024
-[enunciado completo, incluindo textos de apoio que precedem a questão]
-[alternativas a. / b. / c. / d. / e. — transcritas na íntegra]
+[texto de apoio, se houver]
+[IMAGEM: descrição] ← se houver
+Enunciado: [enunciado exato]
+a. ( ) [alternativa]
+b. ( ) [alternativa]
+c. ( ) [alternativa]
+d. ( ) [alternativa]
+e. ( ) [alternativa]
 Gabarito: [letra maiúscula]
 Capítulo: [prep-x-y]
 ```
@@ -39,10 +51,12 @@ Separe cada questão com linha `---`.
 
 ---
 
-## MAPEAMENTO DE MATÉRIAS E PREPS DISPONÍVEIS
+## PREPS DISPONÍVEIS — TABELA DE MAPEAMENTO
 
-Use a tabela abaixo para identificar a matéria de cada bloco e mapear ao prep correto.
-Se a questão cobrir conteúdo sem prep correspondente, escreva `⚠️sem prep`.
+Escolha o prep cujo conteúdo melhor cobre o tema da questão.
+Se dois preps forem igualmente relevantes, liste ambos com `/`
+(ex: `mat-1-6/mat-1-7`).
+Se o conteúdo não tiver prep correspondente: `⚠️sem prep`.
 
 ### Língua Inglesa (ing)
 | Prep | Conteúdo |
@@ -50,7 +64,7 @@ Se a questão cobrir conteúdo sem prep correspondente, escreva `⚠️sem prep`
 | ing-1-1 | Interpretação de texto — estratégias de leitura |
 | ing-1-2 | Present perfect / Simple past |
 | ing-1-3 | Modal verbs (can, could, should, must, may) |
-| ing-1-4 | Passive voice / Noun compounds |
+| ing-1-4 | Passive voice / Noun compounds / Noun modifiers |
 | ing-1-5 | Reported speech / Conditional |
 | ing-1-6 | Reading comprehension — gêneros textuais |
 
@@ -150,42 +164,25 @@ Se a questão cobrir conteúdo sem prep correspondente, escreva `⚠️sem prep`
 
 ---
 
-## REGRAS DE FORMATAÇÃO
-
-1. **Enunciado completo**: transcreva o texto de apoio (fragmento, poema, notícia etc.) que introduz a questão, mantendo a formatação essencial.
-2. **Alternativas**: use `a. ( )`, `b. ( )`, `c. ( )`, `d. ( )`, `e. ( )` — exatamente como na prova.
-3. **Imagens**: quando houver figura, charge, mapa, gráfico ou tirinha, escreva `[IMAGEM: descrição objetiva do que é mostrado]` no lugar adequado.
-4. **Gabarito**: use a letra maiúscula do gabarito fornecido acima.
-5. **Capítulo**: escolha o prep que melhor cobre o conteúdo da questão. Se dois preps forem igualmente relevantes, liste ambos separados por `/` (ex: `mat-1-6/mat-1-7`).
-6. **⚠️sem prep**: se o conteúdo não tiver prep correspondente na lista, escreva `⚠️sem prep`.
-7. **Separador**: use `---` entre questões.
-8. **Não pule questões**: o arquivo deve conter exatamente Q01 a Q60 em ordem.
-
----
-
-## CABEÇALHO DO ARQUIVO
-
-O arquivo deve começar com:
+## CABEÇALHO DO ARQUIVO GERADO
 
 ```
 # Banco de Questões — 2ª Avaliação Edros 2024 · 9º Ano
 
-Fonte: 2ª Avaliação Edros 2024 — Ensino Fundamental Anos Finais (Poliedro/P+)
-Total: 60 questões
+Fonte: 2ª Avaliação Edros 2024 — Ensino Fundamental Anos Finais (Poliedro / P+)
+Total: 60 questões | Gabarito: oficial Edros 2024
 
 ---
 ```
 
 ---
 
-## ORDEM DOS BLOCOS DE MATÉRIA NA PROVA
+## EXECUÇÃO
 
-A prova está organizada nesta sequência de blocos:
-1. Língua Inglesa
-2. Língua Portuguesa
-3. Matemática
-4. Ciências (Biologia → Química → Física)
-5. História
-6. Geografia
-
-Use essa sequência para identificar a matéria de cada questão ao longo da prova.
+1. Leia `edros-2024-captura.md` inteiro
+2. Para cada questão Q01–Q60 em ordem:
+   a) Copie enunciado e alternativas exatamente como capturados
+   b) Aplique o gabarito da tabela acima
+   c) Identifique o prep mais adequado e preencha Capítulo:
+3. Gere o arquivo completo em sequência, sem interrupções
+4. Ao final, salve como `banco_edros_2024.md`
