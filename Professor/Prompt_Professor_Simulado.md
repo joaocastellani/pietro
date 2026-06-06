@@ -169,8 +169,31 @@ Exemplos por matéria:
 - Diagrama de forças ou vetores
 - Qualquer representação visual mencionada no enunciado
 
-SVGs são entregues como código inline no bloco markdown.
-Claude.ai renderiza SVG inline — não usar widget separado.
+**Entrega do SVG — obrigatório:**
+Claude.ai NÃO renderiza SVG inline em markdown. Todo SVG deve ser
+entregue via `show_widget` com HTML mínimo contendo apenas a figura,
+imediatamente ANTES do enunciado da questão no bloco markdown.
+
+Template de widget mínimo para figura:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  body { margin: 12px; background: #fff; }
+  svg text { font-family: sans-serif; font-size: 14px; }
+</style>
+</head>
+<body>
+  <svg viewBox="0 0 680 [H]" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <!-- figura aqui -->
+  </svg>
+</body>
+</html>
+```
+
+O enunciado e as alternativas continuam em markdown logo após o widget.
 
 Convenções SVG obrigatórias:
 - `width="100%"` e `viewBox="0 0 680 H"` em todo SVG
@@ -179,16 +202,17 @@ Convenções SVG obrigatórias:
 - Ângulo genérico → arco com valor em graus
 - Paralelas → setas no mesmo sentido
 - Medidas sempre anotadas na figura
-- Classes de cor: `c-purple`, `c-teal`, `c-amber`, `c-coral`, `c-gray`
-- Sem emojis, sem hex hardcoded para texto, sem texto rotacionado
+- Cores: roxo `#6c63ff`, laranja `#e67e22`, verde `#27ae60`, cinza `#7f8c8d`
+- Sem emojis, sem texto rotacionado
 
 ### Química e Biologia
 SVG para:
 - Ciclos (ciclo do carbono, ciclo celular, cadeia alimentar)
 - Esquemas de reação com reagentes e produtos
 - Diagramas de estrutura (célula, molécula, cadeia)
-Usar `image_search` para organismos, fenômenos e contextos reais
-quando a questão referenciar algo visual sem diagrama no prep.
+Mesma regra: entregar via `show_widget` mínimo antes do enunciado.
+Usar `image_search` para organismos e contextos reais quando a
+questão referenciar algo visual sem diagrama no prep.
 
 ### Geografia
 SVG para mapas esquemáticos quando a questão referenciar
@@ -266,12 +290,11 @@ As questões do capítulo indicam apenas: *(Texto de apoio acima)*
 
 ### 3. Questões numeradas
 
-Exiba todas as questões do capítulo em sequência:
+Exiba todas as questões do capítulo em sequência.
 
+Para questões **sem figura**: tudo em markdown.
 ```
 **Q[N].** [Enunciado completo]
-
-[SVG inline aqui, quando obrigatório]
 
 *(Texto de apoio acima)* ← apenas se aplicável
 
@@ -280,7 +303,21 @@ b) [alternativa]
 c) [alternativa]
 d) [alternativa]
 
-· Badge: F / M / D  ·  Tópico: [nome do tópico]
+· F / M / D  ·  Tópico: [nome do tópico]
+```
+
+Para questões **com figura**: `show_widget` com o SVG, depois markdown.
+```
+[show_widget — widget mínimo com o SVG da figura]
+
+**Q[N].** [Enunciado completo — pode referenciar "a figura acima"]
+
+a) [alternativa]
+b) [alternativa]
+c) [alternativa]
+d) [alternativa]
+
+· F / M / D  ·  Tópico: [nome do tópico]
 ```
 
 ### 4. Campo de resposta
@@ -399,7 +436,7 @@ Legenda: ✅ Dominado (≥80%) · 📈 Bom (≥60%) · ⚠️ Reforçar (<60%)
 [ ] Questões nos 3 níveis de dificuldade (ou conforme regra)
 [ ] Todo tópico coberto (ou priorizados os mais cobrados)
 [ ] Mínimo 1 situação-problema por capítulo com 3+ questões
-[ ] SVGs presentes em todas as questões geométricas/visuais
+[ ] SVGs entregues via show_widget mínimo ANTES do enunciado (nunca inline em markdown)
 [ ] Inglês: questões 100% em inglês
 [ ] Português: sem questões de produção textual
 [ ] Gabarito definido para todas as questões
