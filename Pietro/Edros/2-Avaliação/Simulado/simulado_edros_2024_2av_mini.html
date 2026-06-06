@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mini-Simulado Edros · 2ª Avaliação · 2024</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; color: #222; }
+
+  /* HEADER */
+  .header {
+    background: #1a3a5c;
+    color: #fff;
+    padding: 20px 24px 16px;
+    position: sticky; top: 0; z-index: 100;
+  }
+  .header h1 { font-size: 1.2rem; font-weight: 700; letter-spacing: .5px; }
+  .header p  { font-size: .85rem; opacity: .8; margin-top: 3px; }
+
+  /* TABS */
+  .tabs { display: flex; background: #122b46; }
+  .tab {
+    flex: 1; padding: 11px 8px; text-align: center;
+    font-size: .82rem; font-weight: 600; color: rgba(255,255,255,.55);
+    cursor: pointer; border-bottom: 3px solid transparent; transition: .2s;
+    user-select: none;
+  }
+  .tab.active   { color: #fff; border-bottom-color: #4da6ff; }
+  .tab.locked   { cursor: not-allowed; opacity: .38; }
+
+  /* PANELS */
+  .panel { display: none; padding: 16px 16px 100px; }
+  .panel.active { display: block; }
+
+  /* RECOVERY BANNER */
+  #sbanner {
+    display: none;
+    background: #d4edda; color: #155724;
+    border: 1px solid #c3e6cb; border-radius: 6px;
+    padding: 10px 14px; margin-bottom: 14px;
+    font-size: .85rem;
+  }
+
+  /* SUBJECT LABEL */
+  .subject-label {
+    font-size: .72rem; font-weight: 700; letter-spacing: 1px;
+    text-transform: uppercase; color: #1a3a5c;
+    border-left: 3px solid #1a3a5c; padding-left: 8px;
+    margin: 20px 0 10px;
+  }
+
+  /* QUESTION CARD */
+  .card {
+    background: #fff; border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.08);
+    padding: 16px; margin-bottom: 14px;
+  }
+  .card-header {
+    display: flex; align-items: center; gap: 10px; margin-bottom: 12px;
+  }
+  .badge {
+    background: #1a3a5c; color: #fff;
+    font-size: .72rem; font-weight: 700;
+    padding: 3px 9px; border-radius: 12px; white-space: nowrap;
+  }
+  .card-meta { font-size: .78rem; color: #666; }
+
+  /* IMAGE BOX */
+  .img-box {
+    background: #f8f9fa; border: 1px solid #dee2e6;
+    border-radius: 6px; padding: 10px 14px;
+    font-style: italic; font-size: .85rem; color: #444;
+    margin-bottom: 10px;
+  }
+
+  /* SUPPORT TEXT */
+  .support {
+    background: #f8f9fb; border-left: 3px solid #4da6ff;
+    padding: 10px 14px; border-radius: 0 6px 6px 0;
+    font-size: .87rem; margin-bottom: 12px;
+    line-height: 1.6; white-space: pre-wrap;
+  }
+  .support cite { display: block; font-size: .74rem; color: #777; margin-top: 6px; font-style: normal; }
+
+  /* ENUNCIADO */
+  .enunciado { font-size: .93rem; margin-bottom: 12px; line-height: 1.6; }
+
+  /* ALTERNATIVES */
+  .alt {
+    display: flex; align-items: flex-start; gap: 10px;
+    padding: 9px 12px; border-radius: 7px; margin-bottom: 6px;
+    border: 1.5px solid #e0e4ea; cursor: pointer;
+    font-size: .88rem; line-height: 1.5; transition: .15s;
+  }
+  .alt:hover:not(.locked-alt) { background: #eef4ff; border-color: #4da6ff; }
+  .alt.selected  { background: #e8f0fe; border-color: #1a3a5c; }
+  .alt.correct   { background: #d4edda; border-color: #28a745; }
+  .alt.wrong     { background: #f8d7da; border-color: #dc3545; }
+  .alt.locked-alt { cursor: default; }
+  .alt-letter {
+    font-weight: 700; color: #1a3a5c; min-width: 18px;
+  }
+
+  /* STICKY FOOTER */
+  .footer {
+    position: fixed; bottom: 0; left: 0; right: 0;
+    background: #fff; border-top: 1px solid #dde;
+    padding: 12px 16px;
+    display: flex; align-items: center; justify-content: space-between;
+    box-shadow: 0 -2px 8px rgba(0,0,0,.07);
+    z-index: 99;
+  }
+  .counter { font-size: .88rem; color: #555; }
+  .btn-group { display: flex; gap: 8px; }
+  button {
+    padding: 9px 18px; border-radius: 7px; border: none;
+    font-size: .88rem; font-weight: 600; cursor: pointer; transition: .15s;
+  }
+  .btn-clear { background: #f0f0f0; color: #555; }
+  .btn-clear:hover { background: #ddd; }
+  .btn-result { background: #1a3a5c; color: #fff; }
+  .btn-result:hover { background: #274f7a; }
+
+  /* RESULT PANEL */
+  .score-box {
+    background: #fff; border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.08);
+    padding: 20px; text-align: center; margin-bottom: 16px;
+  }
+  .score-num { font-size: 2.4rem; font-weight: 800; color: #1a3a5c; }
+  .score-msg { font-size: .9rem; color: #555; margin-top: 6px; }
+  .mat-card {
+    background: #fff; border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.08);
+    padding: 14px 16px; margin-bottom: 10px;
+  }
+  .mat-title { font-weight: 700; font-size: .9rem; margin-bottom: 8px; color: #1a3a5c; }
+  .prog-bar-bg { background: #e9ecef; border-radius: 4px; height: 8px; }
+  .prog-bar-fill { background: #1a3a5c; height: 8px; border-radius: 4px; transition: width .4s; }
+  .mat-legend { font-size: .78rem; color: #666; margin-top: 5px; display: flex; justify-content: space-between; }
+  .badge-perf {
+    font-size: .72rem; font-weight: 700; padding: 2px 8px; border-radius: 10px; margin-left: 8px;
+  }
+  .dom  { background: #d4edda; color: #155724; }
+  .bom  { background: #fff3cd; color: #856404; }
+  .ref  { background: #f8d7da; color: #721c24; }
+
+  .reinforce-section { background: #fff; border-radius: 10px; padding: 16px; margin-top: 14px; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+  .reinforce-title { font-weight: 700; font-size: .95rem; margin-bottom: 10px; color: #1a3a5c; }
+  .reinforce-item { margin-bottom: 10px; }
+  .reinforce-mat  { font-weight: 600; font-size: .85rem; }
+  .reinforce-qs   { font-size: .8rem; color: #555; margin-top: 2px; }
+  .reinforce-prep { font-size: .8rem; color: #1a3a5c; margin-top: 2px; }
+
+  .report-box {
+    background: #eef4ff; border-radius: 10px;
+    padding: 16px; margin-top: 14px; text-align: center;
+  }
+  .report-box h3 { font-size: .95rem; color: #1a3a5c; margin-bottom: 8px; }
+  .report-box p  { font-size: .83rem; color: #555; margin-bottom: 12px; }
+  .btn-report    { background: #1a3a5c; color: #fff; padding: 10px 22px; border-radius: 7px; border: none; font-weight: 600; cursor: pointer; }
+
+  /* GABARITO PANEL */
+  .gab-grid {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 4px 0;
+  }
+  .gab-cell {
+    background: #fff; border-radius: 8px; padding: 10px 6px; text-align: center;
+    font-size: .8rem; box-shadow: 0 1px 3px rgba(0,0,0,.07);
+  }
+  .gab-cell .qn  { font-weight: 700; font-size: .75rem; color: #1a3a5c; }
+  .gab-cell .ans { font-size: .9rem; font-weight: 700; margin-top: 3px; }
+  .gab-cell.ok   { border-left: 3px solid #28a745; }
+  .gab-cell.err  { border-left: 3px solid #dc3545; }
+  .gab-cell.ok .ans { color: #28a745; }
+  .gab-cell.err .ans { color: #dc3545; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Mini-Simulado Edros · 2ª Avaliação · 2024</h1>
+  <p id="subtitle">8 questões · Língua Inglesa + Língua Portuguesa</p>
+</div>
+
+<div class="tabs">
+  <div class="tab active" id="tab-q" onclick="switchTab('q')">Questões</div>
+  <div class="tab locked" id="tab-r" onclick="switchTab('r')">Resultado</div>
+  <div class="tab locked" id="tab-g" onclick="switchTab('g')">Gabarito</div>
+</div>
+
+<!-- ═══════════════ ABA QUESTÕES ═══════════════ -->
+<div class="panel active" id="panel-q">
+
+  <div id="sbanner">Respostas anteriores recuperadas automaticamente.</div>
+
+  <!-- LÍNGUA INGLESA -->
+  <div class="subject-label">Língua Inglesa</div>
+
+  <!-- Q01 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="badge">Q1</span>
+      <span class="card-meta">Q01 · Língua Inglesa</span>
+    </div>
+    <div class="support"><em>Images of polar bears clinging to ice floes have become instantly recognisable as emblems for the climate crisis. However, over the last decade, scientists and campaigners have begun to drift away from these visuals, questioning if they really paint a realistic image of climate change. Although experts are in agreement that ice caps are melting at record rates, some <strong>have warned</strong> that images of polar bears might not tell the full story.</em><cite>Frankie Adkins. "Why polar bears are no longer the poster image of climate change". Disponível em: &lt;https://www.bbc.com&gt;. Acesso em: 17 nov. 2023. (Adaptado)</cite></div>
+    <div class="enunciado">The highlighted structure in the text expresses that</div>
+    <div class="alt" onclick="pick(1,'a')"><span class="alt-letter">a.</span> experts raised a discussion about polar bears just now.</div>
+    <div class="alt" onclick="pick(1,'b')"><span class="alt-letter">b.</span> experts still do not have an opinion on the use of images of polar bears.</div>
+    <div class="alt" onclick="pick(1,'c')"><span class="alt-letter">c.</span> the questioning of experts made in the past is not important in the present.</div>
+    <div class="alt" onclick="pick(1,'d')"><span class="alt-letter">d.</span> questions about the use of the image of polar bears will be asked in the future.</div>
+    <div class="alt" onclick="pick(1,'e')"><span class="alt-letter">e.</span> the question made in the past about the use of the image of polar bears is still valid.</div>
+  </div>
+
+  <!-- Q02 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="badge">Q2</span>
+      <span class="card-meta">Q02 · Língua Inglesa</span>
+    </div>
+    <div class="img-box">🖼️ <em>Anúncio publicitário do Burger King intitulado "Anatomy of an Original Chicken Sandwich", mostrando um sanduíche de frango com setas identificando partes como "Crispy peninsula" e "Lettuce blankie".</em></div>
+    <div style="font-size:.74rem;color:#888;margin-bottom:10px;">Disponível em: &lt;https://www.facebook.com/burgerking&gt;. Acesso em: 10 ago. 2023.</div>
+    <div class="enunciado">In the ad, the noun "chicken" is being used to help describe the noun "sandwich" by</div>
+    <div class="alt" onclick="pick(2,'a')"><span class="alt-letter">a.</span> specifying a product component.</div>
+    <div class="alt" onclick="pick(2,'b')"><span class="alt-letter">b.</span> revealing the size of the product.</div>
+    <div class="alt" onclick="pick(2,'c')"><span class="alt-letter">c.</span> indicating what is not contained in the product.</div>
+    <div class="alt" onclick="pick(2,'d')"><span class="alt-letter">d.</span> comparing it to the best products on the market.</div>
+    <div class="alt" onclick="pick(2,'e')"><span class="alt-letter">e.</span> explaining the reason for using chicken instead of beef.</div>
+  </div>
+
+  <!-- Q03 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="badge">Q3</span>
+      <span class="card-meta">Q03 · Língua Inglesa</span>
+    </div>
+    <div class="support"><strong>Pause giant AI experiments: an open letter</strong>
+
+<em>AI developers must work with policymakers to dramatically accelerate development of robust AI governance systems. These should at a minimum include: new <strong>and</strong> capable regulatory authorities dedicated to AI; oversight <strong>and</strong> tracking of highly capable AI systems <strong>and</strong> large pools of computational capability; provenance <strong>and</strong> watermarking systems to help distinguish real from synthetic <strong>and</strong> to track model leaks; a robust auditing <strong>and</strong> certification ecosystem; liability for AI-caused harm; robust public funding for technical AI safety research; <strong>and</strong> well-resourced institutions for coping with the dramatic economic <strong>and</strong> political disruptions (especially to democracy) that AI will cause.</em><cite>Disponível em: &lt;https://futureoflife.org&gt;. Acesso em: 10 ago. 2023.</cite></div>
+    <div class="enunciado">In this excerpt, the author of the letter supports his arguments and repeats the word "and" to</div>
+    <div class="alt" onclick="pick(3,'a')"><span class="alt-letter">a.</span> contrast some points of view.</div>
+    <div class="alt" onclick="pick(3,'b')"><span class="alt-letter">b.</span> be repetitive to tire the reader.</div>
+    <div class="alt" onclick="pick(3,'c')"><span class="alt-letter">c.</span> explain the reasons for his complaint.</div>
+    <div class="alt" onclick="pick(3,'d')"><span class="alt-letter">d.</span> highlight the number of topics to be discussed.</div>
+    <div class="alt" onclick="pick(3,'e')"><span class="alt-letter">e.</span> present what is not effective in the development of AI.</div>
+  </div>
+
+  <!-- Q04 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="badge">Q4</span>
+      <span class="card-meta">Q04 · Língua Inglesa</span>
+    </div>
+    <div class="img-box">🖼️ <em>Tirinha "Money or Passion?" em 4 quadros: 1º) personagem pergunta "Should I find a job that is based on money or my passion?" e outro responde "Money!!"; 2º) personagem diz "But they said we should always work for our passion!! Only then, we will be successful and happy with our life!!"; 3º) pergunta "Do you have a passion?" e silêncio ".........."; 4º) "No..." e resposta "That's what I thought."</em></div>
+    <div class="enunciado">The modal verb "should" appears in the first two panels of the comic strip and expresses an idea related to</div>
+    <div class="alt" onclick="pick(4,'a')"><span class="alt-letter">a.</span> the need to find a job soon.</div>
+    <div class="alt" onclick="pick(4,'b')"><span class="alt-letter">b.</span> the probability to find a good job.</div>
+    <div class="alt" onclick="pick(4,'c')"><span class="alt-letter">c.</span> the advice about professional life.</div>
+    <div class="alt" onclick="pick(4,'d')"><span class="alt-letter">d.</span> the possibility of changing careers.</div>
+    <div class="alt" onclick="pick(4,'e')"><span class="alt-letter">e.</span> the obligation to work when you are an adult.</div>
+  </div>
+
+  <!-- LÍNGUA PORTUGUESA -->
+  <div class="subject-label">Língua Portuguesa</div>
+
+  <!-- Q05 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="badge">Q5</span>
+      <span class="card-meta">Q05 · Língua Portuguesa</span>
+    </div>
+    <div class="support"><em>Os autores Milton Santos e Maria Laura Silveira propõem a divisão do país em "quatro <strong>brasis</strong>", levando em consideração aspectos <strong>socioeconômicos</strong> e principalmente o meio geográfico presente nestas regiões, com foco no entendimento da articulação do território brasileiro a partir da inserção de nossa economia periférica no <strong>capitalismo globalizado</strong>. Por meio da análise dos fluxos que ocorrem através da infraestrutura que dá suporte às redes de informação, mercadorias, capitais e pessoas, Milton Santos e Maria Laura Silveira <strong>buscaram</strong> fazer "falar o território a partir de sua história" (da história das técnicas) (Silveira, 2011).</em><cite>Renan Amabile Boscariol. "Região e regionalização no Brasil: uma análise segundo os resultados do Índice de Desenvolvimento Humano Municipal (IDHM)". Territórios em números. Brasília: IPEA, 2017. (Adaptado)</cite></div>
+    <div class="enunciado">Considerando os processos de formação de palavras no trecho do artigo, o termo</div>
+    <div class="alt" onclick="pick(5,'a')"><span class="alt-letter">a.</span> "brasis" é formado por derivação imprópria, já que um substantivo próprio passou a ser usado como comum.</div>
+    <div class="alt" onclick="pick(5,'b')"><span class="alt-letter">b.</span> "socioeconômicos" é formado por derivação prefixal, já que "socio" é um prefixo.</div>
+    <div class="alt" onclick="pick(5,'c')"><span class="alt-letter">c.</span> "capitalismo" é formado por composição por justaposição, pois é composto de dois radicais.</div>
+    <div class="alt" onclick="pick(5,'d')"><span class="alt-letter">d.</span> "globalizado" é formado por derivação parassintética, já que tem prefixo e sufixo obrigatórios.</div>
+    <div class="alt" onclick="pick(5,'e')"><span class="alt-letter">e.</span> "buscaram" é um verbo formado por derivação sufixal, porque "-aram" é um sufixo temporal.</div>
+  </div>
+
+  <!-- Q06 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="badge">Q6</span>
+      <span class="card-meta">Q06 · Língua Portuguesa</span>
+    </div>
+    <div class="support"><strong>Quadrilha</strong>
+
+<em>João amava Teresa que amava Raimundo
+que amava Maria que amava Joaquim que amava Lili
+que não amava ninguém.</em><cite>Carlos Drummond de Andrade. Alguma poesia. São Paulo: Companhia das Letras, 2013.</cite></div>
+    <div class="enunciado">O trecho do poema apresenta períodos compostos por subordinação porque</div>
+    <div class="alt" onclick="pick(6,'a')"><span class="alt-letter">a.</span> apresentam conectivos coordenativos, indicando ligações coordenativas.</div>
+    <div class="alt" onclick="pick(6,'b')"><span class="alt-letter">b.</span> expressam ações simultâneas, ignorando a ordem cronológica dos fatos.</div>
+    <div class="alt" onclick="pick(6,'c')"><span class="alt-letter">c.</span> têm ações encadeadas, estabelecendo relações de vínculo entre as orações.</div>
+    <div class="alt" onclick="pick(6,'d')"><span class="alt-letter">d.</span> contêm sujeitos e predicados diferentes, demonstrando autonomia entre as orações.</div>
+    <div class="alt" onclick="pick(6,'e')"><span class="alt-letter">e.</span> formam estruturas sintáticas simples, evidenciando a existência de uma única oração.</div>
+  </div>
+
+  <!-- Q07 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="badge">Q7</span>
+      <span class="card-meta">Q07 · Língua Portuguesa</span>
+    </div>
+    <div class="img-box">🖼️ <em>Tira do Armandinho (Alexandre Beck) com 3 quadros: 1º) Armandinho em frente ao zoológico diz "A onça-pintada é o maior felino das Américas!"; 2º) adulto responde "É muito linda!"; 3º) Armandinho pergunta "E o que ela fez pra estar presa?"</em></div>
+    <div class="enunciado">Considerando a palavra "onça-pintada", citada na tira, é correto afirmar que o termo "pintada" é um(a)</div>
+    <div class="alt" onclick="pick(7,'a')"><span class="alt-letter">a.</span> palavra inserida pelo próprio Armandinho para caracterizar a onça.</div>
+    <div class="alt" onclick="pick(7,'b')"><span class="alt-letter">b.</span> termo que, ao se associar à palavra "onça", dá nome a uma espécie.</div>
+    <div class="alt" onclick="pick(7,'c')"><span class="alt-letter">c.</span> palavra que sofreria alteração caso a palavra "onça" estivesse no masculino.</div>
+    <div class="alt" onclick="pick(7,'d')"><span class="alt-letter">d.</span> palavra usada por Armandinho para se referir ao desenho da onça no zoológico.</div>
+    <div class="alt" onclick="pick(7,'e')"><span class="alt-letter">e.</span> termo inventado por Armandinho para que seu pai localizasse a onça entre as demais.</div>
+  </div>
+
+  <!-- Q08 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="badge">Q8</span>
+      <span class="card-meta">Q08 · Língua Portuguesa</span>
+    </div>
+    <div class="support"><em>Eram 4h da manhã na várzea do rio que banha a Terra Indígena Mãe Maria, no município de Bom Jesus do Tocantins (PA). O canto de pássaro surge de forma surpreendente para dois pesquisadores ornitólogos, no décimo dia da expedição da pesquisa em que buscavam a ave mutum-pinima, criticamente ameaçada de extinção. Eles quase não acreditavam no que ouviam. E depois no que enxergavam. Havia 40 anos que nenhum pesquisador via o bicho de perto.</em><cite>Luis Claudio Ferreira. "Pesquisadores acham ave quase em extinção e desaparecida há 40 anos". Disponível em: &lt;https://agenciabrasil.ebc.com.br&gt;. Acesso em: 13 nov. 2023.</cite></div>
+    <div class="enunciado">O trecho é formado apenas por períodos compostos porque suas frases</div>
+    <div class="alt" onclick="pick(8,'a')"><span class="alt-letter">a.</span> têm sujeito e predicado em suas estruturas.</div>
+    <div class="alt" onclick="pick(8,'b')"><span class="alt-letter">b.</span> são constituídas de períodos nominais.</div>
+    <div class="alt" onclick="pick(8,'c')"><span class="alt-letter">c.</span> são formadas por uma única oração.</div>
+    <div class="alt" onclick="pick(8,'d')"><span class="alt-letter">d.</span> contêm variadas locuções verbais.</div>
+    <div class="alt" onclick="pick(8,'e')"><span class="alt-letter">e.</span> apresentam mais de um verbo.</div>
+  </div>
+
+</div><!-- /panel-q -->
+
+<!-- ═══════════════ ABA RESULTADO ═══════════════ -->
+<div class="panel" id="panel-r">
+  <div class="score-box">
+    <div class="score-num" id="score-num">—</div>
+    <div class="score-msg" id="score-msg"></div>
+  </div>
+  <div id="mat-results"></div>
+  <div id="reinforce-block"></div>
+  <div class="report-box">
+    <h3>Relatório desta sessão</h3>
+    <p>Clique para o Professor gerar o relatório completo.</p>
+    <button class="btn-report" onclick="sendPrompt('gerar relatório do simulado edros')">Gerar relatório</button>
+  </div>
+</div>
+
+<!-- ═══════════════ ABA GABARITO ═══════════════ -->
+<div class="panel" id="panel-g">
+  <div class="gab-grid" id="gab-grid"></div>
+</div>
+
+<!-- STICKY FOOTER (only on questions tab) -->
+<div class="footer" id="footer">
+  <span class="counter" id="counter">Respondidas: 0/8</span>
+  <div class="btn-group">
+    <button class="btn-clear" onclick="clearAll()">Limpar</button>
+    <button class="btn-result" onclick="seeResult()">Ver resultado</button>
+  </div>
+</div>
+
+<script>
+// ── DATA ──────────────────────────────────────────────────────────
+const SIM_ID = 'edros_2024_2av_mini';
+const KA = `simulado_${SIM_ID}_ans`;
+const KD = `simulado_${SIM_ID}_done`;
+const TOTAL = 8;
+
+const GAB = {1:'e', 2:'a', 3:'d', 4:'c', 5:'a', 6:'c', 7:'b', 8:'e'};
+
+const QDATA = {
+  1: { mat:'Língua Inglesa', orig:'Q01', cap:'ing-1-2' },
+  2: { mat:'Língua Inglesa', orig:'Q02', cap:'ing-1-4' },
+  3: { mat:'Língua Inglesa', orig:'Q03', cap:'ing-1-6' },
+  4: { mat:'Língua Inglesa', orig:'Q04', cap:'ing-1-3' },
+  5: { mat:'Língua Portuguesa', orig:'Q05', cap:'por-1-6/por-1-8' },
+  6: { mat:'Língua Portuguesa', orig:'Q06', cap:'por-1-10' },
+  7: { mat:'Língua Portuguesa', orig:'Q07', cap:'por-1-6' },
+  8: { mat:'Língua Portuguesa', orig:'Q08', cap:'por-1-10' }
+};
+
+const MATS = {
+  'Língua Inglesa':    [1,2,3,4],
+  'Língua Portuguesa': [5,6,7,8]
+};
+
+// ── STATE ─────────────────────────────────────────────────────────
+let answers = {};
+let done = false;
+
+// ── STORAGE ───────────────────────────────────────────────────────
+async function ss(k, v) {
+  try { await window.storage.set(k, JSON.stringify(v)); } catch(e) {}
+}
+async function gs(k) {
+  try { const r = await window.storage.get(k); return r ? JSON.parse(r.value) : null; } catch(e) { return null; }
+}
+async function ds(k) {
+  try { await window.storage.delete(k); } catch(e) {}
+}
+
+// ── TABS ──────────────────────────────────────────────────────────
+function switchTab(t) {
+  if (t === 'r' && !done) return;
+  if (t === 'g' && !done) return;
+  ['q','r','g'].forEach(x => {
+    document.getElementById('tab-'+x).classList.remove('active');
+    document.getElementById('panel-'+x).classList.remove('active');
+  });
+  document.getElementById('tab-'+t).classList.add('active');
+  document.getElementById('panel-'+t).classList.add('active');
+  document.getElementById('footer').style.display = (t === 'q') ? 'flex' : 'none';
+}
+
+// ── PICK ──────────────────────────────────────────────────────────
+function pick(q, letter) {
+  if (done) return;
+  const alts = document.querySelectorAll(`#panel-q .card:nth-child(${q+1}) .alt`);
+  // nth-child won't work reliably — use data attr approach
+  const card = document.querySelector(`[data-q="${q}"]`);
+  if (!card) return;
+
+  card.querySelectorAll('.alt').forEach(el => el.classList.remove('selected'));
+  card.querySelectorAll('.alt').forEach(el => {
+    if (el.dataset.l === letter) el.classList.add('selected');
+  });
+  answers[q] = letter;
+  ss(KA, answers);
+  updCnt();
+}
+
+function updCnt() {
+  const n = Object.keys(answers).length;
+  document.getElementById('counter').textContent = `Respondidas: ${n}/${TOTAL}`;
+}
+
+// ── ADD DATA ATTRS ────────────────────────────────────────────────
+function initCards() {
+  const cards = document.querySelectorAll('#panel-q .card');
+  cards.forEach((card, i) => {
+    const q = i + 1;
+    card.setAttribute('data-q', q);
+    const alts = card.querySelectorAll('.alt');
+    const letters = ['a','b','c','d','e'];
+    alts.forEach((alt, j) => {
+      alt.setAttribute('data-l', letters[j]);
+      alt.onclick = () => pick(q, letters[j]);
+    });
+  });
+}
+
+// ── PAINT (restore selections) ────────────────────────────────────
+function paint() {
+  for (const [q, l] of Object.entries(answers)) {
+    const card = document.querySelector(`[data-q="${q}"]`);
+    if (!card) continue;
+    card.querySelectorAll('.alt').forEach(el => {
+      el.classList.toggle('selected', el.dataset.l === l);
+    });
+  }
+}
+
+// ── SEE RESULT ────────────────────────────────────────────────────
+function seeResult() {
+  const n = Object.keys(answers).length;
+  if (n < TOTAL) { alert(`Responda todas as ${TOTAL} questões primeiro!`); return; }
+  done = true;
+  ss(KD, true);
+  unlock();
+  renderRes();
+  colorAlts();
+  switchTab('r');
+}
+
+function unlock() {
+  ['r','g'].forEach(t => {
+    document.getElementById('tab-'+t).classList.remove('locked');
+  });
+}
+
+function colorAlts() {
+  for (let q = 1; q <= TOTAL; q++) {
+    const card = document.querySelector(`[data-q="${q}"]`);
+    if (!card) continue;
+    card.querySelectorAll('.alt').forEach(el => {
+      const l = el.dataset.l;
+      el.classList.remove('selected');
+      el.classList.add('locked-alt');
+      if (l === GAB[q])           el.classList.add('correct');
+      else if (l === answers[q])  el.classList.add('wrong');
+    });
+  }
+}
+
+function renderRes() {
+  // Score
+  let total = 0, correct = 0;
+  for (let q = 1; q <= TOTAL; q++) {
+    total++;
+    if (answers[q] === GAB[q]) correct++;
+  }
+  const pct = Math.round(correct / total * 100);
+  document.getElementById('score-num').textContent = `${correct}/${total} (${pct}%)`;
+  const msgs = pct >= 80 ? 'Excelente! Resultado acima da média 🎉'
+             : pct >= 60 ? 'Bom! Revise as matérias com mais erros 📖'
+             :              'Continue estudando — use os preps para reforçar 💪';
+  document.getElementById('score-msg').textContent = msgs;
+
+  // Per subject
+  let matHtml = '<div style="margin-bottom:6px;font-weight:700;font-size:.9rem;color:#1a3a5c;">Resultado por matéria</div>';
+  const reinforce = [];
+  for (const [mat, qs] of Object.entries(MATS)) {
+    const matCorrect = qs.filter(q => answers[q] === GAB[q]).length;
+    const matTotal   = qs.length;
+    const matPct     = Math.round(matCorrect / matTotal * 100);
+    const badgeCls   = matPct >= 80 ? 'dom' : matPct >= 60 ? 'bom' : 'ref';
+    const badgeTxt   = matPct >= 80 ? '✅ Dominado' : matPct >= 60 ? '📈 Bom' : '⚠️ Reforçar';
+    matHtml += `
+      <div class="mat-card">
+        <div class="mat-title">${mat} <span class="badge-perf ${badgeCls}">${badgeTxt}</span></div>
+        <div class="prog-bar-bg"><div class="prog-bar-fill" style="width:${matPct}%"></div></div>
+        <div class="mat-legend"><span>${matCorrect}/${matTotal} questões · ${matPct}%</span></div>
+      </div>`;
+    if (matPct < 80) {
+      const errQs = qs.filter(q => answers[q] !== GAB[q]);
+      const caps = [...new Set(errQs.map(q => QDATA[q].cap))];
+      reinforce.push({ mat, errQs, caps });
+    }
+  }
+  document.getElementById('mat-results').innerHTML = matHtml;
+
+  // Reinforce
+  if (reinforce.length > 0) {
+    let rHtml = '<div class="reinforce-section"><div class="reinforce-title">📚 Preps para revisar</div>';
+    for (const r of reinforce) {
+      rHtml += `<div class="reinforce-item">
+        <div class="reinforce-mat">${r.mat}</div>
+        <div class="reinforce-qs">Questões erradas: ${r.errQs.map(q => QDATA[q].orig).join(', ')}</div>
+        <div class="reinforce-prep">Capítulo(s): ${r.caps.join(' · ')}</div>
+      </div>`;
+    }
+    rHtml += '</div>';
+    document.getElementById('reinforce-block').innerHTML = rHtml;
+  }
+
+  // Gabarito grid
+  let gHtml = '';
+  for (let q = 1; q <= TOTAL; q++) {
+    const ok = answers[q] === GAB[q];
+    const cls = ok ? 'ok' : 'err';
+    gHtml += `<div class="gab-cell ${cls}">
+      <div class="qn">${QDATA[q].orig}</div>
+      <div class="ans">${(answers[q]||'—').toUpperCase()} / ${GAB[q].toUpperCase()}</div>
+    </div>`;
+  }
+  document.getElementById('gab-grid').innerHTML = gHtml;
+}
+
+// ── CLEAR ─────────────────────────────────────────────────────────
+function clearAll() {
+  if (!confirm('Apagar todas as respostas e recomeçar?')) return;
+  ds(KA); ds(KD);
+  answers = {}; done = false;
+  document.querySelectorAll('.alt').forEach(el => {
+    el.classList.remove('selected','correct','wrong','locked-alt');
+  });
+  ['r','g'].forEach(t => {
+    document.getElementById('tab-'+t).classList.add('locked');
+  });
+  document.getElementById('mat-results').innerHTML = '';
+  document.getElementById('reinforce-block').innerHTML = '';
+  document.getElementById('gab-grid').innerHTML = '';
+  updCnt();
+  switchTab('q');
+}
+
+// ── INIT ──────────────────────────────────────────────────────────
+async function init() {
+  initCards();
+  const sa = await gs(KA);
+  const sd = await gs(KD);
+  if (sa && Object.keys(sa).length > 0) {
+    answers = sa;
+    document.getElementById('sbanner').style.display = 'block';
+  }
+  if (sd) { done = true; unlock(); renderRes(); colorAlts(); }
+  paint();
+  updCnt();
+}
+init();
+</script>
+</body>
+</html>
