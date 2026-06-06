@@ -1,6 +1,6 @@
 # PROMPT PROFESSOR — SIMULADO
-# Versão 1.2 | 9º ano | Escola particular — Rio de Janeiro
-# Patch: storage persistente + relatório gerado via chat (present_files)
+# Versão 1.3 | 9º ano | Escola particular — Rio de Janeiro
+# Patch: aba Resolução com passo a passo + objeto RES no JS
 
 ---
 
@@ -247,10 +247,11 @@ HEADER
   Título: "Simulado · [Matéria(s)] · [Unidade(s)]"
   Subtítulo: "[N] questões · [lista de capítulos]"
 
-ABAS (3)
+ABAS (4)
   1. Questões  ← ativa por padrão
   2. Resultado ← bloqueada até correção
   3. Gabarito  ← bloqueada até correção
+  4. Resolução ← bloqueada até correção
 
 ABA QUESTÕES
   Banner de recuperação (oculto por padrão, exibido pelo init()):
@@ -307,6 +308,18 @@ ABA GABARITO (liberada após correção)
   Grid 4 colunas:
     Cada célula: "Q[N] | [resp aluno] / [gabarito]"
     Verde se certo · Vermelho se errado
+
+ABA RESOLUÇÃO (liberada após correção)
+  Uma seção por questão, na ordem:
+    - Badge Q[N] + badge de dificuldade + badge de capítulo/tópico
+    - Enunciado completo (repetido)
+    - "✅ Resposta correta: [letra]) [texto da alternativa]"
+    - Bloco "📝 Resolução:" com explicação passo a passo
+        · Matemática/Física: desenvolvimento algébrico linha a linha
+        · Química/Biologia: raciocínio conceitual + conclusão
+        · Humanas/Línguas: justificativa com referência ao tópico do prep
+    - "❌ Por que os distratores estão errados:" (apenas para questões D)
+        · Uma linha por distrator incorreto, explicando o erro típico
 ```
 
 ### Comportamento interativo
@@ -379,11 +392,20 @@ O Claude deve embutir no JavaScript:
 - Objeto `GAB` com gabarito de cada questão: `{1:'b', 2:'c', ...}`
 - Objeto `QDATA` com capítulo, tema e tópico de cada questão
 - Objeto `CAPS` com capítulos, temas e lista de questões por capítulo
+- Objeto `RES` com resolução de cada questão:
+  ```js
+  const RES = {
+    1: { alt: 'b', txt: 'texto da alternativa correta', res: 'Passo 1... Passo 2...', dist: '' },
+    2: { alt: 'c', txt: 'texto da alternativa correta', res: 'Raciocínio...', dist: 'a) errado pois... c) confunde...' },
+    // dist só preenchido para questões D (difícil)
+  };
+  ```
 - Constantes `SIM_ID`, `KA`, `KD`
 - Funções `ss()`, `gs()`, `ds()`, `init()`
 - Função `paint()` que pinta alternativas conforme estado atual
 - Função `renderRes()` que popula a aba Resultado
-- Função `unlock()` que libera as abas Resultado e Gabarito
+- Função `renderSolucao()` que popula a aba Resolução com o conteúdo de `RES`
+- Função `unlock()` que libera as abas Resultado, Gabarito e Resolução
 - Chamada `init()` como última instrução do script
 
 ### Cores do widget
@@ -424,9 +446,12 @@ Antes de montar o widget, verificar internamente:
 [ ] Distratores plausíveis (não trivialmente eliminados)
 [ ] Nenhuma questão copiada do prep
 [ ] SIM_ID único definido para o simulado
-[ ] GAB, QDATA e CAPS embutidos no JS
+[ ] GAB, QDATA, CAPS e RES embutidos no JS
 [ ] ss(), gs(), ds() presentes no script
 [ ] init() como última instrução do script
+[ ] RES com resolução passo a passo de todas as questões
+[ ] Aba Resolução presente e bloqueada até correção
+[ ] renderSolucao() implementada e chamada por unlock()
 [ ] Banner #sbanner presente no HTML da aba Questões
 [ ] Botão "Gerar relatório" usa sendPrompt('gerar relatório do simulado')
 [ ] NENHUM uso de URL.createObjectURL, a.click() ou window.open

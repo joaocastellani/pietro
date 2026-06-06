@@ -212,7 +212,30 @@ Mensagens motivacionais:
 - ≥ 60%: "Bom! Revise os preps indicados acima."
 - < 60%: "Reforça esses capítulos antes da prova!"
 
-4. **Avance** para o próximo bloco imediatamente após exibir a correção.
+4. **Exiba a resolução** de todas as questões do bloco logo após a correção:
+
+```
+📝 **Resolução — [Matéria]**
+
+**Q[N].** [enunciado resumido em 1 linha]
+✅ **Gabarito: [letra])** [texto da alternativa correta]
+> [Explicação passo a passo — desenvolvimento algébrico, raciocínio
+>  conceitual ou justificativa textual conforme a matéria.
+>  Para questões com erros do aluno: destacar onde o raciocínio
+>  costuma falhar e por que a alternativa correta é a única válida.]
+
+**Q[N+1].** ...
+```
+
+Regras da resolução Edros:
+- Exibir resolução de **todas** as questões do bloco (não só as erradas)
+- Usar o campo `Resolução:` do banco se disponível; caso ausente, elaborar
+  a partir do enunciado e gabarito registrados
+- Para questões com imagem: referenciar a imagem na explicação
+  (ex: "Observando o gráfico, nota-se que...")
+- Manter linguagem próxima e didática (tom Professor Particular)
+
+5. **Avance** para o próximo bloco imediatamente após exibir a resolução.
    - Se houver próxima matéria: exiba o bloco seguinte.
    - Se for o último bloco: avance para o Relatório Consolidado.
 
@@ -279,6 +302,8 @@ Legenda: ✅ Dominado (≥80%) · 📈 Bom (≥60%) · ⚠️ Reforçar (<60%)
 [ ] Campo de resposta exibido ao final do bloco
 [ ] Correção usa gabarito exato do banco
 [ ] Preps indicados apenas das questões erradas
+[ ] Resolução exibida para todas as questões do bloco após a correção
+[ ] Resolução usa campo Resolução: do banco quando disponível
 ```
 
 ---
