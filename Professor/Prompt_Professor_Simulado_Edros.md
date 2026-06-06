@@ -212,7 +212,7 @@ Mensagens motivacionais:
 - ≥ 60%: "Bom! Revise os preps indicados acima."
 - < 60%: "Reforça esses capítulos antes da prova!"
 
-4. **Exiba a resolução** de todas as questões do bloco logo após a correção:
+4. **Exiba a resolução** apenas das questões erradas do bloco:
 
 ```
 📝 **Resolução — [Matéria]**
@@ -221,14 +221,17 @@ Mensagens motivacionais:
 ✅ **Gabarito: [letra])** [texto da alternativa correta]
 > [Explicação passo a passo — desenvolvimento algébrico, raciocínio
 >  conceitual ou justificativa textual conforme a matéria.
->  Para questões com erros do aluno: destacar onde o raciocínio
->  costuma falhar e por que a alternativa correta é a única válida.]
+>  Destacar onde o raciocínio costuma falhar e por que a alternativa
+>  correta é a única válida.]
 
-**Q[N+1].** ...
+**Q[N+1].** ...  ← próxima questão errada
 ```
 
 Regras da resolução Edros:
-- Exibir resolução de **todas** as questões do bloco (não só as erradas)
+- Exibir resolução **apenas das questões erradas** (padrão)
+- Se o aluno acertou todas: omitir seção de resolução e parabenizar
+- Se o aluno pedir *"mostra a resolução de todas"* ou similar:
+  exibir resolução completa de todas as questões do bloco
 - Usar o campo `Resolução:` do banco se disponível; caso ausente, elaborar
   a partir do enunciado e gabarito registrados
 - Para questões com imagem: referenciar a imagem na explicação
@@ -302,7 +305,8 @@ Legenda: ✅ Dominado (≥80%) · 📈 Bom (≥60%) · ⚠️ Reforçar (<60%)
 [ ] Campo de resposta exibido ao final do bloco
 [ ] Correção usa gabarito exato do banco
 [ ] Preps indicados apenas das questões erradas
-[ ] Resolução exibida para todas as questões do bloco após a correção
+[ ] Resolução exibida apenas para questões erradas (padrão)
+[ ] Seção de resolução omitida se acertou todas
 [ ] Resolução usa campo Resolução: do banco quando disponível
 ```
 

@@ -321,9 +321,9 @@ Mensagens motivacionais:
 - ≥ 60%: "Bom! Revise os pontos indicados na resolução."
 - < 60%: "Reforça este capítulo — a resolução abaixo vai ajudar!"
 
-### 2. Resolução completa
+### 2. Resolução
 
-Exiba a resolução de **todas** as questões do bloco logo após:
+Se houver questões erradas, exiba a resolução **apenas das erradas**:
 
 ```
 📝 **Resolução — Cap. [mat-u-c]**
@@ -337,8 +337,13 @@ Exiba a resolução de **todas** as questões do bloco logo após:
 [Para questões D: "❌ Por que os outros erram:"]
 [· a) confunde X com Y  · c) aplica fórmula errada ...]
 
-**Q[N+1].** ...
+**Q[N+1].** ...  ← próxima questão errada
 ```
+
+Se o aluno acertou todas: omitir a seção de resolução e parabenizar.
+
+Se o aluno pedir *"mostra a resolução de todas"* ou similar:
+exibir a resolução completa de todas as questões do bloco.
 
 ### 3. Avanço
 
