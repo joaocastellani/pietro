@@ -1,40 +1,27 @@
-# PROMPT DE PREPARAÇÃO — 2ª Avaliação Edros 2024 (9º ano)
+# PROMPT DE PREPARAÇÃO — Avaliação Edros (9º ano)
 
-Arquivo de entrada:  `edros-2024-captura.md`
-Arquivo gerado:      `banco_edros_2024.md`
+Arquivo de entrada:  `edros-[ano]-[avaliacao]-captura.md`
+Arquivo gerado:      `banco_edros_[ano]_[avaliacao].md`
 
 ---
 
 ## INSTRUÇÕES GERAIS
 
-1. Leia `edros-2024-captura.md` inteiro antes de gerar qualquer
-   conteúdo
-2. Aplique o gabarito fornecido abaixo — não tente inferir respostas
+1. Leia `edros-[ano]-[avaliacao]-captura.md` inteiro antes de
+   gerar qualquer conteúdo
+2. Os gabaritos já estão no arquivo capturado — não os altere
 3. Mapeie cada questão ao prep correspondente usando a tabela
-   de preps disponíveis
+   abaixo
 4. Preserve os enunciados e alternativas exatamente como capturados
 5. PROIBIDO encerrar com perguntas, sugestões ou próximos passos.
-   O output termina na Q60 — nada mais.
-
----
-
-## GABARITO OFICIAL (2ª Avaliação Edros 2024 — 9º Ano)
-
-```
-Q01-E  Q02-A  Q03-D  Q04-C  Q05-A  Q06-C  Q07-B  Q08-E  Q09-D  Q10-E
-Q11-C  Q12-B  Q13-D  Q14-D  Q15-C  Q16-E  Q17-C  Q18-D  Q19-E  Q20-A
-Q21-D  Q22-C  Q23-B  Q24-A  Q25-B  Q26-D  Q27-C  Q28-B  Q29-C  Q30-B
-Q31-E  Q32-B  Q33-D  Q34-D  Q35-D  Q36-A  Q37-E  Q38-D  Q39-E  Q40-B
-Q41-A  Q42-B  Q43-D  Q44-B  Q45-D  Q46-E  Q47-A  Q48-A  Q49-E  Q50-B
-Q51-E  Q52-B  Q53-D  Q54-B  Q55-A  Q56-B  Q57-E  Q58-D  Q59-D  Q60-E
-```
+   O output termina na última questão — nada mais.
 
 ---
 
 ## FORMATO DE CADA QUESTÃO
 
 ```
-Q[NN] · [Matéria] · Edros 2024
+Q[NN] · [Matéria] · Edros [Ano]
 [texto de apoio, se houver]
 [IMAGEM: descrição] ← se houver
 Enunciado: [enunciado exato]
@@ -43,11 +30,24 @@ b. ( ) [alternativa]
 c. ( ) [alternativa]
 d. ( ) [alternativa]
 e. ( ) [alternativa]
-Gabarito: [letra maiúscula]
+Gabarito: [letra maiúscula — conforme captura]
 Capítulo: [prep-x-y]
 ```
 
 Separe cada questão com linha `---`.
+
+---
+
+## CABEÇALHO DO ARQUIVO GERADO
+
+```
+# Banco de Questões — [N]ª Avaliação Edros [Ano] · 9º Ano
+
+Fonte: [N]ª Avaliação Edros [Ano] — Ensino Fundamental Anos Finais (Poliedro / P+)
+Total: [N] questões | Gabarito: oficial Edros [Ano]
+
+---
+```
 
 ---
 
@@ -164,25 +164,13 @@ Se o conteúdo não tiver prep correspondente: `⚠️sem prep`.
 
 ---
 
-## CABEÇALHO DO ARQUIVO GERADO
-
-```
-# Banco de Questões — 2ª Avaliação Edros 2024 · 9º Ano
-
-Fonte: 2ª Avaliação Edros 2024 — Ensino Fundamental Anos Finais (Poliedro / P+)
-Total: 60 questões | Gabarito: oficial Edros 2024
-
----
-```
-
----
-
 ## EXECUÇÃO
 
-1. Leia `edros-2024-captura.md` inteiro
-2. Para cada questão Q01–Q60 em ordem:
+1. Leia `edros-[ano]-[avaliacao]-captura.md` inteiro
+2. Extraia os metadados (ano, avaliação, total) para montar o cabeçalho
+3. Para cada questão em ordem:
    a) Copie enunciado e alternativas exatamente como capturados
-   b) Aplique o gabarito da tabela acima
+   b) Copie o gabarito exatamente como capturado
    c) Identifique o prep mais adequado e preencha Capítulo:
-3. Gere o arquivo completo em sequência, sem interrupções
-4. Ao final, salve como `banco_edros_2024.md`
+4. Gere o arquivo completo em sequência, sem interrupções
+5. Salve como `banco_edros_[ano]_[avaliacao].md`

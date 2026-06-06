@@ -1,12 +1,19 @@
-# PROMPT DE CAPTURA — 2ª Avaliação Edros 2024 (9º ano)
-# Arquivo gerado: edros-2024-captura.md
+# PROMPT DE CAPTURA — Avaliação Edros (9º ano)
+# Arquivo gerado: edros-[ano]-[avaliacao]-captura.md
 
 ---
 
-Tarefa: extraia o conteúdo completo da prova Edros 2024 e gere
-um markdown estruturado seguindo as instruções abaixo.
+Você receberá dois documentos anexados:
+1. **PDF da prova** — todas as questões
+2. **PDF do gabarito** — respostas oficiais
 
-REGRAS GERAIS:
+Tarefa: extraia o conteúdo completo da prova, leia o gabarito
+e gere um markdown estruturado com questões + respostas.
+
+---
+
+## REGRAS GERAIS
+
 - Preserve todos os enunciados exatamente como aparecem — não
   resuma, não parafraseie, não omita nenhum trecho
 - Transcreva cada alternativa na íntegra, incluindo as letras
@@ -19,8 +26,6 @@ REGRAS GERAIS:
   [IMAGEM: descrição objetiva do que é mostrado]
   no lugar onde a imagem aparece — nunca omita a existência
   de uma imagem
-- Não infira gabaritos, não avalie dificuldade, não mapeie
-  capítulos — isso é feito no Prompt de Preparação
 - PROIBIDO encerrar com perguntas, sugestões ou próximos passos.
   O output termina na última questão — nada mais.
 
@@ -28,16 +33,32 @@ REGRAS GERAIS:
 
 ## 1. METADADOS
 
-- Avaliação: 2ª Avaliação Edros 2024
-- Série: 9º ano
-- Total de questões: 60
-- Fase: 2
+Extraia do cabeçalho da prova e do gabarito:
+
+- Avaliação: [ex: 2ª Avaliação Edros]
+- Ano: [ex: 2024]
+- Série: [ex: 9º ano]
+- Total de questões: [número]
+- Fase: [número, se indicado]
 
 ---
 
-## 2. QUESTÕES
+## 2. GABARITO
 
-Para cada questão:
+Antes de processar as questões, leia o PDF do gabarito e
+monte a tabela completa de respostas:
+
+| Questão | Gabarito |
+|---------|----------|
+| Q01 | [letra] |
+| Q02 | [letra] |
+| ... | ... |
+
+---
+
+## 3. QUESTÕES
+
+Para cada questão, use o formato:
 
 **Q[NN]** · [Matéria]
 [texto de apoio, se houver — transcrito na íntegra]
@@ -48,26 +69,27 @@ b. ( ) [alternativa b completa]
 c. ( ) [alternativa c completa]
 d. ( ) [alternativa d completa]
 e. ( ) [alternativa e completa]
+Gabarito: [letra maiúscula lida do PDF do gabarito]
 
 ---
 
 Separe cada questão com uma linha `---`.
 
-IDENTIFICAÇÃO DE MATÉRIA:
-A prova está dividida em blocos de matéria identificados por
-cabeçalho (ex: "LÍNGUA INGLESA", "LÍNGUA PORTUGUESA",
-"MATEMÁTICA", "CIÊNCIAS", "HISTÓRIA", "GEOGRAFIA").
-Use exatamente o nome do cabeçalho da prova como matéria
-de cada questão do bloco.
+### IDENTIFICAÇÃO DE MATÉRIA
+
+A prova está dividida em blocos identificados por cabeçalho
+(ex: "LÍNGUA INGLESA", "LÍNGUA PORTUGUESA", "MATEMÁTICA",
+"CIÊNCIAS", "HISTÓRIA", "GEOGRAFIA").
+Use exatamente o nome do cabeçalho como matéria de cada questão.
 
 Para Ciências, se o bloco for dividido internamente em
-subcabeçalhos (Biologia, Química, Física), indique a
-submatéria:
+subcabeçalhos (Biologia, Química, Física), indique:
 **Q[NN]** · Ciências — Biologia
 **Q[NN]** · Ciências — Química
 **Q[NN]** · Ciências — Física
 
-TEXTOS COMPARTILHADOS:
+### TEXTOS COMPARTILHADOS
+
 Se um mesmo texto de apoio servir a mais de uma questão,
 transcreva-o ANTES da primeira questão que o usa e, para as
 questões seguintes, escreva:
@@ -75,7 +97,7 @@ questões seguintes, escreva:
 
 ---
 
-## 3. PADRÃO DAS QUESTÕES
+## 4. RESUMO FINAL
 
 Ao final, preencha:
 - Distribuição por matéria: [Inglês: N | Português: N | Matemática: N | Ciências: N | História: N | Geografia: N]
