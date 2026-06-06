@@ -1,5 +1,6 @@
 # PROMPT DE CAPTURA — Avaliação Edros (9º ano)
 # Arquivo gerado: edros-[ano]-[avaliacao]-captura.md
+# Destino:        Pietro/Edros/[X]-Avaliação/Raw/
 
 ---
 

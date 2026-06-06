@@ -1,7 +1,7 @@
 # PROMPT DE PREPARAÇÃO — Avaliação Edros (9º ano)
 
-Arquivo de entrada:  `edros-[ano]-[avaliacao]-captura.md`
-Arquivo gerado:      `banco_edros_[ano]_[avaliacao].md`
+Arquivo de entrada:  `Pietro/Edros/[X]-Avaliação/Raw/edros-[ano]-[avaliacao]-captura.md`
+Arquivo gerado:      `Pietro/Edros/[X]-Avaliação/BancoQuestoes/banco_edros_[ano]_[avaliacao].md`
 
 ---
 
