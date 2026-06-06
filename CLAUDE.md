@@ -48,6 +48,19 @@ material pedagógico para uso no Claude.ai (Knowledge Base).
 │   │   ├── Matematica/
 │   │   ├── Portugues/
 │   │   └── Quimica/
+│   ├── Edros/                 ← pipeline de provas Edros
+│   │   ├── Prompt_Captura_Edros.md     ← genérico (qualquer prova)
+│   │   ├── Prompt_Preparacao_Edros.md  ← genérico (qualquer prova)
+│   │   ├── 1-Avaliação/
+│   │   │   ├── Raw/           ← captura bruta da prova (fonte primária)
+│   │   │   ├── BancoQuestoes/ ← bancos de revisão + banco da prova
+│   │   │   ├── Revisão/       ← PDFs de revisão por matéria
+│   │   │   └── Simulado/      ← PDFs da prova, gabarito e resolução
+│   │   └── 2-Avaliação/
+│   │       ├── Raw/
+│   │       ├── BancoQuestoes/
+│   │       ├── Revisão/
+│   │       └── Simulado/
 │   ├── Scripts/               ← scripts de automação
 │   │   ├── validate_preps.py  ← validador de preps
 │   │   └── concat_screenshots.sh ← deprecado (não usar)
@@ -59,6 +72,8 @@ material pedagógico para uso no Claude.ai (Knowledge Base).
 └── Professor/                 ← prompts do professor por matéria
     ├── Prompt_Professor_Master.md
     ├── Prompt_Professor_Fis.md
+    ├── Prompt_Professor_Simulado.md
+    ├── Prompt_Professor_Simulado_Edros.md
     └── ...
 ```
 
@@ -81,6 +96,43 @@ Padrão: `[materia]-[unidade]-[capitulo]-prep.md`
 | art     | Artes       | Artes         |
 
 Exemplo: `fis-1-3-prep.md` → Física, Unidade 1, Capítulo 3
+
+---
+
+## Convenção de nomenclatura dos arquivos Edros
+
+| Arquivo | Padrão | Destino | Deletar? |
+|---------|--------|---------|----------|
+| Captura bruta da prova | `edros-[ano]-[Xav]-captura.md` | `Pietro/Edros/[X]-Avaliação/Raw/` | Não |
+| Banco da prova Edros | `banco_edros_[ano]_[Xav].md` | `Pietro/Edros/[X]-Avaliação/BancoQuestoes/` | Não |
+| Banco de revisão por matéria | `banco_revisao_[mat].md` | `Pietro/Edros/[X]-Avaliação/BancoQuestoes/` | Não |
+
+Exemplos:
+- `edros-2024-2av-captura.md` → captura da 2ª Avaliação Edros 2024
+- `banco_edros_2024_2av.md` → banco de questões da 2ª Avaliação Edros 2024
+- `banco_revisao_fis.md` → banco de revisão de Física
+
+---
+
+## Pipeline Edros — geração do banco de questões
+
+```
+1. CAPTURA      — Claude.ai com Prompt_Captura_Edros.md
+                  Anexar: PDF da prova + PDF do gabarito
+                  Gera: edros-[ano]-[Xav]-captura.md
+                  Salvar em: Pietro/Edros/[X]-Avaliação/Raw/
+
+2. PREPARAÇÃO   — Claude.ai com Prompt_Preparacao_Edros.md
+                  Anexar: edros-[ano]-[Xav]-captura.md
+                  Gera: banco_edros_[ano]_[Xav].md
+                  Salvar em: Pietro/Edros/[X]-Avaliação/BancoQuestoes/
+
+3. COMMIT       — Commitar Raw + BancoQuestoes juntos
+
+4. SIMULADO     — Claude.ai com Prompt_Professor_Simulado_Edros.md
+                  Lê banco_edros_*.md do KB
+                  Aluno escolhe qual prova simular
+```
 
 ---
 
@@ -307,16 +359,19 @@ faça commit e push automaticamente.
 
 Convenção de mensagens:
 
-| Tipo de mudança          | Prefixo                                      |
-|--------------------------|----------------------------------------------|
-| Novo prep                | `feat(mat): adiciona prep mat-u-c`           |
-| Correção em prep         | `fix(mat): corrige prep mat-u-c`             |
-| Nova transcrição         | `feat(trans): adiciona transcrição mat-u-c`  |
-| Relatório de validação   | `chore: relatório de validação DD/MM/AAAA`   |
-| Novo script              | `feat(scripts): nome do script`              |
-| Atualização de prompt    | `feat(prompts): atualiza Prompt_X`           |
-| Organização de arquivos  | `chore: move/renomeia arquivos`              |
-| Novas imagens Raw        | `feat(raw): captura [mat]-[u]-[c]`           |
+| Tipo de mudança          | Prefixo                                          |
+|--------------------------|--------------------------------------------------|
+| Novo prep                | `feat(mat): adiciona prep mat-u-c`               |
+| Correção em prep         | `fix(mat): corrige prep mat-u-c`                 |
+| Nova transcrição         | `feat(trans): adiciona transcrição mat-u-c`      |
+| Relatório de validação   | `chore: relatório de validação DD/MM/AAAA`       |
+| Novo script              | `feat(scripts): nome do script`                  |
+| Atualização de prompt    | `feat(prompts): atualiza Prompt_X`               |
+| Organização de arquivos  | `chore: move/renomeia arquivos`                  |
+| Novas imagens Raw        | `feat(raw): captura [mat]-[u]-[c]`               |
+| Captura Edros (raw)      | `feat(edros): captura edros-[ano]-[Xav]`         |
+| Banco Edros              | `feat(edros): adiciona banco_edros_[ano]_[Xav]`  |
+| Bancos de revisão Edros  | `feat(edros): adiciona bancos de revisão [X]ª av`|
 
 Regras:
 - Ao commitar um novo prep, sempre incluir no mesmo commit:
