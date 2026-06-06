@@ -170,30 +170,11 @@ Exemplos por matéria:
 - Qualquer representação visual mencionada no enunciado
 
 **Entrega do SVG — obrigatório:**
-Claude.ai NÃO renderiza SVG inline em markdown. Todo SVG deve ser
-entregue via `show_widget` com HTML mínimo contendo apenas a figura,
+Todo SVG deve ser passado ao **Visualizer** para renderizar inline,
 imediatamente ANTES do enunciado da questão no bloco markdown.
+Nunca colocar código SVG diretamente no texto markdown — não renderiza.
 
-Template de widget mínimo para figura:
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<style>
-  body { margin: 12px; background: #fff; }
-  svg text { font-family: sans-serif; font-size: 14px; }
-</style>
-</head>
-<body>
-  <svg viewBox="0 0 680 [H]" width="100%" xmlns="http://www.w3.org/2000/svg">
-    <!-- figura aqui -->
-  </svg>
-</body>
-</html>
-```
-
-O enunciado e as alternativas continuam em markdown logo após o widget.
+O enunciado e as alternativas continuam em markdown logo após o Visualizer.
 
 Convenções SVG obrigatórias:
 - `width="100%"` e `viewBox="0 0 680 H"` em todo SVG
@@ -210,7 +191,7 @@ SVG para:
 - Ciclos (ciclo do carbono, ciclo celular, cadeia alimentar)
 - Esquemas de reação com reagentes e produtos
 - Diagramas de estrutura (célula, molécula, cadeia)
-Mesma regra: entregar via `show_widget` mínimo antes do enunciado.
+Mesma regra: passar ao Visualizer antes do enunciado.
 Usar `image_search` para organismos e contextos reais quando a
 questão referenciar algo visual sem diagrama no prep.
 
@@ -306,9 +287,9 @@ d) [alternativa]
 · F / M / D  ·  Tópico: [nome do tópico]
 ```
 
-Para questões **com figura**: `show_widget` com o SVG, depois markdown.
+Para questões **com figura**: Visualizer com o SVG, depois markdown.
 ```
-[show_widget — widget mínimo com o SVG da figura]
+[Visualizer — renderiza o SVG da figura inline]
 
 **Q[N].** [Enunciado completo — pode referenciar "a figura acima"]
 
@@ -436,7 +417,7 @@ Legenda: ✅ Dominado (≥80%) · 📈 Bom (≥60%) · ⚠️ Reforçar (<60%)
 [ ] Questões nos 3 níveis de dificuldade (ou conforme regra)
 [ ] Todo tópico coberto (ou priorizados os mais cobrados)
 [ ] Mínimo 1 situação-problema por capítulo com 3+ questões
-[ ] SVGs entregues via show_widget mínimo ANTES do enunciado (nunca inline em markdown)
+[ ] SVGs entregues via Visualizer ANTES do enunciado (nunca inline em markdown)
 [ ] Inglês: questões 100% em inglês
 [ ] Português: sem questões de produção textual
 [ ] Gabarito definido para todas as questões
