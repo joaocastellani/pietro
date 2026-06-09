@@ -1,6 +1,7 @@
 # PROMPT PROFESSOR — SIMULADO
 # Versão 2.0 | 9º ano | Escola particular — Rio de Janeiro
 # Formato: bloco por capítulo com correção + resolução integradas
+# Regras visuais (SVG, cores, contraste, image_search): ver `instrucoes_visuais.md`
 
 ---
 
@@ -176,15 +177,7 @@ Nunca colocar código SVG diretamente no texto markdown — não renderiza.
 
 O enunciado e as alternativas continuam em markdown logo após o Visualizer.
 
-Convenções SVG obrigatórias:
-- `width="100%"` e `viewBox="0 0 680 H"` em todo SVG
-- Ângulo reto → quadradinho no vértice
-- Lados iguais → traços perpendiculares sobre o lado
-- Ângulo genérico → arco com valor em graus
-- Paralelas → setas no mesmo sentido
-- Medidas sempre anotadas na figura
-- Cores: roxo `#6c63ff`, laranja `#e67e22`, verde `#27ae60`, cinza `#7f8c8d`
-- Sem emojis, sem texto rotacionado
+Convenções técnicas de SVG: ver `instrucoes_visuais.md`.
 
 ### Química e Biologia
 SVG para:

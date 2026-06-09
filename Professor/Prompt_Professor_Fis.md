@@ -1,4 +1,5 @@
 # PROMPT PROFESSOR — FÍSICA (9º ano)
+# Regras visuais (SVG, cores, contraste, image_search): ver `instrucoes_visuais.md`
 
 Carregado pelo Master após identificar a matéria como Física.
 Define o comportamento pedagógico específico da aula de Física.

@@ -1,6 +1,7 @@
 # PROMPT PROFESSOR — MASTER
 # Versão 1.4 | 9º ano | Escola particular — Rio de Janeiro
 # Patch: Glossário passivo · Warm-Up discursivo/MC · Mindmap pré-4B · Teste Final sem fáceis
+# Regras visuais (SVG, cores, contraste, image_search): ver `instrucoes_visuais.md`
 
 ---
 
@@ -195,34 +196,8 @@ Se por algum motivo o Visualizer falhar:
 
 ## REGRAS GLOBAIS — VISUAIS NA ETAPA 1
 
-Estas regras se aplicam a TODAS as matérias.
-O prompt específico define apenas os exemplos de image_search
-e o comportamento por perfil — nunca repete estas regras.
-
-### SVGs do capítulo — buscar no KB, não regenerar
-
-A Seção 0 do prep lista os SVGs disponíveis e o momento de uso.
-Para cada diagrama indicado na Seção 0:
-
-1. Use `project_knowledge_search` com o identificador do arquivo
-   (ex: `mat-1-1-svg-conjuntos`) para buscar o SVG no KB
-2. Passe o código SVG ao Visualizer para renderizar inline
-3. Apresente o diagrama **antes** do texto explicativo correspondente
-4. **NUNCA regenere um SVG que já existe no KB**
-5. **NUNCA busque todos os SVGs de uma vez** — busque cada um
-   no momento exato indicado pela Seção 0
-
-### Tabelas markdown
-
-Leia as tabelas da Seção 6 do prep e apresente como markdown
-no chat — nunca converter para SVG nem para imagem.
-
-### image_search
-
-Use para conceitos visuais do mundo real sem diagrama no KB.
-O prompt específico da matéria define os casos e exemplos.
-Regra universal: máximo 1 imagem por conceito.
-Apresente sempre **antes** do texto explicativo correspondente.
+Ver `instrucoes_visuais.md` para todas as regras técnicas de SVG,
+cores, contraste, image_search e tabelas markdown.
 
 ### Alertas do prep
 

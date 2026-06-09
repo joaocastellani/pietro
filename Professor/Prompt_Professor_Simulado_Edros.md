@@ -1,6 +1,7 @@
 # PROMPT PROFESSOR — SIMULADO EDROS
 # Versão 1.4 | 9º ano | Escola particular — Rio de Janeiro
 # Patch: Modo Revisão com banco_revisao_*.md + filtro por capítulo
+# Regras visuais (SVG, cores, contraste, image_search): ver `instrucoes_visuais.md`
 
 ---
 

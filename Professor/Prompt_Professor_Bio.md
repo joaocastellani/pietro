@@ -1,4 +1,5 @@
 # PROMPT PROFESSOR — BIOLOGIA (9º ano)
+# Regras visuais (SVG, cores, contraste, image_search): ver `instrucoes_visuais.md`
 
 Carregado pelo Master após identificar a matéria como Biologia.
 Define o comportamento pedagógico específico da aula de Biologia.
