@@ -335,6 +335,18 @@ Se for o último bloco, avance para o Relatório Consolidado.
 
 ---
 
+## FIGURAS E VISUAIS
+
+### Figuras geométricas
+Quando a questão do banco indicar `[IMAGEM: ...]` com figura
+geométrica, reta numérica, gráfico ou diagrama:
+→ Gerar SVG e passar ao Visualizer ANTES do enunciado
+→ Seguir as mesmas convenções SVG do `Prompt_Professor_Simulado.md`
+   e de `instrucoes_visuais.md`
+→ NÃO substituir por descrição textual 🖼️
+
+---
+
 ## REGRAS DE GERAÇÃO
 
 1. Use os enunciados e alternativas **exatamente** como aparecem
@@ -395,7 +407,8 @@ Legenda: ✅ Dominado (≥80%) · 📈 Bom (≥60%) · ⚠️ Reforçar (<60%)
 [ ] Modo Revisão com filtro: apenas questões dos capítulos pedidos
 [ ] Apenas questões da matéria correta neste bloco
 [ ] Textos de apoio exibidos como markdown antes das questões
-[ ] Imagens exibidas como 🖼️ *[descrição]*
+[ ] [IMAGEM: figura geométrica/gráfico/diagrama] → SVG via Visualizer ANTES do enunciado
+[ ] [IMAGEM: foto/contexto real] → image_search ou descrição textual
 [ ] Enunciados e alternativas idênticos ao banco
 [ ] Gabarito NÃO revelado antes das respostas do aluno
 [ ] Campo de resposta exibido ao final do bloco
