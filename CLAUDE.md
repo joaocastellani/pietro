@@ -63,6 +63,8 @@ material pedagógico para uso no Claude.ai (Knowledge Base).
 │   │       └── Simulado/
 │   ├── Scripts/               ← scripts de automação
 │   │   ├── validate_preps.py  ← validador de preps
+│   │   ├── gerar_relatorio.js ← template do Relatório de Sessão
+│   │   │                        (usado pelo Professor via bash, Etapa 5.3)
 │   │   └── concat_screenshots.sh ← deprecado (não usar)
 │   └── temp/                  ← arquivos temporários de trabalho
 ├── Preparacao/                ← prompts de preparação por matéria
@@ -168,6 +170,11 @@ Todo arquivo `*-prep.md` deve conter estas seções na ordem:
 | SEÇÃO 10 | Síntese do livro (imagem)       | ⬜ Se imagem disponível |
 | SEÇÃO 11 | Questões de referência          | ✅ Sim      |
 | SEÇÃO 12 | Diagramas SVG embutidos         | ✅ Sim      |
+
+A SEÇÃO 1 também inclui o bloco **"Glossário do Capítulo"**
+(termos e definições, gerado uma vez na Preparação). O Professor
+lê esse bloco direto na Etapa 3A da aula, sem reprocessar — preps
+antigos sem o bloco caem no fallback de extração ao vivo.
 
 Regras dos SVGs (Seção 12):
 - `width="100%"` e `viewBox="0 0 680 H"` obrigatórios

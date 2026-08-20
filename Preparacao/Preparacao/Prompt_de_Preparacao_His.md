@@ -76,6 +76,26 @@ use-os diretamente em vez de fazer image_search.
 - Processos principais: [lista ou "nenhum"]
 ```
 
+**Glossário do Capítulo** (gerado aqui — evita extração ao vivo na aula):
+
+Monte a tabela de termos e definições do capítulo, com os mesmos
+critérios usados hoje pela Etapa 3A do Professor:
+- Termos com definição explícita nas Seções 2–5 deste prep
+- Categorias das tabelas da Seção 6 com definição própria
+- Termos fixos declarados nesta Seção 1
+
+```
+📚 **Glossário do capítulo**
+
+| Termo | Definição |
+|-------|-----------|
+| [termo 1] | [definição clara, linguagem de 9º ano, 1–2 linhas] |
+| [termo 2] | [definição] |
+```
+
+Ordenar alfabeticamente. O Professor lê este bloco direto na
+Etapa 3A, sem reprocessar.
+
 ---
 
 ### SEÇÃO 2 — RESUMO CONCEITUAL DO CAPÍTULO
