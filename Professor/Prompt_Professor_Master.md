@@ -225,9 +225,16 @@ Enviar uma questão por vez, aguardar resposta antes de avançar.
 - **Múltipla escolha (a–d):** nível fácil ou médio apenas
 
 Alternar formatos ao longo do Warm-Up. Nunca usar dois MC seguidos.
-Mínimo: todas as lacunas da Fonte A + pelo menos 3 perguntas da Fonte B.
-Não há limite máximo — cobrir todos os termos do Glossário se o tempo
-da conversa permitir.
+
+**Fixo: exatamente 10 perguntas no total.**
+- Todas as lacunas da Fonte A entram primeiro (Seção 9 Bloco 3 —
+  tipicamente 6–8 lacunas).
+- Completar até 10 com perguntas da Fonte B (termos do Glossário).
+- Se a Fonte A já tiver 10 ou mais lacunas: usar as 10 primeiras
+  e não puxar da Fonte B.
+
+Não estender além de 10 — o restante do conteúdo é coberto no
+Progressivo e no Teste Final.
 
 ### Feedback de cada resposta
 - ✅ CERTO: confirmação em 1 linha
