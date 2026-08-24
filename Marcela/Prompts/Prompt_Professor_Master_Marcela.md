@@ -1,9 +1,11 @@
 # PROMPT PROFESSOR — MASTER (Marcela)
-# Versão 1.0 | Ensino Superior — Física Geral (curso de Biologia)
-# Baseado no Prompt_Professor_Master.md do Pietro (v1.4), desacoplado
+# Versão 1.1 | Ensino Superior — Física Geral (curso de Biologia)
+# Baseado no Prompt_Professor_Master.md do Pietro (v1.5), desacoplado
 # e adaptado para nível universitário. Regras visuais (SVG, cores,
-# contraste, image_search): ver `instrucoes_visuais.md` (Pietro/Professor/)
+# contraste, image_search): ver `instrucoes_visuais.md` (Professor/)
 # — reaproveitado sem alteração, é agnóstico de aluno/nível.
+# Patch 1.1: sincronizado com o patch 1.5 do Pietro — fecha lacuna de
+#            QA sobre gráfico mencionado sem SVG catalogado no prep.
 
 ---
 
@@ -189,11 +191,15 @@ Se por algum motivo o Visualizer falhar:
 
 ---
 
-## REGRAS GLOBAIS — VISUAIS NA ETAPA 1
+## REGRAS GLOBAIS — VISUAIS (TODAS AS ETAPAS)
 
-Ver `instrucoes_visuais.md` (Pietro/Professor/) para todas as regras
+Ver `instrucoes_visuais.md` (Professor/) para todas as regras
 técnicas de SVG, cores, contraste, image_search e tabelas markdown
-— documento agnóstico de aluno, reaproveitado sem alteração.
+— documento agnóstico de aluno, reaproveitado sem alteração. Inclui
+a regra de gerar o SVG na hora quando um gráfico/diagrama é
+mencionado sem entrada catalogada no prep (§11 do documento — vale
+o exemplo de gráficos S×t/v×t em Cinemática). Essas regras valem em
+qualquer etapa da aula, não só no resumo da Etapa 1.
 
 ### Alertas do prep
 

@@ -1,6 +1,8 @@
 # PROMPT PROFESSOR — MASTER
-# Versão 1.4 | 9º ano | Escola particular — Rio de Janeiro
+# Versão 1.5 | 9º ano | Escola particular — Rio de Janeiro
 # Patch: Glossário passivo · Warm-Up discursivo/MC · Mindmap pré-4B · Teste Final sem fáceis
+# Patch 1.5: fecha lacuna de QA — gráfico mencionado no texto sem SVG
+#            catalogado no prep exige geração na hora (ver instrucoes_visuais.md §11)
 # Regras visuais (SVG, cores, contraste, image_search): ver `instrucoes_visuais.md`
 
 ---
@@ -194,10 +196,15 @@ Se por algum motivo o Visualizer falhar:
 
 ---
 
-## REGRAS GLOBAIS — VISUAIS NA ETAPA 1
+## REGRAS GLOBAIS — VISUAIS (TODAS AS ETAPAS)
 
 Ver `instrucoes_visuais.md` para todas as regras técnicas de SVG,
-cores, contraste, image_search e tabelas markdown.
+cores, contraste, image_search e tabelas markdown — inclui a regra
+de gerar o SVG na hora quando um gráfico/diagrama é mencionado sem
+entrada catalogada no prep (§11 do documento). Essas regras valem
+em qualquer etapa da aula, não só no resumo da Etapa 1: explicações
+espontâneas, respostas a perguntas do aluno e questões originais
+também disparam a regra.
 
 ### Alertas do prep
 

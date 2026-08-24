@@ -1,7 +1,9 @@
 # INSTRUÇÕES VISUAIS — Sistema Professor Master
-# Versão 1.0 | 9º ano | Escola particular — Rio de Janeiro
+# Versão 1.1 | 9º ano | Escola particular — Rio de Janeiro
 # Aplicável a: Prompt_Professor_Master, Prompt_Professor_Simulado_Edros,
 #              Prompt_Professor_[Matéria] (todos os prompts específicos)
+# Patch 1.1: fecha lacuna de QA — gráfico/diagrama mencionado no texto
+#            sem SVG catalogado no prep (Seção 11 nova)
 
 ---
 
@@ -136,7 +138,45 @@ que envolvam qualquer elemento geométrico ou visual descrito no enunciado.
 
 ---
 
-## 11. REFERÊNCIA CRUZADA
+## 11. GRÁFICOS E DIAGRAMAS SEM SVG NO PREP — GERAR NA HORA
+
+Regra crítica que fecha a lacuna entre a Seção 7 (quando gerar) e a
+Seção 10 (SVGs do KB): a Seção 7 lista os casos que EXIGEM SVG —
+mas nem todo caso desses tem uma entrada pronta no prep. O gatilho
+"gráfico/figura/diagrama mencionado" não pode ficar condicionado a
+existir SVG catalogado — a existência do SVG só decide COMO obtê-lo,
+nunca SE ele deve ser renderizado.
+
+**Sempre que o resumo, uma explicação, uma resposta a pergunta do
+aluno ou uma questão original mencionar ou exigir um dos elementos
+da Seção 7** (gráfico, figura geométrica, diagrama de forças,
+esquema, ciclo, mapa esquemático etc.):
+
+1. Verificar primeiro a Seção 0 do prep. Se o diagrama já existir
+   ali: seguir a Seção 10 (buscar no KB, nunca regenerar).
+2. Se NÃO existir entrada correspondente: gerar o SVG do zero,
+   seguindo as mesmas especificações deste documento — Seção 2
+   (contraste), Seção 4 (specs técnicas: viewBox, largura 680, sem
+   fundo, sem rotação), Seção 5 (convenções geométricas, quando
+   aplicável) e Seção 6 (paleta para SVGs gerados do zero).
+3. Passar ao Visualizer e apresentar **antes** do parágrafo ou
+   enunciado que faz a menção — nunca descrever o gráfico em texto,
+   mesmo quando a geração é improvisada e não há tempo de preparo.
+
+Isso vale em **qualquer etapa da aula**, não só na Etapa 1 do
+resumo — inclui explicações espontâneas, respostas a perguntas fora
+do fluxo e questões originais criadas pelo professor. Exemplo
+típico: gráficos S×t e v×t explicando Cinemática em Física — quase
+nunca estão catalogados como diagrama do capítulo na Seção 12 do
+prep (são ilustrações da fórmula, não do conteúdo narrativo), mas a
+menção ao gráfico no meio da explicação exige a mesma disciplina de
+renderização — e as mesmas regras de qualidade (Seções 2, 4, 5, 6)
+— dos SVGs catalogados. O mesmo vale para gráficos de dados em
+Geografia/Economia, esquemas de reação em Química etc.
+
+---
+
+## 12. REFERÊNCIA CRUZADA
 
 Este arquivo é referenciado por:
 - `Prompt_Professor_Master.md`
