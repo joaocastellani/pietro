@@ -1,7 +1,23 @@
-# Projeto Professor Particular — Pietro
+# Projeto Professor Particular
 
-Sistema de tutoria IA para 9º ano. Geração e validação de
-material pedagógico para uso no Claude.ai (Knowledge Base).
+Sistema de tutoria IA para geração e validação de material
+pedagógico para uso no Claude.ai (Knowledge Base). Multi-aluno:
+cada aluno tem sua própria pasta, seu próprio pipeline e seu
+próprio Project/Knowledge Base no Claude.ai — desacoplados entre si.
+
+## Alunos ativos
+
+| Aluno | Nível | Pasta | Doc |
+|-------|-------|-------|-----|
+| Pietro | 9º ano (Fundamental) | `Pietro/` | este arquivo (seções abaixo) |
+| Marcela | Ensino Superior — Biologia | `Marcela/` | `Marcela/CLAUDE.md` |
+
+O restante deste arquivo documenta especificamente o pipeline do
+**Pietro** (o mais antigo e mais completo). A Marcela tem seu
+próprio `CLAUDE.md` com estrutura equivalente, adaptada ao nível
+dela — consulte `Marcela/CLAUDE.md` antes de mexer em arquivos
+dela. Scripts de manutenção (`Pietro/Scripts/validate_preps.py`)
+são agnósticos de aluno e reaproveitados por ambos.
 
 ---
 
@@ -61,17 +77,22 @@ material pedagógico para uso no Claude.ai (Knowledge Base).
 │   │       ├── BancoQuestoes/
 │   │       ├── Revisão/
 │   │       └── Simulado/
-│   ├── Scripts/               ← scripts de automação
+│   ├── Scripts/               ← scripts de automação (agnósticos de aluno)
 │   │   ├── validate_preps.py  ← validador de preps
 │   │   ├── gerar_relatorio.js ← template do Relatório de Sessão
 │   │   │                        (usado pelo Professor via bash, Etapa 5.3)
 │   │   └── concat_screenshots.sh ← deprecado (não usar)
 │   └── temp/                  ← arquivos temporários de trabalho
-├── Preparacao/                ← prompts de preparação por matéria
+├── Marcela/                    ← pipeline da Marcela (ver Marcela/CLAUDE.md)
+│   ├── CLAUDE.md
+│   ├── Raw/Fisica/
+│   ├── Prep/Fisica/
+│   └── Prompts/                ← prompts próprios, desacoplados dos do Pietro
+├── Preparacao/                ← prompts de preparação por matéria (Pietro)
 │   ├── Prompt_de_Preparacao_Fis.md
 │   ├── Prompt_de_Preparacao_Qui.md
 │   └── ...
-└── Professor/                 ← prompts do professor por matéria
+└── Professor/                 ← prompts do professor por matéria (Pietro)
     ├── Prompt_Professor_Master.md
     ├── Prompt_Professor_Fis.md
     ├── Prompt_Professor_Simulado.md
@@ -98,6 +119,9 @@ Padrão: `[materia]-[unidade]-[capitulo]-prep.md`
 | art     | Artes       | Artes         |
 
 Exemplo: `fis-1-3-prep.md` → Física, Unidade 1, Capítulo 3
+
+Para a Marcela, ver a convenção específica (unidade = capítulo do
+material dela, capítulo = parte) em `Marcela/CLAUDE.md`.
 
 ---
 
@@ -182,6 +206,10 @@ Regras dos SVGs (Seção 12):
 - `<defs>` com marker de seta em cada SVG
 - Sem emojis, sem hardcode de hex para texto, sem texto rotacionado
 
+Esta estrutura é a mesma para qualquer aluno — `validate_preps.py`
+não distingue Pietro de Marcela, só olha o nome do arquivo e as
+seções.
+
 ---
 
 ## Script de validação
@@ -195,13 +223,16 @@ python3 Pietro/Scripts/validate_preps.py Pietro/Prep/
 
 # Validar uma matéria específica
 python3 Pietro/Scripts/validate_preps.py Pietro/Prep/Biologia/
+
+# Funciona igual para a Marcela:
+python3 Pietro/Scripts/validate_preps.py Marcela/Prep/Fisica/fis-2-1-prep.md
 ```
 
 Exit code 0 = tudo válido. Exit code 1 = há erros.
 
 ---
 
-## Pipeline de geração de conteúdo
+## Pipeline de geração de conteúdo (Pietro)
 
 ### Pipeline A — direto com imagens (Claude.ai)
 
@@ -258,6 +289,12 @@ Síntese: o último screenshot continua sendo salvo como
 [mat]-[u]-[c]-sintese.png em Pietro/Raw/[Materia]/ e
 subido diretamente ao KB como imagem — não passa pela transcrição.
 ```
+
+### Pipeline C — PDF de texto nativo direto (Marcela)
+
+Ver `Marcela/CLAUDE.md`. Usado quando o material já chega como PDF
+de texto nativo (não escaneado) — pula Captura por screenshot e
+Transcrição, vai direto do PDF para a Preparação.
 
 ---
 
@@ -379,11 +416,12 @@ Convenção de mensagens:
 | Captura Edros (raw)      | `feat(edros): captura edros-[ano]-[Xav]`         |
 | Banco Edros              | `feat(edros): adiciona banco_edros_[ano]_[Xav]`  |
 | Bancos de revisão Edros  | `feat(edros): adiciona bancos de revisão [X]ª av`|
+| Novo aluno / pipeline    | `feat(marcela): ...` (mesmo padrão, prefixo do aluno) |
 
 Regras:
 - Ao commitar um novo prep, sempre incluir no mesmo commit:
-  - `Pietro/Prep/[Materia]/[mat]-[u]-[c]-prep.md`
-  - `Pietro/Prep/[Materia]/mindmap_[mat][u][c].html` (se existir)
+  - `[Aluno]/Prep/[Materia]/[mat]-[u]-[c]-prep.md`
+  - `[Aluno]/Prep/[Materia]/mindmap_[mat][u][c].html` (se existir)
   - Imagens Raw correspondentes (se houver)
 - Transcrições são commitadas separadamente do prep
 - Nunca commitar arquivos dentro de `Pietro/temp/`
@@ -392,7 +430,7 @@ Regras:
 
 ---
 
-## Contexto pedagógico
+## Contexto pedagógico — Pietro
 
 - Aluno: Pietro, 9º ano, escola particular, Rio de Janeiro
 - Objetivo: reforço de conteúdo antes de provas
@@ -400,3 +438,5 @@ Regras:
 - Nunca revelar resposta antes do aluno tentar
 - O Professor opera no Claude.ai — o Claude Code é usado apenas
   para manutenção da infraestrutura (scripts, validação, organização)
+
+Para o contexto pedagógico da Marcela, ver `Marcela/CLAUDE.md`.
