@@ -1,20 +1,20 @@
-## DIAGRAMAS DISPONÍVEIS — his-1-9
+## DIAGRAMAS DISPONÍVEIS — his-1-8
 
 | Nome | Identificador na Seção 12 | Quando usar na Etapa 1 |
 |------|--------------------------|------------------------|
-| Fluxo de Ascensão e Crise dos EUA | DIAGRAMA: fluxo_ascensao_crise | Ao introduzir a trajetória econômica dos EUA: prosperidade → crise → New Deal |
-| Linha do tempo 1909–1933 | DIAGRAMA: timeline | Ao situar cronologicamente os eventos do capítulo |
+| Linha do tempo 1861–1922 | DIAGRAMA: timeline | Ao situar cronologicamente os eventos do capítulo |
+| Fluxo da Revolução Russa | DIAGRAMA: fluxo_revolucao_russa | Ao explicar como a crise do Império Russo levou à revolução e à formação da URSS |
 
 ### Tabelas markdown (Seção 6):
-- Tabela 1: Cronologia comparativa dos eventos principais (1909–1933)
-- Tabela 2: Causas e consequências da Crise de 1929
-- Tabela 3: Medidas do New Deal
-- Tabela 4: Índice de desemprego por país (1932–1933)
+- Tabela 1: Rússia atual — distribuição por parte europeia e asiática
+- Tabela 2: Governo Provisório × Conselho dos Comissários do Povo
+- Tabela 3: Líderes bolcheviques no Conselho dos Comissários do Povo
+- Tabela 4: Exército Branco × Exército Vermelho (Guerra Civil)
 
 ### Nota ao Professor:
 Para cada diagrama: leia o SVG da Seção 12 e passe ao Visualizer.
 Tabelas da Seção 6 são apresentadas como markdown no chat.
-Se o usuário anexar printscreens de mapas históricos da apostila, use-os diretamente em vez de fazer image_search.
+Se o usuário anexar printscreens de mapas históricos da apostila, use-os diretamente em vez de fazer image_search — este capítulo tem 3 mapas na apostila (Federação Russa: etnias · Manchúria: século XXI · Países que compunham a URSS), ver Seção 8.
 
 ---
 
@@ -25,129 +25,196 @@ Se o usuário anexar printscreens de mapas históricos da apostila, use-os diret
 ```
 # PREPARAÇÃO DE AULA — HISTÓRIA
 - Unidade: 1
-- Capítulo: 9
-- Tema: Estados Unidos nas décadas de 1920 e 1930
-- Perfil: analítico-temático
-- Período histórico: Entreguerras (1919–1939)
-- Personagens principais: Calvin Coolidge · Henry Ford · Al Capone ·
-  Herbert Hoover · Franklin Delano Roosevelt · Louise Brooks
-- Processos principais: Ascensão econômica dos EUA pós-Primeira Guerra ·
-  Roaring twenties e consumismo · Lei Seca e criminalidade organizada ·
-  Crise de 1929 · Grande Depressão · New Deal
+- Capítulo: 8
+- Tema: A Rússia no início do século XX — Revolução Bolchevique e a formação da URSS
+- Perfil: histórico-narrativo
+- Período histórico: 1861–1922 (do fim da servidão à formação da URSS)
+- Personagens principais: Alexandre II · Nicolau II · Vladimir Ilyich Ulyanov (Lênin) ·
+  Leon Trótski · Josef Stálin · George Gapon · Príncipe Lvov · Alexander Kerensky ·
+  Alexandra Kollontai
+- Processos principais: Crise do Império Russo · Revolução de Fevereiro de 1917 ·
+  Revolução de Outubro de 1917 · Guerra Civil Russa · Nova Política Econômica (NEP) ·
+  Formação da URSS
 ```
+
+**Glossário do capítulo**
+
+📚 **Glossário do capítulo**
+
+| Termo | Definição |
+|-------|-----------|
+| Autogestão | Administração feita de forma coletiva, sem uma liderança única imposta de fora. |
+| Bolcheviques | "Maioria" em russo; grupo do POSDR liderado por Lênin que defendia formar uma elite de revolucionários profissionais para implantar o socialismo por meio de uma revolução. |
+| Comitê Militar Revolucionário | Órgão criado pelo Soviete de Petrogrado em outubro de 1917, liderado por Trótski, para organizar a tomada do poder. |
+| Conselho dos Comissários do Povo | Governo revolucionário formado após a Revolução de Outubro de 1917, liderado por Lênin e composto só por bolcheviques. |
+| Czar | "Imperador" em russo; título derivado do latim *caesar*. |
+| Decreto de Paz | Medida do governo bolchevique (26 out. 1917) anunciando a saída da Rússia da Primeira Guerra Mundial. |
+| Decreto sobre a Terra | Medida do governo bolchevique (26 out. 1917) que confiscou terras da nobreza e do clero para distribuir aos camponeses. |
+| Domingo Sangrento | Massacre de manifestantes pacíficos pelas tropas imperiais em São Petersburgo, em janeiro de 1905. |
+| Duma | Parlamento consultivo russo, sem poder de elaborar leis, convocado e fechado várias vezes por Nicolau II entre 1906 e 1917. |
+| Exército Branco | Forças contrarrevolucionárias (nobres, opositores políticos, nacionalistas) que combateram os bolcheviques na Guerra Civil. |
+| Exército Vermelho | Exército bolchevique criado a partir da Guarda Vermelha, organizado por Trótski, vencedor da Guerra Civil. |
+| Governo Provisório | Governo formado após a abdicação de Nicolau II (fev. 1917), ligado às elites, que vigorou até a Revolução de Outubro. |
+| Guarda Vermelha | Tropas paramilitares bolcheviques que tomaram Petrogrado em outubro de 1917. |
+| Guarnição | Tropas responsáveis por guardar e defender um local. |
+| Mir | Comunidades/grupos de trabalhadores que ligavam operários das fábricas ao campo. |
+| Nova Política Econômica (NEP) | Reforma econômica de 1921 que permitiu práticas capitalistas limitadas para evitar o colapso da economia soviética. |
+| Okhrana | Polícia política do Império Russo, encarregada de perseguir opositores. |
+| Paramilitar | Grupo de civis armados organizado como uma força militar. |
+| Russificação | Imposição da cultura eslava a todas as etnias do Império Russo para manter o controle do território. |
+| Servidão | Regime de trabalho camponês em que o trabalhador estava vinculado à terra sem ser seu proprietário; abolido na Rússia em 1861. |
+| Sovietes | Conselhos de autogestão de operários, camponeses e soldados, surgidos espontaneamente após 1905. |
+| Tcheka | Polícia política criada pelos bolcheviques durante a Guerra Civil para combater a contrarrevolução. |
+| Teses de Abril | Diretrizes de Lênin (abr. 1917) com os lemas "Paz, pão e terra" e "Todo poder aos sovietes!". |
+| Tratado de Brest-Litovski | Acordo de paz separado entre a Rússia bolchevique e o Império Alemão (1918), com perda territorial russa. |
+| União das Repúblicas Socialistas Soviéticas (URSS) | União de repúblicas formada a partir de 1922, com Moscou como capital, governada pelo Partido Comunista. |
+
+Ordenado alfabeticamente. O Professor lê este bloco direto na Etapa 3A, sem reprocessar.
 
 ---
 
 ## SEÇÃO 2 — RESUMO CONCEITUAL DO CAPÍTULO
 
-### **Bloco 1 — Os EUA como nova potência mundial (1914–1929)**
+### **Bloco 1 — A Rússia czarista: as bases da crise**
 
-A Primeira Guerra Mundial foi o ponto de inflexão que transformou os Estados Unidos na maior potência econômica do mundo. Enquanto a Europa se destruía nos campos de batalha, os EUA lucravam fornecendo matérias-primas, produtos industrializados e armamentos para todos os lados. O resultado foi uma inversão histórica: em 1914 os EUA deviam mais de 3 bilhões de dólares aos bancos europeus; em 1919 a Europa devia o mesmo valor aos bancos estadunidenses. Na década de 1920 Nova York tornou-se o centro financeiro do mundo, substituindo Londres.
+No início do século XX, o Império Russo era governado por um czar — título que significa "imperador" em russo, derivado do latim *caesar*, assim como a versão germânica *kaiser*. O regime era profundamente autoritário: o czar governava sem parlamento, apoiado por uma nobreza sem interesse no desenvolvimento industrial e por uma polícia política, a Okhrana, encarregada de reprimir opositores.
 
-Esse crescimento foi impulsionado pela produção industrial em larga escala. Henry Ford desenvolveu a linha de montagem, que reduziu o custo do Ford T de 900 dólares em 1909 para 300 dólares em 1920, com produção saltando de dezenas de milhares para mais de um milhão de automóveis por ano. O princípio era simples: produção rápida, custo menor — "tempo é dinheiro". O automóvel se tornou símbolo de uma nova era de consumo em massa.
+Até 1861 cerca de 80% da população russa vivia sob servidão — o camponês trabalhava a terra sem ser seu proprietário, situação típica da Idade Média europeia. Foi o czar Alexandre II quem aboliu a servidão naquele ano, buscando modernizar o país e impulsionar o mercado consumidor. Ele também iniciou a intervenção estatal na economia, atraindo capitais franceses e ingleses para forçar a industrialização — que se concentrou em Moscou e São Petersburgo, sem que a estrutura política autoritária fosse tocada: partidos e sindicatos continuavam proibidos e existiam apenas na clandestinidade, e o Estado praticava a russificação, impondo a cultura eslava a todas as etnias do império para manter o controle territorial.
 
----
-
-### **Bloco 2 — O *American way of life* e o consumismo**
-
-A prosperidade dos anos 1920 gerou um novo modelo cultural: o *American way of life* ("estilo de vida americano"), baseado no consumismo, no crédito, na propaganda e no ideal do *self-made man* — o empreendedor que enriquece pelas próprias iniciativas, sem ajuda do Estado. Rádio, geladeira, aspirador de pó, torradeira elétrica — os bens de consumo se multiplicavam, e a compra a prazo tornava tudo acessível.
-
-O Estado, seguindo o princípio do liberalismo econômico, não interferia na economia interna. O presidente Calvin Coolidge resumiu a filosofia em janeiro de 1925: *"o principal negócio dos Estados Unidos são os negócios"*. O cinema de Hollywood difundiu esse modelo para o mundo. Havia, porém, uma contradição: enquanto pregava o não-intervencionismo interno, os EUA intervinham ativamente na América Latina, na China e na Europa, controlando economias e concedendo empréstimos para a reconstrução europeia.
+Em 1894 Nicolau II, herdeiro da dinastia Romanov (no poder desde o século XVII), assumiu o trono mantendo a mesma política autoritária e expansionista de seus antecessores — sem perceber que as contradições sociais estavam se acumulando.
 
 ---
 
-### **Bloco 3 — Os "loucos anos 20": cultura e transformações sociais**
+### **Bloco 2 — Guerra Russo-Japonesa e o Domingo Sangrento (1902–1905)**
 
-Os *roaring twenties* foram também uma época de intensa transformação cultural. O pós-guerra trouxe ceticismo e cinismo, e a sociedade mergulhou na busca do prazer e da diversão. O jazz, nascido no final do século XIX em Nova Orleans com raízes africanas, tornou-se a trilha sonora da década — o bairro do Harlem, em Nova York, era repleto de casas noturnas com *Big bands* que atraíam o mundo todo.
+A partir de 1902, colheitas insuficientes provocaram uma crise agrária e rebeliões camponesas. Operários usaram suas redes de *mir* — comunidades de trabalhadores ligadas ao campo — para organizar ondas de greve, e partidos clandestinos passaram a defender atos terroristas contra o regime. Foi nesse contexto que o escritor Leon Tolstói escreveu, em 16 de janeiro de 1902, uma carta a Nicolau II denunciando o regime de vigilância especial, o crescimento das forças policiais, a censura e o empobrecimento da população agrícola.
 
-As mulheres viveram mudanças profundas: inseridas no mercado de trabalho após a guerra, tornaram-se mais livres — saias curtas, cabelos curtos, batons vermelhos, festas, automóveis, política. As *flappers* (melindrosas no Brasil) desafiavam o modelo tradicional de feminilidade, movidas pelo ritmo do jazz. O filme *The Flapper* (estreado em 10 de maio de 1920) tornou-se marco dessa geração.
+Entre fevereiro de 1904 e setembro de 1905, a Rússia enfrentou o Japão pelo controle da Manchúria e da Coreia na Guerra Russo-Japonesa — um fracasso retumbante que aumentou impostos, racionamento de alimentos e recrutamento de soldados, agravando ainda mais a crise social.
 
-A Lei Seca de 1920, criada para moralizar a sociedade proibindo bebidas alcoólicas, produziu o efeito contrário: fortaleceu os gângsteres. Al Capone tornou-se o exemplo mais famoso — líder da máfia de Chicago, enriqueceu com o contrabando, subornava a polícia e era figura célebre na alta sociedade estadunidense. Foi preso apenas em 1931, não por seus crimes principais, mas por sonegação de impostos.
-
----
-
-### **Bloco 4 — As contradições que levaram à Crise de 1929**
-
-Debaixo da prosperidade aparente, tensões estruturais se acumulavam. O processo produtivo exigia mercado consumidor crescente, mas os salários eram miseráveis: por volta de 1925, mais da metade das famílias estadunidenses não conseguia consumir o que o mercado produzia. A política protecionista europeia reduzia as exportações norte-americanas. Fazendeiros e industriais se endividavam com hipotecas e empréstimos a juros altos.
-
-O mercado financeiro tornou-se um cassino: as ações passaram de US$ 27 bilhões para US$ 67 bilhões entre 1925 e 1929 — crescimento totalmente descolado da produção real. Os bancos emprestavam a 12% dinheiro tomado a 5% do Federal Reserve, aceitando como garantia as próprias ações. Quando a bolha estourou:
-
-- **24 de outubro de 1929**: mais de 13 milhões de ações postas à venda sem comprador
-- **29 de outubro de 1929**: mais de 16 milhões de ações à venda; mercado perde 14 bilhões de dólares; a bolsa quebra
+O ponto de ruptura veio em janeiro de 1905: o padre George Gapon organizou uma petição pacífica pedindo reformas ao czar, e mais de 100 mil pessoas marcharam até o Palácio de Inverno em São Petersburgo. As tropas imperiais abriram fogo contra os manifestantes, matando centenas — o episódio ficou conhecido como Domingo Sangrento e acabou de vez com a confiança popular no czar. Como consequência direta, surgiram espontaneamente os sovietes — conselhos de autogestão formados por operários, camponeses e soldados que elegiam os próprios líderes políticos, espalhando-se por todo o império.
 
 ---
 
-### **Bloco 5 — A Grande Depressão e seus efeitos globais**
+### **Bloco 3 — Entre duas revoluções: dumas, exílios e a Primeira Guerra Mundial (1905–1917)**
 
-A quebra da bolsa desencadeou a Grande Depressão — a mais intensa crise global do capitalismo até então. Milhares de empresas e bancos faliram. Nas cidades industriais surgiam as *hoovervilles* (nome em referência ao presidente Herbert Hoover, que adepto do liberalismo econômico se recusava a intervir, esperando que o mercado se corrigisse sozinho). Nos anos 1932 e 1933 o desemprego atingiu índices impressionantes: Alemanha ≈ 44%, Dinamarca ≈ 32%, Áustria ≈ 29%, EUA ≈ 27%. Populações inteiras dependiam de doações para se alimentar.
+Para conter a pressão popular após 1905, Nicolau II convocou a Duma — um parlamento apenas consultivo, sem poder de elaborar leis, que o czar podia fechar quando quisesse. Quatro dumas foram formadas e fechadas entre 1906 e 1917, numa manobra política que nunca resolveu as tensões estruturais do império.
 
-A crise era global porque os EUA eram o principal credor e parceiro comercial do mundo. Todos os países que dependiam de seus empréstimos e investimentos foram arrastados. Exceção: a União Soviética, que não tinha política de liberalismo econômico e em 1930 já se recuperava de suas próprias crises anteriores.
+Nesse período o revolucionário Leon Trótski (codinome de Liev Davidovich Bronstein) construía sua trajetória: preso e exilado na Sibéria em 1898 por defender o marxismo, fugiu para Londres em 1902, onde colaborou com Lênin na edição do jornal clandestino *Iskra* ("Faísca"). Voltou à Rússia em 1905 e foi eleito líder do soviete de São Petersburgo, mas foi preso novamente em 1906 e escapou para a Europa em 1907 — o mesmo ano do 5º Congresso do POSDR (Partido Operário Social-Democrata Russo), no qual Lênin já aparecia entre as principais lideranças.
+
+Em 1914 o Império Russo entrou na Primeira Guerra Mundial ao lado da Tríplice Entente, mas estava despreparado: sofreu derrotas sucessivas, como a de Tannenberg (26–31 de agosto de 1914), e o esforço de guerra trouxe inflação, jornadas extensas de trabalho, convocação em massa de soldados, greves, motins e deserções. O arcaísmo do regime czarista ficou exposto de forma crua — segundo o próprio Trótski, muitos soldados chegaram a combater sem fuzis.
 
 ---
 
-### **Bloco 6 — O *New Deal* e o intervencionismo estatal**
+### **Bloco 4 — A Revolução de Fevereiro de 1917 e a dualidade de poder**
 
-Em 1932 Franklin Delano Roosevelt, do Partido Democrata, foi eleito prometendo reverter a crise. Em seu discurso de posse em 4 de março de 1933 declarou: *"a única coisa que nós temos que temer é o próprio medo"* e anunciou supervisão estrita das operações bancárias. Seu programa — o *New Deal* (Novo Acordo) — representou uma ruptura com o liberalismo econômico:
+A gota d'água veio em fevereiro de 1917 (23 de fevereiro pelo calendário russo, 8 de março pelo gregoriano): mulheres da indústria têxtil da província de Vyborg saíram às ruas de Petrogrado exigindo o fim da guerra. Em poucos dias, mais de 200 mil grevistas paralisaram a economia, e em 27 de fevereiro os próprios soldados passaram a apoiar as rebeliões. Sem controle sobre a capital, a Duma pediu a abdicação de Nicolau II — encerrando mais de três séculos de domínio Romanov.
 
-controle bancário · regulamentação da bolsa · subsídios à indústria e à agricultura · jornada de 8 horas · salário mínimo · liberdade sindical · seguro-desemprego · aposentadoria · obras públicas · controle de preços
+O resultado imediato foi uma dualidade de poder: de um lado, o Governo Provisório, inicialmente liderado pelo príncipe Lvov e ligado às elites (nobreza e burguesia); de outro, o Soviete de Petrogrado, que representava operários, camponeses e soldados. O Governo Provisório não atendeu às reivindicações populares e manteve a Rússia na guerra; em março perdeu até o apoio da guarnição militar de Petrogrado, e em junho sua ofensiva contra a Tríplice Aliança fracassou, levando Lvov a renunciar. Alexander Kerensky assumiu em seu lugar e intensificou a perseguição aos bolcheviques.
 
-Ao aliar medidas econômicas com sociais, o *New Deal* lançou as bases do *welfare state* (estado de bem-estar social). Porém não resolveu completamente a crise — a recuperação real dos EUA só viria com a Segunda Guerra Mundial, quando o país voltaria a produzir para sustentar os europeus em conflito.
+Foi nesse momento que Lênin retornou à Rússia, em abril de 1917, após anos de exílio, divulgando as Teses de Abril — novas diretrizes com os lemas "Paz, pão e terra" e "Todo poder aos sovietes!", rompendo completamente com o Governo Provisório. Em julho, Trótski chegou à Rússia e se filiou formalmente aos bolcheviques; em setembro foi eleito presidente do Soviete de Petrogrado.
+
+---
+
+### **Bloco 5 — A Revolução de Outubro: os bolcheviques tomam o poder**
+
+Em outubro de 1917 o Soviete de Petrogrado criou o Comitê Militar Revolucionário, liderado por Trótski, para organizar a tomada do poder. A Guarda Vermelha — tropas paramilitares formadas pela guarnição de Petrogrado, soldados desertores e voluntários — tomou os pontos estratégicos da cidade entre 24 e 25 de outubro. O Palácio de Inverno foi atacado, Kerensky fugiu, e na madrugada do dia 26 o governo russo foi declarado caído.
+
+No mesmo dia formou-se o Conselho dos Comissários do Povo, um governo revolucionário liderado por Lênin e composto exclusivamente por bolcheviques — com Trótski como comissário de negócios estrangeiros e Josef Stálin como comissário das nacionalidades. Suas primeiras medidas vieram de imediato: o Decreto de Paz, anunciando a saída da Rússia da Primeira Guerra Mundial, e o Decreto sobre a Terra, confiscando terras da nobreza e do clero para os camponeses. Nos meses seguintes o novo governo adotou o calendário gregoriano, extinguiu os títulos de nobreza, decretou igualdade entre mulheres e homens — tendo Alexandra Kollontai como uma das fundadoras do Departamento de Mulheres —, recusou-se a pagar dívidas com bancos estrangeiros e estatizou bancos e grandes indústrias.
+
+Quando a Assembleia Constituinte eleita em novembro-dezembro de 1917 teve apenas 175 de seus 707 deputados bolcheviques, o governo a dissolveu no dia seguinte à sua primeira reunião, em janeiro de 1918 — deixando claro que o poder já não dependia mais de eleições. Isolada internacionalmente, a Rússia assinou em 1918 o Tratado de Brest-Litovski com o Império Alemão, perdendo cerca de 1 milhão de km² de território e pagando pesada indenização.
+
+---
+
+### **Bloco 6 — Consolidação bolchevique: Guerra Civil, NEP e a formação da URSS (1918–1922)**
+
+Para evitar uma restauração czarista durante a instabilidade, Nicolau II e sua família foram executados em julho de 1918. Entre 1918 e 1921 a Rússia viveu uma Guerra Civil: de um lado o Exército Vermelho (bolchevique), organizado por Trótski a partir da Guarda Vermelha; de outro o Exército Branco, formado por nobres, partidos de oposição e nacionalistas, apoiado por catorze países — principalmente Estados Unidos, Japão, França e Inglaterra. Para enfrentar a guerra, os bolcheviques criaram a Tcheka (polícia política), requisitaram alimentos à força, racionaram bens e instituíram o serviço militar obrigatório. Os Vermelhos venceram, mas a economia entrou em colapso.
+
+Para evitar a falência total do país, Lênin lançou em março de 1921 a Nova Política Econômica (NEP), permitindo práticas capitalistas limitadas — pequenas e médias fábricas privadas, imposto sobre a produção camponesa, estímulo ao uso da moeda — enquanto mantinha rígido o controle político: só o Partido Comunista podia existir, sindicatos continuavam proibidos e não havia liberdade de imprensa. Os membros do partido acabaram formando uma nova elite burocrata.
+
+Em 1922, com a vitória bolchevique consolidada, formou-se a União das Repúblicas Socialistas Soviéticas (URSS), com Moscou como capital, unindo inicialmente Rússia, Bielorrússia, Armênia, Azerbaijão, Geórgia e Ucrânia — esta última incorporada à força após ter existido como estado independente entre 1917 e 1921. Novos territórios se somaram em 1924, 1929 e 1940, até completar as quinze repúblicas que formariam a URSS.
 
 ---
 
 ## SEÇÃO 3 — PERSONAGENS E PENSADORES
 
-### Calvin Coolidge (década de 1920)
-**Origem:** EUA
-**Papel histórico:** presidente estadunidense que personificou a prosperidade e a filosofia econômica dos *roaring twenties*
-**Ações ou decisões relevantes:** governou sob os princípios do liberalismo econômico e do não-intervencionismo; representou o auge da confiança estadunidense na capacidade do mercado de se autorregular
-**Associado a:** *roaring twenties*; *American way of life*; liberalismo econômico dos anos 1920
-💡 **Pegadinha:** Coolidge é frequentemente confundido com Hoover. Coolidge governa na época da prosperidade (anos 1920); Hoover governa durante a Grande Depressão (a partir de 1929) e é criticado por não intervir.
+### Alexandre II (czar de meados do séc. XIX até 1881)
+**Origem:** Rússia
+**Papel histórico:** modernizador do Império Russo
+**Ações ou decisões relevantes:** aboliu a servidão em 1861; iniciou a intervenção estatal na economia; atraiu capitais franceses e ingleses para a industrialização
+**Associado a:** abolição da servidão; início da industrialização russa
+💡 **Pegadinha:** Alexandre II é confundido com Nicolau II. É Alexandre II quem reforma o país no século XIX (abolindo a servidão); é Nicolau II, seu sucessor, quem perde o trono em 1917.
 
 ---
 
-### Henry Ford (ativo na década de 1920)
-**Origem:** EUA
-**Papel histórico:** empresário pioneiro da produção industrial em massa; criou a primeira linha de montagem
-**Ações ou decisões relevantes:** criou o Ford T ("Ford Bigode"); reduziu o custo de produção de 900 dólares (1909) para 300 dólares (1920); aumentou a produção de dezenas de milhares para mais de um milhão de automóveis por ano
-**Associado a:** linha de montagem; consumismo; *American way of life*; "tempo é dinheiro"
-💡 **Pegadinha:** Ford não criou o automóvel — criou a linha de montagem que tornou o automóvel acessível em massa. A confusão entre inventor do produto e inventor do processo de produção é frequente.
+### Nicolau II (trono: 1894–fev. 1917 · executado: jul. 1918)
+**Origem:** Rússia
+**Papel histórico:** último czar do Império Russo; herdeiro da dinastia Romanov, no poder desde o século XVII
+**Ações ou decisões relevantes:** manteve política autoritária e expansionista; convocou e fechou quatro dumas entre 1906 e 1917; conduziu a Rússia à Primeira Guerra Mundial; abdicou em fevereiro de 1917 sob pressão da Duma; foi executado com a família em julho de 1918
+**Associado a:** queda do czarismo; Domingo Sangrento; Revolução de Fevereiro
+💡 **Pegadinha:** Nicolau II não escolheu abdicar por convicção — foi pressionado pela Duma diante da perda de controle sobre a capital. Não confundir abdicação forçada com renúncia voluntária.
 
 ---
 
-### Al Capone / Alphonse Gabriel Capone (1899–1947)
-**Origem:** EUA
-**Papel histórico:** mafioso mais famoso dos EUA; símbolo do crime organizado durante a Lei Seca
-**Ações ou decisões relevantes:** líder da máfia de Chicago; principal negócio era o contrabando de bebidas alcoólicas; subornava a polícia local; em 1929, após o Massacre de São Valentim (sete mortos), investigado pelo FBI; preso em 1931 por sonegação de impostos; condenado a 11 anos; saiu doente em 1939; morreu em 1947
-**Associado a:** Lei Seca; gângsteres; crime organizado; Massacre de São Valentim
-💡 **Pegadinha:** Al Capone não foi preso pelos seus crimes mais graves (contrabando, homicídio), mas por sonegação de impostos. O FBI não conseguiu provas suficientes dos outros crimes — detalhe frequentemente cobrado em provas.
+### Vladimir Ilyich Ulyanov (Lênin) (líder bolchevique · governo: 1917–1924)
+**Origem:** Rússia
+**Papel histórico:** líder dos bolcheviques; chefe do Conselho dos Comissários do Povo após a Revolução de Outubro
+**Ações ou decisões relevantes:** exilado no fim do século XIX; colaborou com Trótski no jornal *Iskra*; retornou à Rússia em abril de 1917 e divulgou as Teses de Abril; liderou a Revolução de Outubro; assinou o Decreto de Paz, o Decreto sobre a Terra e o Tratado de Brest-Litovski; dissolveu a Assembleia Constituinte; lançou a NEP em 1921
+**Associado a:** Teses de Abril; Revolução de Outubro; Conselho dos Comissários do Povo; NEP
+💡 **Pegadinha:** Lênin não participou da Revolução de Fevereiro de 1917 — ele ainda estava no exílio e só retornou em abril. É comum a confusão de que ele já liderava a Rússia desde o início da crise daquele ano.
 
 ---
 
-### Herbert Hoover (presidente a partir de 1929)
-**Origem:** EUA
-**Papel histórico:** presidente dos EUA durante o início da Grande Depressão; seu nome deu origem às *hoovervilles*
-**Ações ou decisões relevantes:** adepto do liberalismo econômico, não atuou no cenário caótico da Depressão, pressupondo que o mercado se resolveria sozinho; essa omissão agravou a crise
-**Associado a:** Grande Depressão; liberalismo econômico; *hoovervilles*
-💡 **Pegadinha:** Hoover não criou a crise — ela já estava estruturada antes de sua presidência. O que o torna símbolo negativo é sua recusa em intervir, não sua responsabilidade pela quebra da bolsa.
+### Leon Trótski / Liev Davidovich Bronstein (1879–1940)
+**Origem:** Rússia
+**Papel histórico:** revolucionário bolchevique; organizador do Exército Vermelho
+**Ações ou decisões relevantes:** preso e exilado na Sibéria em 1898; fugiu para Londres em 1902 e colaborou com Lênin no *Iskra*; eleito líder do soviete de São Petersburgo em 1905; preso novamente em 1906; escapou para a Europa em 1907; filiou-se aos bolcheviques em julho de 1917; eleito presidente do Soviete de Petrogrado em setembro de 1917; liderou o Comitê Militar Revolucionário na Revolução de Outubro; foi comissário de negócios estrangeiros; organizou o Exército Vermelho na Guerra Civil
+**Associado a:** Comitê Militar Revolucionário; Guarda Vermelha; Exército Vermelho
+💡 **Pegadinha:** Trótski só se filiou oficialmente ao Partido Bolchevique em julho de 1917 — antes disso atuava como revolucionário independente. Não é correto dizer que ele era bolchevique "desde o início".
 
 ---
 
-### Franklin Delano Roosevelt (eleito 1932; posse 4 mar. 1933)
-**Origem:** EUA
-**Papel histórico:** presidente que lançou o *New Deal*; rompeu com o liberalismo econômico e instaurou o intervencionismo estatal
-**Ações ou decisões relevantes:** lançou o *New Deal* em 1933; implementou controle bancário, subsídios, obras públicas, salário mínimo, jornada de 8 horas, seguro-desemprego, aposentadoria, liberdade sindical; lançou as bases do *welfare state*
-**Associado a:** *New Deal*; Grande Depressão; intervencionismo estatal; *welfare state*
-**Citações diretas:** *"a única coisa que nós temos que temer é o próprio medo"*; *"deve haver uma supervisão estrita de toda a operação bancária e créditos e investimentos; deve haver uma extremidade à especulação com dinheiro do outro"*
-💡 **Pegadinha:** O *New Deal* é frequentemente apresentado como solução definitiva da crise. O material deixa claro que não teve grande sucesso — a recuperação real veio com a Segunda Guerra Mundial.
+### Josef Stálin
+**Origem:** Rússia (inferido do contexto — ver Seção 8)
+**Papel histórico:** membro do Conselho dos Comissários do Povo após a Revolução de Outubro de 1917
+**Ações ou decisões relevantes:** comissário das nacionalidades no governo formado em outubro de 1917
+**Associado a:** Conselho dos Comissários do Povo
+💡 **Pegadinha:** Neste capítulo Stálin ainda tem papel discreto (comissário das nacionalidades). Sua ascensão como líder supremo da URSS acontece só depois da morte de Lênin em 1924 — fora do período coberto aqui.
 
 ---
 
-### Louise Brooks (década de 1920)
-**Origem:** EUA
-**Papel histórico:** atriz estadunidense considerada um modelo de *flapper*; símbolo do novo estilo de vida feminino dos anos 1920
-**Associado a:** *flappers*; melindrosas; transformações culturais dos anos 1920
-💡 **Pegadinha:** Louise Brooks aparece como exemplo de *flapper*, não como símbolo do movimento sufragista. São fenômenos relacionados, mas distintos — o sufragismo é luta política pelo voto; as *flappers* são fenômeno cultural de comportamento.
+### George Gapon (início do século XX)
+**Origem:** Rússia
+**Papel histórico:** padre da Igreja Ortodoxa envolvido com questões sociais; organizador da manifestação do Domingo Sangrento
+**Ações ou decisões relevantes:** elaborou petição com milhares de assinaturas pedindo reformas ao czar; convocou a marcha até o Palácio de Inverno em janeiro de 1905
+**Associado a:** Domingo Sangrento
+💡 **Pegadinha:** A manifestação organizada por Gapon era pacífica — quem iniciou a violência foram as tropas imperiais. Questões que descrevem o Domingo Sangrento como um levante armado dos manifestantes estão erradas.
+
+---
+
+### Príncipe Lvov (fev.–jun. 1917)
+**Origem:** Rússia
+**Papel histórico:** primeiro líder do Governo Provisório após a abdicação de Nicolau II
+**Ações ou decisões relevantes:** manteve a Rússia na Primeira Guerra; renunciou após o fracasso da ofensiva contra a Tríplice Aliança em junho de 1917
+**Associado a:** Governo Provisório
+💡 **Pegadinha:** Lvov não foi substituído por Lênin — foi substituído por Kerensky, ainda dentro do próprio Governo Provisório. Os bolcheviques só chegam ao poder meses depois, em outubro.
+
+---
+
+### Alexander Kerensky (jun.–out. 1917)
+**Origem:** Rússia
+**Papel histórico:** assumiu o Governo Provisório após a renúncia do príncipe Lvov
+**Ações ou decisões relevantes:** intensificou a perseguição aos bolcheviques; fugiu quando o Palácio de Inverno foi atacado em 25 de outubro de 1917, abandonando o governo
+**Associado a:** Governo Provisório; queda do Governo Provisório
+💡 **Pegadinha:** Kerensky reprimiu os bolcheviques enquanto esteve no poder — não é aliado deles. É derrubado justamente pelo grupo que perseguia.
+
+---
+
+### Alexandra Kollontai
+**Origem:** Rússia
+**Papel histórico:** membro do Partido Bolchevique; uma das fundadoras do Departamento de Mulheres no governo de Lênin
+**Ações ou decisões relevantes:** citada como exemplo da igualdade legal entre homens e mulheres instituída pelo governo bolchevique
+**Associado a:** reformas sociais do governo de Lênin
+💡 **Pegadinha:** Kollontai aparece no material como exemplo das reformas sociais bolcheviques — não como líder militar ou figura central da tomada de poder em outubro de 1917.
 
 ---
 
@@ -155,194 +222,188 @@ Ao aliar medidas econômicas com sociais, o *New Deal* lançou as bases do *welf
 
 | Data | Evento | Local | Consequência imediata |
 |------|--------|-------|-----------------------|
-| 1909 | Ford Motor Company inicia produção em série do Ford T | EUA | Automóvel a ~900 dólares para o comprador; dezenas de milhares de unidades/ano |
-| 1914 | EUA devem mais de 3 bilhões de dólares aos bancos europeus | EUA / Europa | Ponto de partida: EUA ainda são devedores |
-| 1919 | Europa passa a dever o mesmo valor aos bancos estadunidenses | EUA / Europa | EUA tornam-se principal credor mundial; isolacionismo declarado; recusa à Liga das Nações |
-| 1920 | Promulgação da Lei Seca | EUA | Proibição de bebidas alcoólicas; fortalecimento do crime organizado e dos gângsteres |
-| 10 mai. 1920 | Estreia do filme *The Flapper* | EUA | Marco cultural para o modelo das *flappers* / melindrosas |
-| 1920 | Ford produz mais de 1 milhão de automóveis a 300 dólares cada | EUA | Automóvel acessível à classe média; símbolo do consumismo |
-| 1922 | King Oliver's Creole Jazz Band | EUA | Referência cultural ao jazz dos anos 1920 |
-| Jan. 1925 | Calvin Coolidge: "o principal negócio dos EUA são os negócios" | EUA | Expressão máxima da filosofia liberal dos *roaring twenties* |
-| ~1925 | Mais da metade das famílias estadunidenses recebe salários miseráveis | EUA | Contradição: superprodução × subconsumo; semente da crise |
-| 1925–1929 | Ações sobem de US$ 27 bi para US$ 67 bi (especulação) | EUA | Bolha especulativa descolada da produção real |
-| 1929 | Massacre de São Valentim (7 mortos) | Chicago, EUA | Al Capone passa a ser investigado pelo FBI |
-| 24 out. 1929 | Mais de 13 milhões de ações postas à venda sem comprador | Nova York, EUA | Agravamento imediato da crise financeira |
-| 29 out. 1929 | Mais de 16 milhões de ações à venda; mercado perde 14 bilhões de dólares | Nova York, EUA | Quebra da bolsa; início da Grande Depressão |
-| A partir de 1929 | Grande Depressão — milhares de empresas e bancos faliram | EUA / mundial | Surgimento das *hoovervilles*; crise global; desemprego massivo |
-| 1931 | Al Capone preso por sonegação de impostos; condenado a 11 anos | EUA | Fim do reinado de Al Capone; saiu doente em 1939; morreu em 1947 |
-| 1932 | Índice de desemprego impressionante; eleição de Roosevelt | EUA | Roosevelt eleito com promessa de intervenção estatal |
-| 4 mar. 1933 | Discurso de posse de Roosevelt; lançamento do *New Deal* | EUA | Implementação do intervencionismo estatal; base do *welfare state* |
-| 1936 | Dorothea Lange documenta miséria; *hoovervilles* em Portland, Oregon | EUA | Registro histórico visual da Grande Depressão |
-| 2ª Guerra Mundial | Produção bélica reverte definitivamente a crise estadunidense | EUA | Recuperação econômica real dos EUA |
+| Meados do séc. XIX | Governo de Alexandre II | Rússia | Início da modernização do império |
+| 1861 | Abolição da servidão | Rússia | Início da industrialização; migração para centros urbanos |
+| Final do séc. XIX – início do séc. XX | Industrialização do Império Russo | Rússia (Moscou, São Petersburgo) | Crescimento econômico sem reforma política; contrastes sociais |
+| 1894 | Nicolau II assume o trono | Rússia | Continuidade da política autoritária e expansionista |
+| 1898 | Prisão e exílio de Trótski | Rússia / Sibéria | Início da trajetória revolucionária de Trótski |
+| 16 jan. 1902 | Carta de Leon Tolstói a Nicolau II | Rússia | Denúncia pública do autoritarismo czarista |
+| 1902 | Crise agrária; início do declínio do czarismo | Rússia | Ondas de greve; instabilidade social e política |
+| 1902 | Fuga de Trótski para Londres | Londres / exterior | Colaboração com Lênin no jornal *Iskra* |
+| Fev. 1904 – set. 1905 | Guerra Russo-Japonesa | Manchúria e Coreia | Derrota russa; aumento de impostos e recrutamento |
+| Jan. 1905 | Domingo Sangrento | São Petersburgo | Fim da confiança popular no czar; surgimento dos sovietes |
+| Fev. 1905 | Retorno de Trótski à Rússia | Rússia | Eleito líder do soviete de São Petersburgo |
+| 1906 | Nova prisão e fuga de Trótski | Rússia / Europa | Trótski escapa para a Europa em 1907 |
+| 1906–1917 | Quatro dumas formadas e fechadas | Rússia | Manobra política de Nicolau II para manter o trono |
+| 1907 | 5º Congresso do POSDR | Londres (inferido) | Lênin entre as lideranças do partido |
+| 1914 | Entrada da Rússia na Primeira Guerra Mundial | Europa / Rússia | Derrotas sucessivas; inflação; greves e motins |
+| Fev. 1917 (23 fev. russo / 8 mar. gregoriano) | Início da Revolução de Fevereiro | Petrogrado | Sovietes ganham força; soldados apoiam as rebeliões |
+| 27 fev. 1917 | Queda do regime czarista | Petrogrado | Abdicação de Nicolau II; dualidade de poder |
+| Fev.–out. 1917 | Governo Provisório | Rússia | Mantém a guerra; derrubado pela Revolução de Outubro |
+| Abr. 1917 | Retorno de Lênin; Teses de Abril | Rússia | Ruptura com o Governo Provisório |
+| Jul. 1917 | Filiação de Trótski aos bolcheviques; manifestações | Petrogrado | Radicalização do movimento contra o Governo Provisório |
+| Set. 1917 | Trótski eleito presidente do Soviete de Petrogrado | Petrogrado | Consolidação da liderança bolchevique no soviete |
+| 24–25 out. 1917 | Revolução de Outubro | Petrogrado | Queda do Governo Provisório |
+| 26 out. 1917 | Conselho dos Comissários do Povo; Decreto de Paz; Decreto sobre a Terra | Rússia | Novo governo bolchevique; saída da guerra; confisco de terras |
+| Nov.–dez. 1917 | Eleições para a Assembleia Constituinte | Rússia | Apenas 175 de 707 deputados eram bolcheviques |
+| Até 1918 | Primeiras reformas do governo bolchevique | Rússia | Calendário gregoriano; fim dos títulos de nobreza; igualdade de gênero |
+| Jan. 1918 | Dissolução da Assembleia Constituinte | Rússia | Fim da via eleitoral como base do novo poder |
+| 1918 | Tratado de Brest-Litovski | Rússia / Império Alemão | Perda de ~1 milhão de km²; indenização em marcos |
+| Jul. 1918 | Execução de Nicolau II e família | Rússia | Elimina risco de restauração czarista |
+| 1918–1921 | Guerra Civil Russa | Rússia | Vitória do Exército Vermelho; colapso da economia |
+| Mar. 1921 | Início da Nova Política Econômica (NEP) | Rússia | Práticas capitalistas limitadas; nova elite burocrata |
+| 1922 | Formação da URSS | Eurásia | União de seis repúblicas iniciais, ampliada até 1940 |
+| 1917–1924 | Governo de Lênin | Rússia / URSS | Consolidação do primeiro Estado socialista |
 
 ---
 
 ## SEÇÃO 5 — CAUSAS E CONSEQUÊNCIAS
 
-### Ascensão econômica dos EUA após a Primeira Guerra Mundial
-**Causas estruturais:** posição geográfica afastada dos campos de batalha; base industrial e agrícola robusta; capacidade de atender à demanda europeia por armamentos e alimentos
-**Causas imediatas:** Primeira Guerra devastou as potências europeias; EUA lucraram vendendo matérias-primas, produtos industrializados e armamentos para todos os lados
-**Desenvolvimento:** inversão da posição credora entre 1914 e 1919; na década de 1920 Nova York substituiu Londres como centro financeiro mundial; produção industrial em massa (linha de montagem Ford); consumismo como motor econômico
-**Consequências de curto prazo:** prosperidade dos *roaring twenties*; surgimento do *American way of life*; expansão de todos os setores da economia; crescimento das cidades
-**Consequências de longo prazo:** difusão do modelo cultural estadunidense para o mundo; dependência dos países europeus e latino-americanos do capital norte-americano; vulnerabilidade global à crise dos EUA
-💡 **Pegadinha:** Os EUA não entraram na Primeira Guerra para enriquecer — mas o efeito econômico da guerra foi esse. Não confundir motivação política com consequência econômica.
+### Crise do Império Russo e condições para a revolução
+**Causas estruturais:** Estado autoritário sem parlamento; nobreza sem interesse na industrialização; 80% da população em servidão até 1861; ausência de leis trabalhistas; repressão política pela Okhrana; russificação das etnias
+**Causas imediatas:** colheitas insuficientes em 1902; Guerra Russo-Japonesa (1904–1905) fracassada; Domingo Sangrento (1905); inflação e escassez de alimentos na Primeira Guerra (1914–1917)
+**Desenvolvimento:** greves nos centros industriais; sovietes surgem espontaneamente; quatro dumas criadas e fechadas; em fevereiro de 1917 a falta de alimentos na capital desencadeia a crise final
+**Consequências de curto prazo:** abdicação de Nicolau II; Governo Provisório; dualidade de poder com o Soviete de Petrogrado
+**Consequências de longo prazo:** Revolução de Outubro; fim do czarismo e da dinastia Romanov; primeiro Estado socialista da história
+**Países/regiões afetados:** Rússia (principalmente Petrogrado/São Petersburgo e Moscou)
+💡 **Pegadinha:** A revolução não nasceu apenas da Primeira Guerra Mundial — as tensões estruturais (servidão, autoritarismo, ausência de reformas) já vinham se acumulando desde o século XIX. A guerra foi o gatilho final, não a causa única.
 
 ---
 
-### Crise de 1929 e quebra da bolsa de Nova York
-**Causas estruturais:** superprodução industrial e agrícola; salários miseráveis (por volta de 1925 mais da metade das famílias não conseguia consumir o que o mercado produzia); política protecionista europeia reduzindo importações norte-americanas; endividamento de fazendeiros e industriais com hipotecas e empréstimos a juros altos
-**Causas imediatas:** especulação financeira extrema — ações de US$ 27 bilhões para US$ 67 bilhões entre 1925 e 1929 sem base na produção real; bancos emprestavam a 12% dinheiro tomado a 5% do Federal Reserve; agentes aceitavam as próprias ações como garantia de novos empréstimos
-**Desenvolvimento:** 24 out. 1929 — 13 milhões de ações sem comprador; 29 out. 1929 — 16 milhões de ações à venda; mercado perde 14 bilhões de dólares; bolsa quebra
-**Consequências de curto prazo:** duas crises simultâneas — (1) superprodução: falências e demissões em massa; (2) colapso financeiro: bancos sem dinheiro, ações sem valor
-**Consequências de longo prazo:** Grande Depressão global; questionamento do liberalismo econômico; surgimento do intervencionismo estatal e do *welfare state*; *New Deal* de Roosevelt
-**Países/regiões afetados:** EUA (desemprego ≈ 27%); Alemanha (≈ 44%); Dinamarca (≈ 32%); Áustria (≈ 29%); Bélgica (≈ 23%); Suécia (≈ 24%); Grã-Bretanha (≈ 22%); somente a União Soviética não foi afetada
-💡 **Pegadinha:** A Crise de 1929 não foi causada apenas pela especulação financeira — havia causas estruturais profundas (superprodução, subconsumo, protecionismo europeu) que vinham se acumulando desde meados dos anos 1920. A especulação foi a faísca, não o combustível.
+### Revolução de Outubro de 1917
+**Causas estruturais:** insatisfação popular com o Governo Provisório; manutenção da Rússia na Primeira Guerra; alinhamento do governo com nobreza e burguesia
+**Causas imediatas:** Teses de Abril de Lênin; derrota do Governo Provisório na ofensiva de junho de 1917; renúncia de Lvov; perseguição de Kerensky aos bolcheviques; filiação de Trótski e sua eleição no Soviete de Petrogrado
+**Desenvolvimento:** Comitê Militar Revolucionário organiza a Guarda Vermelha; tomada dos pontos estratégicos de Petrogrado em 24–25 de outubro; ataque ao Palácio de Inverno; fuga de Kerensky; governo declarado caído na madrugada de 26 de outubro
+**Consequências de curto prazo:** formação do Conselho dos Comissários do Povo; Decreto de Paz; Decreto sobre a Terra; retirada da guerra; estatização da economia
+**Consequências de longo prazo:** Tratado de Brest-Litovski (perda territorial); Guerra Civil (1918–1921); formação da URSS (1922)
+**Países/regiões afetados:** Rússia; Europa (ruptura com a Tríplice Entente)
+💡 **Pegadinha:** A Revolução de Outubro não é uma continuação simples da Revolução de Fevereiro — é uma segunda revolução, feita por um grupo específico (os bolcheviques) contra o próprio governo que havia surgido da primeira.
 
 ---
 
-### Grande Depressão (a partir de 1929)
-**Causas estruturais:** dependência global do capital norte-americano; liberalismo econômico que impediu intervenção estatal preventiva
-**Causas imediatas:** colapso da bolsa de Nova York em outubro de 1929; falência em cadeia de empresas e bancos
-**Desenvolvimento:** surgimento das *hoovervilles*; desemprego massivo nos anos 1932–1933; população dependente de doações; governo Hoover se recusa a intervir esperando autorregulação do mercado
-**Consequências de curto prazo:** eleição de Roosevelt em 1932; lançamento do *New Deal* em 1933
-**Consequências de longo prazo:** base do *welfare state*; novo paradigma de relação Estado-economia; recuperação real apenas com a Segunda Guerra Mundial
-**Países/regiões afetados:** todos os países dependentes de empréstimos, investimentos e comércio norte-americanos; União Soviética foi a única exceção por não ter política de liberalismo econômico
-💡 **Pegadinha:** O *New Deal* NÃO resolveu a Grande Depressão. O material é explícito: a crise só se reverteu com a Segunda Guerra Mundial. Muitas questões induzem o aluno a marcar Roosevelt/New Deal como solução definitiva.
+### Guerra Civil Russa (1918–1921)
+**Causas estruturais:** oposição das elites russas e de potências estrangeiras ao governo bolchevique
+**Causas imediatas:** saída da Rússia da Primeira Guerra; anulação de dívidas de governos anteriores; estatização de fábricas e bancos; risco de a Revolução de Outubro inspirar o proletariado mundial
+**Desenvolvimento:** Exército Branco (nobres, opositores, nacionalistas, apoiado por 14 países) contra Exército Vermelho (bolcheviques); medidas de guerra: Tcheka, requisição de alimentos, racionamento, serviço militar obrigatório, execução de Nicolau II, perseguição religiosa
+**Consequências de curto prazo:** colapso da produção agrícola e industrial; queda da população urbana; fechamento de fábricas
+**Consequências de longo prazo:** vitória dos Vermelhos; adoção da NEP em 1921; formação da URSS em 1922
+**Países/regiões afetados:** Rússia; envolvimento de EUA, Japão, França e Inglaterra apoiando o Exército Branco
+💡 **Pegadinha:** O apoio estrangeiro foi ao Exército Branco (contrarrevolucionário), não ao Exército Vermelho. É um erro comum inverter essa relação.
 
 ---
 
-### Lei Seca (1920)
-**Causas estruturais:** crescimento do consumismo e das festividades nos EUA; pressão de grupos religiosos e moralistas
-**Causas imediatas:** governo cria lei para moralizar a vida da população
-**Desenvolvimento:** proibição da produção e comercialização de bebidas alcoólicas a partir de 1920; surgimento do mercado clandestino controlado por máfias
-**Consequências:** fortalecimento do crime organizado (gângsteres); Al Capone como principal exemplo; criminosos tornaram-se figuras socialmente influentes (financiavam artistas, patrocinavam campanhas)
-💡 **Pegadinha:** A Lei Seca foi criada para moralizar a sociedade, mas produziu o efeito oposto — fortaleceu o crime organizado. Esse paradoxo (lei criada para um fim produz consequência inversa) é frequentemente cobrado em questões de análise.
+### Formação da URSS (1922)
+**Causas:** vitória bolchevique na Guerra Civil; expansão do controle soviético sobre antigas repúblicas do Império Russo; incorporação forçada de territórios como a Ucrânia (estado independente entre 1917 e 1921)
+**Desenvolvimento:** Rússia e mais 14 repúblicas iniciam a União Soviética em 1922; novos membros incorporados em 1924, 1929 e 1940
+**Consequências:** criação do primeiro Estado socialista multinacional; capital em Moscou; governo pelo Partido Comunista; Ucrânia só recupera independência em 1991
+**Países/regiões afetados:** 15 repúblicas ao total
+💡 **Pegadinha:** A formação da URSS não foi uma união voluntária e simultânea de 15 países — foi um processo gradual, iniciado com 6 repúblicas em 1922 e completado apenas em 1940, e envolveu incorporações forçadas, como a da Ucrânia.
 
 ---
 
 ## SEÇÃO 6 — DADOS HISTÓRICOS DENSOS
 
-### Tabela 1 — Cronologia comparativa: EUA nas décadas de 1920 e 1930
+### Tabela 1 — Rússia atual: distribuição por parte europeia e asiática
 
-| Data | Evento | Local | Personagem-chave | ⚠️ Pegadinha |
-|------|--------|-------|-----------------|-------------|
-| 1909 | Início da produção em série do Ford T (~900 dólares) | EUA | Henry Ford | Ford criou a linha de montagem, não o automóvel |
-| 1914 | EUA devem 3 bi de dólares à Europa | EUA/Europa | — | Em 1914 os EUA ainda eram devedores |
-| 1919 | Europa passa a dever 3 bi de dólares aos EUA | EUA/Europa | — | A inversão ocorre em 5 anos — rapidez da ascensão |
-| 1920 | Lei Seca promulgada; Ford produz 1 mi de carros a 300 dólares | EUA | Al Capone | Lei Seca fortaleceu o crime — efeito inverso ao esperado |
-| Jan. 1925 | Coolidge: "o principal negócio dos EUA são os negócios" | EUA | Calvin Coolidge | Coolidge = prosperidade; Hoover = crise — não confundir |
-| 1925–1929 | Ações: US$ 27 bi → US$ 67 bi (especulação) | EUA | — | Crescimento descolado da produção real |
-| 24 out. 1929 | 13 milhões de ações sem comprador | Nova York | — | Não foi o dia da quebra definitiva — foi 29 out. |
-| 29 out. 1929 | 16 milhões de ações; mercado perde 14 bi de dólares | Nova York | — | **Dia da quebra definitiva da bolsa** |
-| A partir de 1929 | Grande Depressão global | EUA/mundo | Herbert Hoover | Hoover não causou a crise — recusou-se a combatê-la |
-| 1931 | Al Capone preso por sonegação de impostos | EUA | Al Capone | Preso por sonegação, não pelos crimes violentos |
-| 1932 | Eleição de Roosevelt | EUA | F. D. Roosevelt | — |
-| 4 mar. 1933 | Posse de Roosevelt; lançamento do *New Deal* | EUA | F. D. Roosevelt | *New Deal* não resolveu a crise — a 2ª Guerra resolveu |
+| | **Rússia atual — Europeia** | **Rússia atual — Asiática** | ⚠️ Pegadinha |
+|---|:---:|:---:|---|
+| **População** | 77% | 22% | A maior parte da população vive na Europa, apesar da Rússia ser majoritariamente asiática em território |
+| **Área** | 25% | 75% | — |
+| **Habitantes por km²** | 27,2 | 2,5 | A Sibéria (parte asiática) é vasta e pouco povoada |
+
+*Fonte: Igor Gielow. Desabitado, oriente russo impõe desafios para Putin. Folha de S.Paulo, 9 abr. 2017.*
 
 ---
 
-### Tabela 2 — Causas e consequências da Crise de 1929
+### Tabela 2 — Governo Provisório × Conselho dos Comissários do Povo
 
-| Categoria | Fator |
-|-----------|-------|
-| **Causa estrutural 1** | Superprodução: mercado consumidor não absorvia o volume produzido |
-| **Causa estrutural 2** | Salários miseráveis: ~metade das famílias sem poder de compra (~1925) |
-| **Causa estrutural 3** | Política protecionista europeia: redução das importações norte-americanas |
-| **Causa estrutural 4** | Endividamento com hipotecas e empréstimos a juros altos |
-| **Causa imediata** | Especulação financeira: ações de US$ 27 bi para US$ 67 bi (1925–1929), descoladas da produção |
-| **Mecanismo especulativo** | Bancos emprestavam a 12% dinheiro tomado a 5% do Federal Reserve; aceitavam ações como garantia |
-| **Crise 1** | Superprodução: falências, demissões em massa |
-| **Crise 2** | Colapso financeiro: bancos sem dinheiro, ações sem valor |
-| **Consequência global** | Grande Depressão: todos os países dependentes dos EUA afetados |
-| **Exceção** | União Soviética: sem política de liberalismo econômico, não foi afetada |
+| Aspecto | Governo Provisório (fev.–out. 1917) | Conselho dos Comissários do Povo (a partir de out. 1917) | ⚠️ Pegadinha |
+|---|---|---|---|
+| Liderança | Príncipe Lvov, depois Alexander Kerensky | Vladimir Lênin | Não confundir os dois governos nem seus líderes |
+| Base social | Nobreza e burguesia | Partido Bolchevique | — |
+| Postura sobre a guerra | Manteve a Rússia na Primeira Guerra | Saiu da guerra (Decreto de Paz) | Manter x sair da guerra é um dos pontos mais cobrados |
+| Postura sobre a terra | Não atendeu reivindicações camponesas | Confiscou terras da nobreza e do clero (Decreto sobre a Terra) | — |
+| Como terminou | Derrubado pela Revolução de Outubro | Consolidou-se no poder após a Guerra Civil | — |
 
 ---
 
-### Tabela 3 — Medidas do *New Deal* (1933)
+### Tabela 3 — Líderes bolcheviques no Conselho dos Comissários do Povo (out. 1917)
 
-| Área | Medida |
-|------|--------|
-| Sistema bancário | Controle das transações bancárias e fixação de juros baixos |
-| Mercado financeiro | Regulamentação das negociações na bolsa de valores |
-| Produção | Fornecimento de subsídios à indústria e à agricultura |
-| Produção | Controle governamental dos preços para conter a superprodução |
-| Trabalho | Diminuição da jornada de trabalho para 8 horas |
-| Trabalho | Fixação do salário mínimo |
-| Trabalho | Liberdade sindical |
-| Proteção social | Criação do seguro-desemprego e da aposentadoria |
-| Infraestrutura | Construção de obras públicas (escolas, hospitais, estradas, usinas) |
-| Emprego | Geração de empregos via obras públicas |
+| Líder | Cargo | ⚠️ Pegadinha |
+|---|---|---|
+| Vladimir Lênin | Chefe do governo revolucionário | — |
+| Leon Trótski | Comissário de negócios estrangeiros | Trótski também organizou o Exército Vermelho — dois papéis diferentes, não confundir |
+| Josef Stálin | Comissário das nacionalidades | Papel discreto em 1917; sua liderança suprema só vem depois de 1924 |
 
 ---
 
-### Tabela 4 — Índice de desemprego (%) nos EUA e países europeus: 1932–1933
+### Tabela 4 — Exército Branco × Exército Vermelho (Guerra Civil, 1918–1921)
 
-| País | Desemprego (%) |
-|------|----------------|
-| Grã-Bretanha | ≈ 22% |
-| Bélgica | ≈ 23% |
-| Suécia | ≈ 24% |
-| Estados Unidos | ≈ 27% |
-| Áustria | ≈ 29% |
-| Dinamarca | ≈ 32% |
-| Alemanha | ≈ 44% |
-
-*Fonte: PEREIRA, M. E. Rio dos extremos: o breve século XX. Companhia das Letras, 1995, p. 97. Valores aproximados extraídos do gráfico de barras do material.*
+| Aspecto | Exército Branco | Exército Vermelho | ⚠️ Pegadinha |
+|---|---|---|---|
+| Composição | Nobres, partidos de oposição, movimentos nacionalistas | Bolcheviques, formado a partir da Guarda Vermelha | — |
+| Apoio externo | 14 países, principalmente EUA, Japão, França e Inglaterra | Nenhum apoio estrangeiro relevante | O apoio estrangeiro foi ao lado Branco, não ao Vermelho |
+| Organização militar | Forças descentralizadas de opositores | Organizado por Trótski; serviço militar obrigatório | — |
+| Resultado | Derrotado | Vitorioso | — |
 
 ---
 
 ## SEÇÃO 7 — DICAS DE OURO
 
-💡 **Dica 1 — Coolidge ≠ Hoover: dois presidentes, dois momentos opostos**
-Calvin Coolidge governa na época da prosperidade (anos 1920) e é símbolo do liberalismo otimista: *"o principal negócio dos EUA são os negócios"*. Herbert Hoover governa durante a Grande Depressão (a partir de 1929) e é criticado por se recusar a intervir. São personagens distintos, com papéis opostos — mas ambos ligados ao liberalismo econômico. A prova pode tentar confundir qual discurso pertence a qual presidente.
+💡 **Dica 1 — Fevereiro e Outubro de 1917 são duas revoluções diferentes**
+A Revolução de Fevereiro derruba o czarismo e cria o Governo Provisório (ligado às elites). A Revolução de Outubro derruba o próprio Governo Provisório e leva os bolcheviques ao poder. São eventos distintos, com atores e resultados diferentes — tratar os dois como um único evento é o erro mais comum do capítulo.
 
-💡 **Dica 2 — O *New Deal* NÃO resolveu a Grande Depressão**
-Essa é a pegadinha mais frequente do capítulo. O *New Deal* lançou as bases do *welfare state* e atenuou o sofrimento da população, mas o material é explícito: *"a crise estadunidense só se reverteria realmente com a Segunda Guerra Mundial"*. Questões que afirmam que Roosevelt/New Deal acabou com a crise estão erradas.
+💡 **Dica 2 — Os sovietes nasceram democráticos, mas foram esvaziados pelos bolcheviques**
+Os sovietes surgiram espontaneamente após o Domingo Sangrento de 1905 como conselhos de autogestão popular. Segundo Rosa Luxemburgo, citada no capítulo, após a vitória bolchevique eles se transformaram em "correias de transmissão" do partido comunista — perderam a autonomia original. Questões que tratam os sovietes como sempre subordinados ao partido, desde o início, ignoram essa transformação.
 
-💡 **Dica 3 — A Lei Seca produziu o efeito inverso ao pretendido**
-Criada para moralizar a sociedade, a Lei Seca fortaleceu o crime organizado. Al Capone tornou-se figura influente na alta sociedade, financiando artistas e patrocinando campanhas eleitorais. O paradoxo lei-moralizadora → crime organizado é o ponto cobrado. Detalhe extra: Capone foi preso por *sonegação de impostos*, não pelos crimes violentos — o FBI não tinha provas suficientes dos outros crimes.
+💡 **Dica 3 — Datas "duplas": calendário juliano x gregoriano**
+O Império Russo usava o calendário juliano, 13 dias atrasado em relação ao gregoriano adotado no Ocidente. Por isso o Domingo Sangrento aparece como 9 de janeiro (juliano) ou 22 de janeiro (gregoriano), e a Revolução de Fevereiro como 23 de fevereiro (russo) ou 8 de março (gregoriano) — apesar do nome "Fevereiro". Os russos só adotaram o calendário gregoriano depois da Revolução de Outubro.
 
-💡 **Dica 4 — Especulação ≠ investimento produtivo: a distinção que levou ao colapso**
-O valor das ações subiu de US$ 27 bi para US$ 67 bi entre 1925 e 1929 *sem que a produção real crescesse no mesmo ritmo*. Isso é especulação pura: as ações valiam por expectativa de lucro, não por resultado real. Bancos emprestavam dinheiro (tomado a 5% do Federal Reserve) a 12% de juros, aceitando como garantia as próprias ações — um ciclo insustentável. A expressão "descolado da produção" é a chave para identificar questões sobre esse tema.
+💡 **Dica 4 — A NEP não foi um retorno ao capitalismo pleno**
+A Nova Política Econômica de 1921 permitiu pequenas fábricas privadas e uso de moeda, mas manteve rígido controle político: partido único, sindicatos proibidos, sem liberdade de imprensa. Foi uma retirada econômica tática, não uma mudança de regime político.
 
-💡 **Dica 5 — Isolacionismo estadunidense: recusa de compromissos, não isolamento total**
-Os EUA recusaram a Conferência de Paris e a Liga das Nações em 1919 — mas ao mesmo tempo intervinham na América Latina, na China e concediam empréstimos à Europa. O isolacionismo era seletivo: recusa de compromissos coletivos multilaterais, não de interesses econômicos próprios. Questões que descrevem os EUA como completamente isolados do mundo no período estão erradas.
+💡 **Dica 5 — Lênin, Trótski e Stálin tiveram papéis diferentes em 1917–1918**
+Lênin liderou politicamente e assinou os decretos principais. Trótski organizou a tomada militar de Petrogrado e depois o Exército Vermelho. Stálin, neste capítulo, ocupa um cargo discreto (comissário das nacionalidades) — sua ascensão ao topo do poder soviético é posterior a 1924 e não faz parte deste capítulo.
 
-💡 **Dica 6 — A contradição central do *American way of life***
-O modelo pregava não-intervenção do Estado na economia interna — mas os EUA intervinham ativamente na economia mundial (empréstimos à Europa, investimentos na América Latina e na China). O *self-made man* era um ideal interno; externamente o país controlava economias estrangeiras. Questões que exploram essa contradição pedem que o aluno identifique os limites do discurso liberal estadunidense.
+💡 **Dica 6 — Alexandre II reformou; Nicolau II perdeu o trono**
+Alexandre II (meados do séc. XIX) aboliu a servidão e iniciou a industrialização. Nicolau II (1894–1917), seu sucessor, manteve o autoritarismo sem reformar e acabou perdendo o poder em 1917. São dois czares com papéis históricos opostos — confundi-los é pegadinha frequente.
 
 ---
 
 ## SEÇÃO 8 — ALERTAS DE INCONSISTÊNCIA
 
 ```
-# GAPS — his-1-9
+# GAPS — his-1-8
 # Gerado automaticamente pelo Prompt de Preparação
 
 ## INFERÊNCIAS USADAS NO PREP
 
 | Seção | Campo | Valor inferido | Fonte da inferência |
 |-------|-------|---------------|---------------------|
-| Seção 4 / Tabela 4 | Valores exatos do gráfico de desemprego | Valores aproximados (≈) extraídos da descrição textual do gráfico | Bloco > Gráfico: da transcrição — valores descritos como "aproximados visíveis" |
-| Seção 3 / Louise Brooks | Período exato de nascimento/morte | Não inferido — apenas "década de 1920" como período de atuação | Material capturado não cita datas de nascimento/morte |
+| Seção 3 / Josef Stálin | País ou região de origem | Rússia (inferido do contexto) | O material captura apenas o cargo de Stálin no governo, sem declarar sua origem explicitamente |
+| Seção 4 / 5º Congresso do POSDR | Local do congresso | Londres (inferido) | O material indica apenas que Lênin aparece na fotografia do comitê eleito, sem declarar a cidade — inferido por ser o padrão dos congressos do POSDR no período de exílio |
 
 ## DADOS AUSENTES — AÇÃO NECESSÁRIA
 
 | Seção | Campo | Motivo da ausência | Ação recomendada |
 |-------|-------|-------------------|--------------------|
-| Seção 4 / Tabela 4 | Valores exatos do índice de desemprego por país | Gráfico de barras — valores foram descritos aproximadamente na transcrição | Verificar o gráfico original (pág. 171) para confirmar valores precisos |
-| Seção 11 / Gabaritos | Gabaritos de QC-1 (Unesp 2022), QC-2 (Unicamp 2015), QC-3 (Ufam 2022), QC-4 (sem banca) | Não fornecidos no material capturado | Professor deve preencher os gabaritos das questões de concurso antes de disponibilizar o prep ao aluno |
+| Abertura do capítulo | Imagem de fundo da página 1 | Contexto histórico e legenda não identificáveis com precisão na captura | Verificar a imagem original da apostila (pág. 1) antes de usá-la em aula |
+| Seção 8 / mapas históricos | Mapas 1–3 (Federação Russa: etnias · Manchúria: século XXI · Países que compunham a URSS) | São printscreens da apostila, não capturados como SVG | Confirmar se os printscreens desses 3 mapas estão no Knowledge Base como imagens; se não estiverem, usar image_search como alternativa (ver alerta abaixo) |
 ```
 
-⚠️ **ALERTA — QC-2 classificação de tipo**
-- Dado no material: `Tipo: múltipla escolha` (para QC-2 Unicamp-SP 2015)
-- Problema: a questão pede análise de gráfico com itens dissertativos (a e b), sem alternativas de múltipla escolha
-- Dado correto: o tipo deveria ser `dissertativa` ou `análise de gráfico`
-- Impacto na aula: Professor deve tratar QC-2 como questão dissertativa na correção
+⚠️ **VISUAL AUSENTE — retratos dos personagens centrais**
+- Sugestão: image_search "Lênin retrato 1917", "Trótski retrato Revolução Russa", "Nicolau II czar retrato"
+- Ação: usar image_search na aula ao apresentar Lênin, Trótski ou Nicolau II pela primeira vez — nenhum dos três tem retrato capturado como SVG ou imagem no material
 
-⚠️ **VISUAL AUSENTE — Bloco 3 (transformações culturais / flappers / jazz)**
-- Sugestão: image_search "flappers 1920s United States" ou "Harlem jazz 1920s Big Band"
-- Ação: usar image_search na aula para ilustrar o contexto cultural dos *roaring twenties*
+⚠️ **VISUAL AUSENTE — Domingo Sangrento**
+- Sugestão: image_search "Domingo Sangrento 1905 São Petersburgo" ou usar diretamente o Mapa/gravura da época, se disponível no KB
+- Ação: reforça visualmente um dos eventos mais citados em prova deste capítulo
+
+⚠️ **ALERTA — mapas históricos da apostila (Bloco E do material capturado)**
+- Dado no material: 3 mapas descritos em detalhe (Federação Russa: etnias · Manchúria: século XXI · Países que compunham a URSS), mas capturados apenas como descrição textual, não como imagem
+- Problema: se os printscreens desses mapas não estiverem no Knowledge Base, o Professor não tem como exibi-los
+- Dado correto: confirmar upload dos 3 printscreens ao Knowledge Base junto com este prep
+- Impacto na aula: sem os printscreens, usar image_search como fallback (ex.: "mapa etnias Rússia", "mapa Manchúria Guerra Russo-Japonesa", "mapa repúblicas da URSS 1922"), seguindo a auditoria obrigatória de `instrucoes_visuais.md` §9.1
 
 ---
 
@@ -350,71 +411,69 @@ O modelo pregava não-intervenção do Estado na economia interna — mas os EUA
 
 ### Bloco 1 — Conceitos e Definições
 
-- ***American way of life***
-  - Definição: `______` (*"estilo de vida americano" — modelo baseado no consumismo, no ideal do self-made man e na não intervenção do Estado na economia interna*)
-  - Exemplo histórico: `______` (*cartaz da National Association of Manufacturers de 1937 faz propaganda do modelo; difundido pelo cinema de Hollywood*)
+- **Servidão**
+  - Definição: `______` (*forma de exploração do trabalho camponês em que o trabalhador está vinculado à terra sem ser seu proprietário*)
+  - Exemplo histórico: `______` (*regime abolido na Rússia por Alexandre II em 1861*)
 
-- **Especulação**
-  - Definição: `______` (*prática em que o valor das ações sobe não pelo crescimento real do negócio, mas porque muitas pessoas querem comprá-las*)
-  - Exemplo histórico: `______` (*ações nos EUA passaram de US$ 27 bi para US$ 67 bi entre 1925 e 1929, descoladas da produção real*)
+- **Bolcheviques**
+  - Definição: `______` (*"maioria" em russo; grupo do POSDR que defendia uma elite de revolucionários profissionais para implantar o socialismo por meio de revolução*)
+  - Exemplo histórico: `______` (*liderados por Lênin; tomaram o poder na Revolução de Outubro de 1917*)
 
-- ***Hoovervilles***
-  - Definição: `______` (*aglomerados de casas precárias que eram as moradias dos desempregados nas grandes cidades industriais durante a Grande Depressão*)
-  - Exemplo histórico: `______` (*barracas de hooverville em Portland, Oregon, fotografadas em 1936*)
+- **Sovietes**
+  - Definição: `______` (*conselhos de autogestão de operários, camponeses e soldados que elegiam os próprios líderes*)
+  - Exemplo histórico: `______` (*surgiram espontaneamente após o Domingo Sangrento de 1905*)
 
-- ***New Deal***
-  - Definição: `______` (*política econômica de recuperação lançada por Roosevelt baseada em maior intervencionismo estatal, que se tornou a base do welfare state*)
-  - Exemplo histórico: `______` (*controle bancário, salário mínimo, seguro-desemprego, obras públicas, liberdade sindical*)
+- **Nova Política Econômica (NEP)**
+  - Definição: `______` (*reforma econômica de 1921 que permitiu práticas capitalistas limitadas, mantendo o autoritarismo político*)
 
-- **Superprodução**
-  - Definição: `______` (*excesso de produção industrial e agrícola em relação à capacidade de consumo do mercado, levando fábricas e fazendas à falência*)
+- **Duma**
+  - Definição: `______` (*parlamento consultivo russo, sem poder de elaborar leis, que o czar podia fechar quando quisesse*)
 
 ---
 
 ### Bloco 2 — Cronologia e Personagens
 
-- **Quebra da bolsa de Nova York**
-  - Data do colapso definitivo: `______` (*29 de outubro de 1929*)
-  - Perda do mercado financeiro: `______` (*14 bilhões de dólares*)
-  - Consequência principal: `______` (*início da Grande Depressão*)
+- **Domingo Sangrento**
+  - Data: `______` (*janeiro de 1905*)
+  - Local: `______` (*São Petersburgo*)
+  - Consequência principal: `______` (*fim da confiança popular no czar; surgimento dos sovietes*)
 
-- **Franklin Delano Roosevelt**
-  - Ano de eleição: `______` (*1932*)
-  - Data de posse: `______` (*4 de março de 1933*)
-  - Programa lançado: `______` (*New Deal — Novo Acordo*)
+- **Revolução de Outubro**
+  - Data: `______` (*24–25 de outubro de 1917*)
+  - Local: `______` (*Petrogrado*)
+  - Consequência principal: `______` (*queda do Governo Provisório; formação do Conselho dos Comissários do Povo*)
 
-- **Al Capone**
-  - Crime pelo qual foi preso: `______` (*sonegação de impostos*)
-  - Ano da prisão: `______` (*1931*)
-  - Contexto de enriquecimento: `______` (*contrabando de bebidas alcoólicas durante a Lei Seca*)
+- **Formação da URSS**
+  - Data: `______` (*1922*)
+  - Capital: `______` (*Moscou*)
 
 ---
 
 ### Bloco 3 — Lacunas para Warm-Up
 
-1. Os anos 1920 nos EUA ficaram conhecidos como *"roaring twenties"* ou "loucos anos 20" porque a euforia e o `______` escondiam contradições como salários miseráveis e desemprego alto.
-*(resposta: consumismo / barulho / prosperidade aparente)*
+1. Até 1861, cerca de 80% da população russa vivia sob o regime de `______`, abolido nesse ano por Alexandre II.
+*(resposta: servidão)*
 
-2. Em 1914 os EUA deviam mais de 3 bilhões de dólares aos bancos europeus; em 1919 a situação se inverteu e a `______` passou a dever o mesmo valor aos bancos estadunidenses.
-*(resposta: Europa)*
+2. O grupo liderado por Lênin que defendia a formação de uma elite de revolucionários profissionais para implantar o socialismo era chamado de `______`.
+*(resposta: bolcheviques)*
 
-3. A linha de montagem criada por Henry Ford reduziu o custo do Ford T de 900 dólares (1909) para `______` dólares em 1920.
-*(resposta: 300)*
+3. O massacre de manifestantes pacíficos pelas tropas imperiais em São Petersburgo, em janeiro de 1905, ficou conhecido como `______`.
+*(resposta: Domingo Sangrento)*
 
-4. A Lei Seca, promulgada em 1920 para moralizar a sociedade, teve como consequência não planejada o fortalecimento dos `______`, membros de máfias que controlaram o comércio ilegal.
-*(resposta: gângsteres)*
+4. Em fevereiro de 1917, a pressão popular levou à abdicação do czar `______`, encerrando o domínio da dinastia Romanov.
+*(resposta: Nicolau II)*
 
-5. Em 24 de outubro de 1929 mais de 13 milhões de ações foram postas à venda sem comprador; cinco dias depois, em `______` de outubro, o mercado perdeu 14 bilhões de dólares e a bolsa quebrou definitivamente.
-*(resposta: 29)*
+5. Após a Revolução de Fevereiro, o poder ficou dividido entre o Governo Provisório e o `______`, situação chamada de dualidade de poder.
+*(resposta: Soviete de Petrogrado)*
 
-6. O presidente Herbert Hoover não atuou durante a Grande Depressão por ser adepto do `______`, que defendia que o mercado se resolveria sozinho.
-*(resposta: liberalismo econômico)*
+6. Em abril de 1917, Lênin retornou do exílio e divulgou as `______`, com os lemas "Paz, pão e terra" e "Todo poder aos sovietes!".
+*(resposta: Teses de Abril)*
 
-7. O *New Deal* de Roosevelt lançou as bases do `______` (estado de bem-estar social) ao aliar medidas econômicas com sociais.
-*(resposta: welfare state)*
+7. A Revolução de Outubro de 1917 foi organizada pelo Comitê Militar Revolucionário, liderado por `______`.
+*(resposta: Trótski)*
 
-8. Apesar das medidas do *New Deal*, a crise estadunidense só se reverteria realmente com a `______`, quando o país voltou a produzir para sustentar os europeus em conflito.
-*(resposta: Segunda Guerra Mundial)*
+8. A reforma econômica lançada por Lênin em 1921, que permitiu práticas capitalistas limitadas para evitar o colapso da Rússia, foi a `______`.
+*(resposta: Nova Política Econômica / NEP)*
 
 ---
 
@@ -422,38 +481,41 @@ O modelo pregava não-intervenção do Estado na economia interna — mas os EUA
 
 | Conceito / Evento | Lacuna — resposta esperada |
 |---|---|
-| Presidência da prosperidade dos anos 1920 | `______` → *Calvin Coolidge* |
-| Modelo cultural baseado no consumismo e no self-made man | `______` → *American way of life* |
-| Lei que proibiu bebidas alcoólicas em 1920 | `______` → *Lei Seca* |
-| Queda das ações em 29 out. 1929 — perda do mercado | `______` → *14 bilhões de dólares* |
-| Presidente que não interveio na Grande Depressão | `______` → *Herbert Hoover* |
-| Programa de Roosevelt baseado em intervencionismo estatal | `______` → *New Deal* |
-| País não afetado pela Grande Depressão | `______` → *União Soviética* |
-| ⚠️ Pegadinha: o *New Deal* resolveu a crise dos EUA? | `______` → *Não — a crise só se reverteu com a 2ª Guerra Mundial* |
-| Al Capone foi preso por qual crime? | `______` → *Sonegação de impostos (1931)* |
-| Desemprego na Alemanha em 1932–1933 | `______` → *≈ 44%* |
+| Regime de trabalho camponês abolido em 1861 | `______` → *Servidão* |
+| Czar que aboliu a servidão | `______` → *Alexandre II* |
+| Último czar do Império Russo | `______` → *Nicolau II* |
+| Massacre de manifestantes em São Petersburgo (jan. 1905) | `______` → *Domingo Sangrento* |
+| Conselhos de autogestão popular surgidos em 1905 | `______` → *Sovietes* |
+| Diretrizes de Lênin divulgadas em abril de 1917 | `______` → *Teses de Abril* |
+| Governo formado após a Revolução de Outubro | `______` → *Conselho dos Comissários do Povo* |
+| ⚠️ Pegadinha: Fevereiro e Outubro de 1917 são a mesma revolução? | `______` → *Não — são duas revoluções distintas* |
+| Reforma econômica de 1921 com práticas capitalistas limitadas | `______` → *NEP (Nova Política Econômica)* |
+| Ano de formação da URSS | `______` → *1922* |
 
 ---
 
 ## SEÇÃO 10 — SÍNTESE DO LIVRO
 
-### Síntese do Livro — ESTADOS UNIDOS NAS DÉCADAS DE 1920 E 1930
+### Síntese do Livro — RÚSSIA NO INÍCIO DO SÉCULO XX
 
 | Nó / Posição | Já dado | Lacuna — resposta esperada |
 |---|---|---|
-| Nó central | Estados Unidos nas décadas de 1920 e 1930 | — |
-| Caixa superior esquerda — título | EUA se tornou potência mundial | — |
-| Caixa superior esquerda — lacuna 1 | "Após a `______`," | *Primeira Guerra Mundial* |
-| Caixa superior esquerda — continuação | "a Europa estava desestruturada economicamente." | — |
-| Caixa superior direita — título | *American way of life* | — |
-| Caixa superior direita — bullet 1 | "Modelo cultural a ser seguido, inclusive por outras nações;" | — |
-| Caixa superior direita — bullet 2 | "Símbolo de prosperidade e felicidade." | — |
-| Caixa inferior central — título | *New Deal* | — |
-| Caixa inferior central — texto dado | "Solução encontrada para a crise:" | — |
-| Caixa inferior central — lacuna | `______` "estatal e a constituição do estado de bem-estar social." | *intervencionismo* |
-| Caixa inferior — título | Crise de 1929 | — |
-| Caixa inferior — bullet 1 dado | "O aumento da produção estadunidense, tanto na indústria como na agricultura, levou à `______`" | *superprodução* |
-| Caixa inferior — bullet 2 | "A especulação do mercado financeiro e o liberalismo econômico nos EUA levaram à quebra da bolsa de Nova York." | — |
+| Nó central | Rússia no início do século XX | — |
+| Ramo esquerdo — título | Rússia pré-revolução | — |
+| Ramo esquerdo — bullet 1 | Regime czarista | — |
+| Ramo esquerdo — bullet 2 | "Desenvolvimento industrial dependente do capital `______`" | *estrangeiro* |
+| Ramo esquerdo — bullet 3 | Guerra Russo-Japonesa | — |
+| Ramo esquerdo — bullet 4 | Primeira Guerra Mundial | — |
+| Ramo esquerdo — bullet 5 | Domingo Sangrento | — |
+| Ramo esquerdo — bullet 6 | "Revolução de `______`" | *1905* |
+| Ramo esquerdo — bullet 7 | "Formação e a atuação dos `______`" | *sovietes* |
+| Ramo direito — título | Revolução Russa | — |
+| Ramo direito — bullet 1 | "Revolução de Fevereiro (`______`): governo provisório; Soviete de Petrogrado." | *menchevique* |
+| Ramo direito — bullet 2 | "Revolução de `______` (bolchevique)." | *Outubro* |
+| Ramo direito — bullet 3 | "Governo de `______`." | *Lênin* |
+| Ramo direito — bullet 4 | "Guerra Civil (Brancos contra Vermelhos): `______` de guerra." | *comunismo* |
+| Ramo direito — bullet 5 | "Nova Política Econômica (`______`)" | *NEP* |
+| Ramo direito — bullet 6 | "Formação da União das Repúblicas Socialistas Soviéticas (`______`)." | *URSS* |
 
 ---
 
@@ -463,114 +525,120 @@ O modelo pregava não-intervenção do Estado na economia interna — mas os EUA
 
 | # | Enunciado resumido | Tipo | Dif. | Origem | Gabarito | Obs. |
 |---|---|---|---|---|---|---|
-| QI-1 | Por que os anos 1920 foram "loucos"? | Dis | M | IC | Euforia e consumismo que escondiam contradições sociais (salários miseráveis, desemprego, especulação) | — |
-| QI-2 | Explique: "o barulho é tão forte que consegue esconder a realidade" | Dis | M | IC | Prosperidade aparente dos anos 1920 mascarava problemas estruturais que levariam à crise de 1929 | — |
-| QI-3 | Relação entre sufragismo, mercado de trabalho e flappers | Dis | D | IC | Inserção no mercado de trabalho pós-guerra + luta política sufragista geraram maior liberdade cultural — flappers como expressão desse processo | — |
-| Q-1 | *O grande Gatsby*: por que "pouco se sabia sobre o dia de amanhã"? Por que "anos loucos"? | Dis | M | AT | a) Ceticismo pós-guerra e prosperidade instável; b) Euforia cultural intensa com contradições sociais profundas | — |
-| QC-1 | Motivo da crise econômico-financeira do final dos anos 1920 (Unesp 2022) | MC | M | AT | **b)** contraste entre expansão da oferta norte-americana e retração do mercado europeu de importação | — |
-| Q-2 | Por que a Áustria foi atingida pela Grande Depressão? | Fonte | M | AT | Países dependentes dos empréstimos e comércio norte-americanos foram arrastados; Áustria dependia do capital estadunidense | — |
-| QC-2 | Relação produção industrial × desemprego no gráfico; dois motivos para a crise de 1929 (Unicamp 2015) | Dis | M | AT | a) Relação inversa — quando produção cai, desemprego sobe, e vice-versa; b) Superprodução + especulação financeira | ⚠️ Classificado como MC no material — tratar como dissertativa |
-| QC-3 | Sobre o *New Deal* — o que é CORRETO afirmar (Ufam 2022) | MC | M | AT | **b)** criou milhares de vagas de emprego com o financiamento de obras públicas | — |
-| Q-3 | O que significava o isolacionismo estadunidense no pós-guerra? | Fonte | M | AT | Recusa de compromissos coletivos internacionais; distanciamento da Europa; prioridade para América Latina e Ásia Oriental | — |
-| Q-4 | Defina "superprodução" | Dis | F | AT | Excesso de produção em relação à capacidade de consumo do mercado, levando empresas à falência | — |
-| Q-5 | Sistema financeiro em crise / ações descoladas da produção | Fonte | M | AT | a) Especulação excessiva com empréstimos bancários para compra de ações; b) Ações cresceram de US$ 27 bi para US$ 67 bi sem correspondência com a produção real | — |
-| Q-6 | Análise da foto do homem vendendo o carro após perder tudo na bolsa | Imagem | M | AT | a) Classe alta/média alta — terno, chapéu, carro de luxo; b) Sim — placa indica ruína financeira após perda na bolsa, símbolo da crise de 1929 | — |
-| Q-7 | Duas causas da Grande Depressão | Dis | M | AT | Superprodução + especulação financeira (ou política protecionista europeia / subconsumo / endividamento) | — |
-| QC-4 | Sobre a crise e a intervenção do Estado — conclusão correta | MC | M | AT | **b)** a solução encontrada pelos países para a crise foi a intervenção do Estado na economia | — |
+| QI-1 | Como explicar a concentração populacional na parte europeia da Rússia? | Dis | F | IC | Parte asiática (Sibéria) é vasta, inóspita e de difícil acesso, dificultando ocupação | — |
+| QI-2 | Como o fim da servidão impulsionou a economia russa? | Dis | M | IC | Libera mão de obra para migrar às cidades/indústrias, ampliando o mercado consumidor | — |
+| QI-3 | Quem eram os bolcheviques e o que defendiam? | Dis | M | IC | Grupo do POSDR liderado por Lênin; elite de revolucionários profissionais para implantar o socialismo via revolução | — |
+| QI-4 | Petição dos operários ao czar (1905): tom respeitoso? Reação do czar revela o quê? | Fonte | M | IC | a) Sim, tom respeitoso e submisso; b) Revela o distanciamento do czar e o fim da confiança popular nele | — |
+| QI-5 | Segundo Osvaldo Coggiola, por que a Rússia fracassou na Primeira Guerra? | Fonte | M | IC | Despreparo militar: tropas mal equipadas, armamento obsoleto, arcaísmo do regime czarista | — |
+| QI-6 | Origem e proposta política dos sovietes | Dis | F | IC | a) Surgiram espontaneamente após o Domingo Sangrento (1905); b) Propunham autogestão democrática de operários, camponeses e soldados | — |
+| QI-7 | Diferença de interesses: Governo Provisório x Soviete de Petrogrado | Dis | M | IC | Governo Provisório ligado às elites; Soviete representava operários, soldados e camponeses — dualidade de poder | — |
+| QI-8 | Medidas de Lênin: efeitos sobre nobreza, capitalistas e governos europeus | Dis | M | IC | a) Nobreza perde terras (Decreto sobre a Terra); b) Capitalistas: estatização de bancos/indústrias; c) Governos europeus: recusa de dívidas e saída da guerra | — |
+| QI-9 | Visão de Rosa Luxemburgo sobre os sovietes sob o governo de Lênin | Fonte | D | IC | Sovietes, de órgãos democráticos, tornaram-se instrumento decorativo/"correia de transmissão" do partido comunista | — |
+| Q-1 | Por que a situação da Rússia no início do séc. XX era favorável à revolução? | Dis | M | AT | Estado atrasado, absolutismo, repressão policial e controle da comunicação/educação — condições clássicas de instabilidade pré-revolucionária | — |
+| QC-1 | Poemas de Maiakóvski: crítica e proposta de mudança | Fonte | D | AT | Crítica à cobrança de impostos mesmo sob a nova ordem; proposta: recusa em pagar e reivindicação de terra para os pobres | — |
+| Q-2 | Charge "czar, padre e rico" (1918): situação do trabalhador | Imagem | M | AT | Trabalhador sustenta czar, padre e rico nas costas — símbolo da exploração sob o regime czarista | — |
+| QC-2 | Causa econômica da revolução; duas medidas bolcheviques em 1917 | Dis | M | AT | a) Crise agrária/industrialização desigual/Guerra Russo-Japonesa/1ª Guerra; b) Decreto de Paz e Decreto sobre a Terra | — |
+| QC-3 | Proclamação do Congresso dos Soviets (out. 1917): diferenças e realizações | Fonte | D | AT | Governo Provisório ligado a elites x Soviets prometendo paz, terra e controle operário; realização: Decreto de Paz | — |
+| QC-4 | Relação 1ª Guerra Mundial × situação da Rússia; um princípio da Revolução | Dis | M | AT | a) Despreparo russo na guerra alimentou a crise interna; b) Ex.: "Todo poder aos sovietes" | — |
+| QC-5 | Afirmações I, II, III sobre Fev./Out. 1917 e a NEP — qual está correta | MC | M | AT | **d)** somente III | — |
+| QC-6 | Carta de Kropotkin a Lênin (1920): crítica indica o quê | MC | M | AT | **b)** insatisfação com a diminuição da influência dos sovietes e aumento do poder das lideranças bolcheviques | — |
+| Q-3 | Trecho do capítulo que exemplifica a crítica de Kropotkin | Dis | D | AT | Trecho de Rosa Luxemburgo (seção "Você é o historiador") sobre sovietes virarem "correias de transmissão" do partido | — |
+
+Legenda: MC = múltipla escolha · Dis = dissertativa · Fonte = análise de fonte primária · Imagem = análise de imagem · IC = questão intercalada · AT = seção Atividades
 
 ---
 
 ### Bloco B — Questões modelo originais
 
-**QM-1** · múltipla escolha · médio · inspirada em: QC-1
+**QM-1** · múltipla escolha · médio · inspirada em: Q-1
 
-Durante a década de 1920, os Estados Unidos viviam uma aparente prosperidade enquanto tensões estruturais se acumulavam silenciosamente. Assinale a alternativa que apresenta corretamente uma dessas tensões:
+No início do século XX, o Império Russo reunia diversas condições estruturais que o tornavam vulnerável a uma revolução. Assinale a alternativa que apresenta corretamente uma dessas condições:
 
-a) O crescimento do consumismo fez com que o Estado ampliasse os gastos sociais, gerando déficit fiscal.
+a) Um parlamento forte, com poder de elaborar leis, mas sem apoio popular.
 
-b) A produção industrial crescia, mas os salários miseráveis impediam grande parte das famílias de consumir o que o mercado oferecia.
+b) Um regime autoritário sem parlamento efetivo, apoiado em uma nobreza sem interesse em reformas e em uma polícia política repressiva.
 
-c) A política expansionista dos EUA na Ásia gerou conflito direto com o Japão, desestabilizando a economia estadunidense.
+c) Uma economia totalmente industrializada, sem qualquer resquício de trabalho rural.
 
-d) A Lei Seca reduziu o consumo em geral, causando deflação e queda da produção industrial.
+d) Uma imprensa livre que denunciava constantemente os abusos do czar.
 
 ✅ **Gabarito:** b)
-📝 **Resolução:** O material indica que, por volta de 1925, mais da metade das famílias estadunidenses recebia salários miseráveis e não conseguia consumir o que o mercado produzia. Esse descompasso entre superprodução e subconsumo foi uma das causas estruturais da Crise de 1929. As demais alternativas distorcem informações do capítulo.
+📝 **Resolução:** O material descreve o Império Russo como um Estado autoritário, sem parlamento efetivo, apoiado por uma nobreza sem interesse no desenvolvimento industrial e por uma polícia política (a Okhrana) dedicada a reprimir opositores — exatamente o oposto das demais alternativas.
 ⚠️ **Professor:** referência de estilo — crie variações originais, nunca reproduza diretamente.
 
 ---
 
-**QM-2** · múltipla escolha · médio · inspirada em: QC-3
+**QM-2** · múltipla escolha · médio · inspirada em: QC-5
 
-O *New Deal* lançado por Franklin Delano Roosevelt em 1933 representou uma ruptura com o modelo econômico vigente nos EUA. Sobre essa política, é INCORRETO afirmar que:
+Sobre a Revolução Russa de 1917 e seus desdobramentos, é CORRETO afirmar que:
 
-a) Fixou o salário mínimo e reduziu a jornada de trabalho para 8 horas.
+a) A Revolução de Fevereiro e a Revolução de Outubro foram o mesmo evento, apenas com nomes diferentes.
 
-b) Criou o seguro-desemprego e a aposentadoria como direitos sociais.
+b) A Revolução de Outubro instalou imediatamente um governo plenamente democrático, apoiado por todos os partidos políticos.
 
-c) Promoveu a construção de obras públicas para gerar empregos.
+c) A NEP, adotada após a Guerra Civil, permitiu a existência de um setor privado responsável pelo comércio varejista.
 
-d) Resolveu definitivamente a Grande Depressão, restaurando o pleno emprego antes da Segunda Guerra Mundial.
+d) O Governo Provisório e o Conselho dos Comissários do Povo tiveram a mesma composição social e política.
 
-✅ **Gabarito:** d)
-📝 **Resolução:** O *New Deal* não teve grande sucesso em resolver a crise. Segundo o material, a crise estadunidense só se reverteria realmente com a Segunda Guerra Mundial, quando o país voltou a produzir para sustentar os europeus em conflito. As demais alternativas descrevem medidas reais do *New Deal*.
+✅ **Gabarito:** c)
+📝 **Resolução:** O material confirma que a NEP (1921) permitiu práticas capitalistas limitadas, incluindo pequeno comércio privado. As demais alternativas distorcem o material: Fevereiro e Outubro são revoluções distintas (a); a Revolução de Outubro não instalou um governo "democrático" amplo, mas um governo bolchevique (b); Governo Provisório (elites) e Conselho dos Comissários do Povo (bolcheviques) tinham composições opostas (d).
 ⚠️ **Professor:** referência de estilo — crie variações originais, nunca reproduza diretamente.
 
 ---
 
-**QM-3** · análise de fonte primária · médio · inspirada em: Q-5
+**QM-3** · análise de fonte primária · médio · inspirada em: QI-7 e QI-9
 
-Leia o trecho a seguir:
+Leia o trecho a seguir, inspirado em relatos da época sobre os sovietes após 1917:
 
-> *"[...] o presidente estadunidense Calvin Coolidge afirmou em janeiro de 1925: 'o principal negócio dos Estados Unidos são os negócios'. A situação do país podia ser resumida exatamente dessa forma, já que a nova potência mundial era o principal credor e produtor do mundo."*
+> *"O que nasceu como conselho popular, eleito livremente por operários, camponeses e soldados, tornou-se, sob o novo governo, pouco mais que um instrumento de aprovação das decisões já tomadas pelo partido."*
 
-Com base no documento e no conteúdo estudado, explique:
+Com base no trecho e no conteúdo estudado, explique:
 
-**a)** O que a declaração de Coolidge revela sobre a relação entre Estado e economia nos EUA da década de 1920?
+**a)** Qual era a proposta original dos sovietes quando surgiram, em 1905?
 
-**b)** Identifique uma contradição entre o discurso de não-intervenção do Estado na economia interna e a atuação dos EUA no cenário internacional no mesmo período.
+**b)** Como o trecho descreve a transformação sofrida pelos sovietes após a vitória bolchevique?
 
 ✅ **Gabarito:**
-**a)** A declaração revela a adesão ao liberalismo econômico: o Estado não devia interferir nos negócios, confiando que o próprio mercado conduziria o crescimento. O *self-made man* e o *American way of life* eram os valores que guiavam essa visão.
-**b)** Enquanto pregava o não-intervencionismo interno, os EUA intervinham ativamente na economia mundial — concedendo empréstimos para a reconstrução europeia e investindo na América Latina e na China para controlar essas economias. O Japão, maior potência do Extremo Oriente, sentia-se ameaçado pela presença estadunidense na Ásia.
-📝 **Resolução:** A questão explora a contradição central do *American way of life*, mencionada explicitamente no material capturado.
+**a)** Os sovietes surgiram como conselhos de autogestão democrática, formados por operários, camponeses e soldados, que elegiam os próprios líderes políticos.
+**b)** O trecho descreve a perda de autonomia dos sovietes, que passaram a apenas referendar decisões do Partido Bolchevique — ideia semelhante à de Rosa Luxemburgo, citada no capítulo, sobre os sovietes terem se tornado "correias de transmissão" do partido comunista.
+📝 **Resolução:** Explora a diferença entre o propósito original dos sovietes e seu uso posterior pelos bolcheviques — um dos pontos mais sutis e cobrados do capítulo.
 ⚠️ **Professor:** referência de estilo — crie variações originais, nunca reproduza diretamente.
 
 ---
 
-**QM-4** · causa-consequência · médio-difícil · inspirada em: Q-7 e QC-2
+**QM-4** · causa-consequência · médio-difícil · inspirada em: Bloco C (Guerra Civil Russa)
 
-A Crise de 1929 é frequentemente apresentada apenas como resultado da especulação financeira na bolsa de valores de Nova York. No entanto, o colapso teve raízes mais profundas.
+A Guerra Civil Russa (1918–1921) opôs o Exército Vermelho ao Exército Branco, terminando com a vitória dos bolcheviques.
 
-Identifique **duas causas estruturais** — anteriores ao episódio de outubro de 1929 — que tornaram a economia norte-americana vulnerável ao colapso, e explique como cada uma contribuiu para a crise.
+Identifique **duas causas** que levaram à eclosão da Guerra Civil e explique como cada uma contribuiu para o conflito.
 
 ✅ **Gabarito:**
 *Resposta esperada (qualquer duas das seguintes):*
-1. **Superprodução e subconsumo:** a indústria produzia mais do que o mercado interno conseguia absorver, pois os salários eram miseráveis — por volta de 1925, mais da metade das famílias estadunidenses não tinha poder de compra suficiente.
-2. **Política protecionista europeia:** os países europeus adotaram políticas protecionistas que reduziram a importação de produtos norte-americanos, encolhendo o mercado externo dos EUA e reduzindo sua influência comercial.
-3. **Endividamento com hipotecas:** donos de fábricas e fazendeiros tomavam empréstimos a juros altos para ampliar a produção, aumentando o endividamento sem garantia de que o mercado absorveria a produção adicional.
-📝 **Resolução:** A especulação financeira foi a faísca, não o combustível. As causas estruturais vinham se acumulando desde meados dos anos 1920.
+1. **Saída da Rússia da Primeira Guerra Mundial:** o Tratado de Brest-Litovski e o isolamento internacional da Rússia bolchevique geraram forte oposição de antigos aliados da Tríplice Entente.
+2. **Estatização de bancos e indústrias:** atingiu diretamente os interesses da nobreza e da burguesia, que passaram a apoiar o Exército Branco.
+3. **Risco de a Revolução de Outubro inspirar revoluções em outros países:** levou potências estrangeiras (EUA, Japão, França, Inglaterra) a apoiar militarmente o Exército Branco para conter o bolchevismo.
+📝 **Resolução:** A Guerra Civil não foi apenas um conflito interno — teve forte componente internacional, com 14 países apoiando o lado contrarrevolucionário.
 ⚠️ **Professor:** referência de estilo — crie variações originais, nunca reproduza diretamente.
 
 ---
 
-**QM-5** · dissertativa aprofundada · difícil · inspirada em: QI-2 e Q-3
+**QM-5** · dissertativa aprofundada · difícil · inspirada em: QI-9 e Q-3 (crítica de Kropotkin e Rosa Luxemburgo)
 
-O historiador Francisco de B. B. Magalhães Filho escreveu que, nos *roaring twenties*, *"o barulho é tão forte que consegue esconder a realidade, sem, contudo, alterá-la ou modificá-la"*.
+Tanto o anarquista Piotr Kropotkin quanto a socialista Rosa Luxemburgo, citados no capítulo, fizeram críticas ao rumo tomado pelo governo bolchevique após a Revolução de Outubro — apesar de ambos serem, em algum grau, simpáticos à causa revolucionária.
 
 Com base no conteúdo estudado, desenvolva uma resposta que:
 
-**a)** Explique o que representava o "barulho" dos anos 1920 nos EUA.
+**a)** Explique a proposta original dos sovietes e por que ela era vista como um avanço democrático.
 
-**b)** Identifique pelo menos duas "realidades" que esse barulho escondia.
+**b)** Explique, com base nas duas críticas, de que forma o Partido Bolchevique alterou o papel dos sovietes após a tomada do poder.
 
-**c)** Analise de que forma essas realidades ocultas se manifestaram na virada para os anos 1930.
+**c)** Avalie por que essa transformação era motivo de crítica mesmo entre pensadores de esquerda, e não apenas entre opositores do socialismo.
 
 ✅ **Gabarito:**
-**a)** O "barulho" representa a euforia dos *roaring twenties*: consumismo, jazz, charleston, cinema de Hollywood, automóveis, *flappers*, produção em massa, crédito fácil. Era a aparência de prosperidade generalizada sustentada pelo *American way of life*.
-**b)** Realidades ocultas: (1) salários miseráveis — por volta de 1925, mais da metade das famílias estadunidenses não conseguia consumir o que o mercado produzia; (2) especulação financeira descolada da produção real — ações cresceram de US$ 27 bi para US$ 67 bi entre 1925 e 1929 sem correspondência com crescimento produtivo real; (3) alta taxa de desemprego mesmo no auge da prosperidade; (4) endividamento crescente de fazendeiros e industriais.
-**c)** A crise de outubro de 1929 expôs todas essas contradições: a bolsa quebrou, empresas e bancos faliram, surgiu a Grande Depressão, desemprego massivo e as *hoovervilles*. O barulho cessou e a realidade estrutural se tornou impossível de ignorar — levando ao questionamento do liberalismo econômico e ao surgimento do intervencionismo estatal com o *New Deal*.
-📝 **Resolução:** Questão de análise interpretativa que articula causa, desenvolvimento e consequência — o mais alto nível de exigência do capítulo.
+**a)** Os sovietes nasceram em 1905 como conselhos de autogestão, formados espontaneamente por operários, camponeses e soldados que elegiam os próprios líderes — um modelo de organização popular direta, sem intermediação de um partido único.
+**b)** Segundo Rosa Luxemburgo, os bolcheviques usaram os sovietes apenas para conquistar o poder em 1917 e depois os transformaram em "correias de transmissão" do partido comunista — isto é, instrumentos que apenas repassavam e legitimavam decisões já tomadas pela cúpula bolchevique. Kropotkin, em carta a Lênin, reforça essa crítica ao apontar que eram os comitês do partido, e não mais os sovietes, que efetivamente governavam a Rússia.
+**c)** A crítica é significativa justamente por vir de pensadores de esquerda que apoiavam a causa socialista: eles não questionavam o fim da revolução, mas o meio — a substituição de uma organização popular democrática por um controle centralizado do partido. Isso mostra que as tensões entre democracia direta e centralização de poder já eram debatidas dentro do próprio campo revolucionário, não apenas por seus opositores externos.
+📝 **Resolução:** Questão de síntese que articula duas fontes distintas do capítulo em torno de um mesmo argumento — o nível mais alto de exigência interpretativa do capítulo.
 ⚠️ **Professor:** referência de estilo — crie variações originais, nunca reproduza diretamente.
 
 ---
@@ -578,7 +646,7 @@ Com base no conteúdo estudado, desenvolva uma resposta que:
 ## SEÇÃO 12 — DIAGRAMAS SVG DO CAPÍTULO
 
 ### DIAGRAMA: timeline
-Linha do tempo dos principais eventos dos EUA entre 1909 e 1933
+Linha do tempo dos principais eventos da Rússia entre 1861 e 1922
 
 <svg width="100%" viewBox="0 0 680 480">
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
@@ -600,143 +668,153 @@ stroke-linejoin="round"/></marker></defs>
 <line x1="560" y1="234" x2="560" y2="246" stroke="#888" stroke-width="1.5"/>
 
 <!-- Labels do eixo -->
-<text x="80" y="262" text-anchor="middle" class="ts">1909</text>
-<text x="160" y="262" text-anchor="middle" class="ts">1914</text>
-<text x="240" y="262" text-anchor="middle" class="ts">1919</text>
-<text x="320" y="262" text-anchor="middle" class="ts">1920</text>
-<text x="400" y="262" text-anchor="middle" class="ts">1925</text>
-<text x="480" y="262" text-anchor="middle" class="ts">1929</text>
-<text x="560" y="262" text-anchor="middle" class="ts">1933</text>
+<text x="80" y="262" text-anchor="middle" class="ts">1861</text>
+<text x="160" y="262" text-anchor="middle" class="ts">1905</text>
+<text x="240" y="262" text-anchor="middle" class="ts">Fev.1917</text>
+<text x="320" y="262" text-anchor="middle" class="ts">Abr.1917</text>
+<text x="400" y="262" text-anchor="middle" class="ts">Out.1917</text>
+<text x="480" y="262" text-anchor="middle" class="ts">1918–21</text>
+<text x="560" y="262" text-anchor="middle" class="ts">1922</text>
 
 <!-- ACIMA DO EIXO -->
 
-<!-- 1909: Ford T -->
+<!-- 1861: Abolição da servidão -->
 <line x1="80" y1="236" x2="80" y2="186" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
 <rect x="28" y="148" width="104" height="44" rx="6" class="c-teal"/>
-<text x="80" y="166" text-anchor="middle" class="th">1909</text>
-<text x="80" y="182" text-anchor="middle" class="ts">Ford T em série</text>
+<text x="80" y="166" text-anchor="middle" class="th">1861</text>
+<text x="80" y="182" text-anchor="middle" class="ts">Fim da servidão</text>
 
-<!-- 1919: Inversão credora -->
+<!-- Fev.1917: Queda do czar -->
 <line x1="240" y1="236" x2="240" y2="166" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
-<rect x="188" y="128" width="104" height="44" rx="6" class="c-teal"/>
-<text x="240" y="146" text-anchor="middle" class="th">1919</text>
-<text x="240" y="162" text-anchor="middle" class="ts">EUA: maior credor</text>
+<rect x="188" y="128" width="104" height="44" rx="6" class="c-purple"/>
+<text x="240" y="146" text-anchor="middle" class="th">Fev. 1917</text>
+<text x="240" y="162" text-anchor="middle" class="ts">Queda do czar</text>
 
-<!-- 1920: Lei Seca -->
+<!-- Abr.1917: Teses de Abril -->
 <line x1="320" y1="236" x2="320" y2="186" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
-<rect x="268" y="148" width="104" height="44" rx="6" class="c-amber"/>
-<text x="320" y="166" text-anchor="middle" class="th">1920</text>
-<text x="320" y="182" text-anchor="middle" class="ts">Lei Seca</text>
+<rect x="268" y="148" width="104" height="44" rx="6" class="c-purple"/>
+<text x="320" y="166" text-anchor="middle" class="th">Abr. 1917</text>
+<text x="320" y="182" text-anchor="middle" class="ts">Teses de Abril</text>
 
-<!-- 1929: Quebra da bolsa -->
+<!-- 1918-21: Guerra Civil -->
 <line x1="480" y1="236" x2="480" y2="146" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
 <rect x="428" y="108" width="104" height="44" rx="6" class="c-coral"/>
-<text x="480" y="126" text-anchor="middle" class="th">29 out. 1929</text>
-<text x="480" y="142" text-anchor="middle" class="ts">Quebra da bolsa</text>
+<text x="480" y="126" text-anchor="middle" class="th">1918–1921</text>
+<text x="480" y="142" text-anchor="middle" class="ts">Guerra Civil</text>
 
 <!-- ABAIXO DO EIXO -->
 
-<!-- 1914: EUA devem à Europa -->
+<!-- 1905: Domingo Sangrento -->
 <line x1="160" y1="244" x2="160" y2="294" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
-<rect x="108" y="294" width="104" height="58" rx="6" class="c-gray"/>
-<text x="160" y="312" text-anchor="middle" class="th">1914</text>
-<text x="160" y="328" text-anchor="middle" class="ts">EUA devem 3 bi</text>
-<text x="160" y="342" text-anchor="middle" class="ts">à Europa</text>
+<rect x="108" y="294" width="104" height="58" rx="6" class="c-coral"/>
+<text x="160" y="312" text-anchor="middle" class="th">Jan. 1905</text>
+<text x="160" y="328" text-anchor="middle" class="ts">Domingo</text>
+<text x="160" y="342" text-anchor="middle" class="ts">Sangrento</text>
 
-<!-- 1925: Coolidge / crise oculta -->
+<!-- Out.1917: Revolução de Outubro -->
 <line x1="400" y1="244" x2="400" y2="294" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
-<rect x="348" y="294" width="104" height="58" rx="6" class="c-purple"/>
-<text x="400" y="312" text-anchor="middle" class="th">1925</text>
-<text x="400" y="328" text-anchor="middle" class="ts">Ações: US$27bi</text>
-<text x="400" y="342" text-anchor="middle" class="ts">Crise oculta</text>
+<rect x="348" y="294" width="104" height="58" rx="6" class="c-coral"/>
+<text x="400" y="312" text-anchor="middle" class="th">24–25 out.</text>
+<text x="400" y="328" text-anchor="middle" class="ts">Revolução de</text>
+<text x="400" y="342" text-anchor="middle" class="ts">Outubro</text>
 
-<!-- 1933: New Deal -->
+<!-- 1922: Formação da URSS -->
 <line x1="560" y1="244" x2="560" y2="294" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
 <rect x="508" y="294" width="104" height="58" rx="6" class="c-green"/>
-<text x="560" y="312" text-anchor="middle" class="th">4 mar. 1933</text>
-<text x="560" y="328" text-anchor="middle" class="ts">Posse Roosevelt</text>
-<text x="560" y="342" text-anchor="middle" class="ts">New Deal</text>
+<text x="560" y="312" text-anchor="middle" class="th">1922</text>
+<text x="560" y="328" text-anchor="middle" class="ts">Formação</text>
+<text x="560" y="342" text-anchor="middle" class="ts">da URSS</text>
 
 <!-- Legenda -->
 <rect x="40" y="410" width="14" height="14" rx="3" class="c-teal"/>
-<text x="60" y="422" class="ts">Econômico/social</text>
-<rect x="170" y="410" width="14" height="14" rx="3" class="c-amber"/>
-<text x="190" y="422" class="ts">Lei/política</text>
-<rect x="280" y="410" width="14" height="14" rx="3" class="c-coral"/>
-<text x="300" y="422" class="ts">Crise</text>
-<rect x="370" y="410" width="14" height="14" rx="3" class="c-green"/>
-<text x="390" y="422" class="ts">Resposta à crise</text>
-<rect x="500" y="410" width="14" height="14" rx="3" class="c-purple"/>
-<text x="520" y="422" class="ts">Tensão estrutural</text>
+<text x="60" y="422" class="ts">Reforma</text>
+<rect x="140" y="410" width="14" height="14" rx="3" class="c-purple"/>
+<text x="160" y="422" class="ts">Mudança política</text>
+<rect x="290" y="410" width="14" height="14" rx="3" class="c-coral"/>
+<text x="310" y="422" class="ts">Crise/conflito</text>
+<rect x="420" y="410" width="14" height="14" rx="3" class="c-green"/>
+<text x="440" y="422" class="ts">Consolidação</text>
 </svg>
 
 ---
 
-### DIAGRAMA: fluxo_ascensao_crise
-Fluxo do processo histórico: ascensão econômica → prosperidade → contradições → crise → resposta estatal
+### DIAGRAMA: fluxo_revolucao_russa
+Fluxo do processo histórico: crise estrutural → guerras e revoltas → ruptura política → tomada de poder → consolidação
 
-<svg width="100%" viewBox="0 0 680 560">
+<svg width="100%" viewBox="0 0 680 572">
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
 markerWidth="6" markerHeight="6" orient="auto-start-reverse">
 <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke"
 stroke-width="1.5" stroke-linecap="round"
 stroke-linejoin="round"/></marker></defs>
 
-<!-- LINHA 1: CAUSA RAIZ -->
-<rect x="240" y="20" width="200" height="44" rx="8" class="c-teal"/>
-<text x="340" y="38" text-anchor="middle" class="th">1ª Guerra Mundial</text>
-<text x="340" y="54" text-anchor="middle" class="ts">Europa devastada; EUA lucram</text>
+<!-- LINHA 1: CRISE ESTRUTURAL -->
+<rect x="190" y="20" width="300" height="58" rx="8" class="c-teal"/>
+<text x="340" y="40" text-anchor="middle" class="th">Crise estrutural do Império</text>
+<text x="340" y="56" text-anchor="middle" class="ts">Czarismo autoritário · servidão até 1861</text>
+<text x="340" y="70" text-anchor="middle" class="ts">Okhrana · russificação das etnias</text>
 
 <!-- seta 1→2 -->
-<line x1="340" y1="64" x2="340" y2="88" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="340" y1="78" x2="340" y2="102" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
 
-<!-- LINHA 2: ASCENSÃO -->
-<rect x="200" y="88" width="280" height="58" rx="8" class="c-teal"/>
-<text x="340" y="108" text-anchor="middle" class="th">EUA: potência credora</text>
-<text x="340" y="124" text-anchor="middle" class="ts">1914: devem 3 bi · 1919: credores de 3 bi</text>
-<text x="340" y="138" text-anchor="middle" class="ts">Nova York: centro financeiro mundial</text>
+<!-- LINHA 2: AGRAVAMENTO -->
+<rect x="190" y="102" width="300" height="58" rx="8" class="c-amber"/>
+<text x="340" y="122" text-anchor="middle" class="th">Agravamento social (1904–1905)</text>
+<text x="340" y="138" text-anchor="middle" class="ts">Guerra Russo-Japonesa · Domingo Sangrento</text>
+<text x="340" y="152" text-anchor="middle" class="ts">Sovietes surgem espontaneamente</text>
 
 <!-- seta 2→3 -->
-<line x1="340" y1="146" x2="340" y2="170" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="340" y1="160" x2="340" y2="184" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
 
-<!-- LINHA 3: ROARING TWENTIES -->
-<rect x="180" y="170" width="300" height="58" rx="8" class="c-purple"/>
-<text x="330" y="190" text-anchor="middle" class="th">Roaring twenties (1919–1929)</text>
-<text x="330" y="206" text-anchor="middle" class="ts">Linha de montagem Ford · consumismo</text>
-<text x="330" y="220" text-anchor="middle" class="ts">American way of life · flappers · jazz</text>
+<!-- LINHA 3: 1ª GUERRA MUNDIAL -->
+<rect x="190" y="184" width="300" height="58" rx="8" class="c-amber"/>
+<text x="340" y="204" text-anchor="middle" class="th">1ª Guerra Mundial (1914–1917)</text>
+<text x="340" y="220" text-anchor="middle" class="ts">Derrotas · fome · inflação · motins</text>
+<text x="340" y="234" text-anchor="middle" class="ts">Confiança no czar se esgota</text>
 
-<!-- seta 3→4 bifurca: esq = contradições, dir = segue -->
-<line x1="340" y1="228" x2="340" y2="252" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+<!-- seta 3→4 -->
+<line x1="340" y1="242" x2="340" y2="266" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
 
-<!-- LINHA 4: CONTRADIÇÕES (c-coral) -->
-<rect x="40" y="252" width="260" height="58" rx="8" class="c-coral"/>
-<text x="170" y="272" text-anchor="middle" class="th">Contradições ocultas</text>
-<text x="170" y="288" text-anchor="middle" class="ts">Superprodução · salários miseráveis</text>
-<text x="170" y="302" text-anchor="middle" class="ts">Especulação · protecionismo europeu</text>
+<!-- LINHA 4 esquerda: Revolução de Fevereiro -->
+<rect x="40" y="266" width="260" height="58" rx="8" class="c-purple"/>
+<text x="170" y="286" text-anchor="middle" class="th">Revolução de Fevereiro</text>
+<text x="170" y="302" text-anchor="middle" class="ts">Queda do czar · Governo Provisório</text>
+<text x="170" y="316" text-anchor="middle" class="ts">Dualidade de poder c/ soviete</text>
 
-<!-- LINHA 4 direita: Especulação -->
-<rect x="380" y="252" width="260" height="58" rx="8" class="c-coral"/>
-<text x="510" y="272" text-anchor="middle" class="th">Bolha especulativa</text>
-<text x="510" y="288" text-anchor="middle" class="ts">Ações: US$27bi → US$67bi</text>
-<text x="510" y="302" text-anchor="middle" class="ts">(1925–1929, descoladas da produção)</text>
+<!-- LINHA 4 direita: Teses de Abril -->
+<rect x="380" y="266" width="260" height="58" rx="8" class="c-purple"/>
+<text x="510" y="286" text-anchor="middle" class="th">Teses de Abril</text>
+<text x="510" y="302" text-anchor="middle" class="ts">Lênin retorna do exílio</text>
+<text x="510" y="316" text-anchor="middle" class="ts">Ruptura com o Governo Provisório</text>
 
-<!-- setas das duas caixas → crise -->
-<line x1="170" y1="310" x2="280" y2="364" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
-<line x1="510" y1="310" x2="400" y2="364" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+<!-- setas das duas caixas → revolução de outubro -->
+<line x1="170" y1="324" x2="280" y2="378" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="510" y1="324" x2="400" y2="378" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
 
-<!-- LINHA 5: CRISE DE 1929 -->
-<rect x="200" y="364" width="280" height="58" rx="8" class="c-coral"/>
-<text x="340" y="384" text-anchor="middle" class="th">Crise de 1929</text>
-<text x="340" y="400" text-anchor="middle" class="ts">29 out: 16 mi ações · 14 bi perdidos</text>
-<text x="340" y="414" text-anchor="middle" class="ts">Grande Depressão global</text>
+<!-- LINHA 5: REVOLUÇÃO DE OUTUBRO -->
+<rect x="190" y="378" width="300" height="58" rx="8" class="c-coral"/>
+<text x="340" y="398" text-anchor="middle" class="th">Revolução de Outubro (1917)</text>
+<text x="340" y="414" text-anchor="middle" class="ts">Guarda Vermelha toma Petrogrado</text>
+<text x="340" y="428" text-anchor="middle" class="ts">Conselho dos Comissários do Povo</text>
 
 <!-- seta 5→6 -->
-<line x1="340" y1="422" x2="340" y2="446" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="340" y1="436" x2="340" y2="460" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
 
-<!-- LINHA 6: NEW DEAL -->
-<rect x="200" y="446" width="280" height="72" rx="8" class="c-green"/>
-<text x="340" y="466" text-anchor="middle" class="th">New Deal (1933)</text>
-<text x="340" y="482" text-anchor="middle" class="ts">Intervencionismo estatal · Roosevelt</text>
-<text x="340" y="498" text-anchor="middle" class="ts">Welfare state · obras públicas</text>
-<text x="340" y="514" text-anchor="middle" class="ts">⚠ Crise só revertida na 2ª Guerra</text>
+<!-- LINHA 6: CONSOLIDAÇÃO -->
+<rect x="190" y="460" width="300" height="72" rx="8" class="c-green"/>
+<text x="340" y="480" text-anchor="middle" class="th">Consolidação (1918–1922)</text>
+<text x="340" y="496" text-anchor="middle" class="ts">Guerra Civil: Vermelhos x Brancos</text>
+<text x="340" y="510" text-anchor="middle" class="ts">NEP (1921) → formação da URSS (1922)</text>
+
+<!-- Legenda -->
+<rect x="40" y="550" width="14" height="14" rx="3" class="c-teal"/>
+<text x="60" y="562" class="ts">Causa estrutural</text>
+<rect x="180" y="550" width="14" height="14" rx="3" class="c-amber"/>
+<text x="200" y="562" class="ts">Crise/guerra</text>
+<rect x="300" y="550" width="14" height="14" rx="3" class="c-purple"/>
+<text x="320" y="562" class="ts">Ruptura política</text>
+<rect x="440" y="550" width="14" height="14" rx="3" class="c-coral"/>
+<text x="460" y="562" class="ts">Tomada de poder</text>
+<rect x="580" y="550" width="14" height="14" rx="3" class="c-green"/>
+<text x="600" y="562" class="ts">Consolidação</text>
 </svg>
