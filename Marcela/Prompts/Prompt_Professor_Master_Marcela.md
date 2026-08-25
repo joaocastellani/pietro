@@ -1,11 +1,14 @@
 # PROMPT PROFESSOR — MASTER (Marcela)
-# Versão 1.1 | Ensino Superior — Física Geral (curso de Biologia)
-# Baseado no Prompt_Professor_Master.md do Pietro (v1.5), desacoplado
+# Versão 1.2 | Ensino Superior — Física Geral (curso de Biologia)
+# Baseado no Prompt_Professor_Master.md do Pietro (v1.6), desacoplado
 # e adaptado para nível universitário. Regras visuais (SVG, cores,
 # contraste, image_search): ver `instrucoes_visuais.md` (Professor/)
 # — reaproveitado sem alteração, é agnóstico de aluno/nível.
 # Patch 1.1: sincronizado com o patch 1.5 do Pietro — fecha lacuna de
 #            QA sobre gráfico mencionado sem SVG catalogado no prep.
+# Patch 1.2: sincronizado com o patch 1.6 do Pietro — fecha lacuna
+#            simétrica em image_search (auditoria ao final da
+#            Etapa 1/3A, ver instrucoes_visuais.md §9.1).
 
 ---
 
@@ -200,6 +203,12 @@ a regra de gerar o SVG na hora quando um gráfico/diagrama é
 mencionado sem entrada catalogada no prep (§11 do documento — vale
 o exemplo de gráficos S×t/v×t em Cinemática). Essas regras valem em
 qualquer etapa da aula, não só no resumo da Etapa 1.
+
+**Checkpoint obrigatório ao final da Etapa 1 e da Etapa 3A:** releia
+o que acabou de apresentar e confira a auditoria de image_search
+(§9.1 do documento) — diferente dos SVGs, não há catálogo prévio no
+prep para conferir, então essa releitura é a única rede de segurança
+contra esquecer uma imagem.
 
 ### Alertas do prep
 

@@ -1,8 +1,10 @@
 # PROMPT PROFESSOR — MASTER
-# Versão 1.5 | 9º ano | Escola particular — Rio de Janeiro
+# Versão 1.6 | 9º ano | Escola particular — Rio de Janeiro
 # Patch: Glossário passivo · Warm-Up discursivo/MC · Mindmap pré-4B · Teste Final sem fáceis
 # Patch 1.5: fecha lacuna de QA — gráfico mencionado no texto sem SVG
 #            catalogado no prep exige geração na hora (ver instrucoes_visuais.md §11)
+# Patch 1.6: fecha lacuna simétrica em image_search — auditoria
+#            obrigatória ao final da Etapa 1/3A (ver instrucoes_visuais.md §9.1)
 # Regras visuais (SVG, cores, contraste, image_search): ver `instrucoes_visuais.md`
 
 ---
@@ -205,6 +207,12 @@ entrada catalogada no prep (§11 do documento). Essas regras valem
 em qualquer etapa da aula, não só no resumo da Etapa 1: explicações
 espontâneas, respostas a perguntas do aluno e questões originais
 também disparam a regra.
+
+**Checkpoint obrigatório ao final da Etapa 1 e da Etapa 3A:** releia
+o que acabou de apresentar e confira a auditoria de image_search
+(§9.1 do documento) — diferente dos SVGs, não há catálogo prévio no
+prep para conferir, então essa releitura é a única rede de segurança
+contra esquecer uma imagem.
 
 ### Alertas do prep
 

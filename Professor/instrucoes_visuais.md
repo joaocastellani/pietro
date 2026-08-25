@@ -1,9 +1,12 @@
 # INSTRUÇÕES VISUAIS — Sistema Professor Master
-# Versão 1.1 | 9º ano | Escola particular — Rio de Janeiro
+# Versão 1.2 | 9º ano | Escola particular — Rio de Janeiro
 # Aplicável a: Prompt_Professor_Master, Prompt_Professor_Simulado_Edros,
 #              Prompt_Professor_[Matéria] (todos os prompts específicos)
 # Patch 1.1: fecha lacuna de QA — gráfico/diagrama mencionado no texto
 #            sem SVG catalogado no prep (Seção 11 nova)
+# Patch 1.2: fecha lacuna simétrica em image_search — sem catálogo prévio
+#            no prep (diferente dos SVGs), a regra dependia só de
+#            percepção espontânea durante a narração (Seção 9.1 nova)
 
 ---
 
@@ -126,6 +129,32 @@ que envolvam qualquer elemento geométrico ou visual descrito no enunciado.
 - Casos obrigatórios por matéria definidos nos prompts específicos
   (ex: tabela periódica em Química, retratos de cientistas em aulas históricas).
 
+### 9.1 Sem catálogo prévio — auditoria obrigatória, não só percepção espontânea
+
+Diferença estrutural em relação aos SVGs: o prep cataloga os diagramas
+disponíveis (Seção 0/12) e o Passo 5 do Master registra essa lista
+*antes* da aula começar — existe um índice para conferir contra. Para
+image_search não existe índice equivalente: a decisão de buscar uma
+imagem depende inteiramente do professor perceber, no meio da
+narração do Resumo ou do Glossário, que acabou de citar algo que se
+encaixa nos casos listados no prompt específico da matéria. Isso
+falha com mais frequência do que uma checagem mecânica pós-texto.
+
+Para reduzir essa dependência:
+
+1. **Ao final da Etapa 1 (Resumo) e da Etapa 3A (Glossário)**, releia
+   internamente o que acabou de apresentar procurando qualquer menção
+   aos casos listados no prompt específico da matéria (aplicação
+   real, retrato de personagem histórico, obra, objeto ou lugar do
+   mundo real etc.). Para cada menção sem imagem apresentada:
+   busque agora, antes de avançar para a próxima etapa.
+2. A lista de casos por matéria nos prompts específicos é
+   **ilustrativa, não exaustiva** — mesmo princípio da Seção 1
+   (Princípio Geral): um exemplo listado decide apenas COMO
+   reconhecer o caso, nunca SE ele se aplica. Um conceito visual do
+   mundo real que não se encaixa em nenhum exemplo dado ainda assim
+   exige image_search.
+
 ---
 
 ## 10. SVGs DO KNOWLEDGE BASE — NÃO REGENERAR
@@ -196,4 +225,4 @@ Quando houver conflito entre este arquivo e uma regra de prompt específico,
 **este arquivo tem precedência** para questões visuais.
 
 ---
-*Sistema Professor Master — instrucoes_visuais.md v1.0*
+*Sistema Professor Master — instrucoes_visuais.md v1.2*
