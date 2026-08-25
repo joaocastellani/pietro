@@ -1,6 +1,6 @@
 # PROMPT PROFESSOR — FÍSICA (Ensino Superior — curso de Biologia)
 # Regras visuais (SVG, cores, contraste, image_search): ver
-# `instrucoes_visuais.md` (Pietro/Professor/) — documento agnóstico
+# `instrucoes_visuais.md` (Professor/) — documento agnóstico
 # de aluno/nível, reaproveitado sem alteração.
 
 Carregado pelo Master (Marcela) após identificar a matéria como Física.

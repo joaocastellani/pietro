@@ -83,16 +83,26 @@ Pietro, mas sem etapa de captura por screenshot nem transcrição):
                   (script é agnóstico de aluno — reaproveitado sem cópia)
 
 4. AULA         — Claude.ai (Project da Marcela) com
-                  Prompt_Professor_Master_Marcela.md + prep no KB
+                  Prompt_Professor_Master_Marcela.md +
+                  instrucoes_visuais.md (Professor/) + prep no KB
                   Aluna: Marcela (Ensino Superior — Biologia)
 ```
 
-Estado atual (2026-08-24): as duas partes do Capítulo 2 estão em
-`Raw/Fisica/`, ainda **não passaram pela Captura/Preparação** —
-os preps ainda não existem. Próximo passo: criar um Project
-separado no Claude.ai para a Marcela, subir os 4 prompts desta
-pasta ao Knowledge Base, anexar os PDFs e rodar a Captura + a
-Preparação para gerar os dois `-prep.md`.
+Estado atual (2026-08-25): os preps das duas partes do Capítulo 2
+já foram gerados e validados (`Marcela/Prep/Fisica/fis-2-1-prep.md`
+e `fis-2-2-prep.md`).
+
+**Knowledge Base do Project da Marcela no Claude.ai — 5 arquivos,
+não 4:** os 4 prompts desta pasta + `Professor/instrucoes_visuais.md`.
+Achado de QA: esse arquivo não estava na lista original de upload
+(só os "4 prompts desta pasta"), mesmo sendo referenciado por
+`Prompt_Professor_Master_Marcela.md` como fonte única das regras de
+SVG, cores, contraste e image_search — sem ele no KB, essas regras
+nunca chegam à aula, por mais corretas que estejam no repositório.
+Não há sincronização automática entre este repositório e o Project
+da Marcela: ao atualizar `instrucoes_visuais.md` ou qualquer um dos
+4 prompts aqui, é preciso resubir a versão nova ao Knowledge Base
+manualmente.
 
 ---
 
