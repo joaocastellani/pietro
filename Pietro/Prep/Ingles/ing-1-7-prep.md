@@ -1,22 +1,27 @@
 # PREPARAÇÃO DE AULA — INGLÊS
 
+---
+
+## SEÇÃO 1 — METADADOS
+
 ```
-- Unidade: 7
-- Capítulo: People I look up to
-- Tema (em inglês): Admiration — people we look up to
+# PREPARAÇÃO DE AULA — INGLÊS
+- Unidade: 1
+- Capítulo: 7
+- Tema (em inglês): People I look up to
 - Estruturas gramaticais do capítulo:
-    Linking words (addition, contrast, condition, comparison)
-    Modal verbs (have to, must, may, might, should)
-    First Conditional
-    Second Conditional
+    · Linking words (addition, contrast, condition, comparison)
+    · Modal verbs (have to, must, may, might, should)
+    · First Conditional
+    · Second Conditional
 - Gênero textual: Campaign
 - Objectives (conforme o livro):
-    Read a campaign about women in science.
-    Identify and practice adjectives to describe people's personalities.
-    Listen to a girl expressing her admiration for scientist Rosalind Franklin.
-    Debate about people we admire the most.
-    Review linking words, modal verbs and First and Second conditionals.
-    Create a campaign about a social issue relevant to the school community.
+    · Read a campaign about women in science.
+    · Identify and practice adjectives to describe people's personalities.
+    · Listen to a girl expressing her admiration for scientist Rosalind Franklin.
+    · Debate about people we admire the most.
+    · Review linking words, modal verbs and First and Second conditionals.
+    · Create a campaign about a social issue that is relevant to the school community.
 ```
 
 ---
@@ -376,6 +381,21 @@ Ambos expressam possibilidade, mas *might* é MAIS incerto. *"It may rain"* = h�
 
 8. The Matilda Effect is a phenomenon in which women's work in science is `______` or credited to men.
 *(resposta: ignored / ignorado)*
+
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Besides | Conectivo de `______` → *addition* |
+| However | Conectivo de `______`, mais formal que *but* → *contrast* |
+| Unless | Equivale a `______` + negação → *if not* |
+| Must | Expressa `______` (regra) → *rule* |
+| Have to | Expressa `______` (obrigação prática) → *obligation* |
+| Might | Possibilidade `______` que *may* → *weaker* |
+| First Conditional — if-clause | Usa `______`, nunca *will* → *Simple Present* |
+| Second Conditional — to be | Usa `______` para todas as pessoas → *were* |
+| Look up to | Significa `______` → *admire* |
+| Matilda Effect | Fenômeno em que o trabalho de mulheres é `______` ou creditado a homens → *ignored* |
 
 ---
 

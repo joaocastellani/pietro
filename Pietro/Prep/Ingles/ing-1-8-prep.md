@@ -1,20 +1,25 @@
 # PREPARAÇÃO DE AULA — INGLÊS
 
+---
+
+## SEÇÃO 1 — METADADOS
+
 ```
-- Unidade: 8
-- Capítulo: Becoming money smart
-- Tema (em inglês): Managing finances — wants, needs and money skills
+# PREPARAÇÃO DE AULA — INGLÊS
+- Unidade: 1
+- Capítulo: 8
+- Tema (em inglês): Becoming money smart
 - Estruturas gramaticais do capítulo:
-    Modal verbs — must, have to, may, might, should, mustn't,
-    don't/doesn't have to
+    · Modal verbs — must, have to, may, might, should, mustn't,
+      don't/doesn't have to
 - Gênero textual: Opinion article
 - Objectives (conforme o livro):
-    Read an article about how to manage your money.
-    Identify and practice vocabulary related to money and finances.
-    Review and practice modal verbs: should, must, have to, may and might.
-    Listen to an instructional text about personal finance.
-    Discuss wants and needs.
-    Write an opinion article about the best way to manage money.
+    · Read an article about how to manage your money.
+    · Identify and practice vocabulary related to money and finances.
+    · Review and practice modal verbs: should, must, have to, may and might.
+    · Listen to an instructional text about personal finance.
+    · Discuss wants and needs.
+    · Write an opinion article about the best way to manage money.
 ```
 
 ---
@@ -311,6 +316,21 @@ Um erro comum na produção escrita é confundir opinion article com notícia (*
 
 8. *"She ______ pay an entrance fee. According to the rules, everyone must."* — Complete com o modal correto para **regra**.
 *(resposta: must / regra)*
+
+#### Bloco 4 — Tabela Síntese
+
+| Conceito | Lacuna — resposta esperada |
+|---|---|
+| Must | Expressa `______` (regra) → *rule* |
+| Have to | Expressa `______` (obrigação/necessidade prática) → *obligation or necessity* |
+| Mustn't | Expressa `______` → *prohibition* |
+| Don't have to | Expressa `______` → *unnecessary* |
+| Might | Possibilidade `______` que *may* → *weaker* |
+| Wants | Coisas que se deseja mas pode viver `______` → *without* |
+| Needs | Essenciais para a `______` → *survival* |
+| Save for a rainy day | Guardar dinheiro para `______` → *an emergency* |
+| Break the bank | Gastar `______` de uma vez ou ser muito caro → *all the money* |
+| BNPL | Sigla para `______` → *Buy Now, Pay Later* |
 
 ---
 
