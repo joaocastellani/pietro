@@ -1,5 +1,5 @@
 # INSTRUÇÕES VISUAIS — Sistema Professor Master
-# Versão 1.2 | 9º ano | Escola particular — Rio de Janeiro
+# Versão 1.3 | 9º ano | Escola particular — Rio de Janeiro
 # Aplicável a: Prompt_Professor_Master, Prompt_Professor_Simulado_Edros,
 #              Prompt_Professor_[Matéria] (todos os prompts específicos)
 # Patch 1.1: fecha lacuna de QA — gráfico/diagrama mencionado no texto
@@ -7,6 +7,9 @@
 # Patch 1.2: fecha lacuna simétrica em image_search — sem catálogo prévio
 #            no prep (diferente dos SVGs), a regra dependia só de
 #            percepção espontânea durante a narração (Seção 9.1 nova)
+# Patch 1.3: QA real (Marcela, fis-2-2) — cientista citado só em prosa
+#            corrida (sem bloco dedicado na Seção 3) não foi detectado;
+#            9.1 agora cobre explicitamente esse caso (item 3)
 
 ---
 
@@ -154,6 +157,15 @@ Para reduzir essa dependência:
    reconhecer o caso, nunca SE ele se aplica. Um conceito visual do
    mundo real que não se encaixa em nenhum exemplo dado ainda assim
    exige image_search.
+3. **Cientista/personagem histórico citado só de passagem, sem
+   bloco dedicado na Seção 3, ainda exige imagem.** A existência (ou
+   não) de uma Seção 3 no prep não é o critério — é só onde o prep
+   costuma concentrar essas citações quando o papel histórico é
+   central ao capítulo. Uma menção nominal dentro da prosa corrida do
+   Resumo (ex.: "Galileu já havia demonstrado que...") aciona a
+   mesma regra de retrato de cientista da Seção 9, mesmo sem Seção 3
+   nenhuma no prep. QA real: fis-2-2 (Marcela) mencionou Galileu em
+   uma frase do Resumo, sem Seção 3, e a imagem não foi buscada.
 
 ---
 
@@ -225,4 +237,4 @@ Quando houver conflito entre este arquivo e uma regra de prompt específico,
 **este arquivo tem precedência** para questões visuais.
 
 ---
-*Sistema Professor Master — instrucoes_visuais.md v1.2*
+*Sistema Professor Master — instrucoes_visuais.md v1.3*
