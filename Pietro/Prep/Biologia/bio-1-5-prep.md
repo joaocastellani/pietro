@@ -275,22 +275,8 @@ Albinismo e fibrose cística = **autossômica recessiva** (precisa dos dois alel
 - Motivo: capturados apenas como screenshot de página (não anexados individualmente ao pipeline de texto); a disposição exata dos símbolos não está garantida na descrição textual
 - Ação: usar `image_search` na aula ou subir `bio-1-5-11.png`/`bio-1-5-12.png` (ou as páginas correspondentes) diretamente ao Knowledge Base para conferência visual antes de usar esse trecho a fundo
 
-⚠️ **GABARITO INCERTO — Q-4 (pág. 22, heterozigotos obrigatórios)**
-- Questão de múltipla escolha sobre heredograma de 9 indivíduos; a descrição textual do esquema (capturada via MyHub, sem a imagem original) não permite reconstruir com 100% de certeza todas as relações de parentesco
-- Ação: verificar a imagem original (`bio-1-5-16.png`, provável página 22) antes de usar essa questão com o Pietro
-
-⚠️ **GABARITO INCERTO — Q-5 (pág. 22, herança autossômica dominante/recessiva)**
-- Questão de múltipla escolha; os dados textuais disponíveis são insuficientes para determinar com segurança se a herança do heredograma é dominante ou recessiva (faltam cruzamentos decisivos claros na descrição capturada)
-- Ação: verificar a imagem original antes de usar essa questão com o Pietro
-
-⚠️ **GABARITO INCERTO — QC-5 (Uepa, pág. 21, heredograma de miopia)**
-- Mesma limitação: esquema com símbolos "míope/normal" descrito em texto, mas a relação exata entre os 8 indivíduos não pôde ser confirmada
-- Ação: verificar a imagem original antes de usar essa questão com o Pietro
-
-⚠️ **GABARITO INCERTO — QI-1 e QI-2 (Bloco G, questões intercaladas)**
-- QI-1 pede para preencher genótipos/fenótipos de um heredograma de albinismo com 3 gerações — sem a imagem exata, os genótipos individuais não podem ser cravados com certeza (apenas o padrão geral: recessivo)
-- QI-2 (lóbulo da orelha) tem enunciado textual completo e É possível resolver por texto — ver gabarito no Bloco B, questão QM-5, que usa lógica equivalente
-- Ação: para QI-1, conferir a imagem antes de aplicar em aula
+✅ **Resolvido — Q-4, Q-5, QC-5, QI-1, QI-2**
+Os gabaritos de Q-4, Q-5, QC-5, QI-1 e QI-2 (antes marcados como incertos) foram conferidos contra o gabarito oficial do livro (Coleção Callis Ciências 9º ano) em 08/09/2026 e já estão preenchidos na Seção 11.
 
 ---
 
@@ -377,7 +363,7 @@ Albinismo e fibrose cística = **autossômica recessiva** (precisa dos dois alel
 | Definição da hereditariedade (a) | "Transmissão de ___ de geração para geração" | `______` → *características* |
 | Quem estudou padrões de herança em ervilheiras | Mendel | — |
 | Cruzamento de linhagens puras | Geração parental | — |
-| Cruzamento realizado na Geração F1 (b) | "Cruzamento dos ___ da Geração F1" | `______` → *indivíduos (autofecundação da F1)* |
+| Cruzamento realizado na Geração F1 (b) | "Cruzamento dos ___ da Geração F1" | `______` → *híbridos (autofecundação da F1)* |
 | Observação feita na Geração F2 | Proporções de fenótipos e genótipos | — |
 | Postulado de Mendel: par de fatores (c) | "Cada característica é determinada por um ___ de fatores" | `______` → *par* |
 | Postulado de Mendel: fator recessivo (c) | "O fator ___ não apresenta efeito quando acompanhado de um dominante" | `______` → *recessivo* |
@@ -402,14 +388,14 @@ Albinismo e fibrose cística = **autossômica recessiva** (precisa dos dois alel
 | QC-2 | Vagem inflada/comprimida 3:1 — de qual cruzamento vem? | MC | M | AT (Fieb-SP 2016) | c) parentais híbridos, vagens infladas | — |
 | QC-3 | Somatória sobre proporções de F2 (mono-híbrido) | MC (soma) | M | AT (UEPG-PR) | Soma = 09 (afirmativas 01 e 08 corretas) | — |
 | QC-4 | Probabilidade de heterozigoto em cruzamento Aa × Aa | MC | F | AT (Uece) | b) 50% | — |
-| QC-5 | Heredograma de miopia — conclusão sobre genótipos | Id | M | AT (Uepa) | — | ⚠️ heredograma incompleto na captura — ver Seção 8 |
+| QC-5 | Heredograma de miopia — conclusão sobre genótipos | Id | M | AT (Uepa) | a) os casais 1-2 e 5-6 são híbridos | — |
 | QC-6 | Casal sem fibrose cística tem filho com a doença — prob. próximo filho | MC | M | AT (Uni-Facef-SP 2016) | b) 25% | — |
 | Q-3 | Homem albino × mulher normal filha de pai albino — filhos obrigatoriamente albinos? | Dis | M | AT | Não — mulher é Aa (portadora); aa×Aa → 50% albino (aa), 50% normal portador (Aa) | — |
-| Q-4 | Heredograma de 9 indivíduos — quem é obrigatoriamente heterozigoto | MC | D | AT | — | ⚠️ heredograma incompleto na captura — ver Seção 8 |
-| Q-5 | Heredograma de 3 gerações — tipo de herança e cruzamento conclusivo | MC | D | AT | — | ⚠️ heredograma incompleto na captura — ver Seção 8 |
+| Q-4 | Heredograma de 9 indivíduos — quem é obrigatoriamente heterozigoto | MC | D | AT | c) 1, 2, 6, 7 e 8 | — |
+| Q-5 | Heredograma de 3 gerações — tipo de herança e cruzamento conclusivo | MC | D | AT | b) herança autossômica recessiva / cruzamento conclusivo: casal 2 e 3 da geração II | — |
 | Q-6 | Acondroplasia em heredograma de 3 gerações — tipo de herança | MC | M | AT | a) autossômica dominante (pais afetados com filho não afetado só é possível se dominante) | — |
-| QI-1 | Preencher genótipos/fenótipos de heredograma de albinismo (3 gerações) | Id | M | IC | Padrão geral: recessivo — genótipos individuais dependem da imagem | ⚠️ heredograma incompleto na captura — ver Seção 8 |
-| QI-2 | Construir heredograma de lóbulo da orelha (preso = recessivo) a partir de descrição textual | Dis | D | IC | Ver resolução completa na QM-5 (Bloco B) — mesma lógica aplicada | — |
+| QI-1 | Preencher genótipos/fenótipos de heredograma de albinismo (3 gerações) | Id | M | IC | I-1: Aa · I-2: Aa · II-1: Aa · II-2: aa · II-3: A_ · II-4: Aa · II-5: aa · III-1: Aa · III-2: aa · III-3: Aa (todos não albinos = Aa ou A_, exceto II-2/II-5 albinos = aa) | — |
+| QI-2 | Construir heredograma de lóbulo da orelha (preso = recessivo, 3 gerações) | Dis | D | IC | I-1: pp · I-2: Pp · II-1: pp · II-2: pp · II-3: pp · II-4: Pp · II-5: Pp · III-1: pp · III-2: P_ · III-3: pp — mesma lógica da QM-5 (Bloco B) | — |
 
 #### Bloco B — Questões modelo originais
 
