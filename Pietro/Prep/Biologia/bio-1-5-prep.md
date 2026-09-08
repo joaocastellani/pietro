@@ -270,10 +270,8 @@ Albinismo e fibrose cística = **autossômica recessiva** (precisa dos dois alel
 
 ## SEÇÃO 8 — ALERTAS DE INCONSISTÊNCIA
 
-⚠️ **VISUAL AUSENTE — Heredogramas das págs. 15–16**
-- Campo: heredograma de herança ligada ao sexo masculino e o heredograma-exemplo final (pág. 16), além do quadro-negro de símbolos (pág. 15)
-- Motivo: capturados apenas como screenshot de página (não anexados individualmente ao pipeline de texto); a disposição exata dos símbolos não está garantida na descrição textual
-- Ação: usar `image_search` na aula ou subir `bio-1-5-11.png`/`bio-1-5-12.png` (ou as páginas correspondentes) diretamente ao Knowledge Base para conferência visual antes de usar esse trecho a fundo
+✅ **Resolvido — Visuais das págs. 15–16**
+As imagens já estavam capturadas em `Pietro/Raw/Biologia/imagens/`: `bio-1-5-09.png` (pág. 15 — quadro-negro com os símbolos do heredograma) e `bio-1-5-10.png` (pág. 16 — heredograma de herança ligada ao sexo masculino + heredograma-exemplo de herança recessiva). Subir as duas ao Knowledge Base junto com este prep para reforço visual.
 
 ✅ **Resolvido — Q-4, Q-5, QC-5, QI-1, QI-2**
 Os gabaritos de Q-4, Q-5, QC-5, QI-1 e QI-2 (antes marcados como incertos) foram conferidos contra o gabarito oficial do livro (Coleção Callis Ciências 9º ano) em 08/09/2026 e já estão preenchidos na Seção 11.
