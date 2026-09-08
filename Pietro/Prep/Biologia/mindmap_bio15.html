@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>mindmap_bio15</title>
+<style>
+  :root {
+    --primary: #1a6e3a;
+    --bg: #0f1512;
+    --card: #16201a;
+    --text: #e8f0ea;
+    --muted: #9db3a6;
+    --branch1: #2e8b57;
+    --branch2: #3a7ca5;
+    --branch3: #b08900;
+    --branch4: #a5473a;
+    --branch5: #6a4c93;
+    --warn: #c0392b;
+    --fm: #1f6f5c;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    padding: 24px;
+  }
+  h1 {
+    font-size: 20px;
+    margin: 0 0 4px;
+    color: var(--primary);
+  }
+  .subtitle {
+    color: var(--muted);
+    font-size: 13px;
+    margin-bottom: 24px;
+  }
+  .root {
+    background: var(--primary);
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .branches {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 16px;
+  }
+  .branch {
+    background: var(--card);
+    border-left: 4px solid var(--branch1);
+    border-radius: 8px;
+    padding: 14px 16px;
+  }
+  .branch:nth-of-type(2) { border-left-color: var(--branch2); }
+  .branch:nth-of-type(3) { border-left-color: var(--branch3); }
+  .branch:nth-of-type(4) { border-left-color: var(--branch4); }
+  .branch:nth-of-type(5) { border-left-color: var(--branch5); }
+  .branch h2 {
+    font-size: 15px;
+    margin: 0 0 8px;
+  }
+  .branch ul {
+    margin: 0;
+    padding-left: 18px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .branch li { margin-bottom: 6px; }
+  .fm {
+    display: inline-block;
+    background: var(--fm);
+    color: #d6fff0;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-family: "SF Mono", Menlo, monospace;
+    font-size: 12px;
+  }
+  .warn {
+    display: block;
+    background: rgba(192, 57, 43, 0.15);
+    border: 1px solid var(--warn);
+    color: #ffb3a7;
+    padding: 6px 8px;
+    border-radius: 6px;
+    margin-top: 8px;
+    font-size: 12px;
+  }
+  .goldtips {
+    margin-top: 24px;
+    background: var(--card);
+    border-radius: 8px;
+    padding: 14px 16px;
+    border-left: 4px solid #d4a017;
+  }
+  .goldtips h2 { font-size: 15px; margin: 0 0 8px; color: #d4a017; }
+  .goldtips ul { margin: 0; padding-left: 18px; font-size: 13px; line-height: 1.6; }
+</style>
+</head>
+<body>
+  <h1>Biologia</h1>
+  <div class="subtitle">Capítulo 5 — Introdução à Genética mendeliana</div>
+  <div class="root">Genética mendeliana</div>
+
+  <div class="branches">
+    <div class="branch">
+      <h2>Hereditariedade e o experimento de Mendel</h2>
+      <ul>
+        <li>Ervilha-de-cheiro (<i>Pisum sativum</i>): fácil cultivo, ciclo curto, autofecundação</li>
+        <li>Anteras cortadas → transferência artificial de pólen (fecundação cruzada)</li>
+        <li>Geração P → F1 (100% dominante) → F2 (3:1)</li>
+        <span class="warn">Pegadinha: a característica recessiva não desaparece em F1 — só fica escondida</span>
+      </ul>
+    </div>
+
+    <div class="branch">
+      <h2>Primeira Lei de Mendel</h2>
+      <ul>
+        <li>Cada característica = par de fatores (alelos), um do pai e um da mãe</li>
+        <li>Alelos se separam na formação dos gametas (meiose)</li>
+        <li>Proporção F2 fenotípica: <span class="fm">3 dominante : 1 recessivo</span></li>
+        <li>Proporção F2 genotípica: <span class="fm">1 RR : 2 Rr : 1 rr</span></li>
+      </ul>
+    </div>
+
+    <div class="branch">
+      <h2>Genótipo, fenótipo e Punnett</h2>
+      <ul>
+        <li>Genótipo = conjunto de alelos · Fenótipo = característica expressa</li>
+        <li>Homozigoto (AA/aa) × Heterozigoto (Aa)</li>
+        <li>Quadro de Punnett: gametas de um pai em cima, do outro na lateral</li>
+        <span class="warn">Pegadinha: Rr e RR têm o mesmo fenótipo dominante</span>
+      </ul>
+    </div>
+
+    <div class="branch">
+      <h2>Heredogramas</h2>
+      <ul>
+        <li>Quadrado = homem · Círculo = mulher · Preenchido = afetado</li>
+        <li>Recessiva: "pula gerações" (pais normais, filho afetado)</li>
+        <li>Dominante: aparece em quase toda geração</li>
+        <li>Autossômica (afeta igual os sexos) × ligada ao sexo (X ou Y)</li>
+      </ul>
+    </div>
+
+    <div class="branch">
+      <h2>Exemplos aplicados</h2>
+      <ul>
+        <li>Albinismo — autossômica recessiva (aa)</li>
+        <li>Fibrose cística — autossômica recessiva (pais portadores Aa)</li>
+        <li>Acondroplasia — autossômica dominante (gene FGFR3)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="goldtips">
+    <h2>Dicas de ouro</h2>
+    <ul>
+      <li>Genótipo ≠ Fenótipo: Rr e RR parecem iguais por fora</li>
+      <li>Só o fenótipo recessivo tem genótipo garantido (rr)</li>
+      <li>Dois pais afetados com filho não afetado só é possível se a herança for dominante</li>
+      <li>Autossômica × ligada ao sexo: olhe se afeta os sexos igualmente</li>
+    </ul>
+  </div>
+</body>
+</html>
