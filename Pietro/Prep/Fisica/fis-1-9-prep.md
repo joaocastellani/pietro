@@ -1,3 +1,5 @@
+## SEÇÃO 0 — ÍNDICE DE DIAGRAMAS
+
 ## DIAGRAMAS DISPONÍVEIS — fis-1-9
 
 | Nome | Identificador na Seção 12 | Quando usar na Etapa 1 |
@@ -15,6 +17,8 @@
 Para cada diagrama: leia o SVG da Seção 12 e passe ao Visualizer. Tabelas da Seção 6 são apresentadas como markdown no chat.
 
 ---
+
+## SEÇÃO 1 — METADADOS
 
 # PREPARAÇÃO DE AULA — FÍSICA
 
@@ -246,6 +250,12 @@ A água se comporta ao contrário entre 0 °C e 4 °C: ao esfriar nessa faixa, e
 - Sugestão: image_search "comportamento anômalo da água densidade gráfico" ou gerar SVG na revisão
 - Ação: usar image_search na aula para complementar a Dica 6
 
+✅ **Validado — gabarito oficial (fis-1-9-gabarito.md)**
+Todo o Bloco A da Seção 11 foi conferido contra o gabarito oficial
+(Coleção Callis Ciências 9º ano) em 08/09/2026. Todos os QC-N e Q-1
+já batiam com o gabarito oficial; QI-2 teve dois arredondamentos
+ajustados (c: 80,55 °C · d: 288 K, valores exatos do livro).
+
 ---
 
 ## SEÇÃO 9 — SÍNTESE DO CAPÍTULO (para warm-up)
@@ -359,7 +369,7 @@ A água se comporta ao contrário entre 0 °C e 4 °C: ao esfriar nessa faixa, e
 | # | Enunciado resumido | Tipo | Dif. | Origem | Gabarito | Obs. |
 |---|---|---|---|---|---|---|
 | QI-1 | Definir calor, temperatura e sensação térmica | Dissertativa | F | IC | a) Transferência de energia entre corpos de temperaturas diferentes · b) Grau de agitação das partículas · c) Percepção subjetiva do calor ou frio pelo corpo humano | — |
-| QI-2 | Converter: 36 °C→°F · 42 °C→K · 177 °F→°C · 59 °F→K | Cálculo | F | IC | a) 96,8 °F · b) 315 K · c) 80,6 °C · d) 288,1 K | — |
+| QI-2 | Converter: 36 °C→°F · 42 °C→K · 177 °F→°C · 59 °F→K | Cálculo | F | IC | a) 96,8 °F · b) 315 K · c) 80,55 °C · d) 288 K | — |
 | QI-3 | Somatório sobre dilatação térmica (itens 01, 02, 04, 08, 16, 32) | Soma | M | IC | Corretos: 01 + 02 + 08 + 16 = **27** · Errados: 04 (líquidos e gases dilatam MAIS que sólidos) e 32 (linear é 1 dimensão — não superfície plana) | ⚠️ Item 04 é falso — contradiz o material |
 | QC-1 | Converter −196 °C para °F (azoto líquido — inseminação artificial) | Cálculo | M | AT/EBMSP-BA | θ_F = (−196 × 9/5) + 32 = −352,8 + 32 = **−320,8 °F** | — |
 | QC-2 | Converter 451 °F para °C (Fahrenheit 451 — papel em combustão) | MC | F | AT/UPF-RS 2023 | θ_C = (451 − 32) × 5/9 = 419 × 5/9 ≈ **232,8 °C** → **d) 232,7 °C** | — |
