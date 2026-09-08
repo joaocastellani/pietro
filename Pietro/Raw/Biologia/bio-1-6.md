@@ -509,15 +509,7 @@ Classificação: médio
 - Foto da embalagem do produto transgênico (pág. 40) · texto completo do rótulo e símbolo "T" · reforço visual da Q-7
 - Esquema de diferenciação de células-tronco (pág. 41) · relações entre célula-tronco e células especializadas · já reconstruído textualmente, mas ilustração original ajuda na visualização
 
-## NOTA SOBRE GABARITO OFICIAL
-Este capítulo (Biotecnologia) já apareceu num gabarito oficial (Coleção
-Callis Ciências 9º ano) visto anteriormente nesta sessão, mas a
-correspondência exata entre a numeração sequencial do livro
-("Atividades 1 a 10") e os identificadores Q-N/QC-N capturados aqui
-não pôde ser confirmada com segurança (o gabarito usa uma numeração
-única corrida para todo o capítulo, que não bate 1:1 com a
-numeração por página/lote usada nesta captura). Recomenda-se refazer
-a captura do gabarito oficial deste capítulo especificamente
-(screenshot da página de gabarito do Capítulo 6) seguindo o processo
-formalizado em `CLAUDE.md`, gerando `bio-1-6-gabarito.md`, antes de
-confiar cegamente em gabaritos inferidos na Preparação.
+## GABARITO OFICIAL
+Gabarito oficial (Coleção Callis Ciências 9º ano) capturado e mapeado
+em `Pietro/Raw/Biologia/bio-1-6-gabarito.md` — todos os 9 Q-N e 5 QC-N
+deste capítulo têm gabarito oficial confirmado, sem itens incertos.
