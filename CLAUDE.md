@@ -175,6 +175,32 @@ Exemplo: `his-1-7-trans.md` → transcrição consolidada de História, Unidade 
 
 ---
 
+## Convenção de nomenclatura do gabarito oficial (opcional)
+
+Quando o gabarito oficial do livro didático está disponível (a
+editora costuma publicar um PDF/scan à parte), ele pode ser
+capturado e usado para conferir e corrigir os gabaritos que a
+Preparação infere a partir do próprio conteúdo capturado. Processo
+agnóstico de matéria — mesma lógica para qualquer uma, só muda a
+pasta de destino.
+
+| Arquivo | Padrão | Destino |
+|---------|--------|---------|
+| Screenshots do gabarito oficial | `[mat]-[u]-[c]-gabarito-NN.png` | `Pietro/Raw/[Materia]/imagens/` |
+| Gabarito extraído (texto) | `[mat]-[u]-[c]-gabarito.md` | `Pietro/Raw/[Materia]/` |
+
+Exemplo: `bio-1-5-gabarito.md` → gabarito oficial de Biologia,
+Unidade 1, Capítulo 5.
+
+O gabarito oficial costuma vir numa página que cobre vários
+capítulos ao mesmo tempo (ex.: uma página de gabarito cobrindo os
+Capítulos 5, 6 e 7) — extrair para o `.md` só o que pertence ao
+capítulo em questão, usando os mesmos identificadores de questão
+(`Q-N`, `QC-N`, `QI-N`) do `[mat]-[u]-[c].md`/`[mat]-[u]-[c]-prep.md`
+correspondente.
+
+---
+
 ## Estrutura obrigatória de cada prep.md
 
 Todo arquivo `*-prep.md` deve conter estas seções na ordem:
@@ -199,6 +225,13 @@ A SEÇÃO 1 também inclui o bloco **"Glossário do Capítulo"**
 (termos e definições, gerado uma vez na Preparação). O Professor
 lê esse bloco direto na Etapa 3A da aula, sem reprocessar — preps
 antigos sem o bloco caem no fallback de extração ao vivo.
+
+A SEÇÃO 11 (Bloco A — catálogo de questões) prioriza o gabarito
+oficial quando existe `[mat]-[u]-[c]-gabarito.md` em
+`Raw/[Materia]/` — usar esse arquivo como fonte de verdade em vez
+de inferir a partir do conteúdo capturado. Sem gabarito oficial,
+mantém-se a inferência normal, marcando ⚠️ os casos duvidosos na
+Seção 8 (ver "Captura do Gabarito Oficial" abaixo).
 
 Regras dos SVGs (Seção 12):
 - `width="100%"` e `viewBox="0 0 680 H"` obrigatórios
@@ -290,6 +323,64 @@ Síntese: o último screenshot continua sendo salvo como
 subido diretamente ao KB como imagem — não passa pela transcrição.
 ```
 
+### Automação da Captura (skill captura-myhub)
+
+Para automatizar o upload de lotes de screenshots num agente do
+MyHub.IA, aguardar a geração e montar o `.md` final em `Raw/`, use
+`/captura-myhub <slug>` (ex.: `/captura-myhub bio-1-5`). Procedimento
+completo em `.claude/skills/captura-myhub/SKILL.md` — requer a
+extensão Claude in Chrome conectada e o agente `Captura-[Materia]`
+já criado no MyHub para a matéria em questão.
+
+---
+
+### Captura do Gabarito Oficial (opcional)
+
+Passo extra, independente do Pipeline A/B, para conferir e
+corrigir os gabaritos que a Preparação infere a partir do próprio
+conteúdo capturado — sobretudo questões de heredograma, esquemas ou
+qualquer questão cujo gabarito não dá pra deduzir só com o texto.
+Agnóstico de matéria: mesmo processo para qualquer capítulo.
+
+```
+1. CAPTURA      — Joao tira screenshot(s) da(s) página(s) de
+                  gabarito oficial do livro que cobrem o capítulo
+                  Screenshots salvos em: ~/Pictures/Screenshots/
+
+2. EXTRAÇÃO     — Pedir ao Claude Code para capturar o gabarito de
+                  [mat]-[u]-[c]:
+                  - Move os screenshots para
+                    Pietro/Raw/[Materia]/imagens/[mat]-[u]-[c]-gabarito-NN.png
+                  - Lê as imagens e extrai só as respostas do
+                    capítulo em questão (a página do gabarito pode
+                    cobrir capítulos vizinhos — filtrar)
+                  - Gera Pietro/Raw/[Materia]/[mat]-[u]-[c]-gabarito.md
+                    com o gabarito de cada questão, usando os mesmos
+                    identificadores (Q-N, QC-N, QI-N) do
+                    [mat]-[u]-[c].md / [mat]-[u]-[c]-prep.md
+                  - Deleta os screenshots originais de
+                    ~/Pictures/Screenshots/
+
+3. CORREÇÃO     — Se o prep já existe: cruzar o gabarito oficial
+                  com a Seção 11 (Bloco A), corrigir gabaritos
+                  inconsistentes e remover alertas de "gabarito
+                  incerto" já resolvidos na Seção 8
+                  Se o prep ainda não existe: a Preparação deve ler
+                  o [mat]-[u]-[c]-gabarito.md (Raw ou KB) e usá-lo
+                  como fonte de verdade em vez de inferir
+
+4. COMMIT       — Commitar screenshots + [mat]-[u]-[c]-gabarito.md
+                  juntos (feat(raw): adiciona gabarito [mat]-[u]-[c]);
+                  se corrigiu um prep existente, commitar a correção
+                  do prep separadamente (fix(mat): corrige prep ...)
+```
+
+Pode ser pedido a qualquer momento — antes da Preparação, se o
+gabarito já estiver em mãos, ou depois, como correção (caso mais
+comum até agora).
+
+---
+
 ### Pipeline C — PDF de texto nativo direto (Marcela)
 
 Ver `Marcela/CLAUDE.md`. Usado quando o material já chega como PDF
@@ -342,6 +433,15 @@ Me diz quais captures ainda não têm prep gerado.
 ```
 Compara os arquivos em Pietro/Transcricoes/ com os em Pietro/Prep/.
 Me diz quais transcrições ainda não têm prep gerado.
+```
+
+**Capturar gabarito oficial de um capítulo:**
+```
+Tirei screenshot do gabarito oficial de bio-1-5 (Capítulo 5).
+Captura o gabarito: organiza os screenshots, extrai as respostas
+desse capítulo e salva como Pietro/Raw/Biologia/bio-1-5-gabarito.md.
+Depois cruza com o bio-1-5-prep.md e corrige o que estiver
+diferente.
 ```
 
 **Contar cobertura por matéria:**
@@ -413,6 +513,7 @@ Convenção de mensagens:
 | Atualização de prompt    | `feat(prompts): atualiza Prompt_X`               |
 | Organização de arquivos  | `chore: move/renomeia arquivos`                  |
 | Novas imagens Raw        | `feat(raw): captura [mat]-[u]-[c]`               |
+| Gabarito oficial (raw)   | `feat(raw): adiciona gabarito [mat]-[u]-[c]`     |
 | Captura Edros (raw)      | `feat(edros): captura edros-[ano]-[Xav]`         |
 | Banco Edros              | `feat(edros): adiciona banco_edros_[ano]_[Xav]`  |
 | Bancos de revisão Edros  | `feat(edros): adiciona bancos de revisão [X]ª av`|
