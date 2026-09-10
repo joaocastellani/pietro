@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>mindmap_bio16</title>
+<style>
+  :root {
+    --primary: #1a6e3a;
+    --bg: #0f1512;
+    --card: #16201a;
+    --text: #e8f0ea;
+    --muted: #9db3a6;
+    --branch1: #2e8b57;
+    --branch2: #3a7ca5;
+    --branch3: #b08900;
+    --branch4: #a5473a;
+    --branch5: #6a4c93;
+    --warn: #c0392b;
+    --fm: #1f6f5c;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    padding: 24px;
+  }
+  h1 { font-size: 20px; margin: 0 0 4px; color: var(--primary); }
+  .subtitle { color: var(--muted); font-size: 13px; margin-bottom: 24px; }
+  .root {
+    background: var(--primary);
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .branches {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 16px;
+  }
+  .branch {
+    background: var(--card);
+    border-left: 4px solid var(--branch1);
+    border-radius: 8px;
+    padding: 14px 16px;
+  }
+  .branch:nth-of-type(2) { border-left-color: var(--branch2); }
+  .branch:nth-of-type(3) { border-left-color: var(--branch3); }
+  .branch:nth-of-type(4) { border-left-color: var(--branch4); }
+  .branch:nth-of-type(5) { border-left-color: var(--branch5); }
+  .branch h2 { font-size: 15px; margin: 0 0 8px; }
+  .branch ul { margin: 0; padding-left: 18px; font-size: 13px; line-height: 1.5; }
+  .branch li { margin-bottom: 6px; }
+  .fm {
+    display: inline-block;
+    background: var(--fm);
+    color: #d6fff0;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-family: "SF Mono", Menlo, monospace;
+    font-size: 12px;
+  }
+  .warn {
+    display: block;
+    background: rgba(192, 57, 43, 0.15);
+    border: 1px solid var(--warn);
+    color: #ffb3a7;
+    padding: 6px 8px;
+    border-radius: 6px;
+    margin-top: 8px;
+    font-size: 12px;
+  }
+  .goldtips {
+    margin-top: 24px;
+    background: var(--card);
+    border-radius: 8px;
+    padding: 14px 16px;
+    border-left: 4px solid #d4a017;
+  }
+  .goldtips h2 { font-size: 15px; margin: 0 0 8px; color: #d4a017; }
+  .goldtips ul { margin: 0; padding-left: 18px; font-size: 13px; line-height: 1.6; }
+</style>
+</head>
+<body>
+  <h1>Biologia</h1>
+  <div class="subtitle">Capítulo 6 — Biotecnologia</div>
+  <div class="root">Biotecnologia</div>
+
+  <div class="branches">
+    <div class="branch">
+      <h2>O que é e suas "cores"</h2>
+      <ul>
+        <li>ONU: aplicação tecnológica que usa seres vivos ou derivados</li>
+        <li>Termo criado em 1917 por Karl Ereky; prática vem da Antiguidade</li>
+        <li>Vermelha (saúde) · Verde (agricultura) · Azul (mar) · Branca (indústria)</li>
+      </ul>
+    </div>
+
+    <div class="branch">
+      <h2>Transgênicos</h2>
+      <ul>
+        <li>Recebe e expressa gene de outra espécie</li>
+        <li>Técnica: <span class="fm">DNA recombinante (DNAr)</span></li>
+        <li>Inserção precisa ser no embrião — passa aos gametas</li>
+        <li>Rotulagem: símbolo "T" acima de 1% de conteúdo transgênico</li>
+        <span class="warn">Pegadinha: não dá para "transformar" um adulto em transgênico</span>
+      </ul>
+    </div>
+
+    <div class="branch">
+      <h2>Células-tronco</h2>
+      <ul>
+        <li>Totipotente (mórula, ≤32c) → qualquer célula + anexos</li>
+        <li>Pluripotente (blástula, ≤64c) → qualquer célula, exceto anexos</li>
+        <li>Multipotente / Unipotente → tecidos adultos, potencial menor</li>
+        <li>IPS: célula adulta "reprogramada" de volta a célula-tronco</li>
+      </ul>
+    </div>
+
+    <div class="branch">
+      <h2>Clonagem</h2>
+      <ul>
+        <li>Técnica: transplante de núcleo</li>
+        <li>Reprodutiva: embrião implantado → novo organismo (ex.: Dolly, 1996)</li>
+        <li>Terapêutica: embrião não implantado → só fornece células-tronco</li>
+        <span class="warn">Pegadinha: o clone herda o material de quem doou o núcleo, não o óvulo</span>
+      </ul>
+    </div>
+
+    <div class="branch">
+      <h2>Cientistas</h2>
+      <ul>
+        <li>Karl Ereky (1917) — cria o termo</li>
+        <li>Louis Pasteur — microbiologia/fermentação</li>
+        <li>John Gurdon (anos 1960) — clonagem em sapos</li>
+        <li>Boyer &amp; Cohen (1973) — 1ª transgenia</li>
+        <li>Instituto Roslin (1996) — ovelha Dolly</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="goldtips">
+    <h2>Dicas de ouro</h2>
+    <ul>
+      <li>Totipotente ≠ Pluripotente: só a totipotente forma anexos embrionários</li>
+      <li>Reprodutiva implanta o embrião; terapêutica nunca implanta</li>
+      <li>DNA é universal — por isso bactéria produz insulina humana</li>
+      <li>Clone herda material genético de quem doou o núcleo</li>
+    </ul>
+  </div>
+</body>
+</html>
