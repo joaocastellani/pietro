@@ -1,6 +1,9 @@
 .venv/
 Pietro/temp/
 
+# Config local do Claude Code (específica da máquina/sessão)
+.claude/settings.local.json
+
 # Imagens e screenshots (binários pesados — regeneráveis)
 Pietro/Raw/**/*.png
 Pietro/Raw/**/*.jpg
